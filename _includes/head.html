@@ -35,7 +35,7 @@
 	{% if page.image %}
 	<meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
 	{% else %}
-	<meta property="twitter:image:src" content="{{ "/img/terminalroot.com.br.png" | prepend: site.baseurl | prepend: site.url }}">
+	<meta property="twitter:image:src" content="{{ "/assets/img/terminalroot.com.br.jpg" | prepend: site.baseurl | prepend: site.url }}">
 	{% endif %}
 
 	<!-- Social: Facebook / Open Graph -->
@@ -44,7 +44,7 @@
 	{% if page.image %}
 	<meta property="og:image" content="{{ site.url }}{{page.image }}">
 	{% else %}
-	<meta property="og:image" content="{{ "/img/terminalroot.com.br.png" | prepend: site.baseurl | prepend: site.url }}">
+	<meta property="og:image" content="{{ "/assets/img/terminalroot.com.br.jpg" | prepend: site.baseurl | prepend: site.url }}">
 	{% endif %}
 	<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta property="og:site_name" content="{{ site.title }}">
