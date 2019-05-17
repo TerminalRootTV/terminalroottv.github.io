@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Código de Linguagem C para Aprendizado</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Código de Linguagem C para Aprendizado">
+	<meta name="twitter:description" content="O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/c/c.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2017/01/codigo-de-linguagem-c-para-aprendizado.html">
+	<meta property="og:title" content="Código de Linguagem C para Aprendizado">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/c/c.jpg">
+	
+	<meta property="og:description" content="O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2017/01/codigo-de-linguagem-c-para-aprendizado.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Código de Linguagem C para Aprendizado</h2>
+    <h4>O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2017-01-28T19:58:07-02:00" itemprop="datePublished">Jan 28, 2017</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/c/c.jpg" alt="Linguagem C para Aprendizado" /></p>
+
+<p>O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C. Nesse caso eu nomeei de <strong>aprender-c.c</strong> . Para compilá-lo use o comando <strong>gcc aprender-c.c -o aprender-c</strong> ou usando o <strong>make aprender-c</strong> e terá a saída assim <strong>cc     aprender-c.c   -o aprender-c</strong> se não houver erro.</p>
+
+<h4 id="segue-o-código-abaixo">Segue o código abaixo</h4>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+
+	<span class="kt">char</span> <span class="n">str1</span><span class="p">[]</span><span class="o">=</span><span class="s">"isso"</span><span class="p">,</span><span class="n">str2</span><span class="p">[]</span><span class="o">=</span><span class="s">" com aquilo"</span><span class="p">;</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Surgiu na década de 70, criada por Dennis Ritchie.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] C é uma linguagem ESTRUTURADA, ou seja, não há orientação a objetos.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] C é Case Sensitive.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] 1° define o cabeçalho/bibliotecas.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] 2° define as variáveis globais, se houverem.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] 3° define as funções extras, se houverem.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] 3° define as funções extras, se houverem.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] 4° define a função principal do programa.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Olá mundo em C, o básico:</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">#include &lt;stdio.h&gt;</span><span class="se">\n\t</span><span class="s">int main(){</span><span class="se">\n\t</span><span class="s">printf(</span><span class="se">\"</span><span class="s">Terminal Root</span><span class="se">\\</span><span class="s">n</span><span class="se">\"</span><span class="s">);</span><span class="se">\n\t</span><span class="s">return 0;</span><span class="se">\n\t</span><span class="s">}</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] No cabeçalho incluímos a biblioteca stdio.h entrada e saída I</span><span class="se">\\</span><span class="s">0 </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] A função main() é a função principal, e é do tipo inteira: int </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Para imprimir usamos: printf(</span><span class="se">\"</span><span class="s">CONTEÚDO</span><span class="se">\"</span><span class="s">);</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Para escapar as aspas/barras, usamos uma barra </span><span class="se">\\</span><span class="s"> </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] O ponto e vírgula no final é necessário para sintaxe, o </span><span class="se">\\</span><span class="s">n , pula uma linha no prompt</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] return 0; Serve para informar ao compilador que ocorreu tudo certo com a função main(). </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] As funções ficam entre chaves {} </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Salve o arquivo com o nome desejado, ex.: arquivo.c</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Depois compile-o com o comando: gcc arquivo.c -o arquivo</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] E por fim, rode o aplicativo: ./arquivo</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Comentários, podem ser de 2 formas: // barra barra ou /* barra asterisco, asterisco barra, para blocos de comentários */</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Se houver um erro , o C informa a linha, experimente colocar uma barra sem escapar</span><span class="se">\n\t</span><span class="s">aparecerá mais ou menos isso, referente a linha 25: </span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">aprender-c.c:25:9: warning: unknown escape sequence: '040'</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Tipos de Dados:</span><span class="se">\n\n\t</span><span class="s">• A linguagem C possuí 5 (cinco) tipos básicos de dados : char , int , float , void e double.</span><span class="se">\n\t</span><span class="s">• Para cada tipo de dado existem 			modificadores de tipo, estes são 4 (quatro) : signed , unsigned, long e short.</span><span class="se">\n\t</span><span class="s">• Lembre - se, para o float nenhum modificado pode ser aplicado ; 			assim como para o double podemos aplicar apenas o long.</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Declarar Variável: tipo_da_variavel nome_da_variavel = valor_inicial_da_variavel;</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Declarar várias Variáveis do mesmo tipo: tipo_da_variavel nome_var1 = valor1, nome_var2 = valor2;</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	
+	<span class="kt">int</span> <span class="n">num1</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">num2</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+	<span class="kt">float</span> <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span><span class="p">;</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"Os  valores sao : % i, %i e %f"</span><span class="p">,</span>  <span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">,</span> <span class="n">result</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">[+] Constantes de barra invertida</span><span class="se">\n\n\\</span><span class="s">b Retrocesso (back) </span><span class="se">\n\\</span><span class="s">f Alimentação de formulário (form feed) </span><span class="se">\n\\</span><span class="s">n Nova linha (new line) </span><span class="se">\n\\</span><span class="s">t 				Tabulação horizontal (tab) </span><span class="se">\n\\\"</span><span class="s"> Aspas dupla </span><span class="se">\n\\\'</span><span class="s"> Aspas simples </span><span class="se">\n\\</span><span class="s">0 Nulo (0 em decimal)  – Terminador </span><span class="se">\n\\\\</span><span class="s"> Barra invertida </span><span class="se">\n\\</span><span class="s">v Tabulação 				vertical </span><span class="se">\n\\</span><span class="s">a Sinal sonoro (beep) </span><span class="se">\n\\</span><span class="s">N Constante octal (N é o valor da constante) </span><span class="se">\n\\</span><span class="s">xN Constante hexadecimal (N é o valor da constante)</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Criando uma simples função de soma em C:</span><span class="se">\n\n</span><span class="s">#include &lt;stdio.h&gt;</span><span class="se">\n\t\n\t</span><span class="s">int soma(int x,int y){</span><span class="se">\n\t</span><span class="s"> return (x+y);</span><span class="se">\n\t</span><span class="s">}</span><span class="se">\n\t\n\t</span><span class="s">int main(){</span><span class="se">\n\t</span><span class="s"> int saida;</span><span class="se">\n\t</span><span class="s"> saida=soma(4,8);</span><span class="se">\n\t</span><span class="s"> printf (</span><span class="se">\"</span><span class="s">O resultado da soma e: %%d </span><span class="se">\"</span><span class="s">,saida);</span><span class="se">\n\t</span><span class="s"> return(0);</span><span class="se">\n\t</span><span class="s">}</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Perceba que escapamos o sinal de porcentagem com dois sinais, mas para formatar deve usar 1 só</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Tabela de Formatos para o printf:</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"Formato</span><span class="se">\t\t\t</span><span class="s">Saida</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"c</span><span class="se">\t\t\t</span><span class="s">char</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"d</span><span class="se">\t\t\t</span><span class="s">signed int</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"i</span><span class="se">\t\t\t</span><span class="s">igual ao d</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"e</span><span class="se">\t\t\t</span><span class="s">Notação Cientifica usando o caracter e</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"E</span><span class="se">\t\t\t</span><span class="s">Notação Cientifica usando o caracter E</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"f</span><span class="se">\t\t\t</span><span class="s">float</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"g</span><span class="se">\t\t\t</span><span class="s">usa o menor numero possivel de f e e</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"G</span><span class="se">\t\t\t</span><span class="s">usa o menor numero possivel de f e E</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"o</span><span class="se">\t\t\t</span><span class="s">unsigned octal</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"s</span><span class="se">\t\t\t</span><span class="s">string</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"u</span><span class="se">\t\t\t</span><span class="s">unsigned int</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"x</span><span class="se">\t\t\t</span><span class="s">unsigned hexa</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"X</span><span class="se">\t\t\t</span><span class="s">unsigned hexa com letras maiusculas</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"p</span><span class="se">\t\t\t</span><span class="s">ponteiro de endereço</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"n</span><span class="se">\t\t\t</span><span class="s">Nada impresso.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"%%</span><span class="se">\t\t\t</span><span class="s">%% seguido de outro %% irá printar %% na saida</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Concatenando strings, ou seja, do tipo char:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">Colocaremos uma biblioteca a mais no cabeçalho: #include &lt;string.h&gt;</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">Vamos declarar no início duas strings do tipo char como matrizes: char str1[]=</span><span class="se">\"</span><span class="s">isso</span><span class="se">\"</span><span class="s">,str2[]=</span><span class="se">\"</span><span class="s"> com aquilo</span><span class="se">\"</span><span class="s">;</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t</span><span class="s">E vamos usar a função: strcat(), e passar o %%s no printf </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\t\v</span><span class="s">Eu vou juntar %s"</span><span class="p">,</span> <span class="n">strcat</span><span class="p">(</span><span class="n">str1</span><span class="p">,</span><span class="n">str2</span><span class="p">));</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Loop for:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	
+	<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+ 	<span class="kt">char</span> <span class="n">letra</span><span class="p">;</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"sequência de n°s de 1 a 10</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+ 	<span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;=</span><span class="mi">10</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+ 	<span class="n">printf</span><span class="p">(</span><span class="s">"%d - "</span><span class="p">,</span><span class="n">i</span><span class="p">);</span>
+ 	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">sequência de letras de A a Z</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+ 	<span class="k">for</span><span class="p">(</span><span class="n">letra</span> <span class="o">=</span> <span class="sc">'A'</span><span class="p">;</span><span class="n">letra</span><span class="o">&lt;=</span><span class="sc">'Z'</span><span class="p">;</span><span class="n">letra</span><span class="o">++</span><span class="p">)</span>
+ 	<span class="n">printf</span><span class="p">(</span><span class="s">"%c - "</span><span class="p">,</span><span class="n">letra</span><span class="p">);</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Loop while:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	
+	<span class="kt">int</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+ 
+ 	<span class="k">while</span><span class="p">(</span><span class="n">i</span><span class="o">&lt;=</span><span class="mi">4</span><span class="p">){</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">z</span><span class="p">);</span>
+		<span class="n">z</span><span class="o">++</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="c1">//Enquanto vc não digitar a letra 'p' e pressionar ENTER o loop não para.</span>
+	<span class="kt">char</span> <span class="n">Ch</span><span class="p">;</span> 
+	<span class="n">Ch</span><span class="o">=</span><span class="sc">'\0'</span><span class="p">;</span>
+	<span class="k">while</span><span class="p">(</span><span class="n">Ch</span> <span class="o">!=</span> <span class="sc">'p'</span><span class="p">){</span>
+		<span class="n">scanf</span><span class="p">(</span><span class="s">"%c"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">Ch</span><span class="p">);</span>
+	<span class="p">}</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] IF, ELSE e ELSE IF:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	
+	<span class="kt">int</span> <span class="n">num</span><span class="p">;</span> <span class="c1">// definimos a variável num como inteira, a saída será %d</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"Digite um número: </span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="c1">// imprimimos na tela a frase e pulamos uma linha com \n</span>
+	<span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">num</span><span class="p">);</span> <span class="c1">// Lêmos o número digitado e armazenamos na variável num</span>
+	<span class="k">if</span><span class="p">(</span><span class="n">num</span><span class="o">==</span><span class="mi">0</span><span class="p">){</span> <span class="cm">/* começamos a condição se o número for ZERO */</span>
+	 <span class="n">printf</span><span class="p">(</span><span class="s">"O número é NULO</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="c1">// executamos o comando, nesse somente imprimimos uma mensagem na tela e pulamos um linha</span>
+	<span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">num</span><span class="o">&lt;</span><span class="mi">8</span><span class="p">){</span>
+	 <span class="n">printf</span><span class="p">(</span><span class="s">"O número é Menor que 8</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="c1">// proxima condição</span>
+	<span class="p">}</span><span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">num</span><span class="o">&lt;</span><span class="mi">11</span><span class="p">){</span>
+	 <span class="n">printf</span><span class="p">(</span><span class="s">"O número é maior que 7</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="c1">// mais uma condição </span>
+	<span class="p">}</span><span class="k">else</span><span class="p">{</span>
+	 <span class="n">printf</span><span class="p">(</span><span class="s">"O número está fora das condições criadas</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="c1">// então finalizamos o bloco</span>
+	<span class="p">}</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"[+] Funções:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"A função soma está abaixo da main() e retornará os valores abaixo setados(9, 2) a soma deles:</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="c1">//definimos a variável saida</span>
+	<span class="kt">int</span> <span class="n">saida</span><span class="p">;</span>
+	<span class="c1">//setamos os valores que queremos</span>
+	<span class="n">saida</span><span class="o">=</span><span class="n">soma</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
+	<span class="c1">//imprimimos na tela o resultado</span>
+	<span class="n">printf</span> <span class="p">(</span><span class="s">"O resultado da soma e: %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="n">saida</span><span class="p">);</span>
+	
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="n">soma</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span><span class="kt">int</span> <span class="n">y</span><span class="p">)</span>
+<span class="p">{</span>
+ <span class="c1">//efetuamos a operação</span>
+ <span class="k">return</span> <span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

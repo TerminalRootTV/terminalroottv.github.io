@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Script Introdutório em Shell</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Script Introdutório em Shell">
+	<meta name="twitter:description" content="O Script possui todos os ensinamentos básicos de Shell Script">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/shell-script/intro-shell.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2012/11/script-introdutorio-em-shell.html">
+	<meta property="og:title" content="Script Introdutório em Shell">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/shell-script/intro-shell.jpg">
+	
+	<meta property="og:description" content="O Script possui todos os ensinamentos básicos de Shell Script">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2012/11/script-introdutorio-em-shell.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Script Introdutório em Shell</h2>
+    <h4>O Script possui todos os ensinamentos básicos de Shell Script</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2012-11-20T22:15:00-02:00" itemprop="datePublished">Nov 20, 2012</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/shell-script/intro-shell.jpg" alt="Script Introdutório em Shell" title="Script Introdutório em Shell" /></p>
+
+<blockquote>
+  <p>Olá galera, vou mostrar um script que eu montei. O script está abaixo e ainda a execução de resposta do script na imagem acima, copie(leia os comentários) e cole num arquivo em branco, salve como aprender ou aprender.sh ou ainda no nome que você preferir, com ou sem o .sh que o shell interpretará em ambas as formas, só lembrando que antes deve dar permissão de execução.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">chmod</span> +x aprender</code></pre></figure>
+
+<h1 id="script-aprendersh">Script aprender.sh</h1>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+<span class="c"># shell - script que mostra informações básicas sobre Shell Script</span>
+<span class="c"># Autor: Marcos da B. M. Oliveira</span>
+<span class="c">#Basta iniciar a linha com um "#" e escrever o texto do comentário em seguida. Estas linhas</span>
+<span class="c">#são ignoradas pelo shell durante a execução.</span>
+<span class="c">#Também é possível colocar comentários no meio da linha # como este</span>
+<span class="c">#Dentro do script, algumas variáveis especiais são definidas automaticamente, em especial,</span>
+<span class="c">#"$1" contém o primeiro argumento recebido na linha de comando, "$2" o segundo, e assim por diante.</span>
+<span class="c"># o $# mostra a quantidade de argumentos e o $* mostra todos os argumentos passados</span>
+<span class="c">#O acesso é direto, basta referenciar a variável que o valor já estará definido. Assim é</span>
+<span class="c">#possível criar scripts que tenham opções como --help, --version e outras.</span>
+<span class="c">#Para usar o echo, basta colocar o texto entre "aspas". Se nenhum texto for colocado, uma linha em branco é mostrada.</span>
+<span class="nb">echo</span> <span class="s2">"ESSE É UM SCRIPT EM SHELL </span><span class="nv">$0</span><span class="s2"> QUE MOSTRA A MAIORIA DOS ITENS BÁSICOS E EXPLICA-OS COM OU NÃO </span><span class="nv">$1</span><span class="s2"> </span><span class="nv">$2</span><span class="s2"> ARGUMENTOS."</span>
+<span class="nb">echo</span> <span class="s2">"ELE TEVE </span><span class="nv">$# </span><span class="s2">ARGUMENTO(S), QUE SÃO: </span><span class="nv">$*</span><span class="s2">"</span>
+<span class="nb">echo</span>
+<span class="c">#• O conteúdo da variável é acessado colocando-se um cifrão "$" na frente</span>
+<span class="c">#• O comando test é útil para fazer vários tipos de verificações em textos e arquivos</span>
+<span class="c">#• O operador lógico "&amp;&amp;", só executa o segundo comando caso o primeiro tenha sido OK. O operador inverso é o "||"</span>
+<span class="c"># O -n mantém o read na mesma linha</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"SERÁ FEITAS ALGUMAS PERGUNTAS, DESEJA CONTINUAR?[s/n]: "</span>
+<span class="nb">read </span>RESPOSTA
+<span class="nb">test</span> <span class="s2">"</span><span class="nv">$RESPOSTA</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"n"</span> <span class="o">&amp;&amp;</span> <span class="nb">exit</span>
+<span class="c">#O comando "read" leu o que o usuário digitou e guardou na variável RESPOSTA. Logo em seguida, o comando "test" verificou se </span>
+<span class="c">#o conteúdo dessa variável era "n". </span>
+<span class="c">#Se afirmativo, o comando "exit" foi chamado e o script foi finalizado. Nessa linha há vários detalhes importantes:</span>
+<span class="c">#            Testes em variáveis                     Testes em arquivos</span>
+<span class="c"># -lt Núm. é menor que (LessThan)      -d É um diretório</span>
+<span class="c">#-gt Núm. é maior que (GreaterThan)     -f É um arquivo normal</span>
+<span class="c"># -le Núm. é menor igual (LessEqual)    -r O arquivo tem permissão de leitura</span>
+<span class="c">#-ge Núm. é maior igual (GreaterEqual)  -s O tamanho do arquivo é maior que zero</span>
+<span class="c">#-eq Núm. é igual (EQual)              -w O arquivo tem permissão de escrita</span>
+<span class="c">#-ne Núm. é diferente (NotEqual)       -nt O arquivo é mais recente (NewerThan)</span>
+<span class="c">#  =  String é igual                   -ot O arquivo é mais antigo (OlderThan)</span>
+<span class="c"># != String é diferente                -ef O arquivo é o mesmo (EqualFile)</span>
+<span class="c"># -n String é não nula                 -a E lógico (AND)</span>
+<span class="c"># para variáveis use apenas letras minúsculas e evite acentos, símbolos e espaço em branco</span>
+<span class="c">#Para ver quais as variáveis que o shell já define por padrão, use o comando "env"</span>
+<span class="nb">echo</span> <span class="s2">"NESSE DIRETÓRIO PODE HAVER OUTROS DIRETÓRIOS E/OU ARQUIVOS,"</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"DIGITE O NOME PARA DESCOBRIRMOS SE É ARQUIVO OU DIRETÓRIO: "</span>
+<span class="nb">read </span>ARQUIVO
+<span class="nb">test</span> <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2">"</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2"> é um diretório"</span>
+<span class="nb">test</span> <span class="nt">-f</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2">"</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2"> é um arquivo"</span>
+<span class="nb">test</span> <span class="nt">-f</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2">"</span> <span class="nt">-o</span> <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$ARQUIVO</span><span class="s2">"</span> <span class="o">||</span> <span class="nb">echo</span> <span class="s2">"O arquivo '</span><span class="nv">$ARQUIVO</span><span class="s2">' não foi encontrado"</span>
+<span class="nb">echo</span>
+<span class="c">#Diferente de outras linguagens, o if testa um comando e não uma condição. Porém como já</span>
+<span class="c">#conhecemos qual o comando do shell que testa condições(test), é só usá-lo em conjunto com o</span>
+<span class="c">#if. Por exemplo, para saber se uma variável é maior ou menor do que 10 e mostrar uma</span>
+<span class="c">#Há um atalho para o test , que é o comando [. Ambos são exatamente o mesmo comando,</span>
+<span class="c">#porém usar o [ deixa o if mais parecido com o formato tradicional de outras linguagens:</span>
+<span class="c">#Se usar o [, também é preciso fechá-lo com o ], e sempre devem ter espaços ao</span>
+<span class="c">#redor. É recomendado evitar esta sintaxe para diminuir suas chances de erro.</span>
+<span class="nb">echo</span> <span class="s2">"AQUI HÁ UM COMANDO CRIADO CHAMADO 'marcos' COM A OPÇÃO -s MOSTRA O SOBRENOME"</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"DIGITE O COMANDO COM OU SEM A OPÇÃO: "</span>
+<span class="nb">read </span>COMANDO
+<span class="k">if </span><span class="nb">test</span> <span class="s2">"</span><span class="nv">$COMANDO</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"marcos -s"</span> <span class="p">;</span> <span class="k">then
+	</span><span class="nb">echo</span> <span class="s2">"Marcos da B. M. Oliveira"</span>
+<span class="k">elif</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$COMANDO</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"marcos"</span> <span class="o">]</span> <span class="p">;</span> <span class="k">then
+	</span><span class="nb">echo</span> <span class="s2">"Marcos"</span>
+<span class="k">else
+	</span><span class="nb">echo</span> <span class="s2">"Comando Inválido"</span>
+<span class="k">fi
+</span><span class="nb">echo</span> 
+<span class="c">#O shell também sabe fazer contas. A construção usada para indicar uma expressão</span>
+<span class="c">#aritmética é "$((...))", com dois parênteses.</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"EXPRESSÕES ARITMÉTICAS:"</span> <span class="o">&amp;&amp;</span> <span class="nb">echo 
+echo</span> <span class="nt">-n</span> <span class="s2">"2 X 3 = "</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="k">$((</span><span class="m">2</span><span class="o">*</span><span class="m">3</span><span class="k">))</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"2x3/2+3 = "</span> <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="k">$((</span><span class="m">2</span><span class="o">*</span><span class="m">3</span><span class="o">-</span><span class="m">2</span><span class="o">/</span><span class="m">2</span><span class="o">+</span><span class="m">3</span><span class="k">))</span>
+<span class="nb">echo</span> <span class="s2">"ESCREVA UM NÚMERO PARA SABERMOS O VALOR DELE MULTIPLICADO POR 2"</span>
+<span class="nb">read </span>NUM
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"</span><span class="nv">$NUM</span><span class="s2"> x 2 = "</span><span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="k">$((</span>NUM<span class="o">*</span><span class="m">2</span><span class="k">))</span>
+<span class="nb">echo</span>
+<span class="c">#O while é um laço que é executado enquanto um comando retorna OK. Novamente o</span>
+<span class="c">#test é bom de ser usado.</span>
+<span class="nb">echo</span> <span class="s2">"AGORA VAMOS FAZER UM LOOP COM WHILE:"</span>
+<span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"ESCREVA UM NÚMERO MENOR QUE 8: "</span>
+<span class="nb">read </span>A
+<span class="nv">c</span><span class="o">=</span><span class="nv">$A</span>
+<span class="k">while</span> <span class="o">[</span> <span class="nv">$c</span> <span class="nt">-lt</span> 8 <span class="o">]</span>
+<span class="k">do
+	</span><span class="nb">echo</span> <span class="s2">"O número </span><span class="nv">$c</span><span class="s2"> é menor que 8"</span>
+	<span class="o">((</span> c++ <span class="o">))</span>
+<span class="k">done
+</span><span class="nb">echo</span> 
+<span class="c">#O for percorre uma lista de palavras, pegando uma por vez:</span>
+<span class="nb">echo</span> <span class="s2">"APRENDENDO O LOOP FOR:"</span>
+<span class="k">for </span>nome <span class="k">in </span>Marcos da B. M. Oliveira
+<span class="k">do
+      </span><span class="nb">echo</span> <span class="s2">"Nome: </span><span class="nv">$nome</span><span class="s2">"</span>
+<span class="k">done</span>
+<span class="c">#Uma ferramenta muito útil para usar com o for é o seq, que gera uma seqüência numérica.</span>
+<span class="c">#Para fazer o loop andar 10 passos, pode-se fazer:</span>
+<span class="k">for </span>passo <span class="k">in</span> <span class="k">$(</span><span class="nb">seq </span>4<span class="k">)</span>
+  <span class="k">do
+  	</span><span class="nb">echo</span> <span class="s2">"Passo </span><span class="nv">$passo</span><span class="s2">"</span>
+<span class="k">done
+</span><span class="nb">echo
+echo</span> <span class="s2">"FINAL DO SCRIPT </span><span class="nv">$0</span><span class="s2"> , ATÉ A PRÓXIMA!"</span></code></pre></figure>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

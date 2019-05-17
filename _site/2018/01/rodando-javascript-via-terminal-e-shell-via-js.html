@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Rodando JavaScript via Terminal e Shell via JS</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="Conceito">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Rodando JavaScript via Terminal e Shell via JS">
+	<meta name="twitter:description" content="PhantomJS é browser baseado em scripts, sem interface gráfica, para automatizar tarefas da web.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/js/phantomjs.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html">
+	<meta property="og:title" content="Rodando JavaScript via Terminal e Shell via JS">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/js/phantomjs.jpg">
+	
+	<meta property="og:description" content="PhantomJS é browser baseado em scripts, sem interface gráfica, para automatizar tarefas da web.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Rodando JavaScript via Terminal e Shell via JS</h2>
+    <h4>PhantomJS é browser baseado em scripts, sem interface gráfica, para automatizar tarefas da web.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2018-01-30T14:16:42-02:00" itemprop="datePublished">Jan 30, 2018</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<h2 id="conceito">Conceito</h2>
+
+<ul>
+  <li><a href="http://phantomjs.org">PhantomJS</a> é browser baseado em <strong>scripts</strong>, <strong>sem interface gráfica</strong>, para <strong>automatizar</strong> tarefas da <strong>web</strong>.</li>
+  <li>É um software de código aberto lançado sob a licença <a href="https://www.freebsd.org/doc/pt_BR/articles/explaining-bsd/article.html">BSD</a>.</li>
+  <li>Algumas <strong>empresas</strong> que <strong>usam</strong> o PhantomJS para automatizar suas tarefas:
+    <ul>
+      <li><a href="http://twitter.com/">Twitter</a>;</li>
+      <li><a href="https://www.netflix.com">Netflix</a>;</li>
+      <li><a href="http://linkedin.com/">LinkedIn</a>;</li>
+      <li><strong>Entre outras</strong>.</li>
+    </ul>
+  </li>
+  <li>Foi criado por <strong>Ariya Hidayat</strong> em <strong>2011</strong>, <strong>após vários anos de desenvolvimento</strong>.</li>
+  <li>Existem <strong>inúmeras utilidades</strong> para o PhantomJS, <strong>mas também é usado muito por hackers para automatizar ataques</strong>. :(</li>
+  <li>Um tempo depois foi criado o <a href="http://casperjs.org/">CasperJS</a> por <strong>Nicolas Perriault</strong>, que é um <strong>biblioteca</strong> de funções do <strong>PhantomJS</strong>.</li>
+</ul>
+
+<h2 id="instalação">Instalação</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/terminalrootsh/jsterminal.git
+<span class="nb">cd </span>jsterminal/
+sh jsterminal.sh</code></pre></figure>
+
+<p>Depois saia do <kbd>terminal</kbd>, abra-o novamente e rode esse comando</p>
+
+<p><kbd>phantomjs --version</kbd></p>
+
+<p>E também:</p>
+
+<p><kbd>phantomjs --help</kbd></p>
+
+<p>Se quiser rodar diretamente pelo terminal rode</p>
+
+<p><kbd>phantomjs</kbd></p>
+
+<h2 id="usovídeo">Uso/Vídeo</h2>
+
+<h1 id="clique-aqui-para-ver-o-vídeo"><a href="https://www.youtube.com/watch?v=I4zO0d4IS7Y">Clique Aqui para Ver o Vídeo</a></h1>
+
+<h2 id="rodar-comandos-shell-em-js">Rodar Comandos Shell em JS</h2>
+
+<blockquote>
+  <p>Quando você quiser executar comandos <strong>UNIX</strong> com <strong>Server Side</strong>. Exs.: Salvar um dado do cliente simplesmente inserido o conteúdo que ele solicitou num arquivo txt; Copiar um arquivo solicitado; …</p>
+</blockquote>
+
+<h3 id="instalação-1">Instalação</h3>
+
+<ul>
+  <li><a href="http://terminalroot.com.br/tags/#gentoo">Gentoo</a></li>
+</ul>
+
+<blockquote>
+  <p>O portage irá instalar todas as depedências necessárias caso já não estejam instaladas, basta rodar o simples comando:</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge nodejs</code></pre></figure>
+
+<ul>
+  <li><a href="http://terminalroot.com.br/tags/#debian">Debian</a>, <a href="http://terminalroot.com.br/tags/#ubuntu">Ubuntu</a>, <a href="http://terminalroot.com.br/tags/#linux">Linux</a> Mint e derivados</li>
+</ul>
+
+<blockquote>
+  <p>Diferentemente do <strong>Portage</strong> no Gentoo, será ncessário instalar dependências juntamente com o <a href="https://nodejs.org">NodeJS</a></p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential libssl-dev nodejs</code></pre></figure>
+
+<ul>
+  <li>Fedora, <a href="http://terminalroot.com.br/tags/#centos">CentOS</a> e derivados do <a href="http://terminalroot.com.br/tags/#redhat">Red Hat</a></li>
+</ul>
+
+<blockquote>
+  <p>Você precisará antes adicionar o <strong>epel-release</strong></p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>yum <span class="nb">install </span>epel-release
+<span class="nb">sudo </span>yum <span class="nb">install </span>nodejs</code></pre></figure>
+
+<p>Após instalar o NodeJS use o comando npm com o usuário normal para instalar o ShellJS</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm <span class="nb">install</span> <span class="o">[</span><span class="nt">-g</span><span class="o">]</span> shelljs</code></pre></figure>
+
+<p>Após instalado <strong>veja</strong>/<strong>crie</strong> esse <strong>arquivo</strong> com alguns <strong>exemplos</strong>:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">shell</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'shelljs'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'Utilizando o comando echo com ShellJS'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'-e'</span><span class="p">,</span> <span class="s1">'</span><span class="err">\</span><span class="s1">nUsando o parâmetro -e do echo para pular linha com o </span><span class="err">\\</span><span class="s1">n </span><span class="err">\</span><span class="s1">nCriando o arquivo meu-arquivo.txt com o comando touch'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">touch</span><span class="p">(</span><span class="s1">'meu-arquivo.txt'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'Copiando o meu-arquivo.txt para novo-arquivo.txt'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">cp</span><span class="p">(</span><span class="s1">'meu-arquivo.txt'</span><span class="p">,</span> <span class="s1">'novo-arquivo.txt'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'Rode esse script com o comando: node shelljs.js'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'-e'</span><span class="p">,</span><span class="s1">'Para mais informações acesse:</span><span class="err">\</span><span class="s1">nhttps://www.npmjs.com/package/shelljs</span><span class="err">\</span><span class="s1">n'</span><span class="p">);</span></code></pre></figure>
+
+<h2 id="links-úteis">Links Úteis</h2>
+
+<p><a href="http://phantomjs.org/">http://phantomjs.org/</a></p>
+
+<p><a href="https://github.com/ariya/phantomjs/">https://github.com/ariya/phantomjs/</a></p>
+
+<p><a href="https://github.com/terminalrootsh/jsterminal">https://github.com/terminalrootsh/jsterminal</a></p>
+
+<p><a href="https://github.com/ariya/phantomjs/tree/master/examples">https://github.com/ariya/phantomjs/tree/master/examples</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/PhantomJS">https://en.wikipedia.org/wiki/PhantomJS</a></p>
+
+<p><a href="https://nodejs.org">https://nodejs.org</a></p>
+
+<p><a href="https://www.npmjs.com/package/shelljs">https://www.npmjs.com/package/shelljs</a></p>
+
+<p><a href="https://www.npmjs.com/browse/keyword/shelljs">https://www.npmjs.com/browse/keyword/shelljs</a></p>
+
+<p><a href="https://www.npmjs.com/package/shx">https://www.npmjs.com/package/shx</a></p>
+
+<h2 id="comentários-fica-por-sua-conta-">Comentários, fica por sua conta! ;)</h2>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

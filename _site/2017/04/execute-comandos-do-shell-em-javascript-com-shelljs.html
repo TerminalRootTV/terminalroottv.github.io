@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Execute Comandos do Shell em JavaScript com ShellJS</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Execute Comandos do Shell em JavaScript com ShellJS">
+	<meta name="twitter:description" content="ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/shell-script/shelljs.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2017/04/execute-comandos-do-shell-em-javascript-com-shelljs.html">
+	<meta property="og:title" content="Execute Comandos do Shell em JavaScript com ShellJS">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/shell-script/shelljs.jpg">
+	
+	<meta property="og:description" content="ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2017/04/execute-comandos-do-shell-em-javascript-com-shelljs.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Execute Comandos do Shell em JavaScript com ShellJS</h2>
+    <h4>ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2017-04-14T08:35:58-03:00" itemprop="datePublished">Apr 14, 2017</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/shell-script/shelljs.jpg" alt="Execute Comandos do Shell em JavaScript com ShellJS" title="Execute Comandos do Shell em JavaScript com ShellJS" /></p>
+
+<h2 id="introdução">Introdução</h2>
+
+<p><a href="https://www.npmjs.com/package/shelljs">ShellJS</a> é uma implementação portable para <strong>Linux</strong>, <strong>OS X</strong> e <strong>Windows</strong> de comandos de <strong>Shell Unix</strong> da <strong>API Node.js</strong>. Você pode usá-lo para eliminar a dependência do <strong>Script Shell em Unix</strong>, mantendo seus comandos familiares e poderosos. Você também pode instalá-lo __globalment__e para que você possa executá-lo a partir de projetos externos!</p>
+
+<p>O projeto é testado em projetos como</p>
+
+<ul>
+  <li><a href="http://github.com/mozilla/pdf.js">PDF.js</a> - Leitor de PDF do Firefox</li>
+  <li><a href="http://getfirebug.com/">Firebug</a> - Depurador do Firefox</li>
+  <li><a href="http://jshint.com/">JSHint</a> &amp; <a href="http://eslint.org/">ESLint</a> - Linters populares de JavaScript</li>
+  <li><a href="http://zeptojs.com/">Zepto</a> - Biblioteca de JavaScript compatível com jQuery para navegadores modernos</li>
+  <li><a href="http://yeoman.io/">Yeoman</a> - Aplicativos da Web e ferramenta de desenvolvimento</li>
+  <li><a href="http://deployd.com/">Deployd.com</a> - PaaS de código aberto para rápida geração de backend de API</li>
+</ul>
+
+<p>E <a href="https://npmjs.org/browse/depended/shelljs">muitos mais</a>.</p>
+
+<h2 id="uso-da-linha-de-comando">Uso da linha de comando</h2>
+
+<p>Se você quiser apenas comandos <a href="https://pt.wikipedia.org/wiki/Unix">UNIX</a>, confira o novo projeto <a href="https://github.com/shelljs/shx">shelljs/shx</a>, um utilitário para <strong>shelljs na linha de comando</strong>.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">shx <span class="nb">mkdir</span> <span class="nt">-p</span> foo
+shx <span class="nb">touch </span>foo/bar.txt
+shx <span class="nb">rm</span> <span class="nt">-rf</span> foo</code></pre></figure>
+
+<h2 id="instalação">Instalação</h2>
+
+<p>Via <strong>npm</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm <span class="nb">install</span> <span class="o">[</span><span class="nt">-g</span><span class="o">]</span> shelljs</code></pre></figure>
+
+<h2 id="exemplos">Exemplos</h2>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">shell</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'shelljs'</span><span class="p">);</span>
+ 
+<span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">shell</span><span class="p">.</span><span class="nx">which</span><span class="p">(</span><span class="s1">'git'</span><span class="p">))</span> <span class="p">{</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'Desculpe, este script requer o git.'</span><span class="p">);</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+ 
+<span class="c1">// Copiar ou remover arquivos</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">rm</span><span class="p">(</span><span class="s1">'-rf'</span><span class="p">,</span> <span class="s1">'out/Release'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">cp</span><span class="p">(</span><span class="s1">'-R'</span><span class="p">,</span> <span class="s1">'stuff/'</span><span class="p">,</span> <span class="s1">'out/Release'</span><span class="p">);</span>
+ 
+<span class="c1">// Substituir macros em cada arquivo .js </span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">cd</span><span class="p">(</span><span class="s1">'lib'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">ls</span><span class="p">(</span><span class="s1">'*.js'</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">file</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">sed</span><span class="p">(</span><span class="s1">'-i'</span><span class="p">,</span> <span class="s1">'BUILD_VERSION'</span><span class="p">,</span> <span class="s1">'v0.1.2'</span><span class="p">,</span> <span class="nx">file</span><span class="p">);</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">sed</span><span class="p">(</span><span class="s1">'-i'</span><span class="p">,</span> <span class="sr">/^.*LINHA_PARA_REMOVER.*$/</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="nx">file</span><span class="p">);</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">sed</span><span class="p">(</span><span class="s1">'-i'</span><span class="p">,</span> <span class="sr">/.*TROCAR_LINHA_QUE_CONTENHA_ISSO.*</span><span class="se">\n</span><span class="sr">/</span><span class="p">,</span> <span class="nx">shell</span><span class="p">.</span><span class="nx">cat</span><span class="p">(</span><span class="s1">'macro.js'</span><span class="p">),</span> <span class="nx">file</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">cd</span><span class="p">(</span><span class="s1">'..'</span><span class="p">);</span>
+ 
+<span class="c1">// Executar ferramenta externa de forma síncrona </span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">shell</span><span class="p">.</span><span class="nx">exec</span><span class="p">(</span><span class="s1">'git commit -am "Auto-commit"'</span><span class="p">).</span><span class="nx">code</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'Error: Git commit failed'</span><span class="p">);</span>
+  <span class="nx">shell</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="global-vs-local">Global vs Local</h2>
+
+<p>Já não recomenda-se usar uma importação global para <strong>ShellJS</strong> (ou seja, <strong>require(‘shelljs / global’)</strong>). Embora ainda seja suportado por conveniência, isso polui o namespace global e, portanto, só deve ser usado com cautela.</p>
+
+<p>Em vez disso, recomenda-se uma importação local (padrão para pacotes npm)</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">shell</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'shelljs'</span><span class="p">);</span>
+<span class="nx">shell</span><span class="p">.</span><span class="nx">echo</span><span class="p">(</span><span class="s1">'hello world'</span><span class="p">);</span></code></pre></figure>
+
+<h2 id="comandos-do-shell-em-js">Comandos do Shell em JS</h2>
+
+<p>Todos os comandos são executados de forma síncrona, salvo indicação em contrário. Todos os comandos aceitam caracteres globbing do bash (*,?, etc.), compatíveis com o módulo <a href="https://github.com/isaacs/node-glob">node glob module</a>.</p>
+
+<p>Para comandos e recursos menos utilizados, consulte a <a href="https://github.com/shelljs/shelljs/wiki">wiki</a>.</p>
+
+<h3 id="catfile--file-">cat(file [, file …])</h3>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">str</span> <span class="o">=</span> <span class="nx">cat</span><span class="p">(</span><span class="s1">'file*.txt'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">str</span> <span class="o">=</span> <span class="nx">cat</span><span class="p">(</span><span class="s1">'file1'</span><span class="p">,</span> <span class="s1">'file2'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">str</span> <span class="o">=</span> <span class="nx">cat</span><span class="p">([</span><span class="s1">'file1'</span><span class="p">,</span> <span class="s1">'file2'</span><span class="p">]);</span></code></pre></figure>
+
+<h3 id="cddir">cd([dir])</h3>
+
+<h3 id="chmodoptions-octal_mode--octal_string-file">chmod([options,] octal_mode || octal_string, file)</h3>
+
+<h3 id="chmodoptions-symbolic_mode-file">chmod([options,] symbolic_mode, file)</h3>
+
+<p>Opções disponíveis:</p>
+
+<ul>
+  <li><strong>-v</strong>: exibe um diagnóstico para cada arquivo processado</li>
+  <li><strong>-c</strong>: como verboso mas relatório apenas quando uma alteração é feita</li>
+  <li><strong>-R</strong>: alterar arquivos e diretórios recursivamente</li>
+</ul>
+
+<h3 id="echooptions-string--string-">echo([options,] string [, string …])</h3>
+
+<p>Opções disponíveis:</p>
+
+<ul>
+  <li><strong>-e</strong>: Interpretar backslashes</li>
+</ul>
+
+<h3 id="execcommand--options--callback">exec(command [, options] [, callback])</h3>
+
+<h3 id="findpath--path-">find(path [, path …])</h3>
+
+<h3 id="grepoptions-regex_filter-file--file-">grep([options,] regex_filter, file [, file …])</h3>
+
+<h3 id="sedoptions-search_regex-replacement-file--file-">sed([options,] search_regex, replacement, file [, file …])</h3>
+
+<p>Opções disponíveis:</p>
+
+<ul>
+  <li><strong>-i</strong>: Substitua o conteúdo do ‘arquivo’ no local.</li>
+</ul>
+
+<p>Exemplos:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">sed</span><span class="p">(</span><span class="s1">'-i'</span><span class="p">,</span> <span class="s1">'VERSAO_DO_PROGRAMA'</span><span class="p">,</span> <span class="s1">'v0.1.3'</span><span class="p">,</span> <span class="s1">'source.js'</span><span class="p">);</span>
+<span class="nx">sed</span><span class="p">(</span><span class="sr">/.*DELETE_ESSA_LINHA.*</span><span class="se">\n</span><span class="sr">/</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="s1">'source.js'</span><span class="p">);</span></code></pre></figure>
+
+<blockquote>
+  <p>Como o Unix sed, o ShellJS sed suporta regex</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">sed</span><span class="p">(</span><span class="sr">/</span><span class="se">(\w</span><span class="sr">+</span><span class="se">)\s(\w</span><span class="sr">+</span><span class="se">)</span><span class="sr">/</span><span class="p">,</span> <span class="s1">'$2, $1'</span><span class="p">,</span> <span class="s1">'file.txt'</span><span class="p">);</span></code></pre></figure>
+
+<h2 id="e-vários-outros-comandos">E vários outros comandos!</h2>
+
+<h2 id="veja-o-endereço-oficial-do-shelljs">Veja o endereço oficial do ShellJS</h2>
+<p><a href="https://github.com/shelljs/shelljs">https://github.com/shelljs/shelljs</a></p>
+
+<h1 id="faça-nosso-curso-gratuito-de-shell-script-e-adquira-todo-conteúdo-nesse-link">Faça nosso curso gratuito de Shell Script e adquira todo conteúdo nesse link</h1>
+<p><a href="http://www.terminalroot.com.br/shell/">http://www.terminalroot.com.br/shell/</a></p>
+
+<h2 id="deixe-seu-comentário">Deixe seu comentário!</h2>
+
+<h1 id="valeu">Valeu!</h1>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

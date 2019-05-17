@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Lista dos melhores Games do Atari'
+date: '2014-08-03T12:56:00.003-07:00'
+image: '/assets/img/games/enduro.gif'
+description: 'Sou fã de jogos de 8 bits, principalemente se tratando de Atari. Atualmente estudo desenvolvimento de todos esse jogos em Shell Script, segue a lista dos que eu mais gosto.'
+main-class: 'games'
+tags:
+- Games
+---
+
+![Lista dos melhores Games do Atari](/assets/img/games/enduro.gif "Lista dos melhores Games do Atari")
+
+Sou fã de jogos de __8 bits__, principalemente se tratando de __Atari__. Atualmente estudo desenvolvimento de todos esse jogos em __Shell Script__, segue a lista dos que eu mais gosto, caso alguém se interesse em jogar!
+
+## [JOGUE AQUI](http://jogosdeatari.com.br/jogos-online) 
+
+## Segue a lista
+
++ ♛ River Raid
++ ♛ Enduro
++ ♛ Skiing
++ ♛ Seaquest
++ ♛ Megamania
++ ♛ Keystone Kapers
++ ♛ Frostbite
++ ♛ Tennis
++ ♛ Atari Boxing
++ ♛ Frogger
++ ♛ Baseball
++ ♛ Basketball
++ ♛ Freeway
++ ♛ Pac Man
++ ♛ Championship Soccer
++ ♛ Combat
++ ♛ Jawbreaker
++ ♛ River Raid II
++ ♛ Shark Attack
++ ♛ Super Man

@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT"
+date: 2019-01-23 12:01:03
+image: '/assets/img/shellpro/myfetch-shell-script-800.jpg'
+description: "Nesse vídeo criamos do zero, um fetch que exibe logo em ASCII e informações do Sistema em Shell Script."
+main-class: 'bash'
+tags:
+- shellscript
+- shellpro
+- bash
+---
+
+![Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT](/assets/img/shellpro/myfetch-shell-script-800.jpg "Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT")
+
+Nesse vídeo criamos do zero, um fetch que exibe logo em ASCII e informações do Sistema em Shell Script.
+
+Um fetch é um script bash disponível para Linux e outros sistemas que exibe informações do sistema juntamente com a versão ASCII do logo de distribuição Linux do sistema. Ele é usado principalmente para gerar capturas de tela para compartilhar em mídias sociais ou sites de hospedagem de imagens.
+
+Assista ao vídeo
+
+***
+
+# [Clique Aqui Para Assistir o Vídeo](https://youtu.be/2_tnd8g-IMc)
+
+***
+
+## Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed
+# <http://terminalroot.com.br/cursos>
+
+## Crie Sua Promoção
+# <http://terminalroot.com.br/promo>
+
+## Acompanhe todos os vídeos da **Série Shell Script Profissional** 
+# [#ShellPro](http://bit.ly/shell-pro-root)

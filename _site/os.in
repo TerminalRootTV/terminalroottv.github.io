@@ -1,0 +1,4 @@
+#!/bin/bash
+_uuidw=$(blkid | sed -n 1p | sed 's/.* UUID="//g' | sed 's/".*//g')
+echo -e "menuentry 'Windows 7' --class windows --class os \$menuentry_id_option 'osprober-chain-$_uuidw' {\n\tinsmod part_msdos\n\tinsmod ntfs\n\tset root='hd0,msdos1'\n\tif [ x\$feature_platform_search_hint = xy ]; then\n\t  search --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 --hint-efi=hd0,msdos1 --hint-baremetal=ahci0,msdos1  $_uuidw\n\telse\n\t  search --no-floppy --fs-uuid --set=root $_uuidw\n\tfi\n\tparttool \${root} hidden-\n\tchainloader +1\n}" >> /etc/grub.d/40_custom
+grub-mkconfig -o /boot/grub/grub.cfg 2>/dev/null

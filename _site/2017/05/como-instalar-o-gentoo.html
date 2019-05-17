@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Como Instalar o Gentoo</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="  O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível. O Gentoo é construído em torno de um ecossistema de software livre e não escon...">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Como Instalar o Gentoo">
+	<meta name="twitter:description" content="O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/gentoo/gentoo-install.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2017/05/como-instalar-o-gentoo.html">
+	<meta property="og:title" content="Como Instalar o Gentoo">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/gentoo/gentoo-install.jpg">
+	
+	<meta property="og:description" content="O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2017/05/como-instalar-o-gentoo.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Como Instalar o Gentoo</h2>
+    <h4>O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2017-05-14T12:58:22-03:00" itemprop="datePublished">May 14, 2017</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<blockquote>
+  <p>O <a href="https://www.gentoo.org/">Gentoo</a> é uma <a href="https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux">distribuição</a> veloz e moderna com um projeto limpo e flexível. O Gentoo é construído em torno de um ecossistema de <a href="https://www.gnu.org/philosophy/free-sw.pt-br.html">software livre</a> e não esconde de seus usuários o que está “sob o capô do motor”. O <a href="https://pt.wikipedia.org/wiki/Portage">Portage</a>, o sistema de gerenciamento de pacotes utilizado pelo Gentoo, é escrito em <a href="http://www.terminalroot.com.br/tags#python">Python</a>, o que significa que o usuário pode facilmente ver e modificar o código fonte. O sistema de pacotes do Gentoo usa código fonte (mas o suporte para pacotes pré-compilados também é incluído) e a configuração do Gentoo é feita através de arquivos texto comuns. Em outras palavras, <strong>tudo acontece de forma muito clara e aberta</strong>.</p>
+</blockquote>
+
+<h3 id="abaixo-do-vídeo-há-a-linha-e-ordem-de-todos-os-comandos-utilizados-durante-a-instalação-bem-como-os-links-úteis">Abaixo do vídeo há a linha e ordem de todos os comandos utilizados durante a instalação, bem como os links úteis!</h3>
+
+<blockquote>
+  <p><strong>Observação:</strong> A instalação foi feita para <a href="https://pt.wikipedia.org/wiki/32_bits">32-bit</a>.</p>
+</blockquote>
+
+<h2 id="assista-o-vídeo">Assista o vídeo</h2>
+
+<h1 id="clique-aqui-para-ver-o-vídeo"><a href="https://www.youtube.com/watch?v=BD1wIoX0E2c">Clique Aqui para Ver o Vídeo</a></h1>
+
+<h1 id="todos-os-comandos-utilizados">Todos os Comandos Utilizados</h1>
+
+<ul>
+  <li><strong>1</strong> - Faça o download do arquivos: <a href="http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/install-x86-minimal-20170411.iso">minimal-cd</a>, <a href="http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/install-x86-minimal-20170411.iso.DIGESTS">DIGEST do minimal-cd</a>, <a href="http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/stage3-i686-20170411.tar.bz2">Stage3</a> e <a href="http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/stage3-i686-20170411.tar.bz2.DIGESTS">DIGEST do Stage3</a>.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">wget http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/install-x86-minimal-20170411.iso
+wget http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/install-x86-minimal-20170411.iso.DIGESTS
+wget http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/stage3-i686-20170411.tar.bz2
+wget http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/stage3-i686-20170411.tar.bz2.DIGESTS</code></pre></figure>
+
+<ul>
+  <li><strong>2</strong> - Teste a conexão com a internet</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ifconfig
+ping <span class="nt">-c3</span> www.terminalroot.com.br</code></pre></figure>
+
+<blockquote>
+  <p>Se a rede não funcionar, <a href="https://www.youtube.com/watch?v=q3oaZ4SIbkA">tente conectar manualmente</a>.</p>
+</blockquote>
+
+<ul>
+  <li><strong>3</strong> - Particionando os Discos</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">fdisk /dev/[dispositivo]
+<span class="c"># p - mostra as partições, se houverem</span>
+<span class="c"># n - cria uma nova partição</span>
+<span class="c"># w - escreve as mudanças</span>
+<span class="c"># t - altera o tipo de partição, 82 é pra swap</span></code></pre></figure>
+
+<ul>
+  <li><strong>4</strong> - Formatar as partições(ext4) e Criar e Ativar a Swap</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mkfs.ext4 /dev/[dispositivo][n°]
+mkswap /dev/[swap]
+swapon</code></pre></figure>
+
+<ul>
+  <li><strong>5</strong> - Montando as partições</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mount /sda/[dispositivo-root] /mnt/gentoo
+<span class="nb">mkdir</span> /mnt/gentoo/boot
+mount /sda/[dispositivo-boot] /mnt/gentoo/boot</code></pre></figure>
+
+<ul>
+  <li><strong>6</strong> - Ajustando a data e a hora</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">date</span> <span class="o">[</span>MesDiaHoraMinutoAno]</code></pre></figure>
+
+<ul>
+  <li><strong>7</strong> - Baixando e Descompactando o Stage3</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /mnt/gentoo/
+wget http://distfiles.gentoo.org/releases/x86/autobuilds/current-install-x86-minimal/stage3-i686-20170411.tar.bz2
+<span class="nb">tar </span>xvjpf stage3-<span class="k">*</span>.tar.bz2 <span class="nt">--xattrs</span> <span class="nt">--numeric-owner</span></code></pre></figure>
+
+<ul>
+  <li><strong>8</strong> - Configurando o espelho do repositório</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mirrorselect <span class="nt">-i</span> <span class="nt">-o</span> <span class="o">&gt;&gt;</span> /mnt/gentoo/etc/portage/make.conf
+<span class="nb">mkdir</span> /mnt/gentoo/etc/portage/repos.conf
+<span class="nb">cp</span> /mnt/gentoo/usr/share/portage/config/repos.conf /mnt/gentoo/etc/portage/repos.conf/gentoo.conf
+<span class="nb">cp</span> <span class="nt">-L</span> /etc/resolv.conf /mnt/gentoo/etc/</code></pre></figure>
+
+<ul>
+  <li><strong>9</strong> - Clonando diretórios do sistema (para o <a href="https://wiki.gentoo.org/wiki/OpenRC">OpenRC</a>, se usar o systemd, use o <em>–make-rslave</em> para <strong>/dev</strong> e <strong>/sys</strong>)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mount <span class="nt">-t</span> proc /proc /mnt/gentoo/proc
+mount <span class="nt">--rbind</span> /sys /mnt/gentoo/sys
+mount <span class="nt">--rbind</span> /dev /mnt/gentoo/dev</code></pre></figure>
+
+<ul>
+  <li><strong>10</strong> - Entrando no novo ambiente</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">chroot</span> /mnt/gentoo /bin/bash
+<span class="nb">source</span> /etc/profile
+<span class="nb">export </span><span class="nv">PS1</span><span class="o">=</span><span class="s2">"(chroot) </span><span class="nv">$PS1</span><span class="s2">"</span></code></pre></figure>
+
+<ul>
+  <li><strong>11</strong> -  Atualizando o repositório do Portage</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--sync</span></code></pre></figure>
+
+<ul>
+  <li><strong>12</strong> - Atualizando o conjunto @world</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> <span class="nt">--update</span> <span class="nt">--deep</span> <span class="nt">--newuse</span> @world</code></pre></figure>
+
+<ul>
+  <li><strong>13</strong> - Escolhendo um perfil (tipo de instalação)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">eselect profile list
+eselect profile <span class="nb">set </span>1</code></pre></figure>
+
+<ul>
+  <li><strong>14</strong> - Configurando Fuso Horário e Localização</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">ls</span> /usr/share/zoneinfo
+<span class="c"># Para que está no lado oeste do Brasil</span>
+<span class="nb">echo</span> <span class="s2">"Brazil/West"</span> <span class="o">&gt;</span> /etc/timezone
+emerge <span class="nt">--config</span> sys-libs/timezone-data
+<span class="nb">echo</span> <span class="s2">"pt_BR UTF-8"</span> <span class="o">&gt;&gt;</span> /etc/locale.gen
+locale-gen
+eselect locale <span class="nb">set </span>617
+<span class="c"># Recarregar o novo perfil</span>
+env-update <span class="o">&amp;&amp;</span> <span class="nb">source</span> /etc/profile <span class="o">&amp;&amp;</span> <span class="nb">export </span><span class="nv">PS1</span><span class="o">=</span><span class="s2">"(chroot) </span><span class="nv">$PS1</span><span class="s2">"</span></code></pre></figure>
+
+<div id="simulacao"></div>
+<p><br /></p>
+
+<hr />
+
+<blockquote>
+  <p><strong>A PARTIR DESSA PARTE FICOU EDITADO/SIMULADO/ALTERADO NO VÍDEO, POR CONTA DO CONGELAMENTO DO VIRTUALBOX, MAS SEGUE O QUE FOI FEITO</strong></p>
+</blockquote>
+
+<ul>
+  <li><strong>15</strong> - Download, extração e compilação do <a href="https://www.kernel.org/">Kernel Linux</a></li>
+</ul>
+
+<blockquote>
+  <p>Houve <strong>demora excessiva</strong> ao baixar o <strong>Kernel</strong> pelo <strong>emerge</strong>, então cancelei o processo e baixe o kernel pelo <a href="https://www.kernel.org/">https://www.kernel.org/</a>. Depois extrai e depois instalei o genkernel e rodei a compilação padrão.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /usr/src/
+wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.9.28.tar.xz
+<span class="nb">tar</span> <span class="nt">-Jxvf</span> linux-<span class="k">*</span>.tar.xz
+<span class="nb">ln</span> <span class="nt">-s</span> linux-<span class="k">*</span>/ linux
+emerge <span class="nt">--ask</span> sys-kernel/genkernel
+genkernel all</code></pre></figure>
+
+<ul>
+  <li><strong>16</strong> - Configurando a rede</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> <span class="nt">--noreplace</span> net-misc/netifrc
+emerge <span class="nt">--ask</span> net-misc/dhcpcd
+nano /etc/conf.d/hostname
+<span class="c"># hostname="terminalroot"</span>
+nano /etc/conf.d/net
+<span class="c"># dns_domain_lo="gentoolinux"</span>
+nano /etc/conf.d/net
+<span class="c"># config_[dispositivo-de-rede]="dhcp"</span></code></pre></figure>
+
+<ul>
+  <li><strong>17</strong> - Instalando e Configurando o bootloader</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> <span class="nt">--verbose</span> sys-boot/grub:2
+grub-install /dev/[dispositivo] <span class="c"># exemplo: /dev/sda (sem nenhum número)</span>
+grub-mkconfig <span class="nt">-o</span> /boot/grub/grub.cfg</code></pre></figure>
+
+<ul>
+  <li><strong>18</strong> - Criando senha de <strong>root</strong> e Rebootando o Sistema</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">passwd
+reboot
+<span class="c"># rezar =)</span></code></pre></figure>
+
+<h2 id="links-úteis">Links Úteis</h2>
+
+<p><a href="https://www.gentoo.org/">https://www.gentoo.org/</a></p>
+
+<p><a href="https://wiki.gentoo.org/wiki/Handbook:X86/Installation/About/pt-br">https://wiki.gentoo.org/wiki/Handbook:X86/Installation/About/pt-br</a></p>
+
+<p><a href="https://www.gentoo.org/downloads/">https://www.gentoo.org/downloads/</a></p>
+
+<h1 id="faça-nosso-curso-gratuito-de-shell-bash-e-adquira-todo-conteúdo-nesse-link">Faça nosso curso gratuito de Shell Bash e adquira todo conteúdo nesse link</h1>
+<p><a href="http://www.terminalroot.com.br/shell/">http://www.terminalroot.com.br/shell/</a></p>
+
+<h2 id="deixe-seu-comentário">Deixe seu comentário!</h2>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

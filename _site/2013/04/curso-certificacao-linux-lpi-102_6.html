@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Curso Certificação Linux LPI-102: Segurança</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Curso Certificação Linux LPI-102: Segurança">
+	<meta name="twitter:description" content="Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de redes e sistemas no Linux. Aqui abordarei duas fundamentais para obt...">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/lpi/security.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2013/04/curso-certificacao-linux-lpi-102_6.html">
+	<meta property="og:title" content="Curso Certificação Linux LPI-102: Segurança">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/lpi/security.jpg">
+	
+	<meta property="og:description" content="Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de redes e sistemas no Linux. Aqui abordarei duas fundamentais para obt...">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2013/04/curso-certificacao-linux-lpi-102_6.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Curso Certificação Linux LPI-102: Segurança</h2>
+    <h4>Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de redes e sistemas no Linux. Aqui abordarei duas fundamentais para obter tal segurança.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2013-04-06T20:14:00-03:00" itemprop="datePublished">Apr 6, 2013</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/lpi/security.jpg" alt="Curso Certificação Linux LPI-102: Segurança" title="Curso Certificação Linux LPI-102: Segurança" /></p>
+
+<p>Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de <strong>redes/sistemas</strong> no <strong>Linux</strong>. Aqui abordarei duas fundamentais para obter tal segurança</p>
+
+<ul>
+  <li><strong>IPTABLES</strong></li>
+  <li><strong>TCPWRAPPER</strong></li>
+</ul>
+
+<blockquote>
+  <p>Vale ressaltar que segurança vai mais além, mas esses dois já estarão de bom tamanho para o entendimento de segurança, em diversos outros aplicativos.</p>
+</blockquote>
+
+<h2 id="iptables">IPTABLES</h2>
+
+<p>Para verificar quais regras estão criadas, se existir, o comando é</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-L</span></code></pre></figure>
+
+<p>Se não retornar nada é porque o pacote não está instalado, então você pode instalá-lo pelo comando</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>iptables</code></pre></figure>
+
+<p>Rejeitar pacotes de uma porta</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--dport</span> 445 <span class="nt">-j</span> DROP</code></pre></figure>
+
+<p>Aceitar pacotes de uma porta</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--dport</span> 445 <span class="nt">-j</span> ACCEPT</code></pre></figure>
+
+<p>Desativar o iptables, isso libera todas as portas</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-F</span></code></pre></figure>
+
+<p>Essa regra abaixo fecha todas as portas, porém voçê conecta a internet normalmente, mas aplicativos como Apache por exemplo não funcionará no localhost.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--syn</span> <span class="nt">-j</span> DROP</code></pre></figure>
+
+<p>Aqui abaixo a mesma regra, porém para o protocolo UDP.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-i</span> ppp0 <span class="nt">-p</span> udp <span class="nt">--dport</span> 0:30000 <span class="nt">-j</span> DROP</code></pre></figure>
+
+<p>Lembrando que as tabelas do IPTABLES são lidas de cima pra baixo, ou seja, se você quiser fechar todas as portas e liberar somente o apache a porta 80, você precisa primeiro criar a regra que libera a porta 80 (ou as portas que você deseja), pra só depois fechar todas as outras,</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--destination-port</span> 80 <span class="nt">-j</span> ACCEPT</code></pre></figure>
+<p>, depois:</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--syn</span> <span class="nt">-j</span> DROP</code></pre></figure>
+
+<p>Para acessar pacotes de determinados IPs de uma rede interna, ou de uma determinada rede, você usar os comandos abaixo</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--syn</span> <span class="nt">-s</span> 192.168.1.107/255.255.255.0 <span class="nt">-j</span> ACCEPT
+iptables <span class="nt">-A</span> INPUT <span class="nt">-p</span> tcp <span class="nt">--syn</span> <span class="nt">-s</span> 192.168.0.0/255.255.255.0 <span class="nt">-j</span> ACCEPT</code></pre></figure>
+
+<p>Aceitar as requisições do IP 192.168..107 e no comando seguinte, aceitará todas as requisições da rede interna, se logo depois vc fechar tudo pra internet, a regra de aceitar será válida, o inverso não.</p>
+
+<p>Para configurações de compartilhamento, seria regras de NAT,assim
+Para compartilhar a conexão do modem com a rede local</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">modprobe iptable_nat
+iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> ppp0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">echo </span>1 <span class="o">&gt;</span> /proc/sys/net/ipv4/ip_forward</code></pre></figure>
+
+<p>Para compartilhar uma conexão via ADSL ou cabo instalada na eth0</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">modprobe iptable_nat
+iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE
+<span class="nb">echo </span>1 <span class="o">&gt;</span> /proc/sys/net/ipv4/ip_forward</code></pre></figure>
+
+<p>Para desativar o compartilhamento, você deve usar o comando</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-t</span> nat <span class="nt">-F</span>.</code></pre></figure>
+
+<blockquote>
+  <p>Uma observação é que estas regras não incluem um servidor DHCP, você deve configurar os clientes com endereço IP fixo ou então ativar o serviço DHCPD na sua distribuição.Será necessário também configurar os DNS, se não souber os endereços do seu provedor, você pode usar os DNS públicos do Google 8.8.8.8 e 8.8.4.4 .</p>
+</blockquote>
+
+<p>Mais uma linha interessante de se adicionar, que protege contra pacotes danificados (usados em ataques DoS por exemplo) é</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-A</span> FORWARD <span class="nt">-m</span> unclean <span class="nt">-j</span> DROP</code></pre></figure>
+
+<p>Esta linha deve ser adicionada antes das demais).
+Depois de todas as regras criadas, voçê criar um script em Shell e gravar na pasta /usr/bin/ com o nome que você deseja e poderá executar esse nome no terminal que automaticamente, será criadas as regras, lembrando que para isso tem de estar com permissão de execução e deve ser o usuário root.Você também pode torná-lo inicializável, em Debian e Debian-Likes(Ubuntu, Linux Mint,…) com o comando:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">update-rc.d nome_do_script defaults</code></pre></figure>
+
+<p>Para excluir basta trocar o defaults por remove. Para fazer um forward(Redirecionamento, exemplo: uma solicitação de jogo na porta 27020, você quer que seja direcionada ao PC 192.168.1.107 da sua rede)com Iptables.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">modprobe iptable_nat
+iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-i</span> etho <span class="nt">-p</span> tcp <span class="nt">--dport</span> 22 <span class="nt">-j</span> DNAT <span class="nt">--to-dest</span> 192.168.1.107
+iptables <span class="nt">-A</span> FORWARD <span class="nt">-p</span> tcp <span class="nt">-i</span> eth0 <span class="nt">--dport</span> 22 <span class="nt">-d</span> 192.168.1.107 <span class="nt">-j</span> ACCEPT</code></pre></figure>
+
+<p>Você pode repetir o comando várias vezes para direcionar varias portas diferentes para várias máquinas. Naturalmente uma mesma porta não pode ser fowardada duas vezes.Para um range de portas, o Counter Strike pode usar mesmo da 27015 até 27030, se você não qual porta dessa range do seu colega está aberta, então você pode abrir esta faixa de portas assim</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-i</span> eth0 <span class="nt">-p</span> tcp <span class="nt">--dport</span> 27015:27030 <span class="nt">-j</span> DNAT <span class="nt">--to-dest</span> 192.168.1.107
+iptables <span class="nt">-A</span> FORWARD <span class="nt">-p</span> tcp <span class="nt">-i</span> eth0 <span class="nt">--dport</span> 27015:27030 <span class="nt">-d</span> 192.168.1.107 <span class="nt">-j</span> ACCEPT</code></pre></figure>
+
+<p>Mas você pode utilizar o Nmap para verificar quais portas estão abertas no seu micro, para instalá-lo no <strong>Debian</strong> e <strong>Debian-Likes</strong>, basta</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>nmap</code></pre></figure>
+
+<p>Para analisar em rede interna use o IP interno, para análise à internet use seu IP externo, para <strong>loopback</strong> use</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">nmap 127.0.0.1</code></pre></figure>
+
+<p>Há também um serviço online que tem como você efetuar <strong>testes de portas e de invasões</strong>, eu uso muito ele, é o <strong>http://www.grc.com/</strong></p>
+
+<ul>
+  <li>-clique em Services</li>
+  <li>-depois clique em ShieldsUP</li>
+  <li>-depois clique em proceed</li>
+  <li>-clique em “Proceed”</li>
+  <li>-e inicie o teste clicando em “All Service Ports”.</li>
+</ul>
+
+<h2 id="tcpwrapper">TCPWRAPPER</h2>
+
+<blockquote>
+  <p>O TCP Wrappers são usados para aplicar regras de acesso aos servidores utilizados em sistema, podendo permitir ou negar as conexões a eles. Eles são controlados por dois arquivos: <strong>/etc/hosts.allow</strong> (configuração de acessos permitidos para determinados IPs) e <strong>/etc/hosts.deny</strong> (configuração de acesso negados para determinados IPs) <strong>TCP</strong>. Sigla para “<strong>Transmission Control Protocol</strong>”.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.allow</code></pre></figure>
+
+<blockquote>
+  <p>– Se uma regra deste arquivo for atendida, o acesso ao serviço pe permitido</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.deny</code></pre></figure>
+
+<blockquote>
+  <ul>
+    <li>Se uma regra deste arquivo for atendida, o acesso ao serviço é negado</li>
+  </ul>
+</blockquote>
+
+<p>As regras destes arquivos podem ser contruída de forma a corresponder a todos os serviços ou, alternativamente, a determinados serviços específicos. Se não houver nenhuma correspondência nos dois arquivos, o acesso ao serviço é permitido. É comum se especificar regras particulares no arquivo hosts.allow e específicar uma negativa geral no arquivo hosts.deny, limitando assim o acesso aos clientes que você especificamente permitir. A linguagem dos arquivos de controle consiste de uma lista de serviços, seguida por dois-pontos, seguida por uma lista de hosts. Os hosts podem ser específicados por nome ou por endereço IP.</p>
+
+<blockquote>
+  <p>Para negar acesso a todos os serviços, exceto ao ftp no domínio local, poderiam ser usados estes dois arquivos simples</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">hosts.allow</code></pre></figure>
+
+<p>Existem dezenas de possibilidades de configuração para o <strong>tcp_wrappers</strong> e é possível estudá-las em extensão através das páginas de manual <strong>hosts_access</strong> e <strong>hosts_options</strong>. Portanto, serão ilustrados apenas alguns casos interessantes do uso desta ferramenta. As regras de controle de acesso, existentes nestes dois arquivos, têm o seguinte formato</p>
+
+<blockquote>
+  <p>[lista_de_daemons] [: lista_de_clientes] [: comando]</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>lista_de_daemons</strong>: Lista de um ou mais nomes de daemons (como especificados no /etc/inetd.conf), ou curingas.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>lista_de_clientes</strong>: Lista de um ou mais endereços ou nomes de máquinas, padrões ou curingas utilizados para especificar quais clientes podem e quais não podem acessar o serviço.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>comando (opcional)</strong>: É possível executar um comando sempre que uma regra casa com um padrão e é utilizada. Veja exemplos a seguir. Como citado anteriormente, curingas podem ser utilizados tanto na lista de daemons quanto na lista de clientes. Entre os existentes, pode-se destacar os seguintes</p>
+</blockquote>
+
+<ul>
+  <li><strong>ALL</strong> Significa todos os serviços ou todos os clientes, dependendo apenas do campo em que se encontra.</li>
+  <li><strong>LOCAL</strong> Este curinga casa com qualquer nome de máquina que não contenha um caractere ponto “.”, isto é, uma máquina local.</li>
+  <li><strong>PARANOID</strong> Casa com qualquer nome de máquina que não case com seu endereço. Isto geralmente ocorre quando algum servidor DNS está mal configurado ou quando alguma máquina está tentando se passar por outra.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.allow</code></pre></figure>
+
+<p>O arquivo <strong>/etc/hosts.allow</strong> é um arquivo de configuração do programa <strong>/usr/sbin/tcpd</strong>. O arquivo <strong>hosts.allow</strong> contém regras descrevendo que hosts tem permissão de acessar um serviço em sua máquina.</p>
+
+<p>O formato do arquivo é muito simples</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.allow
+<span class="c"># lista de serviços: lista de hosts : comando</span></code></pre></figure>
+
+<ul>
+  <li>
+    <p><strong>lista de serviços</strong> É uma lista de nomes de serviços separados por vírgula que esta regra se aplica. Exemplos de nomes de serviços são: ftpd, telnetd e fingerd.</p>
+  </li>
+  <li>
+    <p><strong>lista de hosts</strong> É uma lista de nomes de hosts separada por vírgula. Você também pode usar endereços IP’s aqui. Adicionalmente, você pode especificar nomes de computadores ou endereço IP usando caracteres coringas para atingir grupos de hosts.</p>
+  </li>
+</ul>
+
+<p>Exemplos incluem: <strong>gw.vk2ktj.ampr.org</strong> para conferir com um endereço de computador específico, <strong>.uts.edu.au</strong> para atingir qualquer endereço de computador finalizando com aquele string. Use <strong>200.200.200.</strong> para conferir com qualquer endereço <strong>IP</strong> iniciando com estes dígitos. Existem alguns parâmetros especiais para simplificar a configuração, alguns destes são: <strong>ALL</strong> atinge todos endereços, <strong>LOCAL</strong> atinge qualquer computador que não contém um “<strong>.</strong>” (ie. está no mesmo domínio de sua máquina) e <strong>PARANOI__D atinge qualquer computador que o nome não confere com seu endereço (__falsificação de nome</strong>).</p>
+
+<p>Existe também um último parâmetro que é também útil: o parâmetro <strong>EXCEPT</strong> lhe permite fazer uma lista de exceções. Isto será coberto em um exemplo adiante.</p>
+
+<ul>
+  <li><strong>comando</strong> É um parâmetro opcional. Este parâmetro é o caminho completo de um comando que deverá ser executado toda a vez que esta regra conferir. Ele pode executar um comando para tentar identificar quem esta conectado pelo host remoto, ou gerar uma mensagem via E-Mail ou algum outro alerta para um administrador de rede que alguém está tentando se conectar.</li>
+</ul>
+
+<p>Existem um número de expansões que podem ser incluídas, alguns exemplos comuns são: <strong>%h</strong> expande o endereço do computador que está conectado ou endereço se ele não possuir um nome, <strong>%d</strong> o nome do daemon sendo chamado.</p>
+
+<p>Se o computador tiver permissão de acessar um serviço através do <strong>/etc/hosts.allow</strong>, então o <strong>/etc/hosts.deny</strong> não será consultado e o acesso será permitido.</p>
+
+<p>Como exemplo</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.allow
+<span class="c"># Permite que qualquer um envie e-mails</span>
+<span class="k">in</span>.smtpd: ALL
+<span class="c"># Permitir telnet e ftp somente para hosts locais e myhost.gnulinuxbr.com</span>
+<span class="k">in</span>.telnetd, <span class="k">in</span>.ftpd: LOCAL, myhost.gnulinuxbr.com</code></pre></figure>
+
+<p>Qualquer modificação no arquivo <strong>/etc/hosts.allow</strong> entrará em ação após reiniciar o daemon inetd. Isto pode ser feito com o comando kill -HUP [pid do inetd], o pid do inetd pode ser obtido com o comando</p>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>ps ax</td>
+        <td>grep inetd.</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.deny</code></pre></figure>
+
+<p>O arquivo <strong>/etc/hosts.deny</strong> é um arquivo de configuração das regras descrevendo quais computadores não tem a permissão de acessar um serviço em sua máquina.</p>
+
+<p>Um modelo simples deste arquivo se parece com isto</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/hosts.deny
+<span class="c"># Bloquear o acsso SSH para todos, exceto para a rede 10.0.0.0</span>
+sshd: ALL EXCEPT 10.0.0.0/24</code></pre></figure>
+
+<p>Tendo um padrão <strong>ALL: ALL</strong> no arquivo <strong>/etc/hosts.deny</strong> e então ativando especificamente os serviços e permitindo computadores que você deseja no arquivo <strong>/etc/hosts.allow</strong> é a configuração mais segura.</p>
+
+<p>Qualquer modificação no arquivo <strong>/etc/hosts.deny</strong> entrará em ação após reiniciar o <strong>daemon inetd</strong>. Isto pode ser feito com o comando <strong>kill -HUP [pid do inetd]</strong>, o pid do inetd pode ser obtido com o comando <strong>ps ax|grep inetd</strong>.
+Importante saber
+O arquivo hosts.deny é consultado depois de hosts.allow, permitindo ao administrador definir regras específicas de permissão, que serão aplicadas antes das regras de proibição ou de uma negativa geral.</p>
+
+<h2 id="exemplo-de-configuração-do-tcp_wrappers">Exemplo de Configuração do tcp_wrappers</h2>
+
+<blockquote>
+  <p>Exemplos dos arquivos /etc/hosts.allow e /etc/hosts.deny</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">Arquivo /etc/hosts.deny
+ALL:ALL
+Arquivo /etc/hosts.allow
+ALL: localhost
+<span class="k">in</span>.ftpd: .minhaorganizacao
+ipop3d: ALL</code></pre></figure>
+
+<blockquote>
+  <p>Configuração do tcp_wrappers menos restritiva, considere o mesmo arquivo /etc/hosts.deny do exemplo anterior</p>
+  <h2 id="configuração-do-tcp_wrappers-menos-restritiva">Configuração do tcp_wrappers menos restritiva</h2>
+</blockquote>
+
+<blockquote>
+  <p>Arquivo /etc/hosts.allow
+ALL: localhost
+in.ftpd: .minhaorganizacao 10.0.0.0/255.255.255.0 192.168
+ipop3d: ALL EXCEPT gnulinuxbr.com</p>
+</blockquote>
+
+<p>Neste último caso, máquinas da rede “<strong>10.0.0.0/255.255.255.0</strong>” e máquinas em que o endereço <strong>IP</strong> inicie por “<strong>192.168.</strong>” também podem acessar o serviço <strong>FTP</strong>. Note que foi utilizado um operador novo para o serviço ipop3d: EXCEPT. Isto permitiu que o acesso a este serviço fosse liberado para todos, exceto para máquinas da rede “<strong>gnulinuxbr.com</strong>”. O operador <strong>EXCEPT</strong> pode ser utilizado tanto na lista de clientes quanto na lista de serviços. Por exemplo, a linha</p>
+
+<blockquote>
+  <p><strong>ALL EXCEPT in.ftpd: ALL</strong></p>
+</blockquote>
+
+<p>no arquivo <strong>/etc/hosts.allow</strong> permite o acesso a todos os serviços, exceto o <strong>FTP</strong>, para qualquer máquina.
+Todos os acessos, bem-sucedidos ou não, são registrados através do syslog, em <strong>/var/log/secure</strong>. É recomendado que este arquivo seja periodicamente <strong>analisado à procura de tentativas de invasão</strong>. Testando a Configuração Negue certos serviços para uma máquina de sua rede (como por exemplo o serviço telnet) e após reinicializar o <strong>xinetd</strong>, procure fazer acessos da máquina onde o serviço foi negado.</p>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

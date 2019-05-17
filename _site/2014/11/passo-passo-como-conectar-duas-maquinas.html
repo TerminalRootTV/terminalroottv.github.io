@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo Cross-Over e Samba.</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo Cross-Over e Samba.">
+	<meta name="twitter:description" content="Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/rede/rede.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2014/11/passo-passo-como-conectar-duas-maquinas.html">
+	<meta property="og:title" content="Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo Cross-Over e Samba.">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/rede/rede.jpg">
+	
+	<meta property="og:description" content="Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2014/11/passo-passo-como-conectar-duas-maquinas.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo Cross-Over e Samba.</h2>
+    <h4>Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2014-11-08T22:18:00-02:00" itemprop="datePublished">Nov 8, 2014</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/rede/rede.jpg" alt="Linux x Windows" /></p>
+
+<p>1 - Criar o cabo Cross-Over TP(par trançado): <a href="http://www.infowester.com/tutcabosredes.php">Como criar “cabo crossover” e “cabo direto”</a></p>
+
+<p>2 - Criar uma conta no Windows com o mesmo nome e mesma senha(talvez) de uma conta no Linux <em>(procure no google como criar, caso não saiba)</em></p>
+
+<p>3 - Compartilhar a pasta ou unidade Windows e incluir o usuário Windows que você permitirá, e verificar permissões da rede e total:</p>
+
+<blockquote>
+  <p>clique com o botão direito em cima da pasta ou unidade e vá até propriedades e selecione compartilhar, no compartilhamento avançado(outra opção no mesmo menu) inclua o nome do usuário que receberá o acesso do Samba, ex.: marcos. Qualquer dúvida pesquise na internet como fazer isso.</p>
+</blockquote>
+
+<p>4 - Instalar o Samba e o smbclient no Linux:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>samba smbclient</code></pre></figure>
+
+<p>4.1 - Por comando vc deve utilizar o comando tipo esse exemplo, supondo que o ip da máquina Windows seja 10.1.1.3:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">smbclient <span class="nt">-L</span> 10.1.1.3 <span class="nt">-U</span> marcos</code></pre></figure>
+
+<p>5 - Criar um backup do <em>smb.conf</em> :</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /etc/samba
+<span class="nb">mkdir </span>backupsmb
+<span class="nb">cp </span>smb.conf backupsmb/
+<span class="nb">mv </span>backupsmb/smb.conf backupsmb/smb.conf.bkp</code></pre></figure>
+
+<p>6 - Editar o <em>smb.conf</em></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">vim /etc/samba/smb.conf</code></pre></figure>
+
+<p>use essa como base, mas altere com seus nomes de usuário:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>global]
+netbios name <span class="o">=</span> linux
+server string <span class="o">=</span> Servidor público
+workgroup <span class="o">=</span> WORKGROUP
+<span class="nb">local </span>master <span class="o">=</span> <span class="nb">yes
+</span>os level <span class="o">=</span> 100
+preferred master <span class="o">=</span> <span class="nb">yes
+</span>wins support <span class="o">=</span> <span class="nb">yes
+</span>map to guest <span class="o">=</span> bad user
+guest account <span class="o">=</span> marcos
+
+<span class="o">[</span>arquivos]
+path <span class="o">=</span> /mnt
+writable <span class="o">=</span> <span class="nb">yes
+</span>guest ok <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="o">[</span>backups]
+path <span class="o">=</span> /mnt
+writable <span class="o">=</span> <span class="nb">yes
+</span>guest ok <span class="o">=</span> <span class="nb">yes</span></code></pre></figure>
+
+<p>7 - Ao final o arquivo ficará mais ou menos assim, perceba que o <strong>global</strong> tá no meio do arquivo e os <strong>arquivos</strong> e <strong>backups</strong> estão no final: <strong>VEJA O CÓDIGO NO FINAL DESTE POST</strong></p>
+
+<p>8 - Crie um usuario samba no Linux, com a mesma senha (não necessariamente) do usuário que existe no sistema Linux e no Windows, e dê a permissão para a montagem:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">smbpasswd <span class="nt">-a</span> marcos
+<span class="nb">chown</span> <span class="nt">-R</span> marcos:marcos /mnt</code></pre></figure>
+
+<p>9 - Pare e inicie o daemon do Samba:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/init.d/samba stop
+/etc/init.d/samba start</code></pre></figure>
+
+<p>10 - Teste o samba, …:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">testparm</code></pre></figure>
+
+<p>11 - Configure a placa de rede no Windows:</p>
+
+<ul>
+  <li>clique com o botão direito no icone de rede no desktop, e depois em Alterar Configurações de Rede do Adaptador</li>
+  <li>clique com o botão direito em cima da placa de rede(se houver duas, desative a outra) e vá até propriedades</li>
+  <li>desative (desmarque o protocolo ipv6) e dê um duplo clique no ipv4, na janela que se abrirá, configure o ip da máquina, gateway e máscara, ex.:</li>
+</ul>
+
+<blockquote>
+  <p>ip  - 10.1.1.3</p>
+</blockquote>
+
+<blockquote>
+  <p>gateway - 10.1.1.2</p>
+</blockquote>
+
+<blockquote>
+  <p>máscara - 255.0.0.0</p>
+</blockquote>
+
+<ul>
+  <li>aplique e salve, se for o caso, depois feche</li>
+  <li>desative e ative a conexão de rede, para pegar as configurações e aguarde o reconhecimento da mesma.</li>
+</ul>
+
+<p>12 - Desative a placa de rede no Linux e reative com o ip e netmask correspondentes</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ipconfig eth0 down
+ipconfig eth0 10.1.1.2 netmask 255.0.0.0 up</code></pre></figure>
+
+<blockquote>
+  <p>obs.: Caso o icone da area de trabalho fique desconectado, desconsidere, confirme os dados com comando</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ifconfig</code></pre></figure>
+
+<p>Mais ou menos aparecerá:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">eth0 Link encap:Ethernet Endereço de HW 00:87:56:9e:88:41 
+ inet end.: 10.1.1.2 Bcast:10.255.255.255 Masc:255.0.0.0
+ endereço inet6: fe80::221:97ff:fe6d:6450/64 Escopo:Link
+ UP BROADCASTRUNNING MULTICAST MTU:1500 Métrica:1
+ RX packets:107715 errors:0 dropped:0 overruns:0 frame:0
+ TX packets:85580 errors:0 dropped:0 overruns:0 carrier:0
+ colisões:0 txqueuelen:1000 
+ RX bytes:126178753 <span class="o">(</span>120.3 MiB<span class="o">)</span> TX bytes:11810528 <span class="o">(</span>11.2 MiB<span class="o">)</span>
+ IRQ:25 Endereço de E/S:0x6000 
+
+lo Link encap:Loopback Local 
+ inet end.: 127.0.0.1 Masc:255.0.0.0
+ endereço inet6: ::1/128 Escopo:Máquina
+ UP LOOPBACKRUNNING MTU:16436 Métrica:1
+ RX packets:8159 errors:0 dropped:0 overruns:0 frame:0
+ TX packets:8159 errors:0 dropped:0 overruns:0 carrier:0
+ colisões:0 txqueuelen:0 
+ RX bytes:726321 <span class="o">(</span>709.2 KiB<span class="o">)</span> TX bytes:726321 <span class="o">(</span>709.2 KiB<span class="o">)</span></code></pre></figure>
+
+<p>13 - Depois ping no ip da maquina do windows pra ver se está tudo normal:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">ping 10.1.1.3 <span class="nt">-c3</span></code></pre></figure>
+
+<p>resultado, mais ou menos esse:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">PING 10.1.1.3 <span class="o">(</span>10.1.1.3<span class="o">)</span> 56<span class="o">(</span>84<span class="o">)</span> bytes of data.
+64 bytes from 10.1.1.3: <span class="nv">icmp_req</span><span class="o">=</span>1 <span class="nv">ttl</span><span class="o">=</span>128 <span class="nb">time</span><span class="o">=</span>0.169 ms
+64 bytes from 10.1.1.3: <span class="nv">icmp_req</span><span class="o">=</span>2 <span class="nv">ttl</span><span class="o">=</span>128 <span class="nb">time</span><span class="o">=</span>5.03 ms
+64 bytes from 10.1.1.3: <span class="nv">icmp_req</span><span class="o">=</span>3 <span class="nv">ttl</span><span class="o">=</span>128 <span class="nb">time</span><span class="o">=</span>0.168 ms
+
+<span class="nt">---</span> 10.1.1.3 ping statistics <span class="nt">---</span>
+3 packets transmitted, 3 received, 0% packet loss, <span class="nb">time </span>2000ms
+rtt min/avg/max/mdev <span class="o">=</span> 0.168/1.791/5.037/2.295 ms</code></pre></figure>
+
+<p>14 - Agora abra o Nautilus (uma pasta qualquer no modo gráfico), e aperte Ctrl+L, e na barra de endereços digite:</p>
+
+<blockquote>
+  <p>smb://10.1.1.3</p>
+</blockquote>
+
+<p>pedirá usuario, grupo e senha. Preencha com marcos(o nome que vc escolheu), <strong>WORKGROUP</strong> e a <em>senha</em> do <em>usuário</em>.</p>
+
+<p>pronto, vc acessará!</p>
+
+<h2 id="qualquer-duvida-é-só-comentar">Qualquer duvida é só comentar!</h2>
+
+<h3 id="abraços">Abraços!</h3>
+
+<h4 id="dados-do-smbconf">DADOS DO SMB.CONF:</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#</span>
+<span class="c"># Sample configuration file for the Samba suite for Debian GNU/Linux.</span>
+<span class="c">#</span>
+<span class="c">#</span>
+<span class="c"># This is the main Samba configuration file. You should read the</span>
+<span class="c"># smb.conf(5) manual page in order to understand the options listed</span>
+<span class="c"># here. Samba has a huge number of configurable options most of which </span>
+<span class="c"># are not shown in this example</span>
+<span class="c">#</span>
+<span class="c"># Some options that are often worth tuning have been included as</span>
+<span class="c"># commented-out examples in this file.</span>
+<span class="c"># - When such options are commented with ";", the proposed setting</span>
+<span class="c"># differs from the default Samba behaviour</span>
+<span class="c"># - When commented with "#", the proposed setting is the default</span>
+<span class="c"># behaviour of Samba but the option is considered important</span>
+<span class="c"># enough to be mentioned here</span>
+<span class="c">#</span>
+<span class="c"># NOTE: Whenever you modify this file you should run the command</span>
+<span class="c"># "testparm" to check that you have not made any basic syntactic </span>
+<span class="c"># errors. </span>
+<span class="c"># A well-established practice is to name the original file</span>
+<span class="c"># "smb.conf.master" and create the "real" config file with</span>
+<span class="c"># testparm -s smb.conf.master &gt;smb.conf</span>
+<span class="c"># This minimizes the size of the really used smb.conf file</span>
+<span class="c"># which, according to the Samba Team, impacts performance</span>
+<span class="c"># However, use this with caution if your smb.conf file contains nested</span>
+<span class="c"># "include" statements. See Debian bug #483187 for a case</span>
+<span class="c"># where using a master file is not a good idea.</span>
+<span class="c">#</span>
+
+<span class="c">#======================= Global Settings =======================</span>
+
+<span class="o">[</span>global]
+netbios name <span class="o">=</span> linux
+server string <span class="o">=</span> Servidor público
+workgroup <span class="o">=</span> WORKGROUP
+<span class="nb">local </span>master <span class="o">=</span> <span class="nb">yes
+</span>os level <span class="o">=</span> 100
+preferred master <span class="o">=</span> <span class="nb">yes
+</span>wins support <span class="o">=</span> <span class="nb">yes
+</span>map to guest <span class="o">=</span> bad user
+guest account <span class="o">=</span> marcos
+
+<span class="c">#### Networking ####</span>
+
+<span class="c"># The specific set of interfaces / networks to bind to</span>
+<span class="c"># This can be either the interface name or an IP address/netmask;</span>
+<span class="c"># interface names are normally preferred</span>
+<span class="p">;</span> interfaces <span class="o">=</span> 127.0.0.0/8 eth0
+
+<span class="c"># Only bind to the named interfaces and/or networks; you must use the</span>
+<span class="c"># 'interfaces' option above to use this.</span>
+<span class="c"># It is recommended that you enable this feature if your Samba machine is</span>
+<span class="c"># not protected by a firewall or is a firewall itself. However, this</span>
+<span class="c"># option cannot handle dynamic or non-broadcast interfaces correctly.</span>
+<span class="p">;</span> <span class="nb">bind </span>interfaces only <span class="o">=</span> <span class="nb">yes</span>
+
+
+
+<span class="c">#### Debugging/Accounting ####</span>
+
+<span class="c"># This tells Samba to use a separate log file for each machine</span>
+<span class="c"># that connects</span>
+ log file <span class="o">=</span> /var/log/samba/log.%m
+
+<span class="c"># Cap the size of the individual log files (in KiB).</span>
+ max log size <span class="o">=</span> 1000
+
+<span class="c"># If you want Samba to only log through syslog then set the following</span>
+<span class="c"># parameter to 'yes'.</span>
+<span class="c"># syslog only = no</span>
+
+<span class="c"># We want Samba to log a minimum amount of information to syslog. Everything</span>
+<span class="c"># should go to /var/log/samba/log.{smbd,nmbd} instead. If you want to log</span>
+<span class="c"># through syslog you should set the following parameter to something higher.</span>
+ syslog <span class="o">=</span> 0
+
+<span class="c"># Do something sensible when Samba crashes: mail the admin a backtrace</span>
+ panic action <span class="o">=</span> /usr/share/samba/panic-action %d
+
+
+<span class="c">####### Authentication #######</span>
+
+<span class="c"># "security = user" is always a good idea. This will require a Unix account</span>
+<span class="c"># in this server for every user accessing the server. See</span>
+<span class="c"># /usr/share/doc/samba-doc/htmldocs/Samba3-HOWTO/ServerType.html</span>
+<span class="c"># in the samba-doc package for details.</span>
+<span class="c"># security = user</span>
+
+<span class="c"># You may wish to use password encryption. See the section on</span>
+<span class="c"># 'encrypt passwords' in the smb.conf(5) manpage before enabling.</span>
+ encrypt passwords <span class="o">=</span> <span class="nb">true</span>
+
+<span class="c"># If you are using encrypted passwords, Samba will need to know what</span>
+<span class="c"># password database type you are using. </span>
+ passdb backend <span class="o">=</span> tdbsam
+
+ obey pam restrictions <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c"># This boolean parameter controls whether Samba attempts to sync the Unix</span>
+<span class="c"># password with the SMB password when the encrypted SMB password in the</span>
+<span class="c"># passdb is changed.</span>
+ unix password <span class="nb">sync</span> <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c"># For Unix password sync to work on a Debian GNU/Linux system, the following</span>
+<span class="c"># parameters must be set (thanks to Ian Kahan  for</span>
+<span class="c"># sending the correct chat script for the passwd program in Debian Sarge).</span>
+ passwd program <span class="o">=</span> /usr/bin/passwd %u
+ passwd chat <span class="o">=</span> <span class="k">*</span>Enter<span class="se">\s</span>new<span class="se">\s</span><span class="k">*</span><span class="se">\s</span>password:<span class="k">*</span> %n<span class="se">\n</span> <span class="k">*</span>Retype<span class="se">\s</span>new<span class="se">\s</span><span class="k">*</span><span class="se">\s</span>password:<span class="k">*</span> %n<span class="se">\n</span> <span class="k">*</span>password<span class="se">\s</span>updated<span class="se">\s</span>successfully<span class="k">*</span> <span class="nb">.</span>
+
+<span class="c"># This boolean controls whether PAM will be used for password changes</span>
+<span class="c"># when requested by an SMB client instead of the program listed in</span>
+<span class="c"># 'passwd program'. The default is 'no'.</span>
+ pam password change <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c">########## Domains ###########</span>
+
+<span class="c"># Is this machine able to authenticate users. Both PDC and BDC</span>
+<span class="c"># must have this setting enabled. If you are the BDC you must</span>
+<span class="c"># change the 'domain master' setting to no</span>
+<span class="c">#</span>
+<span class="p">;</span> domain logons <span class="o">=</span> <span class="nb">yes</span>
+<span class="c">#</span>
+<span class="c"># The following setting only takes effect if 'domain logons' is set</span>
+<span class="c"># It specifies the location of the user's profile directory</span>
+<span class="c"># from the client point of view)</span>
+<span class="c"># The following required a [profiles] share to be setup on the</span>
+<span class="c"># samba server (see below)</span>
+<span class="p">;</span> logon path <span class="o">=</span> <span class="se">\\</span>%N<span class="se">\p</span>rofiles<span class="se">\%</span>U
+<span class="c"># Another common choice is storing the profile in the user's home directory</span>
+<span class="c"># (this is Samba's default)</span>
+<span class="c"># logon path = \\%N\%U\profile</span>
+
+<span class="c"># The following setting only takes effect if 'domain logons' is set</span>
+<span class="c"># It specifies the location of a user's home directory (from the client</span>
+<span class="c"># point of view)</span>
+<span class="p">;</span> logon drive <span class="o">=</span> H:
+<span class="c"># logon home = \\%N\%U</span>
+
+<span class="c"># The following setting only takes effect if 'domain logons' is set</span>
+<span class="c"># It specifies the script to run during logon. The script must be stored</span>
+<span class="c"># in the [netlogon] share</span>
+<span class="c"># NOTE: Must be store in 'DOS' file format convention</span>
+<span class="p">;</span> logon script <span class="o">=</span> logon.cmd
+
+<span class="c"># This allows Unix users to be created on the domain controller via the SAMR</span>
+<span class="c"># RPC pipe. The example command creates a user account with a disabled Unix</span>
+<span class="c"># password; please adapt to your needs</span>
+<span class="p">;</span> add user script <span class="o">=</span> /usr/sbin/adduser <span class="nt">--quiet</span> <span class="nt">--disabled-password</span> <span class="nt">--gecos</span> <span class="s2">""</span> %u
+
+<span class="c"># This allows machine accounts to be created on the domain controller via the </span>
+<span class="c"># SAMR RPC pipe. </span>
+<span class="c"># The following assumes a "machines" group exists on the system</span>
+<span class="p">;</span> add machine script <span class="o">=</span> /usr/sbin/useradd <span class="nt">-g</span> machines <span class="nt">-c</span> <span class="s2">"%u machine account"</span> <span class="nt">-d</span> /var/lib/samba <span class="nt">-s</span> /bin/false %u
+
+<span class="c"># This allows Unix groups to be created on the domain controller via the SAMR</span>
+<span class="c"># RPC pipe. </span>
+<span class="p">;</span> add group script <span class="o">=</span> /usr/sbin/addgroup <span class="nt">--force-badname</span> %g
+
+<span class="c">########## Printing ##########</span>
+
+<span class="c"># If you want to automatically load your printer list rather</span>
+<span class="c"># than setting them up individually then you'll need this</span>
+<span class="c"># load printers = yes</span>
+
+<span class="c"># lpr(ng) printing. You may wish to override the location of the</span>
+<span class="c"># printcap file</span>
+<span class="p">;</span> printing <span class="o">=</span> bsd
+<span class="p">;</span> printcap name <span class="o">=</span> /etc/printcap
+
+<span class="c"># CUPS printing. See also the cupsaddsmb(8) manpage in the</span>
+<span class="c"># cupsys-client package.</span>
+<span class="p">;</span> printing <span class="o">=</span> cups
+<span class="p">;</span> printcap name <span class="o">=</span> cups
+
+<span class="c">############ Misc ############</span>
+
+<span class="c"># Using the following line enables you to customise your configuration</span>
+<span class="c"># on a per machine basis. The %m gets replaced with the netbios name</span>
+<span class="c"># of the machine that is connecting</span>
+<span class="p">;</span> include <span class="o">=</span> /home/samba/etc/smb.conf.%m
+
+<span class="c"># Most people will find that this option gives better performance.</span>
+<span class="c"># See smb.conf(5) and /usr/share/doc/samba-doc/htmldocs/Samba3-HOWTO/speed.html</span>
+<span class="c"># for details</span>
+<span class="c"># You may want to add the following on a Linux system:</span>
+<span class="c"># SO_RCVBUF=8192 SO_SNDBUF=8192</span>
+<span class="c"># socket options = TCP_NODELAY</span>
+
+<span class="c"># The following parameter is useful only if you have the linpopup package</span>
+<span class="c"># installed. The samba maintainer and the linpopup maintainer are</span>
+<span class="c"># working to ease installation and configuration of linpopup and samba.</span>
+<span class="p">;</span> message <span class="nb">command</span> <span class="o">=</span> /bin/sh <span class="nt">-c</span> <span class="s1">'/usr/bin/linpopup "%f" "%m" %s; rm %s'</span> &amp;amp<span class="p">;</span>
+
+<span class="c"># Domain Master specifies Samba to be the Domain Master Browser. If this</span>
+<span class="c"># machine will be configured as a BDC (a secondary logon server), you</span>
+<span class="c"># must set this to 'no'; otherwise, the default behavior is recommended.</span>
+<span class="c"># domain master = auto</span>
+
+<span class="c"># Some defaults for winbind (make sure you're not using the ranges</span>
+<span class="c"># for something else.)</span>
+<span class="p">;</span> idmap uid <span class="o">=</span> 10000-20000
+<span class="p">;</span> idmap gid <span class="o">=</span> 10000-20000
+<span class="p">;</span> template shell <span class="o">=</span> /bin/bash
+
+<span class="c"># The following was the default behaviour in sarge,</span>
+<span class="c"># but samba upstream reverted the default because it might induce</span>
+<span class="c"># performance issues in large organizations.</span>
+<span class="c"># See Debian bug #368251 for some of the consequences of *not*</span>
+<span class="c"># having this setting and smb.conf(5) for details.</span>
+<span class="p">;</span> winbind enum <span class="nb">groups</span> <span class="o">=</span> <span class="nb">yes</span>
+<span class="p">;</span> winbind enum <span class="nb">users</span> <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c"># Setup usershare options to enable non-root users to share folders</span>
+<span class="c"># with the net usershare command.</span>
+
+<span class="c"># Maximum number of usershare. 0 (default) means that usershare is disabled.</span>
+<span class="p">;</span> usershare max shares <span class="o">=</span> 100
+
+<span class="c">#======================= Share Definitions =======================</span>
+
+<span class="o">[</span>homes]
+ comment <span class="o">=</span> Home Directories
+ browseable <span class="o">=</span> no
+
+<span class="c"># By default, the home directories are exported read-only. Change the</span>
+<span class="c"># next parameter to 'no' if you want to be able to write to them.</span>
+ <span class="nb">read </span>only <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c"># File creation mask is set to 0700 for security reasons. If you want to</span>
+<span class="c"># create files with group=rw permissions, set next parameter to 0775.</span>
+ create mask <span class="o">=</span> 0700
+
+<span class="c"># Directory creation mask is set to 0700 for security reasons. If you want to</span>
+<span class="c"># create dirs. with group=rw permissions, set next parameter to 0775.</span>
+ directory mask <span class="o">=</span> 0700
+
+<span class="c"># By default, \\server\username shares can be connected to by anyone</span>
+<span class="c"># with access to the samba server.</span>
+<span class="c"># The following parameter makes sure that only "username" can connect</span>
+<span class="c"># to \\server\username</span>
+<span class="c"># This might need tweaking when using external authentication schemes</span>
+ valid <span class="nb">users</span> <span class="o">=</span> %S
+
+<span class="c"># Un-comment the following and create the netlogon directory for Domain Logons</span>
+<span class="c"># (you need to configure Samba to act as a domain controller too.)</span>
+<span class="p">;</span><span class="o">[</span>netlogon]
+<span class="p">;</span> comment <span class="o">=</span> Network Logon Service
+<span class="p">;</span> path <span class="o">=</span> /home/samba/netlogon
+<span class="p">;</span> guest ok <span class="o">=</span> <span class="nb">yes</span>
+<span class="p">;</span> <span class="nb">read </span>only <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="c"># Un-comment the following and create the profiles directory to store</span>
+<span class="c"># users profiles (see the "logon path" option above)</span>
+<span class="c"># (you need to configure Samba to act as a domain controller too.)</span>
+<span class="c"># The path below should be writable by all users so that their</span>
+<span class="c"># profile directory may be created the first time they log on</span>
+<span class="p">;</span><span class="o">[</span>profiles]
+<span class="p">;</span> comment <span class="o">=</span> Users profiles
+<span class="p">;</span> path <span class="o">=</span> /home/samba/profiles
+<span class="p">;</span> guest ok <span class="o">=</span> no
+<span class="p">;</span> browseable <span class="o">=</span> no
+<span class="p">;</span> create mask <span class="o">=</span> 0600
+<span class="p">;</span> directory mask <span class="o">=</span> 0700
+
+<span class="o">[</span>printers]
+ comment <span class="o">=</span> All Printers
+ browseable <span class="o">=</span> no
+ path <span class="o">=</span> /var/spool/samba
+ printable <span class="o">=</span> <span class="nb">yes
+ </span>guest ok <span class="o">=</span> no
+ <span class="nb">read </span>only <span class="o">=</span> <span class="nb">yes
+ </span>create mask <span class="o">=</span> 0700
+
+<span class="c"># Windows clients look for this share name as a source of downloadable</span>
+<span class="c"># printer drivers</span>
+<span class="o">[</span>print<span class="nv">$]</span>
+ comment <span class="o">=</span> Printer Drivers
+ path <span class="o">=</span> /var/lib/samba/printers
+ browseable <span class="o">=</span> <span class="nb">yes
+ read </span>only <span class="o">=</span> <span class="nb">yes
+ </span>guest ok <span class="o">=</span> no
+<span class="c"># Uncomment to allow remote administration of Windows print drivers.</span>
+<span class="c"># You may need to replace 'lpadmin' with the name of the group your</span>
+<span class="c"># admin users are members of.</span>
+<span class="c"># Please note that you also need to set appropriate Unix permissions</span>
+<span class="c"># to the drivers directory for these users to have write rights in it</span>
+<span class="p">;</span> write list <span class="o">=</span> root, @lpadmin
+
+<span class="c"># A sample share for sharing your CD-ROM with others.</span>
+<span class="p">;</span><span class="o">[</span>cdrom]
+<span class="p">;</span> comment <span class="o">=</span> Samba server<span class="s1">'s CD-ROM
+; read only = yes
+; locking = no
+; path = /cdrom
+; guest ok = yes
+
+# The next two parameters show how to auto-mount a CD-ROM when the
+# cdrom share is accesed. For this to work /etc/fstab must contain
+# an entry like this:
+#
+# /dev/scd0 /cdrom iso9660 defaults,noauto,ro,user 0 0
+#
+# The CD-ROM gets unmounted automatically after the connection to the
+#
+# If you don'</span>t want to use auto-mounting/unmounting make sure the CD
+<span class="c"># is mounted on /cdrom</span>
+<span class="c">#</span>
+<span class="p">;</span> preexec <span class="o">=</span> /bin/mount /cdrom
+<span class="p">;</span> postexec <span class="o">=</span> /bin/umount /cdrom
+
+<span class="o">[</span>arquivos]
+path <span class="o">=</span> /mnt
+writable <span class="o">=</span> <span class="nb">yes
+</span>guest ok <span class="o">=</span> <span class="nb">yes</span>
+
+<span class="o">[</span>backups]
+path <span class="o">=</span> /mnt
+writable <span class="o">=</span> <span class="nb">yes
+</span>guest ok <span class="o">=</span> <span class="nb">yes</span></code></pre></figure>
+
+<h2 id="veja-um-vídeo-demonstrativo">Veja um Vídeo Demonstrativo</h2>
+
+<h1 id="como-acessar-arquivos-do-windows-pelo-linux-e-vice-versa">Como acessar Arquivos do Windows pelo Linux e vice versa</h1>
+
+<h1 id="clique-aqui-para-ver-o-vídeo"><a href="https://www.youtube.com/watch?v=WGTbBfdEgJ0">Clique Aqui para Ver o Vídeo</a></h1>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

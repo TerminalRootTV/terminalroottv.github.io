@@ -1,0 +1,121 @@
+#!/bin/bash
+#
+#----------[ Script para instalação do Arch Linux ]--------------+
+#                                                                |
+#  script : arch.in                                              |
+#  author : Marcos Oliveira <binbash@linuxmail.org>              |
+#  site   : http://terminalroot.com.br/shell                     |
+#  version: 2.1                                            |
+#  date   : 07/08/2018 20:57:08                                  |
+#  uso    : ./arch.in                                            |
+#                                                                |
+#----------------------------------------------------------------+
+#
+# Copyright 2018 terminalroot <terminalroot.com.br at gmail dot com>
+
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#
+# 1. Redistributions of source code must retain the above copyright notice, this
+# list of conditions and the following disclaimer.
+#
+# 2. Redistributions in binary form must reproduce the above copyright notice,
+# this list of conditions and the following disclaimer in the documentation
+# and/or other materials provided with the distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+# OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+
+tput reset
+setterm -cursor off
+E=$(echo -e "\e[31;1m");F=$(echo -e "\e[32;1m");Y=$(echo -e "\e[33;1m");P=$(echo -e "\e[34;1m");C=$(echo -e "\e[36;1m");B=$(echo -e "\e[37;1m");O="\e[m"
+ctrl_c(){
+	echo
+	setterm -cursor on
+	exit $?
+}
+trap ctrl_c SIGINT SIGTERM
+newmenu(){
+	cat <<NEWMENU
+	${C}
+      ┌─────────────────────────────────────────────────────────────────┐
+      │              ${P}TERMINAL ROOT${C} INSTALLER - ${Y}VERSION 2.1${C}              │
+      ├─────────────────────────────────────────────────────────────────┤
+      │                           ${F}ARCH LINUX${C}                            │
+      ├─────────────────────────────────────────────────────────────────┤
+      │                    ESCOLHA O TIPO DE INSTALACAO                 │
+      │                                                                 │
+      │              ${F}(1) - INSTALAR EM TODO DISCO;${C}                      │
+      │              ${Y}(2) - DUAL BOOT C/ WINDOWS;${C}                        │
+      │              ${E}(3) - INSTALACAO CUSTOMIZADA.${C}                      │
+      │              ${P}(4) - SAIR DO INSTALADOR.${C}                          │
+      │                                                                 │
+      │                                                                 │
+      │                  ${B}TECLE O NÚMERO DA OPCAO DESEJADA${C}               │
+      │              SAIBA MAIS EM: ${F}terminalroot.com.br/shell${C}           │
+      │                                                                 │
+      └─────────────────────────────────────────────────────────────────┘	
+
+NEWMENU
+}
+newmenu
+echo -e $O
+read -sn 1 OPCAO
+case $OPCAO in
+	1) echo -e "                 ${C}VOCÊ ESCOLHEU A OPÇAO: ${B}( $OPCAO )${C}, CONFIRMA ? ${B}[S/n]:${O} ";;
+	2) echo -e "                 ${C}VOCÊ ESCOLHEU A OPÇAO: ${B}( $OPCAO )${C}, CONFIRMA ? ${B}[S/n]:${O} ";;
+	3) echo -e "                 ${C}VOCÊ ESCOLHEU A OPÇAO: ${B}( $OPCAO )${C}, CONFIRMA ? ${B}[S/n]:${O} ";;
+	4) echo -e "                 ${Y}Saindo do Instalador.${O}\n" && setterm -cursor on && exit 1;;
+	*) echo -e "                 ${E}Opção inválida. Instalação cancelada.${O}\n" && setterm -cursor on && exit 1;;
+esac
+read -sn 1 CONFIRMA
+if [[ "$CONFIRMA" != @(S|s) ]]; then
+	echo -e "                 ${E}Instalação cancelada.${O}\n" && setterm -cursor on
+	exit $?
+else
+	if [[ -f "install.sh" ]]; then
+		rm "install.sh"
+	fi
+	clear
+	ctrl_c(){
+		echo
+		setterm -cursor on
+		tput reset
+		exit $?
+	}
+	trap ctrl_c SIGINT SIGTERM
+	setterm -cursor off
+	echo 
+	echo
+	_ct=$( echo $(tput cols) / 2 | bc)
+	_lt=$(echo ${_ct} - 16 | bc)
+	E=$(echo -e "\e[35;1m");F=$(echo -e "\e[32;1m");Y=$(echo -e "\e[33;1m");P=$(echo -e "\e[34;1m");C=$(echo -e "\e[36;1m");B=$(echo -e "\e[37;1m");O="\e[m"
+	while : ;do
+		tput cup 4 ${_lt};echo -e "${B}::. AGUARDE, PREPARANDO A INSTALAÇÃO .::${O}";tput cup 6 ${_ct};echo -en "▄ ▄ ▄";sleep 0.2;echo -en "\r";tput cup 6 ${_ct};echo -en "${B}▇${O} ▄ ▄";sleep 0.2;tput cup 6 ${_ct};echo -en "\r";tput cup 6 ${_ct};echo -en "▆ ${B}▇${O} ▄";sleep 0.2;tput cup 4 ${_lt};echo -e "::. AGUARDE, PREPARANDO A INSTALAÇÃO .::";tput cup 6 ${_ct};echo -en "\r";tput cup 6 ${_ct};echo -en "▄ ▆ ${B}▇${O}";sleep 0.2;tput cup 6 ${_ct};echo -en "\r";tput cup 6 ${_ct};echo -en "▄ ▄ ▆";tput cup 6 ${_ct};sleep 0.2;echo -en "\r"		
+		if [[ "$q" == "8" && -f "install.sh" ]]; then			
+			setterm -cursor on				
+			chmod +x install.sh
+			source install.sh
+			break			
+		fi		
+		if [[ ! -f "install.sh" ]]; then		
+			case $OPCAO in
+				1) _url="arch";;
+				2) _url="arch-v2";;
+				3) _url="arch-v2-1";;
+			esac			
+			$(wget https://gitlab.com/terminalroot/arch/raw/master/${_url}.in -O install.sh 2>/dev/null) &
+		fi		
+		let q=q+1	
+	done
+fi
+setterm -cursor on

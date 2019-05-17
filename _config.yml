@@ -1,0 +1,57 @@
+# Site settings
+title: 'Terminal Root'
+subtitle: 'Super Usuário da Tela Preta'
+email: contato@terminalroot.com.br
+author: 'Marcos Oliveira'
+description: > # this means to ignore newlines until "baseurl:"
+  Site, Blog sobre GNU/Linux, Shell Script, Gentoo e BSD. Cursos, Dicas, Tutoriais e mais sobre Desenvolvimento, Web e Tecnologia em geral.
+
+twitter_username: terminalroottv
+github_username:  terminalrootsh
+gitlab_username:  terminalroot
+youtube_username:  TerminalRootTV
+# 
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+highlighter: rouge
+permalink: /:year/:month/:title.html
+#
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Cursos
+    url: /cursos
+  - title: Shell Script
+    url: /shell
+  - title: Bash
+    url: /bash
+  - title: Blog
+    url: /blog
+  - title: Regex
+    url: /regex
+  - title: Sed
+    url: /sed
+  - title: Promo
+    url: /promo
+  - title: Linux
+    url: /linux
+  - title: Vim
+    url: /vim
+  - title: Awk
+    url: /awk
+  - title: Git
+    url: /git

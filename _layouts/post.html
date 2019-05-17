@@ -1,0 +1,28 @@
+---
+layout: default
+comments: true
+---
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>{{ page.title }}</h2>
+    <h4>{{ page.description }}</h4>
+	<p style="color: #babdb6;">
+		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	{{ content }}
+  </section>
+  </main>
+  
+  {% include marketing.html %}
+
+</div>
+

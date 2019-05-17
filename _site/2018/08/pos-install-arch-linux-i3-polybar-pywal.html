@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Pos Install Arch Linux + i3 + Polybar + Pywal</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="Pós instalação do Arch Linux do i3, Polybar, Pywal e mais dos aplicativos listados abaixo de forma Automatizada com Shell Script!">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Pos Install Arch Linux + i3 + Polybar + Pywal">
+	<meta name="twitter:description" content="Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/distros/popy.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2018/08/pos-install-arch-linux-i3-polybar-pywal.html">
+	<meta property="og:title" content="Pos Install Arch Linux + i3 + Polybar + Pywal">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/distros/popy.jpg">
+	
+	<meta property="og:description" content="Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2018/08/pos-install-arch-linux-i3-polybar-pywal.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Pos Install Arch Linux + i3 + Polybar + Pywal</h2>
+    <h4>Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2018-08-23T19:03:20-03:00" itemprop="datePublished">Aug 23, 2018</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p>Pós instalação do <a href="http://terminalroot.com.br/2018/07/como-instalar-facilmente-o-arch-linux.html">Arch Linux</a> do <a href="http://terminalroot.com.br/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html">i3</a>, <strong>Polybar</strong>, <strong>Pywal</strong> e mais dos aplicativos listados abaixo de forma <a href="http://terminalroot.com.br/shell">Automatizada com Shell Script</a>!</p>
+
+<ul>
+  <li>xorg;</li>
+  <li>fonts;</li>
+  <li>lightdm;</li>
+  <li>xterm;</li>
+  <li>firefox;</li>
+  <li>e bash-completion.</li>
+</ul>
+
+<hr />
+
+<p>Após a instalação que fizemos automatizada (<a href="http://terminalroot.com.br/2018/07/como-instalar-facilmente-o-arch-linux.html">Como Instalar Facilmente o Arch Linux</a>), não foi criada a senha de <strong>root</strong>, logo é necessário criarmos, para mais segurança, a menos que você já tenha criado e logo após isso atualizamos todo o sistema.</p>
+
+<p>Depois instalamos o <a href="https://www.gnu.org/software/wget/">wget</a>, pois ele só existia no <a href="https://www.archlinux.org/download/">CD de boot do Arch</a> . Após baixarmos nosso <strong>software</strong> para pós-instalação <strong>automatizada</strong>, damos permissão de execução ao <em>programa</em>, verificando quais opções estão disponíveis com o parâmetro <kbd>--help</kbd> e optimizamos o <em>espelho de rede</em>, para que as instalações fiquem mais <strong>rápidas</strong> com o parâmetro <kbd>--mirror</kbd>.</p>
+
+<p>Criamos e configuramos um <strong>usuário</strong> para ser o <strong>sudo</strong>. E então efetuamos a <strong>pós-instalação com nosso aplicativo ninja 😎</strong> !!! Após finalizado, <em>reiniciamos</em> o sistema.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">passwd
+pacman <span class="nt">-Syu</span>
+pacman <span class="nt">-S</span> wget
+wget terminalroot.com.br/pos-arch.in
+<span class="nb">chmod</span> +x pos-arch.in
+./pos-arch.in <span class="nt">--help</span>
+./pos-arch.in <span class="nt">--mirror</span>
+./pos-arch.in <span class="nt">--sudouser</span> <span class="o">[</span>seu-usuario]
+./pos-arch.in <span class="nt">--install</span>
+reboot</code></pre></figure>
+
+<p>Após iniciar sessão gráfica no <strong>i3</strong> , instalamos o <strong>Polybar</strong> e o <strong>Pywal</strong> com outro <strong>Shell Script Ninja</strong>: o <a href="https://gitlab.com/terminalroot/popy">Popy</a></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://gitlab.com/terminalroot/popy.git
+<span class="nb">cd </span>popy <span class="o">&amp;&amp;</span> ./popy.in <span class="nt">--all</span></code></pre></figure>
+
+<p>Além de outras dicas complementares que podem ser consultadas assistindo o vídeo abaixo:</p>
+
+<h1 id="clique-aqui-para-assistir-o-vídeo"><a href="https://www.youtube.com/watch?v=DdJb2N8twbU">Clique Aqui Para Assistir o Vídeo</a></h1>
+
+<p>Aprenda a criar aplicativos semelhantes ao <strong>pos-arch.in</strong> e o <strong>popy</strong> de forma PROFISSIONAL e EXTREMAMENTE AVANÇADA, adquirindo o <a href="http://terminalroot.com.br/shell">Curso Extremamente de Shell Script</a> !!!</p>
+
+<p>Acesse <a href="http://terminalroot.com.br/shell">http://terminalroot.com.br/shell</a> e saiba mais !!!</p>
+
+<h2 id="links-úteis">Links Úteis</h2>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">http://terminalroot.com.br/shell
+http://terminalroot.com.br/2018/07/como-instalar-facilmente-o-arch-linux.html
+http://terminalroot.com.br/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html
+https://gitlab.com/terminalroot/popy
+https://github.com/jaagr/polybar/
+https://github.com/dylanaraps/pywal
+https://wiki.archlinux.org/index.php/list_of_applications</code></pre></figure>
+
+<h2 id="comente-e-compartilhe">Comente e Compartilhe!</h2>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

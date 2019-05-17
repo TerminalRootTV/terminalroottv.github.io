@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Como Renderizar Markdown no Linux</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="Uma das maiores revoluções da internet foi o HTML e o Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido. F...">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Como Renderizar Markdown no Linux">
+	<meta name="twitter:description" content="O Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/dicas/md-linux.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2018/09/como-renderizar-markdown-no-linux.html">
+	<meta property="og:title" content="Como Renderizar Markdown no Linux">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/dicas/md-linux.jpg">
+	
+	<meta property="og:description" content="O Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2018/09/como-renderizar-markdown-no-linux.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Como Renderizar Markdown no Linux</h2>
+    <h4>O Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2018-09-07T06:21:46-03:00" itemprop="datePublished">Sep 7, 2018</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p>Uma das maiores revoluções da internet foi o <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> e o <a href="https://daringfireball.net/projects/markdown/">Markdown</a> existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido. Ficar escrevendo tags no início e fim, mesmo com IDEs ou para quem possui destreza, ainda assim é um grande esforço, e é para isso que existe o <strong>Markdown</strong>.</p>
+
+<h2 id="como-escrever-em-markdown">Como escrever em Markdown</h2>
+
+<p>O site oficial para informações sobre Markdown é <a href="https://daringfireball.net/projects/markdown/">https://daringfireball.net/projects/markdown/</a> , onde você poderá obter todas as dicas de utilização.</p>
+
+<p>No entanto, você ainda pode simplificar o entendimento e utilizar tutoriais alternativos, ou até mesmo <a href="https://is.gd/EPFKNK">pesquisar no seu buscador preferido cheat sheet de Markdown</a>, eu mesmo já fiz isso e encontrei essa imagem aqui que possui um resumo bem bacana.</p>
+
+<p><img src="md.png" alt="Cheat Sheet Markdown" title="Cheat Sheet Markdown" /></p>
+
+<h2 id="vamos-escrever-um-exemplo-básico">Vamos escrever um exemplo básico</h2>
+
+<p>Quando você cria um arquivo Markdown, para que o arquivo seja lido por um ‘<em>interpretador de Markdown</em>’ é necessário você definir a <strong>extensão</strong> do arquivo as duas mais utilizadas (apesar de haver outras) é <code class="highlighter-rouge">.md</code> ou <code class="highlighter-rouge">.markdown</code> , para esse exemplo vamos criar um arquivo <em>.md</em></p>
+
+<p><code class="highlighter-rouge">vim exemplo.md</code></p>
+
+<figure class="highlight"><pre><code class="language-md" data-lang="md"><span class="gh"># Essa é a tag h1</span>
+<span class="gu">## Essa é a tag h2</span>
+
+Aqui é só um parágrafo com a tag p
+<span class="gt">
+&gt; Isso é um blockquote</span>
+
+Nesse texto tem <span class="gs">**negrito**</span> <span class="ge">*italico*</span> e ~~aqui tem uma linha atravessada~~
+<span class="p">
++</span> Lista não ordenada
+<span class="p">+</span> Aqui também poderia ser <span class="err">*</span> com espaço
+<span class="p">+</span> Ou até mesmo - 
+
+| Tabela | Thead |
+|---|---|
+| 1 | Checkbox não selecionado |
+| 2 | Checkbox selecionado |
+| 3 | Aprenda markdown |
+
+Aqui em baixo um código Shell Script
+
+<span class="p">```</span><span class="nl">sh</span>
+<span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s1">'Exemplo de code pre em Markdown'</span>
+<span class="p">```</span><span class="sb">
+
+
+</span><span class="p">***
+</span>
+<span class="p">[</span><span class="nv">Aqui tem um link</span><span class="p">](</span><span class="sx">http://terminalroot.com.br</span><span class="p">)</span>
+
+<span class="p">![</span><span class="nv">Aqui uma imagem do Cheat Sheet do Markdown!</span><span class="p">](</span><span class="sx">md.png</span> <span class="nn">"aqui tem um title"</span><span class="p">)</span>
+
+<span class="gh"># Valeu!</span></code></pre></figure>
+
+<p>Pra você visualizar seu arquivo Markdown, existem várias maneiras. A mais utilizada é em endereços da Web que já possuem ‘persers’ no Servidores, exemplo: se você possuem uma conta no GitHub, Gitlab, Bitbucket e entre outros, ao você copiar o arquivo pra lá você já consegue visualizar: README.md, About.md, … mas muitas vezes você não deseja copiar pra lá pra visualizar seu arquivo Markdown, logo, existem alguns outras soluções, são elas:</p>
+
+<h3 id="renderizar-localmente-no-seu-navegador-web">Renderizar localmente no seu Navegador Web</h3>
+
+<p>Se você tentar abrir o arquivo md no browser do seu navegador, ele automaticamente irá tentar baixar o arquivo ou abrir numa aplicação instalada no seu PC, logo você precisará de um complemento para conseguir abrir o arquivo.</p>
+
+<p>Pesquise os complementos disponíveis para o seu navegador, bem como a versão do mesmo. Nesse caso aqui eu vou adicionar o complemento/add-on no <a href="https://www.gnu.org/software/gnuzilla/">GNU IceCat versão 52.0.2 (64-bit)</a>, para essa versão é possível eu instalar o <a href="https://addons.mozilla.org/en-US/firefox/addon/markdown-viewer/">Markdown Viewer</a> que é um complemento bem leve, simples e funcional, no netanto, para versões mais recentes dos navegadores baseados em Gecko, ele não funciona.</p>
+
+<p>Após instalar, conseguiremos abrir nosso arquivo exemplo de Markdown.</p>
+
+<h3 id="renderizar-em-um-aplicativo-no-linux">Renderizar em um aplicativo no Linux</h3>
+
+<p>Existem diversos aplicativos/editores para escrever e renderizar Markdown, pesquise na internet e escolha o que mais lhe interessa. No meu caso e para o sistema que eu utilizo, eu utilizo o <a href="https://github.com/retext-project/retext">ReText</a>, assim como outros da linha, ele escreve e visualiza em <em>dual-pane</em>, ou seja, em dois painéis .</p>
+
+<p>Para instalar o ReText pesquise no repositório do gerenciador da sua distribuição, no meu caso eu pesquisei o usando a ferramenta de pesquisa da distribuição que eu utilizo: <a href="http://terminalroot.com.br/2017/05/como-instalar-o-gentoo.html">Gentoo</a>:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--search</span> retext
+<span class="o">[</span> Results <span class="k">for </span>search key : retext <span class="o">]</span>
+Searching...
+
+<span class="k">*</span>  app-editors/retext
+      Latest version available: 7.0.3
+      Latest version installed: <span class="o">[</span> Not Installed <span class="o">]</span>
+      Size of files: 388 KiB
+      Homepage:      https://github.com/retext-project/retext https://github.com/retext-project/retext/wiki
+      Description:   Simple editor <span class="k">for </span>Markdown and reStructuredText
+      License:       GPL-2
+...</code></pre></figure>
+
+<p>Após encontrá-lo, basta instalá-lo <code class="highlighter-rouge">sudo emerge app-editors/retext</code>.</p>
+
+<p>Você ainda pode converter Markdown em HTML de maneira simples, pesquise sobre o <a href="http://pandoc.org/">Pandoc</a>, ex.: <code class="highlighter-rouge">emerge --search pandoc</code> e use ele para diversos formatos: LaTex, PDF, MD, …
+Exemplo, converter um arquivo <strong>.md</strong> em <strong>.html</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">pandoc arquivo.md <span class="nt">-o</span> arquivo.html</code></pre></figure>
+
+<p>Caso você possua um blog que não reconhece Markdown, não se preocupe, por exemplo, no <a href="https://www.blogger.com">Blogger</a>, se você copiar o conteúdo em Markdown e colar no local de escrever da sua postagem, automaticamente o Blogger irá converter em HTML, bem simples!</p>
+
+<p>Caso tenha ficado alguma dúvida, veja o vídeo abaixo para maiores elucidações;</p>
+<h1 id="clique-aqui-para-assistir-ao-vídeo"><a href="https://youtu.be/vAyz2Hnepuk">Clique Aqui Para Assistir ao Vídeo</a></h1>
+
+<h1 id="não-deixe-conhecer-nosso-treinamentos-que-farão-você-se-capacitar-ainda-mais-em-linux-e-sistemas-baseados-em-unix">Não deixe conhecer nosso Treinamentos que farão você se capacitar ainda mais em Linux e sistemas baseados em Unix</h1>
+<h1 id="httpterminalrootcombrcursos"><a href="http://terminalroot.com.br/cursos">http://terminalroot.com.br/cursos</a></h1>
+
+<h1 id="customize-sua-promoção-para-aquisição-de-mais-de-um-curso">Customize sua promoção para aquisição de mais de um curso:</h1>
+<h1 id="httpterminalrootcombrpromo"><a href="http://terminalroot.com.br/promo">http://terminalroot.com.br/promo</a></h1>
+
+<p>Conheça nosso Cursos Tutoriais Gratuitos sobre Git e LPI Linux</p>
+<h3 id="httpterminalrootcombrlinux"><a href="http://terminalroot.com.br/linux">http://terminalroot.com.br/linux</a></h3>
+<h3 id="httpterminalrootcombrgit"><a href="http://terminalroot.com.br/git">http://terminalroot.com.br/git</a></h3>
+
+<h1 id="comente-e-compartilhe">Comente e compartilhe!</h1>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

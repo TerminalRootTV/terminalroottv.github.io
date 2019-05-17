@@ -1,0 +1,2563 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Blog Terminal Root</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="Site, Blog sobre GNU/Linux, Shell Script, Gentoo e BSD. Cursos, Dicas, Tutoriais e mais sobre Desenvolvimento, Web e Tecnologia em geral.
+">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Blog Terminal Root">
+	<meta name="twitter:description" content="Artigos, séries, dicas e tutoriais.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/img/terminalroot.com.br.gif">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/blog/">
+	<meta property="og:title" content="Blog Terminal Root">
+	
+	<meta property="og:image" content="http://localhost:4000/img/terminalroot.com.br.gif">
+	
+	<meta property="og:description" content="Artigos, séries, dicas e tutoriais.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/blog/">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+  <div class="page-post-header-info text-center">
+    <h2>Blog Terminal Root</h2>
+    <h4>Artigos, séries, dicas e tutoriais.</h4>
+  </div>
+</section><!-- #page-post-header -->
+
+<br>
+
+<div class="container">
+<!-- blog-section-start -->
+<ul class="list-group">
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/05/conheca-o-projeto-mg-renders-feito-em-shell-script.html">Conheça o Projeto MG-Renders feito em Shell Script</a></h3>
+			<p>Projeto criado para automatizar o download de suas buscas no site mg-renders.net</p>
+			<p><a href="/2019/05/conheca-o-projeto-mg-renders-feito-em-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html">Calculate Linux com Cinnamon - Um Gentoo Prático</a></h3>
+			<p>Calculate Linux é uma distribuição Linux da Rússia baseada no Gentoo.</p>
+			<p><a href="/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html">5 Ferramentas para você usar no seu WM</a></h3>
+			<p>5 ferramentas (in)úteis, mas atrativas para usar no seu rice no #unixporn .</p>
+			<p><a href="/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/vscodium-um-vs-code-open-source-que-nao-te-rasrtreia.html">VSCodium - Um VS Code Open Source que NÃO te rastreia</a></h3>
+			<p>O VSCodium é um fork idêntico ao Visual Studio Code da Microsoft, somente com o ícone diferente.</p>
+			<p><a href="/2019/04/vscodium-um-vs-code-open-source-que-nao-te-rasrtreia.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/como-acessar-o-windows-pelo-linux-com-metasploit.html">Como Acessar o Windows pelo Linux com Metasploit</a></h3>
+			<p>Metasploit é um projeto de segurança da informação que fornece informações sobre vulnerabilidades de segurança e ajuda nos testes de penetração.</p>
+			<p><a href="/2019/04/como-acessar-o-windows-pelo-linux-com-metasploit.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/ghostbsd-simples-rapido-elegante.html">Conheça o GhostBSD - Um Sistema Simples, Rápido e Elegante</a></h3>
+			<p>GhostBSD é um sistema operacional baseado no FreeBSD , e é para desktops.</p>
+			<p><a href="/2019/04/ghostbsd-simples-rapido-elegante.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/04/como-deixar-seu-polybar-com-powerline.html">Como Deixar Seu POLYBAR com POWERLINE</a></h3>
+			<p>Assista o vídeo e veja como adicionar fonts Powerline ao Polybar</p>
+			<p><a href="/2019/04/como-deixar-seu-polybar-com-powerline.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html">Como Criar um Sistema de Desligamento para o i3 com Shell Script</a></h3>
+			<p>Nesse exemplo vamos usar uma ferramenta para Shell Script: Yad.</p>
+			<p><a href="/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/03/gentoo-i3-ly.html">Gentoo + i3 + Ly</a></h3>
+			<p>Nesse vídeo configuramos o Gentoo pós instalação.</p>
+			<p><a href="/2019/03/gentoo-i3-ly.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html">Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu</a></h3>
+			<p>Nesse vídeo também mostramos como configurar o Kernel Linux do Zero.</p>
+			<p><a href="/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/02/dragonflybsd-herbstluftwm-lemonbar.html">DragonFlyBSD + HerbstluftWM + Lemonbar</a></h3>
+			<p>Nesse vídeo instalamos e configuramos o Dragonflybsd, Herbstluftwm e o Lemonbar.</p>
+			<p><a href="/2019/02/dragonflybsd-herbstluftwm-lemonbar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/01/como-criar-um-fetch-estilo-screenfetch-e-neofetch-em-shell-script.html">Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT</a></h3>
+			<p>Nesse vídeo criamos do zero, um fetch que exibe logo em ASCII e informações do Sistema em Shell Script.</p>
+			<p><a href="/2019/01/como-criar-um-fetch-estilo-screenfetch-e-neofetch-em-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/01/ubuntu-i3gaps-albert-cava-polybar.html">Ubuntu + i3-gaps + Albert + Cava + Polybar</a></h3>
+			<p>Veja como instalar e configurar o i3-gaps, Albert, Cava e Polybar no Ubuntu 18.04</p>
+			<p><a href="/2019/01/ubuntu-i3gaps-albert-cava-polybar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/01/10-dicas-para-voce-usar-o-vim-como-um-ninja.html">10 DICAS para Você Usar o VIM como um NINJA</a></h3>
+			<p>O Vim é o editor de texto e IDE mais utilizado mundo.</p>
+			<p><a href="/2019/01/10-dicas-para-voce-usar-o-vim-como-um-ninja.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2019/01/como-customizar-o-grub.html">Como Customizar o Grub</a></h3>
+			<p>Veja como adicionar o tema da sua preferência e deixar seu Grub mais estiloso.</p>
+			<p><a href="/2019/01/como-customizar-o-grub.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/12/como-rodar-shell-script-e-python-via-apache-no-linux.html">Como Rodar Shell Script e Python via Apache no Linux</a></h3>
+			<p>Crie Sistemas Web com Shell Script ou Python de maneira rápida e prática.</p>
+			<p><a href="/2018/12/como-rodar-shell-script-e-python-via-apache-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/11/como-customizar-o-polybar-rofi-e-outros.html">Como Customizar o Polybar, Rofi e Outros</a></h3>
+			<p>Nesse vídeo finalizamos a série sobre o Funtoo Linux e customizamos e configuramos aplicativos.</p>
+			<p><a href="/2018/11/como-customizar-o-polybar-rofi-e-outros.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/11/extrair-dados-do-youtube-via-shell-script-versao-final.html">Extrair Dados do Youtube via Shell Script - VERSÃO FINAL</a></h3>
+			<p>Nesse vídeo finalizamos a primeira versão do aplicativo que extrai dados do Youtube via Shell Script.</p>
+			<p><a href="/2018/11/extrair-dados-do-youtube-via-shell-script-versao-final.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/11/funtoo-bspwm-polybar-rofi.html">Funtoo + Bspwm + Polybar + Rofi</a></h3>
+			<p>Nesse video ajustamos algumas configurações e instalamos o bspwm,polybar,rofi e outros no Funtoo.</p>
+			<p><a href="/2018/11/funtoo-bspwm-polybar-rofi.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/10/como-instalar-o-funtoo-pelo-ubuntu-ou-linux-mint.html">Como Instalar o Funtoo pelo Ubuntu ou Linux Mint</a></h3>
+			<p>Funtoo é um Sistema Operacional livre com o kernel Linux, baseado no Gentoo.</p>
+			<p><a href="/2018/10/como-instalar-o-funtoo-pelo-ubuntu-ou-linux-mint.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/10/serie-shell-script-pro-episodio-3.html">Série Shell Script Pro Episódio 3</a></h3>
+			<p>Criando repositório no Github e filtramos data de publicação, comentários e colocamos cores no script.</p>
+			<p><a href="/2018/10/serie-shell-script-pro-episodio-3.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/10/Etica-vigilancia-e-democracia-na-visao-de-richard-stallman.html">Ética, Vigilância e Democracia na visão de Richard Stallman</a></h3>
+			<p>O Software Livre possui um conceito superior a somente usar o termo Open Source.</p>
+			<p><a href="/2018/10/Etica-vigilancia-e-democracia-na-visao-de-richard-stallman.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/10/como-instalar-e-utilizar-o-gnome-pie-no-ubuntu.html">Como Instalar e Utilizar o gnome-pie no Ubuntu</a></h3>
+			<p>O Gnome-Pie é um lançador de aplicativos circular ( menu torta ) para Linux.</p>
+			<p><a href="/2018/10/como-instalar-e-utilizar-o-gnome-pie-no-ubuntu.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/10/6-dicas-bem-interessantes-para-seu-shell-linux.html">6 Dicas Bem Interessantes para seu Shell Linux</a></h3>
+			<p>Esse vídeo é o 2º Episódio da série Como Criar Shell Script Profissional.</p>
+			<p><a href="/2018/10/6-dicas-bem-interessantes-para-seu-shell-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/netbsd.html">NetBSD + ZSH + Oh My ZSH + LXDE c/ Openbox</a></h3>
+			<p>Nesse vídeo fizemos a instalação do NetBSD e mais alguns aplicativos.</p>
+			<p><a href="/2018/09/netbsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/aprenda-a-criar-shell-script-profissional-episodio-1.html">Aprenda a Criar Shell Script Profissional - Episódio 1</a></h3>
+			<p>Descubra como filtrar dados online utilizando Shell Script e Expressão Regular.</p>
+			<p><a href="/2018/09/aprenda-a-criar-shell-script-profissional-episodio-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html">Redcore Linux - um Gentoo Simples de Instalar</a></h3>
+			<p>O Redcore Linux é uma distribuição baseada no Gentoo Linux.</p>
+			<p><a href="/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/bspwm-review.html">BSPWM Review</a></h3>
+			<p>bspwm é um gerenciador de janelas leve, lado a lado, e minimalista escrito em C que organiza janelas em árvore binária completa.</p>
+			<p><a href="/2018/09/bspwm-review.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/conheca-o-poder-da-linha-de-comando-no-linux.html">Conheça o Poder da Linha de Comando no Linux</a></h3>
+			<p>Esse vídeo é uma compilação de dicas para aumentar sua produtividade, para isso vamos utilizar de cobaia um game em Shell Script.</p>
+			<p><a href="/2018/09/conheca-o-poder-da-linha-de-comando-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/como-renderizar-markdown-no-linux.html">Como Renderizar Markdown no Linux</a></h3>
+			<p>O Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido.</p>
+			<p><a href="/2018/09/como-renderizar-markdown-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/09/novo-curso-completo-de-expressoes-regulares.html">Novo Curso Completo de Expressões Regulares</a></h3>
+			<p>As Expressões Regulares estão em todas as linguagens de programação, editores de texto, processadores de texto, Servidores e entre outros.</p>
+			<p><a href="/2018/09/novo-curso-completo-de-expressoes-regulares.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/08/pos-install-arch-linux-i3-polybar-pywal.html">Pos Install Arch Linux + i3 + Polybar + Pywal</a></h3>
+			<p>Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.</p>
+			<p><a href="/2018/08/pos-install-arch-linux-i3-polybar-pywal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/08/curiosidade-divertida-do-manual-do-linux.html">Curiosidade e Tradução do Manual do Linux</a></h3>
+			<p>Trecho Do Capítulo 01 De Manuais do Módulo II Do Curso Extremamente Avançado De Shell Script.</p>
+			<p><a href="/2018/08/curiosidade-divertida-do-manual-do-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/08/como-fazer-facilmente-dual-boot-com-windows-7-e-arch-linux.html">Como fazer FACILMENTE Dual Boot com Windows 7 e Arch Linux</a></h3>
+			<p>Se você deseja ter o Windows 7 e o Arch Linux de forma simplificada.</p>
+			<p><a href="/2018/08/como-fazer-facilmente-dual-boot-com-windows-7-e-arch-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/08/coletanea-de-imagens-e-wallpapers-para-seu-linux.html">Uma Coletânea de Imagens e Wallpapers para seu Linux</a></h3>
+			<p>Você pode usar os designs fornecidos para quaisquer fins, como a criação camisetas, cartazes, canecas, adesivos e entre outros.</p>
+			<p><a href="/2018/08/coletanea-de-imagens-e-wallpapers-para-seu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html">Como Instalar e Configurar o i3wm e o i3blocks</a></h3>
+			<p>i3 é um gerenciador de janelas lado a lado projetado para X11, inspirado wmii, e escrito em C.</p>
+			<p><a href="/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/como-deixa-o-linux-mint-19-com-cara-de-macos.html">Como Deixar o Linux Mint 19 Com Cara de MacOS</a></h3>
+			<p>Dica rápida para aqueles que são entusiastas do macOS!</p>
+			<p><a href="/2018/07/como-deixa-o-linux-mint-19-com-cara-de-macos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/colecao-de-shell-script-bash-para-seu-linux.html">Coleção de Shell Script Bash Para Seu Linux</a></h3>
+			<p>Bash Snippets é uma coleção de Shell Script Bash com 19 ferramentas que servem pra você usar de forma rápida.</p>
+			<p><a href="/2018/07/colecao-de-shell-script-bash-para-seu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/openbsd-o-sistema-mais-seguro-do-mundo-instalacao-e-configuracao.html">OpenBSD - O Sistema mais Seguro do Mundo - Instalação e Configuração</a></h3>
+			<p>Nesse vídeo também customizamos o XFCE, além de dicas adicionais de compilação, Shell e muitas outras coisas.</p>
+			<p><a href="/2018/07/openbsd-o-sistema-mais-seguro-do-mundo-instalacao-e-configuracao.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/spacemacs-um-editor-para-desenvolvimento-profissional.html">Spacemacs um Editor para Desenvolvimento Profissional</a></h3>
+			<p>Spacemacs é uma customização do GNU Emacs, uma ferramenta profissional para desenvolvimento.</p>
+			<p><a href="/2018/07/spacemacs-um-editor-para-desenvolvimento-profissional.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/escaneado-redes-com-nmap.html">Escaneando Redes com NMAP</a></h3>
+			<p>O Nmap (Network Mapper) é um scanner de segurança, usado para descobrir hosts e serviços em uma rede de computadores , construindo assim um "mapa" da rede.</p>
+			<p><a href="/2018/07/escaneado-redes-com-nmap.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/monitore-seu-linux-com-graficos-pelo-terminal.html">Monitore seu Linux com Gráficos pelo Terminal</a></h3>
+			<p>Blessed é uma biblioteca de interface para terminal de alto nível construída em node.js que nos permite criar aplicativos de terminal impressionantes facilmente.</p>
+			<p><a href="/2018/07/monitore-seu-linux-com-graficos-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/por-que-o-canal-nao-fala-sobre-ubuntu.html">Por que o Canal Não Fala Sobre Ubuntu ?</a></h3>
+			<p>Bate papo interessante sobre minha história no Linux, para responder a pergunta sobre Ubuntu.</p>
+			<p><a href="/2018/07/por-que-o-canal-nao-fala-sobre-ubuntu.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/5-dicas-bem-legais-para-seu-linux.html">5 Dicas Bem Legais Para Seu Linux</a></h3>
+			<p>As 5 dicas servem para qualquer distribuição Linux: Ubuntu, Linux Mint, Debian e entre outros.</p>
+			<p><a href="/2018/07/5-dicas-bem-legais-para-seu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/07/como-instalar-facilmente-o-arch-linux.html">Como Instalar Facilmente o Arch Linux</a></h3>
+			<p>Veja como instalar o Arch Linux com dois comandos somente!</p>
+			<p><a href="/2018/07/como-instalar-facilmente-o-arch-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/06/enlightenment-desktop-uma-luz-pro-linux.html">Enlightenment Desktop - Uma Luz pro Linux</a></h3>
+			<p>Enlightenment é um desktop environment completamente open-source e independente que tem sido desenvolvido há mais de 10 anos.</p>
+			<p><a href="/2018/06/enlightenment-desktop-uma-luz-pro-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/06/novo-curso-extremamente-avancado-de-shell-script-bash.html">Novo Curso Extremamente Avançado de Shell Script Bash</a></h3>
+			<p>50% de DESCONTO !!! Absolutamente tudo sobre manuais, processos, animações em ASCII e Unicode, Games, Instalador profissional pro Arch e muito mais!</p>
+			<p><a href="/2018/06/novo-curso-extremamente-avancado-de-shell-script-bash.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/03/como-enviar-e-mails-pelo-terminal.html">Como Enviar E-Mails pelo Terminal</a></h3>
+			<p>Todos os clientes de e-mail são idiotas. Este só é um pouco menos!</p>
+			<p><a href="/2018/03/como-enviar-e-mails-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/03/distro-linux-no-windows-10.html">Distros Linux no Windows 10 - Qual a Necessidade Disso ?</a></h3>
+			<p>Assista caso você não tenha visto ao vivo e conheça a opinião dos participantes em relação a essa união.</p>
+			<p><a href="/2018/03/distro-linux-no-windows-10.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/03/como-usar-o-shell-bash-no-windows.html">Como Usar o Shell Bash no Windows</a></h3>
+			<p>Todos já sabem que agora é possível usar o Bash no Windows nativamente, então vamos dar algumas dicas.</p>
+			<p><a href="/2018/03/como-usar-o-shell-bash-no-windows.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/03/como-instalar-o-mac-os-x-em-virtualbox-no-linux.html">Como Instalar o Mac OS X em VirtualBox no Linux</a></h3>
+			<p>Nesse vídeo instalamos o Mac OS X - Sierra na VirtualBox dentro do Gentoo.Existe toda uma configuração própria para essa façanha, além de um script pelo comando VBoxManage.</p>
+			<p><a href="/2018/03/como-instalar-o-mac-os-x-em-virtualbox-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html">Como Instalar e Usar o Shell ZSH e o Oh My Zsh!</a></h3>
+			<p>Zsh é um shell de login interativo que também pode ser usado como um poderoso intérprete de linguagem de script. É semelhante ao bash e ao Korn shell, mas oferece uma grande capacidade de configuração.</p>
+			<p><a href="/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-modificar-um-game-em-python.html">Como Modificar um Game em Python</a></h3>
+			<p>Foi feita uma simples modificação num game básico: Gentoo War.</p>
+			<p><a href="/2018/02/como-modificar-um-game-em-python.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-compilar-programas-no-freebsd-via-ports.html">Como Compilar Programas no FreeBSD via Ports</a></h3>
+			<p>O Sistema de Ports, também chamado de Coleção de Ports ou simplesmente Ports, é um "sistema de instalação" de pacotes prático e eficiente utilizado pelo FreeBSD.</p>
+			<p><a href="/2018/02/como-compilar-programas-no-freebsd-via-ports.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-customizar-a-aparencia-do-gnome.html">Como Customizar Totalmente a Aparência do GNOME</a></h3>
+			<p>Alteração dos ícones, dash, dock, painel transparente, conky entr e outras modificações interessantes no GNOME.</p>
+			<p><a href="/2018/02/como-customizar-a-aparencia-do-gnome.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html">Como Instalar o Pentoo, um Gentoo para Pentest</a></h3>
+			<p>O Pentoo é uma distribuição Linux com o foco na segurança da informação. Ela é baseada na distribuição Gentoo, e é caracterizada por possuir uma seleção bastante diversificada de ferramentas de segurança e testes de rede.</p>
+			<p><a href="/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/a-importancia-da-mulher-do-software-livre-e-na-tecnologia-em-geral.html">A Importância da Mulher no Software Livre e na Tecnologia</a></h3>
+			<p>A participação da Mulher no SL e na Tecnologia em Geral ainda é muito baixa, qual a importância e como podemos contribuir para resolver esse problema ?</p>
+			<p><a href="/2018/02/a-importancia-da-mulher-do-software-livre-e-na-tecnologia-em-geral.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/02/como-instalar-o-sabayon-um-gentoo-facil.html">Como Instalar o Sabayon Linux, um Gentoo Fácil</a></h3>
+			<p>Sabayon Linux é uma distribuição Linux baseada no Gentoo.</p>
+			<p><a href="/2018/02/como-instalar-o-sabayon-um-gentoo-facil.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html">Rodando JavaScript via Terminal e Shell via JS</a></h3>
+			<p>PhantomJS é browser baseado em scripts, sem interface gráfica, para automatizar tarefas da web.</p>
+			<p><a href="/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html">Fish Shell, mais produtividade no seu Shell Script</a></h3>
+			<p>Fish é uma linha de comando inteligente mais amigável para usuários, disponível para Linux e Unix.</p>
+			<p><a href="/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/01/como-instalar-o-powerline.html">Como Instalar o Powerline</a></h3>
+			<p>O Powerline é um plugin de status para o terminal, vim, tmux e vários outros aplicativos.</p>
+			<p><a href="/2018/01/como-instalar-o-powerline.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2018/01/como-instalar-e-utlizar-o-tmux.html">Como Instalar E Utlizar O Tmux</a></h3>
+			<p>O tmux é um software que serve para multiplexar vários terminais</p>
+			<p><a href="/2018/01/como-instalar-e-utlizar-o-tmux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/12/curso-do-editor-de-textos-vim-para-iniciantes.html">Curso do Editor de Textos Vim Para Iniciantes</a></h3>
+			<p>Agilize suas tarefas e automatize seus códigos com o editor de texto Vim.</p>
+			<p><a href="/2017/12/curso-do-editor-de-textos-vim-para-iniciantes.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/12/como-conectar-ao-linux-pelo-windows-via-ssh.html">Como Conectar ao Linux pelo Windows via SSH</a></h3>
+			<p>O PuTTy é um software de emulação de terminal grátis e de código livre. Suporta SSH, destinado a suportar o acesso remoto a servidores via shell seguro e a construção de túneis cifrados entre servidores.</p>
+			<p><a href="/2017/12/como-conectar-ao-linux-pelo-windows-via-ssh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/12/como-customizar-a-aparencia-do-lxde.html">Como Customizar a Aparencia do LXDE</a></h3>
+			<p>LXDE é um ambiente de desktop open source para Unix e outras plataformas POSIX, como Linux e BSD. O nome LXDE significa "Lightweight X11 Desktop Environment.</p>
+			<p><a href="/2017/12/como-customizar-a-aparencia-do-lxde.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/12/como-instalar-o-lumina-desktop-no-freebsd.html">Como Instalar o Lumina Desktop no FreeBSD</a></h3>
+			<p>O Lumina Desktop Environment é um ambiente de desktop. Ele foi projetado para TrueOS e sistemas derivados do BSD em geral, mas foi portado para várias distribuições Linux.</p>
+			<p><a href="/2017/12/como-instalar-o-lumina-desktop-no-freebsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/12/como-criar-um-pull-request-no-github.html">Como Criar um Pull Request no Github</a></h3>
+			<p>Contribuir com Projetos Open Source é uma experiência gratificante!</p>
+			<p><a href="/2017/12/como-criar-um-pull-request-no-github.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/11/como-instalar-e-utilizar-as-funcoes-zz.html">Como Instalar e Utilizar as Funções ZZ</a></h3>
+			<p>Uma coletânea com 178 miniaplicativos de utilidades diversas, acessíveis e prontos para serem via linha de comando.</p>
+			<p><a href="/2017/11/como-instalar-e-utilizar-as-funcoes-zz.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/11/como-instalar-e-utilizar-o-pacote-terminalutils.html">Como Instalar e Utilizar o Pacote terminalutils</a></h3>
+			<p>Pacote que possui um conjunto de ferramentas para usar no dia a dia</p>
+			<p><a href="/2017/11/como-instalar-e-utilizar-o-pacote-terminalutils.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/11/editores-de-texto-linux.html">Os 5 Melhores Editores de Texto  de Todos os Tempos para Linux</a></h3>
+			<p>Um editor de texto é um aplicativo de edição de arquivos de texto, e sem dúvida são os softwares mais utilizados em informática.</p>
+			<p><a href="/2017/11/editores-de-texto-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/11/blog-linux-remover-arquivos-duplicados-fdupes-fslint.html">Veja Como remover arquivos duplicados no seu PC</a></h3>
+			<p>Fdupes é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios.</p>
+			<p><a href="/2017/11/blog-linux-remover-arquivos-duplicados-fdupes-fslint.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/11/como-optimizar-imagens-pelo-terminal.html">Como Optimizar Imagens Pelo Terminal</a></h3>
+			<p>Otimizar múltiplas imagens via linha de comando sem perder a qualidade da mesma.</p>
+			<p><a href="/2017/11/como-optimizar-imagens-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/10/como-instalar-o-compiz-no-gentoo-gnu-linux.html">Como Instalar o Compiz no Gentoo GNU/Linux</a></h3>
+			<p>Passo a passo para instalar o Compiz no Gentoo.</p>
+			<p><a href="/2017/10/como-instalar-o-compiz-no-gentoo-gnu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/10/a-aproximacao-da-microsoft-ao-software-livre.html">A aproximação da Microsoft ao Software Livre é positiva ?</a></h3>
+			<p>Vídeo que foi gravado ao vivo. Um debate sobre o tema que vem gerando questionamentos na comundidade do Software Livre.</p>
+			<p><a href="/2017/10/a-aproximacao-da-microsoft-ao-software-livre.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/10/como-criar-uma-imagem-iso-pelo-terminal.html">Como Criar Uma Imagem .iso Pelo Terminal</a></h3>
+			<p>Para esse feito utilizamos novamente o comando dd, com alguns parâmetros adicionais.</p>
+			<p><a href="/2017/10/como-criar-uma-imagem-iso-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/instalando-aplicativos-e-customizando-o-freebsd.html">Instalando Aplicativos e Customizando o FreeBSD</a></h3>
+			<p>Nesse vídeo finalizamos a Série #PorqueFreeBSD, instalamos aplicativos, alteramos a shell, adicionamos o usuário ao grupo wheel, alteramos o tema do SLiM e customizamos o MATE DE.</p>
+			<p><a href="/2017/09/instalando-aplicativos-e-customizando-o-freebsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-configurar-o-grub-para-enxergar-o-freebsd-no-linux.html">Como Configurar o Grub Para Enxergar o FreeBSD no Linux</a></h3>
+			<p>Caso você não consiga enxergar o FreeBSD no grub (no GNU/Linux), você precisa efetuar algumas modificações no grub pra enxergar o FreeBSD.</p>
+			<p><a href="/2017/09/como-configurar-o-grub-para-enxergar-o-freebsd-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-instalar-o-debian-remotamente-via-ssh.html">Como Instalar o Debian Remotamente via SSH</a></h3>
+			<p>Nesse vídeo foi demonstrado como instalar o Debian pela Internet ou Rede LAN utilizando as Opções Avançadas do instalador e o Expert Install.</p>
+			<p><a href="/2017/09/como-instalar-o-debian-remotamente-via-ssh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-instalar-o-mate-desktop-no-freebsd-11-1.html">Como Instalar o MATE Desktop no FreeBSD 11.1</a></h3>
+			<p>Como instalar o Xorg, MATE Desktop, SLiM e configurar o rc.conf utilizando o Easy Editor.</p>
+			<p><a href="/2017/09/como-instalar-o-mate-desktop-no-freebsd-11-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-instalar-debian-gnu-kfreebsd.html">Como Instalar o Debian GNU/kFreeBSD</a></h3>
+			<p>Debian GNU/kFreeBSD é um sistema operacional de propósito geral, uma distribuição oficial Debian com as ferramentas GNU , mas usando o kernel do FreeBSD</p>
+			<p><a href="/2017/09/como-instalar-debian-gnu-kfreebsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-instalar-o-freebsd-11-1.html">Como Instalar o FreeBSD 11.1</a></h3>
+			<p>Nesse vídeo tutorial é demonstrada a instalação do FreeBSD Release 11.1</p>
+			<p><a href="/2017/09/como-instalar-o-freebsd-11-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-gravar-cd-dvd-pelo-terminal.html">Como Gravar CD/DVD Pelo Terminal</a></h3>
+			<p>Programa para gravações de CD/DVD via linha de comando.</p>
+			<p><a href="/2017/09/como-gravar-cd-dvd-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/por-que-freebsd.html">Por que FreeBSD ?</a></h3>
+			<p>O FreeBSD é um sistema operacional livre do tipo Unix-like que provém do Research Unix via a Berkeley Software Distribution (BSD).</p>
+			<p><a href="/2017/09/por-que-freebsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-por-varias-distros-isos-no-mesmo-dvd-cd-de-boot.html">Como Pôr Várias Distros/ISOs no Mesmo DVD/CD de Boot</a></h3>
+			<p>O multicd.sh é um shell script projetado para criar uma imagem de CD de inicialização múltipla contendo muitas distribuições e/ou iso de diferentes Linux.</p>
+			<p><a href="/2017/09/como-por-varias-distros-isos-no-mesmo-dvd-cd-de-boot.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-clonar-particao-com-o-comando-dd.html">Como Clonar Partição com o Comando dd</a></h3>
+			<p>dd é uma linha de comandos em sistemas operacionais unix-like. Seu objetivo principal é o de converter e copiar arquivos.</p>
+			<p><a href="/2017/09/como-clonar-particao-com-o-comando-dd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/09/como-utilizar-o-gparted.html">Como Utilizar o GParted</a></h3>
+			<p>GParted (ou Gnome Partition Editor) é o aplicativo GNOME para edição de partições.</p>
+			<p><a href="/2017/09/como-utilizar-o-gparted.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/08/o-que-fazer-apos-instalacao-do-centos-red-hat-7.html">O Que Fazer Após Instalação do CentOS/Red Hat 7</a></h3>
+			<p>O vídeo mostra como atualizar o sistema com o yum instalar e remover programas, alterar ícone do painel do gnome, transformar em svg, alterar o host do computador...</p>
+			<p><a href="/2017/08/o-que-fazer-apos-instalacao-do-centos-red-hat-7.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/08/como-montar-particao-lvm-e-instalar-gnome-no-centos-red-hat-7-via-chroot.html">Como Montar Partição LVM e Instalar GNOME no CentOS-Red Hat 7 via chroot</a></h3>
+			<p>LVM é um método de alocar espaço do disco rígido em volumes lógicos que podem ser facilmente redimensionados, ao contrário das partições.</p>
+			<p><a href="/2017/08/como-montar-particao-lvm-e-instalar-gnome-no-centos-red-hat-7-via-chroot.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/08/como-instalar-o-centos-7-red-hat-32-bits.html">Como Instalar o CentOS 7 Red Hat  32 bits</a></h3>
+			<p>O CentOS, abreviação de Community ENTerprise Operating System, é uma distribuição Linux de classe corporativa derivada de códigos fonte gratuitamente distribuídos pela Red Hat Enterprise Linux e mantida pelo CentOS Project.</p>
+			<p><a href="/2017/08/como-instalar-o-centos-7-red-hat-32-bits.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/07/finalizando-a-customizacao-do-gentoo-linux.html">Finalizando a Customização do Gentoo Linux</a></h3>
+			<p>O Gentoo Linux pronto para uso!</p>
+			<p><a href="/2017/07/finalizando-a-customizacao-do-gentoo-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/07/o-que-fazer-apos-instalar-o-gentoo-linux.html">O Que Fazer Após Instalar o Gentoo Linux</a></h3>
+			<p>Algumas dicas de como instalar Interface Gráfica e configurações do sistema, logo após ser instalado.</p>
+			<p><a href="/2017/07/o-que-fazer-apos-instalar-o-gentoo-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/07/como-compilar-o-kernel-do-zero-no-gentoo-linux.html">Como Compilar o Kernel do Zero no Gentoo Linux</a></h3>
+			<p>O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gentoo provê aos seus usuários diversos possíveis fontes do kernel.</p>
+			<p><a href="/2017/07/como-compilar-o-kernel-do-zero-no-gentoo-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/06/reparando-a-instalacao-do-gentoo-instalando-xorg-e-gnome.html">Reparando a Instalação do Gentoo, instalando Xorg e GNOME</a></h3>
+			<p>Alterando o tipo de instalação do Gentoo, instalando o sistema com Xorg e Interface Gráfica</p>
+			<p><a href="/2017/06/reparando-a-instalacao-do-gentoo-instalando-xorg-e-gnome.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-instalar-o-gentoo.html">Como Instalar o Gentoo</a></h3>
+			<p>O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível.</p>
+			<p><a href="/2017/05/como-instalar-o-gentoo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-criar-um-alerta-em-bash-ao-final-de-um-evento.html">Como Criar um Alerta em Bash ao Final de um Evento</a></h3>
+			<p>Dica rápida e simples pra usar com xmessage.</p>
+			<p><a href="/2017/05/como-criar-um-alerta-em-bash-ao-final-de-um-evento.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/finalizando-a-customizacao-do-slackware.html">Finalizando a Customização do Slackware</a></h3>
+			<p>Instalamos o Slim Gerenciador de Login, deixamos o Firefox pt-BR entre outras alterações.</p>
+			<p><a href="/2017/05/finalizando-a-customizacao-do-slackware.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-personalizar-e-instalar-programas-no-slackware.html">Como Personalizar e Instalar Programas no Slackware</a></h3>
+			<p>O que fazer após a Instalação do Slackware 14.2</p>
+			<p><a href="/2017/05/como-personalizar-e-instalar-programas-no-slackware.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-instalar-o-mate-no-slackware-linux-142.html">Como Instalar o MATE no Slackware Linux 14.2</a></h3>
+			<p>Procedimento feito utilizando arquivos já empacotados para Slackware.</p>
+			<p><a href="/2017/05/como-instalar-o-mate-no-slackware-linux-142.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-conectar-a-internet-wi-fi-por-comando-no-slakware-linux.html">Como Conectar a Internet Wi-Fi por Comando no Slackware Linux</a></h3>
+			<p>A demonstração é feita para o Slackware Linux, no entanto, o procedimento serve pra qualquer distribuição Linux.</p>
+			<p><a href="/2017/05/como-conectar-a-internet-wi-fi-por-comando-no-slakware-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/05/como-instalar-o-slackware-linux-1402.html">Como Instalar o Slackware Linux 14.2</a></h3>
+			<p>Slackware é o nome da mais antiga e conhecida distribuição Linux mantida ainda em evidência.</p>
+			<p><a href="/2017/05/como-instalar-o-slackware-linux-1402.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/como-personalizar-a-aparencia-do-linux.html">Como Personalizar a Aparência do Linux</a></h3>
+			<p>Veja como alterar o tema e os ícones do seu perfil no GNU/Linux.</p>
+			<p><a href="/2017/04/como-personalizar-a-aparencia-do-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/diferencas-do-shell-bash-no-linux-para-o-mac-os-x.html">Diferenças do Shell Bash no Linux para o Mac OS X</a></h3>
+			<p>No Mac OS X a partir do Panther, o Bash é o Shell padrão do sistema, e ele já devidamente instalado para todos os usuários.</p>
+			<p><a href="/2017/04/diferencas-do-shell-bash-no-linux-para-o-mac-os-x.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/como-usar-o-shell-bash-no-windows.html">Como Usar o Shell Bash no Windows</a></h3>
+			<p>Todos já sabem que agora é possível usar o Bash no Windows nativamente, então vamos dar algumas dicas.</p>
+			<p><a href="/2017/04/como-usar-o-shell-bash-no-windows.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/acesse-seu-computador-pelo-navegador-com-shell-in-a-box.html">Acesse seu Computador pelo Navegador com Shell In A Box</a></h3>
+			<p>Shell in A Box é uma ferramenta que torna possível o acesso via SSH pelo Browser do Navegador</p>
+			<p><a href="/2017/04/acesse-seu-computador-pelo-navegador-com-shell-in-a-box.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/execute-comandos-do-shell-em-javascript-com-shelljs.html">Execute Comandos do Shell em JavaScript com ShellJS</a></h3>
+			<p>ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js.</p>
+			<p><a href="/2017/04/execute-comandos-do-shell-em-javascript-com-shelljs.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/procure-bugs-no-seu-codigo-shell-com-shellcheck.html">Procure bugs no seu Código Shell com ShellCheck</a></h3>
+			<p>Ferramenta online que faz análise no seu código.</p>
+			<p><a href="/2017/04/procure-bugs-no-seu-codigo-shell-com-shellcheck.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/obtenha-explicacoes-dos-comandos-do-shell.html">Obtenha Explicações dos Comandos do Shell</a></h3>
+			<p>Escreva uma linha de comando para ver o texto de ajuda que corresponde a cada argumento.</p>
+			<p><a href="/2017/04/obtenha-explicacoes-dos-comandos-do-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/como-calcular-o-tempo-de-multiplos-videos-com-shell-script.html">Como Calcular o Tempo de Múltiplos Vídeos com Shell Script</a></h3>
+			<p>O vídeo mostra como efetuar o cálculo do tempo total de múltiplos vídeos com Shell Script.</p>
+			<p><a href="/2017/04/como-calcular-o-tempo-de-multiplos-videos-com-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/04/como-preencher-formulario-web-pelo-terminal.html">Como Preencher Formulário Web Pelo Terminal</a></h3>
+			<p>Além de enviar dados pelo terminal para um formulário web, também foi demonstrado como pegar o IP através do HOST.</p>
+			<p><a href="/2017/04/como-preencher-formulario-web-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-boas-praticas.html">Os 10 Mandamentos do Shell - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Assista ao vídeo e descubra como fazer BOAS PRÁTICAS em Shell Script.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-boas-praticas.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-regex-grep-sed-awk-wildcards.html">Expressões Regulares, AWK, SED e Wildcards - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Assista ao vídeo e dscubra dicas e técnicas incríveis sobre esses assuntos.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-regex-grep-sed-awk-wildcards.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/como-compilar-o-yad-no-gnu-linux.html">Como Compilar o YAD no GNU/Linux</a></h3>
+			<p>Yad é um fork do Zenity, melhorado. É uma ferramenta para criar interface gráfica para o usuário (GUI) em Shell Script.</p>
+			<p><a href="/2017/03/como-compilar-o-yad-no-gnu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-debug-parser-bashrc-tty-ps.html">Debug, Parser, profile, TTY e PS - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Assista ao vídeo e dscubra dicas e técnicas incríveis sobre esses assuntos.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-debug-parser-bashrc-tty-ps.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-mysql.html">Conexão com MySQL - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Este vídeo se propõe a mostrar como podemos integrar Shell Script com banco de dados via Web.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-mysql.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-criar-sites.html">Como Criar Sites com Shell Script, Bootstrap e HTML5 - Curso de Shell</a></h3>
+			<p>Shell Script é tão completo, que exatamente tudo é possível fazer com ele. Pra você que gosta de Desenvolvimento Web, essa é uma dica e tanto.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-criar-sites.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-graficos.html">Como Criar Programas Gráficos e Interativos - Curso de Shell Script</a></h3>
+			<p>No mundo do Shell Script há possibilidade de criarmos também programas interativos pelo próprio terminal e programas gráficos.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-graficos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-matematica.html">Matemática - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Todas linguagens de programação precisam efetuar cálculos matemáticos e em Shell Script também.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-matematica.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-comandos.html">Comandos - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Se o usuário utiliza tais comandos, então ele se encontra no modo shell, também chamado de modo texto (ou GNU/Linux tradicional).</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-comandos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-fluxos.html">Fluxos de Entrada e Saída - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Em vez de testar o resultado de um comando ou entrada do usuário, você pode especificar pra um arquivo a entrada.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-fluxos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-loops.html">Loops - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>A maioria das linguagens tem o conceito de loops. Se quisermos repetir uma tarefa vinte vezes, não queremos digitar o código vinte vezes, com talvez uma ligeira mudança a cada vez.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-loops.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-condicoes.html">Condições - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Assim como qualquer outra linguagem de programação, o shell também tem estruturas para se fazer condicionais.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-condicoes.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-funcoes.html">Funções - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>As funções do Shell são uma forma de agrupar comandos para execução posterior, usando um único nome para esse grupo ou rotina.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-funcoes.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-variaveis-arrays.html">Variáveis e Arrays - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>O Bash possui maneiras próprias de tratar as variáveis e os arrays e várias mágicas que economizam trabalho.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-variaveis-arrays.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-primeiro-script.html">O Primeiro Script - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>O primeiro passo é, saber o que se deseja fazer, então ver qual o código que executa este comando em shell e aí criar, basta escrever o código em algum editor de texto e salvar.</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-primeiro-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-bash-linux-conceitos.html">Conceito - Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Shell é um interpretador de comandos que fica entre o usuário e o Kernel (núcleo).</p>
+			<p><a href="/2017/03/curso-de-shell-bash-linux-conceitos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/03/curso-de-shell-script-do-iniciante-ao-avancado-gratuito.html">Curso de Shell Script do Iniciante ao Avançado</a></h3>
+			<p>Shell Script é uma Linguagem de Script utilizada por vários Sistemas Operacionais (Linux, Mac OS X, BSD e Windows), que facilita a ordem de rotinas em diversas áreas.</p>
+			<p><a href="/2017/03/curso-de-shell-script-do-iniciante-ao-avancado-gratuito.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/dicas-importantes-para-seu-blog-no-github.html">Dicas Importantes para seu Blog no GitHub</a></h3>
+			<p>Não digitar toda hora git add, commit e push...entre outras dias valiosíssimas</p>
+			<p><a href="/2017/02/dicas-importantes-para-seu-blog-no-github.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/como-importar-seu-blog-do-blogger-para-o-github.html">Como Importar seu blog do Blogger, Wordpress,...para o GitHub</a></h3>
+			<p>Fácil, rápido, seguro e moderno, mude do Blogger, Wordpress ou outro para o GitHub Pages!</p>
+			<p><a href="/2017/02/como-importar-seu-blog-do-blogger-para-o-github.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/como-criar-blog-github.html">Como Criar um Blog no GitHub</a></h3>
+			<p>Tudo que você precisa saber para criar rapidamente um Blog no GitHub Pages.</p>
+			<p><a href="/2017/02/como-criar-blog-github.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/gnome-pie-um-lancador-de-aplicativos-para-sua-Area-de-trabalhoveja-como-instalar.html">GNOME-Pie, Um Lançador de Aplicativos Circular para o Desktop, Veja Como Instalar</a></h3>
+			<p>O Gnome-Pie é um Lançador de Aplicativos Circular para Linux.</p>
+			<p><a href="/2017/02/gnome-pie-um-lancador-de-aplicativos-para-sua-Area-de-trabalhoveja-como-instalar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/remarkable-editor-markdown-para-linux.html">Remarkable, Um Ótimo Editor MarkDown para Linux</a></h3>
+			<p>Remarkable é um editor markdown. É extremamente leve e tem uma interface limpa e usa a sintaxe Github Flavored Markdown (GFM).</p>
+			<p><a href="/2017/02/remarkable-editor-markdown-para-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/mathml-mathematical-markup-language.html">Crie Marcação Matemática em HTML com MathML</a></h3>
+			<p>Mathematical Markup Language - MathML é uma aplicação do XML para representar símbolos e fórmulas matemáticas, apontada na integração dela em documentos World Wide Web.</p>
+			<p><a href="/2017/02/mathml-mathematical-markup-language.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/100-melhores-ferramentas-de-seguranca-de-codigo-aberto.html">100 Melhores Ferramentas Open Source de Segurança</a></h3>
+			<p>Se você é um administrador de rede, um profissional de segurança ou um usuário final, é importante que você mantenha seu sistema limpo e seguro.</p>
+			<p><a href="/2017/02/100-melhores-ferramentas-de-seguranca-de-codigo-aberto.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/grave-a-tela-do-linux-gerando-um-gif-com-peek.html">Grave a Tela do Linux gerando um GIF com Peek</a></h3>
+			<p>Procurando uma ferramenta simples que lhe permite gravar sua tela e exportá-la como um GIF ?</p>
+			<p><a href="/2017/02/grave-a-tela-do-linux-gerando-um-gif-com-peek.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/02/como-pesquisar-no-google-pelo-terminal.html">Como Pesquisar no Google Pelo Terminal</a></h3>
+			<p>O Googler permite que você use a pesquisa do Google na linha de comando do Linux.</p>
+			<p><a href="/2017/02/como-pesquisar-no-google-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/curso-gratuito-de-git-e-github-para-iniciantes.html">Curso de Git e GitHub para Iniciantes</a></h3>
+			<p>Desenvolvedores em qualquer linguagem ou plataforma que desejam mais segurança para seus projetos com uma ferramenta de controle de versão.</p>
+			<p><a href="/2017/01/curso-gratuito-de-git-e-github-para-iniciantes.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/3-gui-frameworks-para-python-de-codigo-aberto.html">3 GUI Frameworks para Python de Código Aberto</a></h3>
+			<p>Chega um momento na jornada da maioria dos programadores que ele precisa construir uma interface gráfica para seu programa.</p>
+			<p><a href="/2017/01/3-gui-frameworks-para-python-de-codigo-aberto.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/codigo-de-linguagem-c-para-aprendizado.html">Código de Linguagem C para Aprendizado</a></h3>
+			<p>O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C.</p>
+			<p><a href="/2017/01/codigo-de-linguagem-c-para-aprendizado.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/10-alternativas-ao-minecraft-de-codigo-aberto.html">10 Alternativas ao Minecraft de Código Aberto</a></h3>
+			<p>Com uma comunidade enorme, existem inúmeros Gamers de Minecraft que adoraria ser capaz de alterar o código e apresentar coisas diferentes.</p>
+			<p><a href="/2017/01/10-alternativas-ao-minecraft-de-codigo-aberto.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/instale-e-jogue-secret-maryo-chronicles.html">Instale e Jogue Secret Maryo Chronicles</a></h3>
+			<p>Um jogo baseado no Super Mario Bros para GNU/Linux !</p>
+			<p><a href="/2017/01/instale-e-jogue-secret-maryo-chronicles.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/como-acessar-o-google-drive-pelo-terminal-linux.html">Como acessar o Google Drive pelo Terminal Linux</a></h3>
+			<p>O desenvolvedor Petter Rasmussen, sob MIT License , criou um aplicativo que torna possível esse acesso pelo Terminal</p>
+			<p><a href="/2017/01/como-acessar-o-google-drive-pelo-terminal-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/como-buscar-recursivamente-usando-o-grep.html">Dica rápida: Como buscar recursivamente usando o grep</a></h3>
+			<p>Muitos irão tentar usar o find com grep.</p>
+			<p><a href="/2017/01/como-buscar-recursivamente-usando-o-grep.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/jogue-flappy-bird-pelo-terminal.html">Jogue Flappy Bird pelo Terminal</a></h3>
+			<p>Flappy Bird é um jogo para dispositivos móveis que faz bastante sucesso, mas há uma versão escrita em SED por Valeriy Kireev.</p>
+			<p><a href="/2017/01/jogue-flappy-bird-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/como-usar-o-mouse-no-terminal.html">Como usar o mouse no terminal</a></h3>
+			<p>A principal funcionalidade de ter um mouse em um TERMINAL TTY é poder marcar um texto e colar este texto com o scroll do mouse por comando.</p>
+			<p><a href="/2017/01/como-usar-o-mouse-no-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/kaspersky-os-anti-hackers.html">Kaspersky OS, um Sistema Operacional à prova de hackers!</a></h3>
+			<p>Um produto totalmente inovador e que foi construído do zero para que o seu propósito fosse alcançado na plenitude.</p>
+			<p><a href="/2017/01/kaspersky-os-anti-hackers.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/configura-teclado-abnt2-debian.html">Dica rápida: Como Configurar o teclado ABNT2 no Debian</a></h3>
+			<p>Para configurar um teclado ABNT2 no Linux via linha de comando.</p>
+			<p><a href="/2017/01/configura-teclado-abnt2-debian.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2017/01/blogar-terminal-linux.html">Como Blogar pelo Terminal Linux</a></h3>
+			<p>Eu sei que muitos devem se perguntar: Por que postar pelo Terminal se existe a Interface Gráfica ? Simples, por vários motivos.</p>
+			<p><a href="/2017/01/blogar-terminal-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/script-basico-de-python-para-aprendizado.html">Script básico de Python para aprendizado</a></h3>
+			<p>Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'.</p>
+			<p><a href="/2016/12/script-basico-de-python-para-aprendizado.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/feliz-natal-com-bash-por-julio-neves.html">Feliz Natal com Bash por Julio Neves</a></h3>
+			<p>O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo de Shell Script.</p>
+			<p><a href="/2016/12/feliz-natal-com-bash-por-julio-neves.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/markdown.html">HTML é coisa do passado, o negócio agora é MarkDown!</a></h3>
+			<p>Desde que eu mudei o blog para o Github com Jekyll, eu descobri e venho me encantando cada vez mais com o MarkDown!</p>
+			<p><a href="/2016/12/markdown.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/alguns-codigos-simples-de-javascript-2.html">10 códigos úteis de JavaScript #2</a></h3>
+			<p>Comandos prontos pra copiar e colar!</p>
+			<p><a href="/2016/12/alguns-codigos-simples-de-javascript-2.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/semicode-os-linux-desenvolvedores.html">SemiCode OS - Um Linux para Programadores e Desenvolvedores Web</a></h3>
+			<p>Se olharmos para a vasta lista de várias distribuições Linux, existem soluções especializadas para hackers, usuários avançados, artistas e jogadores. Mas, há uma escassez de distros que afirmam servir as necessidades exclusivas dos programadores, provavelmente, porque a maioria dos sistemas operacionais baseados em Linux são personalizáveis e os desenvolvedores podem instalar todas as ferramentas úteis em nenhum momento.</p>
+			<p><a href="/2016/12/semicode-os-linux-desenvolvedores.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/12/blog-linux-goosh.html">Conheça o Goosh, o Shell para o Google</a></h3>
+			<p>Que tal pesquisar no Google via Linha de Comando ?</p>
+			<p><a href="/2016/12/blog-linux-goosh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-novo-blog-github-jekyll.html">Novo Blog Terminal Root com GitHub e Jekyll</a></h3>
+			<p>Nossa nova aventura em busca de tecnologia mais moderna e funcional.</p>
+			<p><a href="/2016/11/blog-linux-novo-blog-github-jekyll.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-windows.html">Como Fazer Acesso Remoto entre Linux e Windows</a></h3>
+			<p>Linux vs Windows</p>
+			<p><a href="/2016/11/blog-linux-windows.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-ssh.html">Como Fazer Acesso Remoto Gráfico no Linux via VNC</a></h3>
+			<p>Não é TeamViewer, é VNC</p>
+			<p><a href="/2016/11/blog-linux-ssh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-rede.html">Como Rodar Aplicativos Gráficos pela Rede no Linux</a></h3>
+			<p>Vídeo demonstrando como rodar aplicativos gráficos pela rede no Linux</p>
+			<p><a href="/2016/11/blog-linux-rede.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-apache-mysql-php.html">Como Instalar Apache, MySQL, e PHP no Linux</a></h3>
+			<p>Como Instalar Apache, MySQL, e PHP no Linux</p>
+			<p><a href="/2016/11/blog-linux-apache-mysql-php.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-eric-ide-python.html">Desenvolva aplicações em Python com Eric IDE</a></h3>
+			<p>Eric Python IDE é um ambiente de desenvolvimento integrado multiplataforma para desenvolvimento na linguagem Python desenvolvido usando QScintilla, Qt e PyQT.</p>
+			<p><a href="/2016/11/blog-linux-eric-ide-python.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-crie-aplicacoes-graficas-no-linux-com-glade.html">Crie aplicações gráficas no Linux com Glade</a></h3>
+			<p>Glade é um construtor de interface gráfica para GTK+ que facilita a criação de programas que se integram ao GNOME e outras GUIs.</p>
+			<p><a href="/2016/11/blog-linux-crie-aplicacoes-graficas-no-linux-com-glade.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-unix.html">Unix: o pai de todos os sistemas operacionais</a></h3>
+			<p>Se você ainda não ouviu falar desse sistema operacional,  provavelmente já escutou um bocado sobre sistemas feitos a partir dele.</p>
+			<p><a href="/2016/11/blog-linux-unix.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-lua.html">Lua uma linguagem de programação criada por brasileiros, e utilizada pelo mundo</a></h3>
+			<p>Lua foi criada por um time de desenvolvedores do Tecgraf da PUC-Rio, a princípio, para ser usada em um projeto da Petrobras.</p>
+			<p><a href="/2016/11/blog-linux-lua.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/11/blog-linux-nfs.html">Veja como compartilhar pastas no Linux com NFS</a></h3>
+			<p>Veja como compartilhar pastas no Linux com NFS</p>
+			<p><a href="/2016/11/blog-linux-nfs.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/blog-linux-ssh.html">Como acessar remotamente via SSH no Linux</a></h3>
+			<p>Secure Shell</p>
+			<p><a href="/2016/10/blog-linux-ssh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/blog-linux-ola-mundo-9-linguagens.html">Olá Mundo em 9 linguagens de programação</a></h3>
+			<p>Olá Mundo em 9 linguagens de programação</p>
+			<p><a href="/2016/10/blog-linux-ola-mundo-9-linguagens.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/gambas-o-visual-basic-open-source-para.html">Gambas, o Visual Basic Open Source para Linux</a></h3>
+			<p>Gambas é um ambiente de desenvolvimento integrado (IDE) para Linux uma alternativa Open Source ao Visual Basic .</p>
+			<p><a href="/2016/10/gambas-o-visual-basic-open-source-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/aprenda-usar-o-libreoffice.html">Aprenda usar o LibreOffice</a></h3>
+			<p>O LibreOffice é uma potente suíte de escritório; sua interface limpa e suas poderosas ferramentas libertam sua criatividade e melhoram sua produtividade.</p>
+			<p><a href="/2016/10/aprenda-usar-o-libreoffice.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/rode-javascript-pelo-terminal.html">Rode JavaScript pelo Terminal com PhantomJS</a></h3>
+			<p>Estamos falando de do PhantomJS . É browser webkit com API JavaScript completa que roda no terminal-console.</p>
+			<p><a href="/2016/10/rode-javascript-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/como-instalar-o-roblox-no-debian-e-no-ubuntu-linux.html">Como instalar o Roblox no Debian e no Ubuntu Linux</a></h3>
+			<p>Passos para rodar o game no seu computador</p>
+			<p><a href="/2016/10/como-instalar-o-roblox-no-debian-e-no-ubuntu-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/10/servidores-graficos-gerenciadores-de.html">Servidores Gráficos, Gerenciadores de Janelas e Interfaces no Linux</a></h3>
+			<p>Informações importantes!</p>
+			<p><a href="/2016/10/servidores-graficos-gerenciadores-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/09/aprenda-os-principais-comandos-do-linux.html">Aprenda os Principais Comandos do Linux</a></h3>
+			<p>Vídeo mostrando os principais comandos do GNU/Linux, assista!</p>
+			<p><a href="/2016/09/aprenda-os-principais-comandos-do-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/09/instale-o-free42-o-emulador-da-hp-42s.html">Instale o Free42 - O Emulador Da Hp-42s no Linux</a></h3>
+			<p>Free42 é uma re-implementação da calculadora HP-42S e a impressora HP-82240.</p>
+			<p><a href="/2016/09/instale-o-free42-o-emulador-da-hp-42s.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/08/deixar-o-vi-colorido-e-com-numeracao-de.html">Deixar o VI colorido e com numeracao de linhas</a></h3>
+			<p>Dica rápida!</p>
+			<p><a href="/2016/08/deixar-o-vi-colorido-e-com-numeracao-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/08/baixe-mais-de-7gb-de-tutoriais-de.html">Baixe mais de 7GB de Tutoriais de Tecnologia</a></h3>
+			<p>Baixe mais de 7GB de Tutoriais de Tecnologia</p>
+			<p><a href="/2016/08/baixe-mais-de-7gb-de-tutoriais-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/08/como-alterar-o-tema-do-gimp.html">Como alterar o Tema do GIMP</a></h3>
+			<p>Dê uma nova cara pro seu GIMP.</p>
+			<p><a href="/2016/08/como-alterar-o-tema-do-gimp.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/08/como-alterar-tela-de-abertura-do-gimp.html">Como alterar a Tela de Abertura do GIMP (Splash Screen)</a></h3>
+			<p>Como alterar a Tela de Abertura do GIMP (Splash Screen)</p>
+			<p><a href="/2016/08/como-alterar-tela-de-abertura-do-gimp.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/07/como-instalar-minecraft-no-linux-debian.html">Como Instalar o Minecraft no Debian</a></h3>
+			<p>Script com os links utilizados incluso.</p>
+			<p><a href="/2016/07/como-instalar-minecraft-no-linux-debian.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/07/linux.html">Conceito, História e Estrutura do Linux</a></h3>
+			<p>Assista o mais novo vídeo do nosso Canal do Youtube que informa de maneira objetiva.</p>
+			<p><a href="/2016/07/linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/07/gere-equipe-de-it-crowd-pelo-terminal.html">Gere a equipe de The IT Crowd pelo Terminal</a></h3>
+			<p>Há um projeto bem bacana no GitHub para gerar imagens ASCII da equipe do Suporte Técnico de The IT Crowd!</p>
+			<p><a href="/2016/07/gere-equipe-de-it-crowd-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/caracteristicas-de-freebsd-openbsd-e-netbsd.html">Características de: FreeBSD, OpenBSD e NetBSD</a></h3>
+			<p>O objetivo deste artigo é mostrar as características dos sistemas operacionais FreeBSD, OpenBSD e NetBSD</p>
+			<p><a href="/2016/05/caracteristicas-de-freebsd-openbsd-e-netbsd.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/comparando-bsd-e-linux.html">Comparando BSD e Linux</a></h3>
+			<p>Então qual é realmente a diferença entre, digamos, o Debian GNU/Linux e o FreeBSD ?</p>
+			<p><a href="/2016/05/comparando-bsd-e-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-pentoo-uma-distro-linux-para.html">Conheça Pentoo uma distro Linux para Hackers</a></h3>
+			<p>O Pentoo é um Live CD com o foco na segurança da informação.</p>
+			<p><a href="/2016/05/conheca-pentoo-uma-distro-linux-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-o-debian-edu-uma-distro.html">Conheça o Debian Edu uma distro Educacional baseada em Debian</a></h3>
+			<p>O Debian Edu, é um sistema operacional Debian GNU/Linux completo com aplicativos voltados pro ambiente educacional.</p>
+			<p><a href="/2016/05/conheca-o-debian-edu-uma-distro.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-black-arch-uma-distro-linux.html">Conheça Black Arch uma distro Linux para Pentests</a></h3>
+			<p>Black Arch Linux é uma Distro desenvolvida para realizar Pentests.</p>
+			<p><a href="/2016/05/conheca-black-arch-uma-distro-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/grave-o-audio-pelo-terminal-linux.html">Grave o áudio pelo Terminal Linux</a></h3>
+			<p>Você pode usar o ALSAMIXER e o ARECORD!</p>
+			<p><a href="/2016/05/grave-o-audio-pelo-terminal-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-backbox-um-linux-para-invasao.html">Conheça BackBox um Linux para Invasão</a></h3>
+			<p>BackBox é uma distribuição GNU/Linux derivada do Ubuntu, voltada para executar testes de penetração e de vulnerabilidade</p>
+			<p><a href="/2016/05/conheca-backbox-um-linux-para-invasao.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/analisando-o-ubuntu-studio.html">Analisando o Ubuntu Studio</a></h3>
+			<p>Ubuntu Studio  é uma distribuição Linux baseada no Ubuntu voltada para pessoas ligadas à edição de material multimídia como áudio, vídeo e imagem.</p>
+			<p><a href="/2016/05/analisando-o-ubuntu-studio.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-parrot-security-os-uma-distro.html">Conheça Parrot Security OS uma distro Linux para Teste de Invasão</a></h3>
+			<p>Distribuição GNU/LINUX baseada no Debian</p>
+			<p><a href="/2016/05/conheca-parrot-security-os-uma-distro.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-o-devuan-um-debian-sem-systehtml.html">Conheça o Devuan, um Debian sem systemd</a></h3>
+			<p>Devuan é um fork da distribuição Debian GNU/Linux.</p>
+			<p><a href="/2016/05/conheca-o-devuan-um-debian-sem-systehtml.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-distro-cyborg-linux-para-testes.html">Conheça a Distro Cyborg Linux para Testes Avançados de Invasão</a></h3>
+			<p>Neste artigo vamos apresentar o Cyborg Hawk Linux, uma distribuição para pentest baseada em Ubuntu.</p>
+			<p><a href="/2016/05/conheca-distro-cyborg-linux-para-testes.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/matriux-linux-uma-outra-opcao-ao-kali.html">Matriux Linux uma outra opção ao Kali Linux</a></h3>
+			<p>Matriux é um sistema operacional baseado em Linux de código aberto que é projetado de acordo com as necessidades dos investigadores de segurança e profissionais.</p>
+			<p><a href="/2016/05/matriux-linux-uma-outra-opcao-ao-kali.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/6-melhores-editores-de-videos-para.html">6 Melhores Editores de Vídeos para Debian GNU/Linux</a></h3>
+			<p>Escolha o melhor!</p>
+			<p><a href="/2016/05/6-melhores-editores-de-videos-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/os-8-melhores-editores-de-texto-para.html">Os 8 melhores Editores de Texto para Debian GNU/Linux</a></h3>
+			<p>Sempre que precisamos digitar textos rápidos ou desenvolver aplicações via linha de comando precisamos de EDITORES DE TEXTO para agilizar nossas tarefas</p>
+			<p><a href="/2016/05/os-8-melhores-editores-de-texto-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/diga-adeus-ao-microoft-windows.html">Diga Adeus ao Micro$oft Windows!</a></h3>
+			<p>Agora uma nova forma de instalação de distribuições Linux está disponível para usuários iniciantes que usam Windows.</p>
+			<p><a href="/2016/05/diga-adeus-ao-microoft-windows.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/os-20-melhores-softwares-para-producao.html">Os 20 Melhores Softwares para Produção e Edição de Áudio no Debian GNULinux</a></h3>
+			<p>LMMS, Rosegarden, Muse, Ardour,...entre outros</p>
+			<p><a href="/2016/05/os-20-melhores-softwares-para-producao.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/os-6-melhores-reprodutores-de-video.html">Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux</a></h3>
+			<p>Veja uma lista de Reprodutores de Vídeo pra Linux.</p>
+			<p><a href="/2016/05/os-6-melhores-reprodutores-de-video.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/slackware-conceitos-basicos-de-slapt-get.html">Slackware: conceitos básicos de slapt-get</a></h3>
+			<p>slapt-get é um sistema baseado no APT para gerenciamento de pacotes da distribuição Slackware</p>
+			<p><a href="/2016/05/slackware-conceitos-basicos-de-slapt-get.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/ubuntu-christian-um-ubuntu-linux-para.html">Ubuntu Christian: Um Ubuntu Linux para Cristãos</a></h3>
+			<p>Ubuntu Christian Edition (CE) é um sistema gratuito, open source voltado para os cristãos.</p>
+			<p><a href="/2016/05/ubuntu-christian-um-ubuntu-linux-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/conheca-o-ubuntu-satanico.html">Conheça o Ubuntu Satânico</a></h3>
+			<p>Ubuntu Satanic Edition (SE) é uma distribuição Linux baseada no Ubuntu.</p>
+			<p><a href="/2016/05/conheca-o-ubuntu-satanico.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/os-8-melhores-reprodutores-de-audio.html">Os 8 Melhores Reprodutores de Áudio para Debian GNU/Linux</a></h3>
+			<p>Na verdade existem muito mais reprodutores de áudio para Debian GNU/Linux, mas escolhi os que eu acredito que são os melhores e mais leves.</p>
+			<p><a href="/2016/05/os-8-melhores-reprodutores-de-audio.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/confira-o-mapa-submarino-dos-cabos-da.html">Confira o Mapa Submarino dos Cabos da Internet</a></h3>
+			<p>A TeleGeography disponibilizou um mapa de cabos que retrata sistemas de cabos submarinos planejados e ativos e suas estações de destino.</p>
+			<p><a href="/2016/05/confira-o-mapa-submarino-dos-cabos-da.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-instalar-o-compiz-no-debian-8-jessie-mate.html">Como instalar o COMPIZ no Debian 8 Jessie MATE</a></h3>
+			<p>Compiz foi um dos primeiros gerenciadores de janelas 3D para o servidor de janela X, onde foi usada aceleração OpenGL.</p>
+			<p><a href="/2016/05/como-instalar-o-compiz-no-debian-8-jessie-mate.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-instalar-o-cairo-dock-no-debian.html">Como instalar o Cairo Dock no Debian Jessie</a></h3>
+			<p>Vídeo explicativo!</p>
+			<p><a href="/2016/05/como-instalar-o-cairo-dock-no-debian.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-instalar-e-configurar-o-conky-no.html">Como instalar e configurar o Conky no Debian Jessie</a></h3>
+			<p>Esse Conky está com o Medidor de Graus zerado, devido a problemas relacionados a autorização, mas provavelmente haverá atualização com o link novo!</p>
+			<p><a href="/2016/05/como-instalar-e-configurar-o-conky-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-instalar-o-gdm3-ou-configurar-o.html">Como instalar o GDM3 ou configurar o LightDM no Debian</a></h3>
+			<p>Apesar de ser configurável e ser um ótimo Display Manager, há quem goste de uma forma diferente de logar no sistema.</p>
+			<p><a href="/2016/05/como-instalar-o-gdm3-ou-configurar-o.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-criar-slide-de-papel-de-parede-no.html">Como Criar Slide De Papel De Parede No Desktop Linux</a></h3>
+			<p>Crie slides com seus Wallpapers</p>
+			<p><a href="/2016/05/como-criar-slide-de-papel-de-parede-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/como-alterar-o-icone-do-painel.html">Como alterar o ICONE do Painel Principal no MATE</a></h3>
+			<p>Mude o ícone do painel ao seu gosto.</p>
+			<p><a href="/2016/05/como-alterar-o-icone-do-painel.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/porque-eu-nao-uso-linux.html">Porque eu não uso Linux</a></h3>
+			<p>Depois de mais de duas décadas do lançamento oficial do Linux e união com o projeto GNU, os usuários ainda sentem dificuldade em dar uma correta nomenclatura a esse sistema.</p>
+			<p><a href="/2016/05/porque-eu-nao-uso-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/dicas-de-o-que-fazer-pos-instalacao-do.html">Dicas de o que fazer pós instalação do Debian</a></h3>
+			<p>O que fazer após instalação do Debian 8 Jessie</p>
+			<p><a href="/2016/05/dicas-de-o-que-fazer-pos-instalacao-do.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/05/caelinux-uma-distribuicao-voltada-para.html">CAELinux, Uma Distro Linux voltada para Engenharia</a></h3>
+			<p>CAELinux é basicamente uma plataforma de distribuição com um conjunto completo de ferramentas de engenharia que estão disponíveis gratuitamente para usuários de Linux.</p>
+			<p><a href="/2016/05/caelinux-uma-distribuicao-voltada-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/lista-com-28-navegadores-para-linux.html">Lista com 28 Navegadores para Linux</a></h3>
+			<p>Criei uma lista com o número máximo que eu encontrei de navegadores disponíveis para GNU/Linux.</p>
+			<p><a href="/2016/04/lista-com-28-navegadores-para-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/aprenda-usar-o-packagekit-para.html">Aprenda usar o PackageKit para desenvolver suas aplicações</a></h3>
+			<p>PackageKit é um sistema projetado para fazer a instalação e atualização de software no seu computador mais fácil.""</p>
+			<p><a href="/2016/04/aprenda-usar-o-packagekit-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/como-instalar-o-debian-8-jessie.html">Como Instalar o Debian 8 Jessie</a></h3>
+			<p>Foram explicados diversos itens da instalação</p>
+			<p><a href="/2016/04/como-instalar-o-debian-8-jessie.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/como-acessar-arquivos-do-windows-pelo.html">Como Acessar arquivos do Windows pelo Linux e vice-versa</a></h3>
+			<p>Vídeo e Arquivo MODELO do smb.conf</p>
+			<p><a href="/2016/04/como-acessar-arquivos-do-windows-pelo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/top-5-melhores-distribuicoes-gnulinux.html">TOP 5 Melhores Distribuições GNU/Linux de Todos os Tempos</a></h3>
+			<p>Assista ao TOP5 TerminalRootTV</p>
+			<p><a href="/2016/04/top-5-melhores-distribuicoes-gnulinux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/04/debian-gnuhurd-uma-outra-opcao-ao-linux.html">Debian GNU/Hurd , uma outra opção ao Linux</a></h3>
+			<p>Debian GNU/Hurd é uma distribuição do sistema operacional GNU com o núcleo Hurd.</p>
+			<p><a href="/2016/04/debian-gnuhurd-uma-outra-opcao-ao-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/03/top-5-comandos-mais-perigosos-do.html">TOP 5 Comandos mais perigosos do GNU/Linux</a></h3>
+			<p>Veja o vídeo!</p>
+			<p><a href="/2016/03/top-5-comandos-mais-perigosos-do.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/02/como-criar-um-slide-de-imagens-ou.html">Como criar um SLIDE de IMAGENS ou VÍDEOS pelo TERMINAL</a></h3>
+			<p>Automatize criação de múltiplos Slides</p>
+			<p><a href="/2016/02/como-criar-um-slide-de-imagens-ou.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2016/01/como-gerar-numeros-aleatorios-sem.html">Como Gerar Números Aleatórios Sem Repetição em Shell Script</a></h3>
+			<p>Nesse vídeo , mostramos como gerar jogos para Loteria/Lotofácil utilizando Shell Script</p>
+			<p><a href="/2016/01/como-gerar-numeros-aleatorios-sem.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/12/funcao-shell-script-para-calculo-do.html">Função Shell Script para cálculo do Imposto de Renda e INSS</a></h3>
+			<p>Simule o valor do seu Imposto de Renda</p>
+			<p><a href="/2015/12/funcao-shell-script-para-calculo-do.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/11/lista-com-30-softwares-de-contabilidade_8.html">Lista com 30 Softwares de Contabilidade para Linux</a></h3>
+			<p>Para aqueles que gostam, trabalham ou estudam Ciências Contábeis e Contabilidade, vou listar alguns softwares que possam apresentar serventia.</p>
+			<p><a href="/2015/11/lista-com-30-softwares-de-contabilidade_8.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/10/conheca-distro-crunchbang-plus-plus.html">Conheça a Distro CrunchBang Plus Plus</a></h3>
+			<p>Pra quem conheceu o CrunchBang uma distro minimalista, baseada em Debian, que foi descontinuada, del surgiu a ideia do CrunchBang Plus Plus.</p>
+			<p><a href="/2015/10/conheca-distro-crunchbang-plus-plus.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/10/o-editor-de-texto-nano.html">O editor de texto Nano</a></h3>
+			<p>Nano é um editor que deve ser executado a partir de um terminal, e se concentra em simplicidade.</p>
+			<p><a href="/2015/10/o-editor-de-texto-nano.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/09/habilitando-cgi-e-sh-no-apache-do.html">Habilitando CGI e .sh no Apache do Debian Jessie</a></h3>
+			<p>O bom de usar CGI é que você pode executar comando do Shell Script na sua página Web.</p>
+			<p><a href="/2015/09/habilitando-cgi-e-sh-no-apache-do.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/09/curso-matematica-com-shell-script.html">Matemática com Shell Script</a></h3>
+			<p>Todas linguagens de programação precisam efetuar Cálculos Matemáticos e em Shell Script também.</p>
+			<p><a href="/2015/09/curso-matematica-com-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/45-exemplos-de-variaveis-e-arrays-em_19.html">45 Exemplos de Variáveis e Arrays em Shell Script</a></h3>
+			<p>Completíssimo</p>
+			<p><a href="/2015/08/45-exemplos-de-variaveis-e-arrays-em_19.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/como-criar-uma-galeria-de-fotos-pelo_19.html">Como criar uma galeria de fotos pelo Terminal</a></h3>
+			<p>Para você criar uma galeria estilo a da imagem dessa postagem é necessário que você possua o totem-video-thumbnailer.</p>
+			<p><a href="/2015/08/como-criar-uma-galeria-de-fotos-pelo_19.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/20-exemplos-do-comando-tput.html">20 exemplos do comando tput</a></h3>
+			<p>tput é um comando do sistema operacional Unix que faz uso de capacidades do terminal.</p>
+			<p><a href="/2015/08/20-exemplos-do-comando-tput.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/jogo-da-forca-em-shell-script.html">Jogo da Forca em Shell Script</a></h3>
+			<p>ESSE É O PRIMEIRO JOGO QUE EU CRIEI EM SHELL SCRIPT!</p>
+			<p><a href="/2015/08/jogo-da-forca-em-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/10-exemplos-do-comando-read.html">10 exemplos do comando read</a></h3>
+			<p>O comando read faz a leitura a partir de uma interação do usuário.</p>
+			<p><a href="/2015/08/10-exemplos-do-comando-read.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/script-para-remover-arquivos-e.html">Script para remover arquivos e diretórios com segurança</a></h3>
+			<p>Muitas vezes perdemos arquivos ou diretórios que não queríamos excluir com o comando rm.</p>
+			<p><a href="/2015/08/script-para-remover-arquivos-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/como-criar-caixas-de-dialogo-interativa.html">Como criar caixas de diálogo interativa com script shell</a></h3>
+			<p>Quando você instala um novo software no terminal, muitas vezes você pode ver as caixas de diálogo informativas aparecendo.</p>
+			<p><a href="/2015/08/como-criar-caixas-de-dialogo-interativa.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/veja-imagens-pelo-terminal.html">Veja imagens pelo Terminal</a></h3>
+			<p>O programa cacaview permite exibir imagens no terminal, através de arte textual com cores. Ele suporta vários formatos comuns, como PNG, JPEG, GIF e BMP.</p>
+			<p><a href="/2015/08/veja-imagens-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/como-obter-seu-ip-via-terminal.html">Como obter seu IP via Terminal</a></h3>
+			<p>Existem várias formas de obter seu IP via Terminal</p>
+			<p><a href="/2015/08/como-obter-seu-ip-via-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/08/enviando-e-mail-via-terminal.html">Enviando e-mail via Terminal</a></h3>
+			<p>Utilizando o Mutt</p>
+			<p><a href="/2015/08/enviando-e-mail-via-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/emulando-os-jogos-do-atari-no-linux.html">Emulando os jogos do Atari no Linux</a></h3>
+			<p>Jogue os games do Atari no GNU/Linux, com o emulador Stella.</p>
+			<p><a href="/2015/07/emulando-os-jogos-do-atari-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/como-criar-uma-leitura-pausada-em-shell.html">Como criar uma leitura pausada em Shell Script</a></h3>
+			<p>Veja o código e leia os cometários para exercitar</p>
+			<p><a href="/2015/07/como-criar-uma-leitura-pausada-em-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/gere-logos-no-seu-terminal-com-linuxlogo.html">Gere logos no seu terminal com LinuxLogo</a></h3>
+			<p>LinuxLogo é um pequeno utilitário que exibe um logotipo ANSI ou ASCII do pinguim Linux, juntamente com algumas informações do sistema ou não, ou seja, é opcional.</p>
+			<p><a href="/2015/07/gere-logos-no-seu-terminal-com-linuxlogo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/30-exemplos-do-comando-sed-com-regex.html">30 exemplos do comando sed - com regex</a></h3>
+			<p>O Sed é um editor de textos não interativo.Vem do inglês Stream EDitor, ou seja, editor de fluxos (de texto).</p>
+			<p><a href="/2015/07/30-exemplos-do-comando-sed-com-regex.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/20-exemplos-do-comando-find.html">20 exemplos do comando find</a></h3>
+			<p>find é um aplicativo para linha de comando de busca de arquivos utilizado em sistemas operativos Unix-like e derivados. </p>
+			<p><a href="/2015/07/20-exemplos-do-comando-find.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/procurando-e-movendo-removendo.html">Procurando e movendo, removendo, renomeando e mudando permissão</a></h3>
+			<p>Precisando automatizar algumas tarefas com a necessidade de agilizá-las e ainda se tratando de muitos arquivos, podemos facilitar muito este trabalho utilizando apenas uma linha.</p>
+			<p><a href="/2015/07/procurando-e-movendo-removendo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/como-capturar-senha-com-tcpdump-com.html">Como capturar a senha com TCPDump</a></h3>
+			<p>Isso serve como conhecimento de proteção, ou seja, alguém que está usando sua rede WI-FI por exemplo</p>
+			<p><a href="/2015/07/como-capturar-senha-com-tcpdump-com.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/jogue-housenka-no-terminal.html">Jogue Housenka no Terminal</a></h3>
+			<p>Pra quem gosta de jogos pelo terminal, aqui vai um boa dica de um jogo divertido e simples!</p>
+			<p><a href="/2015/07/jogue-housenka-no-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/assita-star-wars-pelo-terminal.html">Assista Star Wars pelo Terminal</a></h3>
+			<p>Direto do túnel do tempo, uma animação via telnet.</p>
+			<p><a href="/2015/07/assita-star-wars-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/aprenda-vim-jogando.html">Aprenda VIM , jogando!</a></h3>
+			<p>Um jogo on line que te faz aprender comandos do VIM.</p>
+			<p><a href="/2015/07/aprenda-vim-jogando.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/shell-script-enviando-dados-via.html">Enviando dados via Terminal para um formulário web</a></h3>
+			<p>Curl é uma ferramenta para transferir dados de ou para um servidor</p>
+			<p><a href="/2015/07/shell-script-enviando-dados-via.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/07/fish-mais-produtividade-no-seu-shell.html">Fish: mais produtividade no seu Shell Script</a></h3>
+			<p>Fish é uma linha de comando inteligente mais amigável para usuários, disponível para Linux e Unix.</p>
+			<p><a href="/2015/07/fish-mais-produtividade-no-seu-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/06/10-comandos-perigosos-que-voce-nunca.html">10 comandos perigosos que você nunca deve executar no GNU/Linux</a></h3>
+			<p>A linha de comando no GNU/Linux é muito produtiva, útil e interessante, no entanto, às vezes pode ser muito perigoso.</p>
+			<p><a href="/2015/06/10-comandos-perigosos-que-voce-nunca.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/05/divirta-se-colorindo-seu-terminal.html">Divirta-se colorindo seu terminal</a></h3>
+			<p>Divirta-se colorindo seu terminal</p>
+			<p><a href="/2015/05/divirta-se-colorindo-seu-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/05/criando-um-tabuleiro-de-xadrez-com.html">Criando um tabuleiro de xadrez com Shell Script</a></h3>
+			<p>Programação Shell Script de muita diversão. O script a seguir imprime um tabuleiro de xadrez com 8 × 8 quadrados intercalação preto e branco.</p>
+			<p><a href="/2015/05/criando-um-tabuleiro-de-xadrez-com.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/03/personalize-seu-shell-na-entrada-de-seu.html">Personalize seu shell na entrada de seu logon</a></h3>
+			<p>Você pode deixar seu Shell mais interessante e até mesmo deixar lembretes nele.</p>
+			<p><a href="/2015/03/personalize-seu-shell-na-entrada-de-seu.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/03/tratamento-de-imagens-com-imagemagick.html">Tratamento de imagens com ImageMagick</a></h3>
+			<p>ImageMagick é uma  poderosa ferramenta em modo texto para tratar imagens em suas diversas  formas: converter, redimensionar, criar, editar, cortar, juntar, editar  cores e mais um bilhão de funcionalidades.</p>
+			<p><a href="/2015/03/tratamento-de-imagens-com-imagemagick.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/03/como-gerar-desenhos-de-nomes-pelo.html">Como gerar desenhos de nomes pelo terminal</a></h3>
+			<p>Um programa para fazer grandes letras de texto comum.</p>
+			<p><a href="/2015/03/como-gerar-desenhos-de-nomes-pelo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/recuperando-e-configurando-o-grub-2-no.html">Recuperando e configurando o Grub 2 no Debian</a></h3>
+			<p>Veja o passo a passo para conseguir tal façanha.</p>
+			<p><a href="/2015/01/recuperando-e-configurando-o-grub-2-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/shell-script-validandotele.html">Shell Script validando com Expressões Regulares</a></h3>
+			<p>grep é um utilitário de linha de comando para procurar conjuntos de dados de texto simples para as linhas que correspondem a uma expressão regular.</p>
+			<p><a href="/2015/01/shell-script-validandotele.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/gerando-numeros-para-mega-sena-com.html">Gerando Números para Mega-Sena com Shell Script</a></h3>
+			<p>Script em Bash para gerar números para Mega-Sena, o Script foi melhorado e enviado por Diego Rocha.</p>
+			<p><a href="/2015/01/gerando-numeros-para-mega-sena-com.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/como-configurar-o-squid.html">Como configurar o Squid</a></h3>
+			<p>O Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros.</p>
+			<p><a href="/2015/01/como-configurar-o-squid.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/atalhos-da-linha-de-comando.html">Atalhos da linha de comando</a></h3>
+			<p>Agilize sua produtividade no terminal usando atalhos.</p>
+			<p><a href="/2015/01/atalhos-da-linha-de-comando.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/utilizando-ftp-por-comando.html">Utilizando FTP por comando</a></h3>
+			<p>FTP significa File Transfer Protocol ( Protocolo de Transferência de Arquivos ), e é uma forma bastante rápida e versátil de transferir arquivo</p>
+			<p><a href="/2015/01/utilizando-ftp-por-comando.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/utilizando-o-ssh.html">Utilizando o SSH</a></h3>
+			<p>Em informática o Secure Shell ou SSH é, simultaneamente, um programa de computador e um protocolo de rede que permite a conexão com outro computador na rede, de forma a executar comandos de uma unidade remota.</p>
+			<p><a href="/2015/01/utilizando-o-ssh.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2015/01/conectando-em-redes-wireless-no-linux.html">Conectando em Redes Wireless no Linux por comando</a></h3>
+			<p>Nesse post vou iniciar um processo de rede wireless para executarmos por comando.</p>
+			<p><a href="/2015/01/conectando-em-redes-wireless-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/como-utilizar-o-crontab.html">Como utilizar o Crontab</a></h3>
+			<p>O __cron__ é um programa de agendamento de tarefas.</p>
+			<p><a href="/2014/12/como-utilizar-o-crontab.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/quebrando-senha-de-root.html">Quebrando a senha de root</a></h3>
+			<p>Quebrando a senha de root</p>
+			<p><a href="/2014/12/quebrando-senha-de-root.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/criando-arquivos-targz-com-senha.html">Criando arquivos .tar.gz com senha</a></h3>
+			<p>Aqui vai uma dica para deixar seus arquivos compactados em tar.gz com senha, na verdade o arquivo será transformado num .gpg</p>
+			<p><a href="/2014/12/criando-arquivos-targz-com-senha.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/dicas-uteis-para-shell-script-2.html">Dicas úteis para Shell Script 2</a></h3>
+			<p>Continuação de dicas úteis.</p>
+			<p><a href="/2014/12/dicas-uteis-para-shell-script-2.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/dicas-uteis-para-shell-script.html">Dicas úteis para Shell Script</a></h3>
+			<p>Separei algumas dicas para Shell Script, deem uma analisada</p>
+			<p><a href="/2014/12/dicas-uteis-para-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/linguagem-c-utilizando-as-funcoes-fopen.html">Linguagem C: Utilizando as funções: fopen() , fputs() e fclose()</a></h3>
+			<p>O sistema de entrada e saída do ANSI C é composto por uma série de funções, cujos protótipos estão reunidos em stdio.h.</p>
+			<p><a href="/2014/12/linguagem-c-utilizando-as-funcoes-fopen.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/conectando-por-comando-com-chave.html">Conectando por comando com chave WPA/WPA2 a Wireless</a></h3>
+			<p>Bem, no outro post Conectando em Redes Wireless no Linux por comando mostrei como conectar por comando em chave WEP que é bem simples, nesse post aqui vou explicar para chaves WAP ou WAP2.</p>
+			<p><a href="/2014/12/conectando-por-comando-com-chave.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/como-solucionar-o-problema-nopubkey.html">Como solucionar o problema NO_PUBKEY</a></h3>
+			<p>Modo bem simples e funcional.</p>
+			<p><a href="/2014/12/como-solucionar-o-problema-nopubkey.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/como-criar-pacotes-deb.html">Como criar pacotes .deb</a></h3>
+			<p>Pacotes .deb facilitam a instalação de aplicativos.</p>
+			<p><a href="/2014/12/como-criar-pacotes-deb.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/12/tutorial-basico-de-awk.html">Tutorial básico de AWK</a></h3>
+			<p>AWK tem a mesma pronúncia de Auk, uma espécie de pássaro.</p>
+			<p><a href="/2014/12/tutorial-basico-de-awk.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/11/como-utilizar-o-iptables-netfilter.html">Como utilizar o Iptables (Netfilter)</a></h3>
+			<p>Eu estava configurando meu Firewall hoje e decidi escrever um Post sobre Iptables pra documentar algumas informações.</p>
+			<p><a href="/2014/11/como-utilizar-o-iptables-netfilter.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/11/passo-passo-como-conectar-duas-maquinas.html">Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo Cross-Over e Samba.</a></h3>
+			<p>Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo</p>
+			<p><a href="/2014/11/passo-passo-como-conectar-duas-maquinas.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/exemplos-de-funcoes-fread-fwrite-remove.html">Exemplos de funções: fread(), fwrite(), remove() e outras em C</a></h3>
+			<p>Exemplos de funções: fread(), fwrite(), remove() e outras em C</p>
+			<p><a href="/2014/10/exemplos-de-funcoes-fread-fwrite-remove.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/como-criar-um-dvd-de-multiplos-videos.html">Como criar um DVD de Múltiplos Vídeos no desktop Linux</a></h3>
+			<p>DeVeDe é um open-source (GPLv3) software de autoração de DVD que lhe permite criar um vídeo DVD, VCD, SVCD ou DivX a partir de qualquer número de arquivos de vídeo.</p>
+			<p><a href="/2014/10/como-criar-um-dvd-de-multiplos-videos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/jogos-para-o-terminal.html">Jogos para o Terminal</a></h3>
+			<p>10 dicas de jogos para o terminal</p>
+			<p><a href="/2014/10/jogos-para-o-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/gnu-shtool-ferramenta-portatil-para-o.html">GNU shtool - A Ferramenta portátil para o GNU Shell</a></h3>
+			<p>GNU shtool é uma compilação de scripts de pequenas, mas muito estáveis ​​e portáteis shell em uma única ferramenta shell.</p>
+			<p><a href="/2014/10/gnu-shtool-ferramenta-portatil-para-o.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/removendo-icones-da-area-de-trabalho-no.html">Removendo ícones da área de trabalho no MATE</a></h3>
+			<p>Por padrão, MATE mostra vários ícones no desktop: o conteúdo do seu diretório desktop, computador, home e diretórios de rede, a lixeira e as unidades montadas.</p>
+			<p><a href="/2014/10/removendo-icones-da-area-de-trabalho-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/linux-como-ver-estrutura-de-diretorios.html">Como ver a estrutura de diretórios em árvore</a></h3>
+			<p>Veja a árvore de diretórios completa.</p>
+			<p><a href="/2014/10/linux-como-ver-estrutura-de-diretorios.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/como-obter-informacoes-de-hardware-no.html">Como Obter Informações de Hardware no Linux</a></h3>
+			<p>Dicas de vários utilitários para ver seu hardware, sem falar dos mais conhecidos: lspci,...</p>
+			<p><a href="/2014/10/como-obter-informacoes-de-hardware-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/carta-de-stallman-para-dilma-e-os.html">Carta de Stallman para Dilma e os brasileiros</a></h3>
+			<p>Carta de Stallman para Dilma e os brasileiros</p>
+			<p><a href="/2014/10/carta-de-stallman-para-dilma-e-os.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/instalando-e-utilizando-o-screenlets.html">Instalando e utilizando o Screenlets</a></h3>
+			<p>Screenlets são pequenas aplicações que permitem que você coloque coisas como notas, relógios, calendários em seu desktop Linux.</p>
+			<p><a href="/2014/10/instalando-e-utilizando-o-screenlets.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/10/shell-extrair-os-numeros-do-cpf.html">Extrair os números do CPF formatado por Comando</a></h3>
+			<p>O tr é um comando muito versátil, especialmente útil para apagar caracteres indesejados.</p>
+			<p><a href="/2014/10/shell-extrair-os-numeros-do-cpf.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/resolvendo-bad-interpreter-no-bash.html">Resolvendo 'bad interpreter' no Bash</a></h3>
+			<p>bad interpreter: No such file or directory</p>
+			<p><a href="/2014/09/resolvendo-bad-interpreter-no-bash.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/alguns-comandos-gnulinux-por-categorias.html">Alguns comandos GNU/Linux por Categorias</a></h3>
+			<p>Uma lista completa de comandos GNU/Linux</p>
+			<p><a href="/2014/09/alguns-comandos-gnulinux-por-categorias.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/complementos-uteis-para-firefox.html">16 Complementos úteis para Firefox</a></h3>
+			<p>Veja uma lista selecionada de complementos para o Firefox.</p>
+			<p><a href="/2014/09/complementos-uteis-para-firefox.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/script-completo-para-pos-instalacoes-de.html">Script Completo para pós instalações de Debian Squeeze e Ubuntu</a></h3>
+			<p>Pós instalação das Distros Debian Squeeze ou Wheezy e Ubuntu Customizável desde o 12.04 e Debians-Like, um Script completo para instalar os aplicativos.</p>
+			<p><a href="/2014/09/script-completo-para-pos-instalacoes-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/twitando-via-shell-script.html">Twitando via Shell Script</a></h3>
+			<p>Ele usa o comando curl.</p>
+			<p><a href="/2014/09/twitando-via-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/transformando-multiplos-arquivos-flv.html">Transformando múltiplos arquivos FLV para MP3 com Shell Script</a></h3>
+			<p>Script em Bash pra transformar vários arquivos FLV para MP3 de uma só vez.</p>
+			<p><a href="/2014/09/transformando-multiplos-arquivos-flv.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/09/bangsh-framework-para-desenvolvimento.html">Bang.sh - Framework para Shell Script</a></h3>
+			<p>Iniciar uma aplicações em bash script geralmente é uma tarefa trabalhosa, mas o Bang.sh pode lhe ajudar.</p>
+			<p><a href="/2014/09/bangsh-framework-para-desenvolvimento.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/terminal-shell-em-javascript-on-line.html">Terminal Shell em JavaScript online</a></h3>
+			<p>JS/UIX é um sistema operacional UN*X-like para navegadores web padrão, escrito inteiramente em JavaScript (sem plugins usados).</p>
+			<p><a href="/2014/08/terminal-shell-em-javascript-on-line.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/gnucash-software-para-contabilidade-no.html">GNUCash software para Contabilidade no Linux</a></h3>
+			<p>GnuCash é um pequeno software de contabilidade que também está disponível para Linux, Mac OS X e Windows.</p>
+			<p><a href="/2014/08/gnucash-software-para-contabilidade-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/lista-dos-melhores-games-do-atari.html">Lista dos melhores Games do Atari</a></h3>
+			<p>Sou fã de jogos de 8 bits, principalemente se tratando de Atari. Atualmente estudo desenvolvimento de todos esse jogos em Shell Script, segue a lista dos que eu mais gosto.</p>
+			<p><a href="/2014/08/lista-dos-melhores-games-do-atari.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/desmarcando-pacotes-do-autoremove.html">Desmarcando pacotes do autoremove</a></h3>
+			<p>Algumas vezes quando executamos o comando apt-get autoremove ele lista pacotes ou programas que não queremos que sejam removido</p>
+			<p><a href="/2014/08/desmarcando-pacotes-do-autoremove.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/resolvendo-problemas-com-iceautority.html">Resolvendo problemas com .ICEautority</a></h3>
+			<p>Caso você tenha problemas ao iniciar o sistema com a mensagem de problema com o ICEauthority.</p>
+			<p><a href="/2014/08/resolvendo-problemas-com-iceautority.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/08/assista-varios-filmes-livres.html">Assista vários filmes Livres!</a></h3>
+			<p>Filmes sobre Software Livre e Tecnologia</p>
+			<p><a href="/2014/08/assista-varios-filmes-livres.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/07/funcao-shell-script-para-limpar.html">Função Shell Script para limpar documentos recentes no Gnome Shell no Debian</a></h3>
+			<p>Segue Script com cabeçalho e linhas comentadas explicando os comandos para análise.</p>
+			<p><a href="/2014/07/funcao-shell-script-para-limpar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/05/se-divertindo-com-cursor-pelo-terminal.html">Se divertindo com cursor pelo Terminal</a></h3>
+			<p>O aplicativo oneko cria a imagem de um gato, que fica correndo  atrás do cursor no ambiente desktop de sistemas GNU/Linux.</p>
+			<p><a href="/2014/05/se-divertindo-com-cursor-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/05/fazendo-um-chat-com-video-pelo-terminal.html">Fazendo um Chat com Vídeo pelo Terminal</a></h3>
+			<p>Entre os mais populares aplicativos de vídeo do bate-papo aparece p2pvc</p>
+			<p><a href="/2014/05/fazendo-um-chat-com-video-pelo-terminal.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2014/05/como-converter-trecho-de-video-em-gif.html">Como converter trecho de vídeo em gif (Função Shell Scripting)</a></h3>
+			<p>Script para quem quiser criar gif de trecho de  vídeo.</p>
+			<p><a href="/2014/05/como-converter-trecho-de-video-em-gif.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/12/funcao-shell-scriptbash-instalar-e.html">Função Shell Script (Bash): Instalar e Configurar o NFS</a></h3>
+			<p>Acesse pastas de outros computadores com Linux via Rede</p>
+			<p><a href="/2013/12/funcao-shell-scriptbash-instalar-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/12/comandos-para-registrar-chave-publica.html">Comandos para registrar chave pública do APT</a></h3>
+			<p>Aprenda a resolver isso!</p>
+			<p><a href="/2013/12/comandos-para-registrar-chave-publica.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/11/funcao-shell-scriptbash-instalar-e.html">Função Shell Script(Bash): Instalar e Configurar o OpenSSH</a></h3>
+			<p>Acesse outros computadores com Linux via Rede pelo Terminal</p>
+			<p><a href="/2013/11/funcao-shell-scriptbash-instalar-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/10/gerador-e-validador-de-cpf-em-shell.html">Gerador e Validador de CPF em Shell Script (Bash)</a></h3>
+			<p>Segue Script com COMENTÁRIOS.</p>
+			<p><a href="/2013/10/gerador-e-validador-de-cpf-em-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/10/funcao-shell-scriptbash-rastrear.html">Função Shell Script(Bash): Rastrear objetos via Correios</a></h3>
+			<p>Verificar andamento do processo de um objeto pelos Correios</p>
+			<p><a href="/2013/10/funcao-shell-scriptbash-rastrear.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/10/script-para-imprimir-cores-em-shell.html">Script para imprimir cores em Shell Script (Bash)</a></h3>
+			<p>Atalho pra exibir cores pelo terminal</p>
+			<p><a href="/2013/10/script-para-imprimir-cores-em-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/09/game-de-advinhacao-em-shell-script.html">Game de advinhação em Shell Script</a></h3>
+			<p>Game simples para estudo básico</p>
+			<p><a href="/2013/09/game-de-advinhacao-em-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/08/pesquisando-cep-via-shell-script.html">Pesquisando CEP via Shell Script</a></h3>
+			<p>Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código.</p>
+			<p><a href="/2013/08/pesquisando-cep-via-shell-script.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/08/shell-scripitingbash-mudar-extensoes-de.html">Mudar extensões de múltiplos arquivos com Shell Script</a></h3>
+			<p>Altera o formato de várias extensões de uma só vez</p>
+			<p><a href="/2013/08/shell-scripitingbash-mudar-extensoes-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/07/shell-scripitingbash-funcao-para.html">Shell Scripiting (Bash): Função para mostrar qual seu IP na internet</a></h3>
+			<p>Analise o código e os comentários.</p>
+			<p><a href="/2013/07/shell-scripitingbash-funcao-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/06/shell-scripting-funcao-para-contar.html">Como Contar Palavras de um arquivo com Shell Script</a></h3>
+			<p>Contar quantas vezes uma determinada palavra aparece num texto (arquivo)</p>
+			<p><a href="/2013/06/shell-scripting-funcao-para-contar.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/06/shell-script-renomeando-multiplos.html">Renomear múltiplos arquivos com Shell Script</a></h3>
+			<p>Renomeia arquivos, sem alterar a extensão do mesmo.</p>
+			<p><a href="/2013/06/shell-script-renomeando-multiplos.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/06/shell-scripting-como-renomear-um.html">Shell Script - Como renomear um diretório com dados de um arquivo</a></h3>
+			<p>Baixei um disco da internet, onde as músicas vieram somente com os números, mas sem o nome das mesmas, pois os nomes vieram num arquivo TXT</p>
+			<p><a href="/2013/06/shell-scripting-como-renomear-um.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/05/dica-rapida-dividinho-e-juntando.html">Dica rápida: Dividinho e juntando arquivos</a></h3>
+			<p>O comando split</p>
+			<p><a href="/2013/05/dica-rapida-dividinho-e-juntando.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/05/criando-texto-no-gimp-com-fundo-de.html">Criando texto no GIMP com fundo de Imagem</a></h3>
+			<p>Video tutorial de Criando texto no GIMP com fundo de Imagem, assista o vídeo!</p>
+			<p><a href="/2013/05/criando-texto-no-gimp-com-fundo-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102.html">Curso Certificação Linux LPI-102: A Certificação LPI</a></h3>
+			<p>O Linux Professional Institute (LPI) é uma organização sem fins lucrativos, sediada na California - USA um programa de certificação em sistemas GNU/Linux.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_16.html">Curso Certificação Linux LPI-102: Gerenciador de Pacotes YUM e pacotes RPM</a></h3>
+			<p>Gerenciador de Pacotes YUM e pacotes RPM</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_16.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_14.html">Curso Certificação Linux LPI-102: Configurando Conexões PPPoE no Linux</a></h3>
+			<p>PPPoE (sigla em inglês para Point-to-Point Protocol over Ethernet) é um protocolo de rede para conexão de usuários em uma rede Ethernet para alcançar a Internet.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_14.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_7.html">Curso Certificação Linux LPI-102: Acessibilidade no Linux</a></h3>
+			<p>Com a popularização do GNU/Linux entre o público não-técnico, tem havido um interesse renovado por um suporte mais mainstream à acessibilidade.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_7.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_9795.html">Curso Certificação Linux LPI-102: Criptografia de Dados</a></h3>
+			<p>O gpg (GNU pgp, versão livre da ferramenta pgp) permite encriptar dados, adicionalmente poderá verificar se a origem dos dados é confiável, através da assinatura de arquivos.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_9795.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_6.html">Curso Certificação Linux LPI-102: Segurança</a></h3>
+			<p>Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de redes e sistemas no Linux. Aqui abordarei duas fundamentais para obter tal segurança.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_6.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_5.html">Curso Certificação Linux LPI-102: Configurando o Apache</a></h3>
+			<p>O servidor Apache (ou Apache HTTP Server, ou simplesmente Apache) é o mais bem sucedido servidor web livre.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_5.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_4.html">Curso Certificação Linux LPI-102: Configurando o Shell Seguro OpenSSH</a></h3>
+			<p>Secure Shell ou SSH é, simultaneamente, um programa de computador e um protocolo de rede que permite a conexão com outro computador na rede</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_4.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_3.html">Curso Certificação Linux LPI-102:  Compartilhamento via NFS</a></h3>
+			<p>NFS é um protocolo de sistema de arquivos para compartilhamento entre arquivos e diretórios entre computadores conectados em rede.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_3.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_2.html">Curso Certificação Linux LPI-102: Configurando o DNS</a></h3>
+			<p>BIND (Berkeley Internet Name Domain ou, como chamado previamente, Berkeley Internet Name Daemon) é o servidor para o protocolo DNS mais utilizado na Internet.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_2.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_1.html">Curso Certificação Linux LPI-102: Compartilhamento via Samba</a></h3>
+			<p>O Samba é um software servidor para Linux (e outros sistemas baseados em Unix) que permite o gerenciamento e compartilhamento de recursos em redes</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/04/curso-certificacao-linux-lpi-102_8110.html">Curso Certificação Linux LPI-102: Servidor Postfix</a></h3>
+			<p> O Postfix é um agente de transferência de emails (MTA), um software livre para envio e entrega de emails.</p>
+			<p><a href="/2013/04/curso-certificacao-linux-lpi-102_8110.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102-hora-e.html">Curso Certificação Linux LPI-102: Hora e Internacionalização do Sistema</a></h3>
+			<p>Configurando Hora e Internacionalização do Sistema</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102-hora-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102.html">Curso Certificação Linux LPI-102: Impressão no Linux</a></h3>
+			<p>Como configurar e compartilhar impressão no Linux</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102-x.html">Curso Certificação Linux LPI-102: X Window System</a></h3>
+			<p>X Window System, X-Window, X11 ou simplesmente X é um software de sistema e um protocolo que fornece uma base para interfaces gráficas de usuário.</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102-x.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_30.html">Curso Certificação Linux LPI-102: Arquivos de LOG</a></h3>
+			<p>O Linux possui um serviço especial chamado syslog que faz todo o trabalho sujo de filtrar e gravar mensagens importantes</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_30.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_27.html">Curso Certificação Linux LPI-102: Serviços de Rede no Linux</a></h3>
+			<p>Serviços de rede é o que está disponí­vel para ser acessado pelo usuário.</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_27.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_26.html">Curso Certificação Linux LPI-102: Configurando o DHCP</a></h3>
+			<p>Hoje em dia, quase todas as redes utilizam algum tipo de servidor DHCP.</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_26.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_24.html">Curso Certificação Linux LPI-102: Configurando a Rede</a></h3>
+			<p>Várias distribuições oferecem ferramentas próprias para a configuração e carga dos recursos de rede.</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_24.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_17.html">Curso Certificação Linux LPI-102: Utilitários e Ferramentas do TCP/IP</a></h3>
+			<p>Principais ferramentas do TCP/IP no Linux</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_17.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/03/curso-certificacao-linux-lpi-102_3.html">Curso Certificação Linux LPI-102: Fundamentos e Serviços de Rede - TCP-IPv4</a></h3>
+			<p>O TCP/IP é um conjunto de protocolos de comunicação entre computadores em rede (também chamado de pilha de protocolos TCP/IP).</p>
+			<p><a href="/2013/03/curso-certificacao-linux-lpi-102_3.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/02/funcao-para-gerar-senhas-alfanumericas.html">Função para gerar senhas alfanuméricas com Shell Script</a></h3>
+			<p>Tentei escrever o código da forma mais simples, eficaz e econômica para fazer esse script, para entender cada linha/comando é só ler os próprios comentários do código.</p>
+			<p><a href="/2013/02/funcao-para-gerar-senhas-alfanumericas.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/02/curso-certificacao-linux-lpi-102-kernel.html">Curso Certificação Linux LPI-102: Kernel Linux</a></h3>
+			<p>O núcleo do Linux (Linux Kernel) forma a estrutura base do sistema operacional GNU/Linux, que é um sistema operacional tipo unix.</p>
+			<p><a href="/2013/02/curso-certificacao-linux-lpi-102-kernel.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/02/acertando-data-e-hora-no-linux.html">Acertando data e hora no Linux</a></h3>
+			<p>Pra não esquecer mais.</p>
+			<p><a href="/2013/02/acertando-data-e-hora-no-linux.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2013/02/como-mudar-imagem-de-fundo-da-tela-de.html">Como mudar a imagem de fundo da tela de login(GDM3) no Debian</a></h3>
+			<p>Dica rápida</p>
+			<p><a href="/2013/02/como-mudar-imagem-de-fundo-da-tela-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/habilitar-o-modrewite-no-apache-htacces.html">Habilitar o mod_rewite no Apache</a></h3>
+			<p>Pra quem vai trabalhar com MVC no PHP (por exemplo) precisa habilitar o mod_rewrite no Apache pra que funcione, segue os passos pra fazer isso</p>
+			<p><a href="/2012/12/habilitar-o-modrewite-no-apache-htacces.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/gerando-numeros-para-mega-sena-em.html">Gerando Números para Mega-Sena em Linguagem C</a></h3>
+			<p>Função em Linguagem C para gerar 6 números aleatórios para a Mega-Sena.</p>
+			<p><a href="/2012/12/gerando-numeros-para-mega-sena-em.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-102-backup.html">Curso Certificação Linux LPI-102: Backup, compactação e descompactação</a></h3>
+			<p>A compressão de dados é o ato de reduzir o espaço ocupado por dados num determinado dispositivo.</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-102-backup.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-102.html">Curso Certificação Linux LPI-102: Administração do Sistema</a></h3>
+			<p>Em um sistema multi-usuário, é necessário existir mecanismos para proteger os usuários, de forma que seus arquivos privativos fiquem seguros, inacessíveis aos outros.</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-102.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-1-grep-e.html">Curso Certificação Linux LPI-1: grep e sed</a></h3>
+			<p>Básico de Grep e Sed, mas o essencial pra passar no LPI</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-1-grep-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-1-quotas.html">Curso Certificação Linux LPI-1: Quotas de Disco</a></h3>
+			<p>No Linux existe a possibilidade de habilitarmos quotas de disco para gerenciarmos melhor o uso do espaço disponível em disco.</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-1-quotas.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-1.html">Curso Certificação Linux LPI-1: Gerenciamento de pacotes no Debian</a></h3>
+			<p>Debian é uma organização voluntária que constrói distribuições consistentes de pacotes binários pré-compilados de software livre e distribui-os a partir do seu arquivo.</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/curso-certificacao-linux-lpi-1_2.html">Curso Certificação Linux LPI-1: Instalando e Compilando Programas</a></h3>
+			<p>Os pacotes com código fonte são geralmente distribuídos na forma dos famosos pacotes .tar.gz ou .tar.bz2</p>
+			<p><a href="/2012/12/curso-certificacao-linux-lpi-1_2.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/12/renomeando-multiplos-arquivos-em-php-e.html">Renomeando múltiplos arquivos em PHP e Shell Script</a></h3>
+			<p>Veja o código que é uma mesclagem de PHP e Shell</p>
+			<p><a href="/2012/12/renomeando-multiplos-arquivos-em-php-e.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1.html">Curso Certificação Linux LPI-1: Trabalhando com Permissões</a></h3>
+			<p>Cada arquivo no Linux tem o definido controle de acesso.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/loop-while-na-linguagem-c.html">Loop while na Linguagem C</a></h3>
+			<p>Mais um ensinamento básico para fixação de Linguagem C</p>
+			<p><a href="/2012/11/loop-while-na-linguagem-c.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/loop-for-na-linguagem-c.html">Loop for na Linguagem C</a></h3>
+			<p>Fazer coisas básicas e aos poucos fazem memorização e fixação melhor dos detalhes.</p>
+			<p><a href="/2012/11/loop-for-na-linguagem-c.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/script-em-shell-completo-para-pesquisa.html">Script em Shell (completo) para pesquisa</a></h3>
+			<p>Exercício Shell</p>
+			<p><a href="/2012/11/script-em-shell-completo-para-pesquisa.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1-sistema.html">Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels</a></h3>
+			<p>Em informática, boot é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1-sistema.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/script-introdutorio-em-shell.html">Script Introdutório em Shell</a></h3>
+			<p>O Script possui todos os ensinamentos básicos de Shell Script</p>
+			<p><a href="/2012/11/script-introdutorio-em-shell.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1_17.html">Curso Certificação Linux LPI-1: Executando, Gerenciando e Terminando Processos</a></h3>
+			<p>O escalonamento (scheduling) de processos ou agendador de tarefas é uma atividade organizacional feita pelo escalonador (scheduler) da CPU ou de um sistema distribuído</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1_17.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/como-criar-uma-imagem-gif-no-gimp.html">Como criar uma imagem GIF no GIMP</a></h3>
+			<p>Vídeo demonstrativo de como fazer imagem GIF no GIMP.</p>
+			<p><a href="/2012/11/como-criar-uma-imagem-gif-no-gimp.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1-montagem.html">Curso Certificação Linux LPI-1: Montagem e Desmontagem de Sistema de Arquivos</a></h3>
+			<p>Montagem e Desmontagem de Sistema de Arquivos, para facilitar o aprendizado</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1-montagem.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1-sistemas.html">Curso Certificação Linux LPI-1: Sistemas de Arquivos e Dispositivos</a></h3>
+			<p>No Linux cada partição é representada por um número inteiro.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1-sistemas.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1_11.html">Curso Certificação Linux LPI-1: Hierarquia do Sistema</a></h3>
+			<p>Sistema de arquivos é a forma de organização de dados em algum meio de armazenamento de dados em massa frequentemente feito em discos magnéticos.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1_11.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1-filtros.html">Curso Certificação Linux LPI-1: Filtros de Texto</a></h3>
+			<p>A filtragem de textos é o processo de executar algumas conversões no texto de um fluxo de entrada de texto antes de enviá-lo para um fluxo de saída.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1-filtros.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/11/curso-certificacao-linux-lpi-1_10.html">Curso Certificação Linux LPI-1: Arquitetura de Hardware.</a></h3>
+			<p>Entrada/saída (em inglês: Input/output, sigla I/O) é um termo utilizado quase que exclusivamente no ramo da computação.</p>
+			<p><a href="/2012/11/curso-certificacao-linux-lpi-1_10.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/09/curso-certificacao-linux-lpi-1.html">Curso Certificação Linux LPI-1: Documentação e Notificação de Usuários</a></h3>
+			<p>O Linux já representa um mercado anual de mais de 18 bilhões de dólares e, de acordo com especialistas, deve atingir um patamar superior a 50 bilhões.</p>
+			<p><a href="/2012/09/curso-certificacao-linux-lpi-1.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2012/01/condicoes-if-else-if-e-else-em-c.html">Condições IF, ELSE IF e ELSE em C</a></h3>
+			<p>Segue um exemplo simples para entendimento das condições na Linguagem C, leia os comentários para entender linha por linha.</p>
+			<p><a href="/2012/01/condicoes-if-else-if-e-else-em-c.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/upload-de-imagens-com-redimensionamento.html">Upload de Imagens com redimensionamento, inserir Marca Dagua e salvar no banco</a></h3>
+			<p>Segue os códigos em 3 arquivos comentados, utilizando PDO no PHP para tal façanha</p>
+			<p><a href="/2011/12/upload-de-imagens-com-redimensionamento.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/curso-certificacao-linux-lpi-101.html">Curso Certificação Linux LPI-101: Comandos do editor de texto Vim-Vi</a></h3>
+			<p>O vim é um dos editores de textos mais utilizados no mundo Unix.</p>
+			<p><a href="/2011/12/curso-certificacao-linux-lpi-101.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/como-criar-chat-com-sockets-em-php-no.html">Como criar Chat com Sockets em PHP no Linux</a></h3>
+			<p>Demonstração de como criar Chat sem refresh de página e sem Ajax, somente com Sockets, o banco de dados somente como gravação de dados.</p>
+			<p><a href="/2011/12/como-criar-chat-com-sockets-em-php-no.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/como-configurar-o-inetdconf-para.html">Como configurar o inetd.conf para habilitar uma porta</a></h3>
+			<p>Quando você abre uma porta no Iptables, não significa que existirá um Daemon(um programa rodando em background gerenciado pelo sistema) para aquela porta.</p>
+			<p><a href="/2011/12/como-configurar-o-inetdconf-para.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/como-fazer-screencasts-e-conversoes-de.html">Como fazer ScreenCasts e Conversões de Video e Audio</a></h3>
+			<p>Para executar estas façanhas você pode utilizar alguns aplicativos, como: FFmpeg, XvidCap, Mencoder entre outros.</p>
+			<p><a href="/2011/12/como-fazer-screencasts-e-conversoes-de.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/12/exemplo-de-utilizacao-de-sqlite-com-php.html">Exemplo de utilização de SQLite com PHP</a></h3>
+			<p>SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido.</p>
+			<p><a href="/2011/12/exemplo-de-utilizacao-de-sqlite-com-php.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/utilizando-media-queries-do-css.html">Utilizando Media Queries do CSS</a></h3>
+			<p>Media Queries é a utilização de Media Types com uma ou mais expressões envolvendo características de uma media para definir formatações para diversos dispositivos.</p>
+			<p><a href="/2011/11/utilizando-media-queries-do-css.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/efetuando-upload-de-arquivos-com-php.html">Efetuando Upload de arquivos com PHP</a></h3>
+			<p>Upload de arquivos é um assunto complicado, pois ele é uma brecha pra varios ataques se não for feito de maneira correta.</p>
+			<p><a href="/2011/11/efetuando-upload-de-arquivos-com-php.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/enviando-e-mails-gmail-com-phpmailer.html">Enviando E-Mails (Gmail) com PHPMailer</a></h3>
+			<p>Eu utilizei essa classe hoje pra configurar minha página de contato aqui do Blog</p>
+			<p><a href="/2011/11/enviando-e-mails-gmail-com-phpmailer.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/criando-um-contador-de-visitas-com.html">Criando um Contador de Visitas com Cookie</a></h3>
+			<p>Nesse exemplo setamos um cookie no computador do usuário pra controle, o cookie existirá até ele fechar o navegador.</p>
+			<p><a href="/2011/11/criando-um-contador-de-visitas-com.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/passando-dados-via-post-com-jquery.html">Passando dados via POST com JQuery</a></h3>
+			<p>Nesse exemplo tem o básico só para causar o entendimento mesmo.servirá para suas aplicações em que você deseja que não haja carregamento de página.</p>
+			<p><a href="/2011/11/passando-dados-via-post-com-jquery.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/configurando-placa-de-rede.html">Configurando a placa de rede</a></h3>
+			<p>Então, minha conexão possui autenticação no roteador e meu modem em modo bridge, porém um dia precisei configurar a autenticação no computador para poder disponibilizar via meu servidor de DynDNS</p>
+			<p><a href="/2011/11/configurando-placa-de-rede.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/resumo-de-definicoes-de-programacao.html">Resumo de definições de Programação Orientada a Objetos</a></h3>
+			<p>Ideias sobre PHP, mas alguns tópicos servem pra outras linguagens.</p>
+			<p><a href="/2011/11/resumo-de-definicoes-de-programacao.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/criando-um-sistema-de-captcha.html">Criando um sistema de Captcha</a></h3>
+			<p>Existem varias formas de se fazer isso, algumas formas tiveram problema acredito por causa da biblioteca GD, se vc não as tem instaladas.</p>
+			<p><a href="/2011/11/criando-um-sistema-de-captcha.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/como-instalar-o-php-gtk.html">Como instalar o PHP-GTK</a></h3>
+			<p>Caso seu sistema não tenha a biblioteca Gtk2 instalada, você poderá baixar a versão estática, que contém toda a biblioteca Gtk2 compilada</p>
+			<p><a href="/2011/11/como-instalar-o-php-gtk.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/alguns-codigos-simples-de-javascript.html">Alguns códigos simples de JavaScript</a></h3>
+			<p>Alguns códigos simples de JavaScript</p>
+			<p><a href="/2011/11/alguns-codigos-simples-de-javascript.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/11/autenticacao-no-apache2.html">Autenticação no Apache2</a></h3>
+			<p>Vou explicar aqui como você disponibilizar o acesso a uma pasta do Apache exigindo usuario e senha.</p>
+			<p><a href="/2011/11/autenticacao-no-apache2.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/criando-uma-simples-funcao-de-soma-em.html">Criando uma simples função de soma em Linguagem C</a></h3>
+			<p>Bom, esse é o básico do entendimento, para quem já trabalha com PHP encontrará diversas similiaridades.</p>
+			<p><a href="/2011/10/criando-uma-simples-funcao-de-soma-em.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/criando-o-primeiro-programa-em-c.html">Criando o primeiro programa em C</a></h3>
+			<p>Criando o primeiro programa em C</p>
+			<p><a href="/2011/10/criando-o-primeiro-programa-em-c.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/classe-para-exibir-e-gravar-em-txt-ip.html">Classe para Exibir e Gravar em TXT: IP, OS, Data e Hora.</a></h3>
+			<p>Segue classe e já instanciada e setada a função pronta para utilização e estudo .</p>
+			<p><a href="/2011/10/classe-para-exibir-e-gravar-em-txt-ip.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/curso-certificacao-linux-lpi-102.html">Curso Certificação Linux LPI-102: Gerenciamento de dados SQL</a></h3>
+			<p>MySQL é um sistema de gerenciamento de banco de dados (SGBD), que utiliza a linguagem SQL como interface.</p>
+			<p><a href="/2011/10/curso-certificacao-linux-lpi-102.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/curso-certificacao-linux-lpi-101.html">Curso Certificação Linux LPI-101: Instalando o GNU/Linux Debian</a></h3>
+			<p>Vídeo demonstrativo.</p>
+			<p><a href="/2011/10/curso-certificacao-linux-lpi-101.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="/2011/10/ola-mundo.html">Olá mundo!</a></h3>
+			<p>Início do Terminal Root</p>
+			<p><a href="/2011/10/ola-mundo.html"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	
+</ul>
+<!-- blog-section-end -->
+</div>
+
+<br>
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

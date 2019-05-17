@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Curso Certificação Linux LPI-102: Administração do Sistema</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Curso Certificação Linux LPI-102: Administração do Sistema">
+	<meta name="twitter:description" content="Em um sistema multi-usuário, é necessário existir mecanismos para proteger os usuários, de forma que seus arquivos privativos fiquem seguros, inacessíveis ao...">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/lpi/sysadm.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2012/12/curso-certificacao-linux-lpi-102.html">
+	<meta property="og:title" content="Curso Certificação Linux LPI-102: Administração do Sistema">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/lpi/sysadm.jpg">
+	
+	<meta property="og:description" content="Em um sistema multi-usuário, é necessário existir mecanismos para proteger os usuários, de forma que seus arquivos privativos fiquem seguros, inacessíveis ao...">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2012/12/curso-certificacao-linux-lpi-102.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Curso Certificação Linux LPI-102: Administração do Sistema</h2>
+    <h4>Em um sistema multi-usuário, é necessário existir mecanismos para proteger os usuários, de forma que seus arquivos privativos fiquem seguros, inacessíveis aos outros.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2012-12-23T17:07:00-02:00" itemprop="datePublished">Dec 23, 2012</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/lpi/sysadm.jpg" alt="Curso Certificação Linux LPI-102: Administração do Sistema" title="Curso Certificação Linux LPI-102: Administração do Sistema" /></p>
+
+<p>Em um sistema <strong>multi-usuário</strong>, é necessário existir mecanismos para proteger os usuários, de forma que seus arquivos privativos fiquem seguros, inacessíveis aos outros. Outro aspecto é em relação aos recursos do sistema reservados: não deve ser possível a um usuário criar arquivos que ocupem todo o espaço do disco, por exemplo, e assim, indiretamente, proibir todos os outros usuários de salvarem seus próprios arquivos.</p>
+
+<p>Atingimos esse objetivo criando contas, que representam todos os recursos e informações pertencentes a um determinado usuário. A origem do nome conta, depende muito da história da computação, quando o espaço em disco e tempo de uso da máquina tinha que ser cobrado de acordo com o seu uso, de forma semelhante a uma conta telefõnica.</p>
+
+<p>A cada usuário é destinado um nome de login e senha, como <a href="http://terminalroot.com.br/2012/11/curso-certificacao-linux-lpi-1.html">já vimos anteriormente</a>, bem como um <strong>UID</strong>, <strong>GID</strong>, nome do diretório <strong>home</strong> e <strong>shell</strong> inicial (veja imagem do arquivo /etc/passwd). Maiores informações podem ser obtidas com o comando man 5 passwd.</p>
+
+<p><img src="/assets/img/lpi/count-users.jpg" alt="Blog Linux" title="Blog Linux" /></p>
+
+<p>Adicionar usuários</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">useradd nome_do_usuario</code></pre></figure>
+
+<p>Modificar dados de um usuário</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">usermod <span class="o">[</span>opções] nome_do_usuario</code></pre></figure>
+
+<p>Deletar usuários(a opção -r remove também a pasta do usuário)</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">userdel <span class="nt">-r</span> nome_do_usuario</code></pre></figure>
+
+<h2 id="o-comando-chage">O comando chage</h2>
+<p>Lida com a data de expiração das contas de usuário.Essa data é gravada no arquivo <strong>/etc/shadow</strong>.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">chage <span class="o">[</span>opções] nome_do_usuario</code></pre></figure>
+
+<p>Ex.:(deve-se escrever em formato de data americano mês/dia/ano [mm/dd/aaaa])</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">chage <span class="nt">-E</span> 12/31/2012 nome_do_usuario</code></pre></figure>
+
+<h1 id="mais-sobre-admnistração-do-sistema-contas-de-usuários">Mais sobre Admnistração do Sistema (Contas de Usuários)</h1>
+
+<ul>
+  <li>O diretório <strong>/etc/skel/</strong> é utilizado para fornecer a estrutura básica do diretório home do usuário.Nele contém os arquivos</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">/etc/skel<span class="nv">$ </span><span class="nb">ls</span> <span class="nt">-a</span>
+<span class="nb">.</span> .. .bash_logout .bashrc .profile</code></pre></figure>
+
+<ul>
+  <li>Durante o processo de logon de um usuário, quando o shel inicia, ele executa o script /etc/profile.</li>
+  <li>O bash também procura pelo arquivo /etc/bashrc que também tem uma função parecida com o profile, mas o bashrc é executado todas as vezes que o bash é executado.</li>
+  <li>Existem agendadores de tarefas um dele é o cron(imagem)</li>
+</ul>
+
+<p><img src="/assets/img/lpi/cron.jpg" alt="Blog Linux" title="Blog Linux" /></p>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

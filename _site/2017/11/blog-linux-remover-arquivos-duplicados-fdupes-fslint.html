@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Veja Como remover arquivos duplicados no seu PC</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="O que é ?">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Veja Como remover arquivos duplicados no seu PC">
+	<meta name="twitter:description" content="Fdupes é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/dicas/como-remover-arquivos-duplicados-no-linux.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2017/11/blog-linux-remover-arquivos-duplicados-fdupes-fslint.html">
+	<meta property="og:title" content="Veja Como remover arquivos duplicados no seu PC">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/dicas/como-remover-arquivos-duplicados-no-linux.jpg">
+	
+	<meta property="og:description" content="Fdupes é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2017/11/blog-linux-remover-arquivos-duplicados-fdupes-fslint.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Veja Como remover arquivos duplicados no seu PC</h2>
+    <h4>Fdupes é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2017-11-11T14:10:56-02:00" itemprop="datePublished">Nov 11, 2017</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<h1 id="o-que-é-">O que é ?</h1>
+
+<blockquote>
+  <p><a href="https://github.com/adrianlopezroche/fdupes" title="Fdupes">Fdupes</a> é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios. Fdupes reconhecer duplicatas através da comparação MD5 assinatura de arquivos seguido por um byte-to-byte comparação. Um monte de opções podem ser passadas com Fdupes para listar, excluir e substituir os arquivos com hardlinks para duplicatas.</p>
+</blockquote>
+
+<h1 id="instalação">Instalação</h1>
+<ul>
+  <li>No Gentoo</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> app-misc/fdupes</code></pre></figure>
+
+<ul>
+  <li>Debian, Ubuntu e derivados</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>fdupes <span class="nt">-y</span></code></pre></figure>
+
+<h1 id="ferramenta-para-testes">Ferramenta para testes</h1>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">mkdir </span>TerminalRoot
+<span class="k">for </span>i <span class="k">in</span> <span class="k">$(</span><span class="nb">seq </span>1 15<span class="k">)</span><span class="p">;</span> <span class="k">do </span><span class="nb">echo</span> <span class="s2">"Terminal Root é GNU/Linux!"</span> <span class="o">&gt;&gt;</span> TerminalRoot/TerminalRoot<span class="nv">$i</span>.txt<span class="p">;</span> <span class="k">done</span><span class="p">;</span></code></pre></figure>
+
+<h3 id="comando-básico-se-houver-arquivos-duplicados-naquele-diretório-ele-não-irá-ver-recursivamente-ele-mostrará-se-não-voltará-a-exibir-nome-e-host-no-prompt">Comando básico, se houver arquivos duplicados naquele diretório (ele não irá ver recursivamente) ele mostrará, se não voltará a exibir nome e host no prompt</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">fdupes <span class="o">[</span>diretório]</code></pre></figure>
+
+<p>Opções</p>
+
+<ul>
+  <li>
+    <p><strong>-r</strong> - procura recursivamente</p>
+  </li>
+  <li>
+    <p><strong>-S</strong> - mostra o tamanho de cada arquivo</p>
+  </li>
+  <li>
+    <p><strong>-Sr</strong> - ambos juntos</p>
+  </li>
+  <li>
+    <p><strong>-d</strong> - Para excluir os arquivos duplicados, preservando uma cópia, você pode usar a opção ‘-d’. Deve-se tomar cuidado ao usar esta opção, senão você pode acabar perdendo arquivos necessários ou dados , pois esse processo é irreversível.</p>
+  </li>
+  <li>
+    <p><strong>-f</strong> - protege um arquivo , se eles estiverem nomeados como: nome, cópia, 2° cópia, 3° cópia,…</p>
+  </li>
+  <li>
+    <p><strong>-h</strong> - ajuda</p>
+  </li>
+</ul>
+
+<h3 id="ele-lhe-pergunta-qual-arquivo-você-deseja-manter">Ele lhe pergunta qual arquivo você deseja manter:</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">   <span class="o">[</span>-] TerminalRoot/.TerminalRoot13.txt
+   <span class="o">[</span>-] TerminalRoot/.TerminalRoot1.txt
+   <span class="o">[</span>-] TerminalRoot/.TerminalRoot9.txt
+   <span class="o">[</span>-] TerminalRoot/.TerminalRoot6.txt
+
+Set 1 of 1, preserve files <span class="o">[</span>1 - 4, all]: 2-4</code></pre></figure>
+
+<h3 id="se-vc-digitar-2--significa-que-o-segundo-arquivo-será-preservado-justamente-o-terminalroot1txt">se vc digitar 2 , significa que o segundo arquivo será preservado, justamente o .TerminalRoot1.txt</h3>
+
+<h3 id="se-vc-digitar-1--significa-que-o-segundo-arquivo-será-preservado-justamente-o-terminalroot13txt">se vc digitar 1 , significa que o segundo arquivo será preservado, justamente o .TerminalRoot13.txt</h3>
+
+<p><em>Você ainda pode salvar a saída num arquivo, pra conferir os arquivos duplicados, caso deseje:</em></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">fdupes <span class="nt">-Sr</span> <span class="o">[</span>diretório] <span class="o">&gt;</span> output.txt</code></pre></figure>
+
+<p><strong>E se quiser criar até um script depois para removê-los</strong>.</p>
+
+<h3 id="manual-quase-o-mesmo-do--h">Manual, quase o mesmo do <em>-h</em></h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">man fdupes</code></pre></figure>
+
+<h2 id="softwares-similares-outra-forma">Softwares similares, outra forma</h2>
+
+<h1 id="fslint">FSlint</h1>
+
+<h3 id="instalação-1">Instalação</h3>
+<ul>
+  <li>No Gentoo</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> app-misc/fslint</code></pre></figure>
+
+<ul>
+  <li>Debian, Ubuntu e derivados</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>fslint <span class="nt">-y</span></code></pre></figure>
+
+<h1 id="use">Use</h1>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">fslint-gui</code></pre></figure>
+
+<h2 id="aplicativo-gráfico">Aplicativo gráfico</h2>
+
+<p><img src="/assets/img/duplicados/fslint-gui.jpg" alt="FSlint" title="FSlint" /></p>
+
+<h1 id="para-obter-informações-dele">Para obter informações dele:</h1>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">man fdupes
+man fslint</code></pre></figure>
+
+<h1 id="assista-ao-vídeo">Assista ao Vídeo</h1>
+
+<h1 id="clique-aqui-para-ver-o-vídeo"><a href="https://www.youtube.com/watch?v=V_esbx5r_BY">Clique Aqui para Ver o Vídeo</a></h1>
+
+<h1 id="internet">Internet:</h1>
+
+<p><a href="https://is.gd/I4plGa" title="FSlint">https://is.gd/I4plGa</a></p>
+
+<h1 id="endereço-oficial-do-projeto">Endereço oficial do projeto</h1>
+
+<p><a href="https://github.com/adrianlopezroche/fdupes">https://github.com/adrianlopezroche/fdupes</a></p>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

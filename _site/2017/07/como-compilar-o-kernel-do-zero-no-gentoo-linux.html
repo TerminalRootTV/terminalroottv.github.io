@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Como Compilar o Kernel do Zero no Gentoo Linux</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="  O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gen...">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Como Compilar o Kernel do Zero no Gentoo Linux">
+	<meta name="twitter:description" content="O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gento...">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/gentoo/gentoo-install-02.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2017/07/como-compilar-o-kernel-do-zero-no-gentoo-linux.html">
+	<meta property="og:title" content="Como Compilar o Kernel do Zero no Gentoo Linux">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/gentoo/gentoo-install-02.jpg">
+	
+	<meta property="og:description" content="O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gento...">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2017/07/como-compilar-o-kernel-do-zero-no-gentoo-linux.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Como Compilar o Kernel do Zero no Gentoo Linux</h2>
+    <h4>O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gentoo provê aos seus usuários diversos possíveis fontes do kernel.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2017-07-09T17:27:47-03:00" itemprop="datePublished">Jul 9, 2017</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<blockquote>
+  <p>O núcleo em torno do qual todas as distribuições são criadas é o <a href="https://www.kernel.org/">kernel Linux</a>. Ele é a camada entre os programas de usuários e o hardware do sistema. O <a href="https://www.gentoo.org/">Gentoo</a> provê aos seus usuários diversos possíveis fontes do kernel.</p>
+</blockquote>
+
+<p>Para sistemas baseados em <strong>x86</strong> o Gentoo recomenda o pacote <strong>sys-kernel/gentoo-sources</strong>.</p>
+
+<p>Escolha um fonte do kernel apropriado e instale-o usando o <strong>emerge</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> sys-kernel/gentoo-sources</code></pre></figure>
+
+<p>Isso irá instalar os fontes do kernel Linux em <strong>/usr/src/</strong> no qual um <strong>link simbólico</strong> chamado <strong>linux</strong> estará apontando para o fonte do kernel instalado:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">ls</span> <span class="nt">-l</span> /usr/src/linux
+
+lrwxrwxrwx    1 root   root    09 Oct 17 11:04 /usr/src/linux -&gt; linux-4.9.34-gentoo</code></pre></figure>
+
+<p>É chegada a hora de configurar e compilar os fontes do kernel. Há duas formas de se fazer isso:</p>
+
+<ul>
+  <li>O kernel é manualmente configurado e compilado, ou</li>
+  <li>é usada uma ferramenta chamada genkernel para automaticamente compilar e instalar o kernel Linux</li>
+</ul>
+
+<p>Configurar manualmente um kernel é geralmente visto como o <del>procedimento mais difícil que um usuário Linux pode fazer</del>. Nada mais falso – depois de configurar algumas vezes o kernel ninguém irá se lembrar que era difícil.</p>
+
+<p>Porém, uma coisa é verdade: é vital conhecer o sistema quando um kernel é configurado manualmente. A maioria das informações pode ser coletada fazendo emerge no <strong>sys-apps/pciutils</strong> que contém o comando <strong>lspci</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">emerge <span class="nt">--ask</span> sys-apps/pciutils</code></pre></figure>
+
+<p>Uma outra fonte de informação do sistema é executar o <strong>lsmod</strong> para ver quais módulos do kernel o CD de instalação usa pois isso pode dar dicas sobre o que habilitar.</p>
+
+<p>Agora vá para o diretório dos fontes do kernel.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /usr/src/linux</code></pre></figure>
+
+<ul>
+  <li><strong>01</strong> - Antes de configurá-lo, rode</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">make defconfig <span class="c"># olddefconfig, dependendo da etapa que vc está</span></code></pre></figure>
+
+<ul>
+  <li><strong>02</strong> - Entre no menu para configurá-lo, veja o vídeo ao final dessa postagem</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">make menuconfig</code></pre></figure>
+
+<ul>
+  <li><strong>03</strong> - Compile</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">make <span class="c"># use -j 2 , se vc possui um processador com 2 núcleos, isso agiliza a compilação</span></code></pre></figure>
+
+<ul>
+  <li><strong>04</strong> - Compile os módulos</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">make modules_install</code></pre></figure>
+
+<ul>
+  <li><strong>05</strong> - Copie o kernel, map, imagem,… pro boot do sistema</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">make <span class="nb">install</span></code></pre></figure>
+
+<p>Depois baixe e compile o grub (ou o lilo), configure e instale-o! Case deseje você também pode usar o <a href="https://wiki.gentoo.org/wiki/Handbook:X86/Full/Installation/pt-br#Alternativa:_Usando_o_genkernel">genkernel</a>!</p>
+
+<h2 id="assista-o-vídeo">Assista o vídeo</h2>
+
+<h1 id="clique-aqui-para-ver-o-vídeo"><a href="https://www.youtube.com/watch?v=lW4MqZamXQY">Clique Aqui para Ver o Vídeo</a></h1>
+
+<h2 id="links-úteis">Links Úteis</h2>
+
+<p><a href="https://www.kernel.org/">https://www.kernel.org/</a></p>
+
+<p><a href="https://www.gentoo.org/">https://www.gentoo.org/</a></p>
+
+<h1 id="faça-nosso-curso-gratuito-de-shell-bash-e-adquira-todo-conteúdo-nesse-link">Faça nosso curso gratuito de Shell Bash e adquira todo conteúdo nesse link</h1>
+<p><a href="http://www.terminalroot.com.br/shell/">http://www.terminalroot.com.br/shell/</a></p>
+
+<h2 id="deixe-seu-comentário">Deixe seu comentário!</h2>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

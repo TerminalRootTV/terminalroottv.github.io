@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Curso Completo de Sed Editor de Fluxo</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="Site, Blog sobre GNU/Linux, Shell Script, Gentoo e BSD. Cursos, Dicas, Tutoriais e mais sobre Desenvolvimento, Web e Tecnologia em geral.
+">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Curso Completo de Sed Editor de Fluxo">
+	<meta name="twitter:description" content="Sed (editor de fluxo) é um utilitário Unix que analisa e transforma o texto, usando uma linguagem de programação simples e compacta.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/img/terminalroot.com.br.gif">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/sed/">
+	<meta property="og:title" content="Curso Completo de Sed Editor de Fluxo">
+	
+	<meta property="og:image" content="http://localhost:4000/img/terminalroot.com.br.gif">
+	
+	<meta property="og:description" content="Sed (editor de fluxo) é um utilitário Unix que analisa e transforma o texto, usando uma linguagem de programação simples e compacta.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/sed/">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix" style="background: #F02B3F;">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Curso Completo de Sed Editor de Fluxo</h2>
+    <h4>Sed (editor de fluxo) é um utilitário Unix que analisa e transforma o texto, usando uma linguagem de programação simples e compacta.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="" itemprop="datePublished"></time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<main id="main">
+<section id="page-only">
+	
+	<div class="thumbnail text-center">
+		<img class="img img-thumbnail" src="/assets/img/cursos/sed.jpg" alt="Curso Completo de Sed Editor de Fluxo" title="Curso Completo de Sed Editor de Fluxo">
+		<div class="caption">Curso Completo de Sed Editor de Fluxo</div>
+	</div>
+
+	<h1 id="howto" class="under-line text-center">Curso Completo de Sed Editor de Fluxo</h1>
+	
+		<blockquote>
+			<p>Esse curso foi adicionado o <a href="/vim">Curso de Vim para Iniciantes</a>. Ou seja, são dois cursos pelo preço de um. No Portal de Cursos à a possibilidade de você fazer download de todo conteúdo do Curso de Vim.</p>
+		</blockquote>
+	
+	<br>
+	
+	<h1 id="howto" class="under-line text-center">O que você vai aprender ?</h1>
+	<div class="text-center">
+		<p>Ao final desse curso você será capaz de entender o que significa esse comando:</p>
+		<kbd style="font-size: 20px;">sed -e ':a ; $!N ; s/\n\s+/ / ; ta ; P ; D' file.txt</kbd>
+	</div>
+	
+	<br><hr>
+	
+	<iframe width="1246" height="701" src="https://www.youtube.com/embed/ttLEnDStVM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+	<br>
+	
+	<h1 id="howto" class="under-line text-center">Conteúdo do Curso</h1>
+	
+	<p>São <strong>vídeos</strong>,<strong>apostilas em PDF</strong>, <strong>diversos arquivos didáticos</strong>, questionários, cer4 e entre outros.</p>
+	
+	<br>
+	
+	<h1 id="howto" class="under-line text-center">Quanto custa ?</h1>
+	
+	<p>O curso possui o valor de investimento de R$ 49,90</p>
+	
+	<br>
+	
+	<h1 id="howto" class="under-line text-center">Como você pode comprar ?</h1>
+	
+	<p>Na verdade, de forma muito simples, só clicar nos botões abaixo e escolher uma das compras seguras. Depois disso é só aguardar o recebimento do e-mail com os dados de acesso ao nosso <a href="#">Portal de Cursos .</a> Geralmente o envio do e-mail é automático logo após confirmação da aquisição.</p>
+	
+	<div class="text-center">
+		<p>
+			<a href="http://bit.ly/SedTerminalRootSeguro">
+				<button class="btn-lg btn-success">Comprar com PagSeguro</button> 
+			</a> 
+			
+			<a href="http://bit.ly/SedTerminalRoot">
+				<button class="btn-lg btn-info bt-lg-w">Comprar com PayPal</button>
+			</a>
+		</p>
+	</div>
+	
+	<br>
+	
+	<h1 id="howto" class="under-line text-center">Qual a grade do curso ?</h1>
+	
+	<ul class="list-group">
+		<li class="list-group-item">01 → Apresentação</li>
+		<li class="list-group-item">02 → Introdução</li>
+		<li class="list-group-item">03 → O Primeiro Sed</li>
+		<li class="list-group-item">04 → Lista Detalhada de Todos os Comandos</li>
+		<li class="list-group-item">05 → Pattern Space e Hold Space</li>
+		<li class="list-group-item">06 → Manipulando os Registradores Internos</li>
+		<li class="list-group-item">07 → Branching e Cycles</li>
+		<li class="list-group-item">08 → Lista Detalhada de Todas as Opções</li>
+		<li class="list-group-item">09 → Exercícios por Exemplos</li>
+		<li class="list-group-item">10 → Dicas Adicionais</li>
+		<li class="list-group-item">Questionário</li>
+		<li class="list-group-item">Certificado</li>
+		<li class="list-group-item">Bônus: Curso do Editor Vim para Iniciantes</li>
+	</ul>
+	
+	<br>
+	
+</section>
+</main>
+
+  	
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

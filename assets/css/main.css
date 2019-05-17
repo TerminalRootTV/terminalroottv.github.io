@@ -1,0 +1,434 @@
+/*--------------------------------------------------------------
+# Page Only Header Section
+@import url(monokai.css);
+--------------------------------------------------------------*/
+
+
+#page-only {
+	font-family: "Montserrat", sans-serif;
+	width: auto;
+	margin-bottom: 10px;
+	padding-top: 60px;
+		
+}
+
+#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe {
+
+	max-width: 70rem;
+	display: block;
+	padding: 0 1.25rem;
+	margin: 0 auto 1.875rem;
+}
+
+#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6 {
+	font-weight: bolder;
+}
+
+#page-only h1.under-line, #page-only h2.under-line {
+	border-bottom: 1px dotted #151B26;
+	padding: 2px;
+	font-size: 25px;
+}
+
+#page-only p {
+	font-size: 17px;
+	padding: 10px;
+}
+
+#page-only .img {
+	max-width: 90%;
+	max-height: 90%;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#page-only > .thumbnail > .caption {
+	font-style: oblique;
+	margin-bottom: 100px;
+}
+
+#page-only a {
+	color: #3465a4;
+	font-weight: bolder;
+}
+
+#page-only a:hover {
+	color: #204a87;
+	text-decoration: underline;
+}
+
+#page-only pre{
+	background-color: #151b26;
+}
+
+#page-only ul, #page-only ol {
+	max-width: 50rem;
+	display: block;
+	padding: 0 1.25rem;
+	margin: 0 auto 2rem;
+	font-size: 20px;
+}
+
+#page-only ul li, #page-only ol li {
+	margin-left: 20px;
+}
+
+
+#page-only iframe {
+	width: 100%;
+	height: 400px;
+}
+
+#page-only button {
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#page-only button.bt-lg-w {
+	padding: 10px 32px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header 1D2025 - 241b43
+--------------------------------------------------------------*/
+
+
+#header-alt {
+    height: 80px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 20px 0;
+    background: #151B26;
+  
+    /*box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);*/
+  }
+  
+  #header-alt.header-scrolled,
+  #header-alt.header-pages {
+    height: 60px;
+    padding: 10px 0;
+    background: #1D2025;
+  }
+  
+  #header-alt .logo h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  #header-alt .logo h1 a,
+  #header-alt .logo h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #header-alt .logo img {
+    padding: 0;
+    margin: 7px 0;
+    max-height: 26px;
+  }
+  
+  .main-pages {
+    margin-top: 60px;
+  }
+
+
+
+/*--------------------------------------------------------------
+# Post Page Header Section
+--------------------------------------------------------------*/
+
+#post-page-header {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  padding: 200px 0 100px 0;
+  background-color: #151B26;
+	-webkit-box-shadow: inset 10px 10px 126px 128px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 10px 10px 126px 128px rgba(0,0,0,0.75);
+	box-shadow: inset 10px 10px 126px 128px rgba(0,0,0,0.75);
+}
+
+#post-page-header .page-post-page-header-info {
+  width: 50%;
+  float: left;
+  
+}
+
+#post-page-header .page-post-header-info h2 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: 700;
+  text-shadow: 3px 3px #000000;
+  max-width: 70rem;
+  text-align: center;
+  margin: auto;
+  padding: 0 3px 6px 3px;
+}
+
+#post-page-header .page-post-header-info h4 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    max-width: 70rem;
+    text-align: center;
+    margin: auto;
+    padding: 6px 5px;
+    font-size: 20px;
+    
+  }
+
+#post-page-header .page-post-header-info p { 
+    color: #babdb6;
+    font-family: "Montserrat", sans-serif;
+    max-width: 70rem;
+    text-align: center;
+    margin: auto;
+    padding: 0 5px;
+	font-size: 15px;
+	font-style: oblique;
+}
+
+#post-page-header .page-post-header-info h2 span {
+  color: #C6C1DF;
+  text-decoration: underline;
+}
+
+#post-page-header .page-post-header-info .btn-get-started,
+#post-page-header .page-post-header-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+
+#post-page-header .page-post-header-info .btn-get-started {
+  background: #241b43;
+  border: 2px solid #241b43;
+  color: #fff;
+}
+
+#post-page-header .page-post-header-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+#post-page-header .page-post-header-info .btn-services {
+  border: 2px solid #fff;
+}
+
+#post-page-header .page-post-header-info .btn-services:hover {
+  background: #1D2025;
+  border-color: #1D2025;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Post Page Header Section
+--------------------------------------------------------------*/
+
+#post-page {
+	font-family: "Montserrat", sans-serif;
+	width: auto;
+	margin-bottom: 10px;
+	padding-top: 60px;
+		
+}
+
+#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe {
+
+	max-width: 50rem;
+	display: block;
+	padding: 0 1.25rem;
+	margin: 0 auto 1.875rem;
+}
+
+#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6 {
+	font-weight: bolder;
+}
+
+#post-page p {
+	font-size: 20px;
+}
+
+#post-page .img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+#post-page a {
+	color: #3465a4;
+	font-weight: bolder;
+}
+
+#post-page a:hover {
+	color: #204a87;
+	text-decoration: underline;
+}
+
+#post-page pre {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	background-color: #282c34;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+#post-page ul, #post-page ol {
+	max-width: 50rem;
+	display: block;
+	padding: 0 1.25rem;
+	margin: 0 auto 2rem;
+	font-size: 20px;
+}
+
+#post-page ul li, #post-page ol li {
+	margin-left: 20px;
+}
+
+
+#post-page iframe {
+	width: 100%;
+	height: 400px;
+}
+
+/*--------------------------------------------------------------
+# Marketing Section
+--------------------------------------------------------------*/
+
+#marketing {
+	background-image: url("../img/site/fundo-publicidade.jpg");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 3px #000000;
+	font-family: 'Open Sans',sans-serif;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+#marketing .ph1 {
+	font-size: 50px;
+}
+
+#marketing p {
+	font-size: 20px;
+}
+
+#marketing .btn-saiba-mais {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 50px;
+  border-radius: 60px;
+  transition: 0.5s;
+  margin: 10px 0px 2px 0;
+  color: #fff;
+}
+
+#marketing .btn-saiba-mais {
+  border: 2px solid #fff;
+}
+
+#marketing .btn-saiba-mais:hover {
+  background: #151B26;
+  border-color: #151B26;
+  color: #fff;
+}
+
+/*.blog-root a::after {content: ' ➚';}*/
+
+.mySearch {cursor: pointer;}
+#mySearch {background: #333; opacity: 0.8;}
+#search-input {width: 80%; border: none;border-bottom: 2px solid #fff;}
+#search-input[type=text] {background: transparent;color: #fff; font-weight: bold;}
+#search-input[type=text]:hover {background:transparent;}
+#search-input[type=text]:focus {background:transparent;}
+.modal-header {border:none;}
+button.close {color: #fff; font-size: 60px;}
+#search-input::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+#search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+#search-input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+#results-container {width: 80%; margin: auto; margin-top: 10px; text-align: left;}
+#results-container li a {color: #fff; font-weight: bold; margin-bottom: 1px; font-family: 'Dosis', sans-serif; font-size: 18px;}
+#results-container li a:hover {color: #729fcf;}
+
+/*--------------------------------------------------------------
+# Responsive Section
+--------------------------------------------------------------*/
+
+/* se a tela for maior que 750 pixels, a div teste passa a ter um valor mínimo de 1200 pixels - tamanho para TVs e PCs */
+@media screen and (min-width:750px){
+
+	#post-page .img {
+		max-width: 42%;
+		max-height: 42%;
+		display: block;
+		text-align: center;
+		margin: 10px auto;	
+	}
+	
+	#page-only .img {
+		max-width: 42%;
+		max-height: 42%;
+		display: block;
+		text-align: center;
+		margin: auto;
+		-webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+		box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+		padding: 0;
+	}
+	
+	#page-only h1.under-line, #page-only h2.under-line {
+		font-size: 40px;
+	}
+	
+	#page-only p {
+		font-size: 20px;
+		padding: 0;
+	}
+	
+	#page-only iframe {
+	width: 43%;
+	height: 400px;
+	
+	#page-page iframe {
+	width: 43%;
+	height: 400px;
+}
+	
+}

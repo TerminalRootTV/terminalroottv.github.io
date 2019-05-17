@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Feliz Natal com Bash por Julio Neves</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Feliz Natal com Bash por Julio Neves">
+	<meta name="twitter:description" content="O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo d...">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/feliznatal/feliznatal.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2016/12/feliz-natal-com-bash-por-julio-neves.html">
+	<meta property="og:title" content="Feliz Natal com Bash por Julio Neves">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/feliznatal/feliznatal.jpg">
+	
+	<meta property="og:description" content="O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo d...">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2016/12/feliz-natal-com-bash-por-julio-neves.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Feliz Natal com Bash por Julio Neves</h2>
+    <h4>O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo de Shell Script.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2016-12-24T08:26:59-02:00" itemprop="datePublished">Dec 24, 2016</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/feliznatal/feliznatal.jpg" alt="Feliz Natal" /></p>
+
+<p>O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo de Shell Script <a href="mailto:shell-script@yahoogrupos.com.br">shell-script@yahoogrupos.com.br</a> :</p>
+
+<blockquote>
+  <p>Senhores, fiz este script já há alguns anos e acho que em todo Natal ele renasce.</p>
+
+  <p>Eu sei que deveria colocá-lo em um site, mas não tenho saco, nem tempo, mas se algum de vcs quiser colocá-lo num site, sem problema algum.</p>
+
+  <p>Se quiser personalizá-lo para mandar para algum amigo, substitua no o valor da variável NomeIni (linha 22) onde está a cadeia “Aos\ Amigos\ da Lista\ Shell” por “Nome Sobrenome” ou “Nome Apelido” do seu amigo (repare que só deixo o Shell “ver” um espaços, os outros estão com contrabarras).</p>
+
+  <p>Feliz Natal a todos</p>
+</blockquote>
+
+<p>Baixe e execute para ver a linda mensagem do mestre, ficou muito demais!</p>
+
+<p>Segue o Script abaixo:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+<span class="c"># Versão 2.0</span>
+<span class="c"># Isso foi feito para mostrar que em shell se</span>
+<span class="c"># pode fazer de tudo, inclusive na tela.</span>
+<span class="c">#</span>
+<span class="c"># Autor: Julio Neves</span>
+<span class="c">#</span>
+
+<span class="nb">trap</span> <span class="s2">"tput reset; tput cnorm; exit"</span> 2
+<span class="k">function </span>MontaArr
+<span class="o">{</span>
+<span class="c">#  Monta um array Arr[$Lin$Col] (ambas com zeros à esqueda) </span>
+<span class="c">#+ com o caracteres que está naquela posição</span>
+    <span class="nb">local </span>i
+    <span class="nb">local </span>l
+    <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>0<span class="p">;</span> i&lt;<span class="k">${#</span><span class="nv">3</span><span class="k">}</span><span class="p">;</span> i++<span class="o">))</span>
+    <span class="o">{</span>   
+        <span class="nv">l</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">3</span>:i:1<span class="k">}</span><span class="s2">"</span>
+        Arr[<span class="k">$(</span><span class="nb">printf</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">%02i"</span> <span class="nv">$[$2</span>+<span class="nv">$i</span><span class="o">]</span><span class="k">)</span><span class="o">]=</span><span class="s2">"</span><span class="nv">$l</span><span class="s2">:</span><span class="nv">$4</span><span class="s2">"</span>
+    <span class="o">}</span>   
+<span class="o">}</span>
+<span class="nv">NomeIni</span><span class="o">=(</span>Aos<span class="se">\ </span>Amigos<span class="se">\ </span>da Lista<span class="se">\ </span>Shell<span class="o">)</span> <span class="c">#  Troque $NomeIni para enviar a amigos, mas </span>
+                                       <span class="c">#+ sempre pelo menos 1 e no máximo 2 nomes ;)</span>
+<span class="nv">Ano</span><span class="o">=</span><span class="k">$(($(</span><span class="nb">date</span> +%m<span class="k">)</span> &lt; <span class="m">10</span> ? <span class="k">$(</span><span class="nb">date</span> +%Y<span class="k">)</span> : <span class="k">$(</span><span class="nb">date</span> +%Y<span class="k">)</span> <span class="o">+</span> <span class="m">1</span><span class="k">))</span> 
+
+<span class="c"># Preparando nome para escrever no canto inferior direito da tela</span>
+<span class="k">for</span> <span class="o">((</span><span class="nv">Pos</span><span class="o">=</span>0<span class="p">;</span> <span class="p">;</span>Pos++<span class="o">))</span>
+<span class="o">{</span>
+    <span class="nv">s0</span><span class="o">=</span><span class="k">${</span><span class="nv">NomeIni</span><span class="p">[0]</span>:<span class="nv">$Pos</span>:1<span class="k">}</span>
+    <span class="nv">s0</span><span class="o">=</span><span class="k">${</span><span class="nv">s0</span><span class="k">:-</span><span class="p"> </span><span class="k">}</span>
+    <span class="nv">s1</span><span class="o">=</span><span class="k">${</span><span class="nv">NomeIni</span><span class="p">[1]</span>:<span class="nv">$Pos</span>:1<span class="k">}</span>
+    <span class="nv">s1</span><span class="o">=</span><span class="k">${</span><span class="nv">s1</span><span class="k">:-</span><span class="p"> </span><span class="k">}</span>
+    <span class="o">[[</span> <span class="nv">$s0</span> <span class="o">==</span> <span class="s1">' '</span> <span class="o">&amp;&amp;</span> <span class="nv">$s1</span> <span class="o">==</span> <span class="s1">' '</span> <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="nb">break
+    </span><span class="nv">Nome</span><span class="o">=</span><span class="s2">"</span><span class="nv">$Nome$s0</span><span class="s2"> </span><span class="nv">$s1</span><span class="s2">"</span>
+<span class="o">}</span>
+                 <span class="c"># Montando a Árvore</span>
+<span class="nv">ColLogo</span><span class="o">=</span><span class="nv">$[</span><span class="k">$(</span>tput cols<span class="k">)</span><span class="nt">-4</span><span class="o">]</span>
+<span class="nv">LinLogo</span><span class="o">=</span><span class="nv">$[</span><span class="k">$(</span>tput lines<span class="k">)</span>-<span class="nv">$Pos</span><span class="nt">-1</span><span class="o">]</span>
+<span class="nv">LogoTrab</span><span class="o">=</span>0
+tput civis
+<span class="nv">lin</span><span class="o">=</span>2
+<span class="nv">col</span><span class="o">=</span><span class="k">$(($(</span>tput cols<span class="k">)</span> <span class="o">/</span> <span class="m">2</span><span class="k">))</span>
+<span class="nv">ccnev</span><span class="o">=</span><span class="nv">$[</span>col - 13]
+<span class="nv">c</span><span class="o">=</span><span class="k">$((</span>col-1<span class="k">))</span>
+<span class="nv">est</span><span class="o">=</span><span class="k">$((</span>c-2<span class="k">))</span>
+<span class="nv">cor</span><span class="o">=</span>0
+tput setab 0<span class="p">;</span> clear
+tput setaf 2<span class="p">;</span> tput bold
+<span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>1<span class="p">;</span> i&lt;20<span class="p">;</span> i+<span class="o">=</span>2<span class="o">))</span>
+<span class="o">{</span>
+    tput cup <span class="nv">$lin</span> <span class="nv">$col</span>
+    <span class="k">for</span> <span class="o">((</span><span class="nv">j</span><span class="o">=</span>1<span class="p">;</span> j&lt;<span class="o">=</span>i<span class="p">;</span> j++<span class="o">))</span>
+    <span class="o">{</span>
+        <span class="nb">echo</span> <span class="nt">-n</span> <span class="se">\*</span>
+        MontaArr <span class="nv">$lin</span> <span class="nv">$[</span>col+j] <span class="se">\*</span> 2
+    <span class="o">}</span>
+    <span class="nb">let </span>lin++
+    <span class="nb">let </span>col--
+<span class="o">}</span>
+tput sgr0<span class="p">;</span> tput setab 0<span class="p">;</span> tput setaf 3<span class="p">;</span> tput bold
+<span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>1<span class="p">;</span> i&lt;<span class="o">=</span>2<span class="p">;</span> i++<span class="o">))</span>
+<span class="o">{</span>
+    MontaArr <span class="nv">$lin</span> <span class="nv">$[</span>c+1] mWm 3
+    tput cup <span class="k">$((</span>lin++<span class="k">))</span> <span class="nv">$c</span>
+    <span class="nb">echo </span>mWm
+<span class="o">}</span>
+tput setab 0<span class="p">;</span> tput setaf 7<span class="p">;</span> tput bold
+tput cup <span class="nv">$lin</span> <span class="k">$((</span>c <span class="o">-</span> <span class="m">4</span><span class="k">))</span><span class="p">;</span> <span class="nb">echo </span>BOAS FESTAS
+MontaArr <span class="nv">$lin</span> <span class="nv">$[</span>c-3] <span class="s2">"BOAS FESTAS"</span> 7
+tput cup <span class="k">$((</span>lin <span class="o">+</span> <span class="m">1</span><span class="k">))</span> <span class="k">$((</span>c <span class="o">-</span> <span class="m">11</span><span class="k">))</span><span class="p">;</span> <span class="nb">echo </span>E muito suSHELLso em <span class="nv">$Ano</span>
+MontaArr <span class="k">$((</span>lin <span class="o">+</span> <span class="m">1</span><span class="k">))</span> <span class="k">$((</span>c <span class="o">-</span> <span class="m">10</span><span class="k">))</span> <span class="s2">"E muito suSHELLso em </span><span class="nv">$Ano</span><span class="s2">"</span> 7
+<span class="c"># tput cup $((lin + 3)) $UltCol; echo $UltLin</span>
+<span class="nb">let </span>c++
+<span class="nv">k</span><span class="o">=</span>1
+                   <span class="c"># Pendurando as bolas (da árvore, claro!)</span>
+<span class="k">while </span><span class="nb">true
+</span><span class="k">do
+    for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>1<span class="p">;</span> i&lt;<span class="o">=</span>35<span class="p">;</span> i++<span class="o">))</span>
+    <span class="o">{</span>
+                   <span class="c"># Apagando a bola que foi ligada há 35 rodadas atras</span>
+        <span class="o">[</span> <span class="nv">$k</span> <span class="nt">-gt</span> 1 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">{</span>
+            tput setab 0<span class="p">;</span> tput setaf 2<span class="p">;</span> tput bold
+            tput cup <span class="k">${</span><span class="nv">linha</span><span class="p">[</span><span class="nv">$[k</span><span class="p">-1]</span><span class="nv">$i</span><span class="p">]</span><span class="k">}</span> <span class="k">${</span><span class="nv">coluna</span><span class="p">[</span><span class="nv">$[k</span><span class="p">-1]</span><span class="nv">$i</span><span class="p">]</span><span class="k">}</span><span class="p">;</span> <span class="nb">echo</span> <span class="se">\*</span>
+            MontaArr <span class="k">${</span><span class="nv">linha</span><span class="p">[</span><span class="nv">$[k</span><span class="p">-1]</span><span class="nv">$i</span><span class="p">]</span><span class="k">}</span> <span class="k">${</span><span class="nv">coluna</span><span class="p">[</span><span class="nv">$[k</span><span class="p">-1]</span><span class="nv">$i</span><span class="p">]</span><span class="k">}</span> <span class="se">\*</span> 2
+            <span class="nb">unset </span>linha[<span class="nv">$[</span>k-1]<span class="nv">$i</span><span class="o">]</span><span class="p">;</span> <span class="nb">unset </span>coluna[<span class="nv">$[</span>k-1]<span class="nv">$i</span><span class="o">]</span>  <span class="c"># Mantenha limpo o vetor</span>
+            <span class="o">}</span>
+        <span class="nv">li</span><span class="o">=</span><span class="k">$((</span>RANDOM <span class="o">%</span> <span class="m">9</span> <span class="o">+</span> <span class="m">3</span><span class="k">))</span>
+        <span class="nv">ini</span><span class="o">=</span><span class="k">$((</span>c-li+2<span class="k">))</span>
+        <span class="nv">fim</span><span class="o">=</span><span class="k">$((</span>c+li+2<span class="k">))</span>
+        <span class="nv">co</span><span class="o">=</span><span class="k">$((</span>RANDOM <span class="o">%</span> <span class="o">(</span>li-2<span class="o">)</span> <span class="o">*</span> <span class="m">2</span> <span class="o">+</span> <span class="m">1</span> <span class="o">+</span> ini<span class="k">))</span>
+        tput setab 0<span class="p">;</span> tput setaf <span class="nv">$cor</span><span class="p">;</span> tput bold   <span class="c"># Troca cor das bolas</span>
+        tput cup <span class="nv">$li</span> <span class="nv">$co</span>
+        <span class="nb">echo </span>o
+        linha[<span class="nv">$k$i</span><span class="o">]=</span><span class="nv">$li</span>
+        coluna[<span class="nv">$k$i</span><span class="o">]=</span><span class="nv">$co</span>
+        MontaArr <span class="nv">$li</span> <span class="nv">$co</span> o <span class="nv">$cor</span>
+        <span class="nv">sh</span><span class="o">=</span>1
+        <span class="k">for </span>l <span class="k">in </span>S H E L L
+        <span class="k">do
+            </span>tput cup <span class="k">$((</span>lin+1<span class="k">))</span> <span class="k">$((</span>c-3+sh<span class="k">))</span>
+            <span class="nb">echo</span> <span class="nv">$l</span>
+            <span class="nb">let </span>sh++
+        <span class="k">done</span>
+<span class="c"># Olha a neve</span>
+        <span class="k">for</span> <span class="o">((</span><span class="nv">n</span><span class="o">=</span>0<span class="p">;</span> n&lt;15<span class="p">;</span> n++<span class="o">))</span>
+        <span class="o">{</span>
+            <span class="o">[</span> <span class="s2">"</span><span class="k">${</span><span class="nv">nev</span><span class="p">[n]</span><span class="k">}</span><span class="s2">"</span> <span class="o">]</span> <span class="o">||</span> <span class="o">{</span>
+                nev[n]<span class="o">=</span><span class="nv">$[</span>RANDOM % 12 + 1]<span class="k">$(</span><span class="nb">printf</span> <span class="s2">"%02i"</span> <span class="nv">$[</span>RANDOM % 25 + ccnev]<span class="k">)</span>
+            <span class="o">}</span>
+            <span class="nv">lnev</span><span class="o">=</span><span class="nv">$[</span>nev[n] / 100]
+            <span class="nv">cnev</span><span class="o">=</span><span class="nv">$[</span>nev[n] % 100]
+            <span class="nv">idx</span><span class="o">=</span><span class="nv">$lnev</span><span class="k">$(</span><span class="nb">printf</span> <span class="s2">"%02i"</span> <span class="nv">$cnev</span><span class="k">)</span>
+            <span class="nv">Antigo</span><span class="o">=</span><span class="k">${</span><span class="nv">Arr</span><span class="p">[10#</span><span class="nv">$idx</span><span class="p">-100]%</span>:<span class="p">*</span><span class="k">}</span>
+            <span class="nv">Antigo</span><span class="o">=</span><span class="k">${</span><span class="nv">Antigo</span><span class="k">:-</span><span class="s1">' '</span><span class="k">}</span>
+            <span class="nv">CorAnt</span><span class="o">=</span><span class="k">${</span><span class="nv">Arr</span><span class="p">[10#</span><span class="nv">$idx</span><span class="p">-100]#*</span>:<span class="k">}</span>
+            <span class="nv">CorAnt</span><span class="o">=</span><span class="k">${</span><span class="nv">CorAnt</span><span class="k">:-</span><span class="nv">0</span><span class="k">}</span>
+            tput setab 0
+            tput setaf <span class="nv">$CorAnt</span>
+            tput cup <span class="nv">$[</span>lnev-1] <span class="nv">$[</span>cnev-1]
+            <span class="nb">echo</span> <span class="s2">"</span><span class="nv">$Antigo</span><span class="s2">"</span>
+            tput setab 0<span class="p">;</span> tput setaf 7<span class="p">;</span> tput cup <span class="nv">$lnev</span> <span class="nv">$[</span>cnev-1]<span class="p">;</span> <span class="nb">echo</span> <span class="nb">.</span>
+            <span class="nb">let </span>lnev++
+            nev[n]<span class="o">=</span><span class="nv">$lnev</span><span class="k">$(</span><span class="nb">printf</span> <span class="s2">"%02i"</span> <span class="nv">$cnev</span><span class="k">)</span>
+            <span class="o">[</span> <span class="nv">$lnev</span> <span class="nt">-gt</span> 16 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">{</span>
+                tput setab 0<span class="p">;</span> tput setaf 7<span class="p">;</span> tput cup <span class="nv">$[</span>lnev-1] <span class="nv">$[</span>cnev-1]<span class="p">;</span> <span class="nb">echo</span> <span class="s2">" "</span>
+                <span class="nb">unset </span>nev[n]
+            <span class="o">}</span>
+            tput setaf <span class="nv">$[</span>n%7+1]
+            tput cup <span class="nv">$[</span>LinLogo+LogoTrab] <span class="nv">$ColLogo</span>
+            <span class="nb">echo</span> <span class="s2">"</span><span class="k">${</span><span class="nv">Nome</span>:<span class="nv">$[LogoTrab</span><span class="p">*3]</span>:3<span class="k">}</span><span class="s2">"</span>
+            <span class="o">((</span> LogoTrab++ <span class="o">==</span> Pos-1<span class="o">))</span> <span class="o">&amp;&amp;</span> <span class="o">{</span>
+                <span class="nv">LogoTrab</span><span class="o">=</span>0
+                <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="nv">cor</span><span class="o">=</span><span class="k">$((</span><span class="o">(</span>cor+1<span class="o">)%</span><span class="m">8</span><span class="k">))</span>
+    <span class="o">}</span>
+    <span class="nv">k</span><span class="o">=</span><span class="k">$((</span>k <span class="o">%</span> <span class="m">2</span> <span class="o">+</span> <span class="m">1</span><span class="k">))</span>
+<span class="k">done</span></code></pre></figure>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

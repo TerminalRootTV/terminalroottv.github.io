@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Dicas úteis para Shell Script</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Dicas úteis para Shell Script">
+	<meta name="twitter:description" content="Separei algumas dicas para Shell Script, deem uma analisada">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/shell-script/shell-script-logo.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2014/12/dicas-uteis-para-shell-script.html">
+	<meta property="og:title" content="Dicas úteis para Shell Script">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/shell-script/shell-script-logo.jpg">
+	
+	<meta property="og:description" content="Separei algumas dicas para Shell Script, deem uma analisada">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2014/12/dicas-uteis-para-shell-script.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Dicas úteis para Shell Script</h2>
+    <h4>Separei algumas dicas para Shell Script, deem uma analisada</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2014-12-19T17:19:00-02:00" itemprop="datePublished">Dec 19, 2014</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/shell-script/shell-script-logo.jpg" alt="Dicas úteis para Shell Script" title="Dicas úteis para Shell Script" /></p>
+
+<blockquote>
+  <p>Separei algumas <strong>dicas</strong> para Shell Script, deem uma analisada</p>
+</blockquote>
+
+<h4 id="--contar-os-caracteres-de-uma-variável">→  Contar os caracteres de uma variável</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="k">${#</span><span class="nv">variavel</span><span class="k">}</span></code></pre></figure>
+
+<h4 id="--usando-o-comando-cut">→  Usando o comando cut</h4>
+<ul>
+  <li>Mostrar somente a <strong>3° coluna</strong>(de cada linha) do arquivo</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>arquivo.txt | <span class="nb">cut</span> <span class="nt">-c3</span></code></pre></figure>
+
+<ul>
+  <li>Mostrar somente a <strong>3° coluna EM DIANTE</strong>(de cada linha) do arquivo</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>arquivo.txt | <span class="nb">cut</span> <span class="nt">-c3-</span></code></pre></figure>
+
+<ul>
+  <li>O comando abaixo extrai o <strong>campo 1 (field)</strong> do arquivo <strong>/etc/passwd</strong> cujo delimitador de campo é “<strong>:</strong>” (delimiter)(para caracteres especiais como ‘<strong>(</strong>’ [parênteses] use uma <strong>barra</strong> antes <strong>’(’ )</strong>.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat</span> /etc/passwd | <span class="nb">cut</span> <span class="nt">-d</span>: <span class="nt">-f1</span></code></pre></figure>
+
+<ul>
+  <li>Mostrar somente da <strong>3° até a 6°</strong> coluna(de cada linha) do arquivo</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>arquivo.txt | <span class="nb">cut</span> <span class="nt">-c3-6</span></code></pre></figure>
+
+<ul>
+  <li>Joga a <strong>saída(stdout)</strong> do comando <strong>cat</strong> para a <strong>entrada(stdin)</strong> do <strong>cut</strong> e a saída do <strong>cut</strong> para a entrada do <strong>sort</strong> (deixando em ordem alfabética)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>arquivo.txt | <span class="nb">cut</span> <span class="nt">-c3</span> | <span class="nb">sort</span></code></pre></figure>
+
+<h4 id="--variáveis-locais-e-o-comando-define">→  Variáveis ​​locais e o comando define:</h4>
+
+<p>Uma variável declarada como local é aquele que só é visível dentro do bloco de código em que ela aparece. Em uma função, uma variável local só tem sentido dentro desse bloco de função forma de declarar uma variável(aspas simples e colar igual(<strong>=</strong>))</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  hello<span class="o">(){</span>
+  <span class="nb">local </span>variavel <span class="o">=</span> <span class="s1">'teste'</span>
+  <span class="o">}</span>
+ </code></pre></figure>
+
+<h4 id="--comando-shift">→  Comando Shift:</h4>
+
+<p>Para trabalhar com parêmtros você pode utilizar o comando <strong>shift</strong>, que desloca parâmetros</p>
+
+<p>Exemplo de como usar o <strong>shift</strong> (arquivo <strong>./teste.sh</strong>):</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="c">#!/bin/bash</span>
+ <span class="nb">echo</span> <span class="nv">$@</span>
+ <span class="nb">shift
+ echo</span> <span class="nv">$@</span>
+ </code></pre></figure>
+
+<blockquote>
+  <p>exemplo com saida</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">./teste.sh param1 param2 param3
+ param1 param2 param3
+ param2 param3
+ </code></pre></figure>
+
+<h4 id="--a-variável-random">→  A Variável RANDOM:</h4>
+
+<p>gerar um número <strong>randômico</strong> (aleatório) que seja até no máximo <strong>60</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="k">$((</span><span class="nv">$RANDOM</span> <span class="o">%</span> <span class="m">61</span><span class="k">))</span></code></pre></figure>
+
+<h4 id="--o-comando-declare-e-o-comando-readonly">→  O comando declare e o comando readonly</h4>
+
+<ul>
+  <li>Use o comando ‘<strong>declare</strong>’ para definir atributos de variáveis ​​e funções.</li>
+</ul>
+
+<p><strong>-r</strong> (readonly)
+<strong>-i</strong> (integer/numeros)</p>
+
+<p><strong>-f</strong> (para criar funções somente leitura)</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">declare</span> <span class="nt">-r</span> variavel</code></pre></figure>
+
+<ul>
+  <li>Use o comando <strong>readonly</strong> para fazer as variáveis ​​e funções <strong>readonly</strong> ou seja, você não pode alterar o valor de variáveis ​​.Ou, em vez de <strong>-r</strong> , usar: <strong>readonly variavel</strong></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">readonly </span><span class="nv">variavel</span><span class="o">=</span><span class="s1">'Isso é um teste!'</span></code></pre></figure>
+
+<h4 id="--o-comando-case">→  O comando case:</h4>
+<p>O uso do ‘case’ tem de usar dessa forma: o case, o in, o ;;, o ) e o esac</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">opcao</span><span class="o">=</span><span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span>
+
+<span class="k">case</span> <span class="s2">"</span><span class="nv">$opcao</span><span class="s2">"</span> <span class="k">in
+</span>eric<span class="p">)</span>
+<span class="nb">echo</span> <span class="s2">"Menino"</span>
+<span class="p">;;</span>
+camila<span class="p">)</span>
+<span class="nb">echo</span> <span class="s2">"Mulher"</span>
+<span class="p">;;</span>
+marcos<span class="p">)</span>
+<span class="nb">echo</span> <span class="s2">"Homem"</span>
+<span class="p">;;</span>
+<span class="k">esac</span> </code></pre></figure>
+
+<h2 id="--utilizando-o-bc">→  Utilizando o bc</h2>
+
+<h4 id="introdução">Introdução</h4>
+
+<p>O <strong>bc</strong> não é exatamente uma <strong>calculadora</strong>, mas sim uma linguagem para cálculos, que lembra vagamente a <strong>linguagem C</strong>. O que significa que podemos ter construções como <strong>‘if’, ‘for’, ‘while’</strong> , que um programa pode pedir informações para um usuário, e que podemos usar “programas” escritos para o ‘<strong>bc</strong>’ como se usássemos um shell script.</p>
+<ul>
+  <li>Conhecendo o <strong>bc (modo interativo)</strong></li>
+</ul>
+
+<p>Para chamar o <strong>bc</strong>, basta digitar numa janela de terminal, ‘<strong>bc</strong>’. Para fazer um cálculo, basta digitar a expressão e dar <strong>ENTER</strong> .</p>
+
+<h4 id="operações-definidas">Operações definidas</h4>
+
+<blockquote>
+  <p>Adição, subtração, multiplicação, divisão.
+ % | (resto da divisão)
+ ^ | (potenciação)
+ sqrt(x) | (raiz quadrada de x)
+ last | (último resultado)
+Para sair, basta dar ‘quit’.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">bc
+  bc 1.06
+  Copyright 1991-1994, 1997, 1998, 2000 Free Software Foundation, Inc.
+  This is free software with ABSOLUTELY NO WARRANTY.
+  For details <span class="nb">type</span> <span class="sb">`</span>warranty<span class="s1">'.
+  300*500
+  150000
+  last + 500
+  150500
+  last - 1600
+  148900
+  last / 20
+  7445
+  last^4
+  3072265955400625
+  sqrt(last)
+  55428025
+  2/3
+  0
+  quit
+  </span></code></pre></figure>
+
+<p>Você pode estar pensando, depois desse último resultado (2/3 = 0?), “Epa! Alguma coisa está errada!”.</p>
+
+<p>Calma, não se desespere. Você precisa carregar o bc com o parâmetro ‘-l’, que ativa uma biblioteca de operações matemáticas.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">bc <span class="nt">-l</span>
+  bc 1.06
+  Copyright 1991-1994, 1997, 1998, 2000 Free Software Foundation, Inc.
+  This is free software with ABSOLUTELY NO WARRANTY.
+  For details <span class="nb">type</span> <span class="sb">`</span>warranty<span class="s1">'.
+  2/3
+  .66666666666666666666
+  3/5
+  .60000000000000000000
+  33/4589259837593
+  .00000000000719070202
+  3125886/2592375832
+  .00120579969980216973
+  </span></code></pre></figure>
+
+<p>Pequena curiosidade: o comando ‘quit’ é executado assim que ele é encontrado. Portanto, algo como</p>
+
+<blockquote>
+  <p><strong>if (0==1) quit</strong>
+ mesmo <strong>0==1</strong> sendo impossível, vai fazer o ‘ <strong>bc</strong> ‘ <strong>sair</strong>.
+ Tome cuidado com isso.</p>
+</blockquote>
+
+<ul>
+  <li>Conhecendo os comandos matemáticos do <strong>bc</strong></li>
+</ul>
+
+<p>Quando carregamos o bc com a opção ‘<strong>-l</strong>’, temos alguns comandos matemáticos:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>s(x)</strong></td>
+      <td>o seno de x (x em radianos)</td>
+    </tr>
+    <tr>
+      <td><strong>c(x)</strong></td>
+      <td>o cosseno de x (x em radianos)</td>
+    </tr>
+    <tr>
+      <td><strong>a(x)</strong></td>
+      <td>o inverso da tangente de x (retorna radianos).</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Se y = tangente de x (tg x), a(y) = x</p>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td>l(x)</td>
+      <td>o logaritmo natural de x. (ln x)</td>
+    </tr>
+    <tr>
+      <td>e(x)</td>
+      <td>a função exponencial ( e^x ) (exp x)</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Construindo funções</li>
+</ul>
+
+<p>Podemos definir algumas funções extras a partir da definição matemática</p>
+
+<blockquote>
+  <p><strong>define sin(x) {return s(x)}</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>define cos(x) {return c(x)}</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>tg x = sen x / cos x</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>define tan(x) {return s(x)/c(x)}</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>log10 x (logaritmo na base 10 de x) = ln x / ln 10</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>define l10(x) {return l(x)/l(10)}</strong></p>
+</blockquote>
+
+<h2 id="conversão-entre-radianos-e-graus">Conversão entre radianos e graus:</h2>
+
+<blockquote>
+  <p>d2r: graus para radianos</p>
+</blockquote>
+
+<blockquote>
+  <p>r2d: radianos para graus</p>
+</blockquote>
+
+<blockquote>
+  <p>pi = 3.14159265</p>
+</blockquote>
+
+<blockquote>
+  <p>define d2r(n) { return n * (pi/180); }</p>
+</blockquote>
+
+<blockquote>
+  <p>define r2d(n) { return n / (pi/180); }</p>
+</blockquote>
+
+<p>Mas é chato ficar digitando essas definições toda vez que queremos usar o ‘bc’.</p>
+
+<p>Portanto, iremos criar um script que defina essas funções automaticamente.</p>
+
+<p>Crie, usando seu editor de texto preferido (<strong>vi, emacs, Gedit…</strong>) um arquivo com o seguinte</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/bc -l</span>
+<span class="c">#</span>
+<span class="c"># Nosso arquivo de definições</span>
+<span class="c"># Nós vamos entender o 'define' depois.</span>
+pi <span class="o">=</span> 3.14159265
+define <span class="nb">ln</span><span class="o">(</span>n<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>l<span class="o">(</span>n<span class="o">)</span><span class="p">;</span> <span class="o">}</span>
+define log<span class="o">(</span>n<span class="o">)</span> <span class="o">{</span> <span class="k">return </span><span class="nb">ln</span><span class="o">(</span>n<span class="o">)</span>/ln<span class="o">(</span>10<span class="o">)</span><span class="p">;</span> <span class="o">}</span>
+define log2<span class="o">(</span>n<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>l<span class="o">(</span>n<span class="o">)</span>/l<span class="o">(</span>2<span class="o">)</span><span class="p">;</span> <span class="o">}</span>
+define d2r<span class="o">(</span>n<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>n <span class="k">*</span> <span class="o">(</span>pi/180<span class="o">)</span><span class="p">;</span> <span class="o">}</span>
+define r2d<span class="o">(</span>n<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>n / <span class="o">(</span>pi/180<span class="o">)</span><span class="p">;</span> <span class="o">}</span>
+define sin<span class="o">(</span>x<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>s<span class="o">(</span>d2r<span class="o">(</span>x<span class="o">))</span><span class="p">;</span> <span class="o">}</span>
+define cos<span class="o">(</span>x<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>c<span class="o">(</span>d2r<span class="o">(</span>x<span class="o">))</span><span class="p">;</span> <span class="o">}</span>
+define tan<span class="o">(</span>x<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>sin<span class="o">(</span>x<span class="o">)</span>/cos<span class="o">(</span>x<span class="o">)</span><span class="p">;</span> <span class="o">}</span> </code></pre></figure>
+
+<blockquote>
+  <p>Salve ele como ‘define.bc’ no seu diretório HOME.
+Mude os atributos dele, tal que ele seja executável:</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">chmod </span>a+x define.bc</code></pre></figure>
+
+<blockquote>
+  <p>Agora, chame o arquivo:</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">~/define.bc</code></pre></figure>
+
+<blockquote>
+  <p>Experimente usar os comandos:</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">cos<span class="o">(</span>15<span class="o">)</span>
+.96592582636649385821
+log2<span class="o">(</span>2097152<span class="o">)</span>
+21.000000000000000021
+quit</code></pre></figure>
+
+<blockquote>
+  <p>Note que ocorre um pequeno desvio nas casas decimais.</p>
+</blockquote>
+
+<ul>
+  <li>Conceitos para a criação de pequenos programas com o bc</li>
+</ul>
+
+<h2 id="o-comando-define-mas-afinal-o-que-o-comando-faz">O comando “define”. Mas afinal, o que o comando faz?</h2>
+
+<blockquote>
+  <p>Ele simplesmente define uma função.</p>
+</blockquote>
+
+<p>Dentro dele podemos usar os elementos acima citados, além destes:</p>
+
+<ul>
+  <li><strong>auto</strong> : define uma variável local.</li>
+  <li><strong>print</strong> : mostra mensagens na tela. (equivalente ao printf em C)</li>
+  <li><strong>return</strong> : retorna um valor. Deve ser usada no final do programa, para retornar o resultado final dele.</li>
+  <li><strong>{ } (colchetes)</strong> têm o mesmo significado que na linguagem C. Eles servem para agrupar várias operações, de modo que estas sejam executadas de uma vez só.</li>
+</ul>
+
+<blockquote>
+  <p>Como podemos notar, a linguagem é bem semelhante ao C. Porém, não há nenhum elemento parecido com o ‘goto’ ou o ‘switch’, o que a torna bem limitada.</p>
+</blockquote>
+
+<p>quit | Só deve ser usado em modo interativo.</p>
+<blockquote>
+  <p>Assim que ‘<strong>quit</strong>’ for encontrado, o <strong>bc</strong> sai. (ver curiosidade no item 2) Em programas devemos usar ‘<strong>halt</strong>’.</p>
+</blockquote>
+
+<ul>
+  <li>Alguns exemplos</li>
+</ul>
+
+<blockquote>
+  <p>Definição recursiva do fatorial:</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/usr/bin/bc -l</span>
+define f <span class="o">(</span>x<span class="o">)</span> <span class="o">{</span>
+<span class="k">if</span> <span class="o">(</span>x &lt;<span class="o">=</span> 1<span class="o">)</span> <span class="k">return</span> <span class="o">(</span>1<span class="o">)</span><span class="p">;</span>
+ <span class="k">return</span> <span class="o">(</span>f<span class="o">(</span>x-1<span class="o">)</span> <span class="k">*</span> x<span class="o">)</span><span class="p">;</span>
+<span class="o">}</span></code></pre></figure>
+
+<h3 id="solução-da-equação-do-2o-grau">Solução da equação do 2o grau</h3>
+
+<p>Como o bc força o retorno de apenas um valor por função, criamos 2 funções para retornar as 2 raízes da equação</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="c">#!/usr/bin/bc -l</span>
+  define delta<span class="o">(</span>a,b,c<span class="o">)</span> <span class="o">{</span> <span class="k">return </span>b^2 - 4<span class="k">*</span>a<span class="k">*</span>c <span class="o">}</span>
+  define eq2grau<span class="o">(</span>a,b,c<span class="o">)</span> <span class="o">{</span>
+   auto d<span class="p">;</span>
+   d <span class="o">=</span> delta<span class="o">(</span>a,b,c<span class="o">)</span><span class="p">;</span>
+   <span class="k">if</span> <span class="o">(</span>d&lt;0<span class="o">)</span> halt<span class="p">;</span>
+   <span class="k">if</span> <span class="o">(</span>d&gt;<span class="o">=</span>0<span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="o">(</span><span class="nt">-b</span> + sqrt<span class="o">(</span>d<span class="o">))</span>/<span class="o">(</span>2<span class="k">*</span>a<span class="o">)</span><span class="p">;</span>
+   <span class="o">}</span>
+  <span class="o">}</span>
+  define eq2grau2<span class="o">(</span>a,b,c<span class="o">)</span> <span class="o">{</span>
+   d <span class="o">=</span> delta<span class="o">(</span>a,b,c<span class="o">)</span><span class="p">;</span>
+   <span class="k">if</span> <span class="o">(</span>d&lt;0<span class="o">)</span> halt<span class="p">;</span>
+   <span class="k">if</span> <span class="o">(</span><span class="nv">d</span><span class="o">==</span>0<span class="o">)</span> <span class="k">return </span>eq2grau<span class="o">(</span>a,b,c<span class="o">)</span><span class="p">;</span>
+   <span class="k">if</span> <span class="o">(</span>d&gt;0<span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="o">(</span><span class="nt">-b</span> - sqrt<span class="o">(</span>d<span class="o">))</span>/<span class="o">(</span>2<span class="k">*</span>a<span class="o">)</span><span class="p">;</span>
+   <span class="o">}</span>
+  <span class="o">}</span></code></pre></figure>
+
+<ul>
+  <li>bc e shell scripts</li>
+</ul>
+
+<p>Às vezes, precisamos fazer um cálculo num shell script. O bc torna isso moleza</p>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>__x=$(echo “358358*5824825”</td>
+        <td>bc)__</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p><strong>echo $x</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>2087372637350</strong></p>
+</blockquote>
+
+<p>Simples, não?</p>
+
+<p>A estrutura é</p>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>__variavel=$(echo “expressão”</td>
+        <td>bc)__</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<h2 id="conclusão-e-considerações-finais">Conclusão e considerações finais</h2>
+
+<blockquote>
+  <p>Nesse artigo, vimos como usar os comandos básicos do programa bc, que, embora aparentemente limitado, pode quebrar um bom galho como uma calculadora programável e em shell scripts.
+Porém, ele não deve ser considerado como uma linguagem de programação completa, mas sim como uma linguagem específica para sua aplicação.</p>
+</blockquote>
+
+<h4 id="--usando-o-sleep-e-o-clear-para-programas-interativos">→  Usando o ‘sleep’ e o ‘clear’ para programas interativos</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nb">sleep </span>1 <span class="c"># tempo de 1 segundo de espera na execução</span>
+ clear <span class="c">#(limpa a tela)</span></code></pre></figure>
+
+<h4 id="--o-comando-reset">→  o comando ‘reset’</h4>
+<p>É o mesmo que o clear, porém limpa a tela totalmente(a barra de rolagem fica integral)</p>
+
+<h4 id="--mostrar-hora">→  Mostrar hora</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">DATA</span><span class="o">=</span><span class="sb">`</span><span class="nb">date</span> +%T<span class="sb">`</span>
+<span class="nb">echo</span> <span class="nv">$DATA</span></code></pre></figure>
+
+<h4 id="--o-comando-tput">→  O comando tput</h4>
+<p>Envia a seqüência para mover o cursor para a linha 2, coluna 4 (no canto superior esquerdo da tela, geralmente conhecida como a “casa” posição do cursor).</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>arquivo.txt | tput cup 2 4</code></pre></figure>
+
+<h4 id="--o-comando-diffutilizado-para-para-mostrar-diferenças-em-arquivos">→  O comando diff(utilizado para para mostrar diferenças em arquivos)</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">diff hashing_site.txt hashing_sum.txt</code></pre></figure>
+
+<h4 id="--usando-o-comando-beep">→  Usando o Comando beep</h4>
+
+<ul>
+  <li>Instalando:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>beep</code></pre></figure>
+
+<ul>
+  <li>Opções de uso</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">beep <span class="nt">-l</span> 5000</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-f</strong></td>
+      <td>frequênciaDefine a frequencia, muda o tom do som, permitindo realizar combinações muito interessantes</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">beep <span class="nt">-l</span> 2000 <span class="nt">-f</span> 100</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-r</strong></td>
+      <td>repetiçõesDefine o numero de repetições</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">beep <span class="nt">-l</span> 800 <span class="nt">-f</span> 100 <span class="nt">-r</span> 5</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-d</strong></td>
+      <td>tempo - Determina o tempo (<strong>delay</strong>) de espera de repetição entre um som e outro, usado junto com a opção <strong>-r</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">beep <span class="nt">-l</span> 500 <span class="nt">-r</span> 5 <span class="nt">-d</span> 1000</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-n</strong></td>
+      <td>Usa uma linha de comando do beep para realizar vários sons diferentes</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">beep <span class="nt">-l</span> 700 <span class="nt">-f</span> 1 <span class="nt">-n</span> <span class="nt">-l</span> 700 <span class="nt">-f</span> 10 <span class="nt">-n</span> <span class="nt">-l</span> 700 <span class="nt">-f</span> 100</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-s</strong></td>
+      <td>Essa opção trata do processamento de entrada e saída de dados. A opção -s conta as linhas que foram redirecionadas para o beep por meio do pipe (</td>
+      <td>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>zonebin.txt | beep <span class="nt">-s</span> <span class="nt">-f</span> 500</code></pre></figure>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>-c</strong></td>
+      <td>Essa opção trata do processamento de entrada e saída de dados, contando os caracteres que forem redirecionados pelo pipe</td>
+    </tr>
+  </tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo </span>zonebin | beep <span class="nt">-c</span> <span class="nt">-f</span> 100 <span class="nt">-l</span> 900</code></pre></figure>
+
+<h4 id="--passando-argumentos-para-funções">→  Passando argumentos para funções</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+ola<span class="o">(){</span>
+<span class="nb">echo</span> <span class="s2">"Olá </span><span class="nv">$1</span><span class="s2">, vamos ser terminalroot."</span> <span class="p">;</span> 
+<span class="o">}</span>
+ola Marcos
+<span class="nb">echo</span> <span class="s1">'$* ou $@(argumentos da função) ='</span> <span class="nv">$*</span> <span class="s1">'ou'</span> <span class="nv">$@</span> <span class="s1">', $#(número de parâmetros para função) = '</span><span class="nv">$# </span><span class="s1">', $0 = '</span><span class="nv">$0</span></code></pre></figure>
+
+<blockquote>
+  <p>Nota adicional para funções, ao invés de criar vários aliases no .bashrc melhor criar funções em um diretório, exemplo:</p>
+  <ul>
+    <li><strong>a)</strong> edite seu .bashrc somente uma vez incluindo uma linha</li>
+  </ul>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'alias minhasfuncoes="/home/$USER/minhasfuncoes.sh"'</span> <span class="o">&gt;&gt;</span> /home/<span class="nv">$USER</span>/.bashrc</code></pre></figure>
+
+<ul>
+  <li><strong>b)</strong> Crie o arquivo minhasfuncoes.sh no seu /home com o seguinte código:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'#!/bin/bash'</span> <span class="o">&gt;</span> funcoesbosta.sh <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'/home/$USER/funcoes/./$1'</span> <span class="o">&gt;&gt;</span> minhasfuncoes.sh</code></pre></figure>
+
+<ul>
+  <li><strong>c)</strong> Crie uma pasta ‘funcoes’ na sua home para salvar sua funções lá:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">mkdir</span> /home/<span class="nv">$USER</span>/funcoes</code></pre></figure>
+
+<ul>
+  <li><strong>d)</strong> Crie sua funções sem o .sh e jogue na pasta ‘/home/$USER/funcoes’</li>
+  <li>Exemplos:</li>
+</ul>
+
+<h4 id="-função-bobmarley">♠ Função bobmarley()</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'#!/bin/bash'</span> <span class="o">&gt;</span> /home/<span class="nv">$USER</span>/funcoes/bobmarley <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'bobmarley(){ echo "Músico jamaicano!";}'</span> <span class="o">&gt;&gt;</span> /home/<span class="nv">$USER</span>/funcoes/bobmarley <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'bobmarley'</span> <span class="o">&gt;&gt;</span> /home/<span class="nv">$USER</span>/funcoes/bobmarley</code></pre></figure>
+
+<h4 id="-função-malcomx">♠ Função malcomx()</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="s1">'#!/bin/bash'</span> <span class="o">&gt;</span> /home/<span class="nv">$USER</span>/funcoes/malcomx <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'malcomx(){ echo "Líder Revolucionário!";}'</span> <span class="o">&gt;&gt;</span> /home/<span class="nv">$USER</span>/funcoes/malcomx <span class="o">&amp;&amp;</span> <span class="nb">echo</span> <span class="s1">'malcomx'</span> <span class="o">&gt;&gt;</span> /home/<span class="nv">$USER</span>/funcoes/malcomx</code></pre></figure>
+
+<ul>
+  <li><strong>e)</strong> Depois torne tudo executável, dando as devidas permissões:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">chmod</span> +x /home/<span class="nv">$USER</span>/minhasfuncoes.sh <span class="o">&amp;&amp;</span> <span class="nb">chmod</span> <span class="nt">-R</span> +x /home/<span class="nv">$USER</span>/funcoes/</code></pre></figure>
+
+<ul>
+  <li><strong>f)</strong> Agora basta abrir o novo terminal e chamar a função desejada para executar o desejado:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">minhasfuncoes bobmarley
+Músico jamaicano! </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">minhasfuncoes malcomx
+Líder Revolucionário! </code></pre></figure>
+
+<h3 id="ainda-há-como-torná-las-de-leitura-automática-sem-precisar-chamar-a-minhasfuncoes-assim-como-as-funçõeszz-do-aurélio">Ainda há como torná-las de leitura automática sem precisar chamar a minhasfuncoes, assim como as FunçõesZZ do Aurélio.</h3>
+
+<h4 id="-o-comando-exit">→ O comando exit:</h4>
+
+<ul>
+  <li>A declaração de saída é usado para sair do script shell com um status de <strong>N</strong>.</li>
+  <li>Use a declaração de saída para indicar o término shell script bem ou mal sucedidas.</li>
+  <li>O valor de <strong>N</strong> pode ser utilizado por outros comandos ou scripts shell para levar a sua própria ação.</li>
+  <li>Se <strong>N</strong> for omitido, o estado de saída é o valor do último comando foi executado.</li>
+  <li>Use a declaração de saída para terminar script shell em um erro.</li>
+  <li>Se <strong>N</strong> é definido para 0 significa saída shell normal. Criar um script shell chamado exitcmd.sh:</li>
+  <li>Cada comando Linux executado pelo script shell ou usuário, tem um status de saída.</li>
+  <li>O status de saída é um número inteiro.</li>
+  <li>0 estado de saída significa que o comando foi bem sucedido sem erros.</li>
+  <li>A não-zero (1-255 valores) saída de comando, o estatuto foi falha.</li>
+</ul>
+
+<p>Você pode usar variáveis ​​shell especial chamado? para obter o status de saída do comando anteriormente executado.Para imprimir? variável usar o comando echo</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s2">"Isto é um teste."</span>
+<span class="c"># Terminar nosso script shell com mensagem de sucesso</span>
+<span class="nb">exit </span>0 </code></pre></figure>
+
+<ul>
+  <li>Para visualizar existe data de status do comando, digite:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nv">$?</span></code></pre></figure>
+
+<ul>
+  <li>De acordo com a página man ls - estado de saída é 0 se OK, 1 se problemas menores, se dois sérios problemas.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nv">$?</span>
+<span class="nb">date</span> <span class="c"># executar o comando data</span>
+<span class="nb">echo</span> <span class="nv">$?</span> <span class="c"># imprime status de saída</span>
+foobar123 <span class="c"># não é um comando válido</span>
+<span class="nb">echo</span> <span class="nv">$?</span> <span class="c"># imprime status de saída</span></code></pre></figure>
+
+<h4 id="-o-comando-seq">→ O comando seq</h4>
+
+<p>Ele é praticamente o loop for, mostra uma sequência de tal número até outro número.No exemplo abaixo, contará do número 2 até o número 8</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">seq </span>2 8</code></pre></figure>
+
+<h4 id="mesmo-que">mesmo que:</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="k">for </span>i <span class="k">in</span> <span class="o">{</span>2..8<span class="o">}</span>
+ <span class="k">do
+  </span><span class="nb">echo</span> <span class="nv">$i</span>
+ <span class="k">done</span> </code></pre></figure>
+
+<h4 id="ou-até-mesmoos-dois-aninhados">ou até mesmo(os dois aninhados):</h4>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="k">for </span>i <span class="k">in</span> <span class="k">$(</span><span class="nb">seq </span>2 8<span class="k">)</span>
+ <span class="k">do
+ </span><span class="nb">echo</span> <span class="nv">$i</span>
+ <span class="k">done</span></code></pre></figure>
+
+<h4 id="-o-comando-let">→ O comando let</h4>
+<p>Ele praticamente é um ‘<strong>incrementador</strong>’, se vc digitar isso num terminal, verá que ele incrementar <strong>+1</strong> na variável <strong>j</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">echo</span> <span class="nv">$j</span>
+<span class="nb">let </span>j++
+<span class="nb">echo</span> <span class="nv">$j</span>
+1
+<span class="nb">let </span>j++
+<span class="nb">echo</span> <span class="nv">$j</span>
+2</code></pre></figure>
+
+<h4 id="-operações-básicas-com-vetoresarrays">→ Operações básicas com vetores/arrays</h4>
+
+<p>Se há um recurso muito útil na programação, certamente é a possibilidade de agruparmos várias variáveis de um mesmo tipo em uma só. São o que chamamos de vetor, ou <strong>matriz</strong> - em inglês se diz <strong>array</strong>.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">vetor</span><span class="o">=(</span>eric camila marcos débora<span class="o">)</span>
+<span class="nb">echo</span> <span class="k">${</span><span class="nv">vetor</span><span class="p">[3]</span><span class="k">}</span>
+débora
+<span class="nb">echo</span> <span class="k">${</span><span class="nv">vetor</span><span class="p">[0]</span><span class="k">}</span>
+eric
+  </code></pre></figure>
+
+<h4 id="-o-comando-unsetserve-para-apagar-variáveis-vetoresarrays-e-funções">→ O comando unset(serve para apagar: variáveis, vetores/arrays e funções)</h4>
+
+<h2 id="veja-a-parte-2-dos-exmplos-úteis">Veja a parte 2 dos Exmplos Úteis</h2>
+<h3 id="dicas-úteis-para-shell-script-2"><a href="http://terminalroot.com.br/2014/12/dicas-uteis-para-shell-script-2.html">Dicas úteis para Shell Script 2</a></h3>
+
+<h4 id="mais-infos-e-fontes">Mais infos e fontes:</h4>
+
+<p>https://help.gnome.org/users/zenity/stable/</p>
+
+<p>http://funcoeszz.net/http://bash.cyberciti.biz/guide/Main_Page</p>
+
+<p>http://www.vivaolinux.com.br/</p>
+
+<p>http://www.dicas-l.com.br/</p>
+
+<p>http://pt.wikipedia.org/wiki/Cut_%28Unix%29</p>
+
+<p>http://renanbirck.blogspot.com/</p>
+
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

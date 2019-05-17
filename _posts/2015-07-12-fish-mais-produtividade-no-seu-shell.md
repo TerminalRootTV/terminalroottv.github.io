@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Fish: mais produtividade no seu Shell Script"
+date: '2015-07-12T10:53:00.004-07:00'
+description: "Fish é uma linha de comando inteligente mais amigável para usuários, disponível para Linux e Unix."
+image: '/assets/img/shell-script/fish.jpg'
+main-class: 'bash'
+tags:
+- Shell Script
+- Terminal
+- Comandos
+---
+
+<script>window.location = "http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html";</script>
+
+![Fish: mais produtividade no seu Shell Script](/assets/img/shell-script/fish.jpg "Fish: mais produtividade no seu Shell Script")
+
+[__Fish__](http://fishshell.com/) é uma linha de comando inteligente mais amigável para usuários, disponível para [shell](http://www.terminalroot.com.br/shell/) no [Linux](http://www.terminalroot.com.br/tags#linux), OS X e o resto da família UNIX.
+
++ Possui cores para facilitar entendimentos;
++ Auto-complementação de comandos;
++ Syntax Highlight e outras opções.
+
+[Download](http://fishshell.com/#platform_tabs)
+
+[Página Oficial](http://fishshell.com/)
+
+[Como utilizar](http://fishshell.com/docs/current/tutorial.html)

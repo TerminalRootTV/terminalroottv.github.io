@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Script básico de Python para aprendizado</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Script básico de Python para aprendizado">
+	<meta name="twitter:description" content="Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/python/python.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2016/12/script-basico-de-python-para-aprendizado.html">
+	<meta property="og:title" content="Script básico de Python para aprendizado">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/python/python.jpg">
+	
+	<meta property="og:description" content="Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2016/12/script-basico-de-python-para-aprendizado.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Script básico de Python para aprendizado</h2>
+    <h4>Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2016-12-26T20:52:08-02:00" itemprop="datePublished">Dec 26, 2016</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/python/python.jpg" alt="Python" /></p>
+
+<p>Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma “luz”. Ou seja, ao invés de você perder tempo tentando ler tutoriais que cansam seu cérebro, com esse script você aprende o básico rapidamente em questão de minutos, veja o código abaixo e tente melhorar com mais novidades incrementando seus novos aprendizados.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/bin/python
+#coding: utf-8
+</span><span class="k">print</span> <span class="s">"O cabeçalho em script é: #!/usr/bin/env python ou #!/usr/bin/python"</span>
+<span class="k">print</span> <span class="s">"Para não aparecer o erro (SyntaxError: Non-ASCII character), use essa linha logo abaixo do cabeçalho: #coding: utf-8"</span>
+<span class="k">print</span> <span class="s">"Os comentários começam com: #"</span>
+<span class="k">print</span> <span class="s">"Para imprimir na tela, ex.: print Olá, mundo!"</span>
+<span class="k">print</span> <span class="s">"Não precisa do ';' no final, mas coloquei aqui e não apresentou erro;"</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"Pode ter comentários no meio da linha como aqui e não aparece"</span> <span class="c1"># comentário
+</span><span class="n">variavel</span> <span class="o">=</span> <span class="s">"Minha Variável"</span>
+<span class="k">print</span> <span class="n">variavel</span>
+<span class="k">print</span> <span class="s">"Cria-se variáveis assim: variavel = 'Minha Variável' , pode usar aspas simples ou duplas"</span>
+<span class="n">soma</span> <span class="o">=</span> <span class="mi">8</span><span class="o">+</span><span class="mi">8</span><span class="p">;</span>
+<span class="k">print</span> <span class="s">"Operações aritiméticas (soma+, subtração-, multiplicação*, divisão/): print 8+8 = "</span><span class="p">,</span><span class="n">soma</span>
+<span class="k">print</span> <span class="s">"Para concatenar strings basta usar o +, ex.: print 'Pala'+'vra'"</span>
+<span class="k">print</span> <span class="s">'Pala'</span><span class="o">+</span><span class="s">'vra'</span>
+<span class="k">print</span> <span class="s">"Mas pra contatenar strings e integer, usa-se vírgula(,) (soma é uma variável/integer 8+8), ex.: print '8+8' , soma"</span>
+<span class="k">print</span> <span class="s">"Pode-se usar a vírgula para separar também strings, no entanto, ficará com espaço, ex.: 'Pala','vra' --&gt; Pala vra"</span>
+<span class="s">"comentário aspas duplas"</span>
+<span class="s">'comentário aspas simples'</span>
+<span class="k">print</span> <span class="s">"Comentários também podem ser entre aspas simples ou duplas, como há nesse script, mas não pode misturá-los num mesmo comentário"</span>
+<span class="k">print</span> <span class="mi">7</span><span class="o">/</span><span class="mi">2</span>
+<span class="k">print</span> <span class="mf">7.0</span><span class="o">/</span><span class="mi">2</span>
+<span class="k">print</span> <span class="s">'Na divisão quando quiser obter números irracionais(float) , tem de fazer também com float, como exemplo acima'</span>
+<span class="k">print</span> <span class="s">'Você pode criar expressões aritiméticas , veja o resultado abaixo da expressão: print ( 9 - ( 1 + 2 ) ) / 3.0'</span>
+<span class="k">print</span> <span class="p">(</span> <span class="mi">9</span> <span class="o">-</span> <span class="p">(</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="p">)</span> <span class="p">)</span> <span class="o">/</span> <span class="mf">3.0</span>
+<span class="k">print</span> <span class="s">'As mensagens de erro são descritivas e no caso de sintaxe, o python usa um  ^ pra indicar o locar exato do erro'</span>
+<span class="k">print</span> <span class="s">'existem vários tipos de erros como em outras linguagens de programação, consulte a documentação:</span><span class="se">\n</span><span class="s">http://turing.com.br/pydoc/2.7/tutorial/errors.html'</span>
+<span class="k">print</span> <span class="s">'Como vc viu acima, o </span><span class="se">\\</span><span class="s">n pula linha'</span>
+<span class="n">meuarray</span> <span class="o">=</span> <span class="p">[</span><span class="s">'marcos'</span><span class="p">,</span> <span class="s">'eric'</span><span class="p">,</span> <span class="s">'camila'</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">meuarray</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="k">print</span> <span class="s">"Criando um meuarray: meuarray = ['marcos', 'eric', 'camila']"</span>
+<span class="k">print</span> <span class="s">'imprimindo determinado elemento de um meuarray: print meuarray[1] --&gt; eric'</span>
+<span class="k">print</span> <span class="s">'Condições if e else usa-se condição entre parênteses e dois pontos(:) no final, ex.:'</span>
+<span class="k">print</span> <span class="s">'Diferente do Bash, não tem o fi pra fechar condição, ex.:</span><span class="se">\n\n</span><span class="s">if (condição):</span><span class="se">\n</span><span class="s">	print </span><span class="se">\n</span><span class="s">else:</span><span class="se">\n</span><span class="s">	print '</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'print sozinho pula uma linha como no Bash'</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mi">27</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">total</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">):</span>
+	<span class="k">print</span> <span class="s">'variável total é maior que 30'</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="k">print</span> <span class="s">'variável total é menor que 30'</span>
+
+<span class="k">print</span>
+<span class="n">inicial</span> <span class="o">=</span> <span class="mi">18</span>
+
+<span class="k">print</span> <span class="s">"Usando o if, elif e else, e mais o operador lógico and. podia ser também: or ou not, veja nesse script"</span>
+<span class="k">if</span> <span class="p">(</span> <span class="n">total</span> <span class="o">&lt;</span> <span class="mi">30</span> <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="n">inicial</span> <span class="o">&lt;</span> <span class="mi">15</span> <span class="p">):</span>
+	<span class="k">print</span> <span class="s">'Menor que 30 e menor que 15'</span>
+<span class="k">elif</span> <span class="p">(</span> <span class="n">total</span> <span class="o">&lt;</span> <span class="mi">30</span> <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="n">inicial</span> <span class="o">&lt;</span> <span class="mi">16</span> <span class="p">):</span>
+	<span class="k">print</span> <span class="s">'Menor que 30 e menor que 16'</span>
+<span class="k">elif</span> <span class="p">(</span> <span class="n">total</span> <span class="o">&lt;</span> <span class="mi">30</span> <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="n">inicial</span> <span class="o">&lt;</span> <span class="mi">17</span> <span class="p">):</span>
+	<span class="k">print</span> <span class="s">'Menor que 30 e menor que 17'</span>
+<span class="k">elif</span> <span class="p">(</span> <span class="n">total</span> <span class="o">&lt;</span> <span class="mi">30</span> <span class="p">)</span> <span class="ow">and</span> <span class="p">(</span> <span class="n">inicial</span> <span class="o">==</span> <span class="mi">18</span> <span class="p">):</span>
+	<span class="k">print</span> <span class="s">'Menor que 30 e igual a 18'</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="k">print</span> <span class="s">'Sei lá'</span>
+
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">"Veja documentação:</span><span class="se">\n</span><span class="s">https://docs.python.org/2/tutorial/controlflow.html"</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'Utilizando o loop while, veja nesse script'</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">count</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">):</span>
+   <span class="k">print</span> <span class="s">'O contador é:'</span><span class="p">,</span> <span class="n">count</span>
+   <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="k">print</span> <span class="s">"Tchau!"</span>
+<span class="k">print</span> <span class="s">'Utilizando o loop while com o else'</span>
+<span class="k">print</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+   <span class="k">print</span> <span class="n">count</span><span class="p">,</span> <span class="s">" é  menor que 3"</span>
+   <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+   <span class="k">print</span> <span class="n">count</span><span class="p">,</span> <span class="s">" não é menor que 3"</span>
+
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'Loop for , imprimir os elementos do array meuarray: for i in meuarray: print i'</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">meuarray</span><span class="p">:</span> <span class="k">print</span> <span class="n">i</span>
+<span class="k">print</span>
+
+<span class="k">print</span> <span class="s">"Se o loop for fosse: </span><span class="se">\n\n</span><span class="s">for letter in 'Python':</span><span class="se">\n\n</span><span class="s">	print letter"</span>
+<span class="k">print</span> <span class="s">"Imprimiria: cada letra da palavra Python e também pode usar o else como no while"</span>
+<span class="k">print</span> <span class="s">'Usa-se uma das palavras reservadas(def) e o nome da função, e mais os dois pontos(:) no final'</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'Usando e criando funções'</span>
+<span class="k">def</span> <span class="nf">minhafuncao</span><span class="p">(</span> <span class="nb">str</span> <span class="p">):</span>
+	<span class="k">print</span> <span class="s">'Minha profissão é:'</span><span class="p">,</span> <span class="nb">str</span>
+	<span class="k">return</span><span class="p">;</span>
+<span class="k">print</span>
+<span class="n">minhafuncao</span><span class="p">(</span><span class="s">'Desenvolvedor Python'</span><span class="p">)</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'Usando funções pré-definida, exemplo da função raw_input estilo o read do Bash'</span>
+
+<span class="nb">str</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Insira seu nome: '</span><span class="p">);</span>
+<span class="k">print</span> <span class="s">'seu nome é: '</span><span class="p">,</span> <span class="nb">str</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'A função range: '</span>
+<span class="k">print</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="k">print</span>
+<span class="k">print</span> <span class="s">'Basicamente pra começar isso já é necessário, aguarde nas próximas postagens de exercícios e continuações, abraços!'</span></code></pre></figure>
+
+<h1 id="comente">Comente!</h1>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

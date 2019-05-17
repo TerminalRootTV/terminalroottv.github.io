@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels">
+	<meta name="twitter:description" content="Em informática, boot é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/lpi/400-boot-process-chart-terminalroot.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2012/11/curso-certificacao-linux-lpi-1-sistema.html">
+	<meta property="og:title" content="Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/lpi/400-boot-process-chart-terminalroot.jpg">
+	
+	<meta property="og:description" content="Em informática, boot é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2012/11/curso-certificacao-linux-lpi-1-sistema.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels</h2>
+    <h4>Em informática, boot é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2012-11-22T19:17:00-02:00" itemprop="datePublished">Nov 22, 2012</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/lpi/400-boot-process-chart-terminalroot.jpg" alt="Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels" title="Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels" /></p>
+
+<blockquote>
+  <p>Em informática, <strong>boot</strong> é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.A solução para o paradoxo está na utilização de um pequeno e especial programa, chamado sistema de iniciação, <strong>boot loader</strong> ou <strong>bootstrap</strong>.O pequeno programa normalmente não é o sistema operacional, mas apenas um segundo estágio do sistema de inicialização, assim como o <strong>Lilo</strong> ou o <strong>Grub</strong>. Ele será então capaz de carregar o <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=Linux">sistema operacional</a> apropriado, e finalmente transferir a execução para ele.</p>
+</blockquote>
+
+<p><img src="/assets/img/lpi/fig1.gif" alt="Blog Linux" title="Blog Linux" /></p>
+
+<p>Quando um sistema efetua boot pela primeira vez, o processador executa um código em um local conhecido. Em um Computador Pessoal (PC), esse local é o Sistema Básico de <strong>Entrada/Saída (BIOS)</strong>, que está armazenado na memória flash, na placa-mãe.O estágio de inicialização do sistema depende do hardware no qual o <a href="http://www.terminalroot.com.br/tags#linux">Linux</a> está efetuando boot. Em uma plataforma integrada, um ambiente de autoinicialização é utilizado quando o sistema é ligado ou reconfigurado.O loader de boot primário, que reside no <strong>MBR</strong>, é uma imagem de 512 bytes contendo o código do programa e uma pequena tabela de partição.</p>
+
+<p><img src="/assets/img/lpi/fig2.gif" alt="Blog Linux" title="Blog Linux" /></p>
+
+<p>O <strong>loader de boot secundário</strong>, ou de segundo estágio, pode ser chamado de <strong>loader de kernel</strong>. Neste estágio, sua tarefa é carregar o kernel <a href="http://www.terminalroot.com.br/tags#linux">Linux</a> e o disco <strong>RAM</strong> inicial opcional.Com a imagem de kernel na memória e o controle fornecido no loader de <strong>boot</strong> de estágio 2, o estágio do kernel começa. A imagem do kernel não é bem um kernel executável, mas uma imagem de kernel compactada. Em geral é uma <strong>zImage (imagem compactada, com menos de 512KB)</strong> ou uma <strong>bzImag__e (imagem compactada grande, com mais de 512KB)</strong>, previamente compactada com <strong>zlib</strong>.</p>
+
+<p><img src="/assets/img/lpi/fig3.gif" alt="Blog Linux" title="Blog Linux" /></p>
+
+<p>Após executar boot e inicializado, o <strong>kernel</strong> inicia o aplicativo do primeiro espaço do usuário. Ele é o primeiro programa chamado, compilado com a biblioteca <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=linguagem c">C</a> padrão. Até este momento no processo, nenhum aplicativo <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=linguagem c">C</a> padrão foi executado.</p>
+
+<h2 id="runlevels-níveis-de-execução">Runlevels (Níveis de Execução)</h2>
+
+<p>Níveis de execução definem quais tarefas podem ser realizadas no estado (ou nível de execução) atual de um sistema <a href="http://www.terminalroot.com.br/tags#linux">Linux</a>. Além do básico, o uso de níveis de execução pode ser diferentes nas distribuições.</p>
+
+<h3 id="níveis-de-execução-básicos-do-linux">Níveis de execução básicos do Linux</h3>
+<blockquote>
+  <p>Nível Propósito</p>
+</blockquote>
+
+<ul>
+  <li><strong>0</strong> Encerrar (ou parar) o sistema</li>
+  <li><strong>1</strong> Modo de usuário único; geralmente com os alias <strong>s</strong> ou <strong>S</strong></li>
+  <li><strong>2</strong>  Modo de multiusuário sem rede</li>
+  <li><strong>3</strong> Modo de multiusuário com rede</li>
+  <li><strong>4</strong> Não Utilizado</li>
+  <li><strong>5</strong> Modo de multiusuário com rede e com o <strong>X Window System</strong></li>
+  <li><strong>6</strong> Reinicializar o sistema</li>
+</ul>
+
+<p>A distribuição <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=Slackware">Slackware</a> usa o nível de execução <strong>4</strong> em vez do <strong>5</strong> para um sistema completo executando <strong>X Window system</strong>. <a href="http://terminalroot.com.br/tags#debian">Debian</a> e derivados, como <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=ubuntu">Ubuntu</a>, usam um único nível de execução para o modo de multiusuário, geralmente o nível <strong>2</strong>. Consulte a documentação para sua <a href="http://terminalroot.com.br/tags#distros">distribuição</a>.
+Para alterar o <strong>Runlevel</strong> de inicialização do seu <a href="http://www.terminalroot.com.br/tags#linux">Linux</a>, vc pode alterar o arquivo <strong>/etc/inittab</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">vi /etc/inittab</code></pre></figure>
+
+<p>Exemplo abaixo, o número 2 é o definido</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># /etc/inittab: init(8) configuration.</span>
+<span class="c"># $Id: inittab,v 1.91 2002/01/25 13:35:21 miquels Exp $</span>
+<span class="c"># The default runlevel.</span>
+<span class="nb">id</span>:2:initdefault:
+<span class="c"># Boot-time system configuration/initialization script.</span>
+<span class="c"># This is run first except when booting in emergency (-b) mode.</span>
+si::sysinit:/etc/init.d/rcS
+<span class="c"># What to do in single-user mode.</span>
+~~:S:wait:/sbin/sulogin
+<span class="c"># /etc/init.d executes the S and K scripts upon change</span>
+<span class="c"># of runlevel.</span>
+<span class="c">#</span>
+<span class="c"># Runlevel 0 is halt.</span>
+<span class="c"># Runlevel 1 is single-user.</span>
+<span class="c"># Runlevels 2-5 are multi-user.</span>
+<span class="c"># Runlevel 6 is reboot.</span>
+l0:0:wait:/etc/init.d/rc 0
+l1:1:wait:/etc/init.d/rc 1</code></pre></figure>
+
+<p>Ou usando um dos comando abaixo(lembrando que para todos esses procedimentos deverá ser o <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=root">super-usuário</a>)</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">init 5</code></pre></figure>
+
+<p>Ou</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">telinit 5</code></pre></figure>
+
+<h2 id="personalizando-o-processo-de-inicialização">Personalizando o processo de inicialização</h2>
+
+<p>O <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=debian">Debian</a> não utiliza o diretório <strong>rc.local</strong> no estilo <a href="https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&amp;q=BSD">BSD</a> para personalizar o processo de inicialização; ao invés disso ele fornece o seguinte mecanismo de personalização.</p>
+
+<p>Suponha que um sistema precisa executar o script <strong>foo</strong> na inicialização da máquina ou ao entrar em um nível de execução (<strong>System V</strong>) em especifíco. O administrador do sistema deverá então colocar o script foo dentro do diretório <strong>/etc/init.d/</strong>.</p>
+
+<p>Executar o comando no Debian <strong>update-rc.d</strong> com os argumentos apropriados para criar as ligações entre os diretórios (especificados na linha de comando) <strong>rc?.d</strong> e <strong>/etc/init.d/foo</strong>. Aqui, <strong>?</strong> é um número de <strong>0</strong> a <strong>6</strong> que corresponde a um dos níveis de execução <strong>System V</strong>.</p>
+
+<h1 id="reiniciar-o-sistema">Reiniciar o sistema</h1>
+
+<blockquote>
+  <p>O comando <strong>update-rc.d</strong> criará as ligações entre os arquivos nos diretórios <strong>rc?.d</strong> e o script em <strong>/etc/init.d/</strong>. Cada ligação iniciará com um “<strong>S</strong>’ ou um “<strong>K</strong>’, seguido por um número, seguido pelo nome do script. Quando o sistema entra em um nível de execução <strong>N</strong>, scripts que iniciam com “<strong>K</strong>’ em <strong>/etc/rcN.d/</strong> são executados com <strong>stop</strong> como seu argumento, seguido por aqueles começando com “<strong>S</strong>’ em <strong>/etc/rcN.d</strong> com start como seu argumento.</p>
+</blockquote>
+
+<p>Alguém poderia, por exemplo, fazer com que o script <strong>foo</strong> seja executado na inicialização do sistema colocando-o em <strong>/etc/init.d/</strong> e instalando as ligações com o comando <strong>update-rc.d foo defaults 19</strong>. O argumento <strong>defaults</strong> se refere aos níveis de execução padrões, que são do nível <strong>2</strong> até o nível <strong>5</strong>. O argumento <strong>19</strong> assegura que <strong>foo</strong> seja chamado antes de quaisquer scripts contendo números <strong>20</strong> ou superiores.</p>
+
+<h2 id="o-comando-shutdown">O Comando Shutdown</h2>
+
+<p><strong>Desliga/reinicia</strong> o computador imediatamente ou após determinado tempo (programável) de forma segura. Todos os usuários do sistema são avisados que o computador será desligado . Este comando somente pode ser executado pelo usuário root ou quando é usada a opção -a pelos usuários cadastrados no arquivo <strong>/etc/shutdown.allow</strong> que estejam logados no console virtual do sistema.</p>
+
+<blockquote>
+  <p>shutdown [opções] [hora] [mensagem]</p>
+</blockquote>
+
+<ul>
+  <li><strong>hora</strong> - Momento que o computador será desligado. Você pode usar <strong>HH:MM</strong> para definir a hora e minuto, <strong>MM</strong> para definir minutos, <strong>SS</strong> para definir após quantos segundos, ou <strong>now</strong> para imediatamente (equivalente a <strong>0</strong>).</li>
+</ul>
+
+<p>O <strong>shutdown</strong> criará o arquivo <strong>/etc/nologin</strong> para não permitir que novos usuários façam login no sistema (com excessão do <strong>root</strong>). Este arquivo é removido caso a execução do shutdown seja cancelada (opção <strong>-c</strong>) ou após o sistema ser reiniciado.</p>
+<ul>
+  <li>
+    <p><strong>mensagem</strong> - Mensagem que será mostrada a todos os usuários alertando sobre o <strong>reinicio/desligamento</strong> do sistema.</p>
+  </li>
+  <li>
+    <p><strong>opções</strong></p>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><strong>-h</strong>  Inicia o processo para desligamento do computador.</li>
+  <li><strong>-r</strong>  Reinicia o sistema</li>
+  <li><strong>-c</strong>  Cancela a execução do <strong>shutdown</strong>. Você pode acrescentar uma mensagem avisando aos usuários sobre o fato.</li>
+  <li><strong>-a</strong>  Permite que os nomes de usuários contidos no arquivo <strong>/etc/shutdown</strong>.<strong>allow</strong> possam utilizar o shutdown para reinicializar/desligar o sistema. Deve ser colocado um nome de usuário por linha. O limite máximo de usuários neste arquivo é de <strong>32</strong>. Este arquivo é útil quando o shutdown é usado para controlar o pressionamento das teclas <strong>CTRL ALT DEL</strong> no <strong>/etc/inittab</strong>.</li>
+  <li><strong>-k</strong>  Simula o desligamento/reinicio do sistema, enviando mensagem aos usuários.</li>
+  <li><strong>-f</strong>  Não executa a checagem do sistema de arquivos durante a inicialização do sistema. Este processo é feito gravando-se um arquivo <strong>/fastboot</strong> que é interpretado pelos scripts responsáveis pela execução do <strong>fsck</strong> durante a inicialização do sistema.</li>
+  <li><strong>-F</strong></li>
+</ul>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>

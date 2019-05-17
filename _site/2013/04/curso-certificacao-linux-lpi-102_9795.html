@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Curso Certificação Linux LPI-102: Criptografia de Dados</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+	<meta name="description" content="">
+	<meta name="author" content="Marcos Oliveira">
+	<meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@terminalroot.com.br">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>  
+	<!-- Favicons -->
+	<link href="/assets/img/site/favicon.png" rel="icon">
+	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+	
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75725905-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<!-- Social: Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@terminalroottv">
+	<meta name="twitter:title" content="Curso Certificação Linux LPI-102: Criptografia de Dados">
+	<meta name="twitter:description" content="O gpg (GNU pgp, versão livre da ferramenta pgp) permite encriptar dados, adicionalmente poderá verificar se a origem dos dados é confiável, através da assina...">
+	
+	<meta property="twitter:image:src" content="http://localhost:4000/assets/img/lpi/GnuPG-Logo.jpg">
+	
+
+	<!-- Social: Facebook / Open Graph -->
+	<meta property="og:url" content="http://localhost:4000/2013/04/curso-certificacao-linux-lpi-102_9795.html">
+	<meta property="og:title" content="Curso Certificação Linux LPI-102: Criptografia de Dados">
+	
+	<meta property="og:image" content="http://localhost:4000/assets/img/lpi/GnuPG-Logo.jpg">
+	
+	<meta property="og:description" content="O gpg (GNU pgp, versão livre da ferramenta pgp) permite encriptar dados, adicionalmente poderá verificar se a origem dos dados é confiável, através da assina...">
+	<meta property="og:site_name" content="Terminal Root">
+	<meta property="fb:admins" content="439112053506193"/>
+
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+	<!-- Bootstrap CSS File -->
+	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Libraries CSS Files -->
+	<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
+	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- My Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="canonical" href="http://localhost:4000/2013/04/curso-certificacao-linux-lpi-102_9795.html">
+	<link rel="alternate" type="application/rss+xml" title="Terminal Root" href="http://localhost:4000/feed.xml">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header id="header" class="fixed-top">
+ <div class="container">
+    <div class="logo float-left">
+       <!-- Uncomment below if you prefer to use an image logo -->
+       <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+       <a href="/" class="scrollto"><img src="/assets/img/site/logo-blog.png" alt="Terminal Root Logomarca" class="img-fluid"></a>
+    </div>
+    <nav class="main-nav float-right d-none d-lg-block">
+       <ul>
+          <li class="active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="/promo"><i class="fa fa-user"></i> Promoção</a></li>
+          <li><a href="/cursos"><i class="fa fa-graduation-cap"></i> Cursos</a></li>
+          <li><a href="/blog"><i class="fa fa-comment"></i> Blog</a></li>
+          <li>                  
+			<a href="#footer" data-toggle="popover" title="Contate-nos:" data-placement="bottom" data-content="contato@terminalroot.com.br">
+				<i class="fa fa-paper-plane"></i> Contato
+			</a>					
+          </li>
+          <li>
+			<a data-toggle="modal" data-target="#mySearch" class="mySearch" style="cursor:pointer;color:#fff;">
+				<i class="fa fa-search" aria-hidden="true"></i> Busca
+			</a>
+          </li>
+       </ul>
+    </nav>
+    <!-- .main-nav -->
+ </div>
+</header>
+
+
+<section id="post-page-header" class="clearfix">
+
+
+  <div class="page-post-header-info text-center">
+    <h2>Curso Certificação Linux LPI-102: Criptografia de Dados</h2>
+    <h4>O gpg (GNU pgp, versão livre da ferramenta pgp) permite encriptar dados, adicionalmente poderá verificar se a origem dos dados é confiável, através da assinatura de arquivos.</h4>
+	<p style="color: #babdb6;">
+		<time datetime="2013-04-07T10:21:00-03:00" itemprop="datePublished">Apr 7, 2013</time>
+	</p>
+  </div>
+</section><!-- #page-post-header -->
+  
+  <main id="main">
+  <section id="post-page">
+ 
+  	<p><img src="/assets/img/lpi/GnuPG-Logo.jpg" alt="Criptografia de Dados" title="Criptografia de Dados" /></p>
+
+<h2 id="usando-pgp-gpgpara-criptografia-de-arquivos">Usando pgp (gpg)para criptografia de arquivos</h2>
+
+<blockquote>
+  <p>O <strong>gpg</strong> (<strong>GNU pgp</strong>, versão livre da ferramenta <strong>pgp</strong> ) permite encriptar dados, assim somente o destinatário terá acesso aos dados, adicionalmente poderá verificar se a origem dos dados é confiável (através da assinatura de arquivos). <strong>O sistema PGP</strong> se baseia no conceito de chave pública e privada: Sua chave pública é distribuída para as pessoas que deseja trocar dados/mensagens e a chave privada fica em sua máquina (ela não pode ser distribuída). As chaves públicas e privadas são armazenadas nos arquivos <strong>pubring.gpg e secring.gpg</strong> respectivamente, dentro do subdiretório <strong>~/.gnupg</strong> . Os dados que recebe de outra pessoa são criptografados usando sua chave pública e somente você (de posse da chave privada) poderá desencriptar os dados. Quando assina um arquivo usando o <strong>pgp</strong>, ele faz isto usando sua chave privada, o destinatário de posse da chave pública poderá então confirmar que a origem dos dados é confiável. O gpg vem largamente sendo usado para transmissão segura de dados via internet. Muitos programas de e-mails como o mutt e sylpheed incluem o suporte a pgp embutido para envio de mensagens assinadas/encriptadas (<strong>MIME</strong> não tem uma codificação segura e não garante que a mensagem vem de quem realmente diz ser). Um servidor de e-mail no <strong>Linux</strong> configurado como as mesmas configurações/endereços do provedor da vítima pode enganar com sucesso um usuário passando-se por outro.</p>
+</blockquote>
+
+<h2 id="instalando-o-pgp">Instalando o PGP</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">apt-get <span class="nb">install </span>gnupg</code></pre></figure>
+
+<p>Após instalar o <strong>gnupg</strong>, execute o comando gpg para criar o diretório <strong>~/.gnupg</strong> que armazenará as chaves pública e privada.</p>
+
+<h2 id="criando-um-par-de-chaves-públicaprivada">Criando um par de chaves pública/privada</h2>
+<p>Para gerar um par de chaves pessoais use o comando gpg <strong>–gen-key</strong>. Ele executará os seguintes passos</p>
+<ul>
+  <li>Chave criptográfica - Selecione <strong>DS__A e __ELGamal</strong> a não ser que tenha necessidades específicas.</li>
+  <li>Tamanho da chave <strong>- 1024 bits</strong> traz uma boa combinação de <strong>proteção/velocidade</strong>.</li>
+  <li>Validade da chave <strong>- 0</strong> a chave não expira. Um número positivo tem o valor de dias, que pode ser seguido das letras <strong>w (semanas), m (meses) ou y (anos)</strong>. Por exemplo, <strong>“7m”, “2y”, “60”</strong>.</li>
+</ul>
+
+<p>Após a validade, a chave será considerada inválida.</p>
+
+<ul>
+  <li><strong>Nome de usuário</strong> - Nome para identificar a chave</li>
+  <li><strong>E-mail</strong> - E-mail do dono da chave</li>
+  <li><strong>comentário</strong> - Uma descrição sobre a chave do usuário.</li>
+  <li><strong>Confirmação</strong> - Tecle “O” para confirmar os dados ou uma das outras letras para modificar os dados de sua chave.</li>
+</ul>
+
+<p>Digite a <strong>FraseSenha</strong> - Senha que irá identificá-lo(a) como proprietário da chave privada. É chamada de <strong>FraseSenha</strong> pois pode conter espaços e não há limite de caracteres.Confirme e aguarde a geração da chave pública/privada.</p>
+
+<h2 id="encriptando-dados">Encriptando dados</h2>
+
+<p>Use o comando <strong>gpg -e</strong> arquivo faz a encriptação de dados</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-e</span> arquivo.txt</code></pre></figure>
+
+<p>Será pedida a identificação de usuário, digite o nome que usou para criar a chave. O arquivo criado será encriptado usando a chave pública do usuário (<strong>~/.gnupg/pubring.gpg</strong>) e terá a extensão <strong>.gpg</strong> adicionada (<strong>arquivo.txt.gpg</strong>). Além de criptografado, este arquivo é compactado (recomendável para grande quantidade de textos). A opção -a é usada para criar um arquivo criptografado com saída <strong>ASCII 7 bits</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-e</span> <span class="nt">-a</span> arquivo.txt</code></pre></figure>
+
+<p>O arquivo gerado terá a extensão <strong>.asc</strong> acrescentada (<strong>arquivo.txt.asc</strong>) e não será compactado. A opção <strong>-a</strong> é muito usada para o envio de e-mails. Para criptografar o arquivo para ser enviado a outro usuário, você deverá ter a chave pública do usuário cadastrado no seu chaveiro e especificar a opção <strong>-r</strong> seguida do <strong>nome/e-mail/ID</strong> da chave pública</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-r</span> kov <span class="nt">-e</span> arquivo.txt</code></pre></figure>
+
+<blockquote>
+  <p>O exemplo acima utiliza a chave pública de <strong>kov</strong> para encriptar o arquivo <strong>arquivo.txt</strong> (somente ele poderá decriptar a mensagem usando sua chave privada).</p>
+</blockquote>
+
+<blockquote>
+  <p>OBS: É recomendável especificar o nome de arquivo sempre como último argumento.</p>
+</blockquote>
+
+<h2 id="decriptando-dados-com-o-gpg">Decriptando dados com o gpg</h2>
+
+<p>Agora vamos fazer a operação reversa da acima, a opção <strong>-d</strong> é usada para decriptar os dados usando a chave privada</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-d</span> arquivo.txt.asc <span class="o">&gt;</span>arquivo.txt
+gpg <span class="nt">-d</span> arquivo.txt.gpg <span class="o">&gt;</span>arquivo.txt</code></pre></figure>
+
+<p>Descriptografa os arquivos <strong>arquivo.txt.asc</strong> e <strong>arquivo.txt.gpg</strong> recuperando seu conteúdo original. A sua “<strong>FraseSenha</strong>” será pedida para descriptografar os dados usando a chave privada (<strong>~/.gnupg/secring.gpg</strong>).</p>
+
+<h2 id="assinando-arquivos">Assinando arquivos</h2>
+
+<p>Assinar um arquivo é garantir que você é a pessoa que realmente enviou aquele arquivo. Use a opção <strong>-s</strong> para assinar arquivos usando sua <strong>chave privada</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-s</span> arquivo.txt</code></pre></figure>
+
+<p>A “<strong>FraseSenha</strong>” será pedida para assinar os dados usando sua chave privada. Será gerado um arquivo a__rquivo.txt.gpg__ (assinado e compactado). Adicionalmente a opção <strong>–clearsign</strong> poderá ser usada para fazer uma assinatura em um texto plano, este é um recurso muito usado por programas de e-mails com suporte ao <strong>gpg</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-s</span> <span class="nt">--clearsign</span> arquivo.txt</code></pre></figure>
+
+<p>Será criado um arquivo chamado <strong>arquivo.txt.asc</strong> contendo o arquivo assinado e sem compactação.</p>
+
+<h2 id="checando-assinaturas">Checando assinaturas</h2>
+
+<p>A checagem de assinatura consiste em verificar que quem nos enviou o arquivo é realmente quem diz ser e se os dados foram de alguma forma alterados. Você deverá ter a chave pública do usuário no seu chaveiro para fazer esta checagem . Para verificar os dados assinados acima usamos a opção <strong>–verify</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--verify</span> arquivo.txt.asc</code></pre></figure>
+
+<ul>
+  <li>Se a saída for “<strong>Assinatura Correta</strong>”, significa que a origem do arquivo é segura e que ele não foi de qualquer forma modificado.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--verify</span> arquivo.txt.gpg</code></pre></figure>
+
+<ul>
+  <li>Se a saída for “<strong>Assinatura INCORRETA</strong>” significa que ou o usuário que enviou o arquivo não confere ou o arquivo enviado foi de alguma forma modificado.</li>
+</ul>
+
+<h2 id="extraindo-sua-chave-pública-do-chaveiro">Extraindo sua chave pública do chaveiro</h2>
+
+<p>Sua chave pública deve ser distribuída a outros usuários para que possam enviar dados criptografados ou checar a autenticidade de seus arquivos. Para exportar sua chave pública em um arquivo que será distribuído a outras pessoas ou servidores de chaves na Internet, use a opção <strong>–export</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--export</span> <span class="nt">-a</span> usuario <span class="o">&gt;</span> chave-pub.txt</code></pre></figure>
+
+<blockquote>
+  <p>Ao invés do nome do usuário, poderá ser usado seu e-mail, ID da chave, etc. A opção -a permite que os dados sejam gerados usando bits ASCII 7.</p>
+</blockquote>
+
+<h2 id="adicionando-chaves-públicas-ao-seu-chaveiro-pessoal">Adicionando chaves públicas ao seu chaveiro pessoal</h2>
+
+<p>Isto é necessário para o envio de dados criptografados e checagem de assinatura do usuário, use a opção <strong>–import</strong></p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--import</span> chave-pub-usuario.txt</code></pre></figure>
+
+<p>Assumindo que o arquivo <strong>chave-pub-usuario.txt</strong> contém a chave pública do usuário criada em. O gpg detecta chaves públicas dentro de textos e faz a extração corretamente. Minha chave pública pode ser encontrada em <strong>http://pgp.ai.mit.edu</strong>.</p>
+
+<h2 id="listando-chaves-de-seu-chaveiro">Listando chaves de seu chaveiro</h2>
+
+<p>Use o comando</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--list-keys</span></code></pre></figure>
+
+<blockquote>
+  <p>Para listar as chaves pública do seu chaveiro. O comando <strong>gpg –list-secret-keys</strong> lista suas chaves privadas.</p>
+</blockquote>
+
+<h2 id="apagando-chaves-de-seu-chaveiro">Apagando chaves de seu chaveiro</h2>
+
+<blockquote>
+  <p>Quando uma chave pública é modificada ou por qualquer outro motivo deseja retira-la do seu chaveiro público, utilize a opção <strong>–delete-key</strong></p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">--delete-key</span> usuario</code></pre></figure>
+
+<p>Pode ser especificado o nome de usuário, e-mail IDchave ou qualquer outro detalhe que confira com a chave pública do usuário. Será pedida a confirmação para excluir a chave pública.</p>
+
+<blockquote>
+  <p>OBS: A chave privada pode ser excluída com a opção -__-delete-secret-key__. Utilize-a com o máximo de atenção para excluir chaves secretas que não utiliza (caso use mais de uma), a exclusão acidental de sua chave secreta significa é como perder a chave de um cofre de banco: você não poderá descriptografar os arquivos enviados a você e não poderá enviar arquivos assinados. Mesmo assim se isto acontecer acidentalmente, você poderá recuperar o último backup da chave privada em <strong>~/.gnupg/secring.gpg~</strong>.</p>
+</blockquote>
+
+<h2 id="mudando-sua-frasesenha">Mudando sua FraseSenha</h2>
+
+<p>Execute o comando <strong>gpg –edit-key</strong> usuário, quando o programa entrar em modo de comandos, digite <strong>passwd</strong>. Será lhe pedida a “<strong>Frase Senha</strong>” atual e a <strong>nova</strong> “<strong>Frase Senha</strong>”. Digite “save” para sair e salvar as alterações ou “<strong>quit</strong>” para sair e abandonar o que foi feito. O <strong>gpg –edit-key</strong> permite gerenciar diversos aspectos de suas chaves é interessante explora-lo digitando “<strong>?</strong>” para exibir todas as opções disponíveis.</p>
+
+<h2 id="assinando-uma-chave-digital">Assinando uma chave digital</h2>
+
+<p>A assinatura de chaves é um meio de criar laços de confiança entre usuários <strong>PGP</strong>. Assinar uma chave de alguém é algo sério, você deve ter noção do que isto significa e das consequências que isto pode trazer antes de sair assinando chaves de qualquer um. O próprio teste para desenvolvedor da distribuição <strong>Debian</strong> requer como primeiro passo a identificação do candidato, caso sua <strong>chave pgp</strong> seja assinada por algum desenvolvedor desta distribuição, imediatamente o teste de identificação é completado. A partir disso você deve ter uma noção básica do que isto significa.</p>
+
+<p>Para assinar uma chave siga os seguintes passos</p>
+
+<ul>
+  <li>Importe a chave pública do usuário.</li>
+  <li>Execute o comando <strong>gpg –edit-key</strong> usuario (onde usuario é o nome do usuário/e-mail/IDchave da chave pública importada).</li>
+  <li>Digite list, e selecione a chave pública (pub) do usuário com o comando <strong>uid [numero_chave]</strong>. Para assinar todas as chaves públicas do usuário, não selecione qualquer chave com o comando uid.</li>
+  <li>Para assinar a chave pública do usuário digite sign, será perguntado se deseja realmente assinar a chave do usuário e então pedida a “FraseSenha” de sua chave privada.</li>
+  <li>Digite “<strong>list</strong>”, repare que existe um campo chamado <strong>trust</strong>: <strong>n/q</strong> no lado direito. O primeiro parâmetro do “<strong>trust</strong>” indica o valor de confiança do dono e o segundo (após a <strong>/</strong>) o valor de confiança calculado automaticamente na chave. As seguintes possuem o seguinte significado</li>
+  <li><strong>-</strong> - Nenhum dono encontrado/confiança não calculada.</li>
+  <li><strong>e</strong> - Chave expirada/falha na checagem de confiança.</li>
+  <li><strong>q</strong> - Quando não conhece o usuário.</li>
+  <li><strong>n</strong> - Quando não confia no usuário (é o padrão).</li>
+  <li><strong>m</strong> - Pouca confiança no usuário.</li>
+  <li><strong>f</strong> - Totalmente confiável.</li>
+  <li><strong>u</strong> - Indiscutivelmente confiável. Somente usado para especificar a chave pública do próprio usuário.</li>
+</ul>
+
+<p>O valor de confiança da chave pode ser modificado com o comando trust e selecionando uma das opções de confiança. Os valores de confiança para a chave pública pessoal é <strong>-/u</strong> (não é necessário calcular a confiança/indiscutivelmente confiável).</p>
+
+<h2 id="listando-assinaturas-digitais">Listando assinaturas digitais</h2>
+
+<p>Execute o comando <strong>gpg –list-sigs</strong> para listas todas as assinaturas existentes no seu chaveiro. Opcionalmente pode ser especificado um parâmetro para fazer referência a assinatura de um usuário:gpg –list-sigs usuario. O comando <strong>gpg –check-sigs</strong> adicionalmente faz a checagem de assinaturas.</p>
+
+<h2 id="recomendações-para-a-assinatura-de-chaves-gpg">Recomendações para a assinatura de chaves gpg</h2>
+
+<p><strong>Este texto foi divulgado por uma pessoa que pediu para permanecer anônima</strong> na lista <strong>debian-user-portuguese@lists.debian.org</strong> explicando os procedimentos de segurança para a troca de chaves públicas individuais e em grupo de usuários. Ele é um pouco longo mas a pessoa é especializada no assunto, e seu foco é a segurança na troca de chaves e o que isto significa. Após consulta ao autor do texto, o texto foi reproduzido na íntegra, mantendo os padrões de formatação da mensagem.</p>
+
+<h2 id="trocando-assinaturas-de-chaves-digitais">Trocando assinaturas de chaves digitais</h2>
+
+<p>Direitos de republicação cedidos ao domínio público, contanto que o texto seja reproduzido em sua íntegra, sem modificações de quaisquer espécie, e incluindo o título e nome do autor.</p>
+
+<ul>
+  <li>
+    <ol>
+      <li>Assinaturas digitais</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Chaves digitais e a teia de confiança</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Trocando assinaturas de chaves digitais com um grupo de pessoas</li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="criando-arquivos-targz-com-senha">Criando arquivos .tar.gz com senha</h2>
+
+<blockquote>
+  <p>Aqui vai uma dica para deixar seus arquivos compactados em tar.gz com senha, na verdade o arquivo será transformado num <strong>.gpg</strong>, segue</p>
+</blockquote>
+
+<p><strong>Para compactar</strong></p>
+
+<ul>
+  <li>Cria o tar(<strong>-cf</strong>, <strong>C</strong> de <strong>C</strong> reate) e (<strong>f</strong> de <strong>F</strong> iles), logo (<strong>-cf Create Files</strong>, serve pra memorizar)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">tar</span> <span class="nt">-cf</span> nome_que_vc_escolher.tar arquivo_ou_pasta</code></pre></figure>
+
+<ul>
+  <li>Agora transforma ele em <strong>tar.gz</strong></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$gzip</span> <span class="nt">-9</span> arquivo_que_vc_criou.tar</code></pre></figure>
+
+<ul>
+  <li>e agora usa-se o <strong>gpg</strong> pôr senha</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg <span class="nt">-c</span> arquivo.tar.gz</code></pre></figure>
+
+<ul>
+  <li><strong>Descompactando</strong> , é preciso pôr a senha pré criada, quando ele solicitar</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gpg arquivo.tar.gz.gpg</code></pre></figure>
+
+<ul>
+  <li>Agora extrair(<strong>-xf</strong> X de e <strong>X</strong> tract e F de <strong>F</strong> iles, <strong>eXtract Files</strong>)</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">tar</span> <span class="nt">-xf</span> arquivo.tar.gz</code></pre></figure>
+
+<h2 id="pronto">Pronto!</h2>
+
+<p>Fonte: http://pt.wikibooks.org/wiki/Guia_do_Linux/Avançado</p>
+
+  </section>
+  </main>
+  
+  <section id="marketing" class="section-bg" style="color: #fff;">
+  <div class="container text-center">
+    <p class="ph1">Curso Intensivo de Shell Script Avançado</p>
+    <p>Aprenda tudo sobre Terminfo e Termcap, manipulação de Sistema de Arquivos via linha de comando, criação de games, manuais, processos, animações em ASCII e Unicode.</p>
+    <a href="/shell">
+    	<button class="btn btn-saiba-mais">Mais detalhes</button>
+    </a>
+  </div>
+</section><!-- #marketing -->
+
+
+</div>
+
+
+
+<footer id="footer">
+ <div class="footer-top">
+    <div class="container">
+       <div class="row">
+          <div class="col-lg-4 col-md-6 footer-info">
+             <p><img src="/assets/img/site/logo-blog.png" alt="" class="img-fluid"></p>
+             <br>
+             <p>Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal .</p>
+             <br>
+             <img src="/assets/img/site/paycards.png" alt="Bandeiras de cartões" title="Via PagSeguro e PayPal" class="img-footer">
+          </div>
+          <div class="col-lg-2 col-md-6 footer-links">
+             <h4>Links úteis</h4>
+             <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">Como funciona</a></li>
+                <li><a href="#services">Cursos</a></li>
+                <li><a href="#why-us">Blog</a></li>
+             </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h4>Contato</h4>
+             <p>
+                Londrina, Paraná<br>
+                Brasil <br>
+                <strong>Email:</strong> contato@terminalroot.com.br<br>
+             </p>
+             <div class="social-links">
+                <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fa fa-youtube"></i></a>
+                <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://rss.com/TerminalRootTV" class="rss"><i class="fa fa-rss"></i></a>                            
+             </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+             <h4>Nosso Newsletter</h4>
+             <p>Receba nossas novidades por e-mail.</p>
+             <div id="form">
+                <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <div class="container">
+    <div class="copyright">
+       &copy; Copyright <strong>Terminal Root</strong>. Todos os Direitos Reservados
+    </div>
+    <!--
+       <div class="credits">        
+         By <a href="https://bootstrapmade.com/">BootstrapMade</a> e modificado por <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/">Marcos Oliveira</a>
+       </div>
+       -->
+ </div>
+</footer>
+
+<!-- #footer -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+<!-- JavaScript Libraries -->
+<script src="/assets/lib/jquery/jquery.min.js"></script>
+<script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="/assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/easing/easing.min.js"></script>
+<script src="/assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="/assets/lib/counterup/counterup.min.js"></script>
+<script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="/assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="/assets/lib/lightbox/js/lightbox.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/sweetalert.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('[data-toggle="popover"]').popover();
+	$(".close").click(function(){
+		//alert("Clicou");
+		//$("#mySearch").hide();
+		location.reload();
+	});
+	$(".register").click(function(){
+		var mail = $("#email").val();
+		if ( mail != "" ){
+			var msg = "Olá, " + mail + "!\n";
+		}else{
+			var msg = "";
+		}
+		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
+	});
+});
+</script>
+  <div class="modal fade text-center" id="mySearch" role="dialog">
+
+    
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+    </div>
+    
+    <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+    <br>
+    <ul id="results-container"></ul>
+      
+    </div>
+    
+  <script src="/assets/js/search-script.min.js" type="text/javascript"></script>
+  <script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+  })
+  </script>
+
+
+
+</body>
+</html>
