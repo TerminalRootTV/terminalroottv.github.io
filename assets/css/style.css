@@ -179,7 +179,7 @@ h6 {
 #intro {
 	width: 100%;
 	position: relative;
-	background: url("../img/site/intro-bg.png") center bottom no-repeat;
+	background: url("../img/site/intro-bg.jpg") center bottom no-repeat;
 	background-attachment: fixed;
 	/*text-shadow: 3px 3px #000000;*/
 	background-size: cover;
