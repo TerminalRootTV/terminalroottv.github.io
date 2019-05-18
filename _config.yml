@@ -12,8 +12,14 @@ gitlab_username:  TerminalRoot
 youtube_username:  TerminalRootTV
 # 
 # Build settings
-markdown: kramdown  
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
+
 
 permalink: /:year/:month/:title.html
 #
