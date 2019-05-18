@@ -19,7 +19,7 @@
 
 #page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe {
 
-	max-width: 70rem;
+	max-width: 60rem;
 	display: block;
 	padding: 0 1.25rem;
 	margin: 0 auto 1.875rem;
@@ -68,7 +68,7 @@
 }
 
 #page-only ul, #page-only ol {
-	max-width: 50rem;
+	max-width: 60rem;
 	display: block;
 	padding: 0 1.25rem;
 	margin: 0 auto 2rem;
@@ -258,7 +258,7 @@
 
 #post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe {
 
-	max-width: 70rem;
+	max-width: 60rem;
 	display: block;
 	padding: 0 1.25rem;
 	margin: 0 auto 1.875rem;
@@ -269,9 +269,9 @@
 }
 
 #post-page p {
-	font-size: 18px;
+	font-size: 19px;
 	line-height: 1.6;
-	color: #333333;
+	color: #222;
 }
 
 #post-page img {
@@ -310,7 +310,7 @@
 }
 
 #post-page ul, #post-page ol {
-	max-width: 70rem;
+	max-width: 60rem;
 	display: block;
 	padding: 0 1.25rem;
 	margin: 0 auto 2rem;
