@@ -1,0 +1,33 @@
+<section id="shared" class="section-bg" style="color: #2e3436; background: #d3d7cf; padding: 60px 20px;">
+  <div class="container text-center">
+    <h1>Compartilhe</h1>
+
+  <div class="row">
+  
+  	<div class="col-sm-5"></div>
+  	
+  	<div class="col-sm-1">
+  		<h1>
+	  		<a style="color:#53A7E7;" aria-label="Compartilhe no Twitter" href="https://twitter.com/intent/tweet?text={{ page.title }} %20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
+onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Compartilhe no Twitter">
+	  			<i class="fas fa-twitter"></i>  		
+	  		</a>
+	  	</h1>
+  	</div>
+  	
+  	<div class="col-sm-1">
+  		<h1>
+	  		<a style="color:#4267B2;" aria-label="Compartilhe no Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Compartilhe no Facebook">
+	  			<i class="fas fa-facebook"></i>  		
+	  		</a>
+	  	</h1>
+  	</div>
+  	
+  	<div class="col-sm-5"></div>
+      
+  </div>
+
+
+  </div>
+</section><!-- #relateds -->
