@@ -18,7 +18,7 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     default_lang: html
-    css_class   : 'syntax'
+#    css_class   : 'syntax'
 
 
 permalink: /:year/:month/:title.html
