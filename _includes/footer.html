@@ -74,6 +74,12 @@
 <script src="/assets/js/sweetalert.min.js"></script>
 <script>
 $(document).ready(function(){
+
+	$(document).ready(function(){
+		$("a[href^='http']:not([href^='https://terminalroot.com.br'])").attr("target","_blank");
+		$("a[href^='http']:not([href^='https://terminalroot.com.br'])").attr("rel","noopener noreferrer");
+	});
+
 	$('[data-toggle="popover"]').popover();
 	$(".close").click(function(){
 		//alert("Clicou");
