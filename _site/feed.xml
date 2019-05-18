@@ -6,9 +6,63 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 21:16:57 -0300</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 21:16:57 -0300</lastBuildDate>
+    <pubDate>Fri, 17 May 2019 23:34:17 -0300</pubDate>
+    <lastBuildDate>Fri, 17 May 2019 23:34:17 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Novo Portal de Cursos e Site Terminal Root</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/tv/terminalroot800.jpg&quot; alt=&quot;Banner da Postagem&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Salve, salve, rapaziada! Estou de volta, sei que muitos de vocês ficaram se perguntando: - Porque faz tanto tempo que o Terminal Root não posta um vídeo ? Mas a resposta é bem simples: Programando noite à dentro! 😀&lt;/p&gt;
+
+&lt;p&gt;Estava um pouco preocupado com o pessoal que adquiria os cursos e ficava me mandando e-mail pra tirar dúvidas e sempre me perguntava se não havia um ambiente pra gente se comunicar e tal, putz e isso me deixa meio sem jeito. Era tão estranho a forma como eu disponibilizava o conteúdo pra galera, então comecei a criar um LMS do zero .&lt;/p&gt;
+
+&lt;p&gt;Por algumas vezes tentei Wordpress, Moodle e entre outros menos conhecidos, mas não estavam de acordo com minhas necessidades. Então, deixei a enrolação de lado e decidi escrever. É um software bem simples escrito com Programação Orientada à Objetos e possui algumas linguagens inclusas como: Bash (Lógico!) , PHP , JavaScript e também as lingaugens de formatação e bibliotecas famosas.&lt;/p&gt;
+
+&lt;p&gt;O Portal tem:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Suporte;&lt;/li&gt;
+  &lt;li&gt;Vídeos;&lt;/li&gt;
+  &lt;li&gt;Comentários individuais para cada vídeo;&lt;/li&gt;
+  &lt;li&gt;Questionário;&lt;/li&gt;
+  &lt;li&gt;e Certificado.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pra começar está de bom tamanho, com o tempo vou adicionar novos recursos, consertar &lt;del&gt;falhas&lt;/del&gt; e melhorar a aparência. Falando em aparência, diz aí pra mim: O que achou do novo layout do site ? 😗&lt;/p&gt;
+
+&lt;p&gt;Espero que tenham gostado. Se quiser mais detalhes sobre o sisteminha, dá uma olha no vídeo abaixo!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lembrando que ainda esse mês vamos começar a jornada de:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 artigo por dia&lt;/li&gt;
+  &lt;li&gt;1 Vídeo por semana&lt;/li&gt;
+  &lt;li&gt;1 curso por mês&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Juro que vou tentar cumprir! 😇&lt;/p&gt;
+
+&lt;p&gt;Veja o vídeo, comente e um forte abraço!&lt;/p&gt;
+
+&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/v4Dn6Yf61ww&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Fri, 17 May 2019 18:19:07 -0300</pubDate>
+        <link>http://localhost:4000/2019/05/novo-portal-de-cursos-e-site-terminal-root.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/novo-portal-de-cursos-e-site-terminal-root.html</guid>
+        
+        <category>terminalroot</category>
+        
+        <category>youtube</category>
+        
+        <category>cursos</category>
+        
+        
+      </item>
     
       <item>
         <title>Conheça o Projeto MG-Renders feito em Shell Script</title>
@@ -733,40 +787,6 @@ vim ~/.config/i3/config&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
         <guid isPermaLink="true">http://localhost:4000/2019/03/gentoo-i3-ly.html</guid>
         
         <category>gentoo</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/img/gentoo/gentoo-ubuntu.jpg&quot; alt=&quot;Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Assista o vídeo e veja uma maneira fácil de instalar ao lado do Ubuntu o &lt;strong&gt;Gentoo Linux&lt;/strong&gt; , uma das distribuições mais &lt;u&gt;temidas&lt;/u&gt; pelos usuários Linux.&lt;/p&gt;
-
-&lt;p&gt;Estamos disponibilizando uma &lt;strong&gt;MEGA PROMOÇÃO IMPERDÍVEL&lt;/strong&gt; em comemoração ao &lt;em&gt;10 mil inscritos&lt;/em&gt; no &lt;a href=&quot;https://youtube.com/TerminalRootTV&quot;&gt;Canal TerminalRootTV&lt;/a&gt; e por 10 dias ou até o canal alcançar o 10 mil inscritos está valendo a promoção. Então, corra e aproveite logo, pois é por tempo limitado.&lt;/p&gt;
-
-&lt;p&gt;Na promoção você irá adquirir e &lt;strong&gt;Poder Baixar Todo Conteúdo pro seu Computador&lt;/strong&gt; por apenas &lt;strong&gt;R$ 129,90&lt;/strong&gt; , inclui todos os cursos: &lt;em&gt;Vim, Shell Script Iniciante, Sed, Expressões Regulares e Shell Script Extremamente Avançado.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Para adquirir tudo pelo preço diferenciado acesse o link:&lt;/p&gt;
-&lt;h2 id=&quot;httpbitlypromotop10&quot;&gt;&lt;a href=&quot;http://bit.ly/PromoTop10&quot;&gt;http://bit.ly/PromoTop10&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Saiba mais: &lt;a href=&quot;http://terminalroot.com.br/promo&quot;&gt;http://terminalroot.com.br/promo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;clique-aqui-para-assistir-o-vídeo-como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu&quot;&gt;&lt;a href=&quot;http://bit.ly/2TbQ3mV&quot;&gt;Clique Aqui para assistir o Vídeo: Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Site oficial do Gentoo: &lt;a href=&quot;https://gentoo.org&quot;&gt;https://gentoo.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;valeu&quot;&gt;Valeu!&lt;/h1&gt;
-</description>
-        <pubDate>Mon, 25 Feb 2019 16:18:26 -0300</pubDate>
-        <link>http://localhost:4000/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html</guid>
-        
-        <category>gentoo</category>
-        
-        <category>ubuntu</category>
-        
-        <category>shellscript</category>
         
         
       </item>

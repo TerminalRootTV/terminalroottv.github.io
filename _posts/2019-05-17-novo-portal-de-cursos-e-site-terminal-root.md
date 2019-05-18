@@ -43,4 +43,4 @@ Veja o vídeo, comente e um forte abraço!
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/v4Dn6Yf61ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-=)
+
