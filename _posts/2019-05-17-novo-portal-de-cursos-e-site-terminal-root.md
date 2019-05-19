@@ -17,7 +17,7 @@ Salve, salve, rapaziada! Estou de volta, sei que muitos de vocês ficaram se per
 
 Estava um pouco preocupado com o pessoal que adquiria os cursos e ficava me mandando e-mail pra tirar dúvidas e sempre me perguntava se não havia um ambiente pra gente se comunicar e tal, putz e isso me deixa meio sem jeito. Era tão estranho a forma como eu disponibilizava o conteúdo pra galera, então comecei a criar um LMS do zero .
 
-Por algumas vezes tentei Wordpress, Moodle e entre outros menos conhecidos, mas não estavam de acordo com minhas necessidades. Então, deixei a enrolação de lado e decidi escrever. É um software bem simples escrito com Programação Orientada à Objetos e possui algumas linguagens inclusas como: Bash (Lógico!) , PHP , JavaScript e também as lingaugens de formatação e bibliotecas famosas.
+Por algumas vezes tentei Wordpress, Moodle e entre outros menos conhecidos, mas não estavam de acordo com minhas necessidades. Então, deixei a enrolação de lado e decidi escrever. É um software bem simples escrito com Programação Orientada à Objetos e possui algumas linguagens inclusas como: Bash (Lógico!) , PHP , JavaScript e também as linguagens de formatação e bibliotecas famosas.
 
 O Portal tem:
 
