@@ -15,7 +15,7 @@ tags:
 ![Conheça e Instale o Oh My Bash!](/assets/img/bash/oh-my-bash-min.jpg "Conheça e Instale o Oh My Bash!")
 
 ## Introdução
-O Oh-My-Bash é um conjunto de estilização para seu terminal e de código aberto para gerenciar suas configurações no BASH. Ele vem com uma tonelada de funções úteis, ajuda, plugins, temas e entre outras coisitas! Se você ouviu falar sobre [Oh-My-Zsh](https://terminalroot.com.br/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html) antes, este projeto é um *fork* dele, mas em [Bourne Again Shell](https://terminalroot.com.br/shell).
+O [Oh-My-Bash](https://ohmybash.github.io/) é um conjunto de estilização para seu terminal e de código aberto para gerenciar suas configurações no BASH. Ele vem com uma tonelada de funções úteis, ajuda, plugins, temas e entre outras coisitas! Se você ouviu falar sobre [Oh-My-Zsh](https://terminalroot.com.br/2018/02/como-instalar-e-usar-o-shell-zsh-e-o-oh-my-zsh.html) antes, este projeto é um *fork* dele, mas em [Bourne Again Shell](https://terminalroot.com.br/shell).
 
 ## Instalação
 
