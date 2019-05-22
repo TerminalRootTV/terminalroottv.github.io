@@ -122,4 +122,7 @@ Não deixe de conhecer nossos cursos de Shell Script, Terminal e outros em:
 
 ## <https://terminalroot.com.br/cursos>
 
+## Endereço Oficial do Oh-MyBash!
+### <https://ohmybash.github.io/>
+
 Abraços!
