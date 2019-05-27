@@ -6,10 +6,10 @@ description: "Curl é uma ferramenta para transferir dados de ou para um servido
 image: '/assets/img/shell-script/CurlLogo.jpg'
 main-class: 'bash'
 tags:
-- Shell Script
-- Web Hacker
-- Terminal
-- Comandos
+- shellscript
+- criptografia
+- terminal
+- comandos
 ---
 
 ![Enviando dados via Terminal para um formulário web](/assets/img/shell-script/CurlLogo.jpg "Enviando dados via Terminal para um formulário web")

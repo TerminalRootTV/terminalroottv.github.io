@@ -7,7 +7,7 @@ description: "Matriux é um sistema operacional baseado em Linux de código aber
 main-class: 'misc'
 tags:
 - Distros
-- Web Hacker
+- hacker
 ---
 
 ![Matriux Linux uma outra opção ao Kali Linux](/assets/img/distros/Matriux-linux-os.jpg "Matriux Linux uma outra opção ao Kali Linux")
