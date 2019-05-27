@@ -7,7 +7,7 @@ description: "Black Arch Linux é uma Distro desenvolvida para realizar Pentests
 main-class: 'misc'
 tags:
 - Distros
-- Web Hacker
+- hacker
 ---
 
 ![Conheça Black Arch uma distro Linux para Pentests](/assets/img/distros/blackarch.jpg "Conheça Black Arch uma distro Linux para Pentests")

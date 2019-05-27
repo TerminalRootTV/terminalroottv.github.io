@@ -8,7 +8,7 @@ main-class: 'linux'
 color: '#204a87'
 tags:
 - Distros
-- Web Hacker
+- hacker
 twitter_text: "Conheça Parrot Security OS uma distro Linux para Teste de Invasão"
 introduction: "Distribuição GNU/LINUX baseada no Debian"
 ---

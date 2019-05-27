@@ -7,7 +7,7 @@ description: "Neste artigo vamos apresentar o Cyborg Hawk Linux, uma distribuiç
 main-class: 'misc'
 tags:
 - Distros
-- Web Hacker
+- hacker
 - pentest
 ---
 
