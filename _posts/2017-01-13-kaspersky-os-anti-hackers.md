@@ -7,10 +7,8 @@ description: "Um produto totalmente inovador e que foi construído do zero para 
 main-class: 'misc'
 color: '#34a853'
 tags:
-- notícias
-categories:
-twitter_text: "Kaspersky OS, um Sistema Operacional à prova de hackers!"
-introduction: "Um produto totalmente inovador e que foi construído do zero para que o seu propósito fosse alcançado na plenitude."
+- noticias
+- hacker
 ---
 
 ![Hacker](/assets/img/hacker/hacker.jpg)
