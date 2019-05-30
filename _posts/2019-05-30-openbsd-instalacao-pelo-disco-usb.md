@@ -11,7 +11,7 @@ tags:
 - unix
 ---
 
-![OpenBSD - Instalação pelo Disco USB](/home/marcos/openbsd-usb.jpg)
+![OpenBSD - Instalação pelo Disco USB/assets/img/openbsd/openbsd-usb.jpg)
 
 A instalação do [OpenBSD](https://openbsd.org/) é bem simples quando você usa os métodos *default* , mas algumas pessoas se atrapalham quando vão instalar via disco USB (pendrive). Nesse vídeo/artigo vamos mostrar como fazer.
 
