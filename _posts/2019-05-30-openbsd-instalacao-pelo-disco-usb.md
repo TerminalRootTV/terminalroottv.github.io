@@ -25,7 +25,7 @@ Após dar o boot pelo *pendrive* o processo de instalação é o mesmo, diferind
 
 Durante o processo de instalação é necessário se atentar ao seguinte passo:
 
-## Onde instalar os conjutos ?
+## Onde instalar os conjuntos ?
 
 Quando aparecer essa pergunta
 
@@ -49,7 +49,7 @@ Location of sets? (cd0 disk http or 'done') [cd0] disk
 
 Conheça nossos cursos de [Shell Script](http://terminalroot.com.br/shell) e [entre outros](http://terminalroot.com.br/cursos).
 
-## Comandos e links útes
+## Comandos e links úeis
 
 + `sudo VBoxManage internalcommands createrawvmdk -rawdisk /dev/sdb -filename USB-Boot-Disk.vmdk`
 + `sudo chown $USER:$USER USB-Boot-Disk.vmdk`
