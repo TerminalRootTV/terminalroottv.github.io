@@ -49,7 +49,7 @@ Location of sets? (cd0 disk http or 'done') [cd0] disk
 
 Conheça nossos cursos de [Shell Script](http://terminalroot.com.br/shell) e [entre outros](http://terminalroot.com.br/cursos).
 
-## Comandos e links útei
+## Comandos e links útes
 
 + `sudo VBoxManage internalcommands createrawvmdk -rawdisk /dev/sdb -filename USB-Boot-Disk.vmdk`
 + `sudo chown $USER:$USER USB-Boot-Disk.vmdk`
