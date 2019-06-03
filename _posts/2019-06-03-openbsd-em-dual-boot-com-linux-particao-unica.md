@@ -66,7 +66,7 @@ Pronto, agora basta pressionar a letra `w` (write) e se quiser ver como alteraç
 
 Para isso pressione `c` (Custom Layout), se você somente pressionar [ENTER] sem digitar a letra `c`, ele irá aceitar o padrão definido entre colchetes que é o `[a]` (Auto layout).
 
-##8 º Agora pressione `p` para mostrar como está atulamente a *divisão* . 
+## 8 º Agora pressione `p` para mostrar como está atulamente a *divisão* . 
 
 Lembrando que a letra **c** representa o HD e não uma partição, e se já houver outra letra, provavelmente a letra **i** , é que que é o tamanho disponível para particionar. 
 
