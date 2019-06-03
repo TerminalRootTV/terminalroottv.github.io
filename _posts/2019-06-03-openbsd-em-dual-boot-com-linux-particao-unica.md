@@ -57,7 +57,9 @@ Nesse caso, basta aceitar o padrão que ele propôs [n] , ou seja, só pressiona
 
 Pronto, agora basta pressionar a letra `w` (write) e se quiser ver como alterações ficaram pressione `p` (print) e depois `q`(quit) para sair .
 
-## 7 º É chegado o momento de criar o layout da partição. Lembre-se que por padrão o OpenBSD irá criar múltiplas partições, podendo dividí-la em até 16 partições dependendo do tamanho do seu HD . Mas se você deseja, você pode criar um layout semelhante ao do Linux:
+## 7 º É chegado o momento de criar o layout da partição. 
+
+> Lembre-se que por padrão o OpenBSD irá criar múltiplas partições, podendo dividí-la em até 16 partições dependendo do tamanho do seu HD . Mas se você deseja, você pode criar um layout semelhante ao do Linux:
 
 + 1 - Partiçao SWAP
 + 2 - Partição ROOT (os os arquivos do sistema serão instalados)
