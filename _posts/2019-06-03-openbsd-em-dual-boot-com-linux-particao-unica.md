@@ -42,7 +42,9 @@ Vamos supôr que vamos instalar o OpenBSD que tem o maior tamanho de partição,
 
 > Se tiver dúvida digite `help` para mais informações. Lembrando que a letra `e` é o mesmo do comando `edit`, ou seja, é uma abreviação: `edit 0`. Assim como: h(help), w(write), q(quit), ...
 
-## 5º Agora é necessário informar o **id** da partição, o ID para a label do OpenBSD é o **a6** ou **A6** , para saber todos os identificadores, você pode teclar o simbolo de interrogação **?** . Se seu teclado estiver desconfigurado, o símbolo da interrogação geralmente é o [Shift + ;] (segure o Shift e pressione a tecla do ponto e vírgula).
+## 5º Agora é necessário informar o **id** da partição
+
+o ID para a label do OpenBSD é o **a6** ou **A6** , para saber todos os identificadores, você pode teclar o simbolo de interrogação **?** . Se seu teclado estiver desconfigurado, o símbolo da interrogação geralmente é o [Shift + ;] (segure o Shift e pressione a tecla do ponto e vírgula).
 
 
 ## 6 º Agora ele irá perguntar se você deseja editar o CHS (Cylindres, Heads, Sectors):
