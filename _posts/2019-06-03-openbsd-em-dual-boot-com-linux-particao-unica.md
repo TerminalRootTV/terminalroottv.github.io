@@ -82,7 +82,7 @@ Pronto, definimos a partição root.
 4. O *size* mostrará todo restante do tamanho  que sobrou, o tamanho aparecerá entre colchetes, basta pressionar [ENTER];
 5. E finalmente o *FS Type* será **swap** mesmo, que aparecerá entre colchetes, ou seja, novamente basta pressionar [ENTER];
 
-## 10 º Pronto, agora pressione a letra `w`(write) para gravar as alterações. 
+## 10 º Pronto, agora pressione a letra `w` (write) para gravar as alterações. 
 
 Se quiser ver como ficou o layout após as alterações pressione a letra `p` e para sair e continuar a instalação pressione a letra `q` e depois [ENTER]. lógico! =)
 
