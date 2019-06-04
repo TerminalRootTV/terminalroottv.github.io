@@ -40,6 +40,8 @@
              <div id="form">
                 <input type="email" name="email" id="email"><input type="submit" class="register" value="Inscreva-me">
              </div>
+            <div id="return" style="color:#fff;"></div>
+            <div id="gif" style="display:none;"><img src="https://terminalroot.com.br/assets/img/gif/gif.gif" alt="loader"></div>
           </div>
        </div>
     </div>
@@ -88,15 +90,27 @@ $(document).ready(function(){
 		//$("#mySearch").hide();
 		location.reload();
 	});
-	$(".register").click(function(){
-		var mail = $("#email").val();
-		if ( mail != "" ){
-			var msg = "Olá, " + mail + "!\n";
-		}else{
-			var msg = "";
-		}
-		swal(msg + "Esse campo ainda está em desenvolvimento.\nObrigado por tentar se inscrever.");
-	});
+	
+    $(".register").click(function(){
+            //$(this).hide();
+            var mail = $("#email").val();
+            var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+            // CORS b64: aHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvMTgzODI3NDAvY29ycy1ub3Qtd29ya2luZy1waHAK            	    
+            if( mail == ""){
+                swal("Não pode ser vazio!");
+            }else if( ! re.test(mail) ){
+                swal("Digite um e-mail válido.");
+            }else{
+                $("#form").hide("slow");
+                $("#gif").show("slow");
+                $.get("https://gnu.terminalroot.com.br/newsletter/add.php", {mail: mail}, function(mostrar){
+               	    $("#return").show("slow").html(mostrar);
+                    $("#gif").hide();
+                });	        
+            }
+
+      });
+	
 });
 </script>
 {% include search.html %}
