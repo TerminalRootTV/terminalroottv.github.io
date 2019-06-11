@@ -17,13 +17,9 @@ Nesse vídeo criamos do zero, um fetch que exibe logo em ASCII e informações d
 
 Um fetch é um script bash disponível para Linux e outros sistemas que exibe informações do sistema juntamente com a versão ASCII do logo de distribuição Linux do sistema. Ele é usado principalmente para gerar capturas de tela para compartilhar em mídias sociais ou sites de hospedagem de imagens.
 
-Assista ao vídeo
+# Assista ao vídeo
 
-***
-
-# [Clique Aqui Para Assistir o Vídeo](https://youtu.be/2_tnd8g-IMc)
-
-***
+<iframe width="1246" height="701" src="https://www.youtube.com/embed/2_tnd8g-IMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Conheça nosso Treinamentos de Shell Script, Vim, Expressões Regulares e Sed
 # <http://terminalroot.com.br/cursos>
