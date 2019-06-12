@@ -15,6 +15,10 @@ tags:
 
 ![Como criar pacotes .deb](/assets/img/debian/deb.jpg "Como criar pacotes .deb")
 
+## [Assista ao vídeo](http://bit.ly/2F3CqxS)
+
+<iframe width="1246" height="701" src="https://www.youtube.com/embed/DS7ozD5_tko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Pacotes __.deb__ facilitam a instalação de aplicativos, aqui no blog tem dois Posts que demonstram como "Instalar o Eclipse Galileo e o Aptana", mas tudo poderia ser desprezado, se eu criasse um pacote .deb e disponibilizasse pra download, mas essa não é a idéia desse blog.
 
 Os pacotes podem ser instalado em __Debian__ e __Debian-Likes__ (Ubuntu, Linux Mint, Backtrack 5...), que possuem o mesmo caminho para os diretórios dos aplicativos.
