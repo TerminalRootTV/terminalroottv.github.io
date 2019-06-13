@@ -13,6 +13,17 @@ tags:
 
 ![Mysql Linux](/assets/img/mysql/mysql-terminalroot.png "Mysql Linux")
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-2838251107855362"
+  data-ad-slot="8549252987"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script> 
+
 <style>
 
 div.haha {max-width: 300px; text-align: center; margin: auto;}
@@ -50,6 +61,16 @@ fieldset {margin-bottom:10px; width:690px; font-weight:bold; font-size:15px; col
   é um sistema de gerenciamento de banco de dados (SGBD), que utiliza a linguagem SQL (Linguagem de Consulta Estruturada, do inglês Structured Query Language) como interface. É atualmente um dos bancos de dados mais populares, com mais de 10 milhões de instalações pelo mundo. 
 </fieldset>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+  style="display:block; text-align:center;"
+  data-ad-layout="in-article"
+  data-ad-format="fluid"
+  data-ad-client="ca-pub-2838251107855362"
+  data-ad-slot="8549252987"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script> 
 
 <table class="tb">
  <tr>
