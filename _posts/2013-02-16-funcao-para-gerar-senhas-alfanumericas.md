@@ -2,15 +2,16 @@
 layout: post
 title: "Função para gerar senhas alfanuméricas com Shell Script"
 date: '2013-02-16T18:30:00.000-08:00'
-image: '/assets/img/shell-scripit/gerarsenha.jpg'
+image: '/assets/img/shell-script/senhas-shellscript.jpg'
 description: "Tentei escrever o código da forma mais simples, eficaz e econômica para fazer esse script, para entender cada linha/comando é só ler os próprios comentários do código."
 main-class: 'bash'
 tags:
 - Shell Script
+- shellscript
 ---
 
 
-![Função para gerar senhas alfanuméricas com Shell Script](/assets/img/shell-scripit/gerarsenha.jpg "Função para gerar senhas alfanuméricas com Shell Script")
+![Função para gerar senhas alfanuméricas com Shell Script](/assets/img/shell-script/senhas-shellscript.jpg "Função para gerar senhas alfanuméricas com Shell Script")
 
 
 > Tentei escrever o código da forma mais simples, eficaz e econômica para fazer esse script, para entender cada linha/comando é só ler os próprios comentários(#) do código.
