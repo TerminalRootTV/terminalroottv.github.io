@@ -20,6 +20,19 @@ tags:
 Esta linguagem, é considerada por muitos, um importante marco para história da programação, tendo tido bastante influência na criação de outras linguagens de programação, como, por exemplo, Perl e Python.
  
 ## Variantes do AWK
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 + BWK: conhecido também AWK ou NAWK se refere à versão por Brian Kernighan .
 + GAWK:(GNU AWK) é outra implementação do software livre (OPEN SOURCE)
 + MAWK:é uma versão muito mais rápida implementação AWK por Mike Brennan(...)
@@ -40,6 +53,18 @@ Exemplo, crie um arquivo __world.awk__ com o conteúdo
 # My first awk script
 { print "Hello, World!" }
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tornando este arquivo executável
 {% highlight bash %}
@@ -71,6 +96,18 @@ awk '{print $0}'
 - $2 a cor,
 - $3 seu humor,
 - $4 seu condicionamento físico. 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Podemos usar essas variáveis dentro do comando print. Nele, sempre que colocamos uma vírgula, estamos espaçando
 
@@ -111,6 +148,18 @@ Saída
  de uma vez só
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Dicas
  
 - Usamos a flag __-F__ pra informar ao __AWK__ que iremos usar a __CSV (comma separeted values, valores separados por vírgula)__.
@@ -136,6 +185,19 @@ BEGIN { nomecor="%-15s %20s\n"; printf nomecor, "Nome", "Cor\n"}
 {% endhighlight %}
 
 ## if e operadores de comparação
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 São as instruções de controle que controlam o fluxo da execução dos programas em AWK. Em AWK, elas são similares as de C, além de possuírem os mesmos loopings e interações do padrão Shell.
 
 > Elas são: __if, while, for, do e similares__.
@@ -172,6 +234,18 @@ awk 'BEGIN {print 1+1 > "resultado" }'
 {% endhighlight %}
 
 ## Referências
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://pt.wikipedia.org/wiki/Awk
 
