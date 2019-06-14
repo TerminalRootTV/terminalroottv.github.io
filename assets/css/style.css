@@ -831,6 +831,13 @@ p#howto {
 	font-size: 14px;
 }
 
+#footer .flinkz a {
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+#footer .flinkz a:hover {text-decoration: underline;}
+
 #footer .footer-top {
 	background: #151B26;
 	padding: 60px 0 30px 0;
