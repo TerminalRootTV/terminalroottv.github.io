@@ -834,6 +834,7 @@ p#howto {
 #footer .flinkz a {
 	font-weight: bold;
 	margin-top: 2px;
+	color: #fff;
 }
 
 #footer .flinkz a:hover {text-decoration: underline;}
