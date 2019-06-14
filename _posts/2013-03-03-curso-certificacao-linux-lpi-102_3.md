@@ -82,6 +82,6 @@ cat /etc/services
 
 ## Como fazer o Cálculo de Subrede TCP/Ipv4
 
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=GCU_cndQN1Q)
+<iframe width="1246" height="701" src="https://www.youtube.com/embed/GCU_cndQN1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
