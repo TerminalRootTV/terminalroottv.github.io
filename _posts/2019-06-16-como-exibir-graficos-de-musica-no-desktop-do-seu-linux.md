@@ -104,5 +104,14 @@ Se quiser você ainda pode de diversas maneiras "*startar*" o Glava sempre que r
 + <https://mesonbuild.com/>
 + <https://ninja-build.org/>
 
+## Para remover totalmente o Glava do seu computador rode esses comandos na ordem
+
+{% highlight bash %}
+sudo rm -rf /etc/xdg/glava/
+rm -rf ~/.config/glava/
+sudo rm /usr/local/bin/glava*
+{% endhighlight %}
+
+
 ## Fala aí nos comentários o que achou do Glava !
 
