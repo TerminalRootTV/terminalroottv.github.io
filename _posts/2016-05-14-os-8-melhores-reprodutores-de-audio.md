@@ -6,11 +6,9 @@ image: '/assets/img/audio/reprodutores-audio-linux.jpg'
 description: "Na verdade existem muito mais reprodutores de áudio para Debian GNU/Linux, mas escolhi os que eu acredito que são os melhores e mais leves."
 main-class: 'debian'
 tags:
-- Linux
+- audio
 - debian
-- Multimídia
-twitter_text: "Os 8 Melhores Reprodutores de Áudio para Debian GNU/Linux"
-introduction: "Na verdade existem muito mais reprodutores de áudio para Debian GNU/Linux, mas escolhi os que eu acredito que são os melhores e mais leves."
+- multimidia
 ---
 
 ![Blog Linux](/assets/img/audio/reprodutores-audio-linux.jpg "Blog Linux")
@@ -26,6 +24,18 @@ apt-get install audacious
 {% endhighlight %}
 
 ***
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2 - Moc
 ![Blog Linux](/assets/img/audio/moc.jpg "Blog Linux")
@@ -68,6 +78,18 @@ apt-get install rhythmbox
 
 ***
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 5 - Amarok
 ![Blog Linux](/assets/img/audio/amarok.jpg "Blog Linux")
 [Amarok](https://amarok.kde.org/) é um programa de computador voltado à organização e reprodução de áudio para o ambiente desktop KDE, compatível com sistemas operacionais Unix tais como o Linux e o FreeBSD.
@@ -105,6 +127,18 @@ cmus
 {% endhighlight %}
 
 ***
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 8 - mp3blaster
 ![Blog Linux](/assets/img/audio/mp3blaster.jpg "Blog Linux")

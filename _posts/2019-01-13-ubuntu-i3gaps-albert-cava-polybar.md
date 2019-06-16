@@ -8,10 +8,22 @@ main-class: 'misc'
 tags:
 - ubuntu
 - i3
-- wm
+- audio
 ---
 
 ![Ubuntu + i3-gaps + Albert + Cava + Polybar](/assets/img/dicas/ubuntu-i3gaps-albert-cava-polybar.png "Ubuntu + i3-gaps + Albert + Cava + Polybar")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Siga o passo a passo abaixo
 
@@ -24,6 +36,18 @@ sudo apt install git libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util
 > Deslogar, alterar o display manager pra iniciar com o i3, e pressionar 2x enter pra criar os arquivos de configuração do i3 (se não conseguir deslogar via i3, deslogue via terminal).
 
 ## 2 - Instalar o Polybar
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {% highlight bash %}
 sudo apt-get install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev libxcb-composite0-dev xcb libxcb-ewmh2 -y && git clone https://github.com/jaagr/polybar.git && cd polybar && sudo ./build.sh
@@ -50,6 +74,18 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschn
 + Reinicie o i3: <kbd>Super + shift + r</kbd>.
 
 ## 5 - Instalar o Cava
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {% highlight bash %}
 sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev libtool -y && wget http://ppa.launchpad.net/tehtotalpwnage/ppa/ubuntu/pool/main/c/cava/cava_0.6.0-0ubuntu3_amd64.deb && sudo dpkg -i cava*
