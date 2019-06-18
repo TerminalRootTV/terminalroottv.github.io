@@ -19,18 +19,6 @@ Vamos lá conhecer esse Xonsh!
 
 ## Introdução
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Informat -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2838251107855362"
-     data-ad-slot="2327980059"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 O Xonsh é uma Shell e um prompt de comando compatíveis com Unix, [Python](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Python) e multiplataforma, disponível para [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux), [macOS](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=macOS) e [Windows](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Windows). É destinado à especialistas e novatos. Para quem é desenvolvedor Python, o Xonsh é uma verdadeira *mão na roda* , pois ele é praticamente um utilitário híbrido e reconhece duas linguagens no mesmo ambiente.
 
 ## Instalação
@@ -131,18 +119,6 @@ $XONSH_HISTORY_MATCH_ANYWHERE = True
 $COMPLETIONS_CONFIRM = True
 $XONSH_AUTOPAIR = True
 {% endhighlight %}
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Informat -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2838251107855362"
-     data-ad-slot="2327980059"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 Se quiser usar um Prompt customizado adicione essa linha: `$PROMPT = '{user}@{hostname}:{cwd} > '`
 > De acordo com a documentação: **Config Files and Settings** >> **Environment Variables** >> **$PROMPT** >> <https://xon.sh/tutorial.html#customizing-the-prompt> , além de incluí-lo na sua lista de Shells `which xonsh | sudo tee -a /etc/shells` ou até mesmo torná-lo seu shell padrão: `chsh -s $(which xonsh)` e também `echo '$SHELL = \'/usr/bin/xonsh\'' >> ~/.xonshrc`
