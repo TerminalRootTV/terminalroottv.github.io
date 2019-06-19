@@ -403,16 +403,14 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a:hover {color: #729fcf;}
 
 #page-only video {
-	width: 100%;
-	height: auto;
-	
-	}
-	
-	#page-page video {
-	width: 100%;
-	height: auto;
-	
-	}
+width: 100%;
+height: auto;
+}
+
+#page-page video {
+width: 100%;
+height: auto;
+}
 
 /*--------------------------------------------------------------
 # Responsive Section
@@ -420,6 +418,16 @@ button.close {color: #fff; font-size: 60px;}
 
 /* se a tela for maior que 750 pixels, a div teste passa a ter um valor mínimo de 1200 pixels - tamanho para TVs e PCs */
 @media screen and (min-width:750px){
+
+	#page-only video {
+	    width: 800px;
+	    height: 400px;	
+	}
+	
+	#page-page video {
+	    width: 800px;
+	    height: 400px;	
+	}
 
 	#post-page img {
 		max-width: 72%;
@@ -478,18 +486,6 @@ button.close {color: #fff; font-size: 60px;}
 	
 	#page-page iframe {
 	width: 43%;
-	height: 400px;
-	
-	}
-	
-	#page-only video {
-	width: 800px;
-	height: 400px;
-	
-	}
-	
-	#page-page video {
-	width: 800px;
 	height: 400px;
 	
 	}
