@@ -403,12 +403,12 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a:hover {color: #729fcf;}
 
 #page-only > video {
-width: 100%;
+max-width: 800px;
 height: auto;
 }
 
 #page-page > video {
-width: 100%;
+max-width: 800px;
 height: auto;
 }
 
@@ -476,18 +476,6 @@ height: auto;
 	#page-only p {
 		font-size: 20px;
 		padding: 0;
-	}
-	
-	#page-only iframe {
-	width: 43%;
-	height: 400px;
-	
-	}
-	
-	#page-page iframe {
-	width: 43%;
-	height: 400px;
-	
 	}
 	
 }
