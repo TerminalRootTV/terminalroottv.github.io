@@ -33,7 +33,7 @@ done
 ## Veja o vídeo
 
 <div class="text-center">
-    <video width="100%" controls>
+    <video controls>
       <source src="/assets/img/video/alerta.mp4" type="video/mp4">
       Seu navegador não suporta vídeos em HTML5.
     </video>
