@@ -404,8 +404,7 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a:hover {color: #729fcf;}
 
 video {
-    border: 4px solid #204a87;
-    border-radius: 10px;
+    border: 2px solid #2e3436;
     width: 100%;
 }
 
