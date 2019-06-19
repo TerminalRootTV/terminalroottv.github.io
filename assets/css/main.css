@@ -404,13 +404,13 @@ button.close {color: #fff; font-size: 60px;}
 
 #page-only video {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	
 	}
 	
 	#page-page video {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	
 	}
 
