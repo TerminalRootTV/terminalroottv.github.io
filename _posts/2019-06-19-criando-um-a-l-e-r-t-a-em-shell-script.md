@@ -30,9 +30,9 @@ while true; do
 done
 {% endhighlight %}
 
-## Veja o vídeo 10
+## Veja o vídeo 11
 
-    <video width="600" class="text-center" controls>
-      <source src="/assets/img/video/alerta.mp4" type="video/mp4">
-      Seu navegador não suporta vídeos em HTML5.
-    </video>
+<video width="600" class="text-center" controls>
+  <source src="/assets/img/video/alerta.mp4" type="video/mp4">
+  Seu navegador não suporta vídeos em HTML5.
+</video>
