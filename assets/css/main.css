@@ -405,6 +405,7 @@ button.close {color: #fff; font-size: 60px;}
 
 video {
     border: 4px solid #204a87;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -417,7 +418,8 @@ video {
 @media screen and (min-width:750px){
 
     video {
-        border: 8px solid #cc0000;
+        border: 8px solid #204a87;
+        border-radius: 10px;
         width: 50%;
     }
 
