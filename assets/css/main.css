@@ -403,13 +403,11 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a:hover {color: #729fcf;}
 
 #page-only > video {
-max-width: 800px;
-height: auto;
+    max-width: 600px;
 }
 
 #page-page > video {
-max-width: 800px;
-height: auto;
+    max-width: 600px;
 }
 
 /*--------------------------------------------------------------
