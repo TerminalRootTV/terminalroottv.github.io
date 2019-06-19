@@ -17,7 +17,7 @@
 		
 }
 
-#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe, #page-only > video {
+#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe {
 
 	max-width: 60rem;
 	display: block;
@@ -81,11 +81,6 @@
 
 
 #page-only iframe {
-	width: 100%;
-	height: 400px;
-}
-
-#page-only video {
 	width: 100%;
 	height: 400px;
 }
@@ -261,7 +256,7 @@
 		
 }
 
-#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe, #post-page > video {
+#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe {
 
 	max-width: 60rem;
 	display: block;
@@ -329,11 +324,6 @@
 
 
 #post-page iframe {
-	width: 100%;
-	height: 400px;
-}
-
-#post-page video {
 	width: 100%;
 	height: 400px;
 }
@@ -412,6 +402,18 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a {color: #fff; font-weight: bold; margin-bottom: 1px; font-family: 'Dosis', sans-serif; font-size: 18px;}
 #results-container li a:hover {color: #729fcf;}
 
+#page-only video {
+	width: 100%;
+	height: 100%;
+	
+	}
+	
+	#page-page video {
+	width: 100%;
+	height: 100%;
+	
+	}
+
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/
@@ -477,19 +479,20 @@ button.close {color: #fff; font-size: 60px;}
 	#page-page iframe {
 	width: 43%;
 	height: 400px;
+	
 	}
 	
 	#page-only video {
-	width: 43%;
+	width: 800px;
 	height: 400px;
 	
 	}
 	
 	#page-page video {
-	width: 43%;
+	width: 800px;
 	height: 400px;
-	}
 	
+	}
 }
 	
 }
