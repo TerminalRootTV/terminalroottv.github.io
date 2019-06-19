@@ -30,7 +30,7 @@ while true; do
 done
 {% endhighlight %}
 
-## Veja o vídeo 17
+## Veja o vídeo
 
 <div  class="text-center">
     <video  controls>
