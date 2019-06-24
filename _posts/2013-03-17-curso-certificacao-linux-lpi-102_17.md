@@ -27,6 +27,19 @@ O comando __dig__ tem como função primária __retornar o dns da rede__, mas ta
 > dig [endereço]
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 {% highlight bash %}
 dig www.terminalroot.com.br
 {% endhighlight %}
@@ -68,6 +81,19 @@ whois www.terminalroot.com.br
 O comando __telnet__ é usado para __se comunicar__ com __outro host__ usando o __protocolo TELNET__. Se o __telnet__ é invocado sem o argumento host, ele entra em modo de comando, indicado por seu prompt (telnet>). Neste modo, ele aceita e executa os comandos listados abaixo. Se ele é chamado com argumentos, ele executa um comando de abertura com esses argumentos.
 
 > telnet [endereço] [porta]
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 {% highlight bash %}
