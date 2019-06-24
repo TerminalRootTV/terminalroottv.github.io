@@ -37,6 +37,18 @@ tail /var/log/syslog
  
 ## Níveis de Severidade
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 * __° debug (7)__ - Informações de debug (depuração)
 * __° info (6)__ - Mensagens apenas para informação
 * __° notice (5)__- Condições normais, mas significativas
@@ -63,6 +75,20 @@ A ação específica o que deverá ser feito com a mensagem.Pode ser um arquivo 
 * __° Terminal e Console__ - Podemos especificar uma tela local do computador (console) através do caminho /dev/console ou um terminal remoto tty para onde as mensagens serão enviadas.
 * __° Computador Remoto__ - Podemos enviar as mensagens do syslog para uma máquina remota precedendo a ação com o símbolo "@" seguido do nome do host.Em questões de segurança, enviar a mensagens para outra máquina pode ser especialmente importante.
 * __° Usuários__ - Podemos especificar um determinado usuário ou uma lista de usuários (separados por vírgula) para onde as mensagens serão enviadas no terminal quando estes estiverem logados no sistema.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
  
 ## Caracteres especiais
 

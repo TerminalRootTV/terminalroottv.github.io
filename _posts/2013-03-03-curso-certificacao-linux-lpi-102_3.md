@@ -33,6 +33,18 @@ Os __bits__ de valor __1__ na __máscara__ indicam quais bits do endereço serã
 
 ![Blog Linux](/assets/img/lpi/tcp-ip.jpg "Blog Linux")
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 O __modelo TCP/IP__ tem __5 classes de endereços__ definidas pelas letras: __A__, __B__, __C__, __D__ e __E__.
 
 ## Classe A
@@ -66,6 +78,19 @@ Surgiu, então, um __modelo híbrido__, com __5 camadas__, que retira o excesso 
  
 ![Blog Linux](/assets/img/lpi/protocolo-tcp-ip.jpg "Blog Linux")
 ![Blog Linux](/assets/img/lpi/osi-tcp-ip.jpg "Blog Linux")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![Blog Linux](/assets/img/lpi/camadas.jpg "Blog Linux")
 
 As aplicações fazem acesso à camada de transporte através de portas. Elas podem ser vistas como canais de comunicações.Cada porta é referênciada como número inteiro, que a identifica e a aplicação que ela dá suporte. Este número é um valo de __16-bit__, que vai do __1__ ao __65535__ em __decimal__ .
