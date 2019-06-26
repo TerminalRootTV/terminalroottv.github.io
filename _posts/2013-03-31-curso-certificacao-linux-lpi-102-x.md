@@ -43,8 +43,22 @@ Então o script "/etc/X11/Xsession" executa run-parts(8) como acção para execu
 * O script especificado como o argumento de /etc/X11/Xsession" pelo gestor de display X, se estiver definido.
 * O script "~/.xsession" ou "~/.Xsession", se estiver definido.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > Se estiverem definidos os comandos.
- O comando 
+
+O comando
+
 {% highlight bash %}
 /usr/bin/x-session-manager
 {% endhighlight %}
@@ -59,7 +73,7 @@ Então o script "/etc/X11/Xsession" executa run-parts(8) como acção para execu
 
 ### Veja um vídeo sobre X Window System
 
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=Q1x19Oc4IuU)
+<iframe width="920" height="400" src="https://www.youtube.com/embed/Q1x19Oc4IuU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
 # Para mais informações sobre o X no Debian, consulte
