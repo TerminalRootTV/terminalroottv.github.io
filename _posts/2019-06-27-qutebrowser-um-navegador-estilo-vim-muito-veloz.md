@@ -62,10 +62,7 @@ Após teclas ESC e `:` você pode usar o *Tab* para concluir automaticamente um 
 0. Obter ajuda: `ESC :help`
 1. Abrir uma URL:  `ESC :open terminalroot.com.br`
 2. Limpar histórico: `ESC :history-clear` depois pressione `y` para Sim, quando perguntado numa janela na parte inferior do Navegador.
-> Detalhe, para limpar os cookies e tudo que você vistou. Será necesário abrir o terminal e rodar o comando:
-```sh
-rm -rf ~/.local/share/qutebrowser
-```
+> Detalhe, para limpar os cookies e tudo que você vistou. Será necesário abrir o terminal e rodar o comando: `rm -rf ~/.local/share/qutebrowser`
 3. Abrir a página atual numa nova aba: `ESC :tab-clone`
 4. Fechar a aba atual: `ESC :tab-close`
 5. Salvar a página atual nos Favoritos: `ESC :bookmark-add`
