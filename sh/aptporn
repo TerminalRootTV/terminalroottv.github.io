@@ -104,7 +104,7 @@ _get_deps(){
 }
 
 _get_comps(){
-    sudo apt install fonts-font-awesome rofi feh vim neofetch compton imagemagick w3m -y
+    sudo apt install git fonts-font-awesome rofi feh vim neofetch compton imagemagick w3m -y
 }
 
 _set_polybar(){
@@ -123,6 +123,8 @@ _set_confs(){
     [[ ! -d $HOME/.local/share/fonts ]] && mkdir -p $HOME/.local/share/fonts
     [[ -d /tmp/fonts ]] && rm -rf /tmp/fonts
     git clone https://github.com/terroo/fonts /tmp/fonts
+    mv /tmp/fonts/fonts/* $HOME/.local/share/fonts/
+    fc-cache -fv
     mv /tmp/fonts/files/polybar/* $HOME/.config/polybar/
     chmod +x $HOME/.config/polybar/launch.sh
     [[ $(grep -i 'mint' /etc/issue) ]] && _d="Mint"
