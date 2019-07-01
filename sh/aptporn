@@ -104,7 +104,7 @@ _get_deps(){
 }
 
 _get_comps(){
-    sudo apt install git fonts-font-awesome rofi feh vim neofetch compton imagemagick w3m -y
+    sudo apt install git fonts-font-awesome rofi feh vim neofetch imagemagick w3m -y
 }
 
 _set_polybar(){
@@ -136,9 +136,8 @@ _set_confs(){
     mv /tmp/fonts/wallpapers/terminalroot-wall-35.jpg $HOME/.config/polybar/wallpaper.jpg
     feh --bg-scale $HOME/.config/polybar/wallpaper.jpg
     polybar topbar &
-    compton &
     i3-msg restart
-    reset && neofetch
+    reset && clear && neofetch
 }
 
 aptporn(){
