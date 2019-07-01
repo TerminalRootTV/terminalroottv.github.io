@@ -110,7 +110,9 @@ O ExpressVPN é uma das VPN mais caras. Sua assinatura mensal está disponível 
 + ✔ Reliable customer service
 + ✖ No graphical client
 
+
 Link: <https://tekcompare.com/recommends/expressvpn>
+
 
 ---
 
