@@ -134,6 +134,7 @@ _set_confs(){
     feh --bg-scale $HOME/.config/polybar/wallpaper.jpg
     polybar topbar &
     compton &
+    i3-msg restart
     reset && neofetch
 }
 
