@@ -75,10 +75,10 @@ _find_basics(){
     _start=0
     _ini=0
      
-    while [[ "$_start" < "${#_basics[@]}" ]]; do
-        ( ! which ${_basics[_start]} >&- 2>&-) && echo "${_MSGS[0]} '${_basics[_start]}'" && _ini=1                    
-            let _start=_start+1
-    done
+    #while [[ "$_start" < "${#_basics[@]}" ]]; do
+    #    ( ! which ${_basics[_start]} >&- 2>&-) && echo "${_MSGS[0]} '${_basics[_start]}'" && _ini=1                    
+    #        let _start=_start+1
+    #done
        
     if [[ "$DESKTOP_SESSION" != "i3" ]] ; then
         _ini=1
