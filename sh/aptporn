@@ -103,7 +103,7 @@ _get_deps(){
 }
 
 _get_comps(){
-    sudo apt install fonts-font-awesome rofi vim neofetch compton imagemagick w3m -y
+    sudo apt install fonts-font-awesome rofi feh vim neofetch compton imagemagick w3m -y
 }
 
 _set_polybar(){
@@ -130,6 +130,8 @@ _set_confs(){
     sed -i "/$_d/s/^#//" $HOME/.config/polybar/scripts/menu
     chmod +x $HOME/.config/polybar/scripts/menu
     mv /tmp/fonts/files/i3/config $HOME/.config/i3/config
+    mv /tmp/fonts/wallpapers/terminalroot-wall-35.jpg $HOME/.config/polybar/wallpaper.jpg
+    feh --bg-scale $HOME/.config/polybar/wallpaper.jpg
     polybar topbar &
     compton &
     reset && neofetch
