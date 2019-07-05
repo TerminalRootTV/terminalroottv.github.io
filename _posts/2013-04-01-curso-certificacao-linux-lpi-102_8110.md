@@ -64,6 +64,18 @@ Após isso recarregue as informações no Postfix
 /etc/init.d/postfix reload
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Testando o Envio de E-mails
 
 No meu PC existe um usuario com o nome [marcos] e outro com o nome [eric], teste com os usuarios da sua máquina, se não houver crie-os com useradd, neste exemplo abaixo o usuário [marcos] enviou um e-mail para o usuário [eric], lógico que estou logado como root, mas usei o comando [MAIL from:] e especifiquei o usuário que envia o e-mail, para critério de teste.
@@ -133,6 +145,18 @@ Se retornar postfix : postfix , rode esse comando:
 {% highlight bash %}
 usermod -G sasl postfix
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Se verificar novamente com o comando groups postfix, agora retornará __postfix : postfix sasl__ , caso não ocorra, dê um reload no __postfix__ (__/etc/init.d/postfix reload__).
 

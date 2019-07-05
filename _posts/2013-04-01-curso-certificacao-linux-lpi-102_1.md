@@ -59,6 +59,19 @@ wins support = yes
 {% endhighlight %}
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Por modo gráfico, abra o Nautilus (uma pasta qualquer no seu Linux) e aperte Ctrl+L e digite:
 {% highlight bash %}
 smb://192.168.1.107
@@ -99,6 +112,18 @@ Você pode verificar qual é a versão do Samba instalada usando o comando "smbd
 {% highlight bash %}
 smbd -V
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Para compartilhar pastas do Linux na rede, você pode utilizar o Swat, para isso voçê deve criar um usuário samba antes e liberar a porta do serviço para acesso pelo browser, para criar um usuario samba, ativar a porta 901 do localhost , segue respectivamente os comandos abaixo, mais informações dos comandos use o "man comando", aqui é só uma luz para você poder utilizar
 
