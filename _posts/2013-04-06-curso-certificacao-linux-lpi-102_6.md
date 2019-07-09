@@ -42,6 +42,18 @@ Aceitar pacotes de uma porta
 iptables -A INPUT -p tcp --dport 445 -j ACCEPT
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Desativar o iptables, isso libera todas as portas
 {% highlight bash %}
 iptables -F
@@ -80,6 +92,18 @@ modprobe iptable_nat
 iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE
 echo 1 > /proc/sys/net/ipv4/ip_forward
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Para compartilhar uma conexão via ADSL ou cabo instalada na eth0
 {% highlight bash %}
@@ -120,6 +144,17 @@ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 27015:27030 -j DNAT --to-de
 iptables -A FORWARD -p tcp -i eth0 --dport 27015:27030 -d 192.168.1.107 -j ACCEPT
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mas você pode utilizar o Nmap para verificar quais portas estão abertas no seu micro, para instalá-lo no __Debian__ e __Debian-Likes__, basta
 {% highlight bash %}
@@ -171,6 +206,18 @@ Existem dezenas de possibilidades de configuração para o __tcp_wrappers__ e é
 
 > __lista_de_clientes__: Lista de um ou mais endereços ou nomes de máquinas, padrões ou curingas utilizados para especificar quais clientes podem e quais não podem acessar o serviço.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > __comando (opcional)__: É possível executar um comando sempre que uma regra casa com um padrão e é utilizada. Veja exemplos a seguir. Como citado anteriormente, curingas podem ser utilizados tanto na lista de daemons quanto na lista de clientes. Entre os existentes, pode-se destacar os seguintes
 
 * __ALL__ Significa todos os serviços ou todos os clientes, dependendo apenas do campo em que se encontra.
@@ -196,6 +243,18 @@ O formato do arquivo é muito simples
 Exemplos incluem: __gw.vk2ktj.ampr.org__ para conferir com um endereço de computador específico, __.uts.edu.au__ para atingir qualquer endereço de computador finalizando com aquele string. Use __200.200.200.__ para conferir com qualquer endereço __IP__ iniciando com estes dígitos. Existem alguns parâmetros especiais para simplificar a configuração, alguns destes são: __ALL__ atinge todos endereços, __LOCAL__ atinge qualquer computador que não contém um “__.__” (ie. está no mesmo domínio de sua máquina) e __PARANOI__D atinge qualquer computador que o nome não confere com seu endereço (__falsificação de nome__). 
 
 Existe também um último parâmetro que é também útil: o parâmetro __EXCEPT__ lhe permite fazer uma lista de exceções. Isto será coberto em um exemplo adiante.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 * __comando__ É um parâmetro opcional. Este parâmetro é o caminho completo de um comando que deverá ser executado toda a vez que esta regra conferir. Ele pode executar um comando para tentar identificar quem esta conectado pelo host remoto, ou gerar uma mensagem via E-Mail ou algum outro alerta para um administrador de rede que alguém está tentando se conectar.
 
@@ -230,6 +289,18 @@ sshd: ALL EXCEPT 10.0.0.0/24
 {% endhighlight %}
 
 Tendo um padrão __ALL: ALL__ no arquivo __/etc/hosts.deny__ e então ativando especificamente os serviços e permitindo computadores que você deseja no arquivo __/etc/hosts.allow__ é a configuração mais segura.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Qualquer modificação no arquivo __/etc/hosts.deny__ entrará em ação após reiniciar o __daemon inetd__. Isto pode ser feito com o comando __kill -HUP [pid do inetd]__, o pid do inetd pode ser obtido com o comando __ps ax|grep inetd__.
 Importante saber
