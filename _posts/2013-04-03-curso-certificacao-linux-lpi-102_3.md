@@ -34,6 +34,18 @@ apt-get install portmap
 
 > Para instalá-lo no __Debian e similares__
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {% highlight bash %}
 apt-get install nfs-common
 {% endhighlight %}
@@ -87,5 +99,5 @@ route add default gw 192.168.1.1 netmask 255.255.0.0 dev eth0
 
 ### Veja um vídeo sobre NFS
 
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=NDQy_saxxZU)
+<iframe width="920" height="400" src="https://www.youtube.com/embed/NDQy_saxxZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
