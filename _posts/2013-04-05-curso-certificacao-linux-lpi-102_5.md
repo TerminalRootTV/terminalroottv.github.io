@@ -56,6 +56,18 @@ Re-type new password
 Adding password for user usuário
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > Ao abrir o arquivo de senhas (passwd), serão vistos os nomes de usuário e senhas criptografadas.
 
 {% highlight bash %}
@@ -89,8 +101,22 @@ Allow from 172.16.0.0/255.0.0.0 ::1/128
 
 > Observações: as linhas abaixo se referem à restrição por IP, não são necessárias à autenticação.
 
+{% highlight bash %}
 Deny from all
-Allow from 172.16.0.0/255.0.0.0 ::1/128 
+Allow from 172.16.0.0/255.0.0.0 ::1/128
+{% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 E todo esse tramite desse ser feito pelo usuário root para funcionar.
  
@@ -129,6 +155,18 @@ a2enmod rewrite
 vi /var/www/.htaccess
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 7-Escreva isso dentro do Arquivo, salve e feche-o
 {% highlight bash %}
 RewriteEngine On
@@ -145,3 +183,7 @@ vi /var/www/index.php
 ## 9-Acesse o endereço http://localhost/nomequalquer/outronome/
 
 Se imprimir na tela: __nomequalquer/outronome/__ (ou o nome que você escolheu), está tudo certo.Você já pode escrever seu Framework!
+
+## Assista a um vídeo sobre Apache
+
+<iframe width="920" height="400" src="https://www.youtube.com/embed/5hQyfXIMviM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
