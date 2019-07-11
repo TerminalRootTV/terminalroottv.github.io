@@ -55,6 +55,19 @@ AllowUsers marcos eric camila
 Enquanto não utilizada a diretiva "__AllowUsers__" qualquer usuário da maquina pode conectar via ssh. Quando acrescenta-la, passa a permitir apenas os usuários listados e válidos na maquina, esta diretiva prevalece sobre a regra "default" que permite login de todos.
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ## Alterando a Porta
 
 A porta padrão do __ssh__ é __22__, por isto tem muitos scripts que ficam tentando conexão nesta porta, por este e outros motivos, pode se __alterar a porta do ssh__, por exemplo, alterar de __22__ para porta __2222__, use seu editor preferido para editar o arquivo __/etc/ssh/sshd_config__ e procure pela linha; __#Port 22__ altere para Port __2222__, depois de efetuar a alteração, precisa reiniciar o serviço, veja no tópico sobre instalação, para testar na própria maquina, em um __konsole__ execute a linha de comando neste formato
@@ -87,6 +100,18 @@ scp -r * marcos@192.168.1.107:~/
 scp -r * marcos@192.168.1.107:/home/marcos/pasta_server/
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > Para copiar da máquina remota para máquina local, usa-se o ponto no final e o formato assim
 {% highlight bash %}
 scp marcos@192.168.1.107:/home/eric/arquivo_remoto.txt . 
@@ -98,17 +123,11 @@ scp marcos@192.168.1.107:~/teste.txt /home/marcos/tmp
 scp -r marcos@192.168.1.107:~/isos /home/marcos/tmp
 {% endhighlight %}
 
-### Veja diversos vídeos sobre SSH
+### Veja alguns vídeos sobre SSH
 
-
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=zl4PFglKeLY)
-
+<iframe width="920" height="400" src="https://www.youtube.com/embed/zl4PFglKeLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***
 
-
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=c42j3B8HRG0)
-
-
-***
+<iframe width="920" height="400" src="https://www.youtube.com/embed/c42j3B8HRG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
