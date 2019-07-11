@@ -19,7 +19,8 @@ São 10 perguntas que são selecionadas RANDÔMICAMENTE de um banco de dados com
 
 Para fazer o simulado/quiz , basta:
 
-1. Acesse o link: <https://quiz.terminalroot.com.br/>
+0. Acesse o link: <https://quiz.terminalroot.com.br/>
+1. Clique em **Iniciar**
 2. Informar um endereço de e-mail, somente para lhe identificar
 3. e responder as perguntas
 
