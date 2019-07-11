@@ -15,7 +15,7 @@ tags:
 
 Salve, salve rapaziada! Já faz tempo que eu havia feito um *quiz* de perguntas para Linux, mas dessa vez pensando no pessoal que gosta de treinar para LPI e ao mesmo tempo aprender ainda mais, que eu melhorei esse quiz.
 
-São 10 perguntas que são selecionadas RANDÔMICAMENTE de um banco de dados com mais 160 perguntas e cada vez que você tentar as respostas podem (e quase com certeza) serão diferentes. =)
+São 10 perguntas que são selecionadas RANDOMICAMENTE de um banco de dados com mais 160 perguntas e cada vez que você tentar as respostas podem (e quase com certeza) serão diferentes. =)
 
 Para fazer o simulado/quiz , basta:
 
