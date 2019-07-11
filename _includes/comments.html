@@ -30,36 +30,6 @@
 			})();
 		</script>
 
-
-<script>
-const apiUrl = 'https://api.github.com/repos/terroo/terroo.github.io/issues/<%- page.githubIssueId %>/comments'
-
-$(function() { 
-  $.ajax(apiUrl, {
-    headers: {
-        Accept: 'application/vnd.github.v3.html+json'
-    },
-    dataType: 'json',
-    success: function(comments) {
-      const $commentSection = $('.blog-post-comments')
-      comments.forEach(function (comment) {
-        $commentSection.append(
-          `
-          <div class="comment">
-            <a class="commenter" href="${comment.user.html_url}" 
-              target="_blank">${comment.user.login}</a>, 
-              ${new Date(comment.created_at).toUTCString()}
-            <p>
-              ${comment.body_html}
-            </p>
-          </div>
-          `
-        )
-      })
-    }
-  })
-})
-</script>
-
+		-->
 	</div>
-</section><!-- #relateds -->
+</section>
