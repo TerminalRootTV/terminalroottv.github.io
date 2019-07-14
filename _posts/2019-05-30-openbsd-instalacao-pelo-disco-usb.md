@@ -7,7 +7,7 @@ description: 'Esse vídeo é uma compilação de 3 vídeos que mostra o processo
 main-class: 'bsd'
 tags:
 - openbsd
-- bsd
+- pendrive
 - unix
 ---
 

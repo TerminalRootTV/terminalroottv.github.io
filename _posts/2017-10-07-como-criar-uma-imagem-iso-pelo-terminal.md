@@ -6,7 +6,9 @@ image: '/assets/img/comandos/imagem-iso-pelo-terminal-linux.jpg'
 description: "Para esse feito utilizamos novamente o comando dd, com alguns parâmetros adicionais."
 main-class: 'bash'
 tags:
-- comandos
+- usb
+- iso
+- pendrive
 ---
 
 > Para esse feito utilizamos novamente o comando __dd__, com alguns parâmetros adicionais.

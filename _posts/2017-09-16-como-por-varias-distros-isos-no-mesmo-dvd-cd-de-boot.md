@@ -6,9 +6,10 @@ image: '/assets/img/apps/como-por-varias-distros-isos-no-mesmo-dvd-cd-de-boot.jp
 description: "O multicd.sh é um shell script projetado para criar uma imagem de CD de inicialização múltipla contendo muitas distribuições e/ou iso de diferentes Linux."
 main-class: 'tv'
 tags:
-- linux
-- distros
+- usb
+- iso
 - multicd
+- pendrive
 ---
 
 > O [multicd.sh](https://multicd.us/) é um shell script projetado para criar uma imagem de CD de inicialização múltipla contendo muitas distribuições e/ou iso de diferentes Linux.
