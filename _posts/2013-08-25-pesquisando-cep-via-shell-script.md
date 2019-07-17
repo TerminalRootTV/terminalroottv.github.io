@@ -2,7 +2,7 @@
 layout: post
 title: "Pesquisando CEP via Shell Script"
 date: '2013-08-25T09:27:00.004-07:00'
-image: '/assets/img/shell-script/correios-shell.jpg'
+image: '/assets/img/shell-script/cep.jpg'
 description: "Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código."
 main-class: 'bash'
 tags:
@@ -10,7 +10,7 @@ tags:
 - SED
 ---
 
-![Pesquisando CEP via Shell Script](/assets/img/shell-script/correios-shell.jpg "Pesquisando CEP via Shell Script")
+![Pesquisando CEP via Shell Script](/assets/img/cep.jpg "Pesquisando CEP via Shell Script")
 
 > Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código.
 
