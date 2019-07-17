@@ -10,7 +10,7 @@ tags:
 - SED
 ---
 
-![Pesquisando CEP via Shell Script](/assets/img/cep.jpg "Pesquisando CEP via Shell Script")
+![Pesquisando CEP via Shell Script](/assets/img/shell-script/cep.jpg "Pesquisando CEP via Shell Script")
 
 ### Se quiser baixar como arquivo [Clique Aqui](https://gitlab.com/snippets/1876455)
 
