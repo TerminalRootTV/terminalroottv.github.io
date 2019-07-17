@@ -12,8 +12,9 @@ tags:
 
 ![Pesquisando CEP via Shell Script](/assets/img/cep.jpg "Pesquisando CEP via Shell Script")
 
-> Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código.
+### Se quiser baixar como arquivo [Clique Aqui](https://gitlab.com/snippets/1876455)
 
+> Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código.
 
 {% highlight bash %} 
 #!/bin/bash
@@ -73,7 +74,5 @@ cep "$1"
 # ┐ ┤ ┘
 {% endhighlight %}
 
-Se quiser baixar como arquivo [clique aqui](https://gitlab.com/snippets/1876455/raw?inline=false)
 
-Ou veja como snippet no GitLab
-<script src="https://gitlab.com/snippets/1876455.js"></script>
+
