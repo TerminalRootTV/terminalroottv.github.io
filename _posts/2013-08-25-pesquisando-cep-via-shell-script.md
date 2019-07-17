@@ -19,46 +19,61 @@ tags:
 #!/bin/bash
 # --------------------------------------
 # ./cep.sh
-#
-# Pesquisando CEP via Shell Script
-#
+# Pesquisa CEP via Shell Script
 # Uso: ./cep.sh [CEP]
-#
-# Ex.: ./cep.sh 41630635
-#
-# Autor: Marcos da B. M. Oliveira , www.terminalroot.com.br
+# Exemplo.: ./cep.sh 41630635
+# Autor: Marcos da Oliveira , www.terminalroot.com.br
 # Desde: Dom 25 Ago 2013 13:11:36 BRT
 # Licença: GPL
+# Nova versão: 2019 19:30:11 BRT
 # --------------------------------------
-# se não informa o CEP o script pára aqui
-[ -z $1 ] &amp;&amp; echo -e '\e[40;31;1mÉ necessário informar o CEP\033[m' &amp;&amp; exit 1
 
-#url da pesquisa
-url='http://cep.republicavirtual.com.br/web_cep.php?cep'
+cep(){
+	[[ -z $1 ]] && echo "É necessário informar o CEP" && exit 1
+	#[[ ! $(which lynx 2>&-) ]] && echo -e '\e[40;31;1mÉ necessário ter o lynx instalado.\033[m' && exit 1
+	if [[ $1 = @(-h|--help) ]]; then
+  		sed -n '/^#.*Uso.*/p' ${0##*/} | tr -d '#\|'
+		sed -n '/^#.*Ex.*/p' ${0##*/} | tr -d '#\|'
+  		exit $(( $# ? 0 : 1 ))
+	fi
 
-# baixa o código fonte do xml e grava no arquivo cep.txt
-lynx -source $url=$1 > cep.txt
+	_FILE=$(mktemp)
+	_FILE2=$(mktemp)
 
-# converte o arquivo para utf-8
-iconv -f=iso_8859-1 -t=utf-8 cep.txt > cep2.txt
+	#url da pesquisa
+	url='http://cep.republicavirtual.com.br/web_cep.php?cep'
 
-# limpa todas as tags XML
-sed 's/]*>//g' cep2.txt > cep.txt
+	# baixa o código fonte do xml e grava no arquivo cep.txt
+	#lynx -source $url=$1 > cep.txt
+	wget -q "$url=$1" -O "$_FILE"
 
-# remove o arquivo da transformação do encode
-rm -rf cep2.txt
+	# converte o arquivo para utf-8
+	iconv -f=iso_8859-1 -t=utf-8 "$_FILE" > "$_FILE2"
 
-# apaga da linha 1 à 4 , pois são desnecessárias
-sed -i '1,4d' cep.txt
+	# limpa todas as tags XML
+	sed -i 's/<[^>]*>//g' "$_FILE2"
 
-# apaga todas as linhas em branco
-sed -i '/^$/d' cep.txt
+	# apaga da linha 1 à 4 , pois são desnecessárias
+	sed -i '1,4d' $_FILE2
 
-# imprime(com cores) os dados do arquivo gerado pelo dump, personalizado.
-echo -e "\e[40;37;1m CIDADE-UF:\033[m \e[40;33;1m"$(sed -n '2p' cep.txt) $(sed -n '1p' cep.txt) "\033[m"
-echo -e "\e[40;37;1m BAIRRO:\033[m \e[40;33;1m"$(sed -n '3p' cep.txt) "\033[m"
-echo -e "\e[40;37;1m LOGRADOURO:\033[m \e[40;33;1m"$(sed -n '4p' cep.txt) $(sed -n '5p' cep.txt) "\033[m"
+	# apaga todas as linhas em branco
+	sed -i '/^$/d' $_FILE2
 
-# remove o arquivo
-rm -rf cep.txt
+	# imprime(com cores) os dados do arquivo gerado pelo dump, personalizado.
+	echo "┌─────────────┬─────────────────────────────"
+	echo "│ CIDADE-UF:  │ "$(sed -n '2p' $_FILE2) $(sed -n '1p' $_FILE2)
+	echo "├─────────────┼─────────────────────────────"
+	echo "│ BAIRRO:     │ "$(sed -n '3p' $_FILE2)
+	echo "├─────────────┼─────────────────────────────"
+	echo "│ LOGRADOURO: │ "$(sed -n '4p' $_FILE2) $(sed -n '5p' $_FILE2)
+	echo "└─────────────┴─────────────────────────────"
+}
+
+cep "$1"
+# ┐ ┤ ┘
 {% endhighlight %}
+
+Se quiser baixar como arquivo [clique aqui](https://gitlab.com/snippets/1876455/raw?inline=false)
+
+Ou veja como snippet no GitLab
+<script src="https://gitlab.com/snippets/1876455.js"></script>
