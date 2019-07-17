@@ -38,6 +38,18 @@ As linhas acima significam que o repositório denominado fedora terá
 (extremamente recomendado, 1 significa sim, 0 significa não);
 * __gpgkey__: Qual chave criptográfica utilizar para a verificação dos pacotes.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Com este repositório configurado, pode-se instalar e remover todos os pacotes básicos da distribuição. No caso das atualizações de pacotes, o
 repositório é outro e pode ser configurado no arquivo __/etc/yum.repos.d/fedora-updates.repo__
 
@@ -78,6 +90,18 @@ Atualizando um pacote específico, caso exista uma atualização para o mesmo
 {% highlight bash %}
 yum update pacote
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ou se precisarmos atualizar todo o sistema, instalando todos os pacotes novos que tenham atualizações disponíveis
 
@@ -124,6 +148,18 @@ Todas estas ações do yum necessitam de uma conexão de Internet, pois a lista 
 Mesmo para consultar um simples nome de pacote, precisa-se de conexão com a Internet. Caso já tenha se utilizado o __yum__ para fazer alguma ação (e por consequência, ele já tenha baixado a lista de pacotes para o seu sistema), podemos optar por não precisar nos conectar ao servidor na 
 Internet toda vez que usarmos o yum utilizando o parâmetro __-C__. Exemplos
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {% highlight bash %}
 yum -C search DVD
 yum -C check-update
@@ -156,6 +192,18 @@ O rótulo (nomenclatura) típico de um pacote RPM é nome-versao-release.arquite
 > Exemplo: oracle-xe-univ-10.2.0.1-1.0.i386.rpm, sqldeveloper-3.0.04.34-1.noarch.rpm
 
 ## Instalação
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Para instalar pacotes RPM em sistemas Linux, é necessário estar logado como root (su). Note que o sistema de gerenciamento de pacotes RPM não resolve as dependências automaticamente para você.
 
