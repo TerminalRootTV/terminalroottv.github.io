@@ -105,7 +105,7 @@ format-spacing = 1
 Nesse caso, eu use no módulo *menu* , mas é do tipo *script*
 > Obs.: É o único módulo script do meu config, se no seu caso não funcionar, use a condição abaixo num **module/script** que já exista.
 
-E no arquivo `bat.sh` tem o seguinte script, detalhe para o comando *notify-send* que mostra uma notificação se a bateria estiver menor que 20% , para mais informações sobre notificações no seu desktop veja esse link: [LINK](https://terminalroot.com.br)
+E no arquivo `bat.sh` tem o seguinte script, detalhe para o comando *notify-send* que mostra uma notificação se a bateria estiver menor que 20% , para mais informações sobre notificações no seu desktop veja esse link: [LINK](https://terminalroot.com.br/2017/05/como-criar-um-alerta-em-bash-ao-final-de-um-evento.html)
 
 {% highlight bash %}
 #!/bin/bash
@@ -141,7 +141,7 @@ Pronto, agora o notebook não desligará mais por falta de energia!😁️
 
 ## Assista ao vídeo
 
-<iframe width="920" height="400" src="https://www.youtube.com/embed/LINK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="920" height="400" src="https://www.youtube.com/embed/WcO74IUDOqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Vídeos e artigos recomendados
 
