@@ -22,7 +22,7 @@ Existem diversos aplicativos que você pode instalar e configurar para atender e
 
 Mas nesse tutorial vamos mostrar uma forma que nem precisa de software. Todas as informações da sua bateria ficam no diretório: `/sys/class/power_supply/BAT[NUM]/` onde o *[NUM]* é um número que pode ser diferente no seu sistema, use *TAB* após rodar o comando até a palavra BAT para descobrir . Vamos assumir que é *BAT1* , pra obter todas as informações da sua bateria, rode: `cat /sys/class/power_supply/BAT1/*`:
 
-{% endhighlight %}sh
+{% highlight bash %}
 marcos@gentoo ~ $ cat /sys/class/power_supply/BAT1/*
 85000
 45
@@ -74,9 +74,6 @@ Se quiser saber se está descarregando, use:
 cat /sys/class/power_supply/BAT1/status
 {% endhighlight %}
 
-{% highlight bash %}
-
-{% endhighlight %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
 <ins class="adsbygoogle"
@@ -128,13 +125,13 @@ Se quiser, você pode rodar o script em background assim que iniciar sessão, ex
 
 + Para [bspwm](cse.google.com/bspwm) `vim $HOME/.config/bspwm/bspwmrc`
 
-{% endhighlight %}sh
+{% highlight bash %}
 sh ~/caminho/para/script.sh &
 {% endhighlight %}
 
 + Para [i3](cse.google.com/i3) `vim $HOME/.config/i3/config`
 
-{% endhighlight %}sh
+{% highlight bash %}
 exec_always --no-startup-id $HOME/caminho/para/script.sh &
 {% endhighlight %}
 
