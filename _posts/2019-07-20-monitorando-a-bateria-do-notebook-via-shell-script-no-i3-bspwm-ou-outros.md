@@ -141,7 +141,8 @@ Pronto, agora o notebook não desligará mais por falta de energia!😁️
 
 ## Assista ao vídeo
 
-<iframe width="1275" height="717" src="https://www.youtube.com/embed/WcO74IUDOqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# [Link para o Vídeo](https://www.youtube.com/watch?v=WcO74IUDOqg)
+<!--<iframe width="1275" height="717" src="https://www.youtube.com/embed/WcO74IUDOqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
 ## Vídeos e artigos recomendados
 
