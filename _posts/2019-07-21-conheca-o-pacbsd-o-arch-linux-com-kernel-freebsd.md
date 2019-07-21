@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o PacBSD - O Arch Linux com Kernel FreeBSD"
 date: 2019-07-21 12:45:12
-image: '/assets/img/'
+image: '/assets/img/pacbsd/pacbsd.png'
 description: 'Possui o gerenciador de pacotes PacMan e o sistema init OpenRC'
 main-class: 'bsd'
 tags:
