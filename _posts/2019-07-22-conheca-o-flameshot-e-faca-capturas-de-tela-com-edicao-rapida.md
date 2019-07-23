@@ -102,9 +102,6 @@ Você também pode adaptá-lo ao seu Ambiente de trabalho:
 # Screenshot Print
 Print
  	scrot '%Y-%m-%d-%H-%m-%S_$wx$h.png' -e 'mv $f ~/Imagens/capturas' && notify-send -t 4000 --icon=camera-photo "Screenshot realizado" "Gravado no diretório"
-	#FILENAME="$(date +%Y-%m-%d-%H-%s).png"
-	#maim -u -m 3 $HOME/$FILENAME
-	#/usr/local/bin/flameshot full -p $HOME/Imagens/capturas
 
 shift + Print
 	flameshot gui
