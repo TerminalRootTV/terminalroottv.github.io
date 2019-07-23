@@ -101,7 +101,7 @@ Você também pode adaptá-lo ao seu Ambiente de trabalho:
 {% highlight bash %}
 # Screenshot Print
 Print
- 	scrot '%Y-%m-%d-%H-%m-%S_$wx$h.png' -e 'mv $f ~/Imagens/capturas' && notify-send -t 4000 --icon=camera-photo "Screenshot realizado" "Gravado no diretório"
+ 	scrot '%Y-%m-%d-%H-%m-%S_$wx$h.png' -e 'mv $f ~/Imagens' && notify-send -t 4000 --icon=camera-photo "Screenshot realizado" "Gravado no diretório"
 
 shift + Print
 	flameshot gui
@@ -113,7 +113,7 @@ shift + Print
 
 {% highlight bash %}
 #interactive screenshot by pressing printscreen
-bindsym Print exec scrot '%Y-%m-%d-%H-%m-%S_$wx$h.png' -e 'mv $f ~/Imagens/capturas' && notify-send -t 4000 --icon=camera-photo "Screenshot realizado" "Gravado no diretório" 
+bindsym Print exec scrot '%Y-%m-%d-%H-%m-%S_$wx$h.png' -e 'mv $f ~/Imagens' && notify-send -t 4000 --icon=camera-photo "Screenshot realizado" "Gravado no diretório" 
 #crop-area screenshot by pressing Mod + printscreen
 bindsym $mod+Print exec flameshot gui
 {% endhighlight %}
