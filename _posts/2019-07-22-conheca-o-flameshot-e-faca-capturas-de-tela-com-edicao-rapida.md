@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o Flameshot e Faça Capturas de Tela com Edição Rápida"
 date: 2019-07-22 22:18:47
-image: '/assets/img/dicas/flameshot.jpg'
+image: '/assets/img/dicas/flameshot.png'
 description: 'Possui uma interface interativa com controles para selecionar a região de captura desejada.'
 main-class: 'linux'
 tags:
@@ -11,7 +11,7 @@ tags:
 - scrot
 ---
 
-![Flameshot](/assets/img/dicas/flameshot.jpg)
+![Flameshot](/assets/img/dicas/flameshot.png)
 
 ![Flameshot Gif](https://flameshot.js.org/_media/animatedUsage.gif)
 
@@ -129,8 +129,8 @@ Depois de fazer seleção e/ou edição, basta clicar no ícone de Salvar **👇
 
 E escolher o local para guardar o Print. 😀️
 
-![Flameshot](/assets/img/dicas/flameshot-1.jpg)
-![Flameshot](/assets/img/dicas/flameshot.jpg)
+![Flameshot](/assets/img/dicas/flameshot-1.png)
+![Flameshot](/assets/img/dicas/flameshot.png)
 
 ## Links úteis
 + <https://flameshot.js.org>
