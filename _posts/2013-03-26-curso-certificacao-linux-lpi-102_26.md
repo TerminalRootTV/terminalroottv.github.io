@@ -37,7 +37,9 @@ Como você pode imaginar, o "__3__" corresponde à __versão do software__. Even
 
 No __Fedora__ e no __CentOS__, o pacote se chama simplesmente "__dhcp__" e pode ser instalado usando o __yum__
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -45,9 +47,11 @@ No __Fedora__ e no __CentOS__, o pacote se chama simplesmente "__dhcp__" e pode 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 {% highlight bash %}
 yum install dhcp
@@ -86,7 +90,9 @@ option broadcast-address 192.168.1.255;
 {% endhighlight %}
 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -94,9 +100,11 @@ option broadcast-address 192.168.1.255;
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 A opção "__default-lease-time__" controla o tempo de renovação dos endereços __IP__. O "__600__" indica que o servidor verifica a cada dez minutos se as estações ainda estão ativas. Se você tiver mais endereços IP do que máquinas, os endereços IP das estações raramente vão precisar mudar. Mas, no caso de uma rede congestionada, o "__max-lease-time__" determina o tempo máximo que uma estação pode usar um determinado endereço __IP__. 
 
@@ -128,7 +136,9 @@ ou
 service dhcpd restart
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -136,9 +146,11 @@ service dhcpd restart
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Com o servidor DHCP configurado, você pode testar a configuração em um dos clientes Linux, configurando a rede usando o "dhclient", seguido da interface a ser configurada. Ele mostra toda a negociação entre o servidor e o cliente, o que permite que você verifique se o servidor está usando a configuração definida por você
 {% highlight bash %}
@@ -170,3 +182,18 @@ Uma observação importante é que sempre que configurar um servidor com duas pl
 ## Para que a configuração entre em vigor, basta reiniciar o serviço novamente
 
 Fonte: www.hardware.com.br
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

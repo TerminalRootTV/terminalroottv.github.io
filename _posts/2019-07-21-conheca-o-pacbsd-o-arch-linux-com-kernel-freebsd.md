@@ -23,7 +23,9 @@ Inicialmente o projeto tinha o logo e nome do Arch Linux com algumas alteraçõe
 
 ![ArchBSD para PacBSD](/assets/img/pacbsd/archbsd.gif)
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -31,9 +33,11 @@ Inicialmente o projeto tinha o logo e nome do Arch Linux com algumas alteraçõe
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Instalação
 
@@ -44,7 +48,9 @@ Veja alguns screenshot abaixo do disco de instalação, perceba que eu consegui 
 ![PacBSD](/assets/img/pacbsd/pacbsd0.png)
 ![PacBSD](/assets/img/pacbsd/pacbsd2.png)
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -52,9 +58,11 @@ Veja alguns screenshot abaixo do disco de instalação, perceba que eu consegui 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ![PacBSD](/assets/img/pacbsd/pacbsd1.png)
 
@@ -77,3 +85,18 @@ Veja também:
 
 Abraços!
     
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

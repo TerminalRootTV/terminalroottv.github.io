@@ -53,3 +53,18 @@ Procure no Dash e abra-o, os principais comandos:
 [http://simmesimme.github.io/gnome-pie.html](http://simmesimme.github.io/gnome-pie.html)
 
 ### Comente!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

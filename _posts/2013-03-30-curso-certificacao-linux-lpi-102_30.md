@@ -37,7 +37,9 @@ tail /var/log/syslog
  
 ## Níveis de Severidade
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -45,9 +47,11 @@ tail /var/log/syslog
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 * __° debug (7)__ - Informações de debug (depuração)
 * __° info (6)__ - Mensagens apenas para informação
@@ -77,7 +81,9 @@ A ação específica o que deverá ser feito com a mensagem.Pode ser um arquivo 
 * __° Usuários__ - Podemos especificar um determinado usuário ou uma lista de usuários (separados por vírgula) para onde as mensagens serão enviadas no terminal quando estes estiverem logados no sistema.
 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -85,9 +91,11 @@ A ação específica o que deverá ser feito com a mensagem.Pode ser um arquivo 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
  
 ## Caracteres especiais
@@ -105,3 +113,18 @@ A rotação dos arquivos de __LOG__ é feita no seu arquivo principal
 {% highlight bash %}
 cat /etc/logrotate.conf
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

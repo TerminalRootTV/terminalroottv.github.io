@@ -25,7 +25,9 @@ apt-get install audacious
 
 ***
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -33,9 +35,11 @@ apt-get install audacious
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### 2 - Moc
 ![Blog Linux](/assets/img/audio/moc.jpg "Blog Linux")
@@ -78,7 +82,9 @@ apt-get install rhythmbox
 
 ***
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -86,9 +92,11 @@ apt-get install rhythmbox
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### 5 - Amarok
 ![Blog Linux](/assets/img/audio/amarok.jpg "Blog Linux")
@@ -128,7 +136,9 @@ cmus
 
 ***
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -136,9 +146,11 @@ cmus
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### 8 - mp3blaster
 ![Blog Linux](/assets/img/audio/mp3blaster.jpg "Blog Linux")
@@ -155,3 +167,18 @@ mp3blaster
 {% endhighlight %}
 
 > Na verdade existem muito mais __REPRODUTORES DE ÁUDIO__ para [Debian GNU/Linux](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=debian), mas escolhi os que eu acredito que são os melhores e mais leves, no entanto, para uma boa música qualquer um desses acima serve , cada um com sua característica. Também sei que muito irão questionar o fato da metade dos citados serem para o [Terminal](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=terminal) , mas, na verdade, o Terminal é mais da metade do [GNU](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=gnu)/[Linux](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=linux)! :)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

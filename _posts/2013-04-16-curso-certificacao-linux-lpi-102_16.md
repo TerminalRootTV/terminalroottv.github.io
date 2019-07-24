@@ -38,7 +38,9 @@ As linhas acima significam que o repositório denominado fedora terá
 (extremamente recomendado, 1 significa sim, 0 significa não);
 * __gpgkey__: Qual chave criptográfica utilizar para a verificação dos pacotes.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -46,9 +48,11 @@ As linhas acima significam que o repositório denominado fedora terá
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Com este repositório configurado, pode-se instalar e remover todos os pacotes básicos da distribuição. No caso das atualizações de pacotes, o
 repositório é outro e pode ser configurado no arquivo __/etc/yum.repos.d/fedora-updates.repo__
@@ -91,7 +95,9 @@ Atualizando um pacote específico, caso exista uma atualização para o mesmo
 yum update pacote
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -99,9 +105,11 @@ yum update pacote
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Ou se precisarmos atualizar todo o sistema, instalando todos os pacotes novos que tenham atualizações disponíveis
 
@@ -148,7 +156,9 @@ Todas estas ações do yum necessitam de uma conexão de Internet, pois a lista 
 Mesmo para consultar um simples nome de pacote, precisa-se de conexão com a Internet. Caso já tenha se utilizado o __yum__ para fazer alguma ação (e por consequência, ele já tenha baixado a lista de pacotes para o seu sistema), podemos optar por não precisar nos conectar ao servidor na 
 Internet toda vez que usarmos o yum utilizando o parâmetro __-C__. Exemplos
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -156,9 +166,11 @@ Internet toda vez que usarmos o yum utilizando o parâmetro __-C__. Exemplos
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 {% highlight bash %}
 yum -C search DVD
@@ -193,7 +205,9 @@ O rótulo (nomenclatura) típico de um pacote RPM é nome-versao-release.arquite
 
 ## Instalação
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -201,9 +215,11 @@ O rótulo (nomenclatura) típico de um pacote RPM é nome-versao-release.arquite
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Para instalar pacotes RPM em sistemas Linux, é necessário estar logado como root (su). Note que o sistema de gerenciamento de pacotes RPM não resolve as dependências automaticamente para você.
 
@@ -251,4 +267,19 @@ yum -y install gparted
 > Observação: No exemplo 1, acima, o pacote está disponível localmente. Em 2, o pacote está localizado em um repositório utilizado pelo Yum, isto é, na Internet. Em ambos os casos, o Yum tenta resolver quaisquer dependências, baixando-as e instalando-as automaticamente.
 
 Fonte: http://imasters.com.br
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

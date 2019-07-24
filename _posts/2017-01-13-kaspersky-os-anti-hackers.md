@@ -24,3 +24,18 @@ Mas afinal como é que este novo sistema operacional consegue ser totalmente à 
 Não possuindo qualquer resíduo de Linux no seu código fonte, este Kaspersky OS utiliza a arquitetura Microkernel, fazendo com que o mesmo possa se moldar a qualquer utilizador. Isto significa que diferentes blocos do SO serão moldados consoante as necessidades do utilizador em questão.
 
 Numa altura em que muitas notícias de ataques informáticos têm sido divulgadas, este novo sistema operacional surge com que uma esperança de um futuro melhor. Por enquanto o mercado deste Kaspersky OS é ainda muito específico e sem qualquer consequência para um utilizador doméstico, por exemplo, mas pode ser que no futuro esta, ou outra empresa, possa lançar um produto semelhante para um utilizador comum.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

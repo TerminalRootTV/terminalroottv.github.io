@@ -407,3 +407,18 @@ Imprime no arquivo o próprio nome do arquivo editado quando N_ARQ é digitado.
 ## Dicas desenvolvidas e gentilmente cedidas por [Copag](mailto:copag@uai.com.br). Publicado em __30_06_2003.__
 
 # Via: [InfoWester](https://www.infowester.com/linuxvi.php)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

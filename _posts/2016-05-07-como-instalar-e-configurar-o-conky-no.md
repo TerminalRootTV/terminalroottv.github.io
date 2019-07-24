@@ -17,3 +17,18 @@ introduction: "Esse Conky está com o Medidor de Graus zerado, devido a autoriza
 
 
 > Atenção: Esse Conky está com o Medidor de Graus zerado, devido ao link que pegava a medição ter havido problemas relacionados a autorização, mas provavelmente haverá atualização com o link novo!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

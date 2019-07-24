@@ -28,3 +28,18 @@ Neste artigo vamos apresentar o [Cyborg Hawk Linux](http://cyborg.ztrela.com), u
 + E muitas mais.
 
 O site oficial do projeto é o [http://cyborg.ztrela.com](http://cyborg.ztrela.com), e você pode baixar a imagem iso para instalação na página [http://cyborg.ztrela.com/download](http://cyborg.ztrela.com/download.php). Por enquanto somente a versão de 64 bits está disponível, mas os desenvolvedores prometem uma versão de 32 bits em breve.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -51,7 +51,9 @@ sudo dnf install glava
 
 ## Configuração
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -59,9 +61,11 @@ sudo dnf install glava
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Se após instado você rodar `glava` no terminal, já abrirá uma janela e se houver um áudio tocando, os gráficos já aparecerão. Mas Se você quiser que apareça como fundo do seu desktop, primeiramente você precisa copiar as configurações padrão para seu diretório pessoal com o comando:
 
@@ -85,7 +89,9 @@ Se quiser você ainda pode de diversas maneiras "*startar*" o Glava sempre que r
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/RMqq91uZtnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -93,9 +99,11 @@ Se quiser você ainda pode de diversas maneiras "*startar*" o Glava sempre que r
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Links Úteis
 
@@ -114,4 +122,19 @@ sudo rm /usr/local/bin/glava*
 
 
 ## Fala aí nos comentários o que achou do Glava !
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

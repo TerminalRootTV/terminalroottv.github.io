@@ -11,7 +11,9 @@ tags:
 - Comandos
 ---
 
+
 <script>window.location = "http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html";</script>
+
 
 ![Fish: mais produtividade no seu Shell Script](/assets/img/shell-script/fish.jpg "Fish: mais produtividade no seu Shell Script")
 
@@ -26,3 +28,18 @@ tags:
 [Página Oficial](http://fishshell.com/)
 
 [Como utilizar](http://fishshell.com/docs/current/tutorial.html)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

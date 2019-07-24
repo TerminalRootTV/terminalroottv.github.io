@@ -55,3 +55,18 @@ Ao rodar esse comando, será encaminhado ao subshell, então dê um exit, para r
 Pronto, agora a porta estará esperando pelo serviço.
 
 Espero que gostem e comentem!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

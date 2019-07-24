@@ -76,3 +76,18 @@ div#teste {
 Verifique que usamos a propriedade __@media screen __and(operador booleano) para informar se o tamanho tiver no minimo tal, tais propriedade passarão a ter tais valores, lembrando que as Media Queries devem estar depois pois a leitura do código começa de cima e quem for definido por último passará ater o último valor.
 
 ## Ok, é isso, mini-tutorial só pra saber mesmo como funciona, espero que gostem e comentem!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

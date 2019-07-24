@@ -82,3 +82,18 @@ ffmpeg -i video.flv -ab 128k -ac 2 -ar 44100 musica.mp3
 Os itens __-ab__ é a taxa de transferência(o bitrate), __-ac__ é a qualidade de canais, e o __-ar__ é a frequência.
 
 É com essa ferramentas que eu gravo video-tutoriais entre outras coisas!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

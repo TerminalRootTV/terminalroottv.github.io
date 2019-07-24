@@ -42,7 +42,9 @@ make
 sudo make install
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -50,9 +52,11 @@ sudo make install
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Se quiser você ainda pode baixar a imagem do contêiner e rodar via *Docker*
 
@@ -86,7 +90,9 @@ Você também pode adaptá-lo ao seu Ambiente de trabalho:
 
 > Também foi adicionada uma [notificação](https://terminalroot.com.br/2019/07/monitorando-a-bateria-do-notebook-via-shell-script-no-i3-bspwm-ou-outros.html) para registrar a Captura, [clique aqui para saber mais sobre essa notificação](https://terminalroot.com.br/2019/07/monitorando-a-bateria-do-notebook-via-shell-script-no-i3-bspwm-ou-outros.html)
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -94,9 +100,11 @@ Você também pode adaptá-lo ao seu Ambiente de trabalho:
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 {% highlight bash %}
 # Screenshot Print
@@ -136,3 +144,18 @@ E escolher o local para guardar o Print. 😀️
 + <https://github.com/naelstrof/maim>
 
     
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -20,11 +20,13 @@ introduction: Alguns códigos simples de JavaScript
 
 
 {% highlight bash %}
+
 <script language="javascript">
 function mensagem() {
 window.alert("Você clicou neste campo");
 }
 </script>
+
 
 <a href="" OnClick="mensagem()">Link comum</a>
 {% endhighlight %}
@@ -35,12 +37,14 @@ window.alert("Você clicou neste campo");
 
 
 {% highlight bash %}
+
 <script language="javascript">
 function cor(celula){
 celula = document.getElementById("celula1");
 celula.style.backgroundColor="#66ff33"
 } 
 </script>
+
 
 
 
@@ -59,12 +63,14 @@ celula.style.backgroundColor="#66ff33"
 
 
 {% highlight bash %}
+
 <script language="JavaScript">
 function confirmBox() {
 if (confirm("Voce deseja mesmo ir para o Site do Google?")) {
 location.href="http://google.com";}
 }
 </script>
+
 
 </p><form>
 Clique no Botão abaixo para ir para o Site do Google:
@@ -135,13 +141,15 @@ type="button">
 
 
 
-{% highlight bash %}<script language="JavaScript" TYPE="text/javascript">
+{% highlight bash %}
+<script language="JavaScript" TYPE="text/javascript">
 var nome;
 do {
 nome = prompt ("Qual é o seu nome?");
 } while (nome == null || nome == "");
 alert ("Seu nome é "+nome);
 </script>
+
 {% endhighlight %}
 
 
@@ -151,6 +159,7 @@ alert ("Seu nome é "+nome);
 
 
 {% highlight bash %}
+
 <script>
 function click() {
 if (event.button==2||event.button==3) {
@@ -160,6 +169,7 @@ oncontextmenu='return false';
 document.onmousedown=click
 document.oncontextmenu = new Function("return false;")
 </script>
+
 {% endhighlight %}
 
 
@@ -172,3 +182,18 @@ document.oncontextmenu = new Function("return false;")
 
 
 <p>Breve mais dicas e exemplos!</p>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

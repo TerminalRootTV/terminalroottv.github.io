@@ -17,7 +17,9 @@ O [NomadBSD](http://nomadbsd.org/) como o próprio nome diz, é um sistema Live,
 
 O NomadBSD possui um desktop completo e baseado em múltiplas opções:
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -25,9 +27,11 @@ O NomadBSD possui um desktop completo e baseado em múltiplas opções:
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 + Você pode escolher entre Thunar, Midnight Commander, PCmanFM ,... para gerenciar seus arquivos.
 + Escolher o editor de texto padrão entre: [Vim](https://terminalroot.com.br/vim), Vi, EE, ...
@@ -64,7 +68,9 @@ dd bs=1M if=nomadbsd-1.2.img of=/dev/sdb conv=fsync
 
 ## Configuração
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -72,9 +78,11 @@ dd bs=1M if=nomadbsd-1.2.img of=/dev/sdb conv=fsync
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Depois é só dar o *boot* na sua máquina pelo Pendrive e configurar a instalação para seus gostos . Ele irá pedir para você informar dados como: editor padrão, senha, shell padrão  e entre outros, depois é só reiniciar e logar com a senha que você escolheu.
 
@@ -103,4 +111,19 @@ Veja mais screenshots em: <http://nomadbsd.org/screenshots.html>
 
 
 ## E você ? O que achou do NomadBSD ? Deixe seu comentário!
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

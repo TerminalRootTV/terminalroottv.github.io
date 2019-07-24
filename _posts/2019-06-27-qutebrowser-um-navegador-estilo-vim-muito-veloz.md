@@ -41,7 +41,9 @@ pacman -S qutebrowser
 
 Use a ferramenta de procura da sua distro para pesquisar.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -49,9 +51,11 @@ Use a ferramenta de procura da sua distro para pesquisar.
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Utilização
 
@@ -91,4 +95,19 @@ Assim como o Vim você pode usar teclas rápidas, veja o mapa de teclas oferecid
 + <https://typehype.net/threads/a-basic-introduction-to-qutebrowser.450/>
 + <https://www.shortcutfoo.com/app/dojos/qutebrowser/cheatsheet>
 + <https://github.com/qutebrowser/qutebrowser/issues/3596> Bug insert mode to Google Translate.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

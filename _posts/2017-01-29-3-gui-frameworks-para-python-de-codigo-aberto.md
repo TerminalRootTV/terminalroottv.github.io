@@ -57,3 +57,18 @@ Para mais opções, confira a página [GUI programming in Python](https://wiki.p
 
 
 Via: [OpenSource.com](https://opensource.com/life/16/5/open-source-python-gui-frameworks&Blog_Linux=Terminal_Root)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

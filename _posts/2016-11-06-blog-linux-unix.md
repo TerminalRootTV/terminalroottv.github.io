@@ -71,3 +71,18 @@ Isso, somado à esmagadora  popularidade do Windows entre os usuários, acaba po
 Vários  movimentos no sentido de descomplicar o uso das dezenas de  distribuições de Linux têm tornado o uso do sistema cada vez mais  convencional, o que pode acarretar em problemas semelhantes aos do  Windows. De qualquer modo, a estrutura dos sistemas tipo Unix talvez  torne mais difícil a infecção por malwares.
 
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

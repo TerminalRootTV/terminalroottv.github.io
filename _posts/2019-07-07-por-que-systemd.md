@@ -17,7 +17,9 @@ tags:
 
 ## Assista ao vídeo
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -25,9 +27,11 @@ tags:
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/YSwL92FTNQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -53,3 +57,18 @@ Então conheça nosso Cursos em <https://terminalroot.com.br/cursos> e aproveite
 Acesse: <https://terminalroot.com.br/promo>
 
 Contribua compartilhando e se quiser adicionar ou questionar algo, comente!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

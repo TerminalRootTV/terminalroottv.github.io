@@ -60,3 +60,18 @@ umount /mnt/SUAPASTA
 {% endhighlight %}
 
 Depois é só __reiniciar o PC, sem o LiveCD__, lógico, e usuar o __root__, se também tiver perdido a senha de algum usuario, este pode ser o procedimento tambeḿ.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

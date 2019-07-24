@@ -42,7 +42,9 @@ Se tratando da barra Polybar também. No nosso canal do Youtube, existe inclusiv
 
 Mas caso você queira um modelo diferente para sua barra Polybar, sugerimos você usar essa coleção de temas pré-prontos: <https://github.com/adi1090x/polybar-themes> . Lá você encontrará diversos temas e poderá escolher e/ou combinar à sua maneira, de maneira mais rápido e fácil.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -50,9 +52,11 @@ Mas caso você queira um modelo diferente para sua barra Polybar, sugerimos voc�
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Instalação
 
@@ -80,7 +84,9 @@ cp fonts/ .local/share/fonts/
 fc-cache -fv
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -88,9 +94,11 @@ fc-cache -fv
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### 2º - Clonar o repositório de temas que deseja
 
@@ -129,3 +137,18 @@ Existem diversas forma de ajustar o tema de acordo da sua maneira, leia a docume
 + <https://terminalroot.com.br/2018/11/como-customizar-o-polybar-rofi-e-outros.html>
 + <https://terminalroot.com.br/2019/07/como-customizar-seu-linux-mint-com-i3-polybar-rofi.html>
 + <https://terminalroot.com.br/shell>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

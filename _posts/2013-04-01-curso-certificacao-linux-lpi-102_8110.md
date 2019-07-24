@@ -64,7 +64,9 @@ Após isso recarregue as informações no Postfix
 /etc/init.d/postfix reload
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -72,9 +74,11 @@ Após isso recarregue as informações no Postfix
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Testando o Envio de E-mails
 
@@ -146,7 +150,9 @@ Se retornar postfix : postfix , rode esse comando:
 usermod -G sasl postfix
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -154,9 +160,11 @@ usermod -G sasl postfix
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Se verificar novamente com o comando groups postfix, agora retornará __postfix : postfix sasl__ , caso não ocorra, dê um reload no __postfix__ (__/etc/init.d/postfix reload__).
 
@@ -222,3 +230,18 @@ Connection closed by foreign host.
 > Obs.: Percebam que as mensagem são arquivos e ficam nas pasta Maildir/cur dos usuários (/home/usuario/Maildir/cur).
 
 ## Pronto! Espero que gostem e comentem!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

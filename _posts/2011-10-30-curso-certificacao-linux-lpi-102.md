@@ -13,16 +13,20 @@ tags:
 
 ![Mysql Linux](/assets/img/mysql/mysql-terminalroot.png "Mysql Linux")
 
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
   <ins class="adsbygoogle"
   style="display:block; text-align:center;"
   data-ad-layout="in-article"
   data-ad-format="fluid"
   data-ad-client="ca-pub-2838251107855362"
   data-ad-slot="8549252987"></ins>
-  <script>
+  
+<script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-  </script> 
+  </script>
+ 
 
 <style>
 
@@ -61,16 +65,20 @@ fieldset {margin-bottom:10px; width:690px; font-weight:bold; font-size:15px; col
   é um sistema de gerenciamento de banco de dados (SGBD), que utiliza a linguagem SQL (Linguagem de Consulta Estruturada, do inglês Structured Query Language) como interface. É atualmente um dos bancos de dados mais populares, com mais de 10 milhões de instalações pelo mundo. 
 </fieldset>
 
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
   <ins class="adsbygoogle"
   style="display:block; text-align:center;"
   data-ad-layout="in-article"
   data-ad-format="fluid"
   data-ad-client="ca-pub-2838251107855362"
   data-ad-slot="8549252987"></ins>
-  <script>
+  
+<script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-  </script> 
+  </script>
+ 
 
 <table class="tb">
  <tr>
@@ -477,3 +485,18 @@ Se você especificar para uma coluna numérica ZEROFILL, automaticamente o MySQL
  
 </table>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

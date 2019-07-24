@@ -88,3 +88,18 @@ apt-get install network-manager
 
 
 Prontinho, com isso você deverá conectar!Abraços e até a próxima onde explicarei como quebrar as chaves __WEP e WPA/WPA2__, e depois como criar uma antena __USB__ para alta conectividade com ferramentas caseiras!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

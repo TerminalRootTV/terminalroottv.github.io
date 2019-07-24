@@ -33,7 +33,9 @@ Os __bits__ de valor __1__ na __máscara__ indicam quais bits do endereço serã
 
 ![Blog Linux](/assets/img/lpi/tcp-ip.jpg "Blog Linux")
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -41,9 +43,11 @@ Os __bits__ de valor __1__ na __máscara__ indicam quais bits do endereço serã
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 O __modelo TCP/IP__ tem __5 classes de endereços__ definidas pelas letras: __A__, __B__, __C__, __D__ e __E__.
 
@@ -79,7 +83,9 @@ Surgiu, então, um __modelo híbrido__, com __5 camadas__, que retira o excesso 
 ![Blog Linux](/assets/img/lpi/protocolo-tcp-ip.jpg "Blog Linux")
 ![Blog Linux](/assets/img/lpi/osi-tcp-ip.jpg "Blog Linux")
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -87,9 +93,11 @@ Surgiu, então, um __modelo híbrido__, com __5 camadas__, que retira o excesso 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ![Blog Linux](/assets/img/lpi/camadas.jpg "Blog Linux")
 
@@ -110,3 +118,18 @@ cat /etc/services
 <iframe width="1246" height="701" src="https://www.youtube.com/embed/GCU_cndQN1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

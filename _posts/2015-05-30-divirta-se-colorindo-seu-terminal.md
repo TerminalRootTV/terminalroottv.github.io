@@ -30,3 +30,18 @@ Usei na imagem acima exemplos com o [Figlet](http://www.terminalroot.com.br/2015
 E com o [Screenfetch](http://terminalroot.com.br/2014/09/gerando-logo-da-sua-distro-no-terminal.html)
 
 ## Qualquer coisa é só comentar, abs!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

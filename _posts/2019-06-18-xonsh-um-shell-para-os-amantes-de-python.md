@@ -43,7 +43,9 @@ Mas a forma mais correta, na minha opinião, de instalá-lo é:
 emerge dev-python/ply prompt_toolkit setproctitle wcwidth pygments
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -51,9 +53,11 @@ emerge dev-python/ply prompt_toolkit setproctitle wcwidth pygments
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 **APT**
 
@@ -76,7 +80,9 @@ cd xonsh
 sudo python setup.py install
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -84,9 +90,11 @@ sudo python setup.py install
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Certifique-se que o comando python está apontando para o Python3.6 `ls -l /usr/bin/python*`, se não estiver, remova e recrie o link simbólico, exemplo:
 
@@ -130,3 +138,18 @@ Você pode customizar ainda mais seu PROMPT, cores, criar funções, aliases,...
 <iframe width="920" height="400" src="https://www.youtube.com/embed/7dKWvTFoRts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## O que você achou do Xonsh ? Conte-nos nos comentários!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

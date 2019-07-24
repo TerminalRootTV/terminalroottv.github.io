@@ -34,7 +34,9 @@ cat /etc/resolv.conf
 cat /etc/host.conf
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -42,9 +44,11 @@ cat /etc/host.conf
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## 5-Este arquivo é a evolução do /etc/host.conf e possibilita que a ordem de procura para resolução de nomes seja customizada para cada serviço.Ele é utilizado nas últimas distribuições por diversas bibliotecas ao invés do /etc/host.conf.
 {% highlight bash %}
@@ -91,7 +95,9 @@ ifconfig eth0 down
 netstat [opções]
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -99,9 +105,11 @@ netstat [opções]
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## 11-O comando route manipula a tabela de rotas do Kernel.Seu uso primário é para adicionar ou apagar rotas estáticas para máquinas ou redes específicas.
 
@@ -132,7 +140,9 @@ Conexões de origem podem ser monitoradas utilizando o parâmetro src host, um e
 tcpdump -i eth0 src host 192.168.0.9
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -140,9 +150,11 @@ tcpdump -i eth0 src host 192.168.0.9
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Se quisermos monitorar as conexões especificando um host de destino, poderíamos fazê-lo com o parâmetro __dst host__, o exemplo abaixo mostra todo o tráfego do host 192.168.0.2 com 192.168.0.1, no caso, 192.168.0.1 é nosso gateway.
  {% highlight bash %}
@@ -166,3 +178,18 @@ tcpdump -i eth0 src port 32881
 
 Muitas opções avançadas podem ser obtidas com o __tcpdump__, essas são algumas opções básicas, porém fundamentais para quem quer aprender sobre __sniffers__.
  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -56,7 +56,9 @@ Re-type new password
 Adding password for user usuário
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -64,9 +66,11 @@ Adding password for user usuário
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 > Ao abrir o arquivo de senhas (passwd), serão vistos os nomes de usuário e senhas criptografadas.
 
@@ -106,7 +110,9 @@ Deny from all
 Allow from 172.16.0.0/255.0.0.0 ::1/128
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -114,9 +120,11 @@ Allow from 172.16.0.0/255.0.0.0 ::1/128
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 E todo esse tramite desse ser feito pelo usuário root para funcionar.
  
@@ -155,7 +163,9 @@ a2enmod rewrite
 vi /var/www/.htaccess
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -163,9 +173,11 @@ vi /var/www/.htaccess
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## 7-Escreva isso dentro do Arquivo, salve e feche-o
 {% highlight bash %}
@@ -187,3 +199,18 @@ Se imprimir na tela: __nomequalquer/outronome/__ (ou o nome que você escolheu),
 ## Assista a um vídeo sobre Apache
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/5hQyfXIMviM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

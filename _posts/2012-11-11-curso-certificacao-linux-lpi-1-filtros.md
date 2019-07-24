@@ -66,3 +66,18 @@ $ cat text
 O comando __cat__ recebe a entrada a partir do __stdin__, caso você não especifique um nome de arquivo (ou se você especifica - como o nome do arquivo). Vamos usar isso junto com o redirecionamento de saída para criar outro arquivo de texto. O comando __tac__ faz o inverso.
 
 ![Linux Filtros de textos](/assets/img/lpi/filtros.jpg ""Curso Certificação Linux LPI-1: Filtros de Texto"")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

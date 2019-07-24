@@ -72,3 +72,18 @@ Os sistemas em __BSD__ abordados neste artigo tendem a ter um número cada vez m
 > Quem deseja ser usuário de um sistema __BSD__, não vai ter tantas dificuldades, pois o número de sites, fóruns, listas de discussão e documentação é cada vez maior. Caso já esteja decidido, resta analisar qual __BSD__ é melhor para você ou para sua aplicação.
 
 FONTE: INFOWESTER
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

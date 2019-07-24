@@ -51,3 +51,18 @@ O [Sublime Text](https://www.sublimetext.com/) é um editor de código-fonte mul
 ### 8 - Geany
 [Geany](https://www.geany.org/) é um editor de texto multiplataforma desenvolvido em GTK+ que possui funções básicas para um ambiente de desenvolvimento integrado (IDE), licenciado sob a GNU GPL versão 2. Foi desenvolvido com o intuito de prover um IDE leve, rápido e com poucas dependências. O Geany está disponível para diversos sistemas operativos, como o BSD, o Linux, o MacOS X, o Solaris e o Windows. De fato, pode rodar em qualquer plataforma que tenha suporte às bibliotecas GTK, uma vez que requer apenas as bibliotecas de tempo de execução (runtime) GTK2.
 ![Blog Linux](/assets/img/editores/Geany.jpg "Blog Linux")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

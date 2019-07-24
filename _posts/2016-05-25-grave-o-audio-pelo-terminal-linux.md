@@ -12,7 +12,9 @@ tags:
 
 ![Grave o áudio pelo Terminal Linux](/assets/img/shell-script/alsamixer.jpg "Grave o áudio pelo Terminal Linux")
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -20,9 +22,11 @@ tags:
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Você pode usar o [ALSAMIXER](https://pt.wikipedia.org/wiki/Alsamixer) e o [ARECORD](https://linux.die.net/man/1/arecord) , ambos já vem instalados em todas as distribuições, mas se por algum motivo vc não tiver, você pode instalá-los via APT no Debian.
 
@@ -36,7 +40,9 @@ apt-get install arecord
 
 ## Para iniciar gravações rode o comando e/ou consulte os manuais
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -44,9 +50,11 @@ apt-get install arecord
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 {% highlight bash %}
 man alsamixer
@@ -57,3 +65,18 @@ man arecord
 {% endhighlight %}
 
 ## Dica rápida! 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

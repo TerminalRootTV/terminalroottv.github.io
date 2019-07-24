@@ -39,3 +39,18 @@ Eu particularmente, acredito que o nome Linux virou um vício de linguagem, no e
 [http://www.dwheeler.com/oss_fs_refs.html#linux-vs-gnu-linux](http://www.dwheeler.com/oss_fs_refs.html#linux-vs-gnu-linux)
 
 [http://www.gnu.org/gnu/why-gnu-linux.pt-br.html](http://www.gnu.org/gnu/why-gnu-linux.pt-br.html)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

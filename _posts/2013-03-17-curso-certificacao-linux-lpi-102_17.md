@@ -27,7 +27,9 @@ O comando __dig__ tem como função primária __retornar o dns da rede__, mas ta
 > dig [endereço]
 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -35,9 +37,11 @@ O comando __dig__ tem como função primária __retornar o dns da rede__, mas ta
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 
 {% highlight bash %}
@@ -83,7 +87,9 @@ O comando __telnet__ é usado para __se comunicar__ com __outro host__ usando o 
 > telnet [endereço] [porta]
 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -91,9 +97,11 @@ O comando __telnet__ é usado para __se comunicar__ com __outro host__ usando o 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 
 {% highlight bash %}
@@ -117,3 +125,18 @@ host www.terminalroot.com.br
 {% endhighlight %}
 
 # Até a próxima!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

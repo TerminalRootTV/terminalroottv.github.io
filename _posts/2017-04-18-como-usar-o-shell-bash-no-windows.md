@@ -11,7 +11,9 @@ tags:
 - windows
 ---
 
+
 <script>window.location = "http://terminalroot.com.br/2018/03/como-usar-o-shell-bash-no-windows.html";</script>
+
 
 ![Como Usar o Shell Bash no Windows](/assets/img/bash/como-usar-o-shell-bash-no-windows.jpg "Como Usar o Shell Bash no Windows")
 
@@ -80,3 +82,18 @@ Para o __Windows 7__ ou qualquer outro Windows você pode experimentar o [CygWin
 ### Valeu!
 
 Esse post foi adaptado do original [pplware](https://pplware.sapo.pt/microsoft/como-activar-a-bash-no-windows-10-em-8-passos/)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

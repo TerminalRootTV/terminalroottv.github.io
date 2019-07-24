@@ -40,3 +40,18 @@ Nesse vídeo iniciamos uma série infinita de Shell Script, onde iremos utilizar
 ## [Clique Aqui Para Assistir ao Vídeo](https://youtu.be/sIYW_jYVfmY)
 
 ## Comente sobre o que gostaria de ver na série!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

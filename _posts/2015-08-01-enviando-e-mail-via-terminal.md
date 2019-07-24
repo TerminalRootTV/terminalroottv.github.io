@@ -13,7 +13,9 @@ tags:
 - Comandos
 ---
 
+
 <script>window.location = "http://terminalroot.com.br/2018/03/como-enviar-e-mails-pelo-terminal.html";</script>
+
 
 ![Enviando e-mail via Terminal](/assets/img/terminal/e-mail.jpg "Enviando e-mail via Terminal")
 
@@ -61,3 +63,18 @@ $ echo 'Teste com anexo' | mutt -s 'Assunto teste com anexo' -a meuscript.sh log
 {% endhighlight %}
 
 > Na maioria dos casos é necessário [Permitir que aplicativos menos seguros acessem sua conta](https://support.google.com/accounts/answer/6010255?hl=pt-BR)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

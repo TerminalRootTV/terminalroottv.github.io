@@ -68,3 +68,18 @@ Stallman se preocupa com a vigilância porque ele a vê como uma ameaça à demo
 > Esse texto é uma **tradução** e **resumo** do original escrito por **Matthew Hutson** e ilustrado por **Nathan Fox** para a [Psychology Today](https://www.psychologytoday.com) e pode ser consultado no link: <https://www.psychologytoday.com/us/articles/201611/are-we-forfeiting-control-over-our-digital-lives>
 
 # [Aproveite e clique aqui para assistir o vídeo sobre Distros Linux](https://www.youtube.com/watch?v=MRl_6fCqdoQ)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

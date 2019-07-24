@@ -62,11 +62,13 @@ permalink: /:year/:month/:title.html
 
 Script em JavaScript para pôr no HTML do Modelo da seu blog para redirecionar
 {% highlight js %}
+
 <script>
 var str = window.location.href;
 var str = str.replace("DOMÍNIO_DO_ANTIGO_BLOG", "NOVO_DOMÍNIO_DO_BLOG");
 location.href=str;
 </script>
+
 {% endhighlight %}
 
 Link referente ao passo-a-passo:
@@ -77,4 +79,19 @@ Link referente ao passo-a-passo:
 
 # Comente!
 
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

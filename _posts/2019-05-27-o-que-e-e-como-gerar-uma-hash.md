@@ -41,3 +41,18 @@ Existem tipos de hashes (ou funções hash), elas podem ser: md5, sha256, whirpo
 + <https://www.schneier.com/essays/archives/2004/08/cryptanalysis_of_md5.html>
 + <https://help.ubuntu.com/community/HowToSHA256SUM>
 + <https://docs.fedoraproject.org/pt-PT/Fedora/18/html/Burning_ISO_images_to_disc/sect-Burning_ISO_images_to_disc-Validating_the_Files-Validating_at_the_Windows_Command_Prompt.html>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

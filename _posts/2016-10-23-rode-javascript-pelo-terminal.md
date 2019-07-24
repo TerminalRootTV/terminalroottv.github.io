@@ -15,7 +15,9 @@ twitter_text: "Rode JavaScript pelo Terminal"
 introduction: "Estamos falando de do PhantomJS . É browser webkit com API JavaScript completa que roda no terminal-console."
 ---
 
+
 <script>window.location = "http://terminalroot.com.br/2018/01/rodando-javascript-via-terminal-e-shell-via-js.html";</script>
+
 
 ![Terminal Linux PhantomJS](/assets/img/js/phantomjs.jpg)
 
@@ -126,7 +128,24 @@ exit 0
 # [Todo o conteúdo](http://phantomjs.org/)
 
 <div style="width: 800px; margin: auto;">
+
 <script src="https://gist.github.com/terminalrootsh/5913cb4effc74753a190ddfefc3ee04b.js"></script>
+
 </div>
 
 ## Comente!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

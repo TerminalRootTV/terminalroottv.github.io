@@ -43,7 +43,9 @@ Então o script "/etc/X11/Xsession" executa run-parts(8) como acção para execu
 * O script especificado como o argumento de /etc/X11/Xsession" pelo gestor de display X, se estiver definido.
 * O script "~/.xsession" ou "~/.Xsession", se estiver definido.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -51,9 +53,11 @@ Então o script "/etc/X11/Xsession" executa run-parts(8) como acção para execu
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 > Se estiverem definidos os comandos.
 
@@ -78,3 +82,18 @@ O comando
  
 # Para mais informações sobre o X no Debian, consulte
 [http://www.debian.org/doc/manuals/debian-reference/ch07.pt.html](http://www.debian.org/doc/manuals/debian-reference/ch07.pt.html)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

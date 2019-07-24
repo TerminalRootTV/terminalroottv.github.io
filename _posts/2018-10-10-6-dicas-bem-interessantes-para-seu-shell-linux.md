@@ -99,3 +99,18 @@ Saiba mais: <http://terminalroot.com.br/2017/04/obtenha-explicacoes-dos-comandos
 # [Clique Aqui Para Assistir ao Vídeo](https://youtu.be/2IaQQ9MFYn0)
 
 ## Comente sobre o que gostaria de ver na série!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

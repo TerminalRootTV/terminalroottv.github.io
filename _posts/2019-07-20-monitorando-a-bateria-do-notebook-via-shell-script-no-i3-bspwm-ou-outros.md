@@ -74,7 +74,9 @@ Se quiser saber se está descarregando, use:
 cat /sys/class/power_supply/BAT1/status
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
  style="display:block"
@@ -82,9 +84,11 @@ cat /sys/class/power_supply/BAT1/status
  data-ad-slot="2327980059"
  data-ad-format="auto"
  data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 
 E assim por diante, cada arquivo dentro do diretório armazena uma informação.
@@ -151,4 +155,19 @@ Pronto, agora o notebook não desligará mais por falta de energia!😁️
 + [Como Criar uma Notificação no Desktop](https://www.youtube.com/watch?v=cwrSluiamR4)
 + [Criando um A L E R T A em Shell Script](https://terminalroot.com.br/2019/06/criando-um-a-l-e-r-t-a-em-shell-script.html)
 
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

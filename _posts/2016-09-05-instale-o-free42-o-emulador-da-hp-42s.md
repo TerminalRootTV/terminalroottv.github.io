@@ -50,3 +50,18 @@ Vc tb pode usar __Skins__ para deixá-la como na imagem desse post!
 [Download dos Skins](http://thomasokken.com/free42/download/Free42Skins.zip "Instale o Free42 - O Emulador Da Hp-42s no Linux")
 
 Para alterar o Skin , acesse Skin e depois selecione __Realistic__
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

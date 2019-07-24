@@ -120,3 +120,18 @@ O __shutdown__ criará o arquivo __/etc/nologin__ para não permitir que novos u
 + __-k__  Simula o desligamento/reinicio do sistema, enviando mensagem aos usuários.
 + __-f__  Não executa a checagem do sistema de arquivos durante a inicialização do sistema. Este processo é feito gravando-se um arquivo __/fastboot__ que é interpretado pelos scripts responsáveis pela execução do __fsck__ durante a inicialização do sistema.
 + __-F__ 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

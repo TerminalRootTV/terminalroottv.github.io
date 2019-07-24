@@ -161,3 +161,18 @@ apt-get install lv2*
 <http://www.linuxlinks.com/article/20080622143124178/Audio.html>
 
 <http://music.tutsplus.com/articles/29-music-making-apps-for-linux--audio-5183>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -45,7 +45,9 @@ allow-recursion { 127.0.0.1; 192.168.1.1/24; };
 
 ## 3- Configurar a Zona e a Zona Reversa
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -53,9 +55,11 @@ allow-recursion { 127.0.0.1; 192.168.1.1/24; };
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Depois edite o arquivo named.conf.local e escreva o código abaixo, de acordo com seus IPs e o nome do host que deseja, nesse exemplo vou utilizar "marcospinguim.com.br"
 {% highlight bash %}
@@ -116,7 +120,9 @@ pop3  CNAME mail
 smtp  CNAME mail
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -124,9 +130,11 @@ smtp  CNAME mail
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## 6-Verificar se há erros nas zonas
 Execute o comando de acordo com seus dados
@@ -179,7 +187,9 @@ OK
 
 ## 9-reiniciar o Bind
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -187,9 +197,11 @@ OK
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 > __/etc/init.d/bind9 restart__
 
@@ -250,4 +262,19 @@ http://www.hardware.com.br/livros/linux-redes/configurando-bind.html
 http://goo.gl/GEYz9
 
 http://pt.wikipedia.org/wiki/BIND
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

@@ -62,3 +62,18 @@ Pronto, toda vez que você abrir o Shell, haverá tais informações!
 > Obs.: no Script informado eu coloquei o [Figlet](http://www.terminalroot.com.br/2015/03/como-gerar-desenhos-de-nomes-pelo.html)
 
 Post baseado em: http://www.vivaolinux.com.br/artigo/Personalize-seu-shell-na-entrada-de-seu-logon
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

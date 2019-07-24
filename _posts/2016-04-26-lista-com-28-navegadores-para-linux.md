@@ -190,3 +190,18 @@ Firefox Developer Edition é uma versão do navegador da Mozilla criada especial
  O Netscape reassumiu o termo "Navigator" e introduziu algumas novas funcionalidades. Sua base é agora fundamentada no Firefox, possui um sistema bem parecido com o "digg", onde usuários criam seu próprio jornal, porém próprio, entre outras funcionalidades.   
 [Download do Netscape](http://ftp.netscape.com/pub/netscape9/en-US/9.0/unix/linux/netscape-navigator-9.0.0.6.tar.gz)
   
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

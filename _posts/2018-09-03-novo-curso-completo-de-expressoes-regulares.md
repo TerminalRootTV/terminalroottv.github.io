@@ -17,3 +17,18 @@ As Expressões Regulares estão em todas as linguagens de programação, editore
 Para assistir uma demo e solucionar todas suas dúvidas a respeito do Curso, veja o vídeo!
 
 # [Clique Aqui Para Assistir o Vídeo](https://youtu.be/9knEvYl6D_o)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

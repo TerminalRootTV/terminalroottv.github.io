@@ -33,3 +33,18 @@ As informações do sistema operacional   inclui: resolução do desktop e outra
 ## SysInfo
 
 Sysinfo é um, alternativa minimalista leve para HardInfo e lshw-gtk e pode exibir as seguintes informações: System (versão da distribuição Linux, versões do GNOME, kernel, gcc e Xorg e hostname);  CPU (identificação do fornecedor, nome do modelo, a frequência, cache level2, bogomips, números de modelo e bandeiras);  Memória (RAM total do sistema, memória livre, troca de espaço total e livre, cache, memória ativa, inativa);  (interface IDE, todos os dispositivos IDE, dispositivos SCSI) de armazenamento;  Hardware (placa-mãe, placa de vídeo, placa de som, dispositivos de rede);  NVIDIA placa gráfica:. somente com NVIDIA driver de vídeo instalado. Sysinfo é uma ferramenta que é um pouco mais avançado do que o Monitor do sistema   (Monitor do sistema vem por padrão com o Ubuntu e outros Linux distribuições que usam o GNOME), então não espere para listar muitos detalhes sobre o hardware. Mas é muito útil se você quiser dar uma rápido olhar para o hardware do seu computador sem ter que passar por muitos de informações. 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

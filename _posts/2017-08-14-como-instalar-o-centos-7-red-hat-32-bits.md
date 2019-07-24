@@ -27,3 +27,18 @@ Segue abaixo um vídeo como instalar a versão 7 do [CentOS/RHEL](https://www.ce
 <http://mirror.centos.org/altarch/7/experimental/i386/>
 
 ## Deixe seu comentário!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

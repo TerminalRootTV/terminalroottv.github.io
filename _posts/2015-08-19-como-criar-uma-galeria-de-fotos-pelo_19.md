@@ -104,3 +104,18 @@ GALERIA=$(totem-video-thumbnailer -l -j -s 500 -g 18 "$MOVIE" "$MOVIE"-"Duracao:
 Legal, dá pra ver as informações do vídeo pelo nome do arquivo!!!
 
 ## Comente!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

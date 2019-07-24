@@ -137,3 +137,18 @@ man nano
 <sub style="color: #666;">
 http://www.vivaolinux.com.br/artigo/Introducao-ao-Linux-O-editor-de-texto-Nano http://www.bosontreinamentos.com.br/linux/15-exemplos-de-uso-do-editor-de-textos-nano-no-linux/ http://www.uniriotec.br/~morganna/guia/nano.html
 </sub>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

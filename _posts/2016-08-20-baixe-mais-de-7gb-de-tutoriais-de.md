@@ -13,3 +13,18 @@ tags:
 > São mais de __7 Giga__ , totalizando quase __1000 arquivos__ de __Linguagens de Programação, Linux, Redes, Computação, Pentest e muito mais__, acesse o __link__ abaixe e confira!!!
 
 # [Clique Aqui Para Acessar o Conteúdo](https://mega.nz/#F!9xV1GL4C!RtMmGRlCpA0tUUMl2rELjQ)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

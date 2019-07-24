@@ -44,3 +44,18 @@ Adicionar dependências não requer modificação do pacote em si, mas podem ser
 ### Fontes organizadas
 
 slapt-get funciona com repositórios oficiais do Slackware e repositórios de terceiros, __CHECKSUMS.md5__ e __PACKAGES.TXT__, revendo arquivos que fornecem o nome da ferramenta, o tamanho (tanto comprimido e não comprimido) e MD5 dos pacotes. Esses arquivos podem ser estendidos, como indicado na seção anterior, acrescentando dependências, conflitos e sugestões, bem como repositórios alternativos para um pacote. 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

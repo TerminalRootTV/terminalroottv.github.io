@@ -55,7 +55,9 @@ AllowUsers marcos eric camila
 Enquanto não utilizada a diretiva "__AllowUsers__" qualquer usuário da maquina pode conectar via ssh. Quando acrescenta-la, passa a permitir apenas os usuários listados e válidos na maquina, esta diretiva prevalece sobre a regra "default" que permite login de todos.
 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -63,9 +65,11 @@ Enquanto não utilizada a diretiva "__AllowUsers__" qualquer usuário da maquina
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 
 ## Alterando a Porta
@@ -100,7 +104,9 @@ scp -r * marcos@192.168.1.107:~/
 scp -r * marcos@192.168.1.107:/home/marcos/pasta_server/
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -108,9 +114,11 @@ scp -r * marcos@192.168.1.107:/home/marcos/pasta_server/
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 > Para copiar da máquina remota para máquina local, usa-se o ponto no final e o formato assim
 {% highlight bash %}
@@ -130,4 +138,19 @@ scp -r marcos@192.168.1.107:~/isos /home/marcos/tmp
 ***
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/c42j3B8HRG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

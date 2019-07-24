@@ -85,3 +85,18 @@ A [BSDI/FreeBSD Mall, Inc.](https://www.freebsdmall.com/) têm fornecido contrat
 > Em adição, cada um dos projetos tem uma lista de consultores que podem ser contratados: __FreeBSD__, __NetBSD__, e __OpenBSD__.
 
 FONTE: <https://www.freebsd.org/doc/pt_BR/articles/explaining-bsd/comparing-bsd-and-linux.html>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

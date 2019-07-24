@@ -88,3 +88,18 @@ Veja o artigo completo sobre o __Comando find__
 __locate__ realiza buscas em um banco de dados criado com updatedb.whatis pesquisa por palavra exata no banco de dados.apropos consulta um banco de dados consistindo de descrições curtas dos comandos do sistema e utilitários. Por enquanto é só, até o próximo tópico ou a próxima postagem sobre outro assunto.
 
 ![Blog Linux](/assets/img/lpi/sad.jpg "Blog Linux")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

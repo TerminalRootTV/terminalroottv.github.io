@@ -18,3 +18,18 @@ tags:
 Ubuntu Christian Edition também inclui conteúdo web totalmente integrado controle parental alimentado pelo premiado Dansguardian. Esses recursos são realmente o que define Ubuntu Christian.
 
 [DOWNLOAD DO UBUNTU CHRISTIAN](http://ubuntuce.com/download.htm)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -19,3 +19,18 @@ introduction: "CAELinux é basicamente uma plataforma de distribuição com um c
 Possui softwares como GEDA , Kicad, Fritzing, Arduino, dxf2gcode , cadpy , GNU Octave, QtOctave, Scilab, wxMaxima, R & rkward, Python Scipy e Spyder, Qt Creator, ​​, Arduino 1.0 , LibreCAD, SagCad, FreeCAD 0,13, Salome 6.6, MeshLab, Blender, OpenSCAD, PyCAM 0,6, GCAM, Dxf2Gcode, Inkscape Gcodetools, ...ou seja um mundo de opções independente da sua área, seja ela Robótica, Biomedicina, Design,... se você está nessa área , vale a pena experimentar. O site do projeto para download e para uma maior consulta das FERRAMENTAS OPEN SOURCE, é:
 
 [http://caelinux.com/](http://caelinux.com/)
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

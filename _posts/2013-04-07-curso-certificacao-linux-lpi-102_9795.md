@@ -40,7 +40,9 @@ Após a validade, a chave será considerada inválida.
 
 Digite a __FraseSenha__ - Senha que irá identificá-lo(a) como proprietário da chave privada. É chamada de __FraseSenha__ pois pode conter espaços e não há limite de caracteres.Confirme e aguarde a geração da chave pública/privada.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -48,9 +50,11 @@ Digite a __FraseSenha__ - Senha que irá identificá-lo(a) como proprietário da
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Encriptando dados
 
@@ -76,7 +80,9 @@ gpg -r kov -e arquivo.txt
 
 > OBS: É recomendável especificar o nome de arquivo sempre como último argumento.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -84,9 +90,11 @@ gpg -r kov -e arquivo.txt
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Decriptando dados com o gpg
 
@@ -131,7 +139,9 @@ gpg --verify arquivo.txt.gpg
 
 * Se a saída for "__Assinatura INCORRETA__" significa que ou o usuário que enviou o arquivo não confere ou o arquivo enviado foi de alguma forma modificado.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -139,9 +149,11 @@ gpg --verify arquivo.txt.gpg
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Extraindo sua chave pública do chaveiro
 
@@ -189,7 +201,9 @@ Pode ser especificado o nome de usuário, e-mail IDchave ou qualquer outro detal
 
 Execute o comando __gpg --edit-key__ usuário, quando o programa entrar em modo de comandos, digite __passwd__. Será lhe pedida a "__Frase Senha__" atual e a __nova__ "__Frase Senha__". Digite "save" para sair e salvar as alterações ou "__quit__" para sair e abandonar o que foi feito. O __gpg --edit-key__ permite gerenciar diversos aspectos de suas chaves é interessante explora-lo digitando "__?__" para exibir todas as opções disponíveis.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -197,9 +211,11 @@ Execute o comando __gpg --edit-key__ usuário, quando o programa entrar em modo 
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Assinando uma chave digital
 
@@ -239,7 +255,9 @@ __Este texto foi divulgado por uma pessoa que pediu para permanecer anônima__ n
 * 2. Chaves digitais e a teia de confiança
 * 3. Trocando assinaturas de chaves digitais com um grupo de pessoas
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -247,9 +265,11 @@ __Este texto foi divulgado por uma pessoa que pediu para permanecer anônima__ n
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Criando arquivos .tar.gz com senha
 
@@ -292,3 +312,18 @@ tar -xf arquivo.tar.gz
 <iframe width="920" height="400" src="https://www.youtube.com/embed/Rwyf04a1tAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Fonte: http://pt.wikibooks.org/wiki/Guia_do_Linux/Avançado
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

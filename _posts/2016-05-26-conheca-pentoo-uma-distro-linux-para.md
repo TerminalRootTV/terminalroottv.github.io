@@ -10,7 +10,9 @@ tags:
 - Web Hacker
 ---
 
+
 <script>window.location = "http://terminalroot.com.br/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html";</script>
+
 
 ![Conheça Pentoo uma distro Linux para Hackers](/assets/img/distros/pentoo.jpg "Conheça Pentoo uma distro Linux para Hackers")
 
@@ -23,3 +25,18 @@ Existem duas versões do Live CD - __Pentoo__ e __MPentoo__ - que se diferem bas
 
 ### E para fazer o Download é
 <http://www.pentoo.ch/download/>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

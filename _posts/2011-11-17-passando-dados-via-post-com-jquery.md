@@ -29,8 +29,12 @@ Nesse exemplo tem o básico só para causar o entendimento mesmo.servirá para s
 No head do __index.php__ deve existir o link pro __JQuery__ e pro __carregar.js__ que mostro logo abaixo
 
 {% highlight js %}
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+
 <script type="text/javascript" src="carregamento.js"></script>
+
 {% endhighlight %}
 
 ## carregar.js
@@ -71,3 +75,18 @@ $(function(){
 {% endhighlight %}
 
 Esse é o básico, mas só com isso pode-se ir "__Ao infinito e Além__", só depende de você essa evolução!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

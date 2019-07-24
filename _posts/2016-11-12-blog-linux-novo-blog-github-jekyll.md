@@ -193,6 +193,7 @@ Dae nem precisei usar minha gambiarra no 404.md
 
 {% highlight js %}
 
+
 <script>
 var str = window.location.href;
 
@@ -205,7 +206,23 @@ if(str.match(/.html/)){
 }
 </script>
 
+
 {% endhighlight %}
 
 
 # Abraços!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

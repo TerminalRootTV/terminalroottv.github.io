@@ -37,7 +37,9 @@ Em seguida insira sua senha de *sudo* e aguarde o final da execução do script 
 
 Ficou alguma dúvida ? Então assista o vídeo:
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -45,9 +47,11 @@ Ficou alguma dúvida ? Então assista o vídeo:
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/EBn5coWv1_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -69,7 +73,9 @@ Acesse: <https://terminalroot.com.br/promo>
 + [Ubuntu](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Ubuntu)
 ![Ubuntu](/assets/img/distros/ubuntu.jpg)
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -77,11 +83,28 @@ Acesse: <https://terminalroot.com.br/promo>
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 + [Linux Mint](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Mint)
 ![Linux Mint](/assets/img/distros/linuxmint.jpg)
 
 Contribua compartilhando e se quiser adicionar ou questionar algo, comente!
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

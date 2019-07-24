@@ -38,7 +38,9 @@ Os recursos de segurança adicionais incluem Tor sobre VPN, proteção contra va
 
 A NordVPN possui um fantástico aplicativo customizado para [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux). E, embora o aplicativo não tenha uma interface gráfica com o usuário, ainda é fácil de usar graças a um widget de preenchimento automático que fornece sugestões enquanto você digita comandos. Se você tiver algum problema, saiba que a NordVPN tem excelente suporte ao cliente e você pode contatá-los via e-mail e chat ao vivo.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -46,9 +48,11 @@ A NordVPN possui um fantástico aplicativo customizado para [Linux](http://cse.g
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### Preços
 
@@ -87,7 +91,9 @@ O ExpressVPN possui um cliente [Linux](http://cse.google.com.br/cse?cx=004473188
 
 Além do cliente nativo, você também pode configurar manualmente a VPN estabelecendo uma conexão [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) OpenVPN via [Terminal](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Terminal). Suporte ao cliente. Arquivos de configuração manuais estão disponíveis no site da ExpressVPN.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -95,9 +101,11 @@ Além do cliente nativo, você também pode configurar manualmente a VPN estabel
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### Preços
 
@@ -131,7 +139,9 @@ Quando se trata de segurança, o TorGuard está entre os melhores. Os clientes T
 
 O TorGuard fornece um cliente VPN nativo simples para o [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux). O aplicativo possui uma interface gráfica para uma experiência agradável e fácil. As distros suportadas incluem [Ubuntu](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Ubuntu), Debian, Red Hat e Arch. Os usuários obtêm um guia interessante sobre como usar o cliente [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux), e o suporte ao cliente do TorGuard está sempre à disposição para ajudar com qualquer problema.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -139,9 +149,11 @@ O TorGuard fornece um cliente VPN nativo simples para o [Linux](http://cse.googl
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### Preços
 
@@ -172,7 +184,9 @@ A PIA usa o padrão seguro OpenVPN e permite que os usuários escolham o nível 
 
 Você quer um cliente [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) simples de configurar e usar, e é isso que o Acesso à Internet Privada oferece. O cliente PIA [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) possui uma interface gráfica de usuário amigável e há clientes nativos para o [Ubuntu](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Ubuntu) e o Mint. O provedor de serviços VPN também oferece configurações de aplicativos e configurações OpenVPN para o Debian, e Arch [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux). Fedora, Robo[Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) e [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) Mate.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -180,9 +194,11 @@ Você quer um cliente [Linux](http://cse.google.com.br/cse?cx=004473188612396442
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### Preços
 
@@ -213,7 +229,9 @@ O IPVanish mantém uma diretiva de registro de zero estrita e não retém regist
 
 O software IPVanish [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) oferece compatibilidade apenas para o [Ubuntu](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Ubuntu). No entanto, existem configurações manuais de PPTP e OpenVPN para Fedora, Kari [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) e [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux) Mint. A VPN é fácil de configurar e o IPVanish tem um suporte amigável ao cliente, caso você precise de ajuda com a configuração.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -221,9 +239,11 @@ O software IPVanish [Linux](http://cse.google.com.br/cse?cx=00447318861239644236
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ### Preços
 
@@ -251,7 +271,9 @@ Selecionar a VPN certa para o [Linux](http://cse.google.com.br/cse?cx=0044731886
 + Política de privacidade: O provedor mantém logs de atividades e conexões? Se assim for, o seu comportamento de navegação é finalmente rastreável de volta para você. Procure uma VPN que tenha uma política de não registro rigorosa, opere em uma jurisdição favorável à privacidade e aceite métodos de pagamento anônimos.
 + Suporte ao cliente: Se você enfrentar quaisquer desafios técnicos, um suporte ao cliente confiável 24 horas por dia, sete dias por semana, pode ajudá-lo a colocar as coisas em funcionamento rapidamente.
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -259,9 +281,11 @@ Selecionar a VPN certa para o [Linux](http://cse.google.com.br/cse?cx=0044731886
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
  
 ## Conclusão
@@ -275,4 +299,19 @@ Testamos todas as VPNs acima e cada uma ganhou seu lugar na lista. Os provedores
 Esse artigo foi criado por Will Timothy via [TekCompare](https://tekcompare.com/) e nos solicitaram (Andrea Arceo) a tradução e publicação. A postagem original e mais informações podem ser acessadas pelo link: <https://tekcompare.com/security/vpn/best-vpn-linux/>
 
 
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

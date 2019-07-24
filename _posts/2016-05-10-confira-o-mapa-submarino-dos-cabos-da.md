@@ -31,3 +31,18 @@ Fonte: [Global de Banda Research Service](http://www.telegeography.com/research-
 Via: [TeleGeography](https://www.telegeography.com/)
 
 ![Confira o Mapa Submarino dos Cabos da Internet](/assets/img/rede/interactive-cable-map.jpg "Confira o Mapa Submarino dos Cabos da Internet")
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+

@@ -21,7 +21,9 @@ Esta linguagem, é considerada por muitos, um importante marco para história da
  
 ## Variantes do AWK
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -29,9 +31,11 @@ Esta linguagem, é considerada por muitos, um importante marco para história da
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 + BWK: conhecido também AWK ou NAWK se refere à versão por Brian Kernighan .
 + GAWK:(GNU AWK) é outra implementação do software livre (OPEN SOURCE)
@@ -54,7 +58,9 @@ Exemplo, crie um arquivo __world.awk__ com o conteúdo
 { print "Hello, World!" }
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -62,9 +68,11 @@ Exemplo, crie um arquivo __world.awk__ com o conteúdo
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Tornando este arquivo executável
 {% highlight bash %}
@@ -97,7 +105,9 @@ awk '{print $0}'
 - $3 seu humor,
 - $4 seu condicionamento físico. 
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -105,9 +115,11 @@ awk '{print $0}'
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 Podemos usar essas variáveis dentro do comando print. Nele, sempre que colocamos uma vírgula, estamos espaçando
 
@@ -148,7 +160,9 @@ Saída
  de uma vez só
 {% endhighlight %}
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -156,9 +170,11 @@ Saída
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 ## Dicas
  
@@ -186,7 +202,9 @@ BEGIN { nomecor="%-15s %20s\n"; printf nomecor, "Nome", "Cor\n"}
 
 ## if e operadores de comparação
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -194,9 +212,11 @@ BEGIN { nomecor="%-15s %20s\n"; printf nomecor, "Nome", "Cor\n"}
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 São as instruções de controle que controlam o fluxo da execução dos programas em AWK. Em AWK, elas são similares as de C, além de possuírem os mesmos loopings e interações do padrão Shell.
 
@@ -235,7 +255,9 @@ awk 'BEGIN {print 1+1 > "resultado" }'
 
 ## Referências
 
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <!-- Informat -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -243,9 +265,11 @@ awk 'BEGIN {print 1+1 > "resultado" }'
      data-ad-slot="2327980059"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
+
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 https://pt.wikipedia.org/wiki/Awk
 
@@ -262,4 +286,19 @@ http://www.staff.science.uu.nl/~oostr102/docs/nawk/nawkA4.pdf
 http://www.faqs.org/faqs/computer-lang/awk/faq/
 
 http://www.gnu.org/software/gawk/manual/gawk.html
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 

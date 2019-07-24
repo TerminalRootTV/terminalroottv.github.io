@@ -59,3 +59,18 @@ dconf write /org/mate/caja/desktop/volumes-visible false
 Substitua __false__ por __true__ para os ícones reaparecerem.
 
 Mais informações: https://wiki.archlinux.org/index.php/MATE
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-2838251107855362"
+ data-ad-slot="2327980059"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
