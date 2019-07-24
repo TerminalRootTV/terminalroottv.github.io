@@ -113,7 +113,7 @@ Se não souber como ver isso, use esse comando para testar:
 Se a saída for: **Aparentemente Tudo Certo!** você não precisa fazer mais nada, mas se a saída for **Não há ...** , use justamente o comando que a saída orienta para o mesmo.
 
 {% highlight bash %}
-[[ $(grep 'launcha.sh' ~/.config/i3/config) ]] && echo "Aparentemente Tudo Certo!" || echo -e '\nNão há, use esse comando para torná-lo possível:\necho "exec_always --no-startup-id $HOME/.config/polybar/launch.sh &" >>  ~/.config/i3/config'
+[[ $(grep 'launch.sh' ~/.config/i3/config) ]] && echo "Aparentemente Tudo Certo!" || echo -e '\nNão há, use esse comando para torná-lo possível:\necho "exec_always --no-startup-id $HOME/.config/polybar/launch.sh &" >>  ~/.config/i3/config'
 {% endhighlight %}
 
 Para bspwm e outros WMs use a mesma lógica e mude o caminho dos arquivos.
