@@ -69,5 +69,5 @@ Para cada linha de configuração e outras dúvidas, sugiro você analisar a doc
 
 Ficou alguma dúvida ? Comente!
 
-Abraços !!!
+Abraços !
     
