@@ -3,7 +3,7 @@ layout: post
 title: "Calcule Facilmente Máscaras de Sub-Rede"
 date: 2019-07-26 11:33:43
 image: '/assets/img/rede/ipcalc.png'
-description: 'Uma calculadora de IP que calcula IPs, endereços de rede, classes de rede e outras informações.'
+description: 'Uma calculadora de IP que calcula endereços de rede, classes de rede e outras informações.'
 main-class: 'rede' 
 tags:
 - ipcalc
