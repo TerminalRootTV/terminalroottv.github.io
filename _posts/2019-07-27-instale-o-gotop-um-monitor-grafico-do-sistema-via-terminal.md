@@ -83,7 +83,7 @@ gotop
 
 Veja a ajuda para atalhos de teclas: `gotop --help`
 
-Desfrute! :trollface:
+Desfrute! 😎️
 
 ![gotop](/assets/img/dicas/gotop.gif)
 
