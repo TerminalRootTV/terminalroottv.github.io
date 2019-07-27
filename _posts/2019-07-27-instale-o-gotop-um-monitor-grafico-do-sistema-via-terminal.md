@@ -87,3 +87,5 @@ Desfrute! :trollface:
 
 ![gotop](/assets/img/dicas/gotop.gif)
 
+Pagina Oficial do gotop: <https://github.com/cjbassi/gotop>
+
