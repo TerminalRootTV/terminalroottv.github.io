@@ -2,7 +2,7 @@
 layout: post
 title: "Assista agora o filme de Eduard Snowden - Herói ou Traidor"
 date: 2019-07-28 11:12:04
-image: '/assets/img/'
+image: '/assets/img/movie/snowdenmovie.jpg'
 description: 'Ex-funcionário terceirizado da NSA, Snowden divulga a jornalistas uma série de documentos sigilosos dos EUA .'
 main-class: 'movie'
 tags:
@@ -10,6 +10,8 @@ tags:
 - snowden
 - webhacker
 ---
+
+![Snowden Movie](/assets/img/movie/snowdenmovie.jpg)
 
 Edward Joseph Snowden é um analista de sistemas, ex-administrador de sistemas da CIA e ex-contratado da NSA que tornou públicos detalhes de vários programas que constituem o sistema de vigilância global da NSA americana. 
 
