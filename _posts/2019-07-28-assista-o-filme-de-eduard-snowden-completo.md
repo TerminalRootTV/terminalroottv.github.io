@@ -35,4 +35,4 @@ Em 2015, Oliver Stone iniciou a produçāo da cinebiografia de Edward Snowden. O
 
 *Dica*: Se quiser ver em tela cheia [clique nesse link](http://bit.ly/2LIdWPq) e depois clique no ícone ![Full Screen](/assets/img/movie/fullscreen-30.png) para assistir em **Tela Cheia** .
 
-<iframe src="https://drive.google.com/file/d/0BzIT5bTTHI8xOXl6SllxN05PTTg/preview" width="950" height="400"></iframe>
+<iframe style="border:none;" src="https://drive.google.com/file/d/0BzIT5bTTHI8xOXl6SllxN05PTTg/preview" width="950" height="400"></iframe>
