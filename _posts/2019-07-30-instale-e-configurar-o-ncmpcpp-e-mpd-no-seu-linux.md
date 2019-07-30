@@ -2,7 +2,7 @@
 layout: post
 title: "Instale e Configurar o ncmpcpp e mpd no seu Linux"
 date: 2019-07-30 18:40:02
-image: '/assets/img/'
+image: '/assets/img/multimidia/mpd-ncmpcpp-min.jpg'
 description: 'Uma das melhores opções no quesito leveza, funcionalidade e velocidade .'
 main-class: 'unix'
 tags:
