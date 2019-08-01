@@ -25,7 +25,7 @@ O próprio shc não é um compilador como o [gcc](https://gcc.gnu.org/), ele cod
 
 ## Instalação
 
-No [Gentoo] e similares, use o portage que o *shc* já está disponível na árvore:
+No [Gentoo](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Gentoo) e similares, use o portage que o *shc* já está disponível na árvore:
 
 {% highlight bash %}
 emerge dev-util/shc
@@ -46,8 +46,6 @@ cd shc-*
 make
 sudo make install
 {% endhighlight %}
-
-
 
 ## Utilização
 
