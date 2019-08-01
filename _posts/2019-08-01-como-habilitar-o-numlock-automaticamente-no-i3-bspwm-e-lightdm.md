@@ -54,7 +54,9 @@ greeter-setup-script=/usr/bin/numlockx on
 
 Ou até mesmo no arquivo do seu diretório pessoal: `~/.xprofile` e insira esse conteúdo: `numlockx &`
 
-+ No bspwm. Se você não utiliza LightDM e deseja que seja automaticamente habilitado no seu [bspwm](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=bspwm) , edite seu *bspwmrc*: `vim $HOME/.config/bspwm/bspwmrc` e insira uma linha com esse conteúdo: `/usr/bin/numlockx on` ou somente `numlockx on`
++ No bspwm. Se você não utiliza LightDM e deseja que seja automaticamente habilitado no seu [bspwm](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=bspwm) , edite seu *bspwmrc*: `vim $HOME/.config/bspwm/bspwmrc` e insira uma linha com esse conteúdo: 
+
+`/usr/bin/numlockx on` ou somente `numlockx on`
 
 + No i3, edite esse arquivo `vim $HOME/.config/i3/config` e insira uma linha com esse conteúdo: `/usr/bin/numlockx on` ou somente `exec numlockx on` .
 
