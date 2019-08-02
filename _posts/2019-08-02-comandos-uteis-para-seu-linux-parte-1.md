@@ -106,5 +106,6 @@ Dica com imagem para cada número a correspondente saída para o **octeto**:
 ## Links para Pesquisa:
 + <https://terminalroot.com.br/2012/11/curso-certificacao-linux-lpi-1.html>, legal para entender visualmente.
 + <https://en.wikipedia.org/wiki/Chmod> , muito interessante para análise técnica e detalhista.
++ <https://pt.wikipedia.org/wiki/Identificador_de_usu%C3%A1rio> , complemento top!
 
 Até a próxima!

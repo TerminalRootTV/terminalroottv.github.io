@@ -39,6 +39,21 @@ para fornecer detalhes de rede e ficar em cima de intrusões.</li>
 pelo fornecedor e permite que você personalize o dispositivo através do 
 uso de pacotes para atender a qualquer aplicativo.</li>
 </ol>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Monitorização</h2>
  Com essas ferramentas, você obterá monitoramento constante de sua segurança.<br />
 <ol style="text-align: justify;" type="1">
@@ -81,6 +96,21 @@ do Outlook, Thunderbird e outros clientes de e-mail populares.</li>
 <li><a target="_blank" href="http://wiki.mailcleaner.net/doku.php">MailCleaner</a> : Com este aplicativo de filtragem, você pode manter o spam e os vírus fora.</li>
 <li><a target="_blank" href="http://gfime11webstat.sourceforge.net:80/">Gfime</a> Use esta ferramenta que exibirá seu nível de spam bloqueado graficamente.</li>
 </ol>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Antivírus</h2>
 <p> Com essas ferramentas, você pode proteger seu computador e rede de vírus.</p> <br />
 <ol style="text-align: justify;" type="1">
@@ -127,6 +157,21 @@ pacotes de software livre de terceiros para funcionalidade adicional.</li>
 vezes, para que não possam ser lidos utilizando ferramentas forenses 
 digitais.</li>
 </ol>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Criptografia e criptografia</h2>
  Faça uso dessas ferramentas de criptografia e criptografia para ficar seguro.<br />
 <ol style="text-align: justify;" type="1">
@@ -170,6 +215,21 @@ disponibilidade e disponibilidade.
 <li><a target="_blank" href="http://www.chiark.greenend.org.uk/%7Esgtatham/putty/">PuTTy</a> : Obter acesso remoto com este cliente telnet / SSH.</li>
 <li><a target="_blank" href="http://www.uvnc.com/index.html">UltraVNC</a> : use esta ferramenta para obter acesso remoto seguro e seguro.</li>
 </ol>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Rede</h2>
  Essas ferramentas ajudarão você a operar uma rede mais segura.<br />
 <ol style="text-align: justify;" type="1">
