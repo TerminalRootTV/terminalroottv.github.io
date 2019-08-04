@@ -11,6 +11,8 @@ tags:
 - terminal
 ---
 
+![transfer.sh](https://transfer.sh/)
+
 [transfer.sh](https://transfer.sh/) é um serviço gratuito que você pode guardar seus arquivos na internet fazendo uppload via linha de comando, ou até mesmo pelo site via upload ou drag-and-drop.
 
 Para usar o serviço é bem simples, basta você usar o [curl](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=curl) com o parâmetro `--upload-file` para transferir. Exemplo supondo que você tenha um arquivo de nome *arquivo.txt* e deseja fazer o upload e obter um endereço para poder acessá-lo de onde você quiser, o comando seria:
