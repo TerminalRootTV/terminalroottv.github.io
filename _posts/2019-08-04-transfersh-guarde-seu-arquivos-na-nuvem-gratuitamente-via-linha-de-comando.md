@@ -74,9 +74,8 @@ transfer(){
 		echo "É necessário informar o nome do arquivo."
 		exit 1
 	else
-		curl --upload-file "$1"
+		curl --upload-file $1 https://transfer.sh/$1
 		echo
-		exit 0
 	fi
 }
 {% endhighlight %}
