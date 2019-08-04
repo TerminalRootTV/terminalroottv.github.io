@@ -11,7 +11,7 @@ tags:
 - terminal
 ---
 
-![transfer.sh](https://transfer.sh/)
+![transfer.sh](/assets/img/terminal/transfer.sh.jpg))
 
 [transfer.sh](https://transfer.sh/) é um serviço gratuito que você pode guardar seus arquivos na internet fazendo uppload via linha de comando, ou até mesmo pelo site via upload ou drag-and-drop.
 
