@@ -89,4 +89,6 @@ Simples, né ?!
 
 Quer acrescentar alguma informação, então use nosso campo de comentários!
 
+### Página do transfer.sh: <https://transfer.sh/>
+
 Abraços!    
