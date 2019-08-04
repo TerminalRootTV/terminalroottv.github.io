@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "transfer.sh - Guarde seus Arquivos na Nuvem Gratuitamente via Linha de Comando"
+title: "Guarde seus Arquivos na Nuvem Gratuitamente via Linha de Comando"
 date: 2019-08-04 14:44:50
 image: '/assets/img/terminal/transfer.sh.jpg)'
 description: 'Com transfer.sh você faz upload de arquivos texto, compactados e outros.'
