@@ -72,7 +72,6 @@ Se você quiser você pode criar um alias ou uma função no seu `~/.bashrc` ou 
 transfer(){
 	if [[ -z "$1" ]]; then
 		echo "É necessário informar o nome do arquivo."
-		exit 1
 	else
 		curl --upload-file $1 https://transfer.sh/$1
 		echo
