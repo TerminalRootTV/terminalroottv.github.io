@@ -57,7 +57,7 @@ curl --upload-file arquivo-terminalroot.tar.gz.gpg https://transfer.sh/arquivo-m
 https://transfer.sh/13ZIJp/arquivo-marcos-cripto.gpg
 {% endhighlight %}
 
-> Lembrando que o [GPG]() pedirá para você criar uma senha e depois confirmá-la, e para descriptografar basta rodar o mesmo comando sem o parâmetro `-c` e em seguida indicar o arquivo `.gpg`
+> Lembrando que o [GPG](https://gnupg.org/) pedirá para você criar uma senha e depois confirmá-la, e para descriptografar basta rodar o mesmo comando sem o parâmetro `-c` e em seguida indicar o arquivo `.gpg`
 
 Acessando a url gerada pelo transfer, ficou assim:
 
@@ -74,6 +74,7 @@ transfer(){
 	else
 		curl --upload-file "$1"
 		echo
+		exit 0
 	fi
 }
 {% endhighlight %}
