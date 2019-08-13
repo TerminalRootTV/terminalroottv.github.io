@@ -134,13 +134,14 @@ _get_package(){
 	[[ "$_lang" -eq 0 ]] && _c="${_l}/" || _c=""
 	wget -q "${_url}${_c}${_act}/" -O "${_o}"
 	_pack=$(egrep "${_act}${_dot}.*${_os}" "${_o}" | sed 's/.*=\"//g;s/\".*//g')
-	read -p "$(_msg "6")'$(echo $_pack | cut -d'/' -f 7)' $(_e 37 0)[$(_e 32 0)S$(_e 37 0)/$(_e 33 0)n$(_e 37 0)]: " -sn 1 _resp
+	read -p "$(_msg "6")'$(echo $_pack | cut -d'/' -f 7)' $(_e 37 0)[S/n]: " -sn 1 _resp
 	if [[ "$_resp" != "s" && "$_resp" != "S" ]]; then
 		_msg "9"
 		exit 0
 	fi
 	echo
 
+    setterm -cursor off
 	_msg "1"
 	echo -n $(_e 37 0)
 
@@ -148,7 +149,6 @@ _get_package(){
 	    
 	    
 	    #[[ ! $(grep 'Done' "$_tmp") ]] && wget -b "$_pack" | sed '/Continuando\|escrita/d';
-	    #[[ ! $(grep 'Done' "$_tmp") ]] && wget -b "http://192.168.1.200/tor-browser-linux64-8.5.4_pt-BR.tar.xz" | sed '/Continuando\|escrita/d';
 	    [[ ! $(grep 'Done' "$_tmp") ]] && wget -b "http://localhost/tor-browser-linux64-8.5.4_pt-BR.tar.xz" | sed '/Continuando\|escrita/d';
 	    
 	do
@@ -166,7 +166,7 @@ _unpack(){
 }
 
 _move(){
-	mv $(ls -d tor*/) $HOME/$_tor
+	mv $(ls -d tor-*/) $HOME/$_tor
 	[[ ! -d "$HOME/$_dir" ]] && mkdir -p "$HOME/$_dir"
 	mv "$HOME/$_tor/$_desk" "$HOME/$_dir"
 	sed -i "s@^$_x.*@$_x=$HOME/$_tor/$_tip/$_comm@" "$HOME/$_dir/$_desk"
@@ -192,7 +192,6 @@ _install(){
 		_msg "12"
 		exit 1
 	fi
-    setterm -cursor off
 	echo
 	echo "$(_e 33 0)${_cols[0]}$(_line)${_cols[1]}"
 	echo "${_cols[2]} $(_msg "13") $(_e 33 0)${_cols[2]}"
