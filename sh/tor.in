@@ -148,8 +148,8 @@ _get_package(){
 	while
 	    
 	    
-	    #[[ ! $(grep 'Done' "$_tmp") ]] && wget -b "$_pack" | sed '/Continuando\|escrita/d';
-	    [[ ! $(grep 'Done' "$_tmp") ]] && wget -b "http://localhost/tor-browser-linux64-8.5.4_pt-BR.tar.xz" | sed '/Continuando\|escrita/d';
+	    [[ ! $(grep 'Done' "$_tmp") ]] && wget -b "$_pack" | sed '/Continuando\|escrita/d';
+	    #[[ ! $(grep 'Done' "$_tmp") ]] && wget -b "http://localhost/tor-browser-linux64-8.5.4_pt-BR.tar.xz" | sed '/Continuando\|escrita/d';
 	    
 	do
 	    _progress;
