@@ -52,7 +52,7 @@ Para um maior entendimento e aprendizado, recomendamos você assistir ao nosso v
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-### Utilitários da Deep Web
+### Utilitários para Deep Web
 + [Guerrilla Mail](https://www.guerrillamail.com/)
 + [Enigma Mail](https://www.enigmail.net/home/index.php)
 + [Orbot](https://play.google.com/store/apps/details?id=org.torproject.android)
