@@ -8,7 +8,7 @@ main-class: 'bsd'
 tags:
 - bsd
 - freebsd
-- openbsd
+- privacidade
 ---
 
 ![Conheça o NomadBSD uma alternativa ao TailOS](/assets/img/bsd/nomadbsd.jpg)
