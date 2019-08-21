@@ -194,7 +194,7 @@ sudo pacman -S xterm # Arch Linux, Manjaro e similares
 sudo yum install xterm # Red Hat, CentOS, Fedora e similares
 {% endhighlight  %}
 
-#### Bônus - st
+> **Bônus - st**
 
 ![Simple Terminal st](/assets/img/terminal/st.png)
 
