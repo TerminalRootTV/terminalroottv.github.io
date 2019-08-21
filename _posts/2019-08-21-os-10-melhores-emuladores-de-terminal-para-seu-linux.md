@@ -52,6 +52,8 @@ sudo make install
 Consulte o GitHub dele para saber como utilizar e atalhos e teclas mágicas: 
 #### <https://github.com/thestinger/termite>
 
+***
+
 ### 9º Tmux
 
 O [tmux](https://github.com/tmux/tmux) é um software que serve para multiplexar vários terminais , permitindo que um usuário acesse várias sessões de terminal separadas dentro de uma única janela de terminal ou sessão de terminal remoto. É útil para lidar com vários programas. Existem alguns aplicativos similares como: GNU Screen, Byobu, Wemux, entre outros.
@@ -59,6 +61,8 @@ O [tmux](https://github.com/tmux/tmux) é um software que serve para multiplexar
 Aqui no blog já existe um artigo e um vídeo sobre o tmux, para saber como instalar e configurar acesse esse link: [Como Instalar E Utlizar O Tmux](https://terminalroot.com.br/2018/01/como-instalar-e-utlizar-o-tmux.html) . Ou Assista ao vídeo abaixo:
 
 <iframe width="1246" height="701" src="https://www.youtube.com/embed/Z7YcXTMMhEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+***
 
 ### 8ª Guake
 
@@ -71,6 +75,7 @@ Você pode instantaneamente mostrar e ocultar seu terminal com um único toque d
 A maioria das distribuições já possuem o Guake no repositório, mas se quiser instalar através do código fonte, acesse o github deles:
 <https://github.com/Guake/guake/>
 
+***
 
 ### 7º Deepin Terminal
 
@@ -92,6 +97,8 @@ Este é o terminal para o Deepin, mas você pode instalá-lo separadamente na su
 
 O endereço oficial do Deepin Terminal é: <https://github.com/linuxdeepin/deepin-terminal>
 
+***
+
 ### 6º Terminology
 
 ![Terminology](/assets/img/funtoo/terminology.png)
@@ -104,6 +111,8 @@ Terminology é um emulador de terminal para sistemas Linux/BSD/UNIX que usa a bi
 
 Endereço oficial do Terminology: <https://www.enlightenment.org/about-terminology.md>
 
+***
+
 ### 5º Hyper
 
 <iframe style="border:none;" src="https://hyper.is/static/hyperapp.mp4" width="550" height="400"></iframe>
@@ -111,6 +120,8 @@ Endereço oficial do Terminology: <https://www.enlightenment.org/about-terminolo
 [Hyper](https://hyper.is/) é uma proposta moderna para emuladores de terminais.
 
 Você pode instalá-lo via AppImage , ou seja, basta fazer download do arquivo dar permissão de execução e clicar duas vezes sobre o mesmo que ele irá rodar.
+
+***
 
 ### 4º LilyTerm
 
@@ -126,6 +137,8 @@ sudo apt install lilyterm # Debian, Ubuntu, Mint e derivados
 sudo pacman -S lilyterm # Arch Linux, Manjaro e derivados
 {% endhighlight  %}
 
+***
+
 ### 3º Rxvt
 
 ![Rxvt](/assets/img/terminal/Rxvt.png)
@@ -135,6 +148,8 @@ O [rxvt](http://rxvt.sourceforge.net/) é um dos mais eficientes quando o assunt
 Em diversos vídeos que nós criamos, usamos e configuramos o rxvt-unicode (como também pode ser chamado) , dentre eles, podemos citar esse da Instalação do Gentoo:
 
 <iframe width="1246" height="701" src="https://www.youtube.com/embed/tLDXUsSUEeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+***
 
 ### 2º Gnome Terminal
 
@@ -155,6 +170,8 @@ Em diversos vídeos que nós criamos, usamos e configuramos o rxvt-unicode (como
 É um emulador de terminal para o ambiente de área de trabalho [GNOME](https://terminalroot.com.br/.../como-customizar-a-aparencia-do-gnome.html) escrito por Havoc Pennington e outros. É muito completo e fácil de usar!
 
 Quando você instala o GNOME automáticamente o [Gnome Terminal](https://wiki.gnome.org/Apps/Terminal) já está disponível, mas se você estiver usando outro Desktop Environment , você pode instalá-lo separadamente através do repositório da sua distribuição, exemplo: `sudo apt install gnome-terminal` .
+
+***
 
 ### 1º Xterm
 
