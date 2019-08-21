@@ -101,7 +101,7 @@ O endereço oficial do Deepin Terminal é: <https://github.com/linuxdeepin/deepi
 
 ### 6º Terminology
 
-![Terminology](/assets/img/funtoo/terminology.png)
+![Terminology](/assets/img/terminal/terminology.png)
 
 Terminology é um emulador de terminal para sistemas Linux/BSD/UNIX que usa a biblioteca EFL. Ele faz parte do Desktop Environment Enlightenment o qual nós possuímos um vídeo detalhando essa interface e pode ser assistido através do vídeo abaixo: 
 
