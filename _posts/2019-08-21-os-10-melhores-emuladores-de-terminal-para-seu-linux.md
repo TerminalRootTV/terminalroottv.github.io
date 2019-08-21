@@ -202,7 +202,7 @@ E de bônus você também pode tentar o [**S**imple**T**erminal](https://st.suck
 
 ## Conclusão
 
-Como você notaram, existem diversas opções para usar o Terminal, fora os que não foram citados, porque eu nunca usei, ou achei que não era tão interessante assim. Independente da sua escolha, o importante mesmo é se adapatar ao terminal, porque a quantidade de coisas que você pode fazer no terminal está [anos-luz](https://www.youtube.com/watch?v=m226f2reF28) da interface gráfica. Sério!
+Como vocês notaram, existem diversas opções para usar o Terminal, fora os que não foram citados, porque eu nunca usei, ou achei que não era tão interessante assim. Independente da sua escolha, o importante mesmo é se adapatar ao terminal, porque a quantidade de coisas que você pode fazer no terminal está [anos-luz](https://www.youtube.com/watch?v=m226f2reF28) da interface gráfica. Sério!
 
 Espero que vocês tenham gostado do artigo e se puderem para ajudar, compartilhem nas suas redes sociais!
 
