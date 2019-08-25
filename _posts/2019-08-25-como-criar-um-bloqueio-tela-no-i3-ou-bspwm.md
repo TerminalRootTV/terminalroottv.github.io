@@ -118,6 +118,8 @@ Nesse caso o bloqueio será com essa imagem: <http://bit.ly/wallpapertr>
 
 Tudo pronto agora rode o comando: `lockscreen` e pra desbloquear use sua senha, não precisa pressionar ENTER antes, basta inserir a senha.
 
+Se o comando não rodar, feche a abra o terminal, ou rode o `source ~/.bashrc` novamente.
+
 ## Inserindo no seu i3 ou bspwm
 
 Edite seu `~/.config/i3/config` ou o seu `~/.config/sxhkd/sxhkdrc` e crie um comando de bloqueio, exemplos para o [bspwm](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=bspwm), `vim ~/.config/sxhkd/sxhkdrc`
