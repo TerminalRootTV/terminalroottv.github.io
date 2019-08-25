@@ -7,14 +7,9 @@ description: "ImageMagick é uma  poderosa ferramenta em modo texto para tratar 
 main-class: 'artigos'
 color: '#009688'
 tags:
-- Linux
-- Dicas
-- Imagens
-- Terminal
-- Comandos
-categories:
-twitter_text: "Tratamento de imagens com ImageMagick"
-introduction: "ImageMagick é uma  poderosa ferramenta em modo texto para tratar imagens em suas diversas  formas: converter, redimensionar, criar, editar, cortar, juntar, editar  cores e mais um bilhão de funcionalidades."
+- imagens
+- terminal
+- comandos
 ---
 
 ![ImageMagick](/assets/img/dicas/imagemagick.jpg)
