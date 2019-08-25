@@ -128,7 +128,7 @@ Edite seu `~/.config/i3/config` ou o seu `~/.config/sxhkd/sxhkdrc` e crie um com
 
 {% highlight bash %}
 super + x
-	lockscreen
+	notify-send "Bloqueando a Tela" && $HOME/.local/bin/lockscreen
 {% endhighlight  %}
 
 Reinicie o bspwm
