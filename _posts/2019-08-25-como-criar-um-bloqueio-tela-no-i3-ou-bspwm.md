@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como criar um Bloqueio Tela no i3 ou bspwm"
+title: "Como criar um Bloqueio de Tela no i3 ou bspwm"
 date: 2019-08-25 18:37:25
 image: '/assets/img/wm/lock.jpg'
 description: 'Existem diversos bloqueadores, mas nesse caso vamos utilizar um específico e bem conhecido pela galera.'
