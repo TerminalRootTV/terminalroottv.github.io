@@ -72,6 +72,7 @@ Agora vamos criar um comando dentro do novo local da *PATH* . Crie e abra um arq
 {% highlight bash %}
 #!/bin/sh
 
+# notify-send --expire-time=3000 --icon=changes-allow "Bloqueando a Tela" "LockScreen rodando"
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
 D='#f1f1f1cc'  # default
@@ -128,8 +129,12 @@ Edite seu `~/.config/i3/config` ou o seu `~/.config/sxhkd/sxhkdrc` e crie um com
 
 {% highlight bash %}
 super + x
-	notify-send "Bloqueando a Tela" && $HOME/.local/bin/lockscreen
+	$HOME/.local/bin/lockscreen
 {% endhighlight  %}
+
+> Se quiser descomente a linha do notify-send ( `notify-send --expire-time=3000 --icon=changes-allow "Bloqueando a Tela" "LockScreen rodando"` ), se você tiver o `dunst` instalado, para mais informações veja esse vídeo:
+
+### [Monitorando a Bateria do Notebook via Shell Script no i3, bspwm ou outros](https://youtu.be/WcO74IUDOqg)
 
 Reinicie o bspwm
 
