@@ -67,7 +67,7 @@ source ~/.bashrc
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Agora vamos criar um comando dentro do novo local da *PATH* . Crie e abra um arquivo com o nome `vim ~/.loca/bin/lockscreen` e insira esse conteúdo:
+Agora vamos criar um comando dentro do novo local da *PATH* . Crie e abra um arquivo com o nome `vim ~/.local/bin/lockscreen` e insira esse conteúdo:
 
 {% highlight bash %}
 #!/bin/sh
@@ -110,7 +110,7 @@ i3lock-color \
 --keylayout 2  2>/dev/null    \
 {% endhighlight  %}
 
-Customize o arquivo acima com as cores que deseja, mas note que as cores possuem 8 algarismos em vez de 6 para as cores Hexadecimais. Note que há um caminho da imagem e vamos precisar salvar uma imagem naquele diretório com o nome e extensão iguais. E dê permissão de execução: `chmod +x ~/.loca/bin/lockscreen`
+Customize o arquivo acima com as cores que deseja, mas note que as cores possuem 8 algarismos em vez de 6 para as cores Hexadecimais. Note que há um caminho da imagem e vamos precisar salvar uma imagem naquele diretório com o nome e extensão iguais. E dê permissão de execução: `chmod +x ~/.local/bin/lockscreen`
 
 > Se quiser que bloquei com a imagem de fundo que você está remova essa linha, ou até mesmo insira a imagem que deseja.
 
