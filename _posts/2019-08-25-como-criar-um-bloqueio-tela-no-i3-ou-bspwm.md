@@ -131,6 +131,16 @@ super + x
 	lockscreen
 {% endhighlight  %}
 
+Reinicie o bspwm
+
+Para o [i3](https://terminalroot.com.br/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html) insira/crie essa linha no `vim ~/.config/i3/config`
+
+{% highlight bash %}
+bindsym $mod+x exec lockscreen
+{% endhighlight  %}
+
+Reinicie o i3.
+
 O resultado será similar ou igual ao da imagem do início desse artigo. Fácil, né não ? Sugiro você conhecer outras alternativas e customizar suas opções se quiser que fique mais com sua cara!
 
 Se quiser customizar sua imagem com *blur* e/ou *dim* , você pode usar o [ImageMagick](https://terminalroot.com.br/2015/03/tratamento-de-imagens-com-imagemagick.html) ou o [GIMP](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=GIMP), exemplo para o ImageMagick:
