@@ -250,8 +250,6 @@ Mais inforções sobre [snap](https://tutorials.ubuntu.com/tutorial/basic-snap-u
 
 ## Links úteis
 
-### 
-
 +   [Docker Cheat Sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
 +   [Docker Get Started](https://docs.docker.com/get-started/)
 +   [Docker no Gentoo](https://wiki.gentoo.org/wiki/Docker)
