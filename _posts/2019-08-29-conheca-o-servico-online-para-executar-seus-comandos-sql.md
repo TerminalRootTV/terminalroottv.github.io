@@ -11,7 +11,7 @@ tags:
 - oracle
 ---
 
-[Conheça 7 Serviços OnLine para Executar seus Comandos SQL](/assets/img/mysql/sqlonline.jpg)
+![Conheça 7 Serviços OnLine para Executar seus Comandos SQL](/assets/img/mysql/sqlonline.jpg)
 
 Eu andei precisando de alguns serviços online para executar consultas [SQL](https://terminalroot.com.br/2011/10/curso-certificacao-linux-lpi-102.html) e que tivesse disponíveis diversos tipos de bancos de dados para notar as regas SGBD e também por motivos pessoais profissionais e separei alguns pra vocês caso precisem também.
 
