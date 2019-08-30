@@ -59,7 +59,7 @@ mysql>
 
 Para se utilizar, administrar, e trabalhar com um banco de dados é utilizada uma linguagem padrão, que a maior parte dosSGBD aceitam. Essa linguagem é a SQL (**S**tructured **Q**uery **L**anguage - Linguagem de Consulta Estruturada, em português) .
 
-### Exemplos de comandos SQL
+### Exemplo básico de comandos SQL
 
 O mais básico comando é gerar um [Hello, world!](https://en.wikipedia.org/wiki/"Hello,_World!"_program)
 ```sql
