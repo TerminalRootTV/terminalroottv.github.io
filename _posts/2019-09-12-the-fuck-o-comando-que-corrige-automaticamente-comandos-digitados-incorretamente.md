@@ -54,7 +54,7 @@ sudo emerge thefuck
 
 Use a ferramenta de pesquisa da sua distro!
 
-![emerge --search thefuck](emerge-search-thefuck.png)
+![emerge --search thefuck](/assets/img/comandos/emerge-search-thefuck.png)
 
 Mas caso não tenha, instale via o [GitHub do TheFuck](https://github.com/nvbn/thefuck).
 
