@@ -25,7 +25,7 @@ Supondo que você escreveu `aptget install vim` , e depois você digitar `fuck` 
 
 ![Exemplo de uso do comando fuck](https://raw.githubusercontent.com/nvbn/thefuck/master/example.gif)
 
-O comando `fuck` foi inspirado num [tweet](https://twitter.com/liamosaur/status/506975850596536320) que o usuário da conta fez um [meme](https://www.pngfind.com/pngs/m/27-276154_black-mirror-meme-face-png-download-transparent-png.png), veja o tweet abaixo:
+O comando `fuck` foi inspirado num [tweet](https://twitter.com/liamosaur/status/506975850596536320) que o usuário da conta fez um [meme](https://www.pngfind.com/pngs/m/27-276154_black-mirror-meme-face-png-download-transparent-png.png)...
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
