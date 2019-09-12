@@ -2,7 +2,7 @@
 layout: post
 title: "Comandos Úteis para seu Linux Parte 1"
 date: 2019-08-02 12:51:21
-image: '/assets/img/'
+image: '/assets/img/linux/comandos-uteis.jpg'
 description: 'Em algum momento de alguma entrevista ou exame de seleção, acontece de esquercemos essas coisas básicas.'
 main-class: 'linux'
 tags:
