@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Fuck, O Comando que CORRIGE Automáticamente Comandos Digitados Incorretamente"
+title: "The Fuck, O Comando que CORRIGE Comandos Digitados Incorretamente"
 date: 2019-09-12 12:15:37
 image: '/assets/img/comandos/thefuck.jpg'
 description: 'Linus Torvalds curtiu esse comando! =) '
