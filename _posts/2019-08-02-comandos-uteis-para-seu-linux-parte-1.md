@@ -11,7 +11,7 @@ tags:
 - terminal
 ---
 
-![Terminal Root , a raíz / do seu conhecimento em Linux](/assets/img/linux/comandos-uteis.jpg "Terminal Root , a raíz / do seu conhecimento em Linux")
+![Terminal Root , a raíz do seu conhecimento em Linux](/assets/img/linux/comandos-uteis.jpg "Terminal Root , a raíz / do seu conhecimento em Linux")
 
 
 Opa pessoal! Vamos criar alguns artigos de conhecimentos rápidos e simples (para não ficar cansativo) de coisas que muitas vezes já sabemos , mas em algum momento de alguma entrevista ou exame de seleção, acontece de dar um "*branco*" , e esses artigos simples costumam exercitar nossa mente para fixar e evitar esquecimentos . E sempre com comandos mais inteligentes que nos farão memorizar cada vez melhor. Vamos então a **5 Comandos Úteis para seu Linux** !!!
