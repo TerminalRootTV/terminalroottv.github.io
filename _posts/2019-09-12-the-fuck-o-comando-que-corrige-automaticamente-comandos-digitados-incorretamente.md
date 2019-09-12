@@ -39,7 +39,7 @@ O comando `fuck` foi inspirado num tweet que o usuário da conta fez um [meme](h
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<div class="text-center">
+<div class="text-center" style="text-align:center; margin:auto;">
   <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">Favourite thing in my .bashrc remains: <br>alias fuck=&#39;sudo $(history -p \!\!)&#39; <a href="http://t.co/gCRF9RLvHL">pic.twitter.com/gCRF9RLvHL</a></p>&mdash; Liam O 🦆 (@liamosaur) <a href="https://twitter.com/liamosaur/status/506975850596536320?ref_src=twsrc%5Etfw">3 de setembro de 2014</a></blockquote>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
