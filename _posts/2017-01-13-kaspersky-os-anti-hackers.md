@@ -9,6 +9,7 @@ color: '#34a853'
 tags:
 - noticias
 - hacker
+- sistema
 ---
 
 ![Hacker](/assets/img/hacker/hacker.jpg)

@@ -6,7 +6,9 @@ image: '/assets/img/distros/ubuntu-santanico.jpg'
 description: "Ubuntu Satanic Edition (SE) é uma distribuição Linux baseada no Ubuntu."
 main-class: 'misc'
 tags:
-- Ubuntu
+- ubuntu
+- psicopata
+- distro
 ---
 
 ![Conheça o Ubuntu Satânico](/assets/img/distros/ubuntu-santanico.jpg "Conheça o Ubuntu Satânico")
