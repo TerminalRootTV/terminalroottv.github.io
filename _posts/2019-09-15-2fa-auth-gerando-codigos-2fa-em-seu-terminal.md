@@ -13,7 +13,7 @@ tags:
 - 2factorauthenticator
 - authentication
 ---
-![2FA-Auth, script amigavel para gerar códigos/tokens 2FA no terminal](../assets/img/comandos/2fa-auth.jpg "Gerando códigos 2FA no seu terminal")
+![2FA-Auth, script amigavel para gerar códigos/tokens 2FA no terminal](/assets/img/comandos/2fa-auth.jpg "Gerando códigos 2FA no seu terminal")
 
 Quando se fala em autenticação, temos alguns meios de acessar um computador ou conta. Um deles é o tradicional método de credenciais (usuário e senha), além dos meios complementares de segurança, como a autenticação de dois fatores ("two-factor authentication" ou 2fa). Tal método gera tokens (códigos aleatórios de 6 dígitos) que permite ter uma segurança maior ao realizar um acesso em contas, serviços ou computadores. E esta postagem trata exatamente sobre este assunto: gerar tokens de autenticação de 2 fatores, porém usando seu terminal.
 
