@@ -5,7 +5,7 @@ date: 2019-09-16 19:48:10
 image: '/assets/img/apsantos/avatar.png'
 description: 'Artigo com o objetivo de compartilhar algumas ferramentas de uso diário, para o desenvolvimento de aplicações web e mobile.'
 author: 'APSantos Dev'
-image_author: '/assets/img/apsantosavatar.png'
+image_author: '/assets/img/apsantos/avatar.png'
 url_author: 'https://github.com/apsantos-dev/'
 tags:
 - development
