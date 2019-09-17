@@ -44,15 +44,15 @@ O desenvolvimento deste artigo foi realizado em ambiente [Linux][linux-ln], util
 
 > _Foi citado o Fedora 30, entretanto, as ferramentas estão disponíveis para outros sistemas também._
 
-```sh
+{% highlight bash %}
 lsb_release -a  # verificar detalhes do sistema
-```
+{% endhighlight %}
 
 Quando for necessário executar um comando como [root][root-ln], descreverei o conteúdo da seguinte forma. Exemplo:
 
-```sh
+{% highlight bash %}
 sudo dnf install xyz  # comando de exemplo
-```
+{% endhighlight %}
 
 Recomendo que você utilize o sistema operacional de sua escolha, adaptando este artigo de acordo com a necessidade.
 
