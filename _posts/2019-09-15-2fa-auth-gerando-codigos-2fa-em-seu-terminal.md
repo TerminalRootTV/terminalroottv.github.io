@@ -23,7 +23,7 @@ O projeto 2FA-Auth tem o seguinte objetivo: usar o terminal e facilitar a criaç
 
 Bom, você deve esta se perguntando: "Qual a função do 2FA-Auth?" O 2FA-Auth surgiu como um método fácil e amigável de se utilizar o OATHTOOL (gerador de token), além de ter outras funções (como pode ser visto na tela do menu principal).
 
-![Menu principal](../assets/img/comandos/2fa-auth-menu-principal.jpg "Menu principal do 2FA-Auth")
+![Menu principal](/assets/img/comandos/2fa-auth-menu-principal.jpg "Menu principal do 2FA-Auth")
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
