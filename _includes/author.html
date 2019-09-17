@@ -5,14 +5,27 @@
     	
     		<div class="col-sm-3"></div>
     		<div class="col-sm-2">
-    			<img class="rounded-circle img-thumbnail" src="/assets/img/about/author.jpg" alt="Marcos Oliveira" title="Marcos Oliveira" width="200" height="200">
+    		{% if page.image_author %}
+    			<img class="rounded-circle img-thumbnail" src="{{ page.image_author | escape }}" alt="{{ page.author | escape }}" title="{{ page.title }}" width="200" height="200">
+    		{% else %}
+    		  <img class="rounded-circle img-thumbnail" src="/assets/img/about/author.jpg" alt="Marcos Oliveira" title="Marcos Oliveira" width="200" height="200">
+    		{% endif %}
     		</div>
     		<div class="col-sm-6">
     			<h2>
     				<span style="font-size:20px;">Autor</span>
-    				<br>Marcos Oliveira
+    				{% if page.author %}
+    				  <br>{{ page.author | escape }}
+    				{% else %}
+    				  <br>Marcos Oliveira
+    				{% endif %}
     				<br><i style="font-size:13px;">Desenvolvedor de Software</i>
+    				
+    				{% if page.url_author %}
+    				<br><a style="font-weight:bold;color:#204a87;font-size:18px;" href="{{ page.url_author | escape }}">{{ page.url_author | escape }}</a>
+    				{% else %}
     				<br><a style="font-weight:bold;color:#204a87;font-size:18px;" href="https://www.youtube.com/TerminalRootTV?sub_confirmation=1">youtube.com/TerminalRootTV</a>
+    				{% endif %}
     			</h2>
     		</div>
     		<div class="col-sm-1"></div>
