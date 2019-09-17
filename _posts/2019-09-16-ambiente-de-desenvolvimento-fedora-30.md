@@ -56,8 +56,8 @@ sudo dnf install xyz  # comando de exemplo
 
 Recomendo que você utilize o sistema operacional de sua escolha, adaptando este artigo de acordo com a necessidade.
 
-> Adicional | Editor:
->
+### Adicional | Editor:
+
 > [VSCode][vscode-ln]: Visual Studio Code é um editor de código-fonte leve, mas poderoso. \o/
 
 ### Instalação dos programas
