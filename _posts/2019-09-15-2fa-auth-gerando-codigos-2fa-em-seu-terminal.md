@@ -3,17 +3,13 @@ layout: post
 title: "2FA-Auth - Gerando códigos 2FA em seu terminal"
 date: 2019-09-15 13:28:08
 image: '/assets/img/comandos/2fa-auth.jpg'
-description: Gerando códigos/token 2FA no terminal do GNU/Linux
-author: "Vinicius de Alencar"
+description: 'Gerando códigos/token 2FA no terminal do GNU/Linux'
+author: 'Vinicius de Alencar'
 image_author: '/assets/img/comandos/vinicius-de-alencar_alencc1986.jpg'
 url_author: https://github.com/alencc1986/
 main-class: shell
 tags:
-- script
-- shell
 - shellscript
-- twofactorauthenticator
-- 2fa
 - 2factorauthenticator
 - authentication
 ---
