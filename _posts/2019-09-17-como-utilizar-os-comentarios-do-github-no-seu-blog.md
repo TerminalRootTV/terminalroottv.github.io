@@ -41,7 +41,7 @@ Ainda tem direto à reações
 
 ![Imagem reações](https://github.blog/wp-content/uploads/2016/03/d55b8b7e-e6ba-11e5-9b31-59a8db92e456.gif?resize=917%2C359)
 
-E também comentar com **Emojis do GitHub** , tem: Pinguin, LOL, Octocat do GitHub e todos os que você já conhece e muito mais, veja um exemplo na imagem abaixo e [clique aqui para ver a lista completa](https://gist.github.com/rxaviers/7360908):
+E também comentar com **Emojis do GitHub** , tem: Pinguin, Trollface, Octocat do GitHub e todos os que você já conhece e muito mais, veja um exemplo na imagem abaixo e [clique aqui para ver a lista completa](https://gist.github.com/rxaviers/7360908):
 
 ![Emojis GitHub](/assets/img/gitgithub/emojis-github.png)
 
