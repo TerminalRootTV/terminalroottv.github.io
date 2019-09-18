@@ -43,7 +43,9 @@ Ainda tem direto à reações
 
 E também comentar com **Emojis do GitHub** , tem: Pinguin, LOL, Octocat do GitHub e todos os que você já conhece e muito mais, veja a lista abaixo:
 
+<div class="github-script">
 <script src="https://gist.github.com/rxaviers/7360908.js"></script>
+</div>
 
 Não é muito daora !!!
 
