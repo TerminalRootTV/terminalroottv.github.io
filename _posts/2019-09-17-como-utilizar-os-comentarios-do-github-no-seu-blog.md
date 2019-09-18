@@ -33,7 +33,7 @@ O [utteranc.es/](https://utteranc.es/) é um widget de comentários leve e desen
 
 + Código aberto ( [Open Source](https://github.com/utterance) ). 🙌
 + Sem rastreamento, sem anúncios, sempre grátis. 📡🚫
-+ Sem bloqueio. Todos os dados armazenados nos problemas do GitHub. 🔓
++ Sem bloqueio. Todos os dados armazenados nos issues do GitHub. 🔓
 + Alternativa ao uso de tema escuro. 🌘
 + Leve. Vanilla TypeScript. Não há downloads de fontes e estruturas JavaScript . 🐦🌲
 
