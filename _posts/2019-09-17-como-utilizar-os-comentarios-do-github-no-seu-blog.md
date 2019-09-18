@@ -103,4 +103,7 @@ Quando alguém for comentar, além de estar logado no [GitHub](https://github.co
 
 Comenta aí (com os comments do GitHub, 😜 ) que a gente vai tentar lhe ajudar. Mas se der certo não custa nada você comentar também e dizer o que achou! 🤭
 . Abraços e até a pŕoxima !!!
-    
+
+<style>
+#post-page img {border: 2px solid silver; border-radius: 10px;}
+</style>
