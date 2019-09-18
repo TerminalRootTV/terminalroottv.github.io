@@ -104,6 +104,18 @@ Quando alguém for comentar, além de estar logado no [GitHub](https://github.co
 Comenta aí (com os comments do GitHub, 😜 ) que a gente vai tentar lhe ajudar. Mas se der certo não custa nada você comentar também e dizer o que achou! 🤭
 . Abraços e até a pŕoxima !!!
 
+## Outras alternativas e links úteis
+
++ <https://utteranc.es/>
++ <http://www.instacomment.com/>
++ <https://github.com/sylque/docuss>
++ <https://github.com/damieng/jekyll-blog-comments>
++ <https://github.com/apps/utterances>
++ <https://pt.wikiversity.org/wiki/Automatizando_a_instala%C3%A7%C3%A3o_(deploy)_e_atualiza%C3%A7%C3%A3o_de_sites_com_Git.>
++ <https://danyow.net/using-github-issues-for-blog-comments/>
++ <https://darekkay.com/blog/static-site-comments/>
++ <https://gist.github.com/rxaviers/7360908>
+
 <style>
 #post-page img {border-top: 2px solid silver; border-bottom: 2px solid silver;}
 </style>
