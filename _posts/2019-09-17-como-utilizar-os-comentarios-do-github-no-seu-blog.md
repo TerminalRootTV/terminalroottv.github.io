@@ -105,5 +105,5 @@ Comenta aí (com os comments do GitHub, 😜 ) que a gente vai tentar lhe ajudar
 . Abraços e até a pŕoxima !!!
 
 <style>
-#post-page img {border: 2px solid silver; border-radius: 10px;}
+#post-page img {border: 2px solid silver; border-radius: 2px;}
 </style>
