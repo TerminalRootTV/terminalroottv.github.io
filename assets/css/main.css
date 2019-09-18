@@ -17,7 +17,7 @@
 		
 }
 
-#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe, #page-only div.github-script {
+#page-only h1, #page-only h2, #page-only h3, #page-only h4, #page-only h5, #page-only h6, #page-only p, #page-only pre > code, #page-only > a, #page-only > iframe {
 
 	max-width: 60rem;
 	display: block;
