@@ -11,7 +11,7 @@ tags:
 - dicas
 ---
 
-[Como Inserir Facilmente os Comentários do GitHub no seu Blog](/assets/img/gitgithub/comentarios-com-github.jpg "Como Inserir Facilmente os Comentários do GitHub no seu Blog")
+![Como Inserir Facilmente os Comentários do GitHub no seu Blog](/assets/img/gitgithub/comentarios-com-github.jpg "Como Inserir Facilmente os Comentários do GitHub no seu Blog")
 
 Eu sempre tive uma *birra* com comentários aqui no [blog](https://terminalroot.com.br/2016/11/blog-linux-novo-blog-github-jekyll.html) , no início eu utilizava o comentários do [Facebook](https://developers.facebook.com/docs/plugins/comments/) , mas achava meio estranho até porque nem todo mundo tem uma conta no *Facebook* e esse blog é um blog técnico em linhas finais.
 
