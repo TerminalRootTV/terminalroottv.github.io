@@ -17,7 +17,7 @@ Eu sempre tive uma *birra* com comentários aqui no [blog](https://terminalroot.
 
 Então eu mudei pro [Disqus](https://disqus.com/by/terminalroot/) , no início até tava legal , mas depois começou a ficar ruim porque eles passaram a inserir propagandas (nada mais justo se tratando de um serviço gratuito, a versão paga não exibe anúncios) . 
 
-Ainda sim continuei porque antigamente o blog não era *monetizado* , mas como eu passei também a exibir anúncios ficou bizarro, pois o número de blocos publicitários ficou muito cheio, ficou até parecendo o site do [UOL](), propgandas por todos os cantos! 😀
+Ainda sim continuei porque antigamente o blog não era *monetizado* , mas como eu passei também a exibir anúncios ficou bizarro, pois o número de blocos publicitários ficou muito cheio, ficou até parecendo o site do [UOL](), propagandas por todos os cantos! 😀
 
 Decidi voltar pro ~~Facebook~~ , mas quase ninguém estava usando o recurso, então veio algumas ideias na cabeça e pensei,💡 tcharaaamm! [GitHub](https://github.com/) !!! Ainda pensei em outras alternativas (veja final do artigo para ver as outras alternativas) , mas com certeza o mais ideal é do GitHub , pois esse é um blog de **Desenvolvedores** :
 
@@ -89,7 +89,7 @@ Após preencher o código será gerado automáticamente(não botão de confirmar
 
 ![Código para colar](/assets/img/gitgithub/05-code.png)
 
-Se você ainda pode customizar com escolha do: Tema, Issue Label e Issue Mapping como há antes desse campo de exibição do campo, mas se não souber escolher e/ou não quiser, pode deixar como *default/padrão* que irá funfar assim mesmo 😎 !
+E você ainda pode customizar com escolha do: Tema, Issue Label e Issue Mapping como há antes desse campo de exibição do campo, mas se não souber escolher e/ou não quiser, pode deixar como *default/padrão* que irá funfar assim mesmo 😎 !
 
 Pronto!
 
