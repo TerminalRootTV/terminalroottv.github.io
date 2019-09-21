@@ -2,17 +2,16 @@
 layout: post
 title: "Olá Mundo em 9 linguagens de programação"
 date: '2016-10-30T09:52:00.000-07:00'
-image: 'https://4.bp.blogspot.com/-BrpZbq1zzuQ/WBVyREsKcbI/AAAAAAAAA6A/vy-nkleh0d8wu3pB2NGNFHg0xtMZ7YUeQCLcB/s72-c/blog-linux-linguagens.jpg'
+image: '/assets/img/c/blog-linux-linguagens.jpg'
 description: "Olá Mundo em 9 linguagens de programação"
 main-class: 'dev'
-color: '#c2003a'
 tags:
 - linguagem
 - desenvolvimento
 - web
 ---
 
-![Blog Linux](https://4.bp.blogspot.com/-BrpZbq1zzuQ/WBVyREsKcbI/AAAAAAAAA6A/vy-nkleh0d8wu3pB2NGNFHg0xtMZ7YUeQCLcB/s320/blog-linux-linguagens.jpg) 
+![Olá Mundo em 9 linguagens de programação](/assets/img/c/blog-linux-linguagens.jpg) 
 
 > O "Olá Mundo" ou "Alô Mundo" é um famoso programa de computador que imprime "Olá, Mundo!" (ou "Hello, World!"), usualmente seguido de uma quebra de linha, com algumas variações como inexistência do ponto de exclamação e letras em minúscula, no dispositivo de saída. É utilizado como um teste ou como um exemplo de código minimalista de uma linguagem de programação. Separamos o "Olá, Mundo!" em 9 linguagens mais usadas e admiradas . Confira abaixo.
 
