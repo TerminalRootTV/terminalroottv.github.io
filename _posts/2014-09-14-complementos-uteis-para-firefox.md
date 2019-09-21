@@ -8,7 +8,7 @@ main-class: 'web'
 tags:
 - firefox
 - web
-- dicas
+- complementos
 ---
 
 ![16 Complementos úteis para Firefox](/assets/img/firefox/firefox.jpg)
