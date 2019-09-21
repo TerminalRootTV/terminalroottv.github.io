@@ -118,7 +118,7 @@ git pull origin master
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Para cada comando :trollface: , se você não entendeu bem, recomendo você dar uma olhada por cima no manual, por exemplo: `man git remote` .
+Para cada comando , se você não entendeu bem, recomendo você dar uma olhada por cima no manual, por exemplo: `man git remote` .
 
 Se você acha muito processo rodar todos esse comandos, você pode usar um script em Shell, como eu havia dito para ficar automático e rodar somente um comando, veja o script clicando no link abaixo:
 
