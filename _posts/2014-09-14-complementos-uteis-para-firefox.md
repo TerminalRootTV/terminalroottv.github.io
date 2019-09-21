@@ -71,10 +71,10 @@ tags:
 
 ***
 
-## 9. Adblock Plus
-> Chateado com as propagandas? Incomodado com o rastreamento? Irritado com os banners? Instale agora o Adblock Plus para recuperar o controle da internet e mudar a maneira como você vê a web. O Adblock Plus permite que você recupere o controle da internet e veja a web do jeito que você quer.
+## 9. Markdown Viewer Webext
+> Exibe documentos Markdown em seu navegador.
 
-✈ [Adblock Plus](https://addons.mozilla.org/pt-br/firefox/addon/adblock-plus/)
+✈ [Markdown Viewer Webext](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/)
 
 ***
 
