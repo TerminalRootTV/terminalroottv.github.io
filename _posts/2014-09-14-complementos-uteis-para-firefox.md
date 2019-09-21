@@ -15,105 +15,105 @@ tags:
 
 ***
 
-##1. FasterFox
+## 1. FasterFox
 > Navegue com mais velocidade, faça seus downloads e uploads mais rápido! Assista youtube com Fasterfox de maneira mais rápida!
 
 ✈ [FasterFox](https://addons.mozilla.org/pt-BR/firefox/addon/rsccmanfasterfox/)
 
 ***
 
-##2. YouTube ALL HTML5
+## 2. YouTube ALL HTML5
 > Carregar vídeos do Youtube em HTML5
 
 ✈ [YouTube ALL HTML5](https://addons.mozilla.org/en-US/firefox/addon/youtube-all-html5/)
 
 ***
 
-##3. Open Link in Silent Tab
+## 3. Open Link in Silent Tab
 > Você abre um vídeo no YouTube em uma nova aba, continua navegando em sua aba atual e, de repente, ouve o som do vídeo tocando sozinho ao fundo: irritante! O "Open Link Silent Tab" faz com que o navegador pause o carregamento de novas páginas até que você mude para a aba em questão.
 
 ✈ [Open Link in Silent Tab](https://addons.mozilla.org/pt-br/firefox/addon/open-link-in-silent-tab/)
 
 ***
 
-##4. Fox Web Security
+## 4. Fox Web Security
 > É um plugin para Firefox ideal para pais que pretendem bloquear conteúdos adultos em computadores utilizados por crianças. Além do conteúdo, a extensão também alerta sobre acessos em sites com conteúdo malicioso e pode ajudar quem usa o PC em ambientes corporativos.
 
 ✈ [Fox Web Security](https://addons.mozilla.org/pt-br/firefox/addon/fox-web-security/)
 
 ***
 
-##5. Google Translator for Firefox
+## 5. Google Translator for Firefox
 > Com esta extensão você pode traduzir qualquer texto para seu próprio idioma com um clique ou tecla de atalho. Você pode traduzir o texto selecionado (substituindo-o pelo texto traduzido) ou você pode traduzir a página inteira também.
 
 ✈ [Google Translator for Firefox](https://addons.mozilla.org/pt-br/firefox/addon/google-translator-for-firefox/)
 
 ***
 
-##6. Disconnect for Facebook
+## 6. Disconnect for Facebook
 > É uma extensão que visa tornar a sua navegação dentro do Facebook mais segura, bloqueando sites de terceiros de obter suas informações.
 
 ✈ [Disconnect for Facebook](https://addons.mozilla.org/pt-BR/firefox/addon/facebook-disconnect/)
 
 ***
 
-##7. Password Exporter
+## 7. Password Exporter
 > Esta extensão permite exportar suas senhas salvas e login usando XML ou CSV arquivos que podem ser importados mais tarde.
 
 ✈ [Password Exporter](https://addons.mozilla.org/pt-PT/firefox/addon/password-exporter/)
 
 ***
 
-##8. Desprotetor de Links
+## 8. Desprotetor de Links
 > Seja redirecionado diretamente para a página de download, burlando protetores de link. Esta extensão burla os famosos protetores de links (páginas que solicitam que o usuário se cadastre em um serviço pago, normalmente relacionado à celulares).
 
 ✈ [Desprotetor de Links](https://addons.mozilla.org/pt-br/firefox/addon/guerapa-desprotetor-de-link/)
 
 ***
 
-##9. Adblock Plus
+## 9. Adblock Plus
 > Chateado com as propagandas? Incomodado com o rastreamento? Irritado com os banners? Instale agora o Adblock Plus para recuperar o controle da internet e mudar a maneira como você vê a web. O Adblock Plus permite que você recupere o controle da internet e veja a web do jeito que você quer.
 
 ✈ [Adblock Plus](https://addons.mozilla.org/pt-br/firefox/addon/adblock-plus/)
 
 ***
 
-##10. PDF Viewer
+## 10. PDF Viewer
 > PDFViewer lê Portable Document Format (PDF) no seu navegador usando tecnologias padrão da web.
 
 ✈ [PDF Viewer](https://addons.mozilla.org/pt-br/firefox/addon/pdfjs/)
 
 ***
 
-##11. User Agent Switcher
+## 11. User Agent Switcher
 > A extensão User Agent Switcher adiciona um menu e um botão de barra de ferramentas para alterar o USER AGENT do navegador.Excelente para testar sites como se tivesse acessando de um outro navegador e/ou Sistema Operacional, especialmente Telefones Celulares/Smartphones.
 
 ✈ [User Agent Switcher](https://addons.mozilla.org/pt-br/firefox/addon/user-agent-switcher/)
 
 ***
 
-##12. View Cookies
+## 12. View Cookies
 > Ele adiciona um guia para a caixa de diálogo, que mostra os cookies que pertencem à página atual.
 
 ✈ [View Cookies](https://addons.mozilla.org/pt-br/firefox/addon/view-cookies/)
 
 ***
 
-##13. Web Developer
+## 13. Web Developer
 > A extensão Web Developer adiciona diversas ferramentas de desenvolvimento web para o navegador.
 
 ✈ [Web Developer](https://addons.mozilla.org/pt-br/firefox/addon/web-developer/)
 
 ***
 
-##14. Video DownloadHelper
+## 14. Video DownloadHelper
 > O jeito fácil de fazer download de vídeos na Web de centenas de sites tipo YouTube. Este funciona também para sites com galerias de audio e imagens. Por exemplo, se você for na página do YouTube, você poderá fazer download direto para seu disco. Funciona também com MySpace, Google videos, DailyMotion, Porklt, iFilm, DreamHost, MetaCafe e outros.
 
 ✈ [Video DownloadHelper](https://addons.mozilla.org/pt-br/firefox/addon/video-downloadhelper/)
 
 ***
 
-##15. anonymoX
+## 15. anonymoX
 > Navegue facilmente na Web de forma anônima.
 
   - Altere seu endereço IP e país
@@ -125,14 +125,14 @@ tags:
 
 ***
 
-##16. DuckDuckGo Plus
+## 16. DuckDuckGo Plus
 > DuckDuckGo é um motor de busca que não te rastreia. Adiciona DuckDuckGo como a barra de endereço padrão, barra de pesquisa e clique-direito motor de busca. Adiciona um botão da barra de ferramentas à mão para facilitar o acesso às marcas! Bang. Adiciona DuckDuckGo respostas instantâneas a Google/Yahoo!
 
 ✈ [DuckDuckGo Plus](https://addons.mozilla.org/pt-br/firefox/addon/duckduckgo-for-firefox/)
 
 ***
 
-## [+ Extensões para Firefox](https://addons.mozilla.org/pt-BR/firefox/extensions/)
+##  [+ Extensões para Firefox](https://addons.mozilla.org/pt-BR/firefox/extensions/)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
