@@ -124,7 +124,7 @@ Se você acha muito processo rodar todos esse comandos, você pode usar um scrip
 
 ### [📁 git.dir.sh](https://gist.github.com/TerminalRootTV/9e6edc6cae411e57eceb1a83831b558b)
 
-Se quiser que vire um comando para usar em qualquer diretório que você estiver, `:floppy_disk:` salve com o nome: `git-dir` (ou o nome que você deseja) e mova pra onde desejar, exemplo:
+Se quiser que vire um comando para usar em qualquer diretório que você estiver, salve com o nome: `git-dir` (ou o nome que você deseja) e mova pra onde desejar, exemplo:
 
 {% highlight bash %}
 sudo mv git-dir /usr/local/bin/git-dir
