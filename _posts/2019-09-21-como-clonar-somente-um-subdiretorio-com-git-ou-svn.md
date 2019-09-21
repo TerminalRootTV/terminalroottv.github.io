@@ -222,8 +222,9 @@ Se pode notar quando usar o Git pra isso, esse *clone* , apesar de ser de um sub
 
 A diferença do SVN para o Git, na minha opinião, se resume nessas duas imagens abaixo, ou seja, não existe melhor e nem pior, existe aquele que atende suas necessidades específica para cada caso.
 
-[Git](https://wac-cdn.atlassian.com/dam/jcr:e5228129-76b1-4b2c-8f10-af789f2ea6c0/03.svg?cdnVersion=581)
-[SVN](https://wac-cdn.atlassian.com/dam/jcr:5d68ce55-59a7-4840-a896-eb2014a9f17b/02.svg?cdnVersion=581)
+![Git](/assets/img/git/01-git.svg)
+![SVN](/assets/img/git/02-svn.svg)
+
 
 O Apache Subversion (também conhecido por SVN) é um sistema de controle de versão desenhado especificamente para ser um substituto moderno do CVS, que se considera ter algumas limitações. O Subversion utiliza banco de dados Berkeley BD. 
 
