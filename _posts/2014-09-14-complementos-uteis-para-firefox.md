@@ -9,7 +9,9 @@ tags:
 - Firefox
 ---
 
-__Eram 10 agora são 16 !!!__
+![16 Complementos úteis para Firefox](/assets/img/firefox/firefox.jpg)
+
+# Veja a lista abaixo!
 
 ***
 

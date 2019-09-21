@@ -13,7 +13,6 @@ tags:
 
 ![Como Clonar Somente um Subdiretório com Git ou SVN](/assets/img/git/git-clone-min.jpg)
 
-
 Nessa dica vou mostar algo que parece simples (no Git), mas é bem complicadinho! =) Pois, na verdade, eu criei um script [Shell Script](https://terminalroot.com.br/shell) que você pode rodar como comando na sua `$PATH` .
 
 Também vou disponibilizar uma solução mais , mas não do [Git](https://terminalroot.com.br/git) e sim do [SVN](https://subversion.apache.org/) , que pra ser sincero, nem precisaria de uma função Shell, mas pra ficar ainda mais fácil também vou mostrar.
