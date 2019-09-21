@@ -15,7 +15,7 @@ tags:
 
 Nessa dica vou mostar algo que parece simples (no Git), mas é bem complicadinho! =) Pois, na verdade, eu criei um script [Shell Script](https://terminalroot.com.br/shell) que você pode rodar como comando na sua `$PATH` .
 
-Também vou disponibilizar uma solução mais , mas não do [Git](https://terminalroot.com.br/git) e sim do [SVN](https://subversion.apache.org/) , que pra ser sincero, nem precisaria de uma função Shell, mas pra ficar ainda mais fácil também vou mostrar.
+Também vou disponibilizar uma solução a mais , mas não do [Git](https://terminalroot.com.br/git) e sim do [SVN](https://subversion.apache.org/) , que pra ser sincero, nem precisaria de uma função Shell, mas pra ficar ainda mais fácil também vou mostrar.
 
 Pra você entender esse artigo você deve possuir conhecimentos básicos de [Git](https://git-scm.com/) e [GitHub](https://github.com/) ou qualquer outro repositório Git.
 
@@ -81,7 +81,7 @@ E é bem inconveniente você clonar todo o repositório (que por sinal é bem gr
 
 Até a versão **2.18** do Git isso não era possível, mas a partir da versão **2.19** já é possível, logo verifique a versão do seu Git antes de prosseguir, use o comando `git --version` para saber a versão. Se for igual ou maior de **2.19** é possível clonar somente um diretório específico.
 
-Para clonar esse diretório (*files*, dentro do repositório) vamos usar os seguintes comandos, exxlpicação nos comentários (**#**):
+Para clonar esse diretório (*files*, dentro do repositório) vamos usar os seguintes comandos, explicação nos comentários (**#**):
 
 {% highlight bash %}
 # Criar um diretório, para o Git não ficar bagunçado, e entrar no mesmo 
@@ -218,9 +218,9 @@ E pra usar basta rodar `git-dir` em qualquer lugar que você estiver que o mesmo
 
 ## Alternativa - Usando o SVN
 
-Pode-se notar que quando usamos o Git pra isso, esse *clone* , apesar de ser de um subdiretório , ainda assim vai ser muito lento. Para isso existe uam solução *bem mais rápida* que é o usando o [SVN]() que é uma alternativa ao Git da [Apache Software Foundation](https://pt.wikipedia.org/wiki/Apache_Software_Foundation) .
+Pode-se notar que quando usamos o Git pra isso, esse *clone* , apesar de ser de um subdiretório , ainda assim vai ser muito lento. Para isso existe uma solução *bem mais rápida* que é o usando o [SVN]() que é uma alternativa ao Git da [Apache Software Foundation](https://pt.wikipedia.org/wiki/Apache_Software_Foundation) .
 
-A diferença do SVN para o Git, na minha opinião, se resume nessas duas imagens abaixo, ou seja, não existe melhor e nem pior, existe aquele que atende suas necessidades específica para cada caso.
+A diferença do SVN para o Git, na minha opinião, se resume nessas duas imagens abaixo, ou seja, não existe melhor e nem pior, existe aquele que atende suas necessidades específicas para cada caso.
 
 ![Git](/assets/img/git/01-git.svg)
 ![SVN](/assets/img/git/02-svn.svg)
@@ -238,7 +238,7 @@ sudo yum install subversion # Red Hat, CentOS e YUM baseds
 sudo dnf install subversion # Fedora
 {% endhighlight %}
 
-E pra clonar basta usar o parâmetro `export` com o *fake-dir*: `trunk` entre o repositório e o subdiretório, exemplo:
+E pra clonar basta usar o parâmetro `export` com o *fake-dir* : `trunk` entre o repositório e o subdiretório, exemplo:
 
 {% highlight bash %}
 svn export [repository]/trunk/[subdirectory]
