@@ -6,7 +6,9 @@ image: '/assets/img/firefox/firefox.jpg'
 description: "Veja uma lista selecionada de complementos para o Firefox."
 main-class: 'web'
 tags:
-- Firefox
+- firefox
+- web
+- dicas
 ---
 
 ![16 Complementos úteis para Firefox](/assets/img/firefox/firefox.jpg)

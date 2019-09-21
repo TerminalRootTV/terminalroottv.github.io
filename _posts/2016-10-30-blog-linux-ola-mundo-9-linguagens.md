@@ -7,19 +7,9 @@ description: "Olá Mundo em 9 linguagens de programação"
 main-class: 'dev'
 color: '#c2003a'
 tags:
-- Bash
-- JavaScript
-- C++
-- Linguagens
-- MySQL
-- Python
-- Gambas
-- Lua
-- PHP
-- Linguagem C
-categories:
-twitter_text: "Olá Mundo em 9 linguagens de programação"
-introduction: "Olá Mundo em 9 linguagens de programação"
+- linguagem
+- desenvolvimento
+- web
 ---
 
 ![Blog Linux](https://4.bp.blogspot.com/-BrpZbq1zzuQ/WBVyREsKcbI/AAAAAAAAA6A/vy-nkleh0d8wu3pB2NGNFHg0xtMZ7YUeQCLcB/s320/blog-linux-linguagens.jpg) 

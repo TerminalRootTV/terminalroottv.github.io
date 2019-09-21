@@ -7,8 +7,8 @@ description: 'qutebrowser é um navegador da Web com associações de teclas no 
 main-class: 'linux'
 tags:
 - qutebrowser
-- Firefox
-- Web
+- firefox
+- web
 ---
 
 ![qutebrowser - Um Navegador estilo Vim , Muito Veloz!](/assets/img/dicas/qutebrowser.jpg)
