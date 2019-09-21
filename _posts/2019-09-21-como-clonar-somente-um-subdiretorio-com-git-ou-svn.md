@@ -218,7 +218,7 @@ E pra usar basta rodar `git-dir` em qualquer lugar que você estiver que o mesmo
 
 ## Alternativa - Usando o SVN
 
-Se pode notar quando usar o Git pra isso, esse *clone* , apesar de ser de um subdiretório , ainda assim vai ser muito lento. Para isso existe uam solução *bem mais rápida* que é o usando o [SVN]() que é uma alternativa ao Git da [Apache Software Foundation](https://pt.wikipedia.org/wiki/Apache_Software_Foundation) .
+Pode-se notar que quando usamos o Git pra isso, esse *clone* , apesar de ser de um subdiretório , ainda assim vai ser muito lento. Para isso existe uam solução *bem mais rápida* que é o usando o [SVN]() que é uma alternativa ao Git da [Apache Software Foundation](https://pt.wikipedia.org/wiki/Apache_Software_Foundation) .
 
 A diferença do SVN para o Git, na minha opinião, se resume nessas duas imagens abaixo, ou seja, não existe melhor e nem pior, existe aquele que atende suas necessidades específica para cada caso.
 
