@@ -80,7 +80,8 @@ No meu caso, só escolhi o repositório que contém o blog criado , pois é just
 
 ### 2º Passo
 
-Na página do [utteranc.es](https://utteranc.es) procure o campo que pede pra você informar um repositório e o dono(conta) do GitHub e insira **NOME_DA_SUA_CONTA**/**NOME_DO_REPOSITÒRIO** , conforme imagem abaixo.
+Na página do [utteranc.es](https://utteranc.es) procure o campo que pede pra você informar um repositório e o dono(conta) do GitHub e insira:
+**NOME_DA_SUA_CONTA**/**NOME_DO_REPOSITÒRIO** , conforme imagem abaixo.
 
 ![Imagem repositório](/assets/img/gitgithub/04-repositories.png)
 
