@@ -22,7 +22,7 @@ Para instalar no FreeBSD, via [pkg](https://www.freebsd.org/doc/pt_BR/books/hand
 {% highlight bash %}
 pkg update && pkg -f upgrade
 pkg install xorg i3 dbus hal
-{% endhighlight  %}
+{% endhighlight %}
 
 > Se quiser mais velocidade no download, adicione um mirror do Brasil [Clique aque nesse link](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html#mirrors-br-ftp) . Edite o arquivo: `vim /etc/pkg/FreeBSD.conf` e as configurações em `/usr/local/etc/pkg.conf` .
 
@@ -37,7 +37,7 @@ echo -e 'setxkbmap -layout br -variant abnt2\nexec i3' > ~/.xinitrc
 reboot
 startx
 i3-msg exit # para sair
-{% endhighlight  %}
+{% endhighlight %}
 
 Agora vamos editar o arquivo `ee /etc/rc.conf` e adicionar as linhas abaixo:
 
@@ -47,7 +47,7 @@ Agora vamos editar o arquivo `ee /etc/rc.conf` e adicionar as linhas abaixo:
 moused_enable="YES"
 dbus_enable="YES"
 hald_enable="YES
-{% endhighlight  %}
+{% endhighlight %}
 
 Depois disso, recomendo você reiniciar ,`reboot`, (apesar de já funcionar) , pra na inicialização carregar alguns *daemons*, e após reiniciar e logar, basta rodar o comando `startx` , para sair do i3 abra o terminal (SUPER+enter) e rode o comando `i3-msg exit`
 
@@ -73,7 +73,7 @@ Se você estiver num sistema 32-bit (i386) , e/ou possuir uma placa de vídeo Ra
 
 {% highlight bash %}
 X :0 -configure
-{% endhighlight  %}
+{% endhighlight %}
 
 Será gerado um arquivo exemplo: `xorg.conf.new` no diretório raíz do usuário *root*: `/root/xorg.conf.new` e depois é só copiá-lo para o diretório para configuração do Xorg: `cp /root/xorg.conf.new /usr/local/etc/X11/xorg.conf` , veja esse tópico da documentação: [Configuração do Xorg no FreeBSD](https://www.freebsd.org/doc/pt_BR/books/handbook/x-config.html#x-config-manual-configuration) .
 
@@ -87,7 +87,7 @@ Primeiramente vamos instalar todos os softwares necessários para essa façanha,
 
 {% highlight bash %}
 pkg install bash bash-completion bat feh fish font-awesome git gotop neofetch perl5 pgpgpg qutebrowser rofi dmenu rxvt-unicode sudo texinfo vim subversion virtualbox-ose-additions
-{% endhighlight  %}
+{% endhighlight %}
 
 Vamos analisar cada um dos softwares:
 
@@ -149,7 +149,7 @@ mv fonts/ ~/.local/share/
 fc-cache -fv
 curl -L https://get.oh-my.fish | fish
 omf theme install yimmy
-{% endhighlight  %}
+{% endhighlight %}
 
 Outro detalhe é que instalamos o [Oh My Fish](https://github.com/mrshu/oh-my-fish) , se quiser sabe como alterar o tema (prompt do terminal) no Fish, ou como deixá-lo como padrão para seu usuário, veja esse artigo: [Como Instalar e configurar o Oh My Fish](https://terminalroot.com.br/), alternativamente você pode fazer o mesmo no [Bash](https://terminalroot.com.br/bash) , para isso veja esse artigo: [Conheça e Instale o Oh My Bash!](https://terminalroot.com.br/2019/05/conheca-e-instale-o-oh-my-bash.html) .
 
@@ -174,7 +174,7 @@ Para atualizar/instalar a árvore do Ports, rode os comandos:
 {% highlight bash %}
 portsnap fetch update
 portsnap extract
-{% endhighlight  %}
+{% endhighlight %}
 
 Feito isso, vamos compilar o i3-gaps !!! \o/
 
@@ -185,7 +185,7 @@ Entre no diretório `/usr/ports/x11-wm/i3-gaps` e rode o comando `make install c
 {% highlight bash %}
 cd /usr/ports/x11-wm/i3-gaps
 make install clean
-{% endhighlight  %}
+{% endhighlight %}
 
 Agora abra o arquivo `~/.config/i3/config` e descomente (tirar o caractere **#** tralha da frente), deixando assim:
 
@@ -195,7 +195,7 @@ gaps inner 10
 gaps outer 1
 smart_borders on
 smart_borders no_gaps
-{% endhighlight  %}
+{% endhighlight %}
 
 Se quiser que a janela do terminal seja sempre aberta como *float*, descomente também essa linha: `for_window [instance="rxvt"] floating enable` .
 
@@ -257,7 +257,7 @@ pkg update && pkg -f upgrade
 
 {% highlight bash %}
 pkg install gnome-desktop gdm xorg gnome3
-{% endhighlight  %}
+{% endhighlight %}
 
 > Dependendo da largura da banda da sua internet, essa instalação pode demorar pra caramba !!! :O
 
@@ -279,7 +279,7 @@ Também precisamos editar o nosso arquivo `vim /etc/fstab` e incluir na última 
 
 {% highlight bash %}
 proc /proc procfs rw 0 0
-{% endhighlight  %}
+{% endhighlight %}
 
 O painel de configurações do GNOME não funciona tão bem como esperado no FreeBSD, logo, se você alterar o item **Region and Language** para *Português Brasil* o idioma e o teclado, bem como o **Date and Time** , talvez não funcione, logo, recomendo você fazer isso via linha de comando editando o arquivo:
 `sudo vim /usr/local/etc/gdm/locale.conf` altere tudo que estiver como *en_US* para *pt_BR* , no editor Vim basta usar esse comando:
