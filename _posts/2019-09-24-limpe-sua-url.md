@@ -73,7 +73,7 @@ sc_outcome, sc_geo, sc_country
 
 Apesar da lista ser muito grande, o parâmetro de rastreamento do Facebook não está incluso. Vamos ver como incluir esse e também de outros que você queira posteriormente.
 
-1. Vá até o canto superior direito do Firefox e clique no ícone com três listras paralelas e depois vá até Extensões e selecione, ou simplesmente tecle Ctrl + Shift + A , como há na imagem onde o cursor está:
+1. Vá até o canto superior direito do Firefox e clique no ícone com três listras paralelas e depois vá até Extensões e selecione, ou simplesmente tecle `Ctrl + Shift + A` , como há na imagem onde o cursor está:
 ![Neat URL Firefox](/assets/img/firefox/extensoes.png)
 
 2. Após aberta uma nova janela, clique na opção com três pontinhos `●●●` onde está localizado o Neat URL , e depois em Preferências
@@ -85,7 +85,7 @@ Apesar da lista ser muito grande, o parâmetro de rastreamento do Facebook não 
 4. Vá até o final desse campo, e ao final do último parâmetro, insira uma vírgula → **,** e depois a sigla: **fbclid** , depois é só clicar em **Save Preferences** que fica ao final dessa página e pronto, agora os links que saírem do Facebook também serão automáticamente limpos de parâmetros adicionais.
 ![Neat URL Firefox](/assets/img/firefox/save-preferences.png)
 
-Se quiser Pausar , por algum motivo, o Neat URL , basta clicar em cima do mesmo e ele ficará com uam barra vermelha, e isso quer dizer que ele estará desativado . Quando ele encontra uma parâmetro que está incluso na lista, ele tammbém mostra um número bem pequeno em cima do ícone dele, informando que bloqueou um parâmetro.
+Se quiser Pausar , por algum motivo, o Neat URL , basta clicar em cima do mesmo e ele ficará com uma barra vermelha, e isso quer dizer que ele estará desativado . Quando ele encontra uma parâmetro que está incluso na lista, ele tammbém mostra um número bem pequeno em cima do ícone dele, informando que bloqueou um parâmetro.
 
 ## Conclusão
 
