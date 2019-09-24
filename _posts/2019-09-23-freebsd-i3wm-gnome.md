@@ -86,7 +86,7 @@ Será gerado um arquivo exemplo: `xorg.conf.new` no diretório raíz do usuário
 Primeiramente vamos instalar todos os softwares necessários para essa façanha, então rode o comando abaixo que irá instalar tudo de uma vez (recomendo você fazer outra coisa até a finalização da instalação!) , adicione ou remova alguns softwares ao seu gosto!
 
 {% highlight bash %}
-pkg install bash bash-completion bat feh fish font-awesome git gotop neofetch perl5 pgpgpg qutebrowser rofi dmenu rxvt-unicode sudo texinfo vim subversion virtualbox-ose-additions
+pkg install bash bash-completion bat feh fish font-awesome git gotop qutebrowser rofi dmenu rxvt-unicode sudo texinfo vim subversion virtualbox-ose-additions
 {% endhighlight %}
 
 Vamos analisar cada um dos softwares:
@@ -99,7 +99,7 @@ Vamos analisar cada um dos softwares:
 + [font-awesome](https://fontawesome.com/), um pacotes de fonts e glyphicons;
 + [git](https://git-scm.com) , controle de versão e utilitário para instalar programas;
 + [gotop](https://terminalroot.com.br/2019/07/instale-o-gotop-um-monitor-grafico-do-sistema-via-terminal.html), monitor gráfico de sistema via terminal;
-+ [neofetch](https://terminalroot.com.br/2019/01/como-criar-um-fetch-estilo-screenfetch-e-neofetch-em-shell-script.html) , um software *legalzinho* para exibir dados do sistema;
++ [ufetch](http://bit.ly/2kN8hf8) , um software *legalzinho* para exibir dados do sistema;
 + [perl5](https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/using-perl.html), versão 5 da linguagem de programação [Perl](https://www.perl.org) , pode ser que ela já esteja instalada, mas como ela é muito importante para funcionamento de muita coisa, não custa nada incluí-la na lista para que não haja dúvidas, se ela já estiver instalada o *pkg* irá ignorar a reinstalação por padrão.
 + [pgpgpg](https://www.gnupg.org/) , a versão PGP do GNU, é importante caso haja algum arquivo que precisamos encriptar;
 + [qutebrowser](https://terminalroot.com.br/2019/06/qutebrowser-um-navegador-estilo-vim-muito-veloz.html), um navegador estilo [Vim](https://terminalroot.com.br/vim) , muito veloz!
@@ -313,19 +313,9 @@ Abraços!
 ## Links úteis
 
 + → Playlist Youtube FreeBSD: <http://bit.ly/play-freebsd>
-+ <https://feh.finalrewind.org/>
-+ <https://fontawesome.com/>
-+ <https://get.oh-my.fish>
-+ <https://github.com/scop/bash-completion>
-+ <https://github.com/stilvoid/dmenu>
-+ <https://github.com/terroo/fonts/trunk/fonts>
-+ <https://github.com/yshui/compton>
-+ <https://git-scm.com>
-+ <https://pt.wikipedia.org/wiki/Sudo>
-+ <https://pt.wikipedia.org/wiki/Texinfo>
-+ <https://terminalroot.com.br/>
 + <https://terminalroot.com.br/2016/11/blog-linux-unix.html>
 + <https://terminalroot.com.br/2017/09/como-instalar-o-freebsd-11-1.html>
++ <http://bit.ly/2kN8hf8>
 + <https://terminalroot.com.br/2017/11/editores-de-texto-linux.html>
 + <https://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html>
 + <https://terminalroot.com.br/2018/02/como-compilar-programas-no-freebsd-via-ports.html>
@@ -338,6 +328,16 @@ Abraços!
 + <https://terminalroot.com.br/downs/pkg-i3-freebsd.tar.gz>
 + <https://terminalroot.com.br/shell>
 + <https://terminalroot.com.br/vim>
++ <https://feh.finalrewind.org/>
++ <https://fontawesome.com/>
++ <https://get.oh-my.fish>
++ <https://github.com/scop/bash-completion>
++ <https://github.com/stilvoid/dmenu>
++ <https://github.com/terroo/fonts/trunk/fonts>
++ <https://github.com/yshui/compton>
++ <https://git-scm.com>
++ <https://pt.wikipedia.org/wiki/Sudo>
++ <https://pt.wikipedia.org/wiki/Texinfo>
 + <https://www.diolinux.com.br/2019/01/bat-clone-cat-comando-linux.html>
 + <https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html#mirrors-br-ftp>
 + <https://www.freebsd.org/doc/pt_BR/books/handbook/pkgng-intro.html>

@@ -6,12 +6,11 @@ image: '/assets/img/browser/navegadores-linux.jpg'
 description: "Criei uma lista com o número máximo que eu encontrei de navegadores disponíveis para GNU/Linux."
 main-class: 'web'
 tags:
-- Linux
-- Tecnologia
-- GNU
-twitter_text: "Lista com 28 Navegadores para Linux"
-introduction: "Criei uma lista com o número máximo que eu encontrei de navegadores disponíveis para GNU/Linux."
+- firefox
+- web
+- tecnologia
 ---
+
 ![Blog Linux](/assets/img/browser/navegadores-linux.jpg "Blog Linux")
 
 > Salve salve rapaziada! Criei uma lista com o número máximo que eu encontrei de navegadores disponíveis para GNU/Linux . Segue abaixo os NOMES, DESCRIÇÃO e LINK PARA DOWNLOAD. 
