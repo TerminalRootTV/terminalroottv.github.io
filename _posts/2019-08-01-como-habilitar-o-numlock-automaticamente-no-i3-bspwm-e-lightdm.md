@@ -45,25 +45,25 @@ sudo dnf install numlockx # Fedora
 
 ## Utilizando
 
-1. Para habilitar o Numlock basta rodar o comando: `numlockx` ou `numlockx on`
-2. Para desabilitar: `numlockx off`
-3. E para alternar, ou seja, se estiver habilitado → desabilita , e se estiver desabilitado → habilita, use: `numlockx toggle`
++ Para habilitar o Numlock basta rodar o comando: `numlockx` ou `numlockx on`
++ Para desabilitar: `numlockx off`
++ E para alternar, ou seja, se estiver habilitado → desabilita , e se estiver desabilitado → habilita, use: `numlockx toggle`
 
 ## Adicionar o NumlockX ao i3wm, bspwm  e LightDM ao iniciar a sessão
 
-1. No i3 basta abrir o arquivo `vi ~/.config/i3/config` e adicionar a linha: `exec numlockx on`, ou simplesmente rodar esse comando:
++ No i3 basta abrir o arquivo `vi ~/.config/i3/config` e adicionar a linha: `exec numlockx on`, ou simplesmente rodar esse comando:
 
 {% highlight bash %}
 echo 'exec numlockx on' >> ~/.config/i3/config
 {% endhighlight %}
 
-2. No bspwm basta abrir o arquivo `vi ~/.config/bspwm/bspwmrc` e adicionar a linha: `/usr/bin/numlockx on`, ou simplesmente rodar esse comando:
++ No bspwm basta abrir o arquivo `vi ~/.config/bspwm/bspwmrc` e adicionar a linha: `/usr/bin/numlockx on`, ou simplesmente rodar esse comando:
 
 {% highlight bash %}
 echo '/usr/bin/numlockx on' >> ~/.config/bspwm/bspwmrc
 {% endhighlight %}
 
-2. No LightDM você precisa editar o arquivo `/etc/lightdm/lightdm.conf` e alterar a linha que possui a informação: `greeter-setup-script` que fica na tag **[Seat:*]**, descomentar (tirar a tralha **#** da frente, se houver) e atribuir o comando: `/usr/bin/numlockx on`, ficando assim:
++ No LightDM você precisa editar o arquivo `/etc/lightdm/lightdm.conf` e alterar a linha que possui a informação: `greeter-setup-script` que fica na tag **[Seat:*]**, descomentar (tirar a tralha **#** da frente, se houver) e atribuir o comando: `/usr/bin/numlockx on`, ficando assim:
 
 {% highlight bash %}
 greeter-setup-script=/usr/bin/numlockx on
@@ -98,7 +98,7 @@ Como havia dito existem outras alternativas, mas pode ser que não funcione, poi
 
 E em outros *Display Managers* (alternativas ao LightDM) , também tem seus modos particulares. Mas em resumo, outras opções são:
 
-1. Usando o comando `setleds`
++ Usando o comando `setleds`
 {% highlight bash %}
 su -c "/usr/bin/setleds -D +num < /dev/tty1"
 {% endhighlight %}
@@ -122,7 +122,7 @@ Lembrando também que você precisa saber o número do **tty** , para descobrir 
 - `who`
 - Ou simplesmente, rodar o comando: `w`
 
-2. Você também pode extrair as configurações do seu `xkb` rodando o comando `xkbcomp $DISPLAY myconf.xkb` , isso vai criar um arquivo no diretório que você estiver como o nome **myconf.xkb**, onde você pode ver as configurações do mesmo e alterar a linha que exemplo:
++ Você também pode extrair as configurações do seu `xkb` rodando o comando `xkbcomp $DISPLAY myconf.xkb` , isso vai criar um arquivo no diretório que você estiver como o nome **myconf.xkb**, onde você pode ver as configurações do mesmo e alterar a linha que exemplo:
 
 {% highlight bash %}
 indicator "Num Lock" {
@@ -134,7 +134,7 @@ indicator "Num Lock" {
 
 Altere a linha que tem `!allowExplicit` retirando o sinal de exclamação do final: `allowExplicit` , depois é só reler o arquivo: `xkbcomp myconf.xkb $DISPLAY`.
 
-3. Usar o `xset` , talvez até depois de alterar seu `xkb`, assim:
++ Usar o `xset` , talvez até depois de alterar seu `xkb`, assim:
 
 {% highlight bash %}
 xset led named 'Num Lock'
