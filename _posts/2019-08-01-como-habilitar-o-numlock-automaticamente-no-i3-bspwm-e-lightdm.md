@@ -103,7 +103,7 @@ E em outros *Display Managers* (alternativas ao LightDM) , também tem seus modo
 su -c "/usr/bin/setleds -D +num < /dev/tty1"
 {% endhighlight %}
 
-Vai pedir sua senha de `root` , você pode até *setar* o numlock em TTYs com posições definidas, para ver como rode esse comando ` man setleds | grep -A 4 -B 1 '\[1-8\]'` , a saída será similar a essa:
+Vai pedir sua senha de `root` , você pode até *setar* o numlock em TTYs com posições definidas, para ver como rode esse comando `man setleds | grep -A 4 -B 1 '\[1-8\]'` , a saída será similar a essa:
 > Onde mostra que você pode criar [Shell Script](https://terminalroot.com.br/shell) para isso
 {% highlight bash %}
 marcos@gentoo ~ $ man setleds | grep -A 4 -B 1 '\[1-8\]'
