@@ -6,7 +6,9 @@ image: '/assets/img/games/enduro.gif'
 description: 'Sou fã de jogos de 8 bits, principalemente se tratando de Atari. Atualmente estudo desenvolvimento de todos esse jogos em Shell Script, segue a lista dos que eu mais gosto.'
 main-class: 'games'
 tags:
-- Games
+- games
+- atari
+- retrogame
 ---
 
 ![Lista dos melhores Games do Atari](/assets/img/games/enduro.gif "Lista dos melhores Games do Atari")

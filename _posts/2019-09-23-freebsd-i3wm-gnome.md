@@ -2,7 +2,7 @@
 layout: post
 title: "Como Instalar e Configurar o i3wm e GNOME no FreeBSD"
 date: 2019-09-23 16:39:42
-image: '/assets/img/'
+image: '/assets/img/freebsd/freebsd-i3wm-gnome.jpg'
 description: 'Atendendo à dois pedidos num só vídeo/tutorial.'
 main-class: 'bsd'
 tags:
