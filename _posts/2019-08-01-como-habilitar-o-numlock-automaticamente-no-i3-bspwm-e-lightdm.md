@@ -49,7 +49,7 @@ sudo dnf install numlockx # Fedora
 2. Para desabilitar: `numlockx off`
 3. E para alternar, ou seja, se estiver habilitado → desabilita , e se estiver desabilitado → habilita, use: `numlockx toggle`
 
-## Adicionar o NumlockX ao i3wm i, bspwm  e LightDM ao iniciar a sessão
+## Adicionar o NumlockX ao i3wm, bspwm  e LightDM ao iniciar a sessão
 
 1. No i3 basta abrir o arquivo `vi ~/.config/i3/config` e adicionar a linha: `exec numlockx on`, ou simplesmente rodar esse comando:
 
