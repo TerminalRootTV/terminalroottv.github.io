@@ -12,7 +12,7 @@ tags:
 
 ![Ascii Patrol Game](/assets/img/game/ascii-patrol.gif)
 
-Eu sou mais *fanzaço* de retroGames e jogos que rodam no terminal. E o [Ascii Patrol Game]() junta essas duas paixões num só coração! E pra quem deseja ficar mais familizarizado com o terminal, recomendo esse game *daora*!!!
+Eu sou mais *fanzaço* de retroGames e jogos que rodam no terminal. E o [Ascii Patrol Game](http://ascii-patrol.com/) junta essas duas paixões num só coração! E pra quem deseja ficar mais familizarizado com o terminal, recomendo esse game *daora*!!!
 
 ## Introdução
 
@@ -26,7 +26,7 @@ Além disso, o jogador pode criar seu próprio avatar ao jogar, preencher o nome
 
 Antes de instalar, vale lembrar que esse jogo só está disponível para a plataforma [64-bit](https://pt.wikipedia.org/wiki/64_bits) .
 
-> Apesar de haver o nome *debian* no pacote, funciona em qualquer [Linux]()
+> Apesar de haver o nome *debian* no pacote, funciona em qualquer [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux)
 
 {% highlight bash %}
 wget http://ascii-patrol.com/area53/ascii-patrol-debian-x64.tgz
