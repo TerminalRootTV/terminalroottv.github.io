@@ -13,19 +13,19 @@ tags:
 
 ![Numlock](/assets/img/dicas/numlock-linux.jpg "Numlock")
 
-Muitas vezes quando você inicia o [LightDM]() para logar no sistema e tenta usar [Numlock](https://pt.wikipedia.org/wiki/Num_lock) (teclado numérico), se sua senha possuir números, você acaba errando a senha ou tendo que habilitá-lo manulamente porque o mesmo não está habilitado por padrão.
+Muitas vezes quando você inicia o [LightDM](https://terminalroot.com.br/2016/05/como-instalar-o-gdm3-ou-configurar-o.html) para logar no sistema e tenta usar [Numlock](https://pt.wikipedia.org/wiki/Num_lock) (teclado numérico), se sua senha possuir números, você acaba errando a senha ou tendo que habilitá-lo manulamente porque o mesmo não está habilitado por padrão.
 
 A mesma coisa acontece quando você loga no sistema e percebe que o numlock não foi habilitado automáticamente .
 
-Então nesse tutorial vamos usar de cobaia o [i3wm]() e o [bspwm]() e nesses dois exemplos, você pode adaptar a qualquer [WM]() ou interface gráfica que não esteja habilitado e você deseja que isso aconteça por padrão.
+Então nesse tutorial vamos usar de cobaia o [i3wm](https://terminalroot.com.br/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html) e o [bspwm](https://terminalroot.com.br/2018/09/bspwm-review.html) e nesses dois exemplos, você pode adaptar a qualquer [WM](https://terminalroot.com.br/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html) ou interface gráfica que não esteja habilitado e você deseja que isso aconteça por padrão.
 
 ## Introdução
 
-Existem várias formas de habilitar o numlock via linha de comando, veja alternativas ao final desse artigo, mas aqui vamos utilizar a forma mais estável e confiável. Para isso vamos utilizar o [NumlockX]() . Até poque muitas formas dependerão da distribuição, sistemas de inicialização e shell.
+Existem várias formas de habilitar o numlock via linha de comando, veja alternativas ao final desse artigo, mas aqui vamos utilizar a forma mais estável e confiável. Para isso vamos utilizar o [NumlockX](http://manpages.ubuntu.com/manpages/trusty/man1/numlockx.1.html) . Até poque muitas formas dependerão da distribuição, sistemas de inicialização e shell.
 
 Logo, esse método, podemos dizer que é infalível! =)
 
-Primeiro certifique-se que possui o [numlockx]() instalado no seu sistema:
+Primeiro certifique-se que possui o [numlockx](http://manpages.ubuntu.com/manpages/trusty/man1/numlockx.1.html) instalado no seu sistema:
 
 > Se retornar somente o caminho do numlockx, ex: `/usr/bin/numlockx` , é porque está instalado, se aparecer, ex.: `which: no numlockx in (/usr/lib/llvm/8/bin:/usr/lib/llvm/7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin)` , é porque não está instalado.
 
@@ -104,7 +104,7 @@ su -c "/usr/bin/setleds -D +num < /dev/tty1"
 {% endhighlight %}
 
 Vai pedir sua senha de `root` , você pode até *setar* o numlock em TTYs com posições definidas, para ver como rode esse comando ` man setleds | grep -A 4 -B 1 '\[1-8\]'` , a saída será similar a essa:
-> Onde mostra que você pode criar [Shell Scrip]() para isso
+> Onde mostra que você pode criar [Shell Script](https://terminalroot.com.br/shell) para isso
 {% highlight bash %}
 marcos@gentoo ~ $ man setleds | grep -A 4 -B 1 '\[1-8\]'
        One might use setleds in /etc/rc to define the initial and default state of NumLock, e.g. by
