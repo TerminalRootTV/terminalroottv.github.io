@@ -10,7 +10,7 @@ tags:
 - ascii
 ---
 
-![Ascii Patrol Game](/assets/img/game/ascii-patrol.gif)
+![Ascii Patrol Game](/assets/img/games/ascii-patrol.gif)
 
 Eu sou mais *fanzaço* de retroGames e jogos que rodam no terminal. E o [Ascii Patrol Game](http://ascii-patrol.com/) junta essas duas paixões num só coração! E pra quem deseja ficar mais familizarizado com o terminal, recomendo esse game *daora*!!!
 
@@ -37,11 +37,11 @@ cd asciipat
 
 Ao executar os comando acima automáticamente será iniciado o game. E após a inicialização do jogo, quando chegar na tela exibida na imagem abaixo, basta *pressionar qualquer tecla*
 
-![Inicialização](/assets/img/game/01-intro-patrol.png)
+![Inicialização](/assets/img/games/01-intro-patrol.png)
 
 Nessa próxima tela você pode definir o **nome** do seu jogador e outras configurações. Dicas de teclas:
 
-![Painel](/assets/img/game/02-menu-patrol.png)
+![Painel](/assets/img/games/02-menu-patrol.png)
 
 + **ESC** - Pressione essa tecla se quiser alterar de painel, ou seja para ir do painel **Player Profile** para o quadro **Player Campaign**, basta pressionar ESC e depois tecla direcional para direita: →
 + **ENTER** - Ativa um painel para alterar os dados do mesmo, exemplo, ENTER em **Player Profile** , você ativa e usa as teclas direcionais para escolher o perfil do seu Player: Nome, Olhos, Boca, ... Muito legaaaaal! =)
@@ -68,7 +68,7 @@ Nessa próxima tela você pode definir o **nome** do seu jogador e outras config
 + Abaixar: **s**
 + E atirar o fogo: **L**
 
-![Game](/assets/img/game/03-game-patrol.png)
+![Game](/assets/img/games/03-game-patrol.png)
 
 Pra desviar dos alienígenas, a *manha* é saber freiar e acelerar com técnica! =)
 
@@ -76,7 +76,7 @@ Outra coisa é já fique com os dedos posicionados no **L** pra atirar nos objet
 
 Ainda rola um ranking , eu fiz uma *mixaria* e fiquei na posição **5602** :D só pra fazer esse tutorial, veja na imagem abaixo.
 
-![Ranking](/assets/img/game/04-rank-patrol.png)
+![Ranking](/assets/img/games/04-rank-patrol.png)
 
 Legal, né ?! Visite o site (bem bacana :O) do [Ascii Game Patrol](http://ascii-patrol.com/) → <http://ascii-patrol.com/>
 
