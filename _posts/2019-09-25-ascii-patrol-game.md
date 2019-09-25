@@ -3,7 +3,7 @@ layout: post
 title: "Instale e Jogue Ascii Patrol Game no seu Terminal"
 date: 2019-09-25 12:48:19
 image: '/assets/img/games/ascii-patrol.gif'
-description: 'Você vai se assustador com a quantidade de recursos desse game,'
+description: 'Você vai se assustar com a quantidade de recursos desse game,'
 tags:
 - games
 - retrogame
