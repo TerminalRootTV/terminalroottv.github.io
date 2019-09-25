@@ -13,9 +13,9 @@ tags:
 
 ![Numlock](/assets/img/dicas/numlock-linux.jpg "Numlock")
 
-Muitas vezes quando você inicia o [LightDM](https://terminalroot.com.br/2016/05/como-instalar-o-gdm3-ou-configurar-o.html) para logar no sistema e tenta usar [Numlock](https://pt.wikipedia.org/wiki/Num_lock) (teclado numérico), se sua senha possuir números, você acaba errando a senha ou tendo que habilitá-lo manulamente porque o mesmo não está habilitado por padrão.
+Muitas vezes quando você inicia o [LightDM](https://terminalroot.com.br/2016/05/como-instalar-o-gdm3-ou-configurar-o.html) para logar no sistema e tenta usar [Numlock](https://pt.wikipedia.org/wiki/Num_lock) (teclado numérico), se sua senha possuir números, você acaba errando a senha ou tendo que habilitá-lo manualmente porque o mesmo não está habilitado por padrão.
 
-A mesma coisa acontece quando você loga no sistema e percebe que o numlock não foi habilitado automáticamente .
+A mesma coisa acontece quando você loga no sistema e percebe que o numlock não foi habilitado automaticamente .
 
 Então nesse tutorial vamos usar de cobaia o [i3wm](https://terminalroot.com.br/2018/07/como-instalar-e-configurar-o-i3wm-e-o-i3blocks.html) e o [bspwm](https://terminalroot.com.br/2018/09/bspwm-review.html) e nesses dois exemplos, você pode adaptar a qualquer [WM](https://terminalroot.com.br/2019/04/5-ferramentas-para-voce-usar-no-seu-wm.html) ou interface gráfica que não esteja habilitado e você deseja que isso aconteça por padrão.
 
