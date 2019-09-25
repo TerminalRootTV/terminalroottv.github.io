@@ -46,7 +46,7 @@ Nessa próxima tela você pode definir o **nome** do seu jogador e outras config
 + **ESC** - Pressione essa tecla se quiser alterar de painel, ou seja para ir do painel **Player Profile** para o quadro **Player Campaign**, basta pressionar ESC e depois tecla direcional para direita: →
 + **ENTER** - Ativa um painel para alterar os dados do mesmo, exemplo, ENTER em **Player Profile** , você ativa e usa as teclas direcionais para escolher o perfil do seu Player: Nome, Olhos, Boca, ... Muito legaaaaal! =)
 
-> **Observação** , a musiquinha só será ativada, se você for até o quadroainel **Control Panel** e pressionar ENTER , se quiser tecle pra baixo e aumente o volume e/ou altere outras opções.
+> **Observação** , a musiquinha só será ativada, se você for até o painel **Control Panel** e pressionar ENTER , se quiser tecle pra baixo e aumente o volume e/ou altere outras opções.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
