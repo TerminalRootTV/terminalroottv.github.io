@@ -115,10 +115,9 @@ man fdupes
 man fslint
 {% endhighlight %}
 
-# Assista ao Vídeo
+# [Assista ao Vídeo](https://www.youtube.com/watch?v=V_esbx5r_BY)
 
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=V_esbx5r_BY)
-
+<iframe width="920" height="400" src="https://www.youtube.com/embed/V_esbx5r_BY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Internet:
 
