@@ -10,7 +10,7 @@ tags:
 - shellscript
 ---
 
-[Como Funciona o Auto Complete no Shell GNU/Linux](/assets/img/gnu/tabkey-shell-linux.jpg)
+![Como Funciona o Auto Complete no Shell GNU/Linux](/assets/img/gnu/tabkey-shell-linux.jpg)
 
 Por padrão, depois de instalar o [Gentoo Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Gentoo) ou outra distribuição, o preenchimento automático no Shell (neste caso, falaremos sobre o [BASH](https://terminalroot.com.br/bash/), no entanto, daremos dicas para os outros shells) não está instalado. Geralmente você o encontra no caminho:
 
