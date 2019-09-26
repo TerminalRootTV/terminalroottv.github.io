@@ -48,7 +48,7 @@ Para instalá-lo (No caso do Bash), use:
 > No [Gentoo](https://gentoo.org/) , use o *search* da sua distro para saber qual o nome do pacote.	
 
 {% highlight bash %}
-emerge --ask app-shells / conclusão do bash
+emerge --ask app-shells/bash-completion
 {% endhighlight %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -72,10 +72,10 @@ cat /etc/bash_completion.d/gentoo-style-init
 Para outros Shells e aplicações, existem as opções abaixo:
 
 {% highlight bash %}
-app-shells / zsh-completations
-app-shells / tmux-bash-complete
-app-shells / mpv-bash-complete
-app-shells / gentoo-zsh-completations
+app-shells/zsh-completations
+app-shells/tmux-bash-complete
+app-shells/mpv-bash-complete
+app-shells/gentoo-zsh-completations
 {% endhighlight %}
 
 Para mais informações, execute os comandos de pesquisa do Portage:
