@@ -73,6 +73,18 @@ sed 's/^/palavra/' arquivo.txt
 ## 6 - Coloca uma palavra no final de cada linha
 {% highlight bash %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 sed 's/$/palavra/' arquivo.txt
 {% endhighlight %}
 ## 7 - Imprime só as linhas que COMEÇAM com a string 'http'
@@ -144,6 +156,18 @@ sed -n '/dia/{p;q;}' arquivo.txt
 sed '9s/$/final da linha/' arquivo.txt
 {% endhighlight %}
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 19 - Coloca todas as linhas em uma só
 {% highlight bash %}
 sed ':a;$!N;s/\n//;ta;' arquivo.txt
@@ -210,6 +234,18 @@ Fica: **&lt;a href="http://www.com">http://www.com&lt;/a>**
 {% highlight bash %}
 sed 's_\<\(ht\|f\)tp://[^ ]*_<a href="&">&</a>_' arquivo.txt
 {% endhighlight %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 30 - Expressões Regulares com SED ( sed regex )
 Este sed lê dados do arquivo.txt e apaga (comando d) desde a primeira linha, até a linha que contenha 3 números seguidos, jogando o resultado na tela. Se quiser gravar o resultado, redirecione-o para outro arquivo, não o próprio arquivo.txt .
@@ -308,15 +344,13 @@ http://goo.gl/gR59Fw
 {% endhighlight %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- Informat -->
 <ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
+     style="display:block"
+     data-ad-client="ca-pub-2838251107855362"
+     data-ad-slot="2327980059"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
