@@ -26,9 +26,9 @@ Uma cláusula JOIN é usada para combinar linhas de duas ou mais tabelas, com ba
 
 Aqui estão os diferentes tipos de JOINs no SQL:
 
-- INNER JOIN : Retorna registros que possuem valores correspondentes nas duas tabelas;
-- LEFT JOIN: Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita;
-- RIGHT JOIN: Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.
+- **INNER JOIN** : Retorna registros que possuem valores correspondentes nas duas tabelas;
+- **LEFT JOIN**: Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita;
+- **RIGHT JOIN**: Retorna todos os registros da tabela da direita e os registros correspondentes da tabela da esquerda.
 
 ## Conteúdo das Tabelas
 
