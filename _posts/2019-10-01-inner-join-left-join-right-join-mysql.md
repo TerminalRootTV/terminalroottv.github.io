@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "INNER JOIN, LEFT JOIN, RIGHT JOIN, MySQL"
+title: "Como Fazer um INNER JOIN, LEFT JOIN e RIGHT JOIN em SQL"
 date: 2019-10-01 11:02:55
 image: '/assets/img/mysql/joins-mysql.jpg'
 description: 'Uma cláusula JOIN é usada para combinar linhas de duas ou mais tabelas, com base em uma coluna relacionada entre elas.'
@@ -39,35 +39,35 @@ Para explicar como funciona essas consultas vamos usar esse banco de dados [exam
 - A opção `-u` informa o usuário;
 - A opção `-p` informa que precisa inserir senha;
 
-```sh
+{% highlight bash %}
 mysql -u NOME_DO_USUÁRIO -p
-```
+{% endhighlight %}
 
 2. Crie uma *base de dados* com o nome *examples_joins*:
-```sql
+{% endhighlight %}sql
 CREATE DATABASE examples_joins;
-```
+{% endhighlight %}
 ![Criando Database e Mudando](/assets/img/mysql/login-create-use.png "Criando Database e Mudando")
 
 3. Após sair do MySQL com o comando `exit` ou `quit`, rode o comando abaixo para importar a base:
 > Lembrando que o arquivo precisa estar no mesmo diretório que você fará a importação.
-```sh
+{% highlight bash %}
 mysql -u NOME_DO_USUÁRIO -p NOME_DA_BASE < examples_joins.sql
-```
+{% endhighlight %}
 
 4. Depois entre no MySQL e verifique se está tudo certo. Após logar rode o comando `USE examples_joins;` para mudar/definir a base para uso. E rode um `SHOW TABLES` para verificar as tabelas. Veja as imagens abaixo:
 - A opção `-D` informa a base de dados;
-```sh
+{% highlight bash %}
 mysql -u NOME_DO_USUÁRIO -p -D examples_joins 
-```
+{% endhighlight %}
 ![Logando e Exibindo a base examples_joins](/assets/img/mysql/login-show.png "Logando e Exibindo a base examples_joins")
 
 5. Verificando se realmente está tudo certo com `SELECT * FROM NOME_DE_ALGUMA_TABELA`:
-```sql
+{% endhighlight %}sql
 SELECT * FROM clientes;
 SELECT * FROM notebooks;
 SELECT * FROM vendas;
-```
+{% endhighlight %}
 ![SELECT * FROM NOME_DE_ALGUMA_TABELA](/assets/img/mysql/select-all.png "SELECT * FROM NOME_DE_ALGUMA_TABELA")
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -85,40 +85,40 @@ SELECT * FROM vendas;
 ## Realizando um INNER JOIN
 > Retorna registros que possuem valores **correspondentes nas duas tabelas**.
 ![INNER JOIN](/assets/img/mysql/inner_join.jpg "INNER JOIN")
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas AS v INNER JOIN clientes AS c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 + a opção `AS` cria uma *alias*(apelido **v**) para a tabela *vendas* e outros para a tabela *clientes*(apelido **c**)
 
 Alternativamente você poderia fazer esse *INNER JOIN* sem usar a cláusula `AS` para aliases, assim:
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas v INNER JOIN clientes c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 > Eu prefiro usar o `AS` pra não acabar me confundindo mais tarde. =)
 ![INNER JOIN](/assets/img/mysql/inner.png "INNER JOIN")
 
 ## Realizando um LEFT JOIN
 > Retorna todos os registros da tabela **esquerda** e os registros correspondentes da tabela direita.
 ![LEFT JOIN](/assets/img/mysql/left_join.jpg "LEFT JOIN")
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas AS v LEFT JOIN clientes AS c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 ou
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas v LEFT JOIN clientes c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 ![LEFT JOIN](/assets/img/mysql/left.png "LEFT JOIN")
 
 ## Realizando um RIGHT JOIN
 > Retorna todos os registros da tabela da **direita** e os registros correspondentes da tabela da esquerda.
 ![RIGHT JOIN](/assets/img/mysql/right_join.jpg "RIGHT JOIN")
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas AS v RIGHT JOIN clientes AS c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 ou
-```sql
+{% endhighlight %}sql
 SELECT * FROM vendas v RIGHT JOIN clientes c ON (v.id_cliente = c.id);
-```
+{% endhighlight %}
 ![RIGHT JOIN](/assets/img/mysql/right.png "RIGHT JOIN")
 
 
@@ -128,14 +128,14 @@ Podemos tiras nossas conclusões a partir dessa essa imagem abaixo e notar as di
 ![JOINS](/assets/img/mysql/joins.png "JOINS")
 
 *[DICAS EXTRAS](https://king.host/wiki/artigo/mysql-via-ssh/)*: Se quiser exportar a base de dados, caso você faça alguma alteração, rode o comando:
-```sh
+{% highlight bash %}
 mysqldump -h HOST -u NOME_DO_USUÁRIO -p NOME_DA_BASE > examples_joins.sql
-```
+{% endhighlight %}
 
 E na importação, se tiver problemas com codifição(uso de letras com acentos por exemplo), importe assim:
-```sh
+{% highlight bash %}
 mysql -h HOST -u NOME_DO_USUÁRIO -p --default_character_set utf8 NOME_DA_BASE < examples_joins.sql
-```
+{% endhighlight %}
 
 ## Links úteis
 
