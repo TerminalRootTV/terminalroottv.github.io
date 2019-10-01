@@ -12,7 +12,7 @@ tags:
 
 ![Como Fazer um INNER JOIN, LEFT JOIN e RIGHT JOIN em SQL](/assets/img/mysql/joins-mysql.jpg "Como Fazer um INNER JOIN, LEFT JOIN e RIGHT JOIN em SQL")
 
-Quando você tem tabelas que a resposta de uma consulta pode estar relacionada em outra tabela, muitas vezes para exibirmos de maneira simpleficada precisamos fazer esses tipos de consultas um pouco *mais complexas* .
+Quando você tem tabelas que a resposta de uma consulta pode estar relacionada em outra tabela, muitas vezes para exibirmos de maneira simplificada precisamos fazer esses tipos de consultas um pouco *mais complexas* .
 
 Então vamos ver de forma mais simples para pegar o jeito de uma vez por todas. Lembrando que se você não possuir um [banco de dados](https://terminalroot.com.br/2011/10/curso-certificacao-linux-lpi-102.html), nesse caso o [MySQL](https://terminalroot.com.br/2011/10/curso-certificacao-linux-lpi-102.html) instalado, você pode testar essas consultas online com uma das ferramentas apresentadas nesse artigo: [Conheça 7 Serviços OnLine para Executar seus Comandos SQL](https://terminalroot.com.br/2019/08/conheca-o-servico-online-para-executar-seus-comandos-sql.html)
 
