@@ -44,7 +44,7 @@ mysql -u NOME_DO_USUÁRIO -p
 {% endhighlight %}
 
 2. Crie uma *base de dados* com o nome *examples_joins*:
-{% endhighlight %}sql
+{% highlight sql %}
 CREATE DATABASE examples_joins;
 {% endhighlight %}
 ![Criando Database e Mudando](/assets/img/mysql/login-create-use.png "Criando Database e Mudando")
@@ -63,7 +63,7 @@ mysql -u NOME_DO_USUÁRIO -p -D examples_joins
 ![Logando e Exibindo a base examples_joins](/assets/img/mysql/login-show.png "Logando e Exibindo a base examples_joins")
 
 5. Verificando se realmente está tudo certo com `SELECT * FROM NOME_DE_ALGUMA_TABELA`:
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM clientes;
 SELECT * FROM notebooks;
 SELECT * FROM vendas;
@@ -85,13 +85,13 @@ SELECT * FROM vendas;
 ## Realizando um INNER JOIN
 > Retorna registros que possuem valores **correspondentes nas duas tabelas**.
 ![INNER JOIN](/assets/img/mysql/inner_join.jpg "INNER JOIN")
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas AS v INNER JOIN clientes AS c ON (v.id_cliente = c.id);
 {% endhighlight %}
 + a opção `AS` cria uma *alias*(apelido **v**) para a tabela *vendas* e outros para a tabela *clientes*(apelido **c**)
 
 Alternativamente você poderia fazer esse *INNER JOIN* sem usar a cláusula `AS` para aliases, assim:
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas v INNER JOIN clientes c ON (v.id_cliente = c.id);
 {% endhighlight %}
 > Eu prefiro usar o `AS` pra não acabar me confundindo mais tarde. =)
@@ -100,11 +100,11 @@ SELECT * FROM vendas v INNER JOIN clientes c ON (v.id_cliente = c.id);
 ## Realizando um LEFT JOIN
 > Retorna todos os registros da tabela **esquerda** e os registros correspondentes da tabela direita.
 ![LEFT JOIN](/assets/img/mysql/left_join.jpg "LEFT JOIN")
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas AS v LEFT JOIN clientes AS c ON (v.id_cliente = c.id);
 {% endhighlight %}
 ou
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas v LEFT JOIN clientes c ON (v.id_cliente = c.id);
 {% endhighlight %}
 ![LEFT JOIN](/assets/img/mysql/left.png "LEFT JOIN")
@@ -112,11 +112,11 @@ SELECT * FROM vendas v LEFT JOIN clientes c ON (v.id_cliente = c.id);
 ## Realizando um RIGHT JOIN
 > Retorna todos os registros da tabela da **direita** e os registros correspondentes da tabela da esquerda.
 ![RIGHT JOIN](/assets/img/mysql/right_join.jpg "RIGHT JOIN")
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas AS v RIGHT JOIN clientes AS c ON (v.id_cliente = c.id);
 {% endhighlight %}
 ou
-{% endhighlight %}sql
+{% highlight sql %}
 SELECT * FROM vendas v RIGHT JOIN clientes c ON (v.id_cliente = c.id);
 {% endhighlight %}
 ![RIGHT JOIN](/assets/img/mysql/right.png "RIGHT JOIN")
