@@ -65,8 +65,8 @@ Clique no botão abaixo pra fazer download do BuntuWM e da Hash MD5 ( [O que é 
 
 <div class="text-center">
 	<p>
-		<a href="http://bit.ly/2oAlHwy">
-			<button class="btn-lg btn-success">Download → BuntuWM</button> 
+		<a href="http://bit.ly/2oAlHwy" style="cursor:pointer;">
+			<strong><button class="btn-lg btn-success">Download → BuntuWM</button></strong>
 		</a>
 	</p>
 </div>
