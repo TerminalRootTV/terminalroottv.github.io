@@ -63,13 +63,13 @@ deb http://security.ubuntu.com/ubuntu disco-security multiverse
 
 Clique no botão abaixo pra fazer download do BuntuWM e da Hash MD5 ( [O que é e como gerar uma HASH ?](https://terminalroot.com.br/2019/05/o-que-e-e-como-gerar-uma-hash.html) )
 
-	<div class="text-center">
-		<p>
-			<a href="http://bit.ly/2oAlHwy">
-				<button class="btn-lg btn-success">Download → BuntuWM</button> 
-			</a>
-		</p>
-	</div>
+<div class="text-center">
+	<p>
+		<a href="http://bit.ly/2oAlHwy">
+			<button class="btn-lg btn-success">Download → BuntuWM</button> 
+		</a>
+	</p>
+</div>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat  -->
