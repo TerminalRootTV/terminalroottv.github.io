@@ -10,7 +10,7 @@ tags:
 - linux
 ---
 
-[Crie Sua REMASTER do UBUNTU → BuntuWM Linux](/assets/img/ubuntu/buntuwm-remaster-ubuntu.jpg "Crie Sua REMASTER do UBUNTU → BuntuWM Linux")
+![Crie Sua REMASTER do UBUNTU → BuntuWM Linux](/assets/img/ubuntu/buntuwm-remaster-ubuntu.jpg "Crie Sua REMASTER do UBUNTU → BuntuWM Linux")
 
 Nessa *aventura* foi utilizado o [CUBIC](https://launchpad.net/cubic) .
 
