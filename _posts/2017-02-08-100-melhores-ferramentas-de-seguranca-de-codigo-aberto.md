@@ -77,7 +77,7 @@ vulnerabilidades.</li>
 <li><a target="_blank" href="http://www.owasp.org/index.php/Category:OWASP_JBroFuzz">Owasp</a> para você pode testar a integridade de sua rede.</li>
 <li><a target="_blank" href="http://yasemi.sourceforge.net/">Outra interface de monitoramento de segurança</a> : Esta aplicação baseada na Web ajudará você a dar uma olhada no fluxo de dados em seu roteador.</li>
 
-<li><a target="_blank" href="http://www.metasploit.com/">MetaSploit</a> .</li>
+<li><a target="_blank" href="http://www.metasploit.com/">MetaSploit</a> :: <a href="https://terminalroot.com.br/2019/10/metasploit-cheat-sheet.html">Cheat Sheet</a>.</li>
 <li><a target="_blank" href="http://sourceforge.net/projects/snare/">SNARE</a> : Faça uso desta ferramenta que coleta e analisa seus dados de log de eventos.</li>
 <li><a target="_blank" href="http://www.cirt.net/nikto2">Nikto</a> : Nikto irá analisar os seus servidores web para problemas e arquivos perigosos.</li>
 </ol>
