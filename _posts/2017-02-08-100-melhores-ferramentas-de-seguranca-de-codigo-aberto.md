@@ -258,21 +258,10 @@ passivamente seu tráfego de rede para comportamento de tráfego anômalo.</li>
 <li><a target="_blank" href="http://babel.sourceforge.net/en/index.php">Babel</a> : Babel vai deixar você saber sobre todas as falhas de segurança que você tem em seu sistema.</li>
 </ol>
 
+## Assista ao vídeo sobre MetaSploit
+
+<iframe width="920" height="400" src="https://www.youtube.com/embed/VcbC0yJsWic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  <p>Original Post:<a target="_blank" href="http://www.mastersincriminaljustice.com/blog/2008/100-best-open-source-security-tools/">http://www.mastersincriminaljustice.com/blog/2008/100-best-open-source-security-tools/</a></p>
  <p>Via: http://www.malc0de.org/100-best-open-source-security-tools/</p>
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Informat -->
-<ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
