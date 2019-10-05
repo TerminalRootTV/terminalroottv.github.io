@@ -3,7 +3,7 @@ layout: post
 title: "Script Básico de Python para Aprendizado"
 date: 2019-10-04 23:36:22
 image: '/assets/img/python/python3.jpg'
-description: 'Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo esse script que serve como uma 'luz'.'
+description: "Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo esse script que serve como uma 'luz'."
 tags:
 - python
 - script

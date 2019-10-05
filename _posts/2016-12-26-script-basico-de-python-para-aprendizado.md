@@ -13,6 +13,7 @@ tags:
 ![Python](/assets/img/python/python.jpg)
 
 ## ESSE SCRIPT SÓ FUNCIONA EM PYTHON 2.7
+### [Clique Aqui para ver a versão atualizada]()
 
 Ou seja, para rodar, use assim:
 
