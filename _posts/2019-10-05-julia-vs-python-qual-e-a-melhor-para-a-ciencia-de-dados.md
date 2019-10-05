@@ -23,19 +23,19 @@ Criado por uma equipe de quatro pessoas em 2009 e apresentado ao público em 201
 
 Focando no plano ambicioso, de fato, a Julia atende a essas aspirações:
 
-+ 1. Julia é compilada. Para um desempenho de tempo de execução mais rápido, a Julia é just-in-time (JIT) baseado em LLVM.
++ **1.** Julia é compilada. Para um desempenho de tempo de execução mais rápido, a Julia é just-in-time (JIT) baseado em LLVM.
 
-+ 2. Julia é interativa. Inclui um REPL ou uma linha de comando interativa, semelhante ao que o Python oferece.
++ **2.** Julia é interativa. Inclui um REPL ou uma linha de comando interativa, semelhante ao que o Python oferece.
 
-+ 3. Julia tem sintaxe direta. É semelhante ao Python, com sintaxe concisa, mas também expressiva e poderosa.
++ **3.** Julia tem sintaxe direta. É semelhante ao Python, com sintaxe concisa, mas também expressiva e poderosa.
 
-+ 4. Julia combina os benefícios da tipagem dinâmica e estática.
++ **4.** Julia combina os benefícios da tipagem dinâmica e estática.
 
-+ 5. Julia pode interagir diretamente com bibliotecas externas escritas em C e Fortran. Também é possível fazer interface com o código Python por meio da biblioteca PyCall e até compartilhar dados entre o Python e a Julia.
++ **5.** Julia pode interagir diretamente com bibliotecas externas escritas em C e Fortran. Também é possível fazer interface com o código Python por meio da biblioteca PyCall e até compartilhar dados entre o Python e a Julia.
 
-+ 6. Julia suporta metaprogramação.
++ **6.** Julia suporta metaprogramação.
 
-+ 7. Julia tem um pacote de depuração completo.
++ **7.** Julia tem um pacote de depuração completo.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
@@ -51,26 +51,26 @@ Focando no plano ambicioso, de fato, a Julia atende a essas aspirações:
 
 Excelente para TI, o Python simplifica diferentes tipos de trabalho, desde a automação até o machine learning. No entanto, a Julia foi projetada desde o início para a computação científica e numérica. Dessa forma, não é surpresa que a linguagem tenha muitos recursos vantajosos para esse uso:
 
-+ 1. Julia é rápida. O compilador JIT e suas funcionalidades permitem que o Julia supere o Python "puro", não otimizado. O Python pode se tornar mais rápido por meio de bibliotecas externas, compiladores JIT de terceiros (PyPy) e otimizações com ferramentas como o Cython, mas a Julia foi projetada para ser mais rápido desde o início.
++ **1.** Julia é rápida. O compilador JIT e suas funcionalidades permitem que o Julia supere o Python "puro", não otimizado. O Python pode se tornar mais rápido por meio de bibliotecas externas, compiladores JIT de terceiros (PyPy) e otimizações com ferramentas como o Cython, mas a Julia foi projetada para ser mais rápido desde o início.
 
-+ 2. Julia tem sintaxe matemática. Um grande público alvo da Julia é o de usuários de linguagens e ambientes de computação científica como Matlab, R, Mathematica e Octave. A sintaxe da Julia para operações matemáticas se parece mais com a maneira como as fórmulas matemáticas são escritas fora do mundo da computação, facilitando o aprendizado de não-programadores.
++ **2.** Julia tem sintaxe matemática. Um grande público alvo da Julia é o de usuários de linguagens e ambientes de computação científica como Matlab, R, Mathematica e Octave. A sintaxe da Julia para operações matemáticas se parece mais com a maneira como as fórmulas matemáticas são escritas fora do mundo da computação, facilitando o aprendizado de não-programadores.
 
-+ 3. Julia tem gerenciamento automático de memória. Como o Python, a Julia não sobrecarrega o usuário com os detalhes de alocar e liberar memória. A ideia é que, se o usuário mudar para a Julia, não perca algumas das conveniências do Python.
++ **3.** Julia tem gerenciamento automático de memória. Como o Python, a Julia não sobrecarrega o usuário com os detalhes de alocar e liberar memória. A ideia é que, se o usuário mudar para a Julia, não perca algumas das conveniências do Python.
 
-+ 4. Julia oferece paralelismo superior. Computação matemática e científica prosperam quando o programador pode fazer uso dos recursos completos disponíveis em uma determinada máquina. Tanto o Python quanto a Julia podem executar operações em paralelo. No entanto, os métodos do Python para paralelizar operações geralmente exigem que os dados sejam serializados e desserializados entre threads ou nós, enquanto a paralelização de Julia é mais refinada.
++ **4.** Julia oferece paralelismo superior. Computação matemática e científica prosperam quando o programador pode fazer uso dos recursos completos disponíveis em uma determinada máquina. Tanto o Python quanto a Julia podem executar operações em paralelo. No entanto, os métodos do Python para paralelizar operações geralmente exigem que os dados sejam serializados e desserializados entre threads ou nós, enquanto a paralelização de Julia é mais refinada.
 Vantagens do Python
 
 Apesar da Julia ter sido desenvolvido especificamente para a ciência de dados, o Python oferece algumas vantagens para os profissionais da área:
 
-+ 1. Julia usa indexação. Na maioria das linguagens, incluindo Python e C, o primeiro elemento de um array é acessado com um zero. A Julia usa o 1 para o primeiro elemento em uma matriz. Esta não é uma decisão arbitrária; muitos outros aplicativos de matemática e ciências, como o Mathematica, usam a indexação 1 e a intenção da Julia é atrair esse público. É possível suportar a indexação zero em Julia com um recurso experimental, mas a indexação 1 por padrão pode ficar no caminho da adoção por parte do público em geral.
++ **1.** Julia usa indexação. Na maioria das linguagens, incluindo Python e C, o primeiro elemento de um array é acessado com um zero. A Julia usa o 1 para o primeiro elemento em uma matriz. Esta não é uma decisão arbitrária; muitos outros aplicativos de matemática e ciências, como o Mathematica, usam a indexação 1 e a intenção da Julia é atrair esse público. É possível suportar a indexação zero em Julia com um recurso experimental, mas a indexação 1 por padrão pode ficar no caminho da adoção por parte do público em geral.
 
-+ 2. Python é experiente. A Julia está em desenvolvimento apenas há dez anos e passou por diversas mudanças ao longo do tempo. Em comparação, o Python existe há quase três décadas.
++ **2.** Python é experiente. A Julia está em desenvolvimento apenas há dez anos e passou por diversas mudanças ao longo do tempo. Em comparação, o Python existe há quase três décadas.
 
-+ 3. Python tem mais pacotes de terceiros. A amplitude de pacotes de terceiros do Python continua sendo uma das maiores atrações da linguagem. Novamente, a jovialidade da Julia significa que a cultura de softwares em torno dele ainda é pequena. Parte disso é compensada pela capacidade de usar bibliotecas C e Python existentes, mas a Julia ainda precisa de repositórios próprios para prosperar.
++ **3.** Python tem mais pacotes de terceiros. A amplitude de pacotes de terceiros do Python continua sendo uma das maiores atrações da linguagem. Novamente, a jovialidade da Julia significa que a cultura de softwares em torno dele ainda é pequena. Parte disso é compensada pela capacidade de usar bibliotecas C e Python existentes, mas a Julia ainda precisa de repositórios próprios para prosperar.
 
-+ 4. Python tem milhões de usuários. Uma linguagem não é nada sem uma comunidade grande, dedicada e ativa em torno dela. A comunidade em torno da Julia é entusiasta e crescente, mas ainda é muito pequena em comparação com o tamanho da comunidade Python.
++ **4.** Python tem milhões de usuários. Uma linguagem não é nada sem uma comunidade grande, dedicada e ativa em torno dela. A comunidade em torno da Julia é entusiasta e crescente, mas ainda é muito pequena em comparação com o tamanho da comunidade Python.
 
-+ 5. Python está ficando mais rápido. Além de obter melhorias no processamento e palalelismo, o Python se tornou mais fácil de acelerar.
++ **5.** Python está ficando mais rápido. Além de obter melhorias no processamento e palalelismo, o Python se tornou mais fácil de acelerar.
 
-Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quisrem encontrar com mais facilidade e sem possibilidade de perda de link.
+> Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quisrem encontrar com mais facilidade e sem possibilidade de perda de link.
     
