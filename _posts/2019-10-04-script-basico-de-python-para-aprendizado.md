@@ -60,7 +60,7 @@ soma = 8+8
 print("Operações aritiméticas (soma+, subtração-, multiplicação*, divisão/): print 8+8 = ",soma)
 print("Para concatenar strings basta usar o +, ex.: print('Pala'+'vra')")
 print('Pala'+'vra')
-print("Mas pra contatenar strings e integer, usa-se vírgula(,) (soma é uma variável/integer 8+8), ex.: print('8+8' , soma")
+print("Mas pra contatenar strings e integer, usa-se vírgula(,) (soma é uma variável/integer 8+8), ex.: print('8+8' , soma)")
 print("Pode-se usar a vírgula para separar também strings, no entanto, ficará com espaço, ex.: 'Pala','vra' --> Pala vra")
 "comentário aspas duplas"
 'comentário aspas simples'
@@ -76,7 +76,7 @@ print('Como vc viu acima, o \\n pula linha')
 meuarray = ['marcos', 'eric', 'camila']
 print( meuarray[1] )
 print("Criando um meuarray: meuarray = ['marcos', 'eric', 'camila']")
-print('imprimindo determinado elemento de um meuarray: print meuarray[1] --> eric')
+print('imprimindo determinado elemento de um meuarray: print(meuarray[1]) --> eric')
 print('Condições if e else usa-se condição entre parênteses e dois pontos(:) no final, ex.:')
 print('Diferente do Bash, não tem o fi pra fechar condição, ex.:\n\nif (condição):\n	print \nelse:\n	print(")')
 print
