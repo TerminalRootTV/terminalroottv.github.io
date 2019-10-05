@@ -10,7 +10,7 @@ tags:
 - tutorial
 ---
 
-![Script Básico de Python para Aprendizado](/assets/img/python/python3.jpg "")
+![Script Básico de Python para Aprendizado](/assets/img/python/python3.jpg)
 
 Esse script é a segunda versão que roda em python3 , se quiser comparar as diferenças com python2 , note que existem muuuuuuitas diferenças:
 - Python2 → `print "String"` ; Python3 → `print("String")`;
