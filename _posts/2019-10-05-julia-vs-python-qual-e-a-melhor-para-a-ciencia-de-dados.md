@@ -15,7 +15,8 @@ tags:
 Entre as diversas funções do Python, a análise de dados parece ter se tornado a mais significativa. O ecossistema é carregado com ferramentas que tornam o trabalho de ciência computacional e da análise de dados rápido e eficiente.
 
 Para os desenvolvedores por trás da Julia, voltada especificamente para a computação científica, aprendizado de máquina, mineração de dados, álgebra linear em larga escala e computação paralela e distribuída, o Python pode não ser suficientemente adequado. Nesse caso, a linguagem representa um trade-off, bom para alguns aspectos e ruim para outros.
-Linguagem Julia
+
+## Linguagem Julia
 
 Criado por uma equipe de quatro pessoas em 2009 e apresentado ao público em 2012, a Julia pretende abordar as deficiências do Python e de outras linguagens e aplicativos usados para a ciência computacional e processamento de dados. "Somos gananciosos", disse o time na época.
 
@@ -58,7 +59,8 @@ Excelente para TI, o Python simplifica diferentes tipos de trabalho, desde a aut
 + **3.** Julia tem gerenciamento automático de memória. Como o Python, a Julia não sobrecarrega o usuário com os detalhes de alocar e liberar memória. A ideia é que, se o usuário mudar para a Julia, não perca algumas das conveniências do Python.
 
 + **4.** Julia oferece paralelismo superior. Computação matemática e científica prosperam quando o programador pode fazer uso dos recursos completos disponíveis em uma determinada máquina. Tanto o Python quanto a Julia podem executar operações em paralelo. No entanto, os métodos do Python para paralelizar operações geralmente exigem que os dados sejam serializados e desserializados entre threads ou nós, enquanto a paralelização de Julia é mais refinada.
-Vantagens do Python
+
+## Vantagens do Python
 
 Apesar da Julia ter sido desenvolvido especificamente para a ciência de dados, o Python oferece algumas vantagens para os profissionais da área:
 
@@ -72,5 +74,5 @@ Apesar da Julia ter sido desenvolvido especificamente para a ciência de dados, 
 
 + **5.** Python está ficando mais rápido. Além de obter melhorias no processamento e palalelismo, o Python se tornou mais fácil de acelerar.
 
-> Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quisrem encontrar com mais facilidade e sem possibilidade de perda de link.
+> Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quiserem encontrar com mais facilidade e sem possibilidade de perda de link.
     
