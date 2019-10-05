@@ -72,7 +72,7 @@ Apesar da Julia ter sido desenvolvido especificamente para a ciência de dados, 
 
 + **4.** Python tem milhões de usuários. Uma linguagem não é nada sem uma comunidade grande, dedicada e ativa em torno dela. A comunidade em torno da Julia é entusiasta e crescente, mas ainda é muito pequena em comparação com o tamanho da comunidade Python.
 
-+ **5.** Python está ficando mais rápido. Além de obter melhorias no processamento e palalelismo, o Python se tornou mais fácil de acelerar.
++ **5.** Python está ficando mais rápido. Além de obter melhorias no processamento e paralelismo, o Python se tornou mais fácil de acelerar.
 
 > Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quiserem encontrar com mais facilidade e sem possibilidade de perda de link.
     
