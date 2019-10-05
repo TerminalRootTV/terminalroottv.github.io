@@ -49,7 +49,6 @@ Ou dê permissão de execução: `chmod +x esse_script.py` e rode assim:
 {% highlight python %}
 #!/usr/bin/python
 print("O cabeçalho em script é: #!/usr/bin/env python ou #!/usr/bin/python")
-print("Para não aparecer o erro (SyntaxError: Non-ASCII character), use essa linha logo abaixo do cabeçalho: #coding: utf-8")
 print("Os comentários começam com: #")
 print("Para imprimir na tela, ex.: print Olá, mundo!")
 print("Não precisa do ';' no final, mas coloquei aqui e não apresentou erro;")
