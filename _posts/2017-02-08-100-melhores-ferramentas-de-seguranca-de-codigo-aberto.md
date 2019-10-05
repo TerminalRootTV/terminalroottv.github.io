@@ -191,7 +191,7 @@ digitais.</li>
 <ol style="text-align: justify;" type="1">
 <li><a target="_blank" href="http://keepass.info/">KeePass</a> : Use esta senha segura para manter todas as senhas seguras e criptografadas.</li>
 <li><a target="_blank" href="http://ciphsafe.sourceforge.net/">CiPh</a> irá criptografar seus nomes de usuário e senhas para sites de Internet populares.</li>
-<li><a target="_blank" href="http://passwordsafe.sourceforge.net/">Password Safe</a> : Password Safe irá ajudá-lo a criar senhas fortes e pode armazenar vários bancos de dados de senha.</li>
+<li><a target="_blank" href="https://pwsafe.org/">Password Safe</a> : Password Safe irá ajudá-lo a criar senhas fortes e pode armazenar vários bancos de dados de senha.</li>
 <li><a target="_blank" href="http://kiskis.sourceforge.net/">KisKis</a>: Com esta ferramenta, você pode armazenar seus nomes de usuário e senhas importantes em um arquivo criptografado.</li>
 <li><a target="_blank" href="https://www.gluu.org/">Servidor Gluu</a>
  : O Gluu Server é um provedor de código aberto gratuito (IDP) e suíte 
