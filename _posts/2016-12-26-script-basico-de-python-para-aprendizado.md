@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Script básico de Python para aprendizado"
+title: "Script básico de Python 2 para aprendizado"
 date: 2016-12-26 22:52:08
 image: '/assets/img/python/python.jpg'
 description: "Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'."
@@ -8,12 +8,23 @@ main-class: 'misc'
 color: '#34a853'
 tags:
 - python
-categories:
-twitter_text: "Script básico de Python para aprendizado"
-introduction: "Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'."
 ---
 
 ![Python](/assets/img/python/python.jpg)
+
+## ESSE SCRIPT SÓ FUNCIONA EM PYTHON 2.7
+
+Ou seja, para rodar, use assim:
+
+{% highlight python %}
+python2.7 esse_script.py
+{% endhighlight %}
+
+Ou mude o cabeçalho para `#!/usr/bin/python2.7` , dê permissão de execução: `chmod +x esse_script.py` e rode assim:
+
+{% highlight python %}
+./esse_script.py
+{% endhighlight %}
 
 Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma "luz". Ou seja, ao invés de você perder tempo tentando ler tutoriais que cansam seu cérebro, com esse script você aprende o básico rapidamente em questão de minutos, veja o código abaixo e tente melhorar com mais novidades incrementando seus novos aprendizados.
 
