@@ -95,7 +95,7 @@ Após instaldo você pode instalar o Cheat com o comando:
 sudo pip install cheat
 {% endhighlight %}
 
-> *Observação*: Tanto o *npm* quanto o *pip* podem ser ignorados os *sudo* , desde que seu sistema esteja configurado para isso, verifique as configurações de permissão do seu sistema para mais informações. Exemplo:
+> *Observação*: Tanto o *npm* quanto o *pip* podem ser ignorados o *sudo* , desde que seu sistema esteja configurado para isso, verifique as configurações de permissão do seu sistema para mais informações. Exemplo:
 
 {% highlight bash %}
 pip3 install cheat --user
