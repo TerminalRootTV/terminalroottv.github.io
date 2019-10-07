@@ -10,7 +10,7 @@ tags:
 - comandos
 ---
 
-[Traduza Rapidamente Textos e Documentos via Linha de Comando](/assets/img/comandos/trans.jpg "Traduza Rapidamente Textos e Documentos via Linha de Comando")
+![Traduza Rapidamente Textos e Documentos via Linha de Comando](/assets/img/comandos/trans.jpg "Traduza Rapidamente Textos e Documentos via Linha de Comando")
 
 # Traduza Rapidamente Textos via Linha de Comando
 
