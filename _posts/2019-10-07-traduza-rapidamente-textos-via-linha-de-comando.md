@@ -12,8 +12,6 @@ tags:
 
 ![Traduza Rapidamente Textos e Documentos via Linha de Comando](/assets/img/comandos/trans.jpg "Traduza Rapidamente Textos e Documentos via Linha de Comando")
 
-# Traduza Rapidamente Textos via Linha de Comando
-
 Muitas vezes quando estamos lendo algum conteúdo, seja no manual ou qualquer outro documento, e quando não possuímos um conhecimento avançado em inglês, precisamos recorrer a algum tradutor online (Google Tradutor, Bing Tradutor,...) e isso é meio estranho porque ás vezes você nem está com o navegador aberto.
 
 Então, para que você possa traduzir mais facilmente e rapidamente pelo terminal, há uma ferramenta que faz essa consulta sem precisar usar o navegador, estou me referindo ao [Translate Shell](https://www.soimort.org/translate-shell/) .
