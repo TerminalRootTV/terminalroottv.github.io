@@ -171,7 +171,7 @@ Existem muitas opções, dicas de parâmetros para você testar, rode os exemplo
 {% highlight bash %}
 trans -R # Lista os idiomas
 trans -L # Detalhes do idioma
-trans -6 # Conceta via IPv6 e -4 via IPv4
+trans -6 # Conecta via IPv6 e -4 via IPv4
 trans -U # Verifica atualizações
 trans -d # Um DICIONÁRIO !!! =)
 # Entre diversas outras
