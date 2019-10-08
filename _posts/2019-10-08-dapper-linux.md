@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o Dapper Linux, uma distro que possui um Kernel reforçado com patch Grsecurity"
 date: 2019-10-08 10:57:41
 image: '/assets/img/distros/dapper-linux.png'
-description: 'O criador dessa distro era dev do GRsecurity e saiu quando virou proprietário.'
+description: 'O criador dessa distro era dev do GRsecurity.'
 tags:
 - distros
 - hacker
