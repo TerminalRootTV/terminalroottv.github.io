@@ -10,7 +10,7 @@ tags:
 - linux
 ---
 
-![Dapper Linux](/assets/img/distros/dapper-linux.png)
+[![ Conheça o Dapper Linux, uma distro com Kernel reforçado (Grsecurity)](https://terminalroot.com.br/assets/img/distros/dapper-linux.png)](https://dapperlinux.com/)
 
 Dia desse o Ayr Muller, me passou uma dica de uma distribuição Linux que segundo ele: *"O criador dessa distro era dev do [GRsecurity](https://en.wikipedia.org/wiki/Grsecurity) e saiu quando virou proprietário. Além da distro ele tem o kernel dele, hardenizado."*
 
@@ -62,4 +62,5 @@ Dica recomendada por *Ayr Muller Gonçalves*, recomende sua dica ou envie seus a
 ## Links úteis:
 + <https://dapperlinux.com/>
 + <https://grsecurity.net/>
+
 
