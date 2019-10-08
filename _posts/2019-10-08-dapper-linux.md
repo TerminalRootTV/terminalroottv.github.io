@@ -12,7 +12,7 @@ tags:
 
 ![Dapper Linux](/assets/img/distros/dapper-linux.png)
 
-Dia desse o Ayr Muller, me passou uma dica de uma distribuição Linux que segundo ele: *"O criador dessa distro era dev do GRsecurity e saiu quando virou proprietário. Além da distro ele tem o kernel dele, hardenizado."*
+Dia desse o Ayr Muller, me passou uma dica de uma distribuição Linux que segundo ele: *"O criador dessa distro era dev do [GRsecurity](https://en.wikipedia.org/wiki/Grsecurity) e saiu quando virou proprietário. Além da distro ele tem o kernel dele, hardenizado."*
 
 Então procurei me informar mais a respeito dessa distro e vou compartilhar com você aqui essas informações.
 
@@ -51,11 +51,15 @@ Você pode fazer o download do Dapper no prórpio site da distribuição: <https
 
 Bem como a documentação, bastante clara e facilmente legível: <https://dapperlinux.com/documentation.html>
 
-## Continuação do patch Grsecurity
+## Continuação do patch [Grsecurity](https://translate.google.com/translate?hl=pt-BR&sl=en&u=https://en.wikipedia.org/wiki/Grsecurity&prev=search)
 
 O Dapper Secure Kernel Patchset é compatível com a mais recente versão do kernel Linux, juntamente com as versões estáveis recentes do kernel. O Dapper Secure Kernel Patchset é um software de código aberto e gratuito, fornecido à comunidade para que eles possam corrigir e criar seus próprios kernels reforçados.
 
 O Dapper Secure Kernel Patchset oferece proteção abrangente contra explorações de corrupção de memória, elimina classes inteiras de explorações, fortalece sistemas de arquivos e fecha vazamentos de informações e APIs inseguras. Simplesmente remende seu kernel, selecione sua configuração e compile.
 
 Dica recomendada por *Ayr Muller Gonçalves*, recomende sua dica ou envie seus artigos. [Clique aqui e saiba como](https://www.facebook.com/groups/TerminalRootTV/permalink/985452118474670/)
-    
+
+## Links úteis:
++ <https://dapperlinux.com/>
++ <https://grsecurity.net/>
+
