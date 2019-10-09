@@ -6,7 +6,7 @@ image: '/assets/img/terminal/youtube.png'
 description: 'Um navegador baseado em texto totalmente interativo, em tempo real e moderno.'
 tags:
 - browsh
-- navegador
+- web
 - firefox
 ---
 
@@ -92,4 +92,4 @@ Outros comando de navegação e utilização:
 + **CTRL + q** - Sai do programa
 
 Para mais informações acesse a documentção: <https://www.brow.sh/docs/introduction/>
-    
+
