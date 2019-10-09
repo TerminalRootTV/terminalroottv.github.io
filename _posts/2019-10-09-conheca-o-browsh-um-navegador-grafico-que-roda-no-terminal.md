@@ -74,7 +74,7 @@ Ele vai abrir por padrão a página inicial do projeto: <https://www.brow.sh/>
 
 ![Browsh](/assets/img/terminal/browsh.png)
 
-Se quiser navegar em outro site, tecle: **`Ctrl + q`** e digite o site que deseja:
+Se quiser navegar em outro site, tecle: **`Ctrl + l`** e digite o site que deseja:
 
 ![Terminal Root](/assets/img/terminal/terminalroot.com.br.png)
 
