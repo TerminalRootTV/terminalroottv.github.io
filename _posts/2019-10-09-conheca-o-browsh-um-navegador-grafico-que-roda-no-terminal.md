@@ -10,7 +10,7 @@ tags:
 - firefox
 ---
 
-![Conheça o Browsh - Um Navegador Gráfico que roda no Terminal](/assets/img/terminal/youtube.png)
+[![Conheça o Browsh - Um Navegador Gráfico que roda no Terminal](/assets/img/terminal/youtube.png)](/assets/img/terminal/youtube.png)
 
 Já faz tempo que eu conheci esse navegador, mas somente hoje resolvi compartilhar ele com vocês.
 
