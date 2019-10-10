@@ -3,7 +3,7 @@ layout: post
 title: "Divirta-se com ASCIIQuarium , uma Animação para Terminal"
 date: 2019-10-10 10:47:00
 image: '/assets/img/terminal/asciiquarium.png'
-description: 'E com algumas artemanhas, você pode deixá-lo como seu bloqueio de tela.'
+description: 'E com algumas artimanhas, você pode deixá-lo como seu bloqueio de tela.'
 tags:
 - terminal
 - comandos
