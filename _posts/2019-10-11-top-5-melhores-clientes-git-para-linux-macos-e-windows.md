@@ -16,7 +16,7 @@ Dia desse eu estava testando algumas coisas no [Git](https://git-scm.com/) e pen
 
 ## Introdução
 
-O [Git](https://terminalroot.com.br/git) fornece uma riqueza de informações que não são exploradas . Acreditamos que com essas informações você conseguirá fazer a melhore escolha hoje!
+O [Git](https://terminalroot.com.br/git) fornece uma riqueza de informações que não são exploradas . Acreditamos que com essas informações você conseguirá fazer a melhor escolha hoje!
 
 Então, fiz um ranking, o **nº 1** , lógico, foi o que eu escolhi, mas pode ser que você tenha um gosto diferente, vamos ao ranking!
 
