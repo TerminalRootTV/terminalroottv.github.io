@@ -53,7 +53,7 @@ Algumas opções:
 + `fortune -a` - gera todo tipo de frase: longas, curtas, ofensivas;
 + `fortune -o` - só gera frases ofensivas, pra quem gosta! 😚️ (Observação, no Gentoo e Funtoo, você precisa compilar com a flag `USE="offensive"` para as ofensivas aparecerem);
 + `fortune -l` - só frases longas;
-+ `fortune -l` - só frases curtas;
++ `fortune -c` - só frases curtas;
 + `fortune -m` - só frases que contenham pelo menos uma palavra que *casa* com a [regex](https://terminalroot.com.br/regex) que você passar;
 Para mais opções use o manual: `man fortune`
 
