@@ -56,7 +56,7 @@ Para [Windows](https://terminalroot.com.br/2018/03/como-usar-o-shell-bash-no-win
 
 ## 4º [Guitar](https://github.com/soramimi/Guitar)
 
-O Guitar tem versões para Linux, macOS e Windows . Possui é software livre(código aberto) sob licença [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), escrito em [C++](https://isocpp.org/) e desenvolvido com [Qt5](https://www.qt.io/developers/) .     
+O Guitar tem versões para Linux, macOS e Windows . É um software livre(código aberto) sob licença [GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), escrito em [C++](https://isocpp.org/) e desenvolvido com [Qt5](https://www.qt.io/developers/) .     
 
 [![Guitar](/assets/img/git/guitar.png)](/assets/img/git/guitar.png)
 
