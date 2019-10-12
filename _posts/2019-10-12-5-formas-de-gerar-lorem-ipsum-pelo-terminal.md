@@ -103,7 +103,7 @@ Se você tiver a biblioteca `lorem-perl` instalada, exemplo no [Ubuntu](https://
 {% highlight bash %}
 lorem -p 4 # Cria 4 parágrafos
 lorem -w 2 # Cria 4 palavras
-lorem -p 5 # Cria 4 sentenças
+lorem -s 5 # Cria 4 sentenças
 {% endhighlight %}
 
 O ruim é que a saída fica colada no *prompt* , mas você pode criar um alias no seu `~/.bashrc` de forma que solucione isso! =)
