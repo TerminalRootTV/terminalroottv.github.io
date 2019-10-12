@@ -106,7 +106,7 @@ lorem -w 2 # Cria 4 palavras
 lorem -s 5 # Cria 4 sentenças
 {% endhighlight %}
 
-O ruim é que a saída fica colada no *prompt* , mas você pode criar um alias no seu `~/.bashrc` de forma que solucione isso! =)
+O ruim é que a saída fica colada no *prompt* , mas você pode criar um alias no seu `~/.bashrc` de forma que solucione isso! 😃️
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
