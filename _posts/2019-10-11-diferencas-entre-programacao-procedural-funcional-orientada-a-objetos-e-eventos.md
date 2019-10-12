@@ -25,28 +25,6 @@ Também conhecida como **Programação Estruturada** , ela especifica as etapas 
 
 {% highlight bash %}
 #!/bin/sh
-# Exemplo Procedural ou Estruturada
-echo "Insira seu Nome"
-read -n1 RESPOSTA
-mkdir $REPLY
-cd $REPLY
-find $HOME -type f -iname "*.cc" -exec mv {} . \;
-echo "Insira seu Sobrenome"
-read -n1 SOBRENOME
-mkdir $SOBRENOME
-cd $SOBRENOME
-for i in $(grep -o 'http.*' ${CONFIG_PROTECT} | sed 's/\".*//g');
-    do
-        wget -q "$i"; echo "Release $(basename $i)";
-done
-{% endhighlight %}
-
-## Programação Funcional
-
-Trata os programas como avaliando funções matemáticas e evita dados de estado e mutáveis . Faz uso ordenado de funções, mesmo exemplo acima, mas de forma funcional:
-
-{% highlight bash %}
-#!/bin/sh
 # Exemplo Funcional
 
 function insert_the_name()
@@ -73,7 +51,17 @@ function loop_for(){
 function sum(){
     echo "$1" + "$2" | bc
 }
+
+insert_the_name
+enter_lastname
+loop_for
+sum
+
 {% endhighlight %}
+
+## Programação Funcional
+
+Trata os programas como avaliando funções matemáticas e evita dados de estado e mutáveis .
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
