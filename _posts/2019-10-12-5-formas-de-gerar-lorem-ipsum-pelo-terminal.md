@@ -18,9 +18,9 @@ Em design gráfico e editoração, lorem ipsum é um texto utilizado para preenc
 
 Ao contrário da crença popular, o lorem ipsum não é um texto qualquer. Richard McClintock, professor de Latim na Hampden-Sydney College na Virginia, pesquisou uma das mais obscuras palavras em latim, "consectetur", da passagem do texto do lorem ipsum e, em suas pesquisas nas citações da literatura clássica, descobriu que o texto vem das seções 1.10.32 e 1.10.33 do "De Finibus Bonorum et Malorum" (Os extremos do bem e do mal) escrito por Cícero em 45 a.C. Este livro trata da teoria de ética, muito popular durante a Renascença. A primeira linha, "Lorem ipsum dolor sit amet...", encontra-se na seção 1.10.32.
 
-## 1º Forma via [npm]()
+## 1º Forma via [npm](https://www.npmjs.com/)
 
-Essa é uma das formas mais simples, mas lembre-se que você precisa antes possuir o [npm]() instalado na sua máquina.
+Essa é uma das formas mais simples, mas lembre-se que você precisa antes possuir o [npm](https://www.npmjs.com/) instalado na sua máquina.
 
 Instale o [lorem-ipsum](https://www.npmjs.com/package/lorem-ipsum)
 {% highlight bash %}
@@ -33,7 +33,7 @@ Principais comandos:
 
 ## 2º Forma
 
-É uma melhoria da forma anterior, até porque ficar digitando *paragraphs, words, sentences* sem [auto-complete]() é ruim demais, além de deixar os espaços entre os parágrafos ainda mais separados. Crie esse script `vim lorem`
+É uma melhoria da forma anterior, até porque ficar digitando *paragraphs, words, sentences* sem [auto-complete](https://terminalroot.com.br/2019/09/como-funciona-o-auto-complete-no-shell-gnulinux.html) é ruim demais, além de deixar os espaços entre os parágrafos ainda mais separados. Crie esse script `vim lorem`
 {% highlight bash %}
 #!/usr/bin/env bash
 lorem(){
@@ -81,7 +81,7 @@ Outros exemplos:
 
 ## 3º Forma
 
-Também um [Shell Script]() só que além de mais simples, ainda usa um "API"(URL) da <http://metaphorpsum.com/> , logo fica um pouco mais lento: `vim loremipsum`
+Também um [Shell Script](https://terminalroot.com.br/shell) só que além de mais simples, ainda usa um "API"(URL) da <http://metaphorpsum.com/> , logo fica um pouco mais lento: `vim loremipsum`
 {% highlight bash %}
 #!/bin/bash
 loremipsum () {
@@ -95,11 +95,11 @@ loremipsum () {
 loremipsum "$@"
 {% endhighlight %}
 
-Se quiser mova para um diretório do sistema pra ficar como comando rápido do [shell]()
+Se quiser mova para um diretório do sistema pra ficar como comando rápido do [shell](https://terminalroot.com.br/bash)
 
 ### 4º Forma
 
-Se você estiver a biblioteca `lorem-perl` instalada, exemplo no [Ubuntu]() : `sudo apt install libtext-lorem-perl` , basta usar assim, similar a solução que eu criei:
+Se você estiver a biblioteca `lorem-perl` instalada, exemplo no [Ubuntu](https://terminalroot.com.br/2019/10/remaster-ubuntu-buntuwm-linux.html) : `sudo apt install libtext-lorem-perl` , basta usar assim, similar a solução que eu criei:
 {% highlight bash %}
 lorem -p 4 # Cria 4 parágrafos
 lorem -w 2 # Cria 4 palavras
@@ -122,7 +122,7 @@ O ruim é que a saída fica colada no *prompt* , mas você pode criar um alias n
 
 ## 5º Forma
 
-Usando outra ferramenta instalável via [npm](): <https://getlorem.com/>
+Usando outra ferramenta instalável via [npm](https://www.npmjs.com/): <https://getlorem.com/>
 
 Para instalar:
 {% highlight bash %}
