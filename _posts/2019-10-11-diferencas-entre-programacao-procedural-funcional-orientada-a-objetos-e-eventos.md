@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Diferenças entre Programação: Procedural, Funcional, Orientada a Objetos e Eventos"
+title: "Diferenças entre Programação: Procedural, Funcional e Orientada a Objetos e Eventos"
 date: 2019-10-11 20:21:43
 image: '/assets/img/dev/paradigma.jpg'
-description: 'Vamos ver alguns conceitos de programação para que haja uma maior compreensão, pelo menos teórica, em desenvolvimento.'
+description: 'Vamos ver alguns conceitos para que haja uma maior compreensão.'
 tags:
 - linguagem
 - desenvolvimento
