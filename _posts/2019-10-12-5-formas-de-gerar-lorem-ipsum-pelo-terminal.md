@@ -99,7 +99,7 @@ Se quiser mova para um diretório do sistema pra ficar como comando rápido do [
 
 ### 4º Forma
 
-Se você estiver a biblioteca `lorem-perl` instalada, exemplo no [Ubuntu](https://terminalroot.com.br/2019/10/remaster-ubuntu-buntuwm-linux.html) : `sudo apt install libtext-lorem-perl` , basta usar assim, similar a solução que eu criei:
+Se você tiver a biblioteca `lorem-perl` instalada, exemplo no [Ubuntu](https://terminalroot.com.br/2019/10/remaster-ubuntu-buntuwm-linux.html) : `sudo apt install libtext-lorem-perl` , basta usar assim, similar a solução que eu criei:
 {% highlight bash %}
 lorem -p 4 # Cria 4 parágrafos
 lorem -w 2 # Cria 4 palavras
