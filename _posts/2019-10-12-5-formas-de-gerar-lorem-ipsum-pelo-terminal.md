@@ -135,7 +135,7 @@ Exemplo de uso, gerando um parágrafo com 50 palavras: `getlorem --units words -
 
 Eu preferir ficar com a **2º solução** que é a que eu utilizo aqui, mas fica à sua escolha a melhor para seu caso. Para mais informações consulte os links úteis.
 
-### Veja também outros Ipsums ENGRAÇADOS como alternativa! =)
+### Veja também outros Ipsums ENGRAÇADOS como alternativa! 😀️
 + <http://metaphorpsum.com/>
 + <http://compadreipsum.com.br/>
 + <http://mussumipsum.com/>
