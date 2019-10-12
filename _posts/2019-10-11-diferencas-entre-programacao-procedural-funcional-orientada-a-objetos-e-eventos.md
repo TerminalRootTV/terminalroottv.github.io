@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diferenças entre Programação: Procedural, Funcional e Objetos"
+title: "Diferenças entre Programação: Procedural, Funcional e OOP"
 date: 2019-10-11 20:21:43
 image: '/assets/img/dev/paradigma.jpg'
 description: 'Vamos ver alguns conceitos.'
