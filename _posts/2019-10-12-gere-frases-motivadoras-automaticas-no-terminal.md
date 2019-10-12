@@ -72,7 +72,7 @@ Para mais opções use o manual: `man fortune`
 ## Mais opções
 
 + 1 - Se quiser que toda vez que você abra um terminal, apareça uma frase, basta adicionar ao seu `echo 'fortune' >> ~/.bashrc` ou o arquivo de configuração do [Shell](https://terminalroot.com.br/shell) que você utiliza.
-+ 2 - Se quiser que surja uma janela toda vez que você logar. Exemplo se for no [GNOME]:
++ 2 - Se quiser que surja uma janela toda vez que você logar. Exemplo se for no [GNOME](https://www.youtube.com/watch?v=kLMXzIXEqvU):
 + Crie um `frase.desktop` e use, por exemplo o [Yad](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Yad) e crie um script com `yad --title="Frase do dia" --text="<big>$(fortune)</big>"` que vai ser chamado pelo *frase.desktop* e adicione ele pra iniciar na opção **Aplicativos de Inicialização** .
 + 3 - Instale outros *mods* que exibem frases: [Star, Wars](http://www.splitbrain.org/projects/fortunes/starwars), [South Park](http://eol.init1.nl/content/view/44/54/), [Simpsons](http://www.splitbrain.org/projects/fortunes/simpsons), [Kernel Linux](http://fortune-mod-fvl.sourceforge.net/) e outros!
 
