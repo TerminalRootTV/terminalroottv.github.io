@@ -159,7 +159,9 @@ xargs -n 1 curl -O < urls.txt
 </script>
 
 ### Dica 8. Limitar a velocidade do download
+{% highlight bash %}
 curl --limit-rate 100K http://dandosopa.org/downloads/distro.iso -O
+{% endhighlight %}
 
 ### Dica 9. Download com barra de progresso
 {% highlight bash %}
