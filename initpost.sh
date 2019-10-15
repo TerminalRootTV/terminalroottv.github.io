@@ -30,7 +30,6 @@ _skell(){
     echo "date: ${_DATE} ${_TIME}"
     echo "image: '/assets/img/'"
     echo "description:"
-    echo "main-class:"
     echo "tags:"
     echo "---"
     echo
