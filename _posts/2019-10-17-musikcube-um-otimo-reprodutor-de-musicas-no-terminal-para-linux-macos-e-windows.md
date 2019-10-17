@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Musikcube - Um Ótimo Reprodutor de Músicas no Terminal para Linux, macOS e Windows"
+title: "Musikcube - Reprodutor de Músicas no Terminal para Linux, macOS e Windows"
 date: 2019-10-17 11:45:51
-image: '/assets/img/'
+image: '/assets/img/multimidia/musikcube.png'
 description: 'É mais uma opção fácil de instalar e um design interessante e intuitivo.'
 tags:
 - musikcube
