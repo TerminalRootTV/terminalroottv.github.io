@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o Algoface , Uma Inteligência Articial que reconhece seu rosto online"
 date: 2019-10-18 09:05:49
 image: '/assets/img/ai/algoface1.jpg'
-description: 'Ele rastreia 209 pontos de marca facial em tempo real.'
+description: 'Ele rastreia 209 pontos de marca facial em tempo real. 😮'
 tags:
 - algoface
 - intelligence
@@ -18,18 +18,18 @@ tags:
 
 ## Introdução
 
-Ele utiliza um [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) para rastrear e detectar a face e os movimento naturais do rosto humano com a câmera do seu dispositivo, com precisão e robustez. 
+Ele utiliza um [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) para rastrear e detectar a face e os movimento naturais do rosto humano com a câmera 📷️ do seu dispositivo, com precisão e robustez. 
 
-> Segundo a AlgoFace: *We do not collect user data* (em português, Nós não coletamos dados do usuário)
+> Segundo a AlgoFace: *We do not collect user data* (em português, Nós não coletamos dados do usuário 👍️)
 
-Ele rastreia 209 pontos de marca facial em tempo real. A detecção precisa e o rastreamento robusto dos detalhes faciais incluem:
+Ele rastreia 209 pontos de marca facial em tempo real 👨️. A detecção precisa e o rastreamento robusto dos detalhes faciais incluem:
 
 - os cantos dos olhos;
 - a ponta do nariz;
 - o arco das sobrancelhas;
 - e a testa.
 
-O SDK está disponível para aplicativos da Web, móveis e sistemas embarcados.
+O SDK está disponível para aplicativos da Web 💻️, móveis 📱️ e sistemas embarcados 📟️.
 
 ## Utilizando
 
@@ -56,11 +56,11 @@ Veja abaixo o teste que eu fiz com minha webcam:
 
 ![Conheça o Algoface , Uma Inteligência Articial que reconhece seu rosto online](/assets/img/ai/algoface.gif)
 
-Apesar de todos os movimentos que eu fiz, ele manteve os pontos demarcados nos locais do rosto , ignorando até a barba e identificando o limite inferiro da face (o queixo). :O
+Apesar de todos os movimentos que eu fiz, ele manteve os pontos demarcados nos locais do rosto , ignorando até a barba e identificando o limite inferior da face (o queixo). 😮
 
 ## Conclusão
 
-A Inteligência Artificial e a Deep Learning são tecnologias muito inovadoras e que se usarmos de maneira correta e pro bem, teremos grandes avanços na saúde e diversos outros campos, como por exemplo: permite que você entenda melhor sua pele para saber qual maquiagem/cuidados com a pele você pode precisar.
+A Inteligência Artificial e a Deep Learning são tecnologias muito inovadoras e que se usarmos de maneira correta e pro bem, teremos grandes avanços na saúde e diversos outros campos, como por exemplo: permite que você entenda melhor sua pele para saber qual maquiagem/cuidados com a pele você pode precisar. 🙌️
 
 ## Links úteis
 
