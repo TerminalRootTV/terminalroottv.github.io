@@ -31,6 +31,18 @@ Ele rastreia 209 pontos de marca facial em tempo real 👨️. A detecção prec
 
 O SDK está disponível para aplicativos da Web 💻️, móveis 📱️ e sistemas embarcados 📟️.
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Utilizando
 
 Para utilizar, você pode tanto testar online quanto usar uma [API](https://api.algoface.ai/)(nesse caso é necessário efetuar um cadastro no site). 
@@ -45,6 +57,16 @@ Para testar online não precisa de cadastro, basta acessar o endereço: <https:/
 
 + **Upload a photo** - você envia uma foto do seu computador/smartphone para o AlgoFace identificar automática o seu rosto:
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![Upload photo AlgoFace](/assets/img/ai/algoface2.jpg)
 
 + **Choose a model** - Você escolhe a foto de uma das modelos disponíveis no próprio site para testar .
@@ -57,6 +79,17 @@ Veja abaixo o teste que eu fiz com minha webcam:
 ![Conheça o Algoface , Uma Inteligência Articial que reconhece seu rosto online](/assets/img/ai/algoface.gif)
 
 Apesar de todos os movimentos que eu fiz, ele manteve os pontos demarcados nos locais do rosto , ignorando até a barba e identificando o limite inferior da face (o queixo). 😮
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:50px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Conclusão
 
