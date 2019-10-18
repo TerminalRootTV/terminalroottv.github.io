@@ -55,7 +55,7 @@ Para testar online não precisa de cadastro, basta acessar o endereço: <https:/
 ![Permisão para usar a câmera AlgoFace](/assets/img/ai/algoface4.jpg)
 ![AlgoFace](/assets/img/ai/algoface6.jpg)
 
-+ **Upload a photo** - você envia uma foto do seu computador/smartphone para o AlgoFace identificar automática o seu rosto:
++ **Upload a photo** - você envia uma foto do seu computador/smartphone para o AlgoFace identificar automaticamente o seu rosto:
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
