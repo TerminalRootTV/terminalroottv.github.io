@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça o Algoface , Uma Inteligência Articial que reconhece seu rosto online"
+title: "Conheça o Algoface , Uma Inteligência Artificial que reconhece seu rosto online"
 date: 2019-10-18 09:05:49
 image: '/assets/img/ai/algoface1.jpg'
 description: 'Ele rastreia 209 pontos de marca facial em tempo real. 😮'
