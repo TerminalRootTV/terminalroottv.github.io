@@ -113,7 +113,7 @@ Message.Info("Olá, Mundo!")
 {% endhighlight %}
 
 
-###  SQL
+###  SQL
 {% highlight c %}
 SELECT "Olá, Mundo!";
 {% endhighlight %}
