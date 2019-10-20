@@ -82,6 +82,7 @@ len     equ $ - msg
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
 
 Rodar: `nasm -f elf64 -o hello-world.o hello-world.asm && ld hello-world.o -o hello-world && ./hello-world`
+
 Exemplo: <http://asm.sourceforge.net/intro/hello.html>
 
 ***
