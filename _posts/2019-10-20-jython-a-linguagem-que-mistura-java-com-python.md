@@ -3,7 +3,7 @@ layout: post
 title: "Jython - A linguagem que mistura Java com Python"
 date: 2019-10-20 12:37:39
 image: '/assets/img/dev/jython/jython.jpg'
-description: 'Essa linguagem une duas boas ferramentas numa só.'
+description: 'Essa linguagem une duas boas ferramentas numa só. 🐍'
 tags:
 - jython
 - python
