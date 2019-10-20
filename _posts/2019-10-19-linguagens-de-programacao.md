@@ -210,7 +210,7 @@ A linguagem de script do Vim, conhecida como Vimscript, é uma linguagem imperat
 
 Rodar: `vim -u hello-world.vim +qall`
 
-> Curso de Vim e VimScript: <terminalroot.com.br/vim>
+> Curso de Vim e VimScript: <https://terminalroot.com.br/vim>
 
 ***
 
