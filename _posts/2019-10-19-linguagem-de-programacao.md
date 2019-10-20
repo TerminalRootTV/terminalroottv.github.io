@@ -556,7 +556,7 @@ Rodar: `valac hello-world.vala -o hello-world`
 ### 24. C#
 <http://msdn.microsoft.com/pt-br/vcsharp/default.aspx>
 
-> Arquivo: `vim hello-world.EXT`
+> Arquivo: `vim hello-world.cs`
 
 C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. 
 {% highlight c %}
@@ -575,8 +575,6 @@ namespace HelloWorldApp {
 + <https://github.com/gentoo/dotnet>
 + <https://wiki.gentoo.org/wiki/Project:Dotnet>
 + <http://en.terminalroot.com.br/how-to-install-programs-via-layman-in-gentoo/>
-
-Rodar: `RUN hello-world.EXT`
 
 > Exemplo: <https://docs.microsoft.com/pt-br/dotnet/csharp/>
 
