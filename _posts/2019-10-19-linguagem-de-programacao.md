@@ -278,7 +278,7 @@ Rodar: `perl hello-world.pl` ou `chmod +x hello-world.pl && ./hello-world.pl`
 ### 11. PHP
 <https://www.php.net/>
 
-> Arquivo: `vim hello-world.EXT`
+> Arquivo: `vim hello-world.php`
 
 PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.
 {% highlight php %}
