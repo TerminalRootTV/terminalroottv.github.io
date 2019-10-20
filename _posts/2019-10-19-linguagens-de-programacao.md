@@ -51,8 +51,8 @@ Segue:
 
 ***
 
-## ![Assembly](/assets/img/dev/langs/assembly.png)
-### 01. Assembly
+
+### ![Assembly](/assets/img/dev/langs/assembly.png) 01. Assembly
 <https://curlie.org/Computers/Programming/Languages/Assembly/>
 
 > Arquivo: `vim hello-world.asm`
