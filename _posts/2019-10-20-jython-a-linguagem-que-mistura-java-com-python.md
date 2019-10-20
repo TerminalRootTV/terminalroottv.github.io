@@ -81,8 +81,10 @@ data-ad-slot="8549252987"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 > Nessa 4º imagem ↓ parte você ainda poderia escolhe um diretório personalizado, exemplo de de `~/.config/jython`, seria o mais ideal para não poluir sua pasta pessoal.
 ![Jython Wizard](/assets/img/dev/jython/jython04.png)
+
 ![Jython Wizard](/assets/img/dev/jython/jython05.png)
 ![Jython Wizard](/assets/img/dev/jython/jython06.png)
 ![Jython Wizard](/assets/img/dev/jython/jython07.png)
@@ -114,6 +116,7 @@ Salve e rode da seguinte maneira:
 {% highlight bash %}
 jython soma.py
 {% endhighlight %}
+
 > No [Shell](https://terminalroot.com.br/shell) irá aparecer as saídas do programa, mas não significa que é um *problema*, e sim que está enviando os *outputs* corretamente.
 
 ![Jython Wizard](/assets/img/dev/jython/jython11.png)
