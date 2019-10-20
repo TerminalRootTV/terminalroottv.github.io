@@ -502,7 +502,7 @@ Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem d
 puts "Olá, Mundo!"
 {% endhighlight %}
 
-> *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+> *Precisa possuir o Ruby instalado.*
 
 Rodar: `ruby hello-world.rb`
 
