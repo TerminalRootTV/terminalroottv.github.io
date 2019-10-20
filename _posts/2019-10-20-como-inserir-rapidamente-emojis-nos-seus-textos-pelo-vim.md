@@ -59,6 +59,8 @@ imap <c-v> <Plug>(emoji-start-complete)
 
 Após isso, é só fechar e abrir qualquer documento e no modo de inserção tecle **Ctrl + v** onde você quiser inserir. Nesse momento estou escrevendo essa postagem com o [Vim](https://terminalroot.com.br/vim) e vou inserir um emoji 💯 .
 
+![Como Inserir rapidamente Emojis nos seus textos pelo Vim](/assets/img/vim/emoji-complete-vim.jpg "Como Inserir rapidamente Emojis nos seus textos pelo Vim")
+
 Show, né ?! Quer saber como criar plugins pro [Vim](https://terminalroot.com.br/vim) , utilizar como um ninja , personalizar ele totalmente à sua maneira, além de dicas, games, plugins e uma *porrada* de dicas ? Adquira o nosso curso de [Vim Moderno e Vimscript](https://terminalroot.com.br/vim) clicando nesse link: <https://terminalroot.com.br/vim> . Ou ,se preferir, adquira pela [Udemy](https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/) , clicando nesse link: <https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/> .
 > A Udemy possui algumas políticas para upload de arquivos, no entanto, nem todos os arquivos do curso adquirido por aqui estão disponíveis lá na versão da Udemy.
 
