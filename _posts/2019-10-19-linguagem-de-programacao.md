@@ -228,7 +228,7 @@ SELECT "Olá, Mundo!"
 
 > *Precisa possuir o MySQL para esse exemplo: [MySQL](https://www.mysql.com).*
 
-Rodar: ` mysql -u root -p < hello-world.sql` ou diretamente: `mysql -u root -p -e "SELECT 'Olá, Mundo'"`
+Rodar: `mysql -u root -p < hello-world.sql` ou diretamente: `mysql -u root -p -e "SELECT 'Olá, Mundo'"`
 
 > Usos: <https://terminalroot.com.br/2011/10/curso-certificacao-linux-lpi-102.html>
 
