@@ -571,5 +571,5 @@ Rodar: `gambas hello-world.gambas`
 ***
 
 <style>
-hr {max-width: 500px;}
+hr {max-width: 900px; border: 3px solid silve;}
 </style>
