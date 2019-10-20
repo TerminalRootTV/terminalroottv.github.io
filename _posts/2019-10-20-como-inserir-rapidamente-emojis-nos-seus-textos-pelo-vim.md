@@ -27,7 +27,7 @@ Plugin 'kyuhi/vim-emoji-complete'
 Após isso , rode o comando:
 
 {% highlight vim %}
-:PluginIinstall
+:PluginInstall
 {% endhighlight %}
 
 E pronto!
