@@ -415,7 +415,7 @@ video {
 	margin: 0 auto 1rem;
 	border-left: 8px solid silver;
 }
-hr {max-width: 50%; border: 3px solid silver; margin-bottom: 25px;}
+hr {max-width: 50%; border: 3px solid silver; }
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/
