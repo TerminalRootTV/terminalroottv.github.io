@@ -257,7 +257,7 @@
 		
 }
 
-#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe, #post-page > blockquote {
+#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe {
 
 	max-width: 60rem;
 	display: block;
@@ -408,6 +408,14 @@ video {
     width: 100%;
 }
 
+#post-page > blockquote {
+	max-width: 50rem;
+	display: block;
+	padding: 0 0.25rem;
+	margin: 0 auto 1rem;
+	border-left: 8px solid silver;
+}
+hr {max-width: 50%; border: 3px solid silver; margin-top: 20px;}
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/

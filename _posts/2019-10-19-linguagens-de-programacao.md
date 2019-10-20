@@ -601,6 +601,5 @@ Rodar: `gambas hello-world.gambas`
 ***
 
 <style>
-hr {max-width: 900px; border: 3px solid silver; margin-top: 20px;}
-blockquote {border-left: 3px solid silver;}
+hr {max-width: 50%; border: 3px solid silver; margin-top: 20px;}
 </style>
