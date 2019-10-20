@@ -544,7 +544,7 @@ class Sample : Object {
 }
 {% endhighlight %}
 
-> *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+> *Precisa possuir o Vala instalado.*
 
 Rodar: `valac hello-world.vala -o hello-world`
 
