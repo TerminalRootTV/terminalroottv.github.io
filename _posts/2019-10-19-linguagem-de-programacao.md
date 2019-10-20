@@ -325,7 +325,7 @@ JavaScript, frequentemente abreviado como JS, é uma linguagem de programação 
 console.log("Olá, Mundo!");
 {% endhighlight %}
 
-> *Precisa possuir o [Node.js]() instalado, ou rodar num [Navegador da Web].*
+> *Precisa possuir o JDK instalado.*
 
 Rodar: `node hello-world.js`
 
