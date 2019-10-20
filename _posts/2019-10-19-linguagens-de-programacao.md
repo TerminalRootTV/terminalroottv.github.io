@@ -80,6 +80,7 @@ len     equ $ - msg
 {% endhighlight %}
 
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+
 Rodar: `nasm -f elf64 -o hello-world.o hello-world.asm && ld hello-world.o -o hello-world && ./hello-world`
 Exemplo: <http://asm.sourceforge.net/intro/hello.html>
 
@@ -102,6 +103,7 @@ int main() {
 {% endhighlight %}
 
 > *Precisa possuir um compilador instalado, ex.: [gcc](https://gcc.gnu.org/).*
+
 Rodar: `gcc hello-world.c -o hello-world.o && ./hello-world.o`
 
 > Exemplo: <https://terminalroot.com.br/2011/10/ola-mundo.html>
@@ -124,6 +126,7 @@ return 0;
 {% endhighlight %}
 
 > *Precisa possuir um compilador instalado, ex.: [gcc](https://gcc.gnu.org/).*
+
 Rodar: `g++ hello-world.cpp -o hello-world.o && ./hello-world.o`
 
 > Exemplo: <https://en.cppreference.com/book/intro/hello_world>
@@ -148,6 +151,7 @@ func main() {
 {% endhighlight %}
 
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+
 Rodar: `go build hello-world.go && ./hello-world`
 
 > Exemplo: <https://tour.golang.org/welcome/1>
@@ -164,6 +168,7 @@ O bash é uma linguagem de script ou interpretador de comandos, um entre os dive
 #!/bin/bash
 echo 'Olá, Mundo!'
 {% endhighlight %}
+
 Rodar: `bash hello-world.sh` , `sh hello-world.sh` , `source hello-world.sh` , `chmod +x ./hello-world.sh && ./hello-world.sh`
 
 > Exemplo: <http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-2.html>
@@ -183,6 +188,7 @@ BEGIN {print "Olá, Mundo!"}
 {% endhighlight %}
 
 > *Existem diversas variantes do Awk: [Saiba mais aqui](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html).*
+
 Rodar: `awk -f hello-world.awk`
 
 > Exemplo: <https://www.gnu.org/software/gawk/manual/gawk.html#BEGIN_002fEND>
@@ -201,6 +207,7 @@ A linguagem de script do Vim, conhecida como Vimscript, é uma linguagem imperat
 {% endhighlight %}
 
 > *Precisa possuir [vim](https://www.vim.org/) instalado.*
+
 Rodar: `vim -u hello-world.vim +qall`
 
 > Curso de Vim e VimScript: <terminalroot.com.br/vim>
@@ -219,6 +226,7 @@ SELECT "Olá, Mundo!"
 {% endhighlight %}
 
 > *Precisa possuir o MySQL para esse exemplo: [MySQL](https://www.mysql.com).*
+
 Rodar: ` mysql -u root -p < hello-world.sql` ou diretamente: `mysql -u root -p -e "SELECT 'Olá, Mundo'"`
 
 > Usos: <https://terminalroot.com.br/2011/10/curso-certificacao-linux-lpi-102.html>
@@ -238,6 +246,7 @@ print "Olá, Mundo!"
 {% endhighlight %}
 
 > *Precisa possuir Lua instalada.*
+
 Rodar: `lua hello-world.lua` ou `chmod +x hello-world.lua && ./hello-world.lua`
 
 > Exemplo: <https://terminalroot.com.br/2016/11/blog-linux-lua.html>
@@ -257,6 +266,7 @@ print "Olá, Mundo!\n";
 {% endhighlight %}
 
 > *Precisa possuir Perl instalado.*
+
 Rodar: `perl hello-world.pl` ou `chmod +x hello-world.pl && ./hello-world.pl`
 
 > Exemplo: <https://metacpan.org/pod/Perl::Tutorial::HelloWorld>
@@ -276,6 +286,7 @@ PHP (um acrônimo recursivo para "PHP: Hypertext Preprocessor", originalmente Pe
 {% endhighlight %}
 
 > *Precisa possuir PHP instalado.*
+
 Rodar: `php hello-world.php` ou `chmod +x hello-world.php && ./hello-world.php`
 
 > Exemplo: <https://terminalroot.com.br/2011/12/como-criar-chat-com-sockets-em-php-no.html>
@@ -295,6 +306,7 @@ print("Olá, Mundo!")
 {% endhighlight %}
 
 > *É possível rodar Python diretamente no prompt: `python`.*
+
 Rodar: `python hello-world.py` ou `chmod +x hello-world.py && ./hello-world.py`
 
 > Exemplo: <https://terminalroot.com.br/2016/12/script-basico-de-python-para-aprendizado.html>
@@ -313,6 +325,7 @@ console.log("Olá, Mundo!");
 {% endhighlight %}
 
 > *Precisa possuir o [Node.js]() instalado, ou rodar num [Navegador da Web].*
+
 Rodar: `node hello-world.js`
 
 > Exemplo: <https://terminalroot.com.br/2011/11/alguns-codigos-simples-de-javascript.html>
@@ -340,6 +353,7 @@ class OlaMundo {
 {% endhighlight %}
 
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+
 Rodar: `javac hello-world.java && java OlaMundo` , o **javac** cria um arquivo com o nome da *classe*(dentro do mesmo diretório onde você o rodou), nesse caso **OlaMundo** com a extensão **.class**(`OlaMundo.class`) , mas pra rodar não informa o *.class* .
 
 > OpenJDK: <https://openjdk.java.net/>
@@ -360,6 +374,7 @@ fn main() {
 {% endhighlight %}
 
 > *Precisa possuir o compilador: [rustc](https://doc.rust-lang.org/rustc/index.html).*
+
 Rodar: `rustc hello-world.rs && ./hello-world`
 
 > Exemplo: <https://doc.rust-lang.org/stable/rust-by-example/hello.html>
@@ -378,6 +393,7 @@ print("Olá, Mundo!")
 {% endhighlight %}
 
 > *Precisa possuir o [swift](https://github.com/apple/swift).*
+
 Rodar: `swift build && .build/debug/hello-world` , isso dentro de um diretório com Sources
 
 > Exemplo: <https://swift.org/getting-started/#installing-swift>
@@ -398,6 +414,7 @@ main() {
 {% endhighlight %}
 
 > *Precisa de [dependências](https://dart.dev/tutorials/server/get-started).*
+
 Rodar: `dart hello-world.dart`
 
 > Exemplo: <https://dart.dev/#try-dart>
@@ -421,6 +438,7 @@ fun main() {
 {% endhighlight %}
 
 > *Precisa possuir [dependências](https://kotlinlang.org/docs/tutorials/command-line.html).*
+
 Rodar: `kotlinc hello-world.kt -include-runtime -d hello-world.jar && java -jar hello-world.jar`
 
 > Exemplo: <https://kotlinlang.org/docs/tutorials/kotlin-for-py/compiling-and-running.html>
@@ -444,6 +462,7 @@ OlaMundo()
 {% endhighlight %}
 
 > *Precisa possuir [R](https://cran.r-project.org/mirrors.html) instalado.*
+
 Rodar: `Rscript hello-world.r`
 
 > Exemplo: <https://cran.r-project.org/doc/manuals/r-release/R-intro.html>
@@ -463,6 +482,7 @@ println("Olá, Mundo!")
 {% endhighlight %}
 
 > *Para usar a forma compilada precisa do compilador [JIT](https://www.gnu.org/software/lightning/).*
+
 Rodar: `julia hello-world.jl`
 
 > Exemplo: <https://docs.julialang.org/en/v1/manual/getting-started/>
@@ -482,6 +502,7 @@ puts "Olá, Mundo!"
 {% endhighlight %}
 
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+
 Rodar: `ruby hello-world.rb`
 
 > Exemplo: <https://www.ruby-lang.org/pt/documentation/>
@@ -500,6 +521,7 @@ IO.puts "Hello world from Elixir"
 {% endhighlight %}
 
 > *Precisa possuir Elixir instalado.*
+
 Rodar: `elixir hello-world.exs`
 
 > Exemplo: <https://elixir-lang.org/getting-started/introduction.html>
@@ -522,6 +544,7 @@ class Sample : Object {
 {% endhighlight %}
 
 > *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+
 Rodar: `valac hello-world.vala -o hello-world`
 
 > Exemplo: <https://www.vala-project.org/doc/vala/Overview.html#Getting_started>
@@ -551,6 +574,7 @@ namespace HelloWorldApp {
 + <https://github.com/gentoo/dotnet>
 + <https://wiki.gentoo.org/wiki/Project:Dotnet>
 + <http://en.terminalroot.com.br/how-to-install-programs-via-layman-in-gentoo/>
+
 Rodar: `RUN hello-world.EXT`
 
 > Exemplo: <https://docs.microsoft.com/pt-br/dotnet/csharp/>
@@ -569,6 +593,7 @@ Message.Info("Olá, Mundo!")
 {% endhighlight %}
 
 > *Precisa possuir Gambas, ex.: `sudo apt install gambas3` <https://www.youtube.com/watch?v=xezNqM2zrbY>.*
+
 Rodar: `gambas hello-world.gambas`
 
 > Exemplo: <https://terminalroot.com.br/2016/10/gambas-o-visual-basic-open-source-para.html>
