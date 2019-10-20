@@ -49,7 +49,7 @@ data-full-width-responsive="true"></ins>
 
 Bom, no meio de tantos maps, remap, noremaps ,... O [emoji-complete](https://www.vim.org/scripts/script.php?script_id=5058) não escolhe a tecla de auto-completar para você, ou seja, você precisa analisar qual para o seu caso está disponivel.
 
-No meu caso eu escolhi o **Ctrl + v** e adicinei essas linhas ao meu arquivo de configuração:
+No meu caso eu escolhi o **Ctrl + v** e adicionei essas linhas ao meu arquivo de configuração:
 
 {% highlight vim %}
 " emoji-complete
