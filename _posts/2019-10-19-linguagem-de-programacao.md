@@ -151,7 +151,7 @@ func main() {
 }
 {% endhighlight %}
 
-> *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
+> *Precisa possuir o go instalado.*
 
 Rodar: `go build hello-world.go && ./hello-world`
 
