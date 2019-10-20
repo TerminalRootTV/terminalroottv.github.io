@@ -3,7 +3,7 @@ layout: post
 title: "Olá Mundo em 25 Linguagens de Programação: Proposta, Docs e Links."
 date: 2019-10-19 13:35:40
 image: '/assets/img/dev/linguagens-de-programacao-2.jpg'
-description: 'Bom pra você que quer decidir qual aprender para seus projetos pessoais.'
+description: 'Bom pra você que quer decidir qual aprender para seus projetos pessoais. '
 tags:
 - programacao
 - desenvolvimento
