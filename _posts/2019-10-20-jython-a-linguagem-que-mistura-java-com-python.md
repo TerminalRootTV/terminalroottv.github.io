@@ -14,7 +14,7 @@ tags:
 
 ![Jython - A linguagem que mistura Java com Python](/assets/img/dev/jython/jython.jpg)
 
-Essa linguagem une duas boas ferramentas numa só.
+Essa linguagem une duas boas ferramentas numa só. 🐍
 
 ## Introdução
 
