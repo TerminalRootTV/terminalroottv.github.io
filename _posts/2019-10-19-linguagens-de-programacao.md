@@ -37,7 +37,7 @@ tags:
 
 ![Olá Mundo em 25 Linguagens de Programação: Proposta, Docs e Links.](/assets/img/dev/linguagens-de-programacao.jpg)
 
-Selecione as linguagens mais utilizadas no mercado com dados que podem lhe fazer estudar/conehcer melhor para fazer sua escolha, seja para o mercado de trabalho ou para construção de projetos pessoais ou de negócios:
+Selecionei as linguagens mais utilizadas no mercado com dados que podem lhe fazer estudar/conhecer melhor para fazer sua escolha, seja para o mercado de trabalho ou para construção de projetos pessoais ou de negócios:
 
 + Uma breve descrição e/ou curiosidade de cada uma;
 + a extensão que cada uma usa;
