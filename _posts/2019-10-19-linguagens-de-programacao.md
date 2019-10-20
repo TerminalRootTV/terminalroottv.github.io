@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Olá Mundo em 28 Linguagens de Programação: Proposta, Docs e Links."
+title: " Olá Mundo em 28 Linguagens de Programação: Proposta, Docs e Links."
 date: 2019-10-19 13:35:40
 image: '/assets/img/'
-description: 'Bom pra você que quer decidir qual aprender para seus projetos pessoais ou business.'
+description: 'Bom pra você que quer decidir qual aprender para seus projetos pessoais ou business. '
 tags:
 - programacao
 - desenvolvimento
