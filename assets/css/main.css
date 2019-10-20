@@ -408,7 +408,7 @@ video {
     width: 100%;
 }
 
-
+blockquote {border-left: 4px solid silver; padding-left: 10px;}
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/
