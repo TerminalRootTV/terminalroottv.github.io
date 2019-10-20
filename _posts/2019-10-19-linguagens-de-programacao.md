@@ -2,7 +2,7 @@
 layout: post
 title: "Olá Mundo em 25 Linguagens de Programação: Proposta, Docs e Links."
 date: 2019-10-19 13:35:40
-image: '/assets/img/'
+image: '/assets/img/dev/linguagens-de-programacao.jpg'
 description: 'Bom pra você que quer decidir qual aprender para seus projetos pessoais ou business.'
 tags:
 - programacao
@@ -34,6 +34,8 @@ tags:
 - csharp
 - gambas
 ---
+
+![Olá Mundo em 25 Linguagens de Programação: Proposta, Docs e Links.](/assets/img/dev/linguagens-de-programacao.jpg)
 
 Selecione as linguagens mais utilizadas no mercado com dados que podem lhe fazer estudar/conehcer melhor para fazer sua escolha, seja para o mercado de trabalho ou para construção de projetos pessoais ou de negócios:
 
