@@ -600,6 +600,3 @@ Rodar: `gambas hello-world.gambas`
 
 ***
 
-<style>
-hr {max-width: 50%; border: 3px solid silver; margin-top: 20px;}
-</style>
