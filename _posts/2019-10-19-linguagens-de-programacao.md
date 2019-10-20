@@ -48,6 +48,9 @@ Selecione as linguagens mais utilizadas no mercado com dados que podem lhe fazer
 
 Segue:
 
+
+***
+
 ## ![Assembly](/assets/img/dev/langs/assembly.png)
 ### 01. Assembly
 <https://curlie.org/Computers/Programming/Languages/Assembly/>
