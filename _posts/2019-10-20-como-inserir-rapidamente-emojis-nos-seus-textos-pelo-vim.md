@@ -52,8 +52,8 @@ Bom, no meio de tantos maps, remap, noremaps ,... O [emoji-complete](https://www
 No meu caso eu escolhi o **Ctrl + v** e adicinei essas linhas ao meu arquivo de configuração:
 
 {% highlight vim %}
-" emoji-complete                                                                                                                                           
-let g:emoji_complete_overwrite_standard_keymaps = 0                                                                   
+" emoji-complete
+let g:emoji_complete_overwrite_standard_keymaps = 0
 imap <c-v> <Plug>(emoji-start-complete)
 {% endhighlight %}
 
