@@ -298,7 +298,7 @@ Rodar: `php hello-world.php` ou `chmod +x hello-world.php && ./hello-world.php`
 ### 12. Python
 <https://www.python.org/>
 
-> Arquivo: `vim hello-world.EXT`
+> Arquivo: `vim hello-world.py`
 
 Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
 {% highlight python %}
