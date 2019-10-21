@@ -9,7 +9,7 @@ description: 'Terminal Root é Open Source.'
 
 Se você  [clonar](https://terminalroot.com.br/2019/09/como-clonar-somente-um-subdiretorio-com-git-ou-svn.html) o blog , na raiz do blog tem um script: `./initpost` . Pra fazer uma postagem é só usar assim:
 
-Logue no seu [GitHub](https://github.com/login) , depois vá até o **repositório**: <https://github.com/TerminalRootTV/terminalroottv.github.io> e clique em **fork** , depois **clone** o seu **repositório** que vc criou o **fork**
+Logue no seu [GitHub](https://github.com/login) , depois vá até o **repositório**: <https://github.com/TerminalRootTV/terminalroottv.github.io> e clique em **fork** , depois **clone** o seu **repositório** que vc criou o **fork** .
 
 {% highlight bash %}
 git clone https://github.com/SEU_REPOSITORIO/terminalroottv.github.io
@@ -31,7 +31,7 @@ E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar
 
 Daí eu vejo o **pull**, talvez faça uns ajustes e publico.
 
-Pra exibir códigos use a tag: **{% highlight linguagem %}** e feche com **{% endhighlight %}**
+Pra exibir códigos use a tag: **{**% highlight linguagem %**}** e feche com **{**% endhighlight %**}**
 
 Exemplo se for BASH: 
 
