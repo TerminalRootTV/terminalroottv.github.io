@@ -40,7 +40,7 @@ Pra exibir códigos use a tag: **{****% highlight linguagem %****}**
 
 E feche com **{****% endhighlight %****}**
 
-Exemplo se for BASH: 
+Exemplo se for [BASH](https://terminalroot.com.br/bash): 
 ![Modelo Highlight para Bash](/assets/img/opensource/highlight.png "Modelo Highlight para Bash")
 
 Preencha o **.md** com **3 tags no mínimo** de acordo como tem [esse exemplo](https://git.io/JeRGk) que eu enviei , use ele como esboço!
