@@ -416,7 +416,7 @@ video {
 	border-left: 8px solid silver;
 }
 hr {max-width: 50%; border: 3px solid silver; }
-table {border:none;}
+#post-page > table {border:1px solid #fff;}
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/
