@@ -58,7 +58,7 @@ Antes de criar faça sempre um git pull [Curso Gratuito de Git para Iniciantes](
 
 por
 
-{% highlight yaml %}
+{% highlight txt %}
 author: 'Seu Nome'
 image_author: '/assets/img/about/sua_imagem.jpg'
 url_author: 'https://seudominio.com'
