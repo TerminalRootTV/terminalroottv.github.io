@@ -18,43 +18,43 @@ __grep__ é um utilitário de linha de comando para procurar conjuntos de dados 
 
 
 
-<table border="1">
-
-<tbody>
-<tr><td><b><span style="color: blue;">Caracter</span></b><span style="background-color: #274e13;"></span></td><td><b><span style="color: blue;">Descrição</span></b></td></tr>
-<tr><td>.</td><td>Qualquer letra</td></tr>
-<tr><td>^</td><td>início da linha</td></tr>
-<tr><td>$</td><td>final da linha</td></tr>
-<tr><td>[xyz]</td><td>Qualquer das letras dentro dos colchetes</td></tr>
-<tr><td>[^xyz]</td><td>Qualquer letra fora as dentro dos colchetes</td></tr>
-<tr><td>[t-z]</td><td>Qualquer das letras entre t e z</td></tr>
-<tr><td>z* </td><td>Letra z zero ou mais vezes</td></tr>
-<tr><td>z+ </td><td>Letra z uma ou mais vezes</td></tr>
-<tr><td>?{0,1}</td><td>Pode aparecer ou não (opcional)</td></tr>
-<tr><td>*{0,}</td><td>Pode aparecer em qualquer quantidade</td></tr>
-<tr><td>+{1,}</td><td>Deve aparecer no mínimo uma vez</td></tr>
-<tr><td>a{2}</td><td>Casa a letra 'a' duas vezes</td></tr>
-<tr><td>a{2,4}</td><td>Casa a letra 'a' de duas a quatro vezes</td></tr>
-<tr><td>a{2,}</td><td>Casa a letra 'a' no mínimo duas vezes</td></tr>
-<tr><td>.*</td><td>Casa qualquer coisa, é o tudo e o nada</td></tr>
-<tr><td>^</td><td>início da linha</td></tr>
-<tr><td>$</td><td>final da linha</td></tr>
-<tr><td>[abc]</td><td>casa com os caracteres a, b e c</td></tr>
-<tr><td>[a-c]</td><td>casa com os caracteres a, b e c</td></tr>
-<tr><td>[^abd]</td><td>não casa com os caracteres a, b e d</td></tr>
-<tr><td>(um|dois)</td><td>casa com as palavras um e dois</td></tr>
-<tr><td>Repetições</td></tr>
-<tr><td>a{2}</td><td>casa com a letra “a” duas vezes</td></tr>
-<tr><td>a{2,5}</td><td>casa com a letra “a” duas a cinco vezes</td></tr>
-<tr><td>a{2,}</td><td>casa com a letra “a” duas vezes ou mais</td></tr>
-<tr><td>a?</td><td>casa com “a” letra a zero vezes ou uma</td></tr>
-<tr><td>a*</td><td>casa com a letra “a” zeros vezes ou mais</td></tr>
-<tr><td>a+</td><td>casa com a letra “a” uma vez ou mais</td></tr>
-<tr><td>Curingas</td></tr>
-<tr><td>.</td><td>casa com qualquer caracter uma vez</td></tr>
-<tr><td>.*</td><td>casa com qualquer caracter várias vezes</td></tr>
-<tr><td>(esse|aquele)</td><td>Casa as palavras 'esse' ou 'aquele'</td></tr>
-</tbody></table>
+<table class="table table-bordered">
+    <tbody>
+        <tr><td>Caracter</td><td>Descrição</td></tr>
+        <tr><td>.</td><td>Qualquer letra</td></tr>
+        <tr><td>^</td><td>início da linha</td></tr>
+        <tr><td>$</td><td>final da linha</td></tr>
+        <tr><td>[xyz]</td><td>Qualquer das letras dentro dos colchetes</td></tr>
+        <tr><td>[^xyz]</td><td>Qualquer letra fora as dentro dos colchetes</td></tr>
+        <tr><td>[t-z]</td><td>Qualquer das letras entre t e z</td></tr>
+        <tr><td>z* </td><td>Letra z zero ou mais vezes</td></tr>
+        <tr><td>z+ </td><td>Letra z uma ou mais vezes</td></tr>
+        <tr><td>?{0,1}</td><td>Pode aparecer ou não (opcional)</td></tr>
+        <tr><td>*{0,}</td><td>Pode aparecer em qualquer quantidade</td></tr>
+        <tr><td>+{1,}</td><td>Deve aparecer no mínimo uma vez</td></tr>
+        <tr><td>a{2}</td><td>Casa a letra 'a' duas vezes</td></tr>
+        <tr><td>a{2,4}</td><td>Casa a letra 'a' de duas a quatro vezes</td></tr>
+        <tr><td>a{2,}</td><td>Casa a letra 'a' no mínimo duas vezes</td></tr>
+        <tr><td>.*</td><td>Casa qualquer coisa, é o tudo e o nada</td></tr>
+        <tr><td>^</td><td>início da linha</td></tr>
+        <tr><td>$</td><td>final da linha</td></tr>
+        <tr><td>[abc]</td><td>casa com os caracteres a, b e c</td></tr>
+        <tr><td>[a-c]</td><td>casa com os caracteres a, b e c</td></tr>
+        <tr><td>[^abd]</td><td>não casa com os caracteres a, b e d</td></tr>
+        <tr><td>(um|dois)</td><td>casa com as palavras um e dois</td></tr>
+        <tr><td colspan="2">Repetições</td></tr>
+        <tr><td>a{2}</td><td>casa com a letra “a” duas vezes</td></tr>
+        <tr><td>a{2,5}</td><td>casa com a letra “a” duas a cinco vezes</td></tr>
+        <tr><td>a{2,}</td><td>casa com a letra “a” duas vezes ou mais</td></tr>
+        <tr><td>a?</td><td>casa com “a” letra a zero vezes ou uma</td></tr>
+        <tr><td>a*</td><td>casa com a letra “a” zeros vezes ou mais</td></tr>
+        <tr><td>a+</td><td>casa com a letra “a” uma vez ou mais</td></tr>
+        <tr><td colspan="2">Curingas</td></tr>
+        <tr><td>.</td><td>casa com qualquer caracter uma vez</td></tr>
+        <tr><td>.*</td><td>casa com qualquer caracter várias vezes</td></tr>
+        <tr><td>(esse|aquele)</td><td>Casa as palavras 'esse' ou 'aquele'</td></tr>
+    </tbody>
+</table>
 
 ## Exemplos
 
