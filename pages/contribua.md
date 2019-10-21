@@ -34,16 +34,16 @@ E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar
 
 Daí eu vejo o **pull**, talvez faça uns ajustes e publico.
 
-Pra exibir códigos use a tag: **{**% highlight linguagem %**}** e feche com **{**% endhighlight %**}**
+Pra exibir códigos use a tag: **{% highlight nome_da_linguagem %}** e feche com **{**% endhighlight %**}**
 
 Exemplo se for BASH: 
 
-```sh
+{% highlight bash %}
 {\% highlight bash \%}
 #!/bin/bash
 echo "Meu código"
 {\% endhighlight \%}
-```
+{% endhighlight %}
 
 Preencha o **.md** com **3 tags no mínimo** de acordo como tem esse exemplo que eu enviei , use ele como esboço.
 
