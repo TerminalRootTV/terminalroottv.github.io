@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instale um Visualizar Gráfico de Música no seu Linux"
+title: "Instale um Visualizador Gráfico de Música no seu Linux"
 date: 2019-10-21 18:11:28
 image: '/assets/img/multimidia/vis.png'
 description: 'Mais uma opção muito boa para exibição de gráficos da áudio. 🎼️'
