@@ -20,13 +20,15 @@ cd terminalroottv.github.io/
 ./initpost -c "Titulo da  minha postagem"
 {% endhighlight %}
 
-Automáticamente será criado um arquivo **.md**([Markdown])  dentro do diretório **_posts/** e você pode editá-lo em [Markdown] como sua  postagem.
+Automáticamente será criado um arquivo **.md**( [Markdown](https://terminalroot.com.br/2016/12/markdown.html) )  dentro do diretório **_posts/** e você pode editá-lo em [Markdown](https://terminalroot.com.br/2016/12/markdown.html) como sua  postagem.
 
 {% highlight bash %}
 vim _posts/2019-09-14-titulo-da-minha-postagem.md
 {% endhighlight %}
 
 E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html) → <https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html>.
+
+<iframe width="920" height="400" src="https://www.youtube.com/embed/dSUT0Y7suPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Veja esse exemplo:
 + Blob: <https://git.io/JeRGk>
@@ -37,13 +39,7 @@ Daí eu vejo o **pull**, talvez faça uns ajustes e publico.
 Pra exibir códigos use a tag: **{****% highlight linguagem %****}** e feche com **{****% endhighlight %****}**
 
 Exemplo se for BASH: 
-
-```sh
-{% highlight bash %}
-#!/bin/bash
-echo "Meu código"
-{% endhighlight %}
-```
+![Modelo Highlight para Bash](/assets/img/opensource/highlight.png "Modelo Highlight para Bash")
 
 Preencha o **.md** com **3 tags no mínimo** de acordo como tem esse exemplo que eu enviei , use ele como esboço.
 
