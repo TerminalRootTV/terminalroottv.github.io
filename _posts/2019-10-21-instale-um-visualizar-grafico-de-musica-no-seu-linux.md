@@ -96,7 +96,8 @@ vis
 {% endhighlight %}
 
 A saída será similar a da imagem abaixo.
-![Instale um Visualizar Gráfico de Música no seu Linux](/assets/img/multimidia/vis.jpg)
+> Se quiser ver a imagem num tamanho maior, clique sobre a mesma e abra numa nova aba.
+[![Instale um Visualizar Gráfico de Música no seu Linux](/assets/img/multimidia/vis.jpg)](/assets/img/multimidia/vis.jpg)
 
 
 Se quiser sair do **vis** tecle a letra **q**
