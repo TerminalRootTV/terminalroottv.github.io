@@ -36,7 +36,8 @@ E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar
 
 Daí eu vejo o **pull**, talvez faça uns ajustes e publico.
 
-Pra exibir códigos use a tag: **{****% highlight linguagem %****}** e feche com **{****% endhighlight %****}**
+Pra exibir códigos use a tag: **{****% highlight linguagem %****}** 
+E feche com **{****% endhighlight %****}**
 
 Exemplo se for BASH: 
 ![Modelo Highlight para Bash](/assets/img/opensource/highlight.png "Modelo Highlight para Bash")
