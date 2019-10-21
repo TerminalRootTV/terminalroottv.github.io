@@ -51,7 +51,7 @@ As imagens ficarão por minha conta, mas se você quiser enviar a sua o caminho 
 + <https://terminalroot.com.br/2016/12/markdown.html>
 + <https://terminalroot.com.br/2018/09/como-renderizar-markdown-no-linux.html>
 
-Antes de criar faça sempre um git pull [Curso Gratuito de Git para Iniciantes](https://terminalroot.com.br/git/>
+Antes de criar faça sempre um git pull [Curso Gratuito de Git para Iniciantes](https://terminalroot.com.br/git/)
 
 > Obs.: No cabeçalho do .md troque a linha: **main-class: ''** . 
 > 
