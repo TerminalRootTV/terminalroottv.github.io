@@ -257,7 +257,7 @@
 		
 }
 
-#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe, #post-page > table, #post-page > table > tr, #post-page > table > td {
+#post-page h1, #post-page h2, #post-page h3, #post-page h4, #post-page h5, #post-page h6, #post-page p, #post-page img, #post-page pre > code, #post-page > a, #post-page > iframe, #post-page > table {
 
 	max-width: 60rem;
 	display: block;
@@ -416,6 +416,7 @@ video {
 	border-left: 8px solid silver;
 }
 hr {max-width: 50%; border: 3px solid silver; }
+table {width: 100%;}
 /*--------------------------------------------------------------
 # Responsive Section
 --------------------------------------------------------------*/
