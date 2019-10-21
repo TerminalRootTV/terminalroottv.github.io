@@ -43,7 +43,7 @@ E feche com **{****% endhighlight %****}**
 Exemplo se for BASH: 
 ![Modelo Highlight para Bash](/assets/img/opensource/highlight.png "Modelo Highlight para Bash")
 
-Preencha o **.md** com **3 tags no mínimo** de acordo como tem esse exemplo que eu enviei , use ele como esboço.
+Preencha o **.md** com **3 tags no mínimo** de acordo como tem [esse exemplo](https://git.io/JeRGk) que eu enviei , use ele como esboço!
 
 As imagens ficarão por minha conta, mas se você quiser enviar a sua o caminho delas deve ficar em **/assets/img/seu_diretorio/nome_da_imagem.jpg**
 
