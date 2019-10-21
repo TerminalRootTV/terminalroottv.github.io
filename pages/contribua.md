@@ -3,7 +3,10 @@ layout: page
 title: "Contribua com seus artigos."
 permalink: "/contribua/"
 description: 'Terminal Root é Open Source.'
+image: '/assets/img/opensource/opensource.png'
 ---
+
+![Contribua com seus artigos. Terminal Root é Open Source.](/assets/img/opensource/opensource.png "Contribua com seus artigos. Terminal Root é Open Source.")
 
 > Pessoal, se vocês quiserem divulgar seus trabalhos no site [Terminal Root](https://terminalroot.com.br/), fiquem à vontade! Muita gente não sabe , mas o [Terminal Root](https://terminalroot.com.br/blog) é [Open Source](https://opensource.org/) . 
 
