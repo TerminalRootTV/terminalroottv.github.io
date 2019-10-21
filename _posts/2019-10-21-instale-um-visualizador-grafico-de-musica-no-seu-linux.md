@@ -15,7 +15,8 @@ tags:
 
 Aqui no blog já mostramos dois visualizadores de áudio:
 + [Como Exibir Gráficos de Música no Desktop do seu Linux](https://terminalroot.com.br/2019/06/como-exibir-graficos-de-musica-no-desktop-do-seu-linux.html)
-+ [Instale e Configure o ncmpcpp e mpd no seu Linux](https://terminalroot.com.br/2019/07/instale-e-configurar-o-ncmpcpp-e-mpd-no-seu-linux.html) , esse possui o *music vizualize* embutido nele.
+
++ [Instale e Configure o ncmpcpp e mpd no seu Linux](https://terminalroot.com.br/2019/07/instale-e-configurar-o-ncmpcpp-e-mpd-no-seu-linux.html) , esse possui o *music vizualizer* embutido nele.
 
 + Também instalamos o **CAVA**(outro visualizador) nesse tutorial: [Ubuntu + i3-gaps + Albert + Cava + Polybar](https://terminalroot.com.br/2019/01/ubuntu-i3gaps-albert-cava-polybar.html)
 
@@ -44,16 +45,16 @@ Para exibir os gráficos das músicas que estiverem tocando, vamos utilizar o [c
 
 ## Instalação
 
-Antes de mais nada, verifique se seu sistema possui as dependências(só são duas, bem pequenas por sinal, além do [git](https://terminalroot.com.br/git) ) para que o **vis** funcione corretamente. 
+Antes de mais nada, verifique se seu sistema possui as dependências(só são três, bem pequenas por sinal, além do [git](https://terminalroot.com.br/git) ) para que o **vis** funcione corretamente. 
 
 No [Gentoo](https://terminalroot.com.br/2017/05/como-instalar-o-gentoo.html) e [Funtoo](https://terminalroot.com.br/2018/10/como-instalar-o-funtoo-pelo-ubuntu-ou-linux-mint.html) , rode esses comando:
 {% highlight bash %}
-emerge fftw dev-vcs/git ncurses cmake
+emerge fftw dev-vcs/git ncurses
 {% endhighlight %}
 
 No [Debian](https://terminalroot.com.br/2016/05/conheca-o-devuan-um-debian-sem-systehtml.html), [Ubuntu](https://terminalroot.com.br/2019/10/remaster-ubuntu-buntuwm-linux.html) e [Linux Mint](https://terminalroot.com.br/2019/07/como-customizar-seu-linux-mint-com-i3-polybar-rofi.html) rode esses comando:
 {% highlight bash %}
-sudo apt install libfftw3-dev libncursesw5-dev git
+sudo apt install libfftw3-dev libncursesw5-dev git cmake
 {% endhighlight %}
 
 Use o *search* do gerenciador de repositório da sua distro para encontrar o nome do pacote na sua distro, exemplos:
@@ -103,7 +104,7 @@ A saída será similar a da imagem abaixo.
 Se quiser sair do **vis** tecle a letra **q**
 > Se você encerrar ou acabar a música , o **vis** irá parar com a animação, mas ainda estará rodando.
 
-Você ainda pode configurar as cores da animação do **vis** à sua maneira, para isso edite o arquivo: `~/.config/vis/colors/rainbow`, perceba que as cores estão separadas por linha e está em formato hexadecimal, ou seja, café com açucar ☕ e para alterar as configurações, caso você queira salvar esse arquivo **rainbow** com outro nome (criar um tema) , altere o nome do arquivo em: ` ~/.config/vis/config` .
+Você ainda pode configurar as cores da animação do **vis** à sua maneira, para isso edite o arquivo: `~/.config/vis/colors/rainbow`, perceba que as cores estão separadas por linha e está em formato hexadecimal, ou seja, café com açúcar ☕ e para alterar as configurações, caso você queira salvar esse arquivo **rainbow** com outro nome (criar um tema) , altere o nome do arquivo em: ` ~/.config/vis/config` .
 
 Qualquer dúvida, posta aí nos comentários!
 
