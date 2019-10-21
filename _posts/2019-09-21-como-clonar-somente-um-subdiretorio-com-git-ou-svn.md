@@ -65,7 +65,7 @@ Além disso existem diversos parâmetros que você pode usar, aqui veremos algun
 
 ## Clonando um Sub-diretório
 
-Esse repositório que eu usei como exemplo foi totalmente mal projetado, lá você não vai encontrar somente *fonts* , mas também: Wallpapers, arquivos de configuração para WM e entre outras coisas . E por conta disso, às vezes eu quero copiar somente um *sub-diretório* denrto dele .
+Esse repositório que eu usei como exemplo foi totalmente mal projetado, lá você não vai encontrar somente *fonts* , mas também: Wallpapers, arquivos de configuração para WM e entre outras coisas . E por conta disso, às vezes eu quero copiar somente um *sub-diretório* dentro dele .
 
 Por exemplo, nesse [repositório](https://github.com/terroo/fonts) existe uma pasta/diretório de nome *files* e vamos supôr que eu queira copiar/clonar somente esse diretório/sub-diretório , se eu fizer isso: ~~`git clone https://github.com/terroo/fonts/files`~~ não dará certo, o Git não permite isso, haverá falha no comando clone:
 
