@@ -55,7 +55,9 @@ As imagens ficarão por minha conta, mas se você quiser enviar a sua o caminho 
 
 Antes de criar faça sempre um git pull [Curso Gratuito de Git para Iniciantes](https://terminalroot.com.br/git/>
 
-> Obs.: No cabeçalho do .md troque a linha: **main-class: ''** . **Seu site/blog/endereço/url** será divulgado no **rodapé** com seu **card** 🙌️ .
+> Obs.: No cabeçalho do .md troque a linha: **main-class: ''** . 
+> 
+> **Seu site/blog/endereço/url** será divulgado no **rodapé** com seu **card** 🙌️ .
 
 por
 
