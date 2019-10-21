@@ -39,10 +39,10 @@ Pra exibir códigos use a tag: **{**% highlight linguagem %**}** e feche com **{
 Exemplo se for BASH: 
 
 ```sh
-{% highlight bash %}
+{\% highlight bash \%}
 #!/bin/bash
 echo "Meu código"
-{% endhighlight %}
+{\% endhighlight \%}
 ```
 
 Preencha o **.md** com **3 tags no mínimo** de acordo como tem esse exemplo que eu enviei , use ele como esboço.
