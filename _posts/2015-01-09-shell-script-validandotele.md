@@ -18,7 +18,7 @@ __grep__ é um utilitário de linha de comando para procurar conjuntos de dados 
 
 
 
-<table class="table table-bordered">
+<table class="table table-bordered table-striped">
     <thead>
         <tr><th>Caracter</th><th>Descrição</th></tr>
         <tr><td>.</td><td>Qualquer letra</td></tr>
