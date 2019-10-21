@@ -26,7 +26,7 @@ Automáticamente será criado um arquivo **.md**( [Markdown](https://terminalroo
 vim _posts/2019-09-14-titulo-da-minha-postagem.md
 {% endhighlight %}
 
-E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html) → <https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html>.
+E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html):
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/dSUT0Y7suPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
