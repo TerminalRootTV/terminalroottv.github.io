@@ -26,8 +26,8 @@ vim _posts/2019-09-14-titulo-da-minha-postagem.md
 E depois mandar um [pull request](https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html) → <https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html>.
 
 ## Veja esse exemplo:
-+ Blob: <https://github.com/TerminalRootTV/terminalroottv.github.io/blob/master/_posts/2019-09-12-the-fuck-o-comando-que-corrige-automaticamente-comandos-digitados-incorretamente.md>
-+ Raw: <https://raw.githubusercontent.com/TerminalRootTV/terminalroottv.github.io/master/_posts/2019-09-12-the-fuck-o-comando-que-corrige-automaticamente-comandos-digitados-incorretamente.md>
++ Blob: <https://git.io/JeRGk>
++ Raw: <https://git.io/JeRGI>
 
 Daí eu vejo o **pull**, talvez faça uns ajustes e publico.
 
