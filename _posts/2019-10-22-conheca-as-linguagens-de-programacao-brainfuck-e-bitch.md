@@ -66,7 +66,7 @@ bff ola-mundo.bf
 {% endhighlight %}
 
 O resultado será o esperado! 😀
-[![brainfuck terminal output](/assets/img/esolangs/bitch.png)](/assets/img/esolangs/brainfuck.png)
+[![brainfuck terminal output](/assets/img/esolangs/brainfuck.png)](/assets/img/esolangs/brainfuck.png)
 
 Para mais informações, consulte o site deles: <http://aminet.net/package.php?package=dev/lang/brainfuck-2.lha>
 
@@ -111,7 +111,7 @@ java bitch -c ola-mundo.bitch
 Veja imagem abaixo:
 > Lógico que você precisará do JDK e do Git.
 
-[![bitch terminal output](/assets/img/esolangs/brainfuck.png)](/assets/img/esolangs/bitch.png)
+[![bitch terminal output](/assets/img/esolangs/bitch.png)](/assets/img/esolangs/bitch.png)
 
 Se quiser testar online use o [tio.sh](https://tio.run/#bitch), e lembre-se de adicionar o parâmetro `-c`, assim:
 + **Command-line options** → **✚ add** → **-c**. Depois é só clicar no **play ▶️**  na parte superior.
