@@ -21,7 +21,7 @@ Mais conhecidas como linguagens ESOTÉRICAS. 😱
 
 ## Introdução
 
-Uma linguagem de programação esotérica (ess-oh-terr-ick), ou esolang , é uma linguagem de programação de computador projetada para experimentar idéias estranhas, difícil de programar ou como uma piada, e não para uso prático.
+Uma linguagem de programação **esotérica** (*ess-oh-terr-ick*), ou esolang , é uma linguagem de programação de computador projetada para experimentar idéias estranhas, difícil de programar ou como uma piada, e não para uso prático.
 
 Existe uma comunidade pequena, mas ativa, na Internet, de pessoas que criam linguagens de programação esotéricas e escrevem programas nelas, além de debater suas propriedades computacionais (por exemplo, se essas linguagens estiverem completas em Turing ).
 
