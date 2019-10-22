@@ -3,7 +3,7 @@ layout: post
 title: "Conheça as Linguagens de Programação: BRAINFUCK e BITCH"
 date: 2019-10-22 10:09:53
 image: '/assets/img/esolangs/brainfuck-e-bitch.jpg'
-description: 'Possuem um PUTA CÓDIGO FODIDO!'
+description: 'Possuem um PUTA CÓDIGO FODIDO! ╭∩╮'
 tags:
 - brainfuck
 - bitch
