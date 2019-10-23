@@ -29,7 +29,7 @@ Ele está disponível na maioria dos repositórios da distriibuições, então u
 sudo {apt,dnf,pkg,snap,choco,yay,zypper} {install,-S} googler
 {% endhighlight %}
 
-Mas se não estiver para seu sistema, basta [clonar]() e usar o [make]():
+Mas se não estiver para seu sistema, basta [clonar](https://terminalroot.com.br/2019/09/como-clonar-somente-um-subdiretorio-com-git-ou-svn.html) e usar o [make](https://www.gnu.org/software/make/):
 {% highlight bash %}
 cd /tmp && git clone https://github.com/jarun/googler
 cd googler/ && sudo make install
