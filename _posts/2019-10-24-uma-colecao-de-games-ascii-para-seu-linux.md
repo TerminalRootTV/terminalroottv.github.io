@@ -40,7 +40,7 @@ Para ver todas as opções de diversas plataformas e modalidades, inclusive muit
 <div class="text-center">
 	<p>
 		<a href="https://itch.io/">
-			<button class="btn-lg btn-dark"><i class="fas fa-gamepad"></i> Acessar <strong>itch.io</strong></button> 
+			<button style="cursor:pointer" class="btn-lg btn-dark"><i class="fas fa-gamepad"></i> Acessar <strong>itch.io</strong></button> 
 		</a>
 	</p>
 </div>
