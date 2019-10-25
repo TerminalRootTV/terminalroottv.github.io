@@ -136,13 +136,10 @@ sed '2,7s/^/#/' arquivo.txt
 sed -i '21,28s/^/NEW/' arquivo.txt
 {% endhighlight %}
 
-## 16 - Troca tudo entre as tags "" e "" pela palavra "CODIGO" , exemplo de código html:
-É assim:
-  São os homens os produtores das suas representações, das suas ideias, etc.; mas os homens reais agentes, tais como são condicionados por um desenvolvimento determinado das suas forças produtivas e da...
-Depois fica assim:
-  CODIGO
+## 16 - Troca tudo entre as tags "<" e ">" pela palavra "CODIGO":
+
 {% highlight bash %}
-sed 's/.*/CODIGO/' arquivo.txt
+sed 's/<[^>]*>/CODIGO/g' arquivo.txt
 {% endhighlight %}
 
 ## 17 - Imprime somente a primeira ocorrência da linha com determinada string
