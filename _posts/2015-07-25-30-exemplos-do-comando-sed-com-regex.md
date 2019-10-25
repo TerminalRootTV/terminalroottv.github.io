@@ -70,9 +70,6 @@ sed -i '/dmx/d' arquivo.txt
 sed 's/^/palavra/' arquivo.txt
 {% endhighlight %}
 
-## 6 - Coloca uma palavra no final de cada linha
-{% highlight bash %}
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
 <ins class="adsbygoogle"
@@ -85,6 +82,8 @@ sed 's/^/palavra/' arquivo.txt
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+## 6 - Coloca uma palavra no final de cada linha
+{% highlight bash %}
 sed 's/$/palavra/' arquivo.txt
 {% endhighlight %}
 ## 7 - Imprime só as linhas que COMEÇAM com a string 'http'
