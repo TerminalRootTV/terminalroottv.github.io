@@ -14,7 +14,7 @@ tags:
 
 [![Multiplexando seu Terminal com GNU Screen](/assets/img/terminal/gnu-screen-min.png "Multiplexando seu Terminal com GNU Screen")](/assets/img/terminal/gnu-screen-min.png)
 
-Já faz tempo que nós mostramos em um vídeo [Como Utilizar o TMUX](https://www.youtube.com/watch?v=Z7YcXTMMhEQ) , pois é o GNU Screen possui ainda mais recursos que ele.
+Já faz tempo que nós mostramos em um vídeo [Como Utilizar o TMUX](https://www.youtube.com/watch?v=Z7YcXTMMhEQ) , pois é, o GNU Screen possui ainda mais recursos que ele.
 
 ## Introdução
 
