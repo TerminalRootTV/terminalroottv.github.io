@@ -67,7 +67,7 @@ Agora saiba que a combinação de tecla que o screen escuta é **Ctrl + a**, e e
 > Lembrando que se você estiver na janela **1** e quiser passar, por exemplo, pra janela de número 9, você pode usar: `C-a 9`
 + Para *fechar* uma divisão, use: `C-a K` e para fechar uma janela `C-a Q`
 
-> Resumindo: suporndo que você acabou de rodar o comando `screen`, supondo que você rodou `C-a |` então para passar para essa nova janela: `C-a TAB` e depois `C-a c`. 😃
+> Resumindo: supondo que você acabou de rodar o comando `screen`, supondo que você rodou `C-a |` então para passar para essa nova janela: `C-a TAB` e depois `C-a c`. 😃
 
 Os atalhos podem ainda ser visualizados com: `C-a ?` ou usando o *help* e o manual:
 {% highlight bash %}
