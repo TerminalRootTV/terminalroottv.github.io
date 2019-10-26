@@ -43,6 +43,13 @@ data-full-width-responsive="true"></ins>
 
 Use o gerenciador de pacotes da sua distribuição, mas antes rode o comando `screen` para ver se não já está instalado, exemplo:
 [![emerge screen](/assets/img/terminal/emerge-screen.png)](/assets/img/terminal/emerge-screen.png)
+Exemplos:
+{% highlight bash %}
+emerge app-misc/screen
+sudo apt install screen
+sudo pacman -S screen
+# ...
+{% endhighlight %}
 
 ## Utilização
 
