@@ -2,7 +2,7 @@
 layout: post
 title: "Como Inserir rapidamente Emojis nos seus textos pelo Vim"
 date: 2019-10-20 13:45:31
-image: '/assets/img/'
+image: '/assets/img/vim/emoji-complete-vim.jpg'
 description: 'O Vim é uma verdadeira mão-na-roda ajuda diversas coisas do dia a dia para programadores e também para quem escreve textos para Web.'
 tags:
 - vim
