@@ -70,7 +70,7 @@ java -jar ditaa.jar exemplo.txt saida.png
 O arquivo de imagem **saida.png** foi criado e você já pode abrí-lo para ver a saída: `gio open saida.png`
 ![Exemplo saida.png](/assets/img/java/saida.png)
 
-Se quiser você ainda pode customizar seu diagrama com cores, geralmente é o nome da cor em inglês(maiúsucla), ou o código da cor, iniciado com a letra **c**(minúsculo). Veja o exemplo anterior agora customizado com cores:
+Se quiser você ainda pode customizar seu diagrama com cores, geralmente é o nome da cor em inglês(maiúscula), ou o código da cor, iniciado com a letra **c**(minúsculo). Veja o exemplo anterior agora customizado com cores:
 {% highlight bash %}
 +-----------------+     +-------------------------+    +-----------------------------+
 |                 |     |                         |    |                             |
