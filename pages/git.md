@@ -10,13 +10,13 @@ color: '#2f3d4a'
 Principais Comandos do Git
 --------------------------
 
-- `git config –list` » Lista as configurações do Git, se estiver
+- `git config -–list` » Lista as configurações do Git, se estiver
     dentro do repositório, lista mais itens
-- `git config –global user.name “Meu Nome”` » Define o nome de
+- `git config -–global user.name "Meu Nome"` » Define o nome de
     usuário para o Git
-- `git config –global user.email “email@dominio.com”` » Define o
+- `git config -–global user.email "email@dominio.com"` » Define o
     e-mail de usuário para o Git (tem de ser o cadastrado no GitHub)
-- `git config –global core.editor vim` » Define o editor de texto
+- `git config -–global core.editor vim` » Define o editor de texto
     padrão para abrir automaticamente arquivos informados pelo Git
 - `git init` » Inicializa um repositório Git
 - `git status` » Vê o estado atual do projeto
@@ -33,7 +33,7 @@ git add *.txt # Adiciona todos os arquivos '.txt' que foram modificados
 man git-add # manual completo sobre git-add 
 {% endhighlight %}
 
-- `git commit -m “Minhas mudanças efetuadas”` » Armazena as mudanças
+- `git commit -m "Minhas mudanças efetuadas"` » Armazena as mudanças
     efetuadas e descreve o que foi alterado
 - `git log` » Mostra todas as mudanças que já foram efetuadas:
     commit, autor e data
