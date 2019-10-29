@@ -28,27 +28,18 @@ git add *.txt # Adiciona todos os arquivos '.txt' que foram modificados
 man git-add # manual completo sobre git-add 
 {% endhighlight %}
 
-- `git commit -m "Minhas mudanças efetuadas"` » Armazena as mudanças
-    efetuadas e descreve o que foi alterado
-- `git log` » Mostra todas as mudanças que já foram efetuadas:
-    commit, autor e data
-- `git push -u origin master` » Envia todos os arquivos modificados
-    e "commitados" para o repositório no github
+- `git commit -m "Minhas mudanças efetuadas"` » Armazena as mudanças efetuadas e descreve o que foi alterado
+- `git log` » Mostra todas as mudanças que já foram efetuadas: commit, autor e data
+- `git push -u origin master` » Envia todos os arquivos modificados e "commitados" para o repositório no github
   - `-u` - faz com que o Git armazene esse comando e da próxima vez basta utilizarmos `git push`
-  - `origin`- diz que o repositório no github possui o mesmo nome
-        do projeto/diretório que você está enviando
-  - `master` - é o nome da *branch* (**indicador**) [Clique aqui
-        para saber mais sobre branches](https://goo.gl/2ZT5Cd)
-- `git pull origin master` » Verifica as mudanças efetuadas por
-    outros colaboradores do projeto
-- `git diff HEAD` » Verifica as partes dos arquivos alterados no
-    último commit, **veja mais opções em** `man git-diff`
+  - `origin`- diz que o repositório no github possui o mesmo nome do projeto/diretório que você está enviando
+  - `master` - é o nome da *branch* (**indicador**) [Clique aqui para saber mais sobre branches](https://goo.gl/2ZT5Cd)
+- `git pull origin master` » Verifica as mudanças efetuadas por outros colaboradores do projeto
+- `git diff HEAD` » Verifica as partes dos arquivos alterados no último commit, **veja mais opções em** `man git-diff`
 - `git reset arquivo.txt` » Remove um arquivo do projeto
-- `git checkout – arquivo.txt` » Desfaz a última alteração feita num
-    arquivo
+- `git checkout – arquivo.txt` » Desfaz a última alteração feita num arquivo
 - `git rm "*.txt"` » Remove 1 ou mais arquivos utilizando "curinga"
-- `git clone https://github.com/user/project.git` » Copia um projeto
-    pro seu PC
+- `git clone https://github.com/user/project.git` » Copia um projeto pro seu PC
 - `info git` » Obtém a Documentação do git
 - `man git` » Obtém o Manual do git
 
