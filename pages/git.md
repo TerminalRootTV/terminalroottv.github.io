@@ -2,7 +2,7 @@
 layout: page
 title: "Tutorial de Git e GitHub para Iniciantes"
 permalink: "/git/"
-description: 'Em breve.'
+description: 'Principais Comandos do Git'
 color: '#2f3d4a'
 ---
 ![Tutorial de Git e GitHub para Iniciantes](/assets/img/cursos/git.jpg "Tutorial de Git e GitHub para Iniciantes")
