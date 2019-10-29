@@ -3,7 +3,7 @@ layout: post
 title: "100 DICAS para o editor VIM"
 date: 2019-10-29 13:00:03
 image: '/assets/img/vim/100-dicas-vim.png'
-description: 'Fala de Vim é falar de MÚLTIPLAS FACILIDADES com simples pressionamento de teclas e comandos úteis.'
+description: 'Falar de Vim é falar de MÚLTIPLAS FACILIDADES com simples pressionamento de teclas e comandos úteis.'
 tags:
 - vim
 - Vim
@@ -12,7 +12,7 @@ tags:
 
 ![100 DICAS para o editor VIM](/assets/img/vim/100-dicas-vim.png)
 
-Fala do editor [Vim](https://terminalroot.com.br/vim) é falar de MÚLTIPLAS FACILIDADES com simples pressionamento de teclas e comandos úteis. Esse **Cheat Sheet** é um daqueles pra guardar nos favoritos e consultar sempre que necessário.
+Falar do editor [Vim](https://terminalroot.com.br/vim) é falar de MÚLTIPLAS FACILIDADES com simples pressionamento de teclas e comandos úteis. Esse **Cheat Sheet** é um daqueles pra guardar nos favoritos e consultar sempre que necessário.
 
 # 100 dicas para o editor Vim
 
