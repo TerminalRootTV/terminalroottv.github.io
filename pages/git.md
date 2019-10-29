@@ -71,21 +71,18 @@ man git-add # manual completo sobre git-add
 Assista os Vídeos {#assista-os-vdeos}
 =================
 
-+ [01 - Introdução](https://www.youtube.com/watch?v=CsyumQN6ZdA "Curso de Git e GitHub Para Iniciantes")
-+ [02 - Como Instalar e Configurar o Git](https://www.youtube.com/watch?v=ty-8-d7Y8JA "Curso de Git e GitHub Para Iniciantes")
-+ [03 - Como Criar uma Conta e um Repositório no GitHub](https://www.youtube.com/watch?v=T1HuwSPd3eg "Curso de Git e GitHub Para Iniciantes")
-+ [04 - Aprenda os Principais Comandos doGit](https://www.youtube.com/watch?v=5WFm5pvcWwM "Curso de Git e GitHub Para Iniciantes")
-+ [05 - Criando um projeto no Git e Enviando pro GitHub pelo Terminal](https://www.youtube.com/watch?v=C30fCXy3ZcY "Curso de Git e GitHub Para Iniciantes")
-+ [06 - Branches e Agradecimentos.](https://www.youtube.com/watch?v=SgOdsVVeXsE "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 01 - Introdução](https://www.youtube.com/watch?v=CsyumQN6ZdA "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 02 - Como Instalar e Configurar o Git](https://www.youtube.com/watch?v=ty-8-d7Y8JA "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 03 - Como Criar uma Conta e um Repositório no GitHub](https://www.youtube.com/watch?v=T1HuwSPd3eg "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 04 - Aprenda os Principais Comandos doGit](https://www.youtube.com/watch?v=5WFm5pvcWwM "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 05 - Criando um projeto no Git e Enviando pro GitHub pelo Terminal](https://www.youtube.com/watch?v=C30fCXy3ZcY "Curso de Git e GitHub Para Iniciantes")
++ [▶️ 06 - Branches e Agradecimentos.](https://www.youtube.com/watch?v=SgOdsVVeXsE "Curso de Git e GitHub Para Iniciantes")
 
 Vídeos Adicionais {#vdeos-adicionais}
 =================
 
-[Como Criar um Blog no GitHub](https://www.youtube.com/watch?v=MBiw57swnsI "Terminal Root")
-
-[Como Importar seu blog do Blogger para o GitHub](https://www.youtube.com/watch?v=wpHWQqnlpG0 "Terminal Root")
-
-[Dicas Importantes para seu Blog no GitHub](https://www.youtube.com/watch?v=sOSWfN6iGno "Terminal Root")
-
-[Como Criar um Pull Request](https://www.youtube.com/TerminalRootTV "Terminal Root")
+- [▶️ Como Criar um Blog no GitHub](https://www.youtube.com/watch?v=MBiw57swnsI "Terminal Root")
+- [▶️ Como Importar seu blog do Blogger para o GitHub](https://www.youtube.com/watch?v=wpHWQqnlpG0 "Terminal Root")
+- [▶️ Dicas Importantes para seu Blog no GitHub](https://www.youtube.com/watch?v=sOSWfN6iGno "Terminal Root")
+- [▶️ Como Criar um Pull Request](https://www.youtube.com/TerminalRootTV "Terminal Root")
 
