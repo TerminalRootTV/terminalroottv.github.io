@@ -43,11 +43,11 @@ man git-add # manual completo sobre git-add
 - `git pull origin master` » Verifica as mudanças efetuadas por
     outros colaboradores do projeto
 - `git diff HEAD` » Verifica as partes dos arquivos alterados no
-    último commit\_, **veja mais opções em** `man git-diff`
+    último commit, **veja mais opções em** `man git-diff`
 - `git reset arquivo.txt` » Remove um arquivo do projeto
 - `git checkout – arquivo.txt` » Desfaz a última alteração feita num
     arquivo
-- `git rm "\*.txt"` » Remove 1 ou mais arquivos utilizando "curinga"
+- `git rm "*.txt"` » Remove 1 ou mais arquivos utilizando "curinga"
 - `git clone https://github.com/user/project.git` » Copia um projeto
     pro seu PC
 - `info git` » Obtém a Documentação do git
