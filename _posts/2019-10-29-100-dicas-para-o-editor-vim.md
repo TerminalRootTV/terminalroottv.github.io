@@ -317,7 +317,7 @@ Você pode adquir adquirir aqui mesmo pelo site (com direito a BAIXAR TODOS OS A
 ## <https://terminalroot.com.br/vim>
 
 Ou pela [Udemy](https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/) onde você terá acesso aos vídeos e download dos PDFs por um preço MUITO MAIS EM CONTA:
-> **COM [ESSE CUPOM](https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/?couponCode=53A4540640EEF10EAE0C>) FICA POR SOMENTE R$ 20,00 O CURSO COMPLETO!!!**
-## <https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/?couponCode=53A4540640EEF10EAE0C>
+> **COM [ESSE CUPOM](http://bit.ly/VimCupom20) FICA POR SOMENTE R$ 20,00 O CURSO COMPLETO!!!**
+## <hhttp://bit.ly/VimCupom20>
 
 Espero ter ajudado. Um forte abraço!
