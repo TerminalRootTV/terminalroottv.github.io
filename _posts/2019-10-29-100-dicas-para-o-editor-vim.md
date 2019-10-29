@@ -318,7 +318,7 @@ Você pode adquir adquirir aqui mesmo pelo site (com direito a BAIXAR TODOS OS A
 
 Ou pela [Udemy](https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/) onde você terá acesso aos vídeos e download dos PDFs por um preço MUITO MAIS EM CONTA:
 > **COM [ESSE CUPOM](http://bit.ly/VimCupom20) FICA POR SOMENTE R$ 20,00 O CURSO COMPLETO!!!**
-## <hhttp://bit.ly/VimCupom20>
+## <http://bit.ly/VimCupom20>
 > *Válido por 5 dias contando da data de publicação desse artigo*.
 
 Espero ter ajudado. Um forte abraço!
