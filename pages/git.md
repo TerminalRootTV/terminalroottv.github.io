@@ -10,14 +10,10 @@ color: '#2f3d4a'
 Principais Comandos do Git
 --------------------------
 
-- `git config -–list` » Lista as configurações do Git, se estiver
-    dentro do repositório, lista mais itens
-- `git config -–global user.name "Meu Nome"` » Define o nome de
-    usuário para o Git
-- `git config -–global user.email "email@dominio.com"` » Define o
-    e-mail de usuário para o Git (tem de ser o cadastrado no GitHub)
-- `git config -–global core.editor vim` » Define o editor de texto
-    padrão para abrir automaticamente arquivos informados pelo Git
+- `git config -–list` » Lista as configurações do Git, se estiver dentro do repositório, lista mais itens
+- `git config -–global user.name "Meu Nome"` » Define o nome de usuário para o Git
+- `git config -–global user.email "email@dominio.com"` » Define o e-mail de usuário para o Git (tem de ser o cadastrado no GitHub)
+- `git config -–global core.editor vim` » Define o editor de texto padrão para abrir automaticamente arquivos informados pelo Git
 - `git init` » Inicializa um repositório Git
 - `git status` » Vê o estado atual do projeto
 - `git add arquivo.txt` » Adiciona o arquivo arquivo.txt ao projeto
@@ -27,8 +23,7 @@ Principais Comandos do Git
 {% highlight bash %}
 git-add # mesmo comando que 'git add' 
 # O comando git-add não irá adicionar arquivos ignorados por padrão a menos que seja utilizado o parâmetro '-f' 
-git add -A # Adiciona todos arquivos
-que foram modificados, mesmo que: --all, --no-ignore-removal 
+git add -A # Adiciona todos arquivos que foram modificados, mesmo que: --all, --no-ignore-removal 
 git add *.txt # Adiciona todos os arquivos '.txt' que foram modificados
 man git-add # manual completo sobre git-add 
 {% endhighlight %}
