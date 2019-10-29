@@ -34,8 +34,7 @@ man git-add # manual completo sobre git-add
     commit, autor e data
 - `git push -u origin master` » Envia todos os arquivos modificados
     e "commitados" para o repositório no github
-  - `-u` - faz com que o Git armazene esse comando e da próxima vez
-        basta utilizarmos `git push**
+  - `-u` - faz com que o Git armazene esse comando e da próxima vez basta utilizarmos `git push`
   - `origin`- diz que o repositório no github possui o mesmo nome
         do projeto/diretório que você está enviando
   - `master` - é o nome da *branch* (**indicador**) [Clique aqui
