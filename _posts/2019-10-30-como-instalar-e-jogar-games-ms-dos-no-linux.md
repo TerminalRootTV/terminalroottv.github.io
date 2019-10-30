@@ -13,13 +13,19 @@ tags:
 
 ![Como Instalar e Jogar Games MS-DOS no Linux](/assets/img/ms-dos/dosbox.png)
 
-Games retrô, ASCII e modo terminal/console é minha "pira" . Aqui no blog sempre haverá mais dicas de games nesse sentido. E os games do MS-DOS não ficam fora dessa. Existe até um grupo no Facebook muito bom sobre MS-DOS que eu participo que o grupo é bem ativo e posta diversas dicas bem bacanas. Participa lá se você tiver interesse: <https://www.facebook.com/groups/2209352733/> .
+Games retrô, ASCII e modo terminal/console é minha "pira" . Aqui no blog sempre haverá mais dicas de games nesse sentido.
+
+E os games do MS-DOS não ficam fora dessa. Existe até um grupo no Facebook muito bom sobre MS-DOS que eu participo que o grupo é bem ativo e posta diversas dicas bem bacanas.
+
+Participa lá se você tiver interesse: <https://www.facebook.com/groups/2209352733/> .
 
 Uma das formas de rodar games do MS-DOS no Linux (e a maneira mais simples, na minha opinião) é você utilizar o [DOSBox](https://www.dosbox.com/) . 
 
 ## Introdução
 
-O DOSBox é um emulador que emula (vagamente "simula") um computador IBM PC compatível rodando em cima deste um antigo sistema operacional, o MS-DOS. Muitas placas de vídeo e placas de som originarias do IBM PC também são emuladas. Isso significa que programas feitos originalmente para o MS-DOS podem rodar em computadores modernos por via do software. O DOSBox foi projetado especialmente para executar jogos antigos. O DOSBox é um software livre escrito principalmente em C++ e distribuído sob a GNU General Public License.
+O DOSBox é um emulador que emula (vagamente "simula") um computador IBM PC compatível rodando em cima deste um antigo sistema operacional, o MS-DOS. Muitas placas de vídeo e placas de som originarias do IBM PC também são emuladas.
+
+Isso significa que programas feitos originalmente para o MS-DOS podem rodar em computadores modernos por via do software. O DOSBox foi projetado especialmente para executar jogos antigos. O DOSBox é um software livre escrito principalmente em C++ e distribuído sob a GNU General Public License.
 
 <!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -57,7 +63,11 @@ dosbox
 > Encontrando em um launcher, exemplo: [Rofi]()
 ![Rofi Launcher DOSBox](/assets/img/ms-dos/rofi-dosbox.jpg)
 
-O DOSBox será aberto numa tela menor e não redimensionável, no entanto, há como você alterar pressionando a combinação de teclas: **Alt + Enter** . Ou editando o arquivo de configuração que fica no seu diretório pessoal: `vim ~/.dosbox/dosbox-*.conf` e mude a linha correspondente à **fullscreen=false** para **fullscreen=true** , salve e agora quando abrir o DOSBox , o mesmo abrirá em Tela Cheia por padrão, se quiser diminuir, tecle **Alt + Enter** .
+O DOSBox será aberto numa tela menor e não redimensionável, no entanto, há como você alterar pressionando a combinação de teclas: **Alt + Enter** . Ou editando o arquivo de configuração que fica no seu diretório pessoal: 
+{% highlight bash %}
+vim ~/.dosbox/dosbox-*.conf
+{% endhighlight %}
+E mude a linha correspondente à **fullscreen=false** para **fullscreen=true** , salve e agora quando abrir o DOSBox , o mesmo abrirá em Tela Cheia por padrão, se quiser diminuir, tecle **Alt + Enter** .
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -85,8 +95,10 @@ mv mario/ ~/.dosgames/
 {% endhighlight %}
 
 + **2**. Agora **dentro o DOSBox** vamos montar o diretório que a gente criou. Rode esse comando: `Z:\>mount d ~/.dosgames`, como na imagem:
+
 > A opção **d** diz que vamos montar nosso diretório `~/.dosgames` na partição **D** do MS-DOS
-> 
+
+
 > *Observação:* Se não conseguir usar a tecla til(`~`) no DOSBox por conta do teclado , informe o caminho completo, exemplo: `Z:\>mount d /home/nome_do_seu_usuario/.dosgames` , a tecla dois pontos **;**  geralmente é o barra **/** quando o teclado está desconfigurado.
 
 ![MOUNT DOSBox](/assets/img/ms-dos/mount.png)
