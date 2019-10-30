@@ -103,7 +103,7 @@ mv mario/ ~/.dosgames/
 
 ![MOUNT DOSBox](/assets/img/ms-dos/mount.png)
 
-+ **3**. Após monstar tecle a letra **d:** seguida de dois pontos, automáticamente você entrará na partição **D:** que dentro dela está o diretório do seu Linux e depois é só entrar na pasta do mario: `cd mario` e executar o Mario Bros VGA com o comando: `mario.exe`, veja todos os comandos na imagem abaixo:
++ **3**. Após montar tecle a letra **d:** seguida de dois pontos, automáticamente você entrará na partição **D:** que dentro dela está o diretório do seu Linux e depois é só entrar na pasta do mario: `cd mario` e executar o Mario Bros VGA com o comando: `mario.exe`, veja todos os comandos na imagem abaixo:
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
