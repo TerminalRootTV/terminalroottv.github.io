@@ -129,7 +129,7 @@ Mas se quiser modificar, no painel que mostra as teclas(logo após pressionar En
 
 A pira do game é pular com a cabeça no **POW** para derrubar as *tartaruguinhas* e quando elas estiverem com o "casco virado"(sem conseguir andar) é só se aproximar delas para derrubá-las e consequentemente eliminá-las .
 
-É um jogo bem simples(uma versão VGA do Mário Bros, bem simplista) , mas se quiser mais games visite os sites:i
+É um jogo bem simples(uma versão VGA do Mário Bros, bem simplista) , mas se quiser mais games visite os sites:
 + <https://www.dosgamesarchive.com/>
 + <https://archive.org/details/softwarelibrary_msdos_games?tab=collection>
 
