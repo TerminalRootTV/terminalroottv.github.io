@@ -217,6 +217,8 @@ A interface o Wing é muito fácil de usar. Existem três versões do Wing: para
 
 Eric é um IDE de código-fonte aberto para o sistema Linux, escrito e desenvolvido em linguagem Python. Ele suporta muitos idiomas e é um aplicativo IDE de plataforma cruzada. O IDE Python de código aberto de Eric para Linux é compacto com muitos recursos, por exemplo, destaque de sintaxe, depurador integrado e pesquisa avançada.
 
+![Eric IDE Python](/assets/img/python/eric.jpg)
+
 **Recursos do Eric**
 
 + Suporta extensões e plugins.
