@@ -2,9 +2,13 @@
 layout: post
 title: "Os 20 melhores IDE Python para Linux"
 date: 2019-10-31 12:20:30
-image: '/assets/img/'
-description:
+image: '/assets/img/python/ide/pycharm_python_ide.jpg'
+description: 'A maioria é Open Source.'
 tags:
+- python
+- editores
+- ide
+- linux
 ---
 
 ![Os 20 melhores IDE Python para Linux. Alguns deles são de código aberto](/assets/img/python/ide/pycharm_python_ide.jpg)
