@@ -294,7 +294,7 @@ Pyzo é um dos melhores editores de Python. É fácil de usar e possui recursos 
 
 * * *
 
-O GNU Emacs é um editor, mas pode-se dizer que também úm sistema operacional, 😀️. 
+O GNU Emacs é um editor, mas pode-se dizer que também é um sistema operacional, 😀️. 
 ![emacs](/assets/img/python/ide/emacs-1.jpg)
 
 **Recursos do GNU Emacs**
