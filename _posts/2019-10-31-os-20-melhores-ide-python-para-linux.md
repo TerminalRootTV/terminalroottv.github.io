@@ -13,7 +13,7 @@ tags:
 
 ![Os 20 melhores IDE Python para Linux. Alguns deles são de código aberto](/assets/img/python/ide/pycharm_python_ide.jpg)
 
-Python é uma linguagem de programação muito utilizada para desenvolvimento da web e back-end, computação científica, inteligência artificial e análise de dados. Além disso, ele trabalha no desenvolvimento de aplicativos, jogos e, software de produtividade , e muitos outros propósitos.
+Python é uma linguagem de programação muito utilizada para desenvolvimento web, back-end, computação científica, inteligência artificial e análise de dados. Além disso, ele trabalha no desenvolvimento de aplicativos, jogos e, software de produtividade , e muitos outros propósitos.
 
 ### **1. IDLE**
 
