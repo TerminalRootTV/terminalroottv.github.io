@@ -309,7 +309,7 @@ Pra falar dos recursos diferencias do Emacs, seria necessário escrever um livro
 
 O Vim é o melhor IDE Python (E pra qualquer linguagem, vamos ser sinceros) para sistema Linux. É amplamente popular e amplamente utilizado para o editor de texto .
 
-![vim](/assets/img/python/ide/vim.jpg)
+![vim](/assets/img/vim/100-dicas-vim.png)
 
 **Recursos do Vim**
 
