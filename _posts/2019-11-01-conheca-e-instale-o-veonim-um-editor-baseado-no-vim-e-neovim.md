@@ -75,7 +75,7 @@ Então vamos instalá-lo em um diretório do sistema:
 sudo install dist/veonim*.AppImage /usr/local/bin/veonim
 {% endhighlight %}
 
-Agora vamos torná-lo visível ao Dashboard e Laucher, rode os comandos:
+Agora vamos torná-lo visível ao Dashboard e Launcher, rode os comandos:
 > Definindo o ícone padrão do software
 {% highlight bash %}
 sudo cp art/icon.png /usr/share/pixmaps/veonim.png
