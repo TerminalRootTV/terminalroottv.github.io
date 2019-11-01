@@ -72,7 +72,7 @@ O binário ficará pronto no diretório: `./dist/`
 
 Então vamos instalá-lo em um diretório do sistema:
 {% highlight bash %}
-sudo install dist/*veonim*.AppImage /usr/local/bin/veonim
+sudo install dist/veonim*.AppImage /usr/local/bin/veonim
 {% endhighlight %}
 
 Agora vamos torná-lo visível ao Dashboard e Laucher, rode os comandos:
