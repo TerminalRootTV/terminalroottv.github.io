@@ -13,8 +13,8 @@ tags:
 - electronjs
 ---
 
-![Veonim](/assets/vim/veonim.png)
-![Veonim](/assets/vim/header.png)
+![Veonim](/assets/img/vim/veonim.png)
+![Veonim](/assets/img/vim/header.png)
 
 Veonim é um IDE modal simples, construído com extensões Neovim e VSCode. O objetivo é criar meu ambiente de programação ideal.
 
@@ -91,7 +91,7 @@ Agora é só procurar procurar Veonim no Dash, Laucher, ou rodar via terminal pa
 veonim
 {% endhighlight %}
 
-![Veonim](/assets/vim/veonim2.png)
+![Veonim](/assets/img/vim/veonim2.png)
 
 ## Usando o Veonim
 
