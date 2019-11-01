@@ -22,7 +22,7 @@ Recursos:
 
 - • Suporte a extensões VSCode (trabalho em andamento, mas pode ser testado hoje em 0.22.0+)
 - • Visa ser 100% compatível com o Neovim
-- • Toda a configuração feita via vimrc com plugins vimscript / Lua / remote
+- • Toda a configuração feita via vimrc com plugins vimscript/Lua/remote
 - • Todos os recursos da Veonim são aceitos. Use o máximo ou o mínimo de recursos de IDE que desejar e personalize seu fluxo de trabalho
 - • Arquivos de pesquisa difusa, buffers, texto de buffer, pesquisa de texto de projeto (desenvolvido por ripgrep)
 - • Várias instâncias simultâneas do Neovim (como sessões tmux)
@@ -31,7 +31,7 @@ Recursos:
 
 ## Colocando o Veonim pra funfar
 
-Primeiramente você vai precisar possuir o [nodejs](), [npm]() e o [Git]() instalados no seu sistema, exemplos:
+Primeiramente você vai precisar possuir o [nodejs](https://nodejs.org), [npm](https://www.npmjs.com) e o [Git](https://terminalroot.com.br/git) instalados no seu sistema, exemplos:
 {% highlight bash %}
 emerge nodejs git # Gentoo, Funtoo, ...
 sudo apt install nodejs npm git # Ubuntu, Debian, Mint, ...
@@ -39,18 +39,18 @@ sudo pacman -S nodejs npm git # Arch, Manjaro, ...
 sudo dnf install nodejs npm git # Fedora
 {% endhighlight %}
 
-Após isso é necessário clonar o [Veonim]()
+Após isso é necessário clonar o [Veonim](https://github.com/veonim/veonim/)
 {% highlight bash %}
 git clone https://github.com/veonim/veonim
 {% endhighlight %}
 
-Próximo passo é entrar no diretório e instalar as dependências via [npm]()
+Próximo passo é entrar no diretório e instalar as dependências via [npm](https://www.npmjs.com)
 {% highlight bash %}
 cd veonim/
 npm i
 {% endhighlight %}
 
-Pronto, agora você já consegue rodar o [Veonim]() , mas essa não é a forma mais recomendada de usar, além de ficar lento demais, as configurações que você definir serão perdidas. Esse procedimento serve só pra ver se está tudo certo.
+Pronto, agora você já consegue rodar o [Veonim](https://github.com/veonim/veonim/) , mas essa não é a forma mais recomendada de usar, além de ficar lento demais, as configurações que você definir serão perdidas. Esse procedimento serve só pra ver se está tudo certo.
 {% highlight bash %}
 npm start
 {% endhighlight %}
@@ -90,6 +90,8 @@ Agora é só procurar procurar Veonim no Dash, Laucher, ou rodar via terminal pa
 {% highlight bash %}
 veonim
 {% endhighlight %}
+
+![Veonim](/assets/vim/veonim2.png)
 
 ## Usando o Veonim
 
