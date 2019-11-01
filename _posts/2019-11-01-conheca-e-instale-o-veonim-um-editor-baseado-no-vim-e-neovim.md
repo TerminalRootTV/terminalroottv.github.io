@@ -95,7 +95,7 @@ veonim
 
 ## Usando o Veonim
 
-+ Definir fonte tamanho (Exemplo de for Fantasque): `set guifont=SF\ FantasqueSansMono-Regular:h16`
++ Definir fonte tamanho (Exemplo se for Fantasque): `set guifont=SF\ FantasqueSansMono-Regular:h16`
 + Usar o explorador de arquivo: `:Veonim explorer`
 + Usar o Fuzzer file finder: `:Veonim files` 
 
