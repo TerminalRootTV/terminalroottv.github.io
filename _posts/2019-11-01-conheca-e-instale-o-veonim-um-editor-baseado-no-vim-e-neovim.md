@@ -29,6 +29,18 @@ Recursos:
 - • Totalmente acionado por teclado (sem suporte para mouse)
 - • Mas espere, tem mais! Consulte o Guia do Usuário
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Colocando o Veonim pra funfar
 
 Primeiramente você vai precisar possuir o [nodejs](https://nodejs.org), [npm](https://www.npmjs.com) e o [Git](https://terminalroot.com.br/git) instalados no seu sistema, exemplos:
@@ -55,6 +67,16 @@ Pronto, agora você já consegue rodar o [Veonim](https://github.com/veonim/veon
 npm start
 {% endhighlight %}
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Instalando no seu sistema
 
 Ainda dentro do diretório do Veonim , rode o comando:
@@ -69,6 +91,17 @@ npm run package
 {% endhighlight %}
 
 O binário ficará pronto no diretório: `./dist/`
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Então vamos instalá-lo em um diretório do sistema:
 {% highlight bash %}
@@ -90,6 +123,19 @@ Agora é só procurar procurar Veonim no Dash, Laucher, ou rodar via terminal pa
 {% highlight bash %}
 veonim
 {% endhighlight %}
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Veonim](/assets/img/vim/veonim2.png)
 
