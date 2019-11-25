@@ -47,3 +47,5 @@ Conheça também o [Curso Completo de Expressões Regulares](https://terminalroo
 Show de bola, né?! É um dica simples, rápida e funcional, para quem tiver alguma necessidade relacionada.
 
 Espero que tenham gostado e até a próxima!
+
+## Acesse: <https://sed.js.org/>
