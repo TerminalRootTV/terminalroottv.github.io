@@ -2,13 +2,15 @@
 layout: post
 title: "Conheça um Sed online"
 date: 2019-11-25 09:12:22
-image: '/assets/img/dicas/sed-online.png'
+image: '/assets/img/dicas/sed-online.jpg'
 description: 'Ideal para quem não está no Linux, mas precisa fazer aquela filtragem maneira! :)'
 tags:
 - sed
 - terminal
 - editor
 ---
+
+![Conheça um Sed online](/assets/img/dicas/sed-online.jpg)
 
 Fala, pessoal! Estava meio sumidão por conta de uns trabalhos extras, mas estou de volta e as múltiplas postagens semanais voltarão! 😀
 
