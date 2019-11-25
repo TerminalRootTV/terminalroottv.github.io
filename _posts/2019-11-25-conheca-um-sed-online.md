@@ -39,7 +39,9 @@ Na parte superior ainda existem opções mais específicas para **POSIX** e **RE
 
 Se você ainda não domina o [Sed](https://terminalroot.com.br/sed) recomendo você conhecer nosso Curso Completo de Sed aqui no site e também na Udemy:
 + [Curso Completo de Sed](https://terminalroot.com.br/sed): <https://terminalroot.com.br/sed>
-+ [Sed na Udemy](https://www.udemy.com/course/curso-completo-de-sed-editor-de-fluxo/): <https://www.udemy.com/course/curso-completo-de-sed-editor-de-fluxo/>
++ [Sed na Udemy](https://www.udemy.com/course/curso-completo-de-sed-editor-de-fluxo/)
+
+Conheça também o [Curso Completo de Expressões Regulares](https://terminalroot.com.br/regex)
 
 Show de bola, né?! É um dica simples, rápida e funcional, para quem tiver alguma necessidade relacionada.
 
