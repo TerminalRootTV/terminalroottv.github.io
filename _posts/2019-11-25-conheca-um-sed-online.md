@@ -14,7 +14,7 @@ Fala, pessoal! Estava meio sumidão por conta de uns trabalhos extras, mas estou
 
 Durante meus trabalhos extras me deparei com um problema de precisar filtrar um documento em CSV com mais de 5.000 linhas e como não estava numa máquina com Linux e nem UNIX , senti falta do Sed pra fazer esse trabalhosinho pesado! 
 
-Então encontrei um serviço bem bacana online pra conseguir filtrar com [Sed](https://terminalroot.com.br/sed) e [Expressões Regulares](https://terminalroot.com.br/sed) e para isso utilizei o [Sed live editor](https://sed.js.org/) .
+Então encontrei um serviço bem bacana online pra conseguir filtrar com [Sed](https://terminalroot.com.br/sed) e [Expressões Regulares](https://terminalroot.com.br/regex) e para isso utilizei o [Sed live editor](https://sed.js.org/) .
 
 O Serviço funciona igual, com mínimas limitações , mas já dá pra ajudar bastante. Você colar o texto que deseja na coluna da esquerda, depois digita o comando no *input* Command-line e ele mostrará o resultado na coluna da esquerda.
 
