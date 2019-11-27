@@ -88,7 +88,7 @@ Usar o Node.js do zero gera muito trabalho, mas para isso usa-se um framework pa
 
 O [Express.js](https://expressjs.com/), ou simplesmente o **Express**, é uma estrutura de aplicativo da Web para o Node.js, lançada como software livre e de código aberto sob a Licença MIT. Ele foi projetado para criar aplicativos da Web e APIs. Foi chamado de estrutura de servidor padrão de fato para o Node.js .
 
-### Instlando o Express.js
+### Instalando o Express.js
 
 Para instalar o Express vamos utilizar o gerenciador de pacotes `npm` que já está instalado e devidamente atualizado na nossa máquina. Para isso rode o comando:
 
@@ -251,4 +251,4 @@ Na próxima parte veremos como instalar o banco [MongoDB](https://www.mongodb.co
 + <https://www.npmjs.com/>
 + <https://expressjs.com/pt-br/>
 
-Abraços!    
+Abraços!
