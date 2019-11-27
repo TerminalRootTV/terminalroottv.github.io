@@ -31,6 +31,7 @@ O npm é inteiramente escrito em JavaScript e foi desenvolvido por Isaac Z , e �
 
 Para instalar o [Node.js](https://nodejs.org) utilize o gerenciador de pacotes da sua distribuição, exemplos:
 
+
 > Em algumas distribuições você precisará instalar também o **npm** .
 
 ```sh
@@ -51,9 +52,11 @@ Para atualizar o **npm** use o próprio para atualizar, o comando correto é:
 > Em alguns casos não precisará do `sudo` , ou seja, se tiver algum problema, tente sem o *sudo*.
 > 
 > O parâmetro `-g` serve para o comando ficar *global* , para todos os usuário do seu sistema.
+
 ```sh
 sudo npm install npm@latest -g
 ```
+
 > Evite o comando ~~`npm i npm`~~ como muitos recomendam porque ele trabalha com um arquivo *.json* no diretório current e a versão indica vai gerar automáticamente esse arquivo, perceba na raíz do seu diretório pessoal que haverá um arquivo de nome *package-lock.json* ou somente *package.json* , [clique aqui para saber mais](https://docs.npmjs.com/about-npm-versions) .
 
 ## Utilização
