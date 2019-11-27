@@ -203,7 +203,7 @@ Agora é só rodar novamente `npm start` e acessar: <http://localhost:3000> e a 
 
 Pronto! Deu certo aí ?! Comente!
 
-Na próxima parte veremos como instalar o banco [MongoDB]() e como conectar e fazer consultas.
+Na próxima parte veremos como instalar o banco [MongoDB](https://www.mongodb.com) e como conectar e fazer consultas à base de dados.
 
 ## Links Úteis
 
