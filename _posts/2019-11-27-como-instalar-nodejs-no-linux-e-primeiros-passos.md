@@ -11,12 +11,6 @@ tags:
 - express
 ---
 
-x-special/nautilus-clipboard
-copy
-file:///var/www/localhost/htdocs/terminalroottv.github.io
-file:///var/www/localhost/htdocs/terminalroottv.github.io
-
-
 ![Como Instalar Node.js no Linux e Primeiros Passos](/assets/img/js/nodejs.jpg)
 
 ### [Node.js](https://nodejs.org)
