@@ -27,6 +27,16 @@ Dahl se inspirou para criar Node.js depois de ver barra de progresso de upload d
 
 O npm é inteiramente escrito em JavaScript e foi desenvolvido por Isaac Z , e é inspirado em outros projetos semelhantes, como PEAR ( PHP ) e CPAN ( Perl ).
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Instalação
 
 Para instalar o [Node.js](https://nodejs.org) utilize o gerenciador de pacotes da sua distribuição, exemplos:
@@ -57,6 +67,17 @@ Para atualizar o **npm** use o próprio para atualizar, o comando correto é:
 sudo npm install npm@latest -g
 ```
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > Evite o comando ~~`npm i npm`~~ como muitos recomendam porque ele trabalha com um arquivo *.json* no diretório current e a versão indica vai gerar automáticamente esse arquivo, perceba na raíz do seu diretório pessoal que haverá um arquivo de nome *package-lock.json* ou somente *package.json* , [clique aqui para saber mais](https://docs.npmjs.com/about-npm-versions) .
 
 ## Utilização
@@ -78,6 +99,18 @@ sudo npm install -g express-generator
 Após instalado podemos ver se o mesmo já está funcionando, verificando a versão com o comando: `express --version`
 
 ## Criando um 'Olá, mundo!' em Node.js
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Primeiramente vamos criar um diretório e já entrar no mesmo, para que nossos arquivos não fiquem bagunçados:
 
@@ -162,6 +195,16 @@ Welcome to Express
 ```
 
 Para finalizar a conexão, tecle: **Ctrl + c** .
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Customizando o template
 
