@@ -198,7 +198,7 @@ O [Veonim](https://terminalroot.com.br/2019/11/conheca-e-instale-o-veonim-um-edi
 
 ## Conclusão
 
-Bom, alternativas é o que não falta, mas assim como distribuição Linux, sistema, interface gráfica, gerenciador de janelas ,... editor de código é uma coisa bem pessoal. O interessante é escolher aquele que você se sinta confortável e lhe ajude a escrever seus códigos, ou seja, que lhe traga aquela sensação gostosa de estar excrevendo(desenvolvendo) seus projetos .
+Bom, alternativas é o que não faltam, mas assim como distribuição Linux, sistema, interface gráfica, gerenciador de janelas ,... editor de código é uma coisa bem pessoal. O interessante é escolher aquele que você se sinta confortável e lhe ajude a escrever seus códigos, ou seja, que lhe traga aquela sensação gostosa de estar excrevendo(desenvolvendo) seus projetos .
 
 Esse é praticamente o segundo artigo aqui no blog sobre editores, a lista antiga pode ser consultada nesse link: [Os 8 melhores Editores de Texto para GNU/Linux](https://terminalroot.com.br/2016/05/os-8-melhores-editores-de-texto-para.html)
 
