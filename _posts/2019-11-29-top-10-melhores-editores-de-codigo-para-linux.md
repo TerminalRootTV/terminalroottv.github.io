@@ -280,7 +280,9 @@ O [Veonim](https://terminalroot.com.br/2019/11/conheca-e-instale-o-veonim-um-edi
 
 Bom, alternativas é o que não faltam, mas assim como distribuição Linux, sistema, interface gráfica, gerenciador de janelas ,... editor de código é uma coisa bem pessoal. O interessante é escolher aquele que você se sinta confortável e lhe ajude a escrever seus códigos, ou seja, que lhe traga aquela sensação gostosa de estar excrevendo(desenvolvendo) seus projetos .
 
-Esse é praticamente o segundo artigo aqui no blog sobre editores, a lista antiga pode ser consultada nesse link: [Os 8 melhores Editores de Texto para GNU/Linux](https://terminalroot.com.br/2016/05/os-8-melhores-editores-de-texto-para.html)
+Esse é praticamente o segundo artigo aqui no blog sobre editores, a lista antiga pode ser consultada nesse link: [Os 8 melhores Editores de Texto para GNU/Linux](https://terminalroot.com.br/2016/05/os-8-melhores-editores-de-texto-para.html) . Além também de um vídeo bem bacana sobre os **5 Melhores Editores de Texto de Todos os Tempos para Linux**, assista agora:
+
+<iframe width="920" height="400" src="https://www.youtube.com/embed/mmIycP6egqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Espero que você tenham gostado da lista e do ranking. Caso tenha uma sugestão melhor de aplicativos ou ordem do ranking, fique à vontade em comentar!
 
