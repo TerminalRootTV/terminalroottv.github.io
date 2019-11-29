@@ -35,7 +35,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-O [Vim](https://terminalroot.com.br/vim) é uma versão melhorada do editor do seu antecessor **Vi** e funciona via terminal, por isso seu acrônimo quer dizer **VI** **IM**proved . É o editor de código mais utilizado no mundo por desenvolvedores. O seu poder de customização é o maior fator desse grande adoção, entre milhares de outras utilizades. É o que editor que eu mais uso para inúmeras coisas . 
+O [Vim](https://terminalroot.com.br/vim) é uma versão melhorada do editor do seu antecessor **Vi** e funciona via terminal, por isso seu acrônimo quer dizer **VI** **IM**proved . É o editor de código mais utilizado no mundo por desenvolvedores. O seu poder de customização é o maior fator desse grande adoção, entre milhares de outras utilidades. É o que editor que eu mais uso para inúmeras coisas . 
 
 > Além disso ele possui versão gráfica: **Gvim** ou **Vim-gtk**
 
