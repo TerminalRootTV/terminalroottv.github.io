@@ -25,6 +25,16 @@ Editores de Código (ou editores de texto) são os programas mais utilizado no m
 ## 1. [Vim](http://www.vim.org/)
 ![Vim](/assets/img/dev/editores/vim-min.png)
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 O [Vim](https://terminalroot.com.br/vim) é uma versão melhorada do editor do seu antecessor **Vi** e funciona via terminal, por isso seu acrônimo quer dizer **VI** **IM**proved . É o editor de código mais utilizado no mundo por desenvolvedores. O seu poder de customização é o maior fator desse grande adoção, entre milhares de outras utilizades. É o que editor que eu mais uso para inúmeras coisas . 
 
 > Além disso ele possui versão gráfica: **Gvim** ou **Vim-gtk**
@@ -49,7 +59,18 @@ Assista abaixo um vídeo sobre **10 dicas para você utilizar o Vim como um Ninj
 ## 2. [Emacs](https://www.gnu.org/software/emacs/)
 ![Emacs](/assets/img/dev/editores/emacs-min.png)
 
-O [Emacs](https://www.gnu.org/software/emacs/) é o segundo editor de códigos mais utilizado no mundo por programadores . É o editor que mais possui funcionalidades no mundo, daí o motivo que muitos o chamam de *sistema operacional* , quase tudo é possível com o mesmo . 
+O [Emacs](https://www.gnu.org/software/emacs/) é o segundo editor de códigos mais utilizado no mundo por programadores . É o editor que mais possui funcionalidades no mundo, daí o motivo que muitos o chamam de *sistema operacional* , quase tudo é possível com o mesmo .
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ele também é altamente customizável , no entanto, a curva de aprendizado é um pouco mais mais difícil que o Vim, mas depois que você se acostuma, haja recursos que você vai descobrir para adicionar, ativar, configurar ,... Já usei algumas vezes principalmente para filtragem de dados via [Expressões Regulares](https://terminalroot.com.br/regex) , que ele possui diversas ferramentas bem legais. 
 
@@ -68,6 +89,19 @@ sudo pacman -S emacs # Arch, Manjaro,...
 
 ![Atom](/assets/img/dev/editores/atom-logo.png)
 ## 3. [Atom](https://atom.io/)
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![Atom](/assets/img/dev/editores/atom-min.png)
 
 O Atom criado pelo [GitHub](https://github.com/) com o framework que eles também desenvolveram: [ElectronJS](https://electronjs.org/) , é um editor bem bacana, gosto das cores da interface e também de alguns comandos que por sua vez também foram herdados do Vim . Uso ele para escrever códigos em HTML e CSS é bem bacana.
@@ -111,6 +145,19 @@ sudo apt install anjuta # Debian, Ubuntu, Mint, ...
 sudo pacman -S anjuta # Arch, Manjaro,...
 {% endhighlight %}
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ***
 
 ![Code::Blocks](/assets/img/dev/editores/codeblocks-logo.png)
@@ -138,6 +185,16 @@ Esse é o editor de códigos da [Microsoft](https://terminalroot.com.br/2017/10/
 
 Site Oficial: <https://code.visualstudio.com/>
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para instalá-lo você pode fazer download do [.deb](https://terminalroot.com.br/2014/12/como-criar-pacotes-deb.html) , [.rpm](https://terminalroot.com.br/2013/04/curso-certificacao-linux-lpi-102_16.html) , [tar.gz](https://terminalroot.com.br/2019/10/como-extrair-varios-formatos-compactados-com-um-comando.html	) ou até mesmo do [snap](https://snapcraft.io/) pelo próprio site.
 
 No [Gentoo](https://gentoo.org) você pode usar também um *overlay*, exemplo:
@@ -152,6 +209,17 @@ sudo emerge -a visual-studio-code
 ![Neovim](/assets/img/dev/editores/neovim-logo.png)
 ## 7. [Neovim](https://neovim.io/)
 ![Neovim](/assets/img/dev/editores/neovim-min.png)
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 O [Neovim](https://neovim.io/) é um fork do [Vim](https://terminalroot.com.br/vim) melhorado, principalemente no quesito organização dos plugins . No nosso curso de Vim também há bastante conteúdo de Neovim .
 
@@ -183,6 +251,18 @@ Site Oficial: <https://wiki.gnome.org/Apps/Gedit>
 O [Spacemacs](https://www.spacemacs.org/) é uma customização do Emacs que possui comandos e recursos paralelos ao Vim, ou seja, ele mistura os dois melhores editores num só. Possui uma interface muito bonita e atraente . 
 
 Site oficial: <https://www.spacemacs.org/>
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Se quiser ver como instalar e utilizá-lo . Recomendo assistir à esse vídeo tutorial, tem bastante dicas legais:
 
