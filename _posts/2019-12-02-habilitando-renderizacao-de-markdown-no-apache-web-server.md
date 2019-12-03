@@ -35,6 +35,16 @@ git clone https://github.com/hamano/apache-mod-markdown
 cd apache-mod-markdown/
 {% endhighlight %}
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 + Gere um `./configure` com o [autotools](https://www.gnu.org/software/automake/):
 {% highlight bash %}
 autoreconf -f -i
@@ -65,6 +75,17 @@ LoadModule markdown_module modules/mod_markdown.so
 {% endhighlight %}
 > Algumas distros o caminho do módulo é diferente, no meu caso é o padrão da instalação mesmo: `/usr/lib64/apache2/modules/mod_markdown.so` , mas distros como Debian, Ubuntu,... o caminho pode ser outro, verifique e insira o módulo corretamente, exemplo: `LoadModule markdown_module /usr/lib/apache2/modules/mod_markdown.so`
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 2. Agora vamos fazer o Apache aceitar ler arquivos com extensão `.md` e `.markdown` e também aceitar páginas **Index** em `.md` também, edite ou inclua-os: `sudo vim /etc/apache2/modules.d/00_default_settings.conf` , verifique o caminho na sua distro.
 {% highlight bash %}
 <IfModule dir_module>
@@ -93,6 +114,18 @@ Depois abra um navegador e acesse: <http://localhost/teste.md>
 
 Se renderizar é porque está tudo certo.
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Customizações
 
 + Utilizando um CSS customizado
@@ -120,6 +153,16 @@ Por padrão ele renderiza o markdown em uma versão do HTML (4.01) se quiser alt
 	MarkdownDoctype HTML_5
 </IfModule>
 {% endhighlight %}
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Você pode usar em conjunto(uma linha acima ou abaixo) com o `MarkdownCss`, existem outras opções também como: `MarkdownHeaderHtml`, `MarkdownFooterHtml` , `MarkdownWrapper` e `MarkdownFlags` , essa última serve pra customizar a renderização de acordo com o [Discount](http://www.pell.portland.or.us/~orc/Code/discount/) .
 
