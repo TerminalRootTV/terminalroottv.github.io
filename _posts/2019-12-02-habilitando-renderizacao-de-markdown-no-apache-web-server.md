@@ -15,7 +15,7 @@ tags:
 
 Como bem sabemos, um dos diferenciais positivos do [Apache](https://www.apache.org) se compararmos ao **NGINX** é que ele é modular, ou seja, podemos adicionar e remover recursos , coisa que no NGINX não é possível.
 
-Se você tentar acessar arquivo `.md` no Apache ele não irá abrir o arquivo , mas se você alterar o arquivo de configuração do [Apache] para ler esse arquivo, ainda sim, ele não converterá os *símbolos* [MarkDown](http://daringfireball.net/projects/markdown) em HTML, para isso vamos usar um *parser* que pode ser adquirido no endereço: <https://github.com/hamano/apache-mod-markdown> . Vamos ver como instalá-lo, configurá-lo e customizá-lo aqui nesse artigo para que você possa abrir seus arquivos [MarkDown](http://daringfireball.net/projects/markdown).
+Se você tentar acessar arquivo `.md` no Apache ele não irá abrir o arquivo , mas se você alterar o arquivo de configuração do [Apache](https://www.apache.org) para ler esse arquivo, ainda sim, ele não converterá os *símbolos* [MarkDown](http://daringfireball.net/projects/markdown) em HTML, para isso vamos usar um *parser* que pode ser adquirido no endereço: <https://github.com/hamano/apache-mod-markdown> . Vamos ver como instalá-lo, configurá-lo e customizá-lo aqui nesse artigo para que você possa abrir seus arquivos [MarkDown](http://daringfireball.net/projects/markdown).
 
 ## Instale as [dependências](http://www.pell.portland.or.us/~orc/Code/discount/):
 {% highlight bash %}
