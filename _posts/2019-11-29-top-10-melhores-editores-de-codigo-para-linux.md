@@ -9,7 +9,7 @@ tags:
 - emacs
 - atom
 - anjuta
-- code::blocks
+- codeblocks
 - visual-studio-code
 - neovim
 - gedit
