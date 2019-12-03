@@ -64,7 +64,7 @@ make
 
 + Instale tornando-o reconhecido pela variável *PATH*:
 {% highlight bash %}
-make install
+sudo make install
 {% endhighlight %}
 
 ## Configurando o [Apache](https://www.apache.org)
@@ -99,7 +99,7 @@ data-ad-slot="5351066970"></ins>
 sudo rc-service apache2 restart
 {% endhighlight %}
 
-Se seu sistema usa [systemd](https://terminalroot.com.br/2019/07/por-que-systemd.html) , esqueça o coamndo acima e use esse:
+Se seu sistema usa [systemd](https://terminalroot.com.br/2019/07/por-que-systemd.html) , esqueça o comando acima e use esse:
 {% highlight bash %}
 sudo systemctl restart apache2
 {% endhighlight %}
