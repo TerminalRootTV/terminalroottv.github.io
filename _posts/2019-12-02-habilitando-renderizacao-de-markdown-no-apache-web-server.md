@@ -168,6 +168,7 @@ Você pode usar em conjunto(uma linha acima ou abaixo) com o `MarkdownCss`, exis
 
 Veja alguns outros artigos e vídeo sobre [MarkDown](http://daringfireball.net/projects/markdown):
 
++ [Como Rodar Shell Script e Python via Apache no Linux](https://terminalroot.com.br/2018/12/como-rodar-shell-script-e-python-via-apache-no-linux.html)
 + [HTML é coisa do passado, o negócio agora é MarkDown!](https://terminalroot.com.br/2016/12/markdown.html)
 + [Remarkable, Um Ótimo Editor MarkDown para Linux](https://terminalroot.com.br/2017/02/remarkable-editor-markdown-para-linux.html)
 
