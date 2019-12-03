@@ -25,34 +25,34 @@ apt install build-essential libtool automake autoconf libmarkdown2-dev apache2 a
 
 ## Clone, compile e instale:
 
-+ 1. Clone o repositório do módulo:
++ Clone o repositório do módulo:
 {% highlight bash %}
 git clone https://github.com/hamano/apache-mod-markdown
 {% endhighlight %}
 
-+ 2. Entre no diretório clonado:
++ Entre no diretório clonado:
 {% highlight bash %}
 cd apache-mod-markdown/
 {% endhighlight %}
 
-+ 3. Gere um `./configure` com o [autotools](https://www.gnu.org/software/automake/):
++ Gere um `./configure` com o [autotools](https://www.gnu.org/software/automake/):
 {% highlight bash %}
 autoreconf -f -i
 {% endhighlight %}
 
-+ 4. Rode o `./configure` para verificar as dependências e gerar o `Makefile`:
++ Rode o `./configure` para verificar as dependências e gerar o `Makefile`:
 
 {% highlight bash %}
 ./configure
 {% endhighlight %}
 > Se tiver algum problema, descubra o caminho do seu arquivo `mkdio.h` usando o comando: `find /usr/ -name mkdio.h` no meu caso foi encontrado em: `/usr/include/mkdio.h` , então vou usar ele para a variável: **DISCOUNT_DIR** , assim: `./configure --with-discount=/usr/include` .
 
-+ 5. Construa o binário:
++ Construa o binário:
 {% highlight bash %}
 make
 {% endhighlight %}
 
-+ 2. Instale tornando-o reconhecido pela variável *PATH*:
++ Instale tornando-o reconhecido pela variável *PATH*:
 {% highlight bash %}
 make install
 {% endhighlight %}
