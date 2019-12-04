@@ -17,7 +17,7 @@ tags:
 
 ![Os 8 melhores temas de Ícones para seu Linux](/assets/img/icones/os-8-melhores-temas-de-icones-para-linux.jpg)
 
-Fiz essa lista baseada nas minhas esperiências com temas de ícones , alguns deles já foram dispostos em alguns vídeos do [Canal Terminal Root](https://www.youtube.com/TerminalRootTV) , mas outros passaram por um pente fino e por testes para fazer parte daqui. 
+Fiz essa lista baseada nas minhas experiências com temas de ícones , alguns deles já foram dispostos em alguns vídeos do [Canal Terminal Root](https://www.youtube.com/TerminalRootTV) , mas outros passaram por um pente fino e por testes para fazer parte daqui. 
 
 A instalação é padrão em qualquer Linux, ou seja, basta você baixar o pacote, extrair e mover para o diretório de ícones na pasta raíz do seu usuário: `~/.icons/` , se não houver esse diretório, crie: `mkdir ~/.icons/` . Já para ativar, dependerá de cada Interface/Ambiente Desktop e gerenciadores de janelas.
 
