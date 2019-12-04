@@ -250,7 +250,7 @@ mv Mojave/ ~/.icons/
 
 ![Cupertino Circle](/assets/img/icones/cupertino.jpg)
 
-E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons modificados . Pus nessa lista justamente pelo mesmo motivo do anterior, o número de pessoas que gostam é grande e lógico, achei bem bacana também.
+E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons modificados . Pus nessa lista justamente pelo mesmo motivo do anterior, o número de pessoas que gostam é grande, e lógico, achei bem bacana também.
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/CupertinoIconTR1">
