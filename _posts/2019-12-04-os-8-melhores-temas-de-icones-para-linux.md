@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Os 8 melhores temas de ícones para Linux"
+title: "Os 8 melhores temas de Ícones para seu Linux"
 date: 2019-12-04 13:56:01
 image: '/assets/img/icones/os-8-melhores-temas-de-icones-para-linux.jpg'
 description: 'Fiz essa lista baseada nas minhas esperiências com temas de ícones. 🏃'
@@ -15,7 +15,7 @@ tags:
 - kde
 ---
 
-Os 8 melhores temas de ícones para Linux
+![Os 8 melhores temas de Ícones para seu Linux](/assets/img/icones/os-8-melhores-temas-de-icones-para-linux.jpg)
 
 Fiz essa lista baseada nas minhas esperiências com temas de ícones , alguns deles já foram dispostos em alguns vídeos do [Canal Terminal Root](https://www.youtube.com/TerminalRootTV) , mas outros passaram por um pente fino e por testes para fazer parte daqui. 
 
@@ -237,7 +237,7 @@ mv Mojave/ ~/.icons/
 E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons modificados . Pus nessa lista justamente pelo mesmo motivo do anterior, o número de pessoas que gostam é grande e lógico, achei bem bacana também.
 
 <div class="text-center">
-  <p><a href="http://bit.ly/CupertinoIconTR">
+  <p><a href="http://bit.ly/CupertinoIconTR1">
    <button class="btn-lg btn-warning">
    <i class="fas fa-download"></i> Download do Cupertino icons
    </button>
@@ -270,5 +270,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/7GQFKbePT-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 + **Como Customizar Totalmente a Aparência do GNOME**
+
 <iframe width="920" height="400" src="https://www.youtube.com/embed/[VIDEO]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
