@@ -268,7 +268,7 @@ mv Cupertino/ ~/.icons/
 
 ## Conclusão
 
-Eu como havia dito, fiquei com o [Breeze]() , mas essas "perfumarias" vai totalmente do gosto de cada um . Se tiver algum problema na instalação e principalmente na ativação dos temas, assista dois vídeos abaixo que há demonstração de instalação e ativação de tema de ícones no [GNOME]() e no [MATE]() , se quiser ver também no [LXDE]() e no [XFCE]() , clique nos links abaixo. Abraços!
+Como havia dito, fiquei com o [Breeze]() , mas essas "perfumarias" vai totalmente do gosto de cada um . Se tiver algum problema na instalação e principalmente na ativação dos temas, assista dois vídeos abaixo que há demonstração de instalação e ativação de tema de ícones no [GNOME]() e no [MATE]() , se quiser ver também no [LXDE]() e no [XFCE]() , clique nos links abaixo. Abraços!
 
 + [Como Customizar a Aparencia do LXDE](https://terminalroot.com.br/2017/12/como-customizar-a-aparencia-do-lxde.html)
 + [OpenBSD - O Sistema mais Seguro do Mundo - Instalação e Configuração](https://terminalroot.com.br/2018/07/openbsd-o-sistema-mais-seguro-do-mundo-instalacao-e-configuracao.html)
