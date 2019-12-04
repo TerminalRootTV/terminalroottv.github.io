@@ -238,7 +238,7 @@ E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons m
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/CupertinoIconTR1">
-   <button style="cursor:pointer;" class="btn-lg btn-warning">
+   <button style="cursor:pointer;" class="btn-lg btn-success">
    <i class="fas fa-download"></i> Download do Cupertino icons
    </button>
   </a></p>
