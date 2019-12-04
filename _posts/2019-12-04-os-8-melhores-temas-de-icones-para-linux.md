@@ -60,7 +60,7 @@ O Deepin acho que foi um dos temas de ícones que eu mais usei até hoje, não a
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Deepin.tar.gz
 mv Deepin/ ~/.icons/
@@ -94,7 +94,7 @@ Atualmete estou usando esse tema de ícones, gosto dos ícones minimalistas que 
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Breeze.tar.gz
 mv Breeze/ ~/.icons/
@@ -129,7 +129,7 @@ O Vibrancy é na verdade uma coleção de ícones, onde muda somente as cores. P
   </a></p>
 </div>
 
-A instalação é um pouco diferente pelo fato de que ele possui os temas em subdiretório, logo, ou mova todos os ícones, ou escolha mover por cor. Decompacte após o download de mova todos os diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+A instalação é um pouco diferente pelo fato de que ele possui os temas em subdiretório, logo, ou mova todos os ícones, ou escolha mover por cor. Decompacte após o download e mova todos os diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Vibrancy.tar.gz
 mv Vibrancy/\* ~/.icons/
@@ -151,7 +151,7 @@ O Papirus é bem parecido com o Deepin Icons, a única coisa que muda é o estil
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Papirus.tar.gz
 mv Papirus/ ~/.icons/
@@ -183,7 +183,7 @@ O Luv, digamos, é o mais original dessa lista, ele é a nova versão do famoso 
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Luv.tar.gz
 mv Luv/ ~/.icons/
@@ -205,7 +205,7 @@ Esse é da mesma família do Luv (digamos que é um Luv em forma de círculos) ,
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf NumixCircle.tar.gz
 mv NumixCircle/ ~/.icons/
@@ -238,7 +238,7 @@ O nome já diz tudo! Ele é baseado no ícones do [macOS](https://www.youtube.co
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Mojave.tar.gz
 mv Mojave/ ~/.icons/
@@ -260,7 +260,7 @@ E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons m
   </a></p>
 </div>
 
-Para instalar descompacte após o download de mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Cupertino.tar.gz
 mv Cupertino/ ~/.icons/
