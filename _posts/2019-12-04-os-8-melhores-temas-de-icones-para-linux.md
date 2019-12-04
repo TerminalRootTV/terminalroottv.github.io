@@ -260,7 +260,7 @@ E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons m
   </a></p>
 </div>
 
-Para instalar descompacte após o download e mova pro diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
+Para instalar descompacte após o download e mova pro diretório de ícones. Pra funcionar basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Cupertino.tar.gz
 mv Cupertino/ ~/.icons/
