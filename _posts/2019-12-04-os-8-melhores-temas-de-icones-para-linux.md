@@ -21,7 +21,7 @@ Fiz essa lista baseada nas minhas esperiências com temas de ícones , alguns de
 
 A instalação é padrão em qualquer Linux, ou seja, basta você baixar o pacote, extrair e mover para o diretório de ícones na pasta raíz do seu usuário: `~/.icons/` , se não houver esse diretório, crie: `mkdir ~/.icons/` . Já para ativar, dependerá de cada Interface/Ambiente Desktop e gerenciadores de janelas.
 
-Vamos conhecer então esses os melhores!
+Vamos conhecer então esses 8 melhores!
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
