@@ -228,7 +228,7 @@ data-ad-slot="5351066970"></ins>
 
 ![Mojave Circle](/assets/img/icones/mojave.jpg)
 
-O nome já diz tudo! Ele é baseado no ícones do [macOS](https://www.youtube.com/watch?v=2B8Q6IWvVa8) . Para aqueles que gostam de um tema mais caprichado no design, esse é um bom pedido.
+O nome já diz tudo! Ele é baseado nos ícones do [macOS](https://www.youtube.com/watch?v=2B8Q6IWvVa8) . Para aqueles que gostam de um tema mais caprichado no design, esse é um bom pedido.
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/MojaveIconTR">
