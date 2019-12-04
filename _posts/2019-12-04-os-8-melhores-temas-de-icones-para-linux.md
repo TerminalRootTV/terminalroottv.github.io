@@ -51,7 +51,7 @@ data-ad-slot="5351066970"></ins>
 O Deepin acho que foi um dos temas de ícones que eu mais usei até hoje, não agride à vista e ainda customiza alguns diretórios facilitando a rápida visão . Tem um tema de ícone para aplicativo que reconhece a maioria e não distorce o que não dificulta na identificação. Vale a pena tentar:
 
 <div class="text-center">
-  <p><a href="http://bit.ly/DeepinIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/DeepinIconTR">
    <button class="btn-lg btn-primary">
    <i class="fas fa-download"></i> Download do Deepin icons
    </button>
@@ -83,7 +83,7 @@ data-ad-slot="8549252987"></ins>
 Atualmete estou usando esse tema de ícones, gosto dos ícones minimalistas que são exibidos na janela do gerenciador de arquivos, bem como o botão de fechar que tem o "ar" de destaque, possui um visual limpo e empolgante. também vale a pena tentar:
 
 <div class="text-center">
-  <p><a href="http://bit.ly/BreezeIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/BreezeIconTR">
    <button class="btn-lg btn-info">
    <i class="fas fa-download"></i> Download do Breeze icons
    </button>
@@ -116,7 +116,7 @@ data-full-width-responsive="true"></ins>
 O Vibrancy é na verdade uma coleção de ícones, onde muda somente as cores. Possui 71 estilo de cores diferentes, eu particularmente gosto mais do estilo *Purple Dark* , mas vai de gosto. Já mostramos ele por aqui na série sobre [FreeBSD](https://www.youtube.com/playlist?list=PLUJBQEDDLNclMH315Qr5NH4zxA7zl8hsA) . Vale a pena tentar:
 
 <div class="text-center">
-  <p><a href="http://bit.ly/VibrancyIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/VibrancyIconTR">
    <button class="btn-lg btn-dark">
    <i class="fas fa-download"></i> Download do Vibrancy icons
    </button>
@@ -136,7 +136,7 @@ mv Vibrancy/\* ~/.icons/
 O Papirus é bem parecido com o Deepin Icons, a única coisa que muda é o estilo das pastas, ele possui um azul claro, porém mais tonificado , e as bordas mais escurecidas com um design mais peculiar, é uma boa alternativa também:
 
 <div class="text-center">
-  <p><a href="http://bit.ly/PapirusIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/PapirusIconTR">
    <button class="btn-lg btn-secondary">
    <i class="fas fa-download"></i> Download do Papirus icons
    </button>
@@ -166,7 +166,7 @@ data-ad-slot="5351066970"></ins>
 O Luv, digamos, é o mais original dessa lista, ele é a nova versão do famoso Numix , dá um "ar" mais de escritório 😀 , e eu particularmente achei bem bacana, de vez em quando eu ativo ele pra diferenciar um pouco, ou seja, vale a pena ter no seu diretório de ícones junto com outros.
 
 <div class="text-center">
-  <p><a href="http://bit.ly/LuvIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/LuvIconTR">
    <button class="btn-lg btn-dark">
    <i class="fas fa-download"></i> Download do Luv icons
    </button>
@@ -186,7 +186,7 @@ mv Luv/ ~/.icons/
 Esse é da mesma família do Luv (digamos que é um Luv em forma de círculos) , mas possui alguns coisas próprias dele. Nunca usei, mas já notei que faz bastante sucesso entre os Linusers . 
 
 <div class="text-center">
-  <p><a href="http://bit.ly/NumixCircleIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/NumixCircleIconTR">
    <button class="btn-lg btn-danger">
    <i class="fas fa-download"></i> Download do Numix Circle icons
    </button>
@@ -217,7 +217,7 @@ data-ad-slot="5351066970"></ins>
 O nome já diz tudo! Ele é baseado no ícones do [macOS](https://www.youtube.com/watch?v=2B8Q6IWvVa8) . Para aqueles que gostam de um tema mais caprichado no design, esse é um bom pedido.
 
 <div class="text-center">
-  <p><a href="http://bit.ly/MojaveIconTR">
+  <p><a style="cursor:pointer;" href="http://bit.ly/MojaveIconTR">
    <button class="btn-lg btn-warning">
    <i class="fas fa-download"></i> Download do Mojave icons
    </button>
@@ -237,7 +237,7 @@ mv Mojave/ ~/.icons/
 E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons modificados . Pus nessa lista justamente pelo mesmo motivo do anterior, o número de pessoas que gostam é grande e lógico, achei bem bacana também.
 
 <div class="text-center">
-  <p><a href="http://bit.ly/CupertinoIconTR1">
+  <p><a style="cursor:pointer;" href="http://bit.ly/CupertinoIconTR1">
    <button class="btn-lg btn-warning">
    <i class="fas fa-download"></i> Download do Cupertino icons
    </button>
