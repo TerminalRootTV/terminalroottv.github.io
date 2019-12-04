@@ -23,9 +23,30 @@ A instalação é padrão em qualquer Linux, ou seja, basta você baixar o pacot
 
 Vamos conhecer então esses os melhores!
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 01. [Deepin](https://www.gnome-look.org/p/1191167/)
 
 ![Deepin](/assets/img/icones/deepin.jpg)
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 O Deepin acho que foi um dos temas de ícones que eu mais usei até hoje, não agride à vista e ainda customiza alguns diretórios facilitando a rápida visão . Tem um tema de ícone para aplicativo que reconhece a maioria e não distorce o que não dificulta na identificação. Vale a pena tentar:
 
@@ -45,6 +66,18 @@ mv Deepin/ ~/.icons/
 
 ## 02. [Breeze](https://www.gnome-look.org/p/1184525/)
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![Breeze](/assets/img/icones/breeze.jpg)
 
 Atualmete estou usando esse tema de ícones, gosto dos ícones minimalistas que são exibidos na janela do gerenciador de arquivos, bem como o botão de fechar que tem o "ar" de destaque, possui um visual limpo e empolgante. também vale a pena tentar:
@@ -62,6 +95,19 @@ Para instalar decompacte após o download de mova pro diretório de ícones, pra
 tar zxvf Breeze.tar.gz
 mv Breeze/ ~/.icons/
 {% endhighlight %}
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 03. [Vibrancy](https://www.ravefinity.com/p/vibrancy-colors-gtk-icon-theme.html)
 
@@ -102,6 +148,16 @@ Para instalar decompacte após o download de mova pro diretório de ícones, pra
 tar zxvf Papirus.tar.gz
 mv Papirus/ ~/.icons/
 {% endhighlight %}
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 05. [Luv](https://github.com/Nitrux/luv-icon-theme)
 
@@ -144,6 +200,17 @@ mv NumixCircle/ ~/.icons/
 {% endhighlight %}
 
 ## 07. [Mojave](https://www.gnome-look.org/p/1210856/)
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mojave Circle](/assets/img/icones/mojave.jpg)
 
@@ -190,6 +257,18 @@ Eu como havia dito, fiquei com o [Breeze]() , mas essas "perfumarias" vai totalm
 + [Como Customizar a Aparencia do LXDE](https://terminalroot.com.br/2017/12/como-customizar-a-aparencia-do-lxde.html)
 + [OpenBSD - O Sistema mais Seguro do Mundo - Instalação e Configuração](https://terminalroot.com.br/2018/07/openbsd-o-sistema-mais-seguro-do-mundo-instalacao-e-configuracao.html)
 + **Como Personalizar a Aparência do Linux**
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <iframe width="920" height="400" src="https://www.youtube.com/embed/7GQFKbePT-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 + **Como Customizar Totalmente a Aparência do GNOME**
 <iframe width="920" height="400" src="https://www.youtube.com/embed/[VIDEO]" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
