@@ -3,7 +3,7 @@ layout: post
 title: "Os 8 melhores temas de Ícones para seu Linux"
 date: 2019-12-04 13:56:01
 image: '/assets/img/icones/os-8-melhores-temas-de-icones-para-linux.jpg'
-description: 'Fiz essa lista baseada nas minhas esperiências com temas de ícones. 🏃'
+description: 'Fiz essa lista baseada nas minhas experiências com temas de ícones. 🏃'
 tags:
 - icons
 - icones
