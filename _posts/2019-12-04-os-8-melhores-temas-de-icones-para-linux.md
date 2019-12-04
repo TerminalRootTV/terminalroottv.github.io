@@ -52,7 +52,7 @@ O Deepin acho que foi um dos temas de ícones que eu mais usei até hoje, não a
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/DeepinIconTR">
-   <button class="btn-lg btn-primary">
+   <button style="cursor:pointer;" class="btn-lg btn-primary">
    <i class="fas fa-download"></i> Download do Deepin icons
    </button>
   </a></p>
@@ -84,7 +84,7 @@ Atualmete estou usando esse tema de ícones, gosto dos ícones minimalistas que 
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/BreezeIconTR">
-   <button class="btn-lg btn-info">
+   <button style="cursor:pointer;" class="btn-lg btn-info">
    <i class="fas fa-download"></i> Download do Breeze icons
    </button>
   </a></p>
@@ -117,7 +117,7 @@ O Vibrancy é na verdade uma coleção de ícones, onde muda somente as cores. P
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/VibrancyIconTR">
-   <button class="btn-lg btn-dark">
+   <button style="cursor:pointer;" class="btn-lg btn-dark">
    <i class="fas fa-download"></i> Download do Vibrancy icons
    </button>
   </a></p>
@@ -137,7 +137,7 @@ O Papirus é bem parecido com o Deepin Icons, a única coisa que muda é o estil
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/PapirusIconTR">
-   <button class="btn-lg btn-secondary">
+   <button style="cursor:pointer;" class="btn-lg btn-secondary">
    <i class="fas fa-download"></i> Download do Papirus icons
    </button>
   </a></p>
@@ -167,7 +167,7 @@ O Luv, digamos, é o mais original dessa lista, ele é a nova versão do famoso 
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/LuvIconTR">
-   <button class="btn-lg btn-dark">
+   <button style="cursor:pointer;" class="btn-lg btn-dark">
    <i class="fas fa-download"></i> Download do Luv icons
    </button>
   </a></p>
@@ -187,7 +187,7 @@ Esse é da mesma família do Luv (digamos que é um Luv em forma de círculos) ,
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/NumixCircleIconTR">
-   <button class="btn-lg btn-danger">
+   <button style="cursor:pointer;" class="btn-lg btn-danger">
    <i class="fas fa-download"></i> Download do Numix Circle icons
    </button>
   </a></p>
@@ -218,7 +218,7 @@ O nome já diz tudo! Ele é baseado no ícones do [macOS](https://www.youtube.co
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/MojaveIconTR">
-   <button class="btn-lg btn-warning">
+   <button style="cursor:pointer;" class="btn-lg btn-warning">
    <i class="fas fa-download"></i> Download do Mojave icons
    </button>
   </a></p>
@@ -238,7 +238,7 @@ E por fim, o Cupertino , ele é bem parecido com o Mojave, mas possui uns tons m
 
 <div class="text-center">
   <p><a style="cursor:pointer;" href="http://bit.ly/CupertinoIconTR1">
-   <button class="btn-lg btn-warning">
+   <button style="cursor:pointer;" class="btn-lg btn-warning">
    <i class="fas fa-download"></i> Download do Cupertino icons
    </button>
   </a></p>
