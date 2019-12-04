@@ -132,7 +132,7 @@ O Vibrancy é na verdade uma coleção de ícones, onde muda somente as cores. P
 A instalação é um pouco diferente pelo fato de que ele possui os temas em subdiretório, logo, ou mova todos os ícones, ou escolha mover por cor. Decompacte após o download e mova todos os diretório de ícones, pra funcionar, basta ativar no menu de configuração do seu desktop. 
 {% highlight bash %}
 tar zxvf Vibrancy.tar.gz
-mv Vibrancy/\* ~/.icons/
+mv Vibrancy/* ~/.icons/
 {% endhighlight %}
 
 ---
