@@ -33,6 +33,8 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+
 ## 01. [Deepin](https://www.gnome-look.org/p/1191167/)
 
 ![Deepin](/assets/img/icones/deepin.jpg)
@@ -63,6 +65,8 @@ Para instalar decompacte após o download de mova pro diretório de ícones, pra
 tar zxvf Deepin.tar.gz
 mv Deepin/ ~/.icons/
 {% endhighlight %}
+
+---
 
 ## 02. [Breeze](https://www.gnome-look.org/p/1184525/)
 
@@ -109,6 +113,8 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+
 ## 03. [Vibrancy](https://www.ravefinity.com/p/vibrancy-colors-gtk-icon-theme.html)
 
 ![Vibrancy](/assets/img/icones/vibrancy.jpg)
@@ -128,6 +134,8 @@ A instalação é um pouco diferente pelo fato de que ele possui os temas em sub
 tar zxvf Vibrancy.tar.gz
 mv Vibrancy/\* ~/.icons/
 {% endhighlight %}
+
+---
 
 ## 04. [Papirus](https://www.gnome-look.org/p/1166289/)
 
@@ -159,6 +167,8 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+
 ## 05. [Luv](https://github.com/Nitrux/luv-icon-theme)
 
 ![Luv](/assets/img/icones/luv.jpg)
@@ -179,6 +189,8 @@ tar zxvf Luv.tar.gz
 mv Luv/ ~/.icons/
 {% endhighlight %}
 
+---
+
 ## 06. [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle)
 
 ![Numix Circle](/assets/img/icones/numix-circle.jpg)
@@ -198,6 +210,8 @@ Para instalar decompacte após o download de mova pro diretório de ícones, pra
 tar zxvf NumixCircle.tar.gz
 mv NumixCircle/ ~/.icons/
 {% endhighlight %}
+
+---
 
 ## 07. [Mojave](https://www.gnome-look.org/p/1210856/)
 
@@ -229,6 +243,8 @@ Para instalar decompacte após o download de mova pro diretório de ícones, pra
 tar zxvf Mojave.tar.gz
 mv Mojave/ ~/.icons/
 {% endhighlight %}
+
+---
 
 ## 08. [Cupertino](https://www.gnome-look.org/p/1102582/)
 
