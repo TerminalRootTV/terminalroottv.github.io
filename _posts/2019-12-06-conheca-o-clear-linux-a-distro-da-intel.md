@@ -33,7 +33,7 @@ data-ad-slot="5351066970"></ins>
 
 ## Instalação
 
-> Antes de instalar, veja o requerimentos míninmos, o Clear Linux, só instala com no mínimo 4GB de RAM.
+> Antes de instalar, veja os [requerimentos míninmos](https://docs.01.org/clearlinux/latest/get-started/compatibility-check.html), o Clear Linux só instala com no mínimo 4GB de RAM.
 
 A instalação é bem simples, se você está acostumado com instalação de distribuições como Ubuntu e Mint, o processo de instalação do Clear Linux é bem similar . No enatnto, é recomendado você instalar primeiramente o Clear Linux em uma partição com setor de inicialização em GPT (lembre-se ~~MBR~~ é um passado grotesco! ) , pois se quiser instalar posteriormente, vai precisar definir os *names*: CLR_BOOT, CLR_SWAP e CLR_ROOT pra conseguir fazer um dual boot existindo sistema. E mesmo assim, poderá não conseguir, digo isso, pois o instalador , no meu caso, nem conseguiu identificar o disco .
 
