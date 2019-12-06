@@ -67,9 +67,9 @@ data-ad-slot="5351066970"></ins>
 
 ## Conclusão
 
-Eu particularmente gostei do [Clear Linux](https://clearlinux.org/) , é um bom pedido para quem possui um processador da Intel e quer melhor desempenho, principalmente para que usa GNOME .
+Eu particularmente gostei do [Clear Linux](https://clearlinux.org/) , é um bom pedido para quem possui um processador da Intel e quer melhor desempenho, principalmente para quem usa GNOME .
 
-Lembando que o *Clear Linux OS* não deve ser confundido com [ClearOS](https://www.clearos.com/) que é outros sistema, muitos se confundem!
+Lembrando que o *Clear Linux OS* não deve ser confundido com [ClearOS](https://www.clearos.com/) que é outros sistema, muitos se confundem!
 
 Espero que vocês também tenham gostado, e se quiserem testar sem instalar, o mesmo funciona em modo Live, e bem rápido por sinal.
 
