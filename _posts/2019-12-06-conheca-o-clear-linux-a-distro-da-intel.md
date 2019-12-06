@@ -33,7 +33,7 @@ data-ad-slot="5351066970"></ins>
 
 ## Instalação
 
-> Antes de instalar, veja os [requerimentos míninmos](https://docs.01.org/clearlinux/latest/get-started/compatibility-check.html) . O Clear Linux só instala com no mínimo 4GB de RAM.
+> Antes de instalar, veja os [requerimentos mínimos](https://docs.01.org/clearlinux/latest/get-started/compatibility-check.html) . O Clear Linux só instala com no mínimo 4GB de RAM.
 
 A instalação é bem simples, se você está acostumado com instalação de distribuições como Ubuntu e Mint, o processo de instalação do Clear Linux é bem similar . 
 
