@@ -63,7 +63,7 @@ data-ad-slot="5351066970"></ins>
 + Vem por padrão com o [GNOME](https://terminalroot.com.br/2018/02/como-customizar-a-aparencia-do-gnome.html) com algumas modificações básicas e por sua vez também a *Central de Software* para quem quiser fazer instalações em modo gráfico;
 + O [Tema de ícones](https://terminalroot.com.br/2019/12/os-8-melhores-temas-de-icones-para-linux.html) padrão é o [Papirus](https://terminalroot.com.br/2019/12/os-8-melhores-temas-de-icones-para-linux.html);
 + Já vem com centenas de aplicativos pré-instalados, incluindo: [Git](https://terminalroot.com.br/git) e [Neofetch](https://terminalroot.com.br/2019/01/como-criar-um-fetch-estilo-screenfetch-e-neofetch-em-shell-script.html);
-+ Possui algumas alternativas de Interface, como: GNOME com Wayland(padrão pós install), GNOME com Xorg(padrão Live), GNOME Flashback(estino GNOME2 com modificações) e uma opção simples com Interface, mas que só abre o Terminal. 
++ Possui algumas alternativas de Interface, como: GNOME com Wayland(padrão pós install), GNOME com Xorg(padrão Live), GNOME Flashback(estilo GNOME2 com modificações) e uma opção simples com Interface, mas que só abre o Terminal. 
 
 ## Conclusão
 
