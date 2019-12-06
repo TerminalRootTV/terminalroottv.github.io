@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça o Clear Linux a Distro da Intel®"
+title: "Conheça o Clear Linux, a Distro da Intel®"
 date: 2019-12-06 11:31:07
 image: '/assets/img//assets/img/distros/Screenshot from 2019-12-04 22-48-09.jpg'
 description: 'É uma distribuição Linux rolling release de código aberto.'
