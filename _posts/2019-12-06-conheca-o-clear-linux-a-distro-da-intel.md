@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o Clear Linux, a Distro da Intel®"
 date: 2019-12-06 11:31:07
-image: '/assets/img/assets/img/distros/Screenshot from 2019-12-04 22-48-09.jpg'
+image: '/assets/img/assets/img/distros/clear-linux-os.jpg'
 description: 'É uma distribuição Linux rolling release de código aberto.'
 tags:
 - clear
@@ -11,7 +11,7 @@ tags:
 - intel
 ---
 
-[![Conheça o Clear Linux a Distro da Intel®️ ](/assets/img/distros/Screenshot from 2019-12-04 22-48-09.jpg)](/assets/img/distros/Screenshot from 2019-12-04 22-48-09.jpg)
+[![Conheça o Clear Linux a Distro da Intel®️ ](/assets/img/distros/clear-linux-os.jpg)](/assets/img/distros/clear-linux-os.jpg)
 
 O [Clear Linux OS](https://clearlinux.org/) é uma distribuição Linux *rolling release* , desenvolvida pela [Intel Corporation ®️ ](https://www.intel.com/) de código aberto e otimizada para desempenho e segurança, projetada para personalização e capacidade de gerenciamento.
 
