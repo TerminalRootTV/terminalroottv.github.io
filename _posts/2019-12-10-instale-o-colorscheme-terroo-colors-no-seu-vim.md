@@ -2,7 +2,7 @@
 layout: post
 title: "Instale o colorscheme Terroo Colors no seu Vim"
 date: 2019-12-10 13:19:12
-image: '/assets/img/'
+image: '/assets/img/vim/terroo-colors-min.jpg'
 description: 'Criei essa primeira versão desse tema.'
 tags:
 - vim
