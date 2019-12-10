@@ -13,7 +13,7 @@ tags:
 
 ![Instale o colorscheme Terroo Colors no seu Vim](/assets/img/vim/terroo-colors-min.jpg)
 
-O [Terroo Colors] é um esquema de cores de modo escuro para o Vim e inspirado no [vim-monokai-bold](https://github.com/Mcmartelle/vim-monokai-bold) e [minimalist](https://github.com/dikiaap/minimalist).
+O [Terroo Colors](https://github.com/terroo/terroo-colors) é um esquema de cores de modo escuro para o Vim e inspirado no [vim-monokai-bold](https://github.com/Mcmartelle/vim-monokai-bold) e [minimalist](https://github.com/dikiaap/minimalist).
 
 ## Instalação
 
