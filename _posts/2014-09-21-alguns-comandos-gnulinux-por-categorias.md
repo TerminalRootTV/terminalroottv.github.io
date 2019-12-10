@@ -6,10 +6,10 @@ image: '/assets/img/bash/comandos-linux.jpg'
 description: "Uma lista completa de comandos GNU/Linux"
 main-class: 'bash'
 tags:
-- Linux
-- GNU
-- Terminal
-- Comandos
+- linux
+- gnu
+- terminal
+- comandos
 ---
 
 ![Alguns comandos GNU/Linux por Categorias](/assets/img/bash/comandos-linux.jpg "Alguns comandos GNU/Linux por Categorias" ){:height="450px" width="800px"}
@@ -53,6 +53,15 @@ tags:
 + __vi__ ➜ Editor de texto __full-screen__
 + __vim__ ➜ Editor de texto __full-screen__ melhorado (__vi improved__)
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Comandos de Gestão de Ficheiros e Directorias
 
@@ -91,6 +100,16 @@ de texto ou mesmo para ordenar dados de outros comandos como por exemplo
 + __uniq__ ➜ Reporta ou apaga linhas repetidas num ficheiro
 + __wc__ ➜ Conta linhas, palavras e mesmo caracteres num ficheiro
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Exibição ou Impressão de Ficheiros
 
@@ -127,6 +146,17 @@ de texto ou mesmo para ordenar dados de outros comandos como por exemplo
 + __ifconfig</b></td><td>Visualizar os __ips__ da nossa máquina, entre outras funções relacionadas com __ips__
 + __ping</b></td><td>Pingar um determinado __host__, ou seja, enviar pacotes __icmp__ para um determinado __host__ e medir tempos de resposta, entre outras coisas
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Comandos de Controlo de Processos
 
@@ -169,6 +199,18 @@ determinados domínios na Internet, quando um domínio foi registado,
 quando expira, etc
 + __whoami__ ➜ Diz-nos quem é o dono da __shell__
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Comandos de Processamento de Texto
 
@@ -216,19 +258,12 @@ respeitando também o ficheiro __robots.txt__
 + __sitecopy__ ➜ Aplicação que nos permite manter facil e remotamente __web sites__
 + __weblint__ ➜ Verificador de sintaxes e de estilos __html__
 
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Informat -->
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
