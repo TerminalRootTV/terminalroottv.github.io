@@ -19,11 +19,11 @@ tags:
 
 + **exit** ➜ Terminar a sessão, ou seja, a **shell** (mais ajuda digitando **man sh** ou **man csh**)
 + **logout** ➜ Deslogar, ou seja, terminar a sessão actual, mas apenas na **C shell** e na **bash shell**
-+ **passwd** ➜ Mudar a **password** do nosso utilizador
++ **passwd** ➜ Mudar a **password** do nosso usuário
 + **rlogin** ➜ Logar de forma segura noutro sistema **Unix/Linux**
 + **ssh** ➜ Sessão segura, vem de **secure shell**, e permite-nos logar num servidor através do protocolo **ssh**
 + **slogin** ➜ Versão segura do **rlogin**
-+ **yppasswd** ➜ Mudar a **password** do nosso utilizador nas páginas amarelas (**yellow pages**)
++ **yppasswd** ➜ Mudar a **password** do nosso usuário nas páginas amarelas (**yellow pages**)
 
 
 ## Comandos de Comunicações
@@ -31,8 +31,8 @@ tags:
 + **mail** ➜ Enviar e receber emails
 + **mesg** ➜ Permitir ou negar mensagens de terminal e pedidos de conversação (**talk requests**)
 + **pine** ➜ Outra forma de enviar e receber emails, uma ferramenta rápida e prática
-+ **talk** ➜ Falar com outros utilizadores que estejam logados no momento
-+ **write** ➜ Escrever para outros utilizadores que estejam logados no momento
++ **talk** ➜ Falar com outros usuários que estejam logados no momento
++ **write** ➜ Escrever para outros usuários que estejam logados no momento
 
 
 ## Comandos de Ajuda e Documentação
@@ -176,12 +176,12 @@ data-ad-slot="8549252987"></ins>
 + **df** ➜ Exibe um resumo do espaço livre em disco
 + **du** ➜ Exibe um resumo do uso do espaço em disco
 + **env** ➜ Exibe as variáveis de ambiente
-+ **finger** ➜ Pesquisa informações de utilizadores
++ **finger** ➜ Pesquisa informações de usuários
 + **history** ➜ Lista os 
 últimos comandos usados, muito útil para lembrar também de que comandos 
 foram usados para fazer determinada ação no passado ou o que foi feito 
 em dada altura
-+ **last** ➜ Indica o último **login** de utilizadores
++ **last** ➜ Indica o último **login** de usuários
 + **lpq** ➜ Examina a **spool queue**
 + **manpath** ➜ Mostra a **path** de procura para as páginas do comando **man**
 + **printenv** ➜ Imprime as variáveis de ambiente
@@ -245,7 +245,7 @@ data-full-width-responsive="true"></ins>
 + **tpic** ➜ Converte arquivos **pic source** em comandos **TeX**
 + **wget** ➜ Permite-nos fazer o
  download completo de páginas web, com todos os arquivos, de forma 
-fácil e não interactiva, sem exigir por isso presença do utilizador, 
+fácil e não interactiva, sem exigir por isso presença do usuário, 
 respeitando também o arquivo **robots.txt**
 
 
