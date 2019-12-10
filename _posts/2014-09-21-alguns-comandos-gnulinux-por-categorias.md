@@ -158,7 +158,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Comandos de Controlo de Processos
+## Comandos de Controle de Processos
 
 + **kill** ➜ Mata um processo, como por exemplo **kill -kill 100** ou **kill -9 100** ou **kill -9 %1**
 + **bg** ➜ Coloca um processo suspenso em **background**
