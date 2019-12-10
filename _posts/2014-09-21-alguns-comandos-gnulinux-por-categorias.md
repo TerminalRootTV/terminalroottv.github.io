@@ -75,7 +75,7 @@ data-ad-slot="5351066970"></ins>
 + **crypt** ➜ Encripta ou Desencripta ficheiros (apenas **CCWF**)
 + **diff** ➜ Compara o conteúdo de dois ficheiros **ASCII**
 + **file** ➜ Determina o tipo de ficheiro
-+ **grep** ➜ Procura um ficheiro por um padrão, sendo um filtro muito útil e usado, por exemplo um **cat a.txt | grep ola** irá mostrar-nos apenas as linhas do ficheiro a.txt que contenham a palavra “ola”
++ **grep** ➜ Procura um ficheiro por um padrão, sendo um filtro muito útil e usado, por exemplo um `cat a.txt | grep ola` irá mostrar-nos apenas as linhas do ficheiro a.txt que contenham a palavra “ola”
 + **gzip** ➜ Comprime ou expande ficheiros
 + **ln** ➜ Cria um **link** a um ficheiro
 + **ls** ➜ Lista o conteúdo de uma directoria, semelhante ao comando **dir** no **MS-DOS**
@@ -119,7 +119,7 @@ data-ad-slot="5351066970"></ins>
 + **lpq** ➜ Examina a **spooling queue** da impressora
 + **lpr** ➜ Imprime um ficheiro
 + **lprm** ➜ Remove **jobs** da **spooling queue** da impressora
-+ **more** ➜ Mostra o conteúdo de um ficheiro, mas apenas um ecrã de cada vez, ou mesmo **output** de outros comandos, como por exemplo **ls | more**
++ **more** ➜ Mostra o conteúdo de um ficheiro, mas apenas um ecrã de cada vez, ou mesmo **output** de outros comandos, como por exemplo `ls | more`
 + **less** ➜ Funciona como o **more**, mas com menos **features**, menos características e potenciais usos
 + **page** ➜ Funciona de forma parecida com o comando **more**, mas exibe os ecrãs de forma invertida ao comando **more**
 + **pr** ➜ Pagina um ficheiro para posterior impressão
