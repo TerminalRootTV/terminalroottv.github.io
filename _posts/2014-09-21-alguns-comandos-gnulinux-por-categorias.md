@@ -132,7 +132,7 @@ data-ad-slot="5351066970"></ins>
 
 ## Comandos de Transferência de Arquivos
 
-+ **ftp** ➜ Vem de **file transfer protocol**, e permite-nos, usando o protocolo de transferência de arquivos **ftp**, transferir arquivos entre vários **hosts** de uma rede, como aceder a um servidor de **ftp** para enviar ou puxar arquivos
++ **ftp** ➜ Vem de **file transfer protocol**, e permite-nos, usando o protocolo de transferência de arquivos **ftp**, transferir arquivos entre vários **hosts** de uma rede, como fazer upload a um servidor de **ftp** para enviar ou puxar arquivos
 + **rsync** ➜ Sincroniza de forma rápida e flexível dados entre dois computadores
 + **scp** ➜ Versão segura do **rcp**
 
