@@ -179,7 +179,7 @@ data-ad-slot="8549252987"></ins>
 + **finger** ➜ Pesquisa informações de utilizadores
 + **history** ➜ Lista os 
 últimos comandos usados, muito útil para lembrar também de que comandos 
-foram usados para fazer determinada acção no passado ou o que foi feito 
+foram usados para fazer determinada ação no passado ou o que foi feito 
 em dada altura
 + **last** ➜ Indica o último **login** de utilizadores
 + **lpq** ➜ Examina a **spool queue**
