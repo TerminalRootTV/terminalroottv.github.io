@@ -12,7 +12,7 @@ tags:
 
 ![Como Utilizar e Criar Snippets no Gedit](/assets/img/gedit/gedit-snippets.jpg)
 
-Um **snippet** é um *trecho* de código que é ativado por atalhos de teclado ou por uma sequência de letras. São muito úteis para tornar as tarefas menos trabalhos, ou seja, ao em vez de digitar: `std::cout << "Messagem" << '\n';` , basta você escrever: `cout` e depois pressionar a tecla **[TAB]** que tudo será completado como uma mágica!
+Um **snippet** é um *trecho* de código que é ativado por atalhos de teclado ou por uma sequência de letras. São muito úteis para tornar as tarefas com menos trabalhos, ou seja, ao em vez de digitar: `std::cout << "Messagem" << '\n';` , basta você escrever: `cout` e depois pressionar a tecla **[TAB]** que tudo será completado como uma mágica!
 
 Você pode usar para qualquer linguagem ou tipo de textos que você queira, nesse caso vamos mostrar em 4 passos, como usar e criar um snippet para C++.
 
