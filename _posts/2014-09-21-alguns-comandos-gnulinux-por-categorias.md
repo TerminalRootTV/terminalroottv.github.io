@@ -63,7 +63,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## Comandos de Gestão de Arquivos e Directorias
+## Comandos de Gestão de Arquivos e Diretórios
 
 + **cd** ➜ Mudar de diretoria actual, como por exemplo **cd diretoria**, **cd ..**, **cd /**
 + **chmod** ➜ Mudar a protecção de um arquivo ou diretoria, como por exemplo **chmod 777**, parecido com o **attrib** do **MS-DOS**
