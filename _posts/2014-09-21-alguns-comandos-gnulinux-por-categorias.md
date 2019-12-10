@@ -127,7 +127,7 @@ data-ad-slot="5351066970"></ins>
 + **zcat** ➜ Mostra-nos um arquivo comprimido
 + **xv** ➜ Serve para exibir, imprimir ou mesmo manipular imagens
 + **gv** ➜ Exibe arquivos **ps** e **pdf**
-+ **xpdf</b></td><td>Exibe arquivos **pdf**, usa o **gv**
++ **xpdf** ➜ Exibe arquivos **pdf**, usa o **gv**
 
 
 ## Comandos de Transferência de Arquivos
