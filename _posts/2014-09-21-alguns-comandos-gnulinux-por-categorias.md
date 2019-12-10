@@ -140,7 +140,7 @@ data-ad-slot="5351066970"></ins>
 ## Comandos de Notícias ou Rede
 
 + **netstat** ➜ Mostra o estado da rede
-+ **rsh** ➜ Corre umam **shell** em outros sistemas **UNIX**
++ **rsh** ➜ Roda um **shell** em outros sistemas **UNIX**
 + **ssh** ➜ Versão segura do **rsh**
 + **nmap_port-scan** ➜ para visualizarmos portas abertas num dado **host**
 + **ifconfig** ➜ Visualizar os **ips** da nossa máquina, entre outras funções relacionadas com **ips**
@@ -163,7 +163,7 @@ data-ad-slot="8549252987"></ins>
 + **kill** ➜ Mata um processo, como por exemplo **kill -kill 100** ou **kill -9 100** ou **kill -9 %1**
 + **bg** ➜ Coloca um processo suspenso em **background**
 + **fg** ➜ Ao contrário do comando **bg**, o **fg** traz de volta um processo ao **foreground**
-+ **jobs** ➜ Permite-nos visualizar **jobs** em execução, quando corremos uma aplicação em **background**, poderemos ver esse **job** com este comando, e termina-lo com um comando **kill -9 %1**, se for o **job** número 1, por exemplo
++ **jobs** ➜ Permite-nos visualizar **jobs** em execução, quando rodamos uma aplicação em **background**, poderemos ver esse **job** com este comando, e termina-lo com um comando **kill -9 %1**, se for o **job** número 1, por exemplo
 + **top** ➜ Lista os processos que mais **cpu** usam, útil para verificar que processos estão a provocar um uso excessivo de memória, e quanta percentagem de **cpu** cada um usa em dado momento
 + **^y** ➜ Suspende o processo no próximo pedido de **input**
 + **^z** ➜ Suspende o processo actual
