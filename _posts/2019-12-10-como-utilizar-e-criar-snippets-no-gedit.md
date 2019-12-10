@@ -7,7 +7,7 @@ description: 'Essa será a semana do Gedit #GeditWeek , atendendo à pedidos. �
 tags:
 - gedit
 - editor
-- snippet
+- cpp
 ---
 
 ![Como Utilizar e Criar Snippets no Gedit](/assets/img/gedit/gedit-snippets.jpg)
