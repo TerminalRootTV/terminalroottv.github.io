@@ -2,7 +2,7 @@
 layout: post
 title: "Top 5 Melhores Clientes Git para Linux, macOS e Windows"
 date: 2019-10-11 19:43:01
-image: '/assets/img/'
+image: '/assets/img/git/gitkraken.jpg'
 description: 'O Git fornece uma riqueza de informações que não são exploradas .'
 tags:
 - git
