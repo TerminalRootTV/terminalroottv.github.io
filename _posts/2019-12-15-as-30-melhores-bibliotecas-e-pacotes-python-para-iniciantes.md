@@ -12,6 +12,7 @@ tags:
 - packages
 ---
 
+![As 30 melhores bibliotecas e pacotes Python para Iniciantes](/assets/img/python/opencv-python-library.jpg)
 
 # As 30 melhores bibliotecas e pacotes Python para Iniciantes
 
