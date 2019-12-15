@@ -14,7 +14,6 @@ tags:
 
 ![As 30 melhores bibliotecas e pacotes Python para Iniciantes](/assets/img/python/opencv-python-library.jpg)
 
-# As 30 melhores bibliotecas e pacotes Python para Iniciantes
 
 As bibliotecas e pacotes Python são um conjunto de módulos e funções úteis que minimizam o uso de código em nossa vida cotidiana. Existem mais de **137.000 bibliotecas** e **198.826 pacotes** para Python, prontos para facilitar a programação dos desenvolvedores. Essas bibliotecas e pacotes destinam-se a uma variedade de soluções modernas.
 
