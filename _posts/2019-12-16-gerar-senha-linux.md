@@ -50,7 +50,7 @@ gpg --gen-random --armor 1 12
 ---
 
 ## 02. Criptogrando o horário atual
-O comando `date` é utilizado para exibir ou midificar a data e o horário atual(veja mais detalhe sobre ele nesse link: [Acertando data e hora no Linux](https://terminalroot.com.br/2013/02/acertando-data-e-hora-no-linux.html)).
+O comando `date` é utilizado para exibir ou modificar a data e o horário atual(veja mais detalhe sobre ele nesse link: [Acertando data e hora no Linux](https://terminalroot.com.br/2013/02/acertando-data-e-hora-no-linux.html)).
 
 O comando `md5sum` gera uma [hash](https://terminalroot.com.br/2019/05/o-que-e-e-como-gerar-uma-hash.html) com criptografia **MD5** e o stdout dela mandamos para o comando [awk](https://terminalroot.com.br/2014/12/tutorial-basico-de-awk.html) que imprimirá somente a primeira coluna(**$1**) , pois a segunda é um traço(**-**).
 
