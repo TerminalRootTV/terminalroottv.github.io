@@ -30,7 +30,7 @@ data-ad-slot="5351066970"></ins>
 
 ## Introdução
 
-As senhas são a tática de segurança mais usada na computação e são frequentemente usadas para proteger informações confidenciais, como sua conta de email ou sua conta de usuário do Ubuntu. A escolha de uma senha forte para qualquer aplicativo ou serviço que possa exigir uma é extremamente importante. Se a senha escolhida for baseada em informações comuns, como uma palavra do dicionário, o invasor poderá usar o chamado método de "ataque ao dicionário" para determinar sua senha e, posteriormente, comprometer a conta ou os dados protegidos com essa senha.
+As senhas são a tática de segurança mais usada na computação e são frequentemente usadas para proteger informações confidenciais, como sua conta de email ou sua conta de usuário. A escolha de uma senha forte para qualquer aplicativo ou serviço que possa exigir uma é extremamente importante. Se a senha escolhida for baseada em informações comuns, como uma palavra do dicionário, o invasor poderá usar o chamado método de "ataque ao dicionário" para determinar sua senha e, posteriormente, comprometer a conta ou os dados protegidos com essa senha.
 
 Nesse artigo vamos mostrar algumas formas de gerar senhas para que não haja dores de cabeça e para guardar as mesmas podemos usar o [GPG](https://terminalroot.com.br/2013/04/curso-certificacao-linux-lpi-102_9795.html) além de algumas outras soluções nos itens finais dessa página.
 
