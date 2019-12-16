@@ -234,7 +234,7 @@ xkcdpass -n 10
 ---
 
 ## 12. Usando o `diceware`
-Diceware é um método para criar senhas , senhas e outras variáveis ​​criptográficas usando dados comuns como um gerador de números aleatórios de hardware . Para cada palavra na senha, são necessários cinco lançamentos dos dados. Os números de 1 a 6 que aparecem nos rolos são montados como um número de cinco dígitos, por exemplo, 43146 . Esse número é usado para procurar uma palavra em uma lista de palavras. Na lista em inglês 43146 corresponde a munch . Ao gerar várias palavras em sequência, uma senha longa pode ser construída.
+Diceware é um método para criar senhas e outras variáveis ​​criptográficas usando dados comuns como um gerador de números aleatórios de hardware . Para cada palavra na senha, são necessários cinco lançamentos dos dados. Os números de 1 a 6 que aparecem nos rolos são montados como um número de cinco dígitos, por exemplo, 43146 . Esse número é usado para procurar uma palavra em uma lista de palavras. Na lista em inglês 43146 corresponde a munch . Ao gerar várias palavras em sequência, uma senha longa pode ser construída.
 
 > Instale-o antes, ex.: `sudo apt install diceware`
 
