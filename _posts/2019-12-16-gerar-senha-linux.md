@@ -3,7 +3,7 @@ layout: post
 title: "23 Formas de Gerar e Guardar SENHAS FORTES; veja as explicações de comandos"
 date: 2019-12-16 14:51:47
 image: '/assets/img/artigos/passwords.png'
-description: 'As senhas são a tática de segurança mais usada na computação e são frequentemente usadas para proteger informações confidenciais.'
+description: 'As senhas são a tática de segurança mais usada na computação para proteger informações confidenciais.'
 tags:
 - password
 - gpg
