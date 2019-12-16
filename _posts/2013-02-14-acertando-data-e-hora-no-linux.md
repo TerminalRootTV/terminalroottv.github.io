@@ -12,6 +12,16 @@ tags:
 
 ![Acertando data e hora no Linux](/assets/img/linux/date.jpg "Acertando data e hora no Linux")
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para acertar data/hora no Linux, basta
 {% highlight bash %}
 date MMddhhmmyyyy
@@ -25,25 +35,21 @@ date MMddhhmmyyyy
 - __yyyy__: ano
 
 Depois
-> clock -w
+> hwclock -w
 
-Para maiore informações deve-sempre usar o __man__ ou o __help__
-{% highlight bash %}
-man date
-date --help
-{% endhighlight %}
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Informat -->
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
 <ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+Para maiores informações deve-sempre usar o __man__ ou o __help__
+{% highlight bash %}
+man date
+date --help
+{% endhighlight %}
