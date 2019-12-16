@@ -172,7 +172,7 @@ strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo
 
 ---
 
-Além de poder criar `aliases` desse comando, você ainda pode instalar aplicativos CLI que fazem isso pra você, exemplos:
+Além de poder criar `aliases` desses comando, você ainda pode instalar aplicativos CLI que fazem isso pra você, exemplos:
 
 ## 08. Usando o [pwgen](https://sourceforge.net/projects/pwgen/)
 O Pwgen é um pequeno gerador de senhas da GPL que cria senhas que podem ser facilmente memorizadas por um ser humano.
