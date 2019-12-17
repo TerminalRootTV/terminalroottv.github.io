@@ -230,7 +230,7 @@ AC_OUTPUT
 {% highlight bash %}
 autoconf
 {% endhighlight %}
-> Foram criados 1 novo diretório e 1 novos arquivo: `autom4te.cache/` e o `configure` . O conteúdo dos mesmos são extensos, o `configure` por exemplo possui **3549 linhas**.
+> Foram criados: 1 novo diretório e 1 novo arquivo: `autom4te.cache/` e o `configure` . O conteúdo dos mesmos são extensos, o `configure` por exemplo possui **3549 linhas**.
 
 + **5** → Criando o arquivo `Makefile.am`:
 {% highlight bash %}
