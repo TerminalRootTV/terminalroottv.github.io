@@ -545,7 +545,7 @@ data-ad-slot="5351066970"></ins>
 
 `autotools` → `autoscan`(configure.scan) → `configure.ac` → `autoconf`(autom4te.cache e configure inicial) → `Makefile.am`(`*`) → `aclocal`(aclocal.m4) → `automake`(Makefile.in) → `autoreconf`(`config.h.in/header`) → autoconf(`./configure`) → `Makefile`(make && make install)
 
-![Autotools](400px-Autoconf-automake-process.svg.png)
+![Autotools](/assets/img/gnu/gnu-autotools-1.png)
 
 ---
 
