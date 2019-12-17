@@ -417,8 +417,6 @@ A instalação vai criar alguns diretório e fazer as seguintes cópias dos arqu
 /usr/bin/install -c script-teste.sh '/usr/local/bin'
 {% endhighlight %}
 
-> '
-
 + Se rodar o comando: `teste`(independente do diretório que você estiver) vai obter a saída da execução do programa: **Somente um teste para o Autotools**;
 + Se rodar o comando: `script-teste.sh`(independente do diretório que você estiver) vai obter a saída da execução do programa: **Only a teste**;
 + Se rodar o comando: `info teste` ou `man teste`(independente do diretório que você estiver) vai obter o manual;
