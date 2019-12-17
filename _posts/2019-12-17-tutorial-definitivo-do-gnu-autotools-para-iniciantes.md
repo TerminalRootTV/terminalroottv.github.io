@@ -71,18 +71,18 @@ O Autotools consiste nos programas utilitários [GNU Autoconf](https://www.gnu.o
 
 ## 1º Parte: Configurando os arquivos para testes
 
-1. Criar os diretórios para os testes:
++ **1** → Criar os diretórios para os testes:
 {% highlight bash %}
 mkdir testes && cd testes
 mkdir doc examples man scripts src
 {% endhighlight %}
 
-2. Criar os arquivos para os teste
++ **2** → Criar os arquivos para os teste
 {% highlight bash %}
 touch doc/README.md examples/my-example-teste.dat man/teste.1 scripts/script-teste.sh src/teste.c
 {% endhighlight %}
 
-3. Popular os arquivos
++ **3** → Popular os arquivos
 
 {% highlight bash %}
 # Conteúdo para o arquivo em doc/
@@ -120,7 +120,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-4. Resultado final dos arquivos:
++ **4** → Resultado final dos arquivos:
 {% highlight bash %}
 testes/
 ├── doc
@@ -136,7 +136,7 @@ testes/
 5 directories, 5 files
 {% endhighlight %}
 
-5. Opcional: hash do diretório:
++ **5** → Opcional: hash do diretório:
 {% highlight bash %}
 ls ../testes/ | md5sum
 ac0bacadc6861ab22a44af572b255ff1  -
@@ -146,7 +146,7 @@ ac0bacadc6861ab22a44af572b255ff1  -
 
 ## 2º Parte: Utilizando as ferramentas do GNU Autotools
 
-1. Gerar o arquivo `configure.ac`, execute:
++ **1** → Gerar o arquivo `configure.ac`, execute:
 {% highlight bash %}
 autoscan
 {% endhighlight %}
@@ -188,12 +188,12 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-2. Renomear o arquivo `configure.scan` para `configure.ac`:
++ **2** → Renomear o arquivo `configure.scan` para `configure.ac`:
 {% highlight bash %}
 mv configure.scan configure.ac
 {% endhighlight %}
 
-3. Alterar a linha do arquivo `configure.ac` que possui as informações: **AC_INIT(FULL-PACKAGE-NAME, VERSION, BUG-REPORT-ADDRESS)** para os nomes do seu projeto, ex.:
++ **3** → Alterar a linha do arquivo `configure.ac` que possui as informações: **AC_INIT(FULL-PACKAGE-NAME, VERSION, BUG-REPORT-ADDRESS)** para os nomes do seu projeto, ex.:
 **AC_INIT(teste, 1.0, teste@terminalroot.com.br)** . Caso deseje, use o [Sed]() para isso, assim:
 {% highlight bash %}
 sed -i 's/FULL-PACKAGE-NAME\],/teste],/g' configure.ac
@@ -226,13 +226,13 @@ AC_PROG_CC
 AC_OUTPUT
 {% endhighlight %}
 
-4. Gerando um script `configure` inicial:
++ **4** → Gerando um script `configure` inicial:
 {% highlight bash %}
 autoconf
 {% endhighlight %}
 > Foram criados 1 novo diretório e 1 novos arquivo: `autom4te.cache/` e o `configure` . O conteúdo dos mesmos são extensos, o `configure` por exemplo possui **3549 linhas**.
 
-5. Criando o arquivo `Makefile.am`:
++ **5** → Criando o arquivo `Makefile.am`:
 {% highlight bash %}
 vim Makefile.am
 {% endhighlight %}
@@ -243,7 +243,7 @@ AUTOMAKE_OPTIONS = foreign
 SUBDIRS = src doc examples man scripts
 {% endhighlight %}
 
-6. Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `src/`:
++ **6** → Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `src/`:
 {% highlight bash %}
 vim src/Makefile.am
 {% endhighlight %}
@@ -259,7 +259,7 @@ bin_PROGRAMS = teste
 teste_SOURCES = teste.c
 {% endhighlight %}
 
-7. Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `man/`:
++ **7** → Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `man/`:
 {% highlight bash %}
 vim man/Makefile.am
 {% endhighlight %}
@@ -280,7 +280,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-8. Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `scripts/`:
++ **8** → Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `scripts/`:
 {% highlight bash %}
 vim scripts/Makefile.am
 {% endhighlight %}
@@ -290,7 +290,7 @@ E insira esse conteúdo dentro:
 bin_SCRIPTS = script-teste.sh
 {% endhighlight %}
 
-9. Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `doc/`:
++ **9** → Criando o arquivo `Makefile.am` só que desta vez dentro do diretório `doc/`:
 {% highlight bash %}
 vim doc/Makefile.am
 {% endhighlight %}
@@ -301,7 +301,7 @@ docdir = $(datadir)/doc/@PACKAGE@
 doc_DATA = README.md
 {% endhighlight %}
 
-10. Criando mais um arquivo `Makefile.am` só que desta vez dentro do diretório `examples/`:
++ **10** → Criando mais um arquivo `Makefile.am` só que desta vez dentro do diretório `examples/`:
 {% highlight bash %}
 vim examples/Makefile.am
 {% endhighlight %}
@@ -312,7 +312,7 @@ exampledir = $(datarootdir)/doc/@PACKAGE@
 example_DATA = my-example-teste.dat
 {% endhighlight %}
 
-11. Integrando a parte da checagem (autoconf) com a parte da compilação (automake):
++ **11** → Integrando a parte da checagem (autoconf) com a parte da compilação (automake):
 > Abra o arquivo `vim configure.ac`
 
 E insira o conteúdo **AM_INIT_AUTOMAKE(teste, 1.0)**, logo depois do **AC_INIT([teste], [1.0], [teste@terminalroot.com.br])**:
@@ -334,20 +334,20 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-12. Deixe o autoconf gerar um script configure cuja saida será Makefiles para todos os diretórios citados:
++ **12** → Deixe o autoconf gerar um script configure cuja saida será Makefiles para todos os diretórios citados:
 > Alterando a linha que contém: **AC_OUTPUT** com [Sed]() (caso deseje use um editor de texto e faça manualmente):
 
 {% highlight bash %}
 sed -i 's@AC_OUTPUT@AC_OUTPUT(Makefile src/Makefile doc/Makefile examples/Makefile man/Makefile scripts/Makefile)@' configure.ac
 {% endhighlight %}
 
-13. Fazendo as ferramentas produzirem o script `configure` e os modelos de Makefile:
++ **13** → Fazendo as ferramentas produzirem o script `configure` e os modelos de Makefile:
 {% highlight bash %}
 aclocal
 {% endhighlight %}
 > Foi gerado mais um arquivo no diretório raíz do projeto, com o nome: `aclocal.m4`
 
-14. Produzindo o arquivo `Makefile.in` com o argumento `--add-missing`:
++ **14** → Produzindo o arquivo `Makefile.in` com o argumento `--add-missing`:
 {% highlight bash %}
 automake --add-missing
 {% endhighlight %}
@@ -372,7 +372,7 @@ Perceba a linha: **configure.ac:8: error: required file 'config.h.in' not found*
 autoreconf -fi
 {% endhighlight %}
 
-15. E finalmente geramos o script final do `configure`:
++ **15** → E finalmente geramos o script final do `configure`:
 {% highlight bash %}
 autoconf
 {% endhighlight %}
