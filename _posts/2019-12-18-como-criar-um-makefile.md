@@ -24,7 +24,7 @@ No entanto, se você acha que todo aquele procedimento não é necessário para 
 
 Um makefile é um arquivo (por padrão chamado de "Makefile") contendo um conjunto de diretivas usadas pela ferramenta de automação de compilação `make` para gerar um alvo/meta(instalar, desinstalar, remover alguns arquivos e outros).
 
-Uma *makefile* contém essencialmente atribuições de *variáveis*, *comentários* e *regras* (“targets”). Comentários são iniciados com o carácter “#”.
+Um *makefile* contém essencialmente atribuições de *variáveis*, *comentários* e *regras* (“targets”). Comentários são iniciados com o carácter “#”.
 
 ---
 
