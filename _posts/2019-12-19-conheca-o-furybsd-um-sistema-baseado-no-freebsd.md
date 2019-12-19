@@ -73,3 +73,6 @@ data-ad-slot="8549252987"></ins>
 Eu ainda não testei, mas quis compartilhar com vocês essa no dstro FreeBSD que pelo que eu li no [Manifesto](https://www.furybsd.org/manifesto/) deles, deu pra notar que é um projeto muito sério e tem tudo pra ser gigante.
 
 Espero que tenham gostado!
+
+## Página oficial do FuryBSD
+### <https://www.furybsd.org/>
