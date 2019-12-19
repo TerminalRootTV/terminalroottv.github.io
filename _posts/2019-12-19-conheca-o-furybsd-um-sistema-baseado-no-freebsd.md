@@ -70,7 +70,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Eu ainda não testei, mas quis compartilhar com vocês essa no dstro FreeBSD que pelo que eu li no [Manifesto](https://www.furybsd.org/manifesto/) deles, deu pra notar que é um projeto muito sério e tem tudo pra ser gigante.
+Eu ainda não testei, mas quis compartilhar com vocês essa nova distro FreeBSD que pelo que eu li no [Manifesto](https://www.furybsd.org/manifesto/) deles, deu pra notar que é um projeto muito sério e tem tudo pra ser gigante.
 
 Espero que tenham gostado!
 
