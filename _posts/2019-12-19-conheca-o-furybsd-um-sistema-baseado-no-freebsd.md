@@ -30,7 +30,7 @@ data-ad-slot="5351066970"></ins>
 Existem duas versões disponíveis para download . Uma que já vem com o [XFCE](https://www.xfce.org) pré instalado:
 
 <a href="https://github.com/furybsd/furybsd-livecd/releases/download/12.0-XFCE-12-02-2019-01/FuryBSD-12.0-XFCE-2019120201.iso">
-<button class="btn btn-primary btn-lg">>Download do FuryBSD com XFCE</button>
+<button class="btn btn-primary btn-lg">Download do FuryBSD com XFCE</button>
 </a>
 
 Além de outra versão com o [KDE](https://kde.org) .
@@ -47,7 +47,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 <a href="https://sourceforge.net/projects/furybsd/files/12.0-KDE-12-02-2019-01/FuryBSD-12.0-KDE-2019120201.iso/download">
-<button class="btn btn-primary btn-lg">>Download do FuryBSD com KDE</button>
+<button class="btn btn-primary btn-lg">Download do FuryBSD com KDE</button>
 </a>
 
 ## Instalação
