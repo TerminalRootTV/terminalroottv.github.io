@@ -47,7 +47,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 <a href="https://sourceforge.net/projects/furybsd/files/12.0-KDE-12-02-2019-01/FuryBSD-12.0-KDE-2019120201.iso/download">
-<button class="btn btn-primary btn-lg">Download do FuryBSD com KDE</button>
+<button class="btn btn-danger btn-lg">Download do FuryBSD com KDE</button>
 </a>
 
 ## Instalação
