@@ -202,12 +202,12 @@ data-ad-slot="5351066970"></ins>
 
 | Compilador | -O2 | -O3 | O2/O3 |
 |---|---|---|---|
-GCC-4.7.2 | 231 | 237 |0.97 |
-Clang-3.2 | 234 | 186 |1.25 |
+| GCC-4.7.2 | 231 | 237 |0.97 |
+| Clang-3.2 | 234 | 186 |1.25 |
 
 Palavras do Mike Kinghan
 > Comparei o desempenho do equipamento de teste entre o **GCC 4.7.2** e o **Clang 3.2**, todos iguais, exceto os pré-processadores. No **Clang 3.2**, não era mais necessária nenhuma diferenciação de pré-processador entre os intervalos de código que o GCC compilaria e as alternativas do Clang. Criei na mesma biblioteca C++ (GCC) em cada caso e executei todas as comparações consecutivamente na mesma sessão do terminal.
->
+> 
 > O nível de otimização padrão para minha versão é **-O2**. Também testei com êxito compilações em **-O3**. Testei cada configuração três vezes consecutivas e calculei a média dos três resultados, com os seguintes resultados. O número em uma célula de dados é o número médio de microssegundos consumidos pelo executável **coan** para processar cada um dos **~70K** arquivos de entrada (leitura, análise e saída e diagnóstico de gravação).
 
 ---
