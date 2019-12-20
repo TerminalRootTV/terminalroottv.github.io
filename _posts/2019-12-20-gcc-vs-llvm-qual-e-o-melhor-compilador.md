@@ -41,33 +41,33 @@ data-ad-slot="5351066970"></ins>
 ## Compilando com o GCC:
 ### Linguagem C:
 + Único arquivo:
-```sh
+{% highlight bash %}
 gcc main.c -o binary
-```
+{% endhighlight %}
 
 + Múltiplos arquivos:
-```sh
+{% highlight bash %}
 gcc main.c outro.c -o binary
-```
+{% endhighlight %}
 > Você pode trocar o comando `gcc` por somente `cc` que é um link simbólico para ele:
 
-```sh
+{% highlight bash %}
 which cc
 # /usr/bin/cc
 ls -l /usr/bin/cc
 ## lrwxrwxrwx 1 root root 42 nov 23 19:41 /usr/bin/cc -> /usr/x86_64-pc-linux-gnu/gcc-bin/9.2.0/gcc
-```
+{% endhighlight %}
 
 ### Linguagem C++:
 + Único arquivo:
-```sh
+{% highlight bash %}
 g++ main.cpp -o binary
-```
+{% endhighlight %}
 
 + Múltiplos arquivos:
-```sh
+{% highlight bash %}
 g++ main.cpp outro.cpp -o binary
-```
+{% endhighlight %}
 > Você pode trocar o comando `g++` por somente `c++` que é um link simbólico para ele:
 
 <!-- MINI ANÚNCIO -->
@@ -81,35 +81,35 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-```sh
+{% highlight bash %}
 ls -l $(which c++)
 lrwxrwxrwx 1 root root 42 nov 23 19:41 /usr/bin/c++ -> /usr/x86_64-pc-linux-gnu/gcc-bin/9.2.0/c++
-```
+{% endhighlight %}
 
 ## Compilando com LLVM:
 > Clang é um front-end de um compilador para as linguagens C, C++, Objective-C e Objective-C++ que utiliza o LLVM como back-end.
 
 ### Linguagem C:
 + Único arquivo:
-```sh
+{% highlight bash %}
 clang main.c -o binary
-```
+{% endhighlight %}
 
 + Múltiplos arquivos:
-```sh
+{% highlight bash %}
 clang main.c outro.c -o binary
-```
+{% endhighlight %}
 
 ### Linguagem C++:
 + Único arquivo:
-```sh
+{% highlight bash %}
 clang++ main.cpp -o binary
-```
+{% endhighlight %}
 
 + Múltiplos arquivos:
-```sh
+{% highlight bash %}
 clang++ main.cpp outro.cpp -o binary
-```
+{% endhighlight %}
 
 ---
 
