@@ -86,6 +86,12 @@ Dentro desse arquivo(para esse exemplo básico, e que serve até para projetos m
 + E na terceira linha informe o nome do binário final e do arquivo: `add_executable(myexample main.cpp)`
 > (se houver mais de um arquivo, exemplo se fosse diretamente pelo g++: `g++ main.cpp outro.cpp -o binario`) , no CMakeLists seria: `add_executable(binario main.cpp outro.cpp)` , assim como diretamente pelo compilador não precisa informar as bibliotecas(.h. .hh) , pois já fazem parte do includes, a não ser que não esteja.
 
+{% highlight make %}
+cmake_minimum_required(VERSION 3.10)
+project(MeuExemplo)
+add_executable(myexample main.cpp
+{% endhighlight %}
+
 Após isso, basta criar um diretório os ficarão os arquivos do CMake e executar o comando `cmake`:
 > Crie um diretório separado para ficar tudo organizado e em seguida execute o cmake apontando para o diretório imediatamente anterior "**..**"
 
