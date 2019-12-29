@@ -36,17 +36,15 @@ usage: ${0##*/} [flags]
     --install          First step, only root.
     --user             Second step, only normal user.
     --manual           Third and Optional step, only to read.
-    --version,-v       Show version
-    --help,-h          Show this is message
 
 * Marcos Oliveira - <terminalroot.com.br> - POS-ALPINE 0.1
 
 EOF
 }
 
-[[ -z $1 || $1 = @(-h|--help|h|-help|--h|help) ]] && {
+[[ -z $1 ]] && {
     usage
-    exit $(( $# ? 0 : 1 ))
+    exit 1
 }
 
 _alp_user(){
