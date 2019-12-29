@@ -77,6 +77,7 @@ _alp_install(){
         printf "Only for 'root'.\n" "%s"
         exit 1
     }
+    setup-xorg-base
     apk add vim awesome feh rxvt-unicode lua cairo-gobject pango xrandr dbus udev xf86-video-intel xf86-video-vboxvideo subversion virtualbox-guest-additions virtualbox-guest-modules-virt virtualbox-guest-additions-openrc xf86-input-synaptics xf86-video-vesa sudo git firefox lightdm lightdm-gtk-greeter dmenu
     apk upgrade --update-cache --available
     apk add --no-cache shadow
