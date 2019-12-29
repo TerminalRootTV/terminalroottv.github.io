@@ -96,8 +96,6 @@ _alp_config(){
     rc-update add udev
     mkdir -p /etc/X11/xorg.conf.d
     wget https://terminalroot.com.br/sh/files/10-evdev.conf -O /etc/X11/xorg.conf.d/10-evdev.conf
-    adduser "$user"
-    usermod -G video,usb "$user"
     exit 0
 }
 
