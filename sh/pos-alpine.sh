@@ -35,7 +35,6 @@ usage: ${0##*/} [flags]
 
     --install          First step, only root.
     --user             Second step, only normal user.
-    --manual           Third and Optional step, only to read.
 
 * Marcos Oliveira - <terminalroot.com.br> - POS-ALPINE 0.1
 
@@ -124,9 +123,8 @@ while [[ "$1" ]]; do
     [[ "$REPLY" == "y" ||  "$REPLY" == "Y" ]] && {
          echo
          case "$1" in
-            --install|-i) echo 'alp_config';;
-            --user|-u) echo alp_user;;
-            --manual|-m) echo alp_manual;;
+            --install|-i) _alp_config;;
+            --user|-u) _alp_user;;
         esac
         shift   
     } || {
