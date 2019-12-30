@@ -108,29 +108,6 @@ data-ad-slot="8549252987"></ins>
 + Temas pro AwesomeWM: <https://github.com/lcpz/awesome-copycats>
 + <https://pt.wikipedia.org/wiki/Alpine_Linux>
 + <https://wiki.alpinelinux.org/wiki/Awesome(wm)_Setup>
-
-📖 Encontre dicas nos links aqui:
-
-✅ Conheça nossos Cursos: http://bit.ly/CursosTerminalRoot
-✅ Pacotes Promocionais: http://bit.ly/PromoTerminalRoot
-🎁 Todos os Cursos na Udemy: http://bit.ly/UdemyTerminalRoot 
-
-👁️ Veja também:
-
-🔗 Conheça o FuryBSD - Um Sistema baseado no FreeBSD: https://terminalroot.com.br/2019/12/conheca-o-furybsd-um-sistema-baseado-no-freebsd.html
-
-🔗 As 22 Melhores Distros Linux para Hackers (Pentesting): https://terminalroot.com.br/2019/12/as-22-melhores-distros-linux-para-hackers-pentesting.html
-
-⚓ Link com os comandos e arquivos: https://terminalroot.com.br/2019/12/alpine-linux-com-awesomewm-nao-recomendado-para-usuarios-nutella.html
-
-☕ Nosso Feed: http://bit.ly/FeedTerminalRoot
-☕ Nosso Twitter: http://bit.ly/TwitterTerminalRoot
-
-🔍 Pesquise o título do vídeo nesse link e encontre os comandos executados no vídeo: http://bit.ly/SearchTerminalRoot
-
-♯ Terminal Root - Linux e Desenvolvimento
-❒ Tudo sobre GNU/Linux, Shell Script, Gentoo e BSD.
-❒ Cursos, Dicas e Tutoriais
-❒ Desenvolvimento, Web e Tecnologia em geral.
-
-#AlpineLinux #AwesomeWM #ShellScript
++ ✅ Conheça nossos Cursos: <http://bit.ly/CursosTerminalRoot>
++ ✅ Pacotes Promocionais: <http://bit.ly/PromoTerminalRoot>
++ 🎁 Todos os Cursos na Udemy: <http://bit.ly/UdemyTerminalRoot>
