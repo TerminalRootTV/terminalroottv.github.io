@@ -12,7 +12,7 @@ tags:
 - shellscript
 ---
 
-![O Ano de 2020 é Bissexto? Como Calcular via Shell Script](ano-bissexto.jpg "O Ano de 2020 é Bissexto? Como Calcular via Shell Script")
+![O Ano de 2020 é Bissexto? Como Calcular via Shell Script](/assets/img/shellpro/ano-bissexto.jpg "O Ano de 2020 é Bissexto? Como Calcular via Shell Script")
 
 Chama-se ano bissexto o ano ao qual é acrescentado um dia extra, ficando com 366 dias, um dia a mais do que os anos normais de 365 dias, ocorrendo a cada quatro anos (exceto anos múltiplos de 100 que não são múltiplos de 400). Isto é feito com o objetivo de manter o calendário anual ajustado com a translação da Terra e com os eventos sazonais relacionados às estações do ano. O ano bissexto anterior foi 2016.
 
