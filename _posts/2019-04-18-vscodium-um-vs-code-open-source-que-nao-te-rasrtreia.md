@@ -6,8 +6,9 @@ image: '/assets/img/editores/vscodium.png'
 description: 'O VSCodium é um fork idêntico ao Visual Studio Code da Microsoft, somente com o ícone diferente.'
 main-class: 'dica'
 tags:
+- vscodium
+- vscode
 - windows
-- editor
 - shellscript
 - bash
 ---
@@ -62,4 +63,3 @@ E pronto! Basta procurar o VSCodium no dash do seu ambiente!
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-

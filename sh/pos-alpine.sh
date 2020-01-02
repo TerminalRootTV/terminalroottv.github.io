@@ -48,7 +48,7 @@ EOF
 
 _alp_user(){
     [[ $(id -u) != 1000 ]] && {
-        printf "Only for 'root'.\n" "%s"
+        printf "Only for 'normal user'.\n" "%s"
         exit 1
     }
     wget https://terminalroot.com.br/sh/files/Xresources -O ~/.Xresources
@@ -126,7 +126,7 @@ while [[ "$1" ]]; do
             --install|-i) _alp_config;;
             --user|-u) _alp_user;;
         esac
-        shift   
+        shift
     } || {
         printf "\nBye\n" "%s" && exit 0
     }
