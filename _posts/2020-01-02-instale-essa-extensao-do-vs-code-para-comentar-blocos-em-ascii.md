@@ -27,7 +27,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 ## Conceito
-O ASCII Decorator é uma extensão para o VS Code e outros que permite você transformar palavras para que fiquem de forma decorada. Isso pode facilitar por exemplo, quando você quiser melhor visualização do seu código, um separação de trechos que lhe façam encontrar mais facilmente, exemplo:
+O [ASCII Decorator](https://marketplace.visualstudio.com/items?itemName=helixquar.asciidecorator) é uma extensão para o [VS Code](https://terminalroot.com.br/2019/04/vscodium-um-vs-code-open-source-que-nao-te-rasrtreia.html) e outros que permite você transformar palavras para que fiquem de forma decorada. Isso pode facilitar por exemplo, quando você quiser melhor visualização do seu código, um separação de trechos que lhe façam encontrar mais facilmente, exemplo:
 
 ![ASCII Decorator](/assets/img/dicas/ascii-decorator.png)
 
