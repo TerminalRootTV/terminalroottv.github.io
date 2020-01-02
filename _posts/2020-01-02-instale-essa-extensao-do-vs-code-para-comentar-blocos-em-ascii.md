@@ -54,7 +54,7 @@ data-ad-slot="5351066970"></ins>
 + **4.** E então clique em <button style="background: green; color: #fff;border:none;">Install</button>.
 
 ## Utilização
-Para utilizar, após instalado, basta abrir qualquer arquivo que possua um texto qualquer, selecionar o texto que deseja e teclar: **Ctrl + shift + P** para abrir o palete do VS Code.
+Para utilizar, após instalado, basta abrir um arquivo que possua um texto qualquer, selecionar o texto que deseja e teclar: **Ctrl + shift + P** para abrir o palete do VS Code.
 
 Se você escrever ASCIIDecorator e selecionar, automáticamente o texto será transformado, veja exemplos abaixo:
 
