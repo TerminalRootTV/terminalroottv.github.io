@@ -13,19 +13,719 @@ description: 'O ponto de partida para o início no mundo do Desenvolvimento.'
 </section><!-- #page-post-header -->
 
 <br>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
 
 <div class="container">
-<!-- blog-section-start -->
-<ul class="list-group">
-	{% for post in site.posts %}
-		<li class="list-group-item" style="margin-bottom: 10px;">
-			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-			<p>{{ post.description }}</p>
-			<p><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn btn-info">LEIA MAIS</button></a></p>
-		</li>
-	{% endfor %}
-</ul>
-<!-- blog-section-end -->
+<!-- html-section-start -->
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+          <input id="myInput" type="text" class="form-control" name="search" placeholder="Digite o assunto que deseja com esse filtro">
+      </div>
+
+      <table class="table table-responsive">
+      <!--class="table table-bordered"-->
+        <thead>
+          <tr>
+            <th colspan="2" class="text-center">
+              <h3>
+              <img src="html5.png" alt="Tutorial de HTML e HTML5" title="Tutorial de HTML e HTML5" width="5%" heigth="5%">
+              Tutorial Completo de HTML e HTML5</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          <tr>
+            <td><b>Apresentação</b></td>
+            <td>Pra quem quer iniciar no mundo da Programação/Desenvolvimento, HTML é o início de tudo, pra aprender HTML basta saber ligar um computador, saber navegar na internet e usar um Bloco de Notas da vida, somente. HTML5 É a quinta versão da linguagem HTML. É muito simples e fácil, mas aprender do jeito certo é o alicerce pra entender muitas coisas nesse mundo do Desenvolvimento e da Internet. Documentos HTML escritos de maneira correta, aumentam significadamente a possibilidade de um buscador encontrar rapidamente seu site e colocá-lo nas primeiras ocorrências para pesquisa de um determinado assunto.</td>
+          </tr>
+          <tr>
+            <td><b>Pré-requisitos</b></td>
+            <td>
+              Ter conhecimentos básicos de informática, tais como navegar na internet,
+              acessar seu e-mail e utilizar editores de texto (Exemplo: Bloco de Notas do Windows).
+            </td>
+          </tr>
+          <tr>
+            <td><b>O que aprender</b></td>
+            <td>Vamos criar um site da internet somente com HTML na sua última versão: HTML5.<br>
+              <a href="#">Clique aqui para ver o Exemplo do site que iremos criar do zero.</a>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Conceitos</b></td>
+            <td>HTML é o formato padrão para criação de páginas online e aplicações de web. O nome HTML é uma abreviação para a expressão inglesa de HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto. HTML5 é quinta versão do HTML, essa versão reúne os recursos do HTML numa única linguagem simples de marcação que possa ser escrita em HTML e suas variantes. Traz um conceito global para ser utilizado em qualquer dispositivo:  comutadores, notebooks, smartphones, tablets e televisões digitais, entre outros.</td>
+          </tr>
+          <tr>
+            <td><b>História</b></td>
+            <td>Tim Berners-Lee (físico britânico) criou o HTML original. Na época a linguagem não era uma especificação, mas uma coleção de ferramentas para resolver um problema de Tim: a comunicação e disseminação das pesquisas entre ele e seu grupo de colegas. Sua solução, combinada com a então emergente internet pública (que tornar-se-ia a Internet) ganhou atenção mundial.</td>
+          </tr>
+          <tr>
+            <td><b>Curiosidade</b></td>
+            <td>A tecnologia é fruto da junção entre os padrões HyTime e SGML, que não são mais utilizados.</td>
+          </tr>
+          <tr>
+            <td><b>Ferramentas mínimas</b></td>
+            <td>Editor de Texto. Exemplo: Bloco de Notas do Windows. Mas preferencialmente instale um que colorize o código, exemplos: Vim, Gedit, Notepad++, ...</td>
+          </tr>
+          <tr>
+            <td><b>Grade</b></td>
+            <td>Essa própria página já contém todos os tópicos abordados.</td>
+          </tr>
+          <tr>
+            <td><b>Estrutura Básica</b></td>
+            <td>
+              <img src="estrutura-html.gif" alt="Estrutura HTML">
+              <img src="estrutura-html2.gif" alt="Estrutura HTML">
+              <br>
+               Tudo que fica entre &lt; e &gt; são chamadas de <b>tag</b><br>
+               As tags são elementos HTML que identifica o tipo de elemento que serão lidos pelo o navegador da internet.<br>
+               Geralmente as tags abrem assim: &lt;NOME_DA_TAG&gt; e fecham com uma barra antes do seu nome, assim: &lt;/NOME_DA_TAG&gt;,
+               com exceção de algumas tags que veremos mais à frente, que por sinal são poucas.<br>
+               As tags que ficam entre o documento fica entre as tags: &lt;html> e &lt;/html>, dentro dessas tags temos as tags: &lt;head> e &lt;/head>
+               que são o cabeçalho do documento e as tags &lt;body> e &lt;/body> que é o corpo do documento, dentro delas, colocamos as demais tags.
+               Algumas tags devem ficar entres as tags <i>head</i>, como a tag <i>title</i>, por exemplo. E outras obrigatoriamente tem de ficar entre as
+               tags <i>body</i>, a <i>h1</i>, como exemplo.<br>
+               Dentro dos nomes dentro das tags, podemos ainda inserir atributos: href, lang, class, target,... Ex.:<code>&lt;html lang="pt-BR"</code>,...
+               HTML5 adiciona várias novas tags: video, audio, header, canvas, svg, section, article, header e nav.<br>
+            </td>
+          </tr>
+          <tr>
+            <td><b>Primeiro HTML</b></td>
+            <td>
+              <ol>
+                <li>Abra seu Editor de Texto;</li>
+                <li>Escreva nele o conteúdo da estrutura mencionada</li>
+                <li>Salve com o nome que deseja com extensão <kbd>.html</kbd>, ex.: <code>meu-primeiro-html<b>.html</b></code></li>
+                <li>Abra o arquivo no navegador, dando dois clique nele, ou abrindo como ou até mesmo usando o <kbd>Ctrl+o</kbd> no seu navegador.</li>
+                <li>Pronto, visualize sua primeira página HTML no formato HTML5 que foi definido no Cabeçalho do documento como vimos.</li>
+                <li><blockquote style="font-size: 13px;"><mark>Obs.:</mark> A cada alteração que você fizer no arquivo, para conseguir visualizar no navegador, você precisará apertar <kbd>F5</kbd> que é uma única tecla do seu teclado (fica na primeira linha do teclado), <i>Não aperte o F e depois o 5, F5 é uma única tecla.</blockquote></li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td><b><code>&lt;!DOCTYPE></code></b></td>
+            <td>
+              Em HTML5 existe apenas usasse assim: <code>&lt;!DOCTYPE html></code><br>
+              Deve ser a primeira coisa no seu documento HTML, antes da tag <code>&lt;html></code>.
+              NÃO é uma tag HTML; é uma instrução para o navegador da web sobre qual versão do HTML a página está escrita.<br>
+              Outras declarações em versões anteriores ao HTML5:<br>
+              <ul style="font-size: 11px;">
+                <li><i>HTML 4.01 Strict</i> <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+      </code></li>
+                <li><i>HTML 4.01 Transitional</i> <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"></code></li>
+                <li><i>HTML 4.01 Frameset</i> <code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"></code></li>
+                <li><i>XHTML 1.0 Strict</i> <code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"></code></li>
+                <li><i>XHTML 1.0 Transitional</i> <code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"></code></li>
+                <li><i>XHTML 1.0 Frameset</i> <code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"></code></li>
+                <li><i>XHTML 1.1</i> <code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"></code></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><b><code>&lt;html></code></b></td>
+            <td>
+              Define a raiz de um documento HTML.<br>
+              Como vimos dentro dela ficam as tags <i>head</i> e <i>body</i>, consequentemente todo o documento HTML.<br>
+              Em HTML5 você também pode definir a linguagem do documento (ISO), como vimos: <code>&lt;html lang="pt-BR"</code>.
+            </td>
+          </tr>
+          <tr>
+              <td><code>&lt;head&gt;</code></td>
+              <td>Define informações sobre o documento<br>
+                  Dentro dele devem ficar as tags: title (Esse é necessário para o documento HTML), style, base, link, meta, script e noscript.
+              </td>
+          </tr>
+          <tr>
+              <td><code>&lt;title&gt;</code></td>
+              <td>Define um título para o documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;body&gt;</code></td>
+              <td>Define o corpo do documento<br>
+                  Dentro dele devem ficar as demais tags que não ficam em <i>head</i>: h1,h2,h3,h4,h5,p,br,hr,div,img,a,...
+              </td>
+          </tr>
+          <tr>
+              <td><code>&lt;h1&gt;até&lt;h6&gt;</code></td>
+              <td>Define os cabeçalhos dos textos dentro HTML.</td>
+          </tr>
+          <tr>
+              <td><code>&lt;a&gt;</code></td>
+              <td>Define um hiperlink<br>
+                  Usando o atributo <i>href="http://url"</i> ao clicar sobre a tag, a página informada dentro de <i>href</i>
+                  será aberta, se usar em conjunto com o atributo <i>target="_blank"</i> a página será aberta em outra janela/aba/objeto do navegador.<br>
+                  Exemplo: </code>&lt;a href="http://www.terminalroot.com.br" target="_blank">Vai para o blog Terminal Root&lt;/a></code>
+              </td>
+          </tr>
+          <tr>
+              <td><code>&lt;img&gt;</code></td>
+              <td>Define uma imagem. O atributo <i>src="imagem.jpeg"</i> exibe a imagem informada, se a imagem não estiver dentro
+                  da mesma pasta onde está o arquivo HTML, será necessário informar o caminho completo. Essa tag também exige o uso
+                  do atributo <i>alt="Descrição da Imagem"</i> de acordo com as regras da W3C que regulamenta o uso dos documentos HTML,
+                  pois os softwares para deficientes visuais, lêem esse atributo e transforma em voz para quem está acessando a página.<br>
+                  Exemplos: </code>&lt;img src="nome_da_imagem.jpeg" alt="Imagem do Carro X"><br>
+                  </code>&lt;img src="/pasta/nome_da_imagem.jpeg" alt="Imagem do Carro X">
+              </td>
+          </tr>
+          <tr>
+              <td><code>&lt;p&gt;</code></td>
+              <td>Define um parágrafo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;!--...--&gt;</code></td>
+              <td>Define um comentário<br>
+                  Se você quiser inserir um trecho no seu documento que não será exibido na leitura do navegador, coloque
+                  a frase/texto/comentário entre essa tag, exemplos:<br>
+                  <code>&lt;!-- Nessa linha eu tive que pôr cor vermelha.--&gt;</code><hr>
+                  <code>
+                  &lt;!--<br>
+                  Preciso mudar os hiperlinks desse trecho<br>
+                  --&gt;
+                  </code>
+              </td>
+          </tr>
+          <tr>
+              <td><code>&lt;meta&gt;</code></td>
+              <td>Define metadados sobre um documento HTML<br>
+              Fica entre as tags <i>head</i><br>
+              Exemplo de formas de uso:<br>
+              <ul>
+                <li><code>&lt;meta charset="UTF-8"></code> <i>Define o tipo de codificação binária.</i></li>
+                <li><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></code> <i>Torna a página responsiva, podendo apresentar conteúdo no formato do dispositivo que está sendo usado: computadores, smartphones, tablets e tv digital.</i></li>
+                <li><code>&lt;meta name="keywords" content="HTML, HTML5, XHTML"></code> <i>Define palavras-chave para os buscadores. Recomenda-se pôr no máximo 5 palavras-chave.</i></li>
+                <li><code>&lt;meta name="description" content="Tutorial de HTML e HTML5"></code> <i>Define a descrição da página.</i></li>
+                <li><code>&lt;meta name="author" content="Terminal Root"></code> <i>Define o autor da página.</i></li>
+                <li><code>&lt;meta http-equiv="refresh" content="30"></code> <i>Define em quanto tempo a página será recarregada, nesse caso 30 segundos.</i></li>
+                <li><code>&lt;meta name="robots" content="index,follow"></code> <i>Para os buscadores indexar a página e os links dela.</i></li>
+                <li><code>&lt;meta name="robots" content="archive"></code> <i>Permite que os buscadores armazenem a página em cache.</i></li>
+                <li><code>&lt;meta name="reply-to" content="email@servidor.dominio"></code> <i>Define o e-mail para contato.</i></li>
+                <li><code>&lt;meta name="generator" content="Editor que Foi Criado - VERSAO"></code> <i>Informa com qual Editor de Texto foi criado e a versão do mesmo.</i></li>
+                <li><code>&lt;meta http-equiv="refresh" content=" 5 ;url=http://terminalroot.sh/"></code> <i>Redireciona a página para o link no tempo informado, nesse caso após 5 segundos para terminalroot.sh, precisa informar sempre o protocolo também, nesse caso é http.</i></li>
+              </ul>
+
+              </td>
+          </tr>
+
+          <tr>
+            <td><b>Dicas Úteis</b></td>
+            <td>
+              <ul>
+
+                <li>Usar os elementos básicos o máximo possível</li>
+                <li>Validar HTML5 na W3c</li>
+                <li>Pôr form com text e passwd e upload.</li>
+                <li>usar hr pra separar.</li>
+                <li>usar header, footer, section, canvas, svg ...</li>
+                <li>https://www.w3schools.com/html/html_examples.asp</li>
+                <li>falar sobre os espaços que só mostra uma vez e o uso do nbsp; lt; gt; ...</li>
+                <li>
+                  Tocar música com HTML5:<br>
+                  <code>
+                  &lt;audio id="audio" controls><br>
+                  &nbsp;&nbsp;&lt;source src="playlist.mp3" type="audio/mpeg"><br>
+                  &lt;/audio>
+                  </code><br>
+                </li>
+                <li>Falar sobre símbolos matemáticos</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td><b>Slide do(s) Vídeo(s) em PDF</b></td>
+            <td><code>slide-html5.pdf</code></td>
+          </tr>
+          <tr>
+            <td><b>Vídeos</b></td>
+            <td><code>https://dominio-dos-videos/endereco</code></td>
+          </tr>
+          <tr>
+
+          <!-- INÍCIO DA LISTA COMPLETA SEM AS ANTERIORES -->
+
+          <tr>
+              <td><code>&lt;abr&gt;</code></td>
+              <td>Define uma abreviação ou um acrônimo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;acronym&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use <code>&lt;abbr&gt;</code> em seu lugar. </span> Define um acrônimo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;address&gt;</code></td>
+              <td>Define informações de contato para o autor/proprietário de um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;applet&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use <code>&lt;object&gt;</code> em seu lugar. </span> Define um applet incorporado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;area&gt;</code></td>
+              <td>Define uma área dentro de um mapa de imagem</td>
+          </tr>
+          <tr>
+              <td><code>&lt;article&gt;</code></td>
+              <td>Define um artigo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;aside&gt;</code></td>
+              <td>Define conteúdo além do conteúdo da página</td>
+          </tr>
+          <tr>
+              <td><code>&lt;audio&gt;</code></td>
+              <td>Define o conteúdo de som</td>
+          </tr>
+          <tr>
+              <td><code>&lt;b&gt;</code></td>
+              <td>Define o texto em negrito</td>
+          </tr>
+          <tr>
+              <td><code>&lt;base&gt;</code></td>
+              <td>Especifica o URL/destino base para todos os URLs relativos em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;basefont&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use CSS no lugar. </span> Especifica uma cor, um tamanho e uma fonte padrão para todo o texto em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;bdi&gt;</code></td>
+              <td>Isola uma parte do texto que pode ser formatado em uma direção diferente
+          de outro texto fora dele</td>
+          </tr>
+          <tr>
+              <td><code>&lt;bdo&gt;</code></td>
+              <td>Substitui a direção do texto atual</td>
+          </tr>
+          <tr>
+              <td><code>&lt;big&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use CSS no lugar. </span> Define texto grande</td>
+          </tr>
+          <tr>
+              <td><code>&lt;blockquote&gt;</code></td>
+              <td>Define uma seção que é citada de outra fonte</td>
+          </tr>
+          <tr>
+              <td><code>&lt;br&gt;</code></td>
+              <td>Define uma quebra de linha única</td>
+          </tr>
+          <tr>
+              <td><code>&lt;button&gt;</code></td>
+              <td>Define um botão clicável</td>
+          </tr>
+          <tr>
+              <td><code>&lt;canvas&gt;</code></td>
+              <td>Usado para desenhar gráficos, on the fly, via script (geralmente JavaScript)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;caption&gt;</code></td>
+              <td>Define uma legenda de tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;center&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use CSS no lugar. </span> Define o texto centralizado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;cite&gt;</code></td>
+              <td>Define o título de um trabalho</td>
+          </tr>
+          <tr>
+              <td><code>&lt;code&gt;</code></td>
+              <td>Define um código de computador</td>
+          </tr>
+          <tr>
+              <td><code>&lt;col&gt;</code></td>
+              <td>Especifica as propriedades da coluna para cada coluna em um&lt;colgroup&gt;elemento & nbsp;</td>
+          </tr>
+          <tr>
+              <td><code>&lt;colgroup&gt;</code></td>
+              <td>Especifica um grupo de uma ou mais colunas em uma tabela para formatação</td>
+          </tr>
+          <tr>
+              <td><code>&lt;data&gt;</code></td>
+              <td>Vincula o conteúdo fornecido a uma tradução legível por máquina</td>
+            </tr>
+          <tr>
+              <td><code>&lt;datalist&gt;</code></td>
+              <td>Especifica uma lista de opções predefinidas para controles de entrada</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dd&gt;</code></td>
+              <td>Define uma descrição/valor de um termo em uma lista de descrição</td>
+          </tr>
+          <tr>
+              <td><code>&lt;del&gt;</code></td>
+              <td>Define o texto que foi excluído de um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;details&gt;</code></td>
+              <td>Define detalhes adicionais que o usuário pode ver ou ocultar</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dfn&gt;</code></td>
+              <td>Representa a instância de definição de um termo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dialog&gt;</code></td>
+              <td>Define uma caixa de diálogo ou janela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dir&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use<code>&lt;ul&gt;</code>em seu lugar. </span> Define uma lista de diretórios</td>
+          </tr>
+          <tr>
+              <td><code>&lt;div&gt;</code></td>
+              <td>Define uma seção em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dl&gt;</code></td>
+              <td>Define uma lista de descrições</td>
+          </tr>
+          <tr>
+              <td><code>&lt;dt&gt;</code></td>
+              <td>Define um termo/nome em uma lista de descrições</td>
+          </tr>
+          <tr>
+              <td><code>&lt;em&gt;</code></td>
+              <td>Define o texto enfatizado & nbsp;</td>
+          </tr>
+          <tr>
+              <td><code>&lt;embed&gt;</code></td>
+              <td>Define um contêiner para um aplicativo externo (não HTML)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;fieldset&gt;</code></td>
+              <td>Agrupa elementos relacionados em um formulário</td>
+          </tr>
+          <tr>
+              <td><code>&lt;figcaption&gt;</code></td>
+              <td>Define uma legenda para uma tag&lt;figure&gt;elemento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;figure&gt;</code></td>
+              <td>Especifica conteúdo independente</td>
+          </tr>
+          <tr>
+              <td><code>&lt;font&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use CSS no lugar. </span> Define fonte, cor e tamanho do texto</td>
+          </tr>
+          <tr>
+              <td><code>&lt;footer&gt;</code></td>
+              <td>Define um rodapé para um documento ou seção</td>
+          </tr>
+          <tr>
+              <td><code>&lt;form&gt;</code></td>
+              <td>Define um formulário HTML para entrada do usuário</td>
+          </tr>
+          <tr>
+              <td><code>&lt;frame&gt;</code></td>
+              <td><span> Não suportado em HTML5. </span> Define uma janela (um quadro) em um conjunto de quadros</td>
+          </tr>
+          <tr>
+              <td><code>&lt;frameset&gt;</code></td>
+              <td><span> Não suportado em HTML5. </span> Define um conjunto de quadros</td>
+          </tr>
+          <tr>
+              <td><code>&lt;header&gt;</code></td>
+              <td>Define um cabeçalho para um documento ou seção</td>
+          </tr>
+          <tr>
+              <td><code>&lt;hr&gt;</code></td>
+              <td>Define uma alteração temática no conteúdo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;i&gt;</code></td>
+              <td>Define uma parte do texto em uma voz ou humor alternativo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;iframe&gt;</code></td>
+              <td>Define um quadro in-line</td>
+          </tr>
+          <tr>
+              <td><code>&lt;input&gt;</code></td>
+              <td>Define um controle de entrada</td>
+          </tr>
+          <tr>
+              <td><code>&lt;ins&gt;</code></td>
+              <td>Define um texto que foi inserido em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;kbd&gt;</code></td>
+              <td>Define a entrada do teclado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;label&gt;</code></td>
+              <td>Define um rótulo & nbsp; para uma tag&lt;input&gt;elemento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;legend&gt;</code></td>
+              <td>Define uma legenda para um&lt;fieldset&gt;elemento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;li&gt;</code></td>
+              <td>Define um item de lista </​​td>
+          </tr>
+          <tr>
+              <td><code>&lt;link&gt;</code></td>
+              <td>Define o relacionamento entre um documento e um recurso externo (a maioria
+          usado para vincular a folhas de estilo)<br>
+          <code>&lt;link rel="stylesheet" type="text/css" href="theme.css"></code><br>
+          <code>&lt;link rel="icon" href="meu_icone.gif" type="image/gif"></code> <i>Mostra o ícone na janela do navegador</i>
+          </td>
+          </tr>
+          <tr>
+              <td><code>&lt;main&gt;</code></td>
+              <td>Especifica o conteúdo principal de um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;map&gt;</code></td>
+              <td>Define um mapa de imagem do lado do cliente</td>
+          </tr>
+          <tr>
+              <td><code>&lt;mark&gt;</code></td>
+              <td>Define texto marcado/realçado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;menu&gt;</code></td>
+              <td>Define uma lista/menu de comandos</td>
+          </tr>
+          <tr>
+              <td><code>&lt;menuitem&gt;</code></td>
+              <td>Define um item de comando/menu que o usuário pode invocar em um menu pop-up</td>
+          </tr>
+          <tr>
+              <td><code>&lt;meter&gt;</code></td>
+              <td>Define uma medida escalar dentro de um intervalo conhecido (um medidor)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;nav&gt;</code></td>
+              <td>Define os links de navegação</td>
+          </tr>
+          <tr>
+              <td><code>&lt;noframes&gt;</code></td>
+              <td><span> Não suportado em HTML5. </span> Define um conteúdo alternativo para usuários que não suportam quadros</td>
+          </tr>
+          <tr>
+              <td><code>&lt;noscript&gt;</code></td>
+              <td>Define um conteúdo alternativo para usuários que não suportam
+          scripts do lado do cliente</td>
+          </tr>
+          <tr>
+              <td><code>&lt;object&gt;</code></td>
+              <td>Define um objeto incorporado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;ol&gt;</code></td>
+              <td>Define uma lista ordenada</td>
+          </tr>
+          <tr>
+              <td><code>&lt;optgroup&gt;</code></td>
+              <td>Define um grupo de opções relacionadas em uma lista suspensa</td>
+          </tr>
+          <tr>
+              <td><code>&lt;option&gt;</code></td>
+              <td>Define uma opção em uma lista suspensa</td>
+          </tr>
+          <tr>
+              <td><code>&lt;output&gt;</code></td>
+              <td>Define o resultado de um cálculo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;param&gt;</code></td>
+              <td>Define um parâmetro para um objeto</td>
+          </tr>
+          <tr>
+              <td><code>&lt;picture&gt;</code></td>
+              <td>Define um contêiner para vários recursos de imagem</td>
+          </tr>
+          <tr>
+              <td><code>&lt;pre&gt;</code></td>
+              <td>Define o texto pré-formatado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;progress&gt;</code></td>
+              <td>Representa o progresso de uma tarefa</td>
+          </tr>
+          <tr>
+              <td><code>&lt;q&gt;</code></td>
+              <td>Define uma cotação curta </​​td>
+          </tr>
+          <tr>
+              <td><code>&lt;rp&gt;</code></td>
+              <td>Define o que mostrar em navegadores que não suportam anotações de ruby ​​</td>
+          </tr>
+          <tr>
+              <td><code>&lt;rt&gt;</code></td>
+              <td>Define uma explicação/pronúncia de caracteres (para o leste asiático
+          tipografia)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;ruby&gt;</code></td>
+              <td>Define uma anotação rubi (para tipografia do leste asiático)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;s&gt;</code></td>
+              <td>Define o texto que não está mais correto</td>
+          </tr>
+          <tr>
+              <td><code>&lt;samp&gt;</code></td>
+              <td>Define a saída de amostra de um programa de computador</td>
+          </tr>
+          <tr>
+              <td><code>&lt;script&gt;</code></td>
+              <td>Define um script do lado do cliente</td>
+          </tr>
+          <tr>
+              <td><code>&lt;section&gt;</code></td>
+              <td>Define uma seção em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;selecione&gt;</code></td>
+              <td>Define uma lista suspensa</td>
+          </tr>
+          <tr>
+              <td><code>&lt;small&gt;</code></td>
+              <td>Define texto menor</td>
+          </tr>
+          <tr>
+              <td><code>&lt;source&gt;</code></td>
+              <td>Define vários recursos de mídia para elementos de mídia (& lt; video&gt;e&lt;audio&gt;)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;span&gt;</code></td>
+              <td>Define uma seção em um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;strike&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use<code>&lt;s&gt;</code>em seu lugar. </span> Define o texto tachado</td>
+          </tr>
+          <tr>
+              <td><code>&lt;strong&gt;</code></td>
+              <td>Define texto importante</td>
+          </tr>
+          <tr>
+              <td><code>&lt;style&gt;</code></td>
+              <td>Define informações de estilo para um documento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;sub&gt;</code></td>
+              <td>Define o texto subscrito</td>
+          </tr>
+          <tr>
+              <td><code>&lt;summary&gt;</code></td>
+              <td>Define um título visível para um&lt;details&gt;elemento</td>
+          </tr>
+          <tr>
+              <td><code>&lt;sup&gt;</code></td>
+              <td>Define o texto sobrescrito</td>
+          </tr>
+          <tr>
+              <td><code>&lt;svg&gt;</code></td>
+              <td>Define um contêiner para gráficos SVG</td>
+            </tr>
+          <tr>
+              <td><code>&lt;table&gt;</code></td>
+              <td>Define uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;tbody&gt;</code></td>
+              <td>Agrupa o conteúdo do corpo em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;td&gt;</code></td>
+              <td>Define uma célula em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;template&gt;</code></td>
+              <td>Define um modelo</td>
+            </tr>
+          <tr>
+              <td><code>&lt;textarea&gt;</code></td>
+              <td>Define um controle de entrada de múltiplas linhas (área de texto)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;tfoot&gt;</code></td>
+              <td>Agrupa o conteúdo do rodapé em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;th&gt;</code></td>
+              <td>Define uma célula de cabeçalho em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;thead&gt;</code></td>
+              <td>Agrupa o conteúdo do cabeçalho em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;time&gt;</code></td>
+              <td>Define uma data/hora</td>
+          </tr>
+          <tr>
+              <td><code>&lt;tr&gt;</code></td>
+              <td>Define uma linha em uma tabela</td>
+          </tr>
+          <tr>
+              <td><code>&lt;track&gt;</code></td>
+              <td>Define faixas de texto para elementos de mídia (& lt; video&gt;e&lt;audio&gt;)</td>
+          </tr>
+          <tr>
+              <td><code>&lt;tt&gt;</code></td>
+              <td><span> Não suportado em HTML5. Use CSS no lugar. </span> Define o texto do teletipo</td>
+          </tr>
+          <tr>
+              <td><code>&lt;u&gt;</code></td>
+              <td>Define o texto que deve ser estilisticamente diferente do texto normal</td>
+          </tr>
+          <tr>
+              <td><code>&lt;ul&gt;</code></td>
+              <td>Define uma lista não ordenada</td>
+          </tr>
+          <tr>
+              <td><code>&lt;var&gt;</code></td>
+              <td>Define uma variável</td>
+          </tr>
+          <tr>
+              <td><code>&lt;video&gt;</code></td>
+              <td>Define um vídeo ou filme</td>
+          </tr>
+          <tr>
+              <td><code>&lt;wbr&gt;</code></td>
+              <td>Define uma possível quebra de linha</td>
+          </tr>
+          <!-- FIM DA LISTA COMPLETA -->
+
+
+          <tr>
+            <td>Bibliografia</td>
+            <td>
+               <cite>https://pt.wikipedia.org/wiki/HTML</cite><br>
+               <cite>https://pt.wikipedia.org/wiki/HTML5</cite><br>
+               <cite>https://www.w3.org/html/</cite><br>
+               <cite>http://www.terminalroot.com.br/html</cite><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+
+<!-- html-section-end -->
 </div>
 
 <br>
