@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Tutorial de HTML para Iniciantes"
+permalink: "/html/"
+description: 'O ponto de partida para o início no mundo do Desenvolvimento.'
+---
+
+<section id="post-page-header" class="clearfix">
+  <div class="page-post-header-info text-center">
+    <h2>{{ page.title }}</h2>
+    <h4>{{ page.description }}</h4>
+  </div>
+</section><!-- #page-post-header -->
+
+<br>
+
+<div class="container">
+<!-- blog-section-start -->
+<ul class="list-group">
+	{% for post in site.posts %}
+		<li class="list-group-item" style="margin-bottom: 10px;">
+			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+			<p>{{ post.description }}</p>
+			<p><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn btn-info">LEIA MAIS</button></a></p>
+		</li>
+	{% endfor %}
+</ul>
+<!-- blog-section-end -->
+</div>
+
+<br>
