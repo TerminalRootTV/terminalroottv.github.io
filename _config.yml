@@ -10,7 +10,7 @@ twitter_username: TerminalRootTV
 github_username:  Terroo
 gitlab_username:  TerminalRoot
 youtube_username:  TerminalRootTV
-# 
+#
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -65,3 +65,5 @@ links:
     url: /en
   - title: Contribua
     url: /contribua
+  - title: Tutorial HTML
+    url: /html
