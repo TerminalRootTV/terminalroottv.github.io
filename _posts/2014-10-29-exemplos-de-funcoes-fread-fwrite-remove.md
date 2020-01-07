@@ -21,7 +21,7 @@ tags:
 Podemos escrever e ler blocos de dados. Para tanto, temos as funções `fread()` e `fwrite()`. O protótipo de `fread()` é:
 
 {% highlight bash %}
-unsigned fread (void \*buffer, int numero_de_bytes, int count, FILE \*fp);
+unsigned fread (void *buffer, int numero_de_bytes, int count, FILE *fp);
 {% endhighlight %}
 
 O *buffer* é a região de memória na qual serão armazenados os dados lidos. O número de bytes é o tamanho da unidade a ser lida. count indica quantas unidades devem ser lidas. Isto significa que o número total de bytes lidos é:
@@ -51,7 +51,7 @@ int main( int argc, char** argv ){
 
     if( argc > 1 ){
         // Declaramos um ponteiro(link para o endereço da memória) para o arquivo de nome: 'pf'
-        FILE \*pf;
+        FILE *pf;
         char conteudo[100];
 
         //Abre o arquivo novamente para leitura
@@ -90,7 +90,7 @@ echo "Bla bla bla" > arquivo.txt
 A função `fwrite()` funciona como a sua companheira `fread()`, porém escrevendo no arquivo. Seu protótipo é:
 
 {% highlight c %}
-unsigned fwrite(void \*buffer,int numero_de_bytes,int count,FILE \*fp);
+unsigned fwrite(void *buffer,int numero_de_bytes,int count,FILE *fp);
 {% endhighlight %}
 
 A função retorna o número de itens escritos. Este valor será igual a `count` a menos que ocorra algum erro.
@@ -111,7 +111,7 @@ Exemplo:
 #include<stdio.h>
 
 int main(){
-   FILE \*fp;
+   FILE *fp;
    char str[] = "Terminal Root na veia!\n";
    fp = fopen( "arquivo.txt" , "w" );
    fwrite(str , 1 , sizeof(str) , fp );
@@ -131,7 +131,7 @@ cat arquivo.txt
 ## `remove()`
 Protótipo:
 {% highlight c %}
-int remove (char \*nome_do_arquivo);
+int remove (char *nome_do_arquivo);
 {% endhighlight %}
 
 Apaga um arquivo especificado.
@@ -184,7 +184,7 @@ A função `fprintf()` funciona como a função `printf()`. A diferença é que 
 
 Protótipo:
 {% highlight c %}
-int fprintf (FILE \*fp,char \*str,...);
+int fprintf (FILE *fp,char *str,...);
 {% endhighlight %}
 
 Como já poderíamos esperar, a única diferença do protótipo de `fprintf()` para o de `printf()` é a especificação do arquivo destino através do ponteiro de arquivo.
@@ -200,7 +200,7 @@ Exemplo de fprintf e fscanf:
 
 int main(){
 
-    FILE \*p;
+    FILE *p;
     char str[80],c;
     // Le um nome para o arquivo a ser aberto
     printf("Entre com um nome para o arquivo: ");
@@ -276,7 +276,7 @@ int main(){
 
     // Verifica se o arquivo existe
     if( access( fname, F_OK ) != -1 ) {
-        FILE \*fp;
+        FILE *fp;
 
         fp = fopen(fname, "w+");
 
@@ -320,7 +320,7 @@ data-ad-slot="5351066970"></ins>
 Para se ler uma string num arquivo podemos usar `fgets()` cujo protótipo é:
 
 {% highlight c %}
-char \*fgets (char \*str, int tamanho,FILE \*fp);
+char *fgets (char *str, int tamanho,FILE *fp);
 {% endhighlight %}
 
 A função recebe 3 argumentos:
@@ -345,7 +345,7 @@ Exemplo:
 #include <stdlib.h>
 
 int main(){
-    FILE \*p;
+    FILE *p;
     char str[30], frase[] = "Este é um arquivo chamado: ", resposta[80];
     int i;
     // Le um nome para o arquivo a ser aberto
@@ -394,7 +394,7 @@ Este é um arquivo chamado: teste.doc
 
 Protótipo de ferror:
 {% highlight c %}
-int ferror (FILE \*fp);
+int ferror (FILE *fp);
 {% endhighlight %}
 
 A função retorna zero, se nenhum erro ocorrer e um número diferente de zero se algum erro ocorreu durante o acesso ao arquivo.
@@ -423,7 +423,7 @@ Exemplo:
 #include <string.h>
 
 int main() {
-    FILE \*pf;
+    FILE *pf;
     char string[100];
     if((pf = fopen("arquivo.txt","w")) ==NULL){
         printf("\nNao consigo abrir o arquivo ! ");
@@ -451,7 +451,7 @@ int main() {
 Para se fazer procuras e acessos randômicos em arquivos usa-se a função `fseek()`. Ela move a posição corrente de leitura ou escrita no arquivo de um valor especificado, a partir de um ponto especificado. Seu protótipo é:
 
 {% highlight c %}
-int fseek (FILE \*fp,long numbytes,int origem);
+int fseek (FILE *fp,long numbytes,int origem);
 {% endhighlight %}
 
 O parâmetro origem determina a partir de onde os `numbytes` de movimentação serão contados. Os valores possíveis são definidos por macros em `stdio.h` e são:
@@ -470,7 +470,7 @@ Tendo-se definido a partir de onde irá se contar, `numbytes` determina quantos 
 
 A função `rewind()` de protótipo:
 {% highlight c %}
-void rewind (FILE \*fp);
+void rewind (FILE *fp);
 {% endhighlight %}
 
 Retorna a posição corrente do arquivo para o início.
