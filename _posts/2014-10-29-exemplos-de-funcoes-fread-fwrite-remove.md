@@ -84,6 +84,7 @@ echo "Bla bla bla" > arquivo.txt
 ./program arquivo.txt
 {% endhighlight %}
 
+---
 
 # 🇨 `fwrite()`
 
@@ -127,6 +128,8 @@ gcc main.c -o program
 cat arquivo.txt
 #Terminal Root na veia!
 {% endhighlight %}
+
+---
 
 # 🇨 `remove()`
 Protótipo:
@@ -174,11 +177,13 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-# `fprintf()` e `fscanf()`
+---
+
+# 🇨 `fprintf()` e `fscanf()`
 
 Os fluxos padrão em arquivos permitem ao programador ler e escrever em arquivos da maneira padrão com a qual o já líamos e escrevíamos na tela.
 
-# 🇨 `fprintf()`
+## `fprintf()`
 
 A função `fprintf()` funciona como a função `printf()`. A diferença é que a saída de `fprintf()` é um arquivo e não a tela do computador.
 
@@ -189,7 +194,7 @@ int fprintf (FILE *fp,char *str,...);
 
 Como já poderíamos esperar, a única diferença do protótipo de `fprintf()` para o de `printf()` é a especificação do arquivo destino através do ponteiro de arquivo.
 
-# 🇨 `fscanf()`
+##`fscanf()`
 
 A função `fscanf()` funciona como a função `scanf()`. A diferença é que `fscanf()` lê de um arquivo e não do teclado do computador.
 
@@ -251,6 +256,8 @@ gcc main.c -o program
 Entre com um nome para o arquivo: teste.txt
 O arquivo informado foi: teste.txt
 {% endhighlight %}
+
+---
 
 # 🇨 `fputs()`
 
@@ -314,6 +321,8 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+---
 
 # 🇨 `fgets()`
 
@@ -390,6 +399,8 @@ Informe um nome de arquivo: teste.doc
 Este é um arquivo chamado: teste.doc
 {% endhighlight %}
 
+---
+
 # 🇨 `ferror()` e `perror()`
 
 Protótipo de ferror:
@@ -446,6 +457,8 @@ int main() {
 
 > Após compilar e testar, use **Ctrl + c** para sair do programa.
 
+---
+
 # 🇨 `fseek()`
 
 Para se fazer procuras e acessos randômicos em arquivos usa-se a função `fseek()`. Ela move a posição corrente de leitura ou escrita no arquivo de um valor especificado, a partir de um ponto especificado. Seu protótipo é:
@@ -465,6 +478,8 @@ SEEK_END       2        Fim do arquivo
 {% endhighlight %}
 
 Tendo-se definido a partir de onde irá se contar, `numbytes` determina quantos bytes de deslocamento serão dados na posição atual.
+
+---
 
 # 🇨 `rewind()`
 
