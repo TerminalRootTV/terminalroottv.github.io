@@ -1,0 +1,1653 @@
+---
+layout: default
+title: "Tutorial de CSS para Iniciantes"
+permalink: "/css/"
+description: 'O braço direito do HTML.'
+---
+<section id="post-page-header" class="clearfix">
+   <div class="page-post-header-info text-center">
+      <h2>{{ page.title }}</h2>
+      <h4>{{ page.description }}</h4>
+      <!-- RETANGULO LARGO -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- Informat -->
+      <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2838251107855362"
+         data-ad-slot="2327980059"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+      <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+   </div>
+</section>
+<!-- #page-post-header -->
+<br>
+<div class="container">
+   <!-- css-section-start -->
+   <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-search"></i></span>
+          <input id="myInput" type="text" class="form-control" name="search" placeholder="Digite o assunto que deseja com esse filtro">
+        </div>
+        <!-- MINI ANÚNCIO -->
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+         <!-- Games Root -->
+         <ins class="adsbygoogle"
+            style="display:inline-block;width:730px;height:95px"
+            data-ad-client="ca-pub-2838251107855362"
+            data-ad-slot="5351066970"></ins>
+         <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+         <table class="table table-responsive">
+            <!--class="table table-bordered"-->
+            <thead>
+               <tr>
+                  <th colspan="2" class="text-center">
+                     <h3>
+                        <img src="/assets/img/css3/css.png" alt="Tutorial de CSS e CSS3" title="Tutorial de CSS e CSS3" width="5%" heigth="5%">
+                        Tutorial de CSS e CSS3
+                     </h3>
+                  </th>
+               </tr>
+            </thead>
+            <tbody id="myTable">
+               <tr>
+                  <td><b>Apresentação</b></td>
+                  <td>Se você já possui conhecimentos em <a href="http://gooddeath.com/assets/html/html5/html.html" target="_blank">HTML5</a> esse tutorial 
+                     servirá como uma excelente ferramenta para total customização dos seus documentos HTML, mas se você ainda não possui conhecimentos em HTML 
+                     e HTML5, <a href="http://gooddeath.com/assets/html/html5/html.html" target="_blank">
+                     clique aqui para aprender</a> e assim que terminar venha logo pra cá!
+                  </td>
+               <tr>
+                  <td><b>Pré-requisitos</b></td>
+                  <td>Conhecimentos sobre <a href="http://gooddeath.com/assets/html/html5/html.html" target="_blank">HTML e HTML5</a>
+               </tr>
+               </td>
+               </tr>
+               <tr>
+                  <td><b>O que aprender</b></td>
+                  <td>Vamos customizar totalmente a página do exercício do Tutorial de HTML5 com CSS e CSS3</td>
+               </tr>
+               <tr>
+                  <td><b>Conceitos</b></td>
+                  <td><abbr title="Cascading Style Sheets">CSS</abbr> (significa <b>C</b>ascading <b>S</b>tyle <b>S</b>heets) é um simples mecanismo para 
+                     adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web. CSS tem uma sintaxe simples, e utiliza uma série de palavras em inglês 
+                     para especificar os nomes de diferentes estilos de propriedade de uma página. CSS3 é a segunda mais nova versão das famosas Cascading Style 
+                     Sheets (ou simplesmente CSS), onde se define estilos para páginas web com função do CSS3 é abolir as imagens de plano de fundo, bordas 
+                     arredondadas, apresentar transições e efeitos para criar animações de vários tipos, como um simples relógio de ponteiros.
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>História</b></td>
+                  <td>A saga de CSS começa em 1994. Håkon Wium Lie trabalha no CERN - o berço da Web - e a Web está começando a ser usada como uma plataforma 
+                     para publicação eletrônica. Uma parte crucial de uma plataforma de publicação está faltando, no entanto: Não há como estilizar documentos. 
+                     Por exemplo, não há como descrever um layout semelhante a um jornal em uma página da Web. Tendo trabalhado em apresentações de jornal 
+                     personalizadas no MIT Media Laboratory, Håkon viu a necessidade de uma linguagem de folha de estilo para a Web. A História completa 
+                     <a href="https://www.w3.org/Style/CSS20/history.html" target="_blank">está aqui</a> , a paǵina foi estilizada de maneira muito legal com CSS, 
+                     vale a pena o clique.
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Curiosidade</b></td>
+                  <td>Muitas das animações que você vê hoje em dia na internet, você pode imaginar que é uma linguagem de programação, mas usa-se mais
+                     CSS, por ser mais leve e fácil! :)
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Ferramentas mínimas</b></td>
+                  <td>Você precisa possuir um Editor de Texto. De preferência instale um que colorize o código, exemplos: Vim, Gedit, Notepad++ ou outros.</td>
+               </tr>
+               <tr>
+                  <td><b>Grade</b></td>
+                  <td>Essa própria página já contém todos os tópicos abordados.</td>
+               </tr>
+               <tr>
+                  <td><b>Estrutura Básica</b></td>
+                  <td>Uma instrução CSS consiste em um <b style="color:blue;">seletor</b> e um bloco de declaração. Cada declaração contém uma 
+                     <b style="color:red;">propriedade</b> e um <b style="color:#f03ff1;">valor</b>, separados por dois pontos <kbd> : </kbd> . Cada declaração 
+                     é separada por ponto e vírgula <kbd> ; </kbd>.<br> 
+                     <img src="estrutura-basica-css.gif" alt="Estrutura Básica de um Documento CSS" title="Estrutura Básica de um Documento CSS"><br>
+                     <img src="selector.gif" alt="Exemplo da Estrutura de um Documento CSS" title="Exemplo da Estrutura de um Documento CSS">
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Primeiro CSS</b></td>
+                  <td>
+                     Existem 3 formas de você "chamar" o CSS.<br>
+                     <ol>
+                     <li>
+                        <b>Usando um arquivo EXTERNO e chamando entre as tags <i>head</i> do seu HTML utilizando a tag <i>link</i></b>. Exempĺo:<br>
+                        <code>
+                        &lt;head><br>
+                        <b>&nbsp;&lt;link rel="stylesheet" type="text/css" href="arquivo.css"></b><br>
+                        &lt;head><br>
+                        </code><br>
+                        E dentro do arquivo possuir seu código CSS. Vamos supor que você deseja deixar o elemento <b>h1</b> da sua página HTML 
+                        com cor vermelha, então dentro do <kbd>arquivo.css</kbd>, teria o seguinte conteúdo:<br> 
+                        <code>h1 { color : red ; }</code> , logo, todo o conteúdo entre as tags <b>h1</b> ficariam com a cor 
+                        <span style="color:red;">Vermelha</span>.<br><br>
+                        <blockquote style="font-size:13px;">Obs.: Se o <kbd>arquivo.css</kbd> não estiver no mesmo diretório do arquivo em HTML, 
+                           no atributo <b>href</b> precisará informar o caminho para localizá-lo.
+                        </blockquote>
+                        Exemplo: <code>&lt;link rel="stylesheet" type="text/css" href="<b>pasta/outra_pasta/arquivo.css</b>"></code>
+                     </li>
+                     <br>
+                     <li>
+                        <b>Usando um conteúdo INTERNO e chamando entre as tags <i>head</i> do seu HTML utilizando a tag <i>style</i></b>. Exempĺo:<br>
+                        <code>
+                        &lt;head><br>
+                        <b>&nbsp;&lt;style><br>
+                        &nbsp;&nbsp;h1 { color : red ; }<br>
+                        &nbsp;&lt;/style></b><br>
+                        &lt;/head>
+                        </code>                  
+                     </li>
+                     <br>
+                     <li>
+                        <b>Ou utilizando o atributo <i>style</i> na tag HTML.</b> Exempĺo:<br><br>
+                        <code>
+                        &lt;h1 <b>style="h1:red;"</b>>
+                        </code>
+                        <br><br>
+                        <blockquote style="font-size:13px;">
+                           Note que dessa forma, somente o elemento que possuir esse atributo que mudará a cor. Note também que só foi preciso 
+                           informar dentro do atributo <u>style</u> a <b>propriedade : valor ;</b> , pois lógicamente o seletor é a própria tag 
+                           HTML que possui esse atributo, consequentemente somente essa tag será modificada.
+                        </blockquote>
+                     </li>
+                     <br>
+                     <b>Outros exemplos de conteúdo CSS de como você também pode usar:</b><br>
+                     <code>
+                     h1 {color:red;}<br>
+                     a {color: blue;}<br>
+                     p { color : gray ; }<br>
+                     div {margin-left:30px; color:#fff; background-color:Tomato;}
+                     </code><br><br>
+                     <blockquote style="font-size:13px;">Você pode usar: nomes de cores, cores hexadecimais, hsl (hue, saturation, lightness)
+                        , cores rgb (red, green, blue), rgba(red, green, blue, alpha) e hsla(hue, saturation, lightness, alpha), além de outras 
+                        propriedades que você já notou nos exemplos e veremos de forma mais explicada.
+                     </blockquote>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>seletores</b></td>
+                  <td>
+                     Os seletores nem sempre podem ser somente tags, ele podem ser também <kbd>class</kbd>, <kbd>id</kbd>,... 
+                     Por exemplo, se você usar na tag HTML o atributo <kbd>class=""</kbd> e escolher um nome para ficar entre as aspas duplas 
+                     você pode invocá-lo no CSS. Exemplo:<br>
+                     <code>
+                     &lt;p class="artigo">
+                     </code><br>Nesse caso você informou que sua tag possui o <u>seletor</u> <b>class</b> de nome <b>artigo</b>. 
+                     E no CSS modificar esse seletor da seguinte forma (colocando um ponto <kbd>&nbsp;.&nbsp;</kbd> junto a ele no início da palavra:<br>
+                     <code>
+                     .artigo {color: #4e9a06;}
+                     </code> . Logo, automaticamente, todas tags que possuir esse seletor ficaram com a propriedade informada, nesse caso, com a cor indicada.
+                     Algumas coisas que você deve saber sobre os seletores:<b>
+                     <ul>
+                        <li>Tags diferentes podem possuir o mesmo seletor: <br>
+                           <code>&lt;p class="artigo"></code>, <code>&lt;h4 class="artigo"></code>, <code>&lt;a class="artigo"></code>, ...
+                        </li>
+                        <li>Elementos HTML também podem se referir a mais de uma classe, exs.:
+                           <code>&lt;div class="artigo pedra algo-sem-nome"></code>
+                        </li>
+                        <li>Você ainda pode especificar no CSS quais tags você deseja modificar, caso outras tags diferentes possuissem o mesmo seletor, ex.:
+                           <code>div.artigo {color: #4e9a06;}</code>, nesse caso só as tags <b>div</b> que possuem o selector <b>artigo</b> serão modificadas.
+                        </li>
+                     </ul>
+                     Existem outros seletores e outras formas de utilizá-los. O <kbd>&nbsp;*&nbsp;</kbd>, por exemplo, seleciona todos os elementos:<br>
+                     <code>* { propriedade : valor ; }</code>    
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>.class</b></td>
+                  <td>
+                     Seleciona e estiliza todos os elementos com <mark>id="outro"</mark>
+                     Na <i>tag</i> HTML: <code>&lt;tag class="exemplo"></code><br>
+                     No CSS: <code>.exemplo {propriedade: valor;}</code><br>
+                     <blockquote style="font-size: 13px;"><b>tag</b>, pode ser diversas tags: p, a, img, h1, h6, div, label, fieldset...
+                        , bem como a <b>propriedade</b> e o <b>valor</b> referenciados, além do nome do seletor também, nesse caso <b>exemplo</b> 
+                        mas como já foi dito, você poderia informar qualquer outro nome usando somente: letras, traços e números ou não.
+                     </blockquote>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>#id</b></td>
+                  <td>
+                     Seleciona o elemento com <mark>id="materia"</mark>, ex.:<br>
+                     Na <i>tag</i> HTML: <code>&lt;tag id="exemplo"></code><br>
+                     No CSS: <code>#exemplo {propriedade: valor;}</code><br>
+                     <blockquote style="font-size: 13px;">Se uma <b>.class</b> possuir o mesmo nome que uma <b>#id</b> não haverá problema, 
+                        no entanto, no css, só funcionará se chamar com o sinal correspondente do seletor, ex.:<br>
+                        <code>#exemplo {propriedade: valor;}</code> , só modifica os elementos/tags com <b>id="exemplo"</b><br>
+                        <code>.exemplo {propriedade: valor;}</code> , só modifica os elementos/tags com <b>class="exemplo"</b><br>
+                     </blockquote>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>elemento, elemento</b></td>
+                  <td>
+                     Separa por vígula os elementos que desejam que tenham a mesma alteração, pra não precisar ficar atribuindo os mesmos valores 
+                     para as mesmas propriedades, evita o repetimento do código. Exs.:<br>
+                     <pre><code>div, p {propriedade: valor;}
+div.artigo, p.entrada {propriedade: valor;}
+div, p.outro {propriedade: valor;}
+div, p, a, img.viagem {propriedade: valor;}</code></pre>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>elemento elemento</b></td>
+                  <td>Separadas por espaço. Seleciona que estão dentro do elemento inicial, ex.:
+                     <code>div p {propriedade: valor;}</code> Todas as tags <b>p</p> que estiverem dentro de div, receberão tal valor para determinada
+                     propriedade.
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>elemento>elemento</b></td>
+                  <td>
+                     Seleciona o "elemento pai" do elemento menor. Vamos supôr que você possui um código HTML assim:<br>
+                     <pre><code>&lt;div>
+  &lt;p>
+    &lt;a href="endereco_link">Clique aqui&lt;/a>
+  &lt;/p>
+&lt;/div>
+</code></pre>
+                     Se você tiver isso no seu CSS <code>div > a {propriedade:valor;}</code> , a tag/elemento <kbd>&nbsp;a&nbsp;</kbd> não sofreria 
+                     modificação pela invocação que você fez no seu CSS, porque o "elemento pai" dela é o <kbd>&nbsp;a&nbsp;</kbd>.<br>
+                     Pra que ela sofra modificação dentro da div, teria que ser assim: <code>div > p > a {propriedade: valor;}</code> , ou assim: 
+                     <code>div a {propriedade: valor;}</code> , nesse último caso, até os elementos <kbd>&nbsp;a&nbsp;</kbd> que não possuíssem o 
+                     "elemento pai" <kbd>&nbsp;a&nbsp;</kbd> também sofreria modificação.
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>elemento+elemento</b></td>
+                  <td>
+                     <code>div+p {propriedade: valor}</code> Seleciona todos os elementos &lt;p> que são colocados IMEDIATAMENTE após os elementos &lt;div>.<br>
+                     Exemplo: Somente o &lt;p> imediatamente após a &lt;div> , terão o fundo vermelho:<br>
+                     CSS: <code>div+p {background-color: #ef2929;}</code><br>
+                     HTML:
+                     <pre><code>&lt;h1>Conteúdo 1&lt;/h1>
+&lt;div>
+  &lt;h2>Conteúdo 2&lt;/h2>
+  &lt;p>Conteúdo 5&lt;/p> 
+&lt;/div>
+&lt;p>Conteúdo 4&lt;/p> --> Esse aparecerá na página do navegador, assim: <span style="background-color: #ef2929;">Conteúdo 4</span>
+&lt;p>Conteúdo 5&lt;/p>
+</code></pre>
+                     <blockquote>Existem outras formas de <b style="font-size: 27px;">seletores</b> e <b style="font-size: 27px;">propriedades</b>.<br>
+                        <u>Dica</u>: <b>Utilize o <a href="#myInput">FILTRO</a> dessa página para
+                        consulta completa dos Seletores. Além de Pseudo Classes &raquo; <kbd>seletor:pseudo-class</kbd>, 
+                        Pseudo Elementos &raquo; <kbd>seletor::pseudo-elemento</kbd>, funções, animações,... Vamos ver cada um deles nas Dicas Rápidas.
+                     </blockquote>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>font-family</b></td>
+                  <td>
+                     Você pode modificar o tipo da font do seletor, com a seguinte sintaxe:<br>
+                     Sintaxe CSS: <code>seletor {font-family: 'Primeira Família', 'Segunda Família', familia-generica;}</code><br>
+                     Exemplo, usar font Impact, logo seria assim:<br>
+                     CSS: <code>div {font-family: Impact, Charcoal, sans-serif;}</code><br>
+                     Como vai aparecer no navegador:<br>
+                     <div style="font-family: Impact, Charcoal, sans-serif;" class="text-center">
+                        <h1>Essa é a font Impact</h1>
+                     </div>
+                     <div class="text-center">
+                        <h3>Essa é a font padrão do texto</h3>
+                     </div>
+                     <br><br>
+                     <blockquote>Obs.: Usei o termo <b>'Primeira Família', 'Segunda Família', familia-generica</b>, pois o navegador tenta exibir a
+                        primeira família, se não conseguir, ele tenta a segunda família e se ambas não derem certo, ele exibe a forma genérica que é 
+                        possível ser renderizada em qualquer navegador.
+                     </blockquote>
+                     <p>Veja a lista completa das possibilidades de font e pra ver a saída de cada uma delas, teste no seu navegador.
+                        Usei a Impact como exemplo, pois é a minha preferida. ;)
+                     </p>
+                     <pre>
+font-family: Arial Black, Gadget, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+font-family: 'Courier New', Courier, monospace;
+font-family: Georgia, serif;
+font-family: Impact, Charcoal, sans-serif;
+font-family: 'Lucida Console', Monaco, monospace;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+font-family: Tahoma, Geneva, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+font-family: Verdana, Geneva, sans-serif;
+</pre>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Unidades</b></td>
+                  <td>
+                     CSS tem várias unidades diferentes para expressar um comprimento.Muitas propriedades CSS recebem valores de "comprimento", 
+                     como largura, margem, preenchimento, tamanho da fonte, largura da borda etc. Muitos desenvolvedores Web usam muito a unidade <em>em</em> 
+                     e outros misturam vários tipos de unidade. Eu já prefiro usar o pixel e somente ele pra que o código fique padronizado. Exemplo de uso:<br>
+                     <code>p {padding: 10px;}</code> , não pode existir espaço entre o número e a unidade: 
+                     <code><strike>p {padding: 10<b style="background: red;">&nbsp;</b>px;}</strike></code>, a menos que o valor seja 0 (zero), podendo até ser 
+                     omitido valor, caso você deseje. Unidades:<br>
+                     <ul>
+                        <li><b>cm</b> - centimeters</li>
+                        <li><b>mm</b> - millimeters</li>
+                        <li><b>in</b> - inches (1in = 96px = 2.54cm)</li>
+                        <li><b>px *</b> - pixels (1px = 1/96th of 1in)</li>
+                        <li><b>pt</b> - points (1pt = 1/72 of 1in)</li>
+                        <li><b>pc</b> - picas (1pc = 12 pt)</li>
+                     </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Exercício</b></td>
+                  <td>
+                     <ol>
+                        <li>Dar dica de cores utilizando um editor de texto.</li>
+                        <li>Estilizar tudo possível</li>
+                        <li>Fazer Media Queries</li>
+                        <li>Fazer uma animação</li>
+                        <li>Usar a função href do CSS</li>
+                        <li>Usar o before</li>
+                        <li>
+                           usar font-awesome, aproveitar e fazer um Entity e também pôr na folha o código: 
+                           <kbd> @charset "UTF-8";</kbd> no cabeçalho do arquivo.css
+                        </li>
+                        <li>Usar acid test</li>
+                        <li>usar validador CSS</li>
+                        <li>Usar o codepen para exemplos ?</li>
+                        <li>Falar do SCSS e SASS</li>
+                        <li>Falar do CSS Sprite</li>
+                     </ol>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>Slide do(s) Vídeo(s) em PDF</b></td>
+                  <td><code>slide-_DOCUMENTO.pdf</code></td>
+               </tr>
+               <tr>
+                  <td><b>Vídeos</b></td>
+                  <td><code>https://dominio-dos-videos/endereco</code></td>
+               </tr>
+               <!-- INICIO do alfabeto de seletores -->
+               <tr>
+                  <td colspan="2" class="text-center">
+                     <h3>TODOS OS SELETORES</h3>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>elemento1~elemento2</b></td>
+                  <td><code>p~ul</code> Seleciona todos os &lt;ul&gt; elemento que é precedido por um &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo]</b></td>
+                  <td><code>[destino]</code> Seleciona todos os elementos com um atributo de destino</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo=valor]</b></td>
+                  <td><code>[target=_blank]</code> Seleciona todos os elementos com target="_blank"</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo~=valor]</b></td>
+                  <td><code>[título~=flor]</code> Seleciona todos os elementos com um atributo title contendo a palavra "flor"</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo|=valor]</b></td>
+                  <td><code>[lang|=pt]</code> Seleciona todos os elementos com um valor de atributo lang começando com "pt"</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo^=valor]</b></td>
+                  <td><code>a[href ^="https"]</code> Seleciona todos os &lt;a&gt; elemento cujo valor de atributo href começa com "https"</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo$=valor]</b></td>
+                  <td><code>a[href$=".pdf"]</code> Seleciona todos os &lt;a&gt; elemento cujo valor de atributo href termina com ".pdf"</td>
+               </tr>
+               <tr>
+                  <td><b>[atributo*=valor]</b></td>
+                  <td><code>a[href *="terminalroot"]</code> Seleciona todos os &lt;a&gt; elemento cujo valor de atributo href contém a substring "terminalroot"</td>
+               </tr>
+               <tr>
+                  <td><b>:active</b></td>
+                  <td><code>a:active</code> Seleciona o link ativo</td>
+               </tr>
+               <tr>
+                  <td><b>::after</b></td>
+                  <td><code>p::after</code> Insira algo após o conteúdo de cada &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>::before</b></td>
+                  <td><code>p::before</code> Insira algo antes do & nbsp; conteúdo de cada &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>:checked</b></td>
+                  <td><code>input::checked</code> Seleciona todas as tags &lt;input&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>:disabled</b></td>
+                  <td><code>input:disabled</code> Seleciona todos os campos &lt;input&gt; desativados</td>
+               </tr>
+               <tr>
+                  <td><b>:empty</b></td>
+                  <td><code>p:empty</code> Seleciona todos os &lt;p&gt; elemento que não tem filhos (incluindo nós de texto)</td>
+               </tr>
+               <tr>
+                  <td><b>:enabled</b></td>
+                  <td><code>input:enabled</code> Seleciona todas as tags &lt;input&gt; ativadas</td>
+               </tr>
+               <tr>
+                  <td><b>:first-child</b></td>
+                  <td><code>p:first-child</code> Seleciona todos os &lt;p&gt; elemento que é o primeiro filho de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>::first-letter</b></td>
+                  <td><code>p::first-letter</code> Seleciona a primeira letra de todos os &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>::first-line</b></td>
+                  <td><code>p::first-line</code> Seleciona a primeira linha de todos os &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>:first-of-type</b></td>
+                  <td><code>p:first-of-type</code> Seleciona todos os &lt;p&gt; elemento que é o primeiro &lt;p&gt; elemento de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:focus</b></td>
+                  <td><code>input:focus</code> Seleciona o elemento de entrada que tem foco</td>
+               </tr>
+               <tr>
+                  <td><b>:hover</b></td>
+                  <td><code>a:hover</code> Seleciona links no mouse sobre</td>
+               </tr>
+               <tr>
+                  <td><b>:in-range</b></td>
+                  <td><code>input:in-range</code> Seleciona elementos de entrada com um valor dentro de um intervalo especificado</td>
+               </tr>
+               <tr>
+                  <td><b>:invalid</b></td>
+                  <td><code>input:invalid</code> Seleciona todos os elementos de entrada com um valor inválido</td>
+               </tr>
+               <tr>
+                  <td><b>:lang(language)</b></td>
+                  <td><code>p:lang(pt)</code> Seleciona todos os &lt;p&gt; elemento com um atributo lang igual a "pt" (português)</td>
+               </tr>
+               <tr>
+                  <td><b>:last-child</b></td>
+                  <td><code>p:last-child</code> Seleciona todos os &lt;p&gt; elemento que é o último filho de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:last-of-type</b></td>
+                  <td><code>p:last-of-type</code> Seleciona todos os &lt;p&gt; elemento que é o último &lt;p&gt; elemento de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:link</b></td>
+                  <td><code>a:link</code> Seleciona todos os links não visitados</td>
+               </tr>
+               <tr>
+                  <td><b>:not(selector)</b></td>
+                  <td><code>:not(p)</code> Seleciona todos os elementos que não são &lt;p&gt;</td>
+               </tr>
+               <tr>
+                  <td><b>:nth-child(n)</b></td>
+                  <td><code>p:nth-child(2)</code> Seleciona todos os &lt;p&gt; elemento que é o segundo filho de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>nth-last-child(n)</b></td>
+                  <td><code>p:nth-last-child(2)</code> Seleciona todos os &lt;p&gt; elemento que é o segundo filho de seu pai, contando a partir do último filho</td>
+               </tr>
+               <tr>
+                  <td><b>:nth-last-of-type(n)</b></td>
+                  <td><code>p:nth-last-of-type(2)</code> Seleciona todos os &lt;p&gt; elemento que é o segundo &lt;p&gt; elemento de seu pai, contando a partir do último filho</td>
+               </tr>
+               <tr>
+                  <td><b>nth-of-type(n)</b></td>
+                  <td><code>p:nth-of-type(2)</code> Seleciona todos os &lt;p&gt; elemento que é o segundo &lt;p&gt; elemento de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:only-of-type</b></td>
+                  <td><code>p:only-of-type</code> Seleciona todos os &lt;p&gt; elemento que é o único &lt;p&gt; elemento de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:only-child</b></td>
+                  <td><code>p:only-child</code> Seleciona todos os &lt;p&gt; elemento que é o único filho de seu pai</td>
+               </tr>
+               <tr>
+                  <td><b>:optional</b></td>
+                  <td><code>input:optional</code> Seleciona elementos de entrada sem o atributo "required"</td>
+               </tr>
+               <tr>
+                  <td><b>:out-of-range</b></td>
+                  <td><code>input:out-of-range</code> Seleciona elementos de entrada com um valor fora de um intervalo especificado</td>
+               </tr>
+               <tr>
+                  <td><b>:read-only</b></td>
+                  <td><code>input:read-only</code> Seleciona elementos de entrada com o atributo "readonly" especificado</td>
+               </tr>
+               <tr>
+                  <td><b>:read-write</b></td>
+                  <td><code>input:read-write</code> Seleciona elementos de entrada com o atributo "readonly" NÃO especificado</td>
+               </tr>
+               <tr>
+                  <td><b>:required</b></td>
+                  <td><code>input:required</code> Seleciona os elementos de entrada com o atributo "required" especificado</td>
+               </tr>
+               <tr>
+                  <td><b>:root</b></td>
+                  <td><code>:root</code> Seleciona o elemento raiz do documento</td>
+               </tr>
+               <tr>
+                  <td><b>::selection</b></td>
+                  <td><code>::selection</code> Seleciona a parte de um elemento que é selecionado por um usuário</td>
+               </tr>
+               <tr>
+                  <td><b>:target</b></td>
+                  <td><code>#artigo:target</code> Seleciona o elemento atual #artigo ativo (clicado em um URL contendo esse nome de âncora)</td>
+               </tr>
+               <tr>
+                  <td><b>:valid</b></td>
+                  <td><code>input:valid</code> Seleciona todos os elementos de entrada com um valor válido</td>
+               </tr>
+               <tr>
+                  <td><b>:visited</b></td>
+                  <td><code>a:visited</code> Seleciona todos os links visitados</td>
+               </tr>
+               <!-- FINAL do alfabeto de seletores -->
+               <!-- INICIO do alfabeto de funções -->
+               <tr>
+                  <td colspan="2" class="text-center">
+                     <h3>TODAS AS FUNÇÕES</h3>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>attr()</b></ td>
+                  <td>Retorna o valor de um atributo do elemento selecionado</td>
+               </tr>
+               <tr>
+                  <td><b>calc()</b></ td>
+                  <td>Permite que você execute cálculos para determinar os valores da propriedade CSS</td>
+               </tr>
+               <tr>
+                  <td><b>cubic-bezier()</b></ td>
+                  <td>Define uma curva de Bezier cúbica</td>
+               </tr>
+               <tr>
+                  <td><b>hsl()</b></ td>
+                  <td>Define as cores usando o modelo Hue-Saturation-Lightness (HSL)</td>
+               </tr>
+               <tr>
+                  <td><b>hsla()</b></ td>
+                  <td>Define cores usando o modelo de Hue-Saturation-Lightness-Alpha (HSLA)</td>
+               </tr>
+               <tr>
+                  <td><b>gradiente linear()</b></ td>
+                  <td>Define um gradiente linear como imagem de fundo. Defina pelo menos dois
+                     cores (de cima para baixo)
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>gradiente radial()</b></ td>
+                  <td>Define um gradiente radial como a imagem de fundo. Defina pelo menos dois
+                     cores (do centro para as bordas)
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>repetição-linear-gradiente()</b></ td>
+                  <td>Repete um gradiente linear</td>
+               </tr>
+               <tr>
+                  <td><b>repetição-radial-gradiente()</b></ td>
+                  <td>Repete um gradiente radial</td>
+               </tr>
+               <tr>
+                  <td><b>rgb()</b></ td>
+                  <td>Define cores usando o modelo Vermelho-Verde-Azul (RGB)</td>
+               </tr>
+               <tr>
+                  <td><b>rgba()</b></ td>
+                  <td>Define as cores usando o modelo Vermelho-Verde-Azul-Alfa (RGBA)</td>
+               </tr>
+               <tr>
+                  <td><b>var()</b></ td>
+                  <td>Insere o valor de uma propriedade customizada</td>
+               </tr>
+               <!-- FINAL do alfabeto de funções -->
+               <!-- INICIO do alfabeto das propriedades -->
+               <tr>
+                  <td colspan="2" class="text-center">
+                     <h3>TODAS AS PROPRIEDADES</h3>
+                  </td>
+               </tr>
+               <tr>
+                  <td><b>align-content</b></td>
+                  <td>Especifica o alinhamento entre as linhas dentro de um contêiner flexível quando os itens não usam todo o espaço disponível</td>
+               </tr>
+               <tr>
+                  <td><b>align-items</b></td>
+                  <td>Especifica o alinhamento de itens dentro de um contêiner flexível</td>
+               </tr>
+               <tr>
+                  <td><b>align-self</b></td>
+                  <td>Especifica o alinhamento para itens selecionados dentro de um contêiner flexível</td>
+               </tr>
+               <tr>
+                  <td><b>all</b></td>
+                  <td>Redefine todas as propriedades (exceto unicode-bidi e direction)</td>
+               </tr>
+               <tr>
+                  <td><b>animation</b></td>
+                  <td>Uma propriedade abreviada para todas as propriedades de animação</td>
+               </tr>
+               <tr>
+                  <td><b>animation-delay</b></td>
+                  <td>Especifica um atraso para o início de uma animação</td>
+               </tr>
+               <tr>
+                  <td><b>animation-direction</b></td>
+                  <td>Especifica se uma animação deve ser reproduzida para frente, para trás ou em ciclos alternativos</td>
+               </tr>
+               <tr>
+                  <td><b>animation-duration</b></td>
+                  <td>Especifica quanto tempo uma animação deve demorar para concluir um ciclo</td>
+               </tr>
+               <tr>
+                  <td><b>animation-fill-mode</b></td>
+                  <td>
+                     <span class="notranslate">
+                        Especifica um estilo para o elemento quando a animação não está sendo 
+                        reproduzida (antes de iniciar, depois de terminar ou ambos)
+                  </td>
+               </tr>
+               <tr>
+               <td><b>animation-iteration-count</b></td>
+               <td>Especifica o número de vezes que uma animação deve ser reproduzida</td>
+               </tr>
+               <tr>
+               <td><b>animation-name</b></td>
+               <td>Especifica um nome para a animação @keyframes</td>
+               </tr>
+               <tr>
+               <td><b>animation-play-state</b></td>
+               <td>Especifica se a animação está sendo executada ou pausada</td>
+               </tr>
+               <tr>
+               <td><b>animation-timing-function</b></td>
+               <td>Especifica a curva de velocidade de uma animação</td>
+               </tr>
+               <tr>
+               <td><b>backface-visibility</b></td>
+               <td>Define se a face posterior de um elemento deve ou não estar visível ao se deparar com o usuário</td>
+               </tr>
+               <tr>
+               <td><b>background</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades de plano de fundo em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>background-attachment</b></td>
+               <td>Define se uma imagem de plano de fundo rola com o restante da página ou é corrigida</td>
+               </tr>
+               <tr>
+               <td><b>background-blend-mode</b></td>
+               <td>Especifica o modo de mesclagem de cada camada de plano de fundo (cor / imagem)</td>
+               </tr>
+               <tr>
+               <td><b>background-clip</b></td>
+               <td>Define o quanto o fundo (cor ou imagem) deve se estender dentro de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>background-color</b></td>
+               <td>Especifica a cor de fundo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>background-image</b></td>
+               <td>Especifica uma ou mais imagens de fundo para um elemento</td>
+               </tr>
+               <tr>
+               <td><b>background-origin</b></td>
+               <td>Especifica a posição de origem de uma imagem de plano de fundo</td>
+               </tr>
+               <tr>
+               <td><b>background-position</b></td>
+               <td>Especifica a posição de uma imagem de fundo</td>
+               </tr>
+               <tr>
+               <td><b>background-repeat</b></td>
+               <td>Define se / como uma imagem de fundo será repetida</td>
+               </tr>
+               <tr>
+               <td><b>background-size</b></td>
+               <td>Especifica o tamanho das imagens de fundo</td>
+               </tr>
+               <tr>
+               <td><b>border</b></td>
+               <td>Uma propriedade abreviada para largura de borda, estilo de borda e cor de borda</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades da borda inferior em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom-color</b></td>
+               <td>Define a cor da borda inferior</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom-left-radius</b></td>
+               <td>Define o raio da borda do canto inferior esquerdo</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom-right-radius</b></td>
+               <td>Define o raio da borda do canto inferior direito</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom-style</b></td>
+               <td>Define o estilo da borda inferior</td>
+               </tr>
+               <tr>
+               <td><b>border-bottom-width</b></td>
+               <td>Define a largura da borda inferior</td>
+               </tr>
+               <tr>
+               <td><b>border-collapse</b></td>
+               <td>Define se as bordas da tabela devem ser recolhidas em uma única borda ou separadas</td>
+               </tr>
+               <tr>
+               <td><b>border-color</b></td>
+               <td>Define a cor dos quatro limites</td>
+               </tr>
+               <tr>
+               <td><b>border-image</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades border-image- *</td>
+               </tr>
+               <tr>
+               <td><b>border-image-outset</b></td>
+               <td>Especifica o valor pelo qual a área da imagem da borda se estende além da caixa da borda</td>
+               </tr>
+               <tr>
+               <td><b>border-image-repeat</b></td>
+               <td>Especifica se a imagem da borda deve ser repetida, arredondada ou esticada</td>
+               </tr>
+               <tr>
+               <td><b>border-image-slice</b></td>
+               <td>Especifica como dividir a imagem da borda</td>
+               </tr>
+               <tr>
+               <td><b>border-image-source</b></td>
+               <td>Especifica o caminho para a imagem a ser usada como limite</td>
+               </tr>
+               <tr>
+               <td><b>border-image-width</b></td>
+               <td>Especifica a largura da imagem da borda</td>
+               </tr>
+               <tr>
+               <td><b>border-left</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades da borda esquerda em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>border-left-color</b></td>
+               <td>Define a cor da borda esquerda</td>
+               </tr>
+               <tr>
+               <td><b>border-left-style</b></td>
+               <td>Define o estilo da borda esquerda</td>
+               </tr>
+               <tr>
+               <td><b>border-left-width</b></td>
+               <td>Define a largura da borda esquerda</td>
+               </tr>
+               <tr>
+               <td><b>border-radius</b></td>
+               <td>Uma propriedade abreviada para definir todas as quatro propriedades border - * - radius</td>
+               </tr>
+               <tr>
+               <td><b>border-right</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades da borda direita em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>border-right-color</b></td>
+               <td>Define a cor da borda direita</td>
+               </tr>
+               <tr>
+               <td><b>border-right-style</b></td>
+               <td>Define o estilo da borda direita</td>
+               </tr>
+               <tr>
+               <td><b>border-right-width</b></td>
+               <td>Define a largura da borda direita</td>
+               </tr>
+               <tr>
+               <td><b>border-spacing</b></td>
+               <td>Define a distância entre as bordas das células adjacentes</td>
+               </tr>
+               <tr>
+               <td><b>border-style</b></td>
+               <td>Define o estilo das quatro fronteiras</td>
+               </tr>
+               <tr>
+               <td><b>border-top</b></td>
+               <td>Uma propriedade abreviada para definir todas as propriedades da borda superior em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>border-top-color</b></td>
+               <td>Define a cor da borda superior</td>
+               </tr>
+               <tr>
+               <td><b>border-top-left-radius</b></td>
+               <td>Define o raio da borda do canto superior esquerdo</td>
+               </tr>
+               <tr>
+               <td><b>border-top-right-radius</b></td>
+               <td>Define o raio da borda do canto superior direito</td>
+               </tr>
+               <tr>
+               <td><b>border-top-style</b></td>
+               <td>Define o estilo da borda superior</td>
+               </tr>
+               <tr>
+               <td><b>border-top-width</b></td>
+               <td>Define a largura da borda superior</td>
+               </tr>
+               <tr>
+               <td><b>border-width</b></td>
+               <td>Define a largura das quatro bordas</td>
+               </tr>
+               <tr>
+               <td><b>bottom</b></td>
+               <td>Define a posição dos elementos, da parte inferior de seu elemento pai</td>
+               </tr>
+               <tr>
+               <td><b>box-decoration-break</b></td>
+               <td>Define o comportamento do plano de fundo e da borda de um elemento na quebra de página ou, para elementos in-line, na quebra de linha.</td>
+               </tr>
+               <tr>
+               <td><b>box-shadow</b></td>
+               <td>Anexa uma ou mais sombras a um elemento</td>
+               </tr>
+               <tr>
+               <td><b>box-sizing</b></td>
+               <td>Define como a largura e a altura de um elemento são calculadas: devem incluir preenchimento e bordas ou não</td>
+               </tr>
+               <tr>
+               <td><b>break-after</b></td>
+               <td>Especifica o comportamento de quebra de página, coluna ou região após a caixa gerada</td>
+               </tr>
+               <tr>
+               <td><b>break-before</b></td>
+               <td>Especifica o comportamento de quebra de página, coluna ou região antes da caixa gerada</td>
+               </tr>
+               <tr>
+               <td><b>break-inside</b></td>
+               <td>Especifica o comportamento de quebra de página, coluna ou região dentro da caixa gerada</td>
+               </tr>
+               <tr>
+               <td><b>caption-side</b></td>
+               <td>Especifica o posicionamento de uma legenda de tabela</td>
+               </tr>
+               <tr>
+               <td><b>caret-color</b></td>
+               <td>Especifica a cor do cursor (circunflexo) em entradas, áreas de texto ou qualquer elemento que seja editável</td>
+               </tr>
+               <tr>
+               <td><b>@charset</b></td>
+               <td>Especifica a codificação de caracteres usada na folha de estilo</td>
+               </tr>
+               <tr>
+               <td><b>clear</b></td>
+               <td>Especifica em quais lados de um elemento elementos flutuantes não podem flutuar</td>
+               </tr>
+               <tr>
+               <td><b>clip</b></td>
+               <td>Clips um elemento absolutamente posicionado</td>
+               </tr>
+               <tr>
+               <td><b>color</b></td>
+               <td>Define a cor do texto</td>
+               </tr>
+               <tr>
+               <td><b>column-count</b></td>
+               <td>Especifica o número de colunas que um elemento deve ser dividido em</td>
+               </tr>
+               <tr>
+               <td><b>column-fill</b></td>
+               <td>Especifica como preencher colunas, balanceadas ou não</td>
+               </tr>
+               <tr>
+               <td><b>column-gap</b></td>
+               <td>Especifica o intervalo entre as colunas</td>
+               </tr>
+               <tr>
+               <td><b>column-rule</b></td>
+               <td>Uma propriedade abreviada para configurar todas as propriedades column-rule- *</td>
+               </tr>
+               <tr>
+               <td><b>column-rule-color</b></td>
+               <td>Especifica a cor da regra entre colunas</td>
+               </tr>
+               <tr>
+               <td><b>column-rule-style</b></td>
+               <td>Especifica o estilo da regra entre colunas</td>
+               </tr>
+               <tr>
+               <td><b>column-rule-width</b></td>
+               <td>Especifica a largura da regra entre colunas</td>
+               </tr>
+               <tr>
+               <td><b>column-span</b></td>
+               <td>Especifica quantas colunas um elemento deve abranger</td>
+               </tr>
+               <tr>
+               <td><b>column-width</b></td>
+               <td>Especifica a largura da coluna</td>
+               </tr>
+               <tr>
+               <td><b>columns</b></td>
+               <td>Uma propriedade abreviada para configuração de largura de coluna e contagem de colunas</td>
+               </tr>
+               <tr>
+               <td><b>content</b></td>
+               <td>Usado com os pseudo-elementos: before e: after, para inserir conteúdo gerado</td>
+               </tr>
+               <tr>
+               <td><b>counter-increment</b></td>
+               <td>Aumenta ou diminui o valor de um ou mais contadores CSS</td>
+               </tr>
+               <tr>
+               <td><b>counter-reset</b></td>
+               <td>Cria ou redefine um ou mais contadores CSS</td>
+               </tr>
+               <tr>
+               <td><b>cursor</b></td>
+               <td>Especifica o cursor do mouse a ser exibido ao apontar sobre um elemento</td>
+               </tr>
+               <tr>
+               <td><b>direction</b></td>
+               <td>Especifica a direção do texto / direção da escrita</td>
+               </tr>
+               <tr>
+               <td><b>display</b></td>
+               <td>Especifica como um determinado elemento HTML deve ser exibido</td>
+               </tr>
+               <tr>
+               <td><b>empty-cells</b></td>
+               <td>Especifica se deve ou não exibir bordas e plano de fundo em células vazias em uma tabela</td>
+               </tr>
+               <tr>
+               <td><b>filter</b></td>
+               <td>Define efeitos (por exemplo, desfoque ou mudança de cor) em um elemento antes que o elemento seja exibido</td>
+               </tr>
+               <tr>
+               <td><b>flex</b></td>
+               <td>Uma propriedade abreviada para as propriedades flex-grow, flex-shrink e flex-basis</td>
+               </tr>
+               <tr>
+               <td><b>flex-basis</b></td>
+               <td>Especifica o comprimento inicial de um item flexível</td>
+               </tr>
+               <tr>
+               <td><b>flex-direction</b></td>
+               <td>Especifica a direção dos itens flexíveis</td>
+               </tr>
+               <tr>
+               <td><b>flex-flow</b></td>
+               <td>Uma propriedade abreviada para as propriedades flex-direction e flex-wrap</td>
+               </tr>
+               <tr>
+               <td><b>flex-grow</b></td>
+               <td>Especifica quanto o item crescerá em relação ao restante</td>
+               </tr>
+               <tr>
+               <td><b>flex-shrink</b></td>
+               <td>Especifica como o item será reduzido em relação ao restante</td>
+               </tr>
+               <tr>
+               <td><b>flex-wrap</b></td>
+               <td>Especifica se os itens flexíveis devem envolver ou não</td>
+               </tr>
+               <tr>
+               <td><b>float</b></td>
+               <td>Especifica se uma caixa deve ou não flutuar</td>
+               </tr>
+               <tr>
+               <td><b>font</b></td>
+               <td>Define todas as propriedades da fonte em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>@font-face</b></td>
+               <td>Uma regra que permite que sites façam o download e usem fontes diferentes das fontes "web-safe"</td>
+               </tr>
+               <tr>
+               <td><b>font-family</b></td>
+               <td>Especifica a família de fontes para texto</td>
+               </tr>
+               <tr>
+               <td><b>font-feature-settings</b></td>
+               <td>Permite o controle sobre recursos tipográficos avançados em fontes OpenType</td>
+               </tr>
+               <tr>
+               <td><b>@ font-feature-values</b></td>
+               <td>Permite que os autores usem um nome comum em font-variant-alternate para o recurso ativado de forma diferente no OpenType</td>
+               </tr>
+               <tr>
+               <td><b>font-kerning</b></td>
+               <td>Controla o uso das informações de kerning (como as letras são espaçadas)</td>
+               </tr>
+               <tr>
+               <td><b>font-language-override</b></td>
+               <td>Controla o uso de glifos específicos de idioma em um tipo de letra</td>
+               </tr>
+               <tr>
+               <td><b>font-size</b></td>
+               <td>Especifica o tamanho da fonte do texto</td>
+               </tr>
+               <tr>
+               <td><b>font-size-adjust</b></td>
+               <td>Preserva a legibilidade do texto quando ocorre um fallback de fonte</td>
+               </tr>
+               <tr>
+               <td><b>font-stretch</b></td>
+               <td>Seleciona uma face normal, condensada ou expandida de uma família de fontes</td>
+               </tr>
+               <tr>
+               <td><b>font-style</b></td>
+               <td>Especifica o estilo da fonte para o texto</td>
+               </tr>
+               <tr>
+               <td><b>font-synthesis</b></td>
+               <td>Controla quais tipos de letra ausentes (negrito ou itálico) podem ser sintetizados pelo navegador</td>
+               </tr>
+               <tr>
+               <td><b>font-variant</code></b></td>
+               <td>Especifica se um texto deve ou não ser exibido em uma fonte small-caps</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-alternates</b></td>
+               <td>Controla o uso de glifos alternativos associados a nomes alternativos definidos em @ font-feature-values</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-caps</b></td>
+               <td>Controla o uso de glifos alternativos para letras maiúsculas</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-east-asian</b></td>
+               <td>Controla o uso de glifos alternativos para scripts do Leste Asiático (por exemplo, japonês e chinês)</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-ligatures</b></td>
+               <td>Controla quais ligaduras e formas contextuais são usadas no conteúdo textual dos elementos aos quais se aplica</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-numeric</b></td>
+               <td>Controla o uso de glifos alternativos para números, frações e marcadores ordinais</td>
+               </tr>
+               <tr>
+               <td><b>font-variant-position</b></td>
+               <td>Controla o uso de glifos alternativos de tamanho menor posicionados como sobrescritos ou subscritos em relação à linha de base da fonte</td>
+               </tr>
+               <tr>
+               <td><b>font-weight</b></td>
+               <td>Especifica o peso de uma fonte</td>
+               </tr>
+               <tr>
+               <td><b>grid</b></td>
+               <td>Uma propriedade abreviada</td>
+               </tr>
+               <tr>
+               <td><b>grid-area</b></td>
+               <td>Especifica um nome para o item de grade ou essa propriedade é uma propriedade abreviada para as propriedades <em>grid-row-start</em> , <em>grid-column-start</em> , <em>grid-row-end</em> e <em>grid-column-end</em></td>
+               </tr>
+               <tr>
+               <td><b>grid-auto-columns</b></td>
+               <td>Especifica um tamanho de coluna padrão</td>
+               </tr>
+               <tr>
+               <td><b>grid-auto-flow</b></td>
+               <td>Especifica como os itens inseridos automaticamente são inseridos na grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-auto-rows</b></td>
+               <td>Especifica um tamanho de linha padrão</td>
+               </tr>
+               <tr>
+               <td><b>grid-column</b></td>
+               <td>Uma propriedade abreviada para as propriedades <em>grid-column-start</em> e <em>grid-column-end</em></td>
+               </tr>
+               <tr>
+               <td><b>grid-column-end</b></td>
+               <td>Especifica onde terminar o item da grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-column-gap</b></td>
+               <td>Especifica o tamanho do intervalo entre colunas</td>
+               </tr>
+               <tr>
+               <td><b>grid-column-start</b></td>
+               <td>Especifica onde iniciar o item da grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-gap</b></td>
+               <td>Uma propriedade abreviada para as propriedades <em>grid-row-gap</em> e <em>grid-column-gap</em></td>
+               </tr>
+               <tr>
+               <td><b>grid-row</b></td>
+               <td>Uma propriedade abreviada para as propriedades <em>grid-row-start</em> e <em>grid-row-end</em></td>
+               </tr>
+               <tr>
+               <td><b>grid-row-end</b></td>
+               <td>Especifica onde terminar o item da grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-row-gap</b></td>
+               <td>Especifica o tamanho do intervalo entre linhas</td>
+               </tr>
+               <tr>
+               <td><b>grid-row-start</b></td>
+               <td>Especifica onde iniciar o item da grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-template</b></td>
+               <td>Uma propriedade abreviada para as propriedades <em>grid-template-rows</em> , <em>grid-template-columns</em> e <em>grid-areas</em></td>
+               </tr>
+               <tr>
+               <td><b>grid-template-areas</b></td>
+               <td>Especifica como exibir colunas e linhas, usando itens de grade nomeados</td>
+               </tr>
+               <tr>
+               <td><b>grid-template-columns</b></td>
+               <td>Especifica o tamanho das colunas e quantas colunas em um layout de grade</td>
+               </tr>
+               <tr>
+               <td><b>grid-template-rows</b></td>
+               <td>Especifica o tamanho das linhas em um layout de grade</td>
+               </tr>
+               <tr>
+               <td><b>hanging-punctuation</b></td>
+               <td>Especifica se um caractere de pontuação pode ser colocado fora da caixa de linha</td>
+               </tr>
+               <tr>
+               <td><b>height</b></td>
+               <td>Define a altura de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>hyphens</b></td>
+               <td>Define como dividir palavras para melhorar o layout dos parágrafos</td>
+               </tr>
+               <tr>
+               <td><b>image-rendering</b></td>
+               <td>Dá uma dica ao navegador sobre quais aspectos de uma imagem são mais importantes para preservar quando a imagem é dimensionada</td>
+               </tr>
+               <tr>
+               <td><b>@import</b></td>
+               <td>Permite importar uma folha de estilo para outra folha de estilo</td>
+               </tr>
+               <tr>
+               <td><b>isolation</b></td>
+               <td>Define se um elemento deve criar um novo conteúdo de empilhamento</td>
+               </tr>
+               <tr>
+               <td><b>justify-content</b></td>
+               <td>Especifica o alinhamento entre os itens dentro de um contêiner flexível quando os itens não usam todo o espaço disponível</td>
+               </tr>
+               <tr>
+               <td><b>@keyframes</b></td>
+               <td>Especifica o código da animação</td>
+               </tr>
+               <tr>
+               <td><b>left</b></td>
+               <td>Especifica a posição esquerda de um elemento posicionado</td>
+               </tr>
+               <tr>
+               <td><b>letter-spacing</b></td>
+               <td>Aumenta ou diminui o espaço entre os caracteres em um texto</td>
+               </tr>
+               <tr>
+               <td><b>line-break</b></td>
+               <td>Especifica como/se quebrar linhas</td>
+               </tr>
+               <tr>
+               <td><b>line-height</b></td>
+               <td>Define a altura da linha</td>
+               </tr>
+               <tr>
+               <td><b>list-style</b></td>
+               <td>Define todas as propriedades de uma lista em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>list-style-image</b></td>
+               <td>Especifica uma imagem como o marcador de item de lista</td>
+               </tr>
+               <tr>
+               <td><b>list-style-position</b></td>
+               <td>Especifica a posição dos marcadores de item de lista (marcadores)</td>
+               </tr>
+               <tr>
+               <td><b>list-style-type</b></td>
+               <td>Especifica o tipo de marcador de item de lista</td>
+               </tr>
+               <tr>
+               <td><b>margin</b></td>
+               <td>Define todas as propriedades da margem em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>margin-bottom</b></td>
+               <td>Define a margem inferior de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>margin-left</b></td>
+               <td>Define a margem esquerda de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>margin-right</b></td>
+               <td>Define a margem direita de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>margin-top</b></td>
+               <td>Define a margem superior de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>max-height</b></td>
+               <td>Define a altura máxima de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>max-width</b></td>
+               <td>Define a largura máxima de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>@media</b></td>
+               <td>Define as regras de estilo para diferentes tipos de mídia / dispositivos / tamanhos</td>
+               </tr>
+               <tr>
+               <td><b>min-height</b></td>
+               <td>Define a altura mínima de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>min-width</b></td>
+               <td>Define a largura mínima de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>object-fit</b></td>
+               <td>Especifica como o conteúdo de um elemento substituído deve ser ajustado à caixa estabelecida por sua altura e largura usadas</td>
+               </tr>
+               <tr>
+               <td><b>object-position</b></td>
+               <td>Especifica o alinhamento do elemento substituído dentro de sua caixa</td>
+               </tr>
+               <tr>
+               <td><b>opacity</b></td>
+               <td>Define o nível de opacidade de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>order</b></td>
+               <td>Define a ordem do item flexível em relação ao restante</td>
+               </tr>
+               <tr>
+               <td><b>orphans</b></td>
+               <td>Define o número mínimo de linhas que devem ser deixadas na parte inferior de uma página quando ocorre uma quebra de página dentro de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>outline</b></td>
+               <td>Define todas as propriedades de estrutura de tópicos em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>outline-color</b></td>
+               <td>Define a cor de um contorno</td>
+               </tr>
+               <tr>
+               <td><b>outline-offset</b></td>
+               <td>Compensa um contorno e o desenha além da borda da borda</td>
+               </tr>
+               <tr>
+               <td><b>outline-style</b></td>
+               <td>Define o estilo de um contorno</td>
+               </tr>
+               <tr>
+               <td><b>outline-width</b></td>
+               <td>Define a largura de um contorno</td>
+               </tr>
+               <tr>
+               <td><b>overflow</code><br /> </td>
+               <td>Especifica o que acontece se o conteúdo ultrapassar a caixa de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>overflow-wrap</b></td>
+               <td>Especifica se o navegador pode ou não quebrar linhas dentro de palavras para evitar estouro (quando uma cadeia é muito longa para caber em sua caixa contendo)</td>
+               </tr>
+               <tr>
+               <td><b>overflow-x</b></td>
+               <td>Especifica se deve ou não recortar as arestas esquerda / direita do conteúdo, se ultrapassar a área de conteúdo do elemento</td>
+               </tr>
+               <tr>
+               <td><b>overflow-y</b></td>
+               <td>Especifica se deve ou não recortar as arestas superior / inferior do conteúdo, se ultrapassar a área de conteúdo do elemento</td>
+               </tr>
+               <tr>
+               <td><b>padding</b></td>
+               <td>Define todas as propriedades de preenchimento em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>padding-bottom</b></td>
+               <td>Define o preenchimento inferior de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>padding-left</b></td>
+               <td>Define o preenchimento esquerdo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>padding-right</b></td>
+               <td>Define o preenchimento correto de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>padding-top</b></td>
+               <td>Define o preenchimento superior de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>page-break-after</b></td>
+               <td>Define o comportamento de violação de página após um elemento</td>
+               </tr>
+               <tr>
+               <td><b>page-break-before</b></td>
+               <td>Define o comportamento de violação de página antes de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>page-break-inside</b></td>
+               <td>Define o comportamento de violação de página dentro de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>perspective</b></td>
+               <td>Dá a um elemento posicionado em 3D alguma perspectiva</td>
+               </tr>
+               <tr>
+               <td><b>perspective-origin</b></td>
+               <td>Define em qual posição o usuário está olhando para o elemento 3D</td>
+               </tr>
+               <tr>
+               <td><b>pointer-events</b></td>
+               <td>Define se um elemento reage ou não a eventos de ponteiro</td>
+               </tr>
+               <tr>
+               <td><b>position</b></td>
+               <td>Especifica o tipo de método de posicionamento usado para um elemento (estático, relativo, absoluto ou fixo)</td>
+               </tr>
+               <tr>
+               <td><b>quotes</b></td>
+               <td>Define o tipo de aspas para citações incorporadas</td>
+               </tr>
+               <tr>
+               <td><b>resize</b></td>
+               <td>Define se (e como) um elemento é redimensionável pelo usuário</td>
+               </tr>
+               <tr>
+               <td><b>right</b></td>
+               <td>Especifica a posição correta de um elemento posicionado</td>
+               </tr>
+               <tr>
+               <td><b>tab-size</b></td>
+               <td>Especifica a largura de um caractere de tabulação</td>
+               </tr>
+               <tr>
+               <td><b>table-layout</b></td>
+               <td>Define o algoritmo usado para dispor as células, linhas e colunas da tabela</td>
+               </tr>
+               <tr>
+               <td><b>text-align</b></td>
+               <td>Especifica o alinhamento horizontal do texto</td>
+               </tr>
+               <tr>
+               <td><b>text-align-last</b></td>
+               <td>Descreve como a última linha de um bloco ou uma linha logo antes de uma quebra de linha forçada é alinhada quando o alinhamento de texto é "justificado"</td>
+               </tr>
+               <tr>
+               <td><b>text-combine-upright</b></td>
+               <td>Especifica a combinação de vários caracteres no espaço de um único caractere</td>
+               </tr>
+               <tr>
+               <td><b>text-decoration</b></td>
+               <td>Especifica a decoração adicionada ao texto</td>
+               </tr>
+               <tr>
+               <td><b>text-decoration-color</b></td>
+               <td>Especifica a cor da decoração de texto</td>
+               </tr>
+               <tr>
+               <td><b>text-decoration-line</b></td>
+               <td>Especifica o tipo de linha em uma decoração de texto</td>
+               </tr>
+               <tr>
+               <td><b>text-decoration-style</b></td>
+               <td>Especifica o estilo da linha em uma decoração de texto</td>
+               </tr>
+               <tr>
+               <td><b>text-indent</b></td>
+               <td>Especifica o recuo da primeira linha em um bloco de texto</td>
+               </tr>
+               <tr>
+               <td><b>text-justify</b></td>
+               <td>Especifica o método de justificação usado quando o alinhamento de texto é "justificado"</td>
+               </tr>
+               <tr>
+               <td><b>text-orientation</b></td>
+               <td>Define a orientação do texto em uma linha</td>
+               </tr>
+               <tr>
+               <td><b>text-overflow</b></td>
+               <td>Especifica o que deve acontecer quando o texto ultrapassa o elemento que contém</td>
+               </tr>
+               <tr>
+               <td><b>text-shadow</b></td>
+               <td>Adiciona sombra ao texto</td>
+               </tr>
+               <tr>
+               <td><b>text-transform</b></td>
+               <td>Controla a capitalização do texto</td>
+               </tr>
+               <tr>
+               <td><b>text-underline-position</b></td>
+               <td>Especifica a posição do sublinhado que é definido usando a propriedade de decoração de texto</td>
+               </tr>
+               <tr>
+               <td><b>top</b></td>
+               <td>Especifica a posição superior de um elemento posicionado</td>
+               </tr>
+               <tr>
+               <td><b>transform</b></td>
+               <td>Aplica uma transformação 2D ou 3D a um elemento</td>
+               </tr>
+               <tr>
+               <td><b>transform-origin</b></td>
+               <td>Permite que você mude a posição nos elementos transformados</td>
+               </tr>
+               <tr>
+               <td><b>transform-style</b></td>
+               <td>Especifica como os elementos aninhados são renderizados no espaço 3D</td>
+               </tr>
+               <tr>
+               <td><b>transition</b></td>
+               <td>Uma propriedade abreviada para definir as quatro propriedades de transição</td>
+               </tr>
+               <tr>
+               <td><b>transition-delay</b></td>
+               <td>Especifica quando o efeito de transição será iniciado</td>
+               </tr>
+               <tr>
+               <td><b>transition-duration</b></td>
+               <td>Especifica quantos segundos ou milissegundos um efeito de transição leva para concluir</td>
+               </tr>
+               <tr>
+               <td><b>transition-property</b></td>
+               <td>Especifica o nome da propriedade CSS para o qual o efeito de transição é</td>
+               </tr>
+               <tr>
+               <td><b>transition-timing-function</b></td>
+               <td>Especifica a curva de velocidade do efeito de transição</td>
+               </tr>
+               <tr>
+               <td><b>unicode-bidi</b></td>
+               <td>Usado junto com a propriedade<code>direction</code>para definir ou retornar se o texto deve ser substituído para suportar vários idiomas no mesmo documento</td>
+               </tr>
+               <tr>
+               <td><b>user-select</b></td>
+               <td>Especifica se o texto de um elemento pode ser selecionado</td>
+               </tr>
+               <tr>
+               <td><b>vertical-align</b></td>
+               <td>Define o alinhamento vertical de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>visibility</b></td>
+               <td>Especifica se um elemento é visível ou não</td>
+               </tr>
+               <tr>
+               <td><b>white-space</b></td>
+               <td>Especifica como o espaço em branco dentro de um elemento é manipulado</td>
+               </tr>
+               <tr>
+               <td><b>widows</b></td>
+               <td>Define o número mínimo de linhas que devem ser deixadas no topo de uma página quando ocorre uma quebra de página dentro de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>width</b></td>
+               <td>Define a largura de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>word-break</b></td>
+               <td>Especifica como as palavras devem ser quebradas quando chegar ao final de uma linha</td>
+               </tr>
+               <tr>
+               <td><b>word-spacing</b></td>
+               <td>Aumenta ou diminui o espaço entre palavras em um texto</td>
+               </tr>
+               <tr>
+               <td><b>word-wrap</b></td>
+               <td>Permite que palavras longas e inquebráveis ​​sejam quebradas e quebradas na próxima linha</td>
+               </tr>
+               <tr>
+               <td><b>writing-mode</b></td>
+               <td><br /></td>
+               </tr>
+               <tr>
+               <td><b>z-index</b></td>
+               <td>Define a ordem da pilha de um elemento posicionado</td>
+               </tr>
+               <!-- FINAL do alfabeto das propriedades -->
+               <!-- INICIO das apresentações audíveis -->
+               <tr><td colspan="2" class="text-center"><h3>TODOS AS APRESENTAÇÕES AUDÍVEIS</h3></td></tr>
+               <tr>
+               <td><b>azimuth</b></td>
+               <td>Define onde o som deve vir</td>
+               </tr>
+               <tr>
+               <td><b>cue</b></td>
+               <td>Define as propriedades da sugestão em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>cue-after</b></td>
+               <td>Especifica um som a ser reproduzido depois de falar o conteúdo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>cue-before</b></td>
+               <td>Especifica um som a ser reproduzido antes de falar o conteúdo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>elevation</b></td>
+               <td>Define onde o som deve vir</td>
+               </tr>
+               <tr>
+               <td><b>pause</b></td>
+               <td>Define as propriedades de pausa em uma declaração</td>
+               </tr>
+               <tr>
+               <td><b>pause-after</b></td>
+               <td>Especifica uma pausa depois de falar o conteúdo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>pause-before</b></td>
+               <td>Especifica uma pausa antes de falar o conteúdo de um elemento</td>
+               </tr>
+               <tr>
+               <td><b>pitch</b></td>
+               <td>Especifica a voz falada</td>
+               </tr>
+               <tr>
+               <td><b>pitch-range</b></td>
+               <td>Especifica a variação na voz falada.</span>(Voz monótona ou voz animada?)</td>
+               </tr>
+               <tr>
+                  <td><b>play-during</b></td>
+                  <td>Especifica um som a ser reproduzido enquanto fala o conteúdo de um elemento</td>
+               </tr>
+               <tr>
+                  <td><b>richness</b></td>
+                  <td>Especifica a riqueza da voz falada.</span>(Voz rica ou voz fina?)</td>
+               </tr>
+               <tr>
+                  <td><b>speak</b></td>
+                  <td>Especifica se o conteúdo será renderizado auditivamente</td>
+               </tr>
+               <tr>
+                  <td><b>speak-header</b></td>
+                  <td>Especifica como manipular cabeçalhos de tabela. Os cabeçalhos devem ser falados antes de cada célula, ou apenas antes de uma célula com um cabeçalho diferente da célula anterior</td>
+               </tr>
+               <tr>
+                  <td><b>speak-numeral</b></td>
+                  <td>Especifica como falar números</td>
+               </tr>
+               <tr>
+                  <td><b>speak-punctuation</b></td>
+                  <td>Especifica como falar os caracteres de pontuação</td>
+               </tr>
+               <tr>
+                  <td><b>speech-rate</b></td>
+                  <td>Especifica a velocidade do discurso</td>
+               </tr>
+               <tr>
+                  <td><b>stress</b></td>
+                  <td>Especifica o "estresse" na voz falada</td>
+               </tr>
+               <tr>
+                  <td><b>voice-family</b></td>
+                  <td>Especifica a família de voz do discurso</td>
+               </tr>
+               <tr>
+                  <td><b>volume</b></td>
+                  <td>Especifica o volume do discurso</td>
+               </tr>
+               <!-- FINAL das apresentações audíveis -->
+               <tr>
+                  <td><b>Bibliografia</b></td>
+                  <td>
+                     <cite>https://www.w3.org/CSS/</cite><br>
+                     <cite>https://pt.wikipedia.org/wiki/Cascading_Style_Sheets</cite><br>
+                     <cite>https://pt.wikipedia.org/wiki/CSS3</cite><br>
+                     <cite>https://www.w3schools.com/css/</cite><br>
+                     <cite>http://terminalroot.sh/css</cite><br>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </div>
+   <!-- css-section-end -->
+</div>
+<br>
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+   style="display:inline-block;width:336px;height:280px"
+   data-ad-client="ca-pub-2838251107855362"
+   data-ad-slot="5351066970"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+   style="display:block; text-align:center;"
+   data-ad-layout="in-article"
+   data-ad-format="fluid"
+   data-ad-client="ca-pub-2838251107855362"
+   data-ad-slot="8549252987"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
