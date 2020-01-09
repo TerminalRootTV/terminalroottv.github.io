@@ -90,7 +90,7 @@ tags:
 
 ---
 
-## Mega pacote de cursos Alura
+## Mega pacote de cursos
 
 <a href="https://mega.nz/#!FhxXwK7K!-Kzt-IDBs-rhVWC1_DgaULd7vSkZG7dWULCi_99kiOY"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
