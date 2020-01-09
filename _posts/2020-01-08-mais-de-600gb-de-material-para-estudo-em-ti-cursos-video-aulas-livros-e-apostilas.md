@@ -36,6 +36,16 @@ tags:
 
 ---
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Curso de PHP
 
 <a href="https://mega.nz/#F!WJVmQI4K!oosRA55mOWFMGR5qu9ssJg"><button type="button" class="btn btn-danger">Download aqui</button></a>
@@ -68,6 +78,17 @@ tags:
 
 ## Curso de Eletrônica
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://mega.co.nz/#F!EYplFZRJ!Hd3g53t4SWuZ_ocF1fGLaw"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
 ---
@@ -97,6 +118,17 @@ tags:
 ---
 
 ## Curso Wireless Hacking
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <a href="https://mega.co.nz/#F!AFJm2TLK!I6f4pZSX2ltoGBs0b1ztsQ"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
@@ -138,6 +170,16 @@ tags:
 
 ## Linux
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://mega.co.nz/#F!YNg3xYhY!KQxsOV5rOF4ZhZm5LaiTwQ"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
 ---
@@ -163,6 +205,17 @@ tags:
 ## Programação WEB
 
 <a href="https://mega.co.nz/#F!AQQU3LYI!MIYAsxFZtfFTxpIqfHfIBg"><button type="button" class="btn btn-danger">Download aqui</button></a>
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -210,6 +263,16 @@ tags:
 
 ## Curso Android Básico
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://mega.co.nz/#!pRAglZqB!hxJ9kG6dvUVukuT5tKQFMzf7_2jKdx%20V4SjM-IFzl2ns"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
 ---
@@ -235,6 +298,17 @@ tags:
 ## Curso ipv6
 
 <a href="https://mega.co.nz/#!xd50wAjA!sXt5m6tdZkZ_0ppNw7RKAw9gWgNYsM%20qVR12tr9FoTvM"><button type="button" class="btn btn-danger">Download aqui</button></a>
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -270,6 +344,16 @@ tags:
 
 ## Curso inglês
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://mega.nz/#F!rMQW2CiD!nUNJvZ1nIeRHBMx33Vw8oQ"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
 ---
@@ -289,6 +373,17 @@ tags:
 ## Engenharia de software
 
 <a href="https://mega.nz/#F!ScwiGDhY!mFZz6mdkPMGVs5_6ZPOQeQ"><button type="button" class="btn btn-danger">Download aqui</button></a>
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -330,6 +425,16 @@ tags:
 
 ## Segurança
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <a href="https://mega.nz/#F!bFgHiBZB!XHC6bDoVYO3JEMJzf3pPmg"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
 ---
@@ -347,6 +452,18 @@ tags:
 ---
 
 ## Teoria da computação
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <a href="https://mega.nz/#F!rRwjTSiC!QOCkako5vL8sIarKYrZHPA"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
@@ -377,6 +494,18 @@ tags:
 
 <a href="https://mega.nz/#F!mIcTSRgJ!or6uaG2MJdh4jEKuHPYo_g!SAEDHBbB"><button type="button" class="btn btn-danger">Download aqui</button></a>
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 <a href="https://mega.nz/#F!wVsCjS7A!K7jrAMW6b7RX_AC6TT3msA!ARcBlRhZ"><button type="button" class="btn btn-danger">Download aqui</button></a>
@@ -396,6 +525,16 @@ tags:
 ---
 
 <a href="https://mega.nz/#F!mBB1BSrJ!RPojuKs757rJAIk-hVo4vw"><button type="button" class="btn btn-danger">Download aqui</button></a>
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -424,6 +563,20 @@ tags:
 ---
 
 <a href="http://suporteninja.com/mais-de-300gb-de-cursos-em-ti-para-download-no-mega/"><button type="button" class="btn btn-danger">Download aqui</button></a>
+
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
