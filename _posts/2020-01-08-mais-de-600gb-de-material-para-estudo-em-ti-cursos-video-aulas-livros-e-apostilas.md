@@ -22,6 +22,8 @@ tags:
 # Segue a lista ↓
 
 ## Java
+> 60 GB em vídeos aulas de Java 16 DVDS
+> 
 > Senha = `pr0mp7.torrent`
 
 <a href="https://mega.co.nz/#!JRgjRLBT!nNg8JO31WWskPXH96xn1efu9mZqfgM%20jVZo24v6CAiLg"><button type="button" class="btn btn-danger">Download aqui</button></a>
