@@ -28,6 +28,16 @@ cd pipes.sh
 sudo make install
 {% endhighlight %}
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Depois rode `pipes.sh` no terminal , para sair pressione a tecla *q* . Mais informações e parâmetros consulte a página da secção 6 do manual: `man 6 pipes.sh` .
 
 ![Screenshot pipes.sh](/assets/img/dicas/pipes.sh.png)
@@ -48,15 +58,22 @@ cd tty-clock
 sudo make install
 {% endhighlight %}
 
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Depois rode `tty-clock` no terminal se quiser deixar no centro rode com o parâmetro *-c* `tty-clock -c` , para sair pressione a tecla *q* . Mais informações e parâmetros consulte a página da secção 1 do manual: `man 1 tty-clock` .
 
 ![Screenshot tty-clock](/assets/img/dicas/tty-clock.png)
 
 Link pro **tty-clock**
 + <https://github.com/xorg62/tty-clock>
-
-
-
 
 ## 3. Neofetch com imagens:
 
@@ -70,13 +87,27 @@ apt install w3m # Debian, Ubuntu, Mint, ...
 pacman -S w3m # Arch, Manjaro, Antergos, ...
 {% endhighlight %}
 
-Depois edite o arquivo de configuração do neofetch: `vim ~/.config/neofetch/config.conf` em seguida procure a linha com o termo: *image_backend* , se não encontrar adicione-a atribuido ao w3m: `image_backend="w3m"` . Altere também a linha com o termo **image_source** e atribua o caminho da sua imagem: `image_source="/caminho/da/imagem.png"` , se quiser que apareça o seu Wallpaper, atribua a palavra *wallpaper*: `image_source="wallpaper"`
+Depois edite o arquivo de configuração do neofetch: `vim ~/.config/neofetch/config.conf` em seguida procure a linha com o termo: *image_backend* , se não encontrar adicione-a atribuido ao w3m: `image_backend="w3m"` .
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Altere também a linha com o termo **image_source** e atribua o caminho da sua imagem: `image_source="/caminho/da/imagem.png"` , se quiser que apareça o seu Wallpaper, atribua a palavra *wallpaper*: `image_source="wallpaper"`
 
 Rode o `neofetch`.
 
 ![Screenshot neofetch](/assets/img/dicas/neofetch.jpg)
 
-Links pro **neofetch**
+Link pro **neofetch**
 + <https://github.com/dylanaraps/neofetch>
 
 
@@ -99,11 +130,23 @@ echo '$HOME/.local/share/pacman.sh' >> ~/.zshrc
 Para [FISH](http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html):
 {% highlight bash %}
 mv pacman.sh ~/.local/share/
-echo '$HOME/.local/share/pacman.sh' >> ~/.fishrc
+echo '$HOME/.local/share/pacman.sh' >> ~/.config/fish/config.fish
 {% endhighlight %}
 
 ![Screenshot pacman.sh](/assets/img/dicas/pacman.sh.png)
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. colors.sh
 
@@ -130,8 +173,8 @@ colors
 Para [FISH](http://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html):
 {% highlight bash %}
 mv colors.sh ~/.local/share/
-echo 'alias colors="$HOME/.local/share/colors.sh"' >> ~/.fishrc
-source ~/.fishrc
+echo 'alias colors="$HOME/.local/share/colors.sh"' >> ~/.config/fish/config.fish
+source ~/.config/fish/config.fish
 colors
 {% endhighlight %}
 
@@ -166,4 +209,3 @@ Valeu!
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
