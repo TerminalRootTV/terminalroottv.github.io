@@ -20,6 +20,16 @@ Iptables é o nome da ferramenta do espaço do usuário que permite a criação 
 
 Ao reiniciar o computador as Regras de Firewall são perdidas, para isso é preciso criar um script para executar sempre que o computador for iniciado.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para verificar quais regras estão criadas, se existir, o comando é:
 {% highlight bash %}
 iptables -L
@@ -40,6 +50,17 @@ Aceitar pacotes de uma porta:
 {% highlight bash %}
 iptables -A INPUT -p tcp --dport 445 -j ACCEPT
 {% endhighlight %}
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Desativar o iptables, isso libera todas as portas:
 {% highlight bash %}
@@ -63,6 +84,18 @@ iptables -A INPUT -p tcp --destination-port 80 -j ACCEPT
 iptables -A INPUT -p tcp --syn -j DROP
 {% endhighlight %}
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para acessar pacotes de determinados IPs de uma rede interna, ou de uma determinada rede, você usar os comandos abaixo
 {% highlight bash %}
 iptables -A INPUT -p tcp --syn -s 192.168.1.107/255.255.255.0 -j ACCEPT
@@ -85,6 +118,19 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 echo 1 > /proc/sys/net/ipv4/ip_forward
 {% endhighlight %}
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para desativar o compartilhamento, você deve usar o comando :
 {% highlight bash %}
 iptables -t nat -F.
@@ -98,6 +144,16 @@ iptables -A FORWARD -m unclean -j DROP
 {% endhighlight %}
 (esta linha deve ser adicionada antes das demais).
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Depois de todas as regras criadas, voçê criar um script em Shell e gravar na pasta __/usr/bin/__ com o nome que você deseja e poderá executar esse nome no terminal que automaticamente, será criadas as regras, lembrando que para isso tem de estar com permissão de execução e deve ser o usuário __root__.Você também pode torná-lo inicializável, em [Debian](http://www.terminalroot.com.br/tags#debian) e [Debian-Likes](http://www.terminalroot.com.br/tags#debian-like)([Ubuntu](http://www.terminalroot.com.br/tags#ubuntu), [Linux Mint](http://www.terminalroot.com.br/tags#linux-min),...) com o comando
 {% highlight bash %}
 update-rc.d nome_do_script defaults
@@ -110,6 +166,17 @@ modprobe iptable_nat
 iptables -t nat -A PREROUTING -i etho -p tcp --dport 22 -j DNAT --to-dest 192.168.1.107
 iptables -A FORWARD -p tcp -i eth0 --dport 22 -d 192.168.1.107 -j ACCEPT
 {% endhighlight %}
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Você pode repetir o comando várias vezes para direcionar varias portas diferentes para várias máquinas. Naturalmente uma mesma porta não pode ser fowardada duas vezes.Para um range de portas, o Counter Strike pode usar mesmo da __27015 até 27030__, se você não qual porta dessa range do seu colega está aberta, então você pode abrir esta faixa de portas assim:
 {% highlight bash %}
@@ -142,7 +209,7 @@ para analisar em rede interna use o IP interno, para análise à internet use se
 nmap 127.0.0.1
 {% endhighlight %}
 
-Há também um serviço online que tem como você efetuar testes de portas e de invasões, eu uso muito ele, é o 
+Há também um serviço online que tem como você efetuar testes de portas e de invasões, eu uso muito ele, é o
 [http://www.grc.com/](http://www.grc.com/)
 
 - clique em Services
@@ -170,4 +237,3 @@ Fonte: www.hardware.com.br
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
