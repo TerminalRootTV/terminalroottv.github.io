@@ -3,7 +3,7 @@ layout: post
 title: "Curso de Desenvolvimento Web do Zero no Linux"
 date: 2020-01-16 13:08:08
 image: '/assets/img/dev-web/desenvolvimento-web.jpg'
-description: 'HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekkyl e Shell Web.'
+description: 'HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekyll e Shell Web.'
 tags:
 - html5
 - css
