@@ -34,8 +34,8 @@ Já faz tempo que me pedem para eu explicar como eu crio o site do [Terminal Roo
 
 Esse será o primeiro vídeo dessa jornada (onde iremos abordar somente: **HTML5** e **CSS**). E esse curso foi baseado no [FORMULÁRIO que havíamos criado](https://docs.google.com/forms/d/e/1FAIpQLSctYtqrlrxqgoAnS7KFuQMqAl6Nqlmk5pFRYLXLY-ItjcMvdA/viewform) e diversas pessoas preencheram. Mas se você já sabe, acho interessante você acompanhar, porque sempre estará integrado com o [Linux](https://terminalroot.com.br/linux), [Vim](https://terminalroot.com.br/vim) e comandos do [Terminal](https://terminalroot.com.br/shell).
 
-## 🎓 Página Oficial do HTML5: https://terminalroot.com.br/html
-## 🎓 Página Oficial do CSS: https://terminalroot.com.br/css
+## 🎓 Página Oficial do HTML5: <https://terminalroot.com.br/html>
+## 🎓 Página Oficial do CSS: <https://terminalroot.com.br/css>
 
 
 # Assista ao Vídeo
