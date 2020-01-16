@@ -42,6 +42,9 @@ Esse será o primeiro vídeo dessa jornada (onde iremos abordar somente: **HTML5
 <iframe width="920" height="400" src="https://www.youtube.com/embed/SGA6nQqYH7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Download do Site Criado no Curso
+
 <a href="https://terminalroot.com.br/downs/html5-css.zip">
 	<button type="button" class="btn btn-dark">Clique aqui para baixar</button>
 </a>
+
+---
