@@ -15,6 +15,8 @@ tags:
 - alternativas
 ---
 
+![Open Design: 27 Ferramentas Free para Designers](/assets/img/tools/open-design.jpg)
+
 O designer [Avi Barel](https://uxplanet.org/@4Barel) fez uma lista de diversas ferramentas/[Software livre](https://www.fsf.org/) e outras *freeware* para pessoas que trabalham com design e desejam manter a qualidade com mais confiança e até mesmo, menor custo. E descreveu um pouco de cada uma informando qual ferramenta da [Adobe](https://www.adobe.com/) é comparável e resolvemos acrescentar algumas informações para melhorar o entendimento de tais.
 
 ---
