@@ -152,7 +152,7 @@ data-full-width-responsive="true"></ins>
 ---
 
 # 15. [Blender](https://www.blender.org/)
-Alternativa ao **3D Studio Maya** e ao **#D Max Studio**.
+Alternativa ao **3D Studio Maya** e ao **3D Max Studio**.
 ![Blender](/assets/img/tools/blender.jpg)
 
 ---
