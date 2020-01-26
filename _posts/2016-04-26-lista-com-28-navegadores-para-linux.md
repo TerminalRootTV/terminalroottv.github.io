@@ -13,7 +13,6 @@ tags:
 
 <style>
 h3 {text-align:center;}
-img {width: 64px; height: 64px;}
 </style>
 
 ![Lista com 28 Navegadores para Linux](/assets/img/browser/navegadores-linux.jpg)
