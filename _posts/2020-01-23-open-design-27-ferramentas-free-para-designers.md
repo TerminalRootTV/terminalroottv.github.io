@@ -236,6 +236,8 @@ data-ad-slot="5351066970"></ins>
 ## 27. [InVision](https://www.invisionapp.com/)
 > <https://www.invisionapp.com/>
 
+---
+
 # Em resumo
 
 Finalmente, quando se trata de softwares livres e de código aberto, é tão bom ver que há tantos designers envolvidos. Você pode nos informar nos comentários sobre qual produto de código aberto e gratuito você usa como alternativa a qualquer produto comercial. Via [UX Planet](https://uxplanet.org/open-design-freeware-tools-for-designers-f7bdde99f2e0), Publicado originalmente por Avi Barel no [StartUX](http://www.startux.net/open-design-freeware-tools-for-designers/) em 7 de fevereiro de 2018.
