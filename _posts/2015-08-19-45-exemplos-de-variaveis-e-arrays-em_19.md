@@ -28,6 +28,16 @@ echo ${#var}
 31
 {% endhighlight %}
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 3 - Executa o conteúdo de $var (igual 'eval \$$var')
 {% highlight bash %}
 echo ${!var}
@@ -51,6 +61,16 @@ echo ${var:11:8}
 terminal
 {% endhighlight %}
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7 - Corta 'http://' do início da string
 {% highlight bash %}
@@ -90,6 +110,18 @@ echo ${var2/%te/TADO}
 tesTADO
 {% endhighlight %}
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 13 - "" (aspas duplas) protege uma string, mas reconhece $, \ e ` como especiais
 {% highlight bash %}
 echo "$var"
@@ -109,6 +141,18 @@ $var
 {% endhighlight %}
 {% highlight bash %}
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {% endhighlight %}
 16 - `...` (entre crases) Executa comandos numa subshell, retornando o resultado
@@ -139,6 +183,18 @@ echo $(ls)
 echo $((11-9))
 2
 {% endhighlight %}
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21 - Testa uma expressão, retornando 0 ou 1 (alias do comando 'test')
 {% highlight bash %}
@@ -218,6 +274,17 @@ Existe essa variável
 25 - Escapes especiais para usar no prompt (PS1)
 <table align="center" border="1"><tbody><tr><th>Escape</th><th>Lembrete</th><th>Expande para...</th></tr><tr><td align="center">\a</td><td><i>Alerta</i></td><td>Alerta (bipe)</td></tr><tr><td align="center">\d</td><td><i>Data</i></td><td>Data no formato "Dia-da-semana Mês Dia" (Sat Jan 15)</td></tr><tr><td align="center">\e</td><td><i>Escape</i></td><td>Caractere Esc</td></tr><tr><td align="center">\h</td><td><i>Hostname</i></td><td>Nome da máquina sem o domínio (dhcp11)</td></tr><tr><td align="center">\H</td><td><i>Hostname</i></td><td>Nome completo da máquina (dhcp11.empresa)</td></tr><tr><td align="center">\j</td><td><i>Jobs</i></td><td>Número de jobs ativos</td></tr><tr><td align="center">\l</td><td><i>Tty</i></td><td>Nome do terminal corrente (ttyp1)</td></tr><tr><td align="center">\n</td><td><i>Newline</i></td><td>Linha nova</td></tr><tr><td align="center">\r</td><td><i>Return</i></td><td>Retorno de carro</td></tr><tr><td align="center">\s</td><td><i>Shell</i></td><td>Nome do shell (basename $0)</td></tr><tr><td align="center">\t</td><td><i>Time</i></td><td>Horário no formato 24 horas HH:MM:SS</td></tr><tr><td align="center">\T</td><td><i>Time</i></td><td>Horário no formato 12 horas HH:MM:SS</td></tr><tr><td align="center">\@</td><td><i>At</i></td><td>Horário no formato 12 horas HH:MM am/pm</td></tr><tr><td align="center">\A</td><td><i>At</i></td><td>Horário no formato 24 horas HH:MM</td></tr><tr><td align="center">\u</td><td><i>Usuário</i></td><td>Login do usuário corrente</td></tr><tr><td align="center">\v</td><td><i>Versão</i></td><td>Versão do Bash (2.00)</td></tr><tr><td align="center">\V</td><td><i>Versão</i></td><td>Versão+subversão do Bash (2.00.0)</td></tr><tr><td align="center">\w</td><td><i>Working Dir</i></td><td>Diretório corrente, caminho completo ($PWD)</td></tr><tr><td align="center">\W</td><td><i>Working Dir</i></td><td>Diretório corrente, somente o último (basename $PWD)</td></tr><tr><td align="center">\!</td><td><i>Histórico</i></td><td>Número do comando corrente no histórico</td></tr><tr><td align="center">\#</td><td><i>Número</i></td><td>Número do comando corrente</td></tr><tr><td align="center">\$</td><td><i>ID</i></td><td>Mostra "#" se for root, "$" se for usuário normal</td></tr><tr><td align="center">\nnn</td><td><i>Octal</i></td><td>Caractere cujo octal é nnn</td></tr><tr><td align="center">\\</td><td><i>Backslash</i></td><td>Barra invertida \ literal</td></tr><tr><td align="center">\[</td><td><i>Escapes</i></td><td>Inicia uma seqüência de escapes (tipo códigos de cores)</td></tr><tr><td align="center">\]</td><td><i>Escapes</i></td><td>Termina uma seqüência de escapes</td></tr></tbody></table>
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 26 - Escapes reconhecidos pelo comando echo
 <table align="center" border="1"><tbody><tr><th>Escape</th><th>Lembrete</th><th>Descrição</th></tr><tr><td align="center">\a</td><td><i>Alerta</i></td><td>Alerta (bipe)</td></tr><tr><td align="center">\b</td><td><i>Backspace</i></td><td>Caractere Backspace</td></tr><tr><td align="center">\c</td><td><i>EOS</i></td><td>Termina a string</td></tr><tr><td align="center">\e</td><td><i>Escape</i></td><td>Caractere Esc</td></tr><tr><td align="center">\f</td><td><i>Form feed</i></td><td>Alimentação</td></tr><tr><td align="center">\n</td><td><i>Newline</i></td><td>Linha nova</td></tr><tr><td align="center">\r</td><td><i>Return</i></td><td>Retorno de carro</td></tr><tr><td align="center">\t</td><td><i>Tab</i></td><td>Tabulação horizontal</td></tr><tr><td align="center">\v</td><td><i>Vtab</i></td><td>Tabulação vertical</td></tr><tr><td align="center">\\</td><td><i>Backslash</i></td><td>Barra invertida \ literal</td></tr><tr><td align="center">\nnn</td><td><i>Octal</i></td><td>Caractere cujo octal é nnn</td></tr><tr><td align="center">\xnn</td><td><i>Hexa</i></td><td>Caractere cujo hexadecimal é nn</td></tr></tbody></table>
 
@@ -294,6 +361,17 @@ Existe essa variável
 <td align="center"><code>%n</code></td>
 <td>Uma quebra de linha</td></tr>
 </tbody></table>
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 28 - Formatadores do comando printf
@@ -397,6 +475,17 @@ unalias listar
 history
 {% endhighlight %}
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 executar o comando pelo número dele no history
 {% highlight bash %}
 !468
@@ -442,6 +531,16 @@ echo $DISTROS
 echo ${DISTROS[1]}
 Trisquel
 {% endhighlight %}
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 41 - Pode-se também criar um array inserindo elemento um de cada vez 
 {% highlight bash %}
