@@ -139,7 +139,7 @@ $var
 echo $'$var\n'
 $var
 {% endhighlight %}
-{% highlight bash %}
+
 
 <!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -154,7 +154,6 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-{% endhighlight %}
 16 - `...` (entre crases) Executa comandos numa subshell, retornando o resultado
 {% highlight bash %}
 echo `ls`
@@ -184,6 +183,7 @@ echo $((11-9))
 2
 {% endhighlight %}
 
+
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -195,6 +195,7 @@ data-ad-slot="8549252987"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 
 21 - Testa uma expressão, retornando 0 ou 1 (alias do comando 'test')
 {% highlight bash %}
