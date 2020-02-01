@@ -203,11 +203,13 @@ data-ad-slot="8549252987"></ins>
 É maior!
 {% endhighlight %}
 
-22 - Testa uma expressão, retornando 0 ou 1 (podendo usar && e ||)
+
+22 - Testa uma expressão, retornando 0 ou 1 (podendo usar && e \|\|)
 {% highlight bash %}
 [[ $var ]] && echo 'Existe essa variável'
 Existe essa variável
 {% endhighlight %}
+
 
 23 - Variáveis especiais
 <table align="center" border="1"><tbody>
