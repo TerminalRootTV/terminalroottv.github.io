@@ -57,7 +57,7 @@ Você pode usar diretamente pelo link do [SweetAlert](https://sweetalert.js.org/
 {% endhighlight %}
 
 Após clicar vai surgir a mensagem assim:
-[SweetAlert usando online](/assets/img/js/sweetalert-1.png)
+![SweetAlert usando online](/assets/img/js/sweetalert-1.png)
 
 Ou baixando e linkando localmente, exemplo:
 
