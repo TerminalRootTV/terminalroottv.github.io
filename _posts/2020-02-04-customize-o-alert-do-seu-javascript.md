@@ -96,6 +96,9 @@ Para mais informações de uso como exemplos para [React.js](https://reactjs.org
 
 Conheça também o [sweetalert2](https://sweetalert2.github.io/) que há outras formas de implementações, como por exemplo com o [Angular.js](https://angularjs.org/).
 
+Ainda não aprender [Javascript](https://terminalroot.com.br/2020/01/javascript.html)? Assista o vídeo abaixo e entre para esse vasto mundo!
+<iframe width="920" height="400" src="https://www.youtube.com/embed/HI6YZJxoaIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Até mais!
 
 <!-- RETANGULO LARGO -->
