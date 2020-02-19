@@ -8,11 +8,23 @@ main-class: 'linux'
 tags:
 - Linux
 - LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels](/assets/img/lpi/400-boot-process-chart-terminalroot.jpg "Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels")
 
 > Em informática, __boot__ é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada.A solução para o paradoxo está na utilização de um pequeno e especial programa, chamado sistema de iniciação, __boot loader__ ou __bootstrap__.O pequeno programa normalmente não é o sistema operacional, mas apenas um segundo estágio do sistema de inicialização, assim como o __Lilo__ ou o __Grub__. Ele será então capaz de carregar o [sistema operacional](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=Linux) apropriado, e finalmente transferir a execução para ele.
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 ![Blog Linux](/assets/img/lpi/fig1.gif "Blog Linux")
@@ -22,6 +34,17 @@ Quando um sistema efetua boot pela primeira vez, o processador executa um códig
 ![Blog Linux](/assets/img/lpi/fig2.gif "Blog Linux")
 
 O __loader de boot secundário__, ou de segundo estágio, pode ser chamado de __loader de kernel__. Neste estágio, sua tarefa é carregar o kernel [Linux](http://www.terminalroot.com.br/tags#linux) e o disco __RAM__ inicial opcional.Com a imagem de kernel na memória e o controle fornecido no loader de __boot__ de estágio 2, o estágio do kernel começa. A imagem do kernel não é bem um kernel executável, mas uma imagem de kernel compactada. Em geral é uma __zImage (imagem compactada, com menos de 512KB)__ ou uma __bzImag__e (imagem compactada grande, com mais de 512KB)__, previamente compactada com __zlib__.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
  
 ![Blog Linux](/assets/img/lpi/fig3.gif "Blog Linux")
 
@@ -41,6 +64,18 @@ Níveis de execução definem quais tarefas podem ser realizadas no estado (ou n
 * __4__ Não Utilizado
 * __5__ Modo de multiusuário com rede e com o __X Window System__
 * __6__ Reinicializar o sistema
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A distribuição [Slackware](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=Slackware) usa o nível de execução __4__ em vez do __5__ para um sistema completo executando __X Window system__. [Debian](http://terminalroot.com.br/tags#debian) e derivados, como [Ubuntu](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=ubuntu), usam um único nível de execução para o modo de multiusuário, geralmente o nível __2__. Consulte a documentação para sua [distribuição](http://terminalroot.com.br/tags#distros).
 Para alterar o __Runlevel__ de inicialização do seu [Linux](http://www.terminalroot.com.br/tags#linux), vc pode alterar o arquivo __/etc/inittab__
@@ -72,6 +107,19 @@ l0:0:wait:/etc/init.d/rc 0
 l1:1:wait:/etc/init.d/rc 1
 {% endhighlight %}
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Ou usando um dos comando abaixo(lembrando que para todos esses procedimentos deverá ser o [super-usuário](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=root))
 
 {% highlight bash %}
@@ -88,6 +136,16 @@ telinit 5
 
 O [Debian](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=debian) não utiliza o diretório __rc.local__ no estilo [BSD](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=BSD) para personalizar o processo de inicialização; ao invés disso ele fornece o seguinte mecanismo de personalização.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Suponha que um sistema precisa executar o script __foo__ na inicialização da máquina ou ao entrar em um nível de execução (__System V__) em especifíco. O administrador do sistema deverá então colocar o script foo dentro do diretório __/etc/init.d/__.
 
 Executar o comando no Debian __update-rc.d__ com os argumentos apropriados para criar as ligações entre os diretórios (especificados na linha de comando) __rc?.d__ e __/etc/init.d/foo__. Aqui, __?__ é um número de __0__ a __6__ que corresponde a um dos níveis de execução __System V__.
@@ -95,6 +153,17 @@ Executar o comando no Debian __update-rc.d__ com os argumentos apropriados para 
 # Reiniciar o sistema
  
 > O comando __update-rc.d__ criará as ligações entre os arquivos nos diretórios __rc?.d__ e o script em __/etc/init.d/__. Cada ligação iniciará com um "__S__' ou um "__K__', seguido por um número, seguido pelo nome do script. Quando o sistema entra em um nível de execução __N__, scripts que iniciam com "__K__' em __/etc/rcN.d/__ são executados com __stop__ como seu argumento, seguido por aqueles começando com "__S__' em __/etc/rcN.d__ com start como seu argumento.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Alguém poderia, por exemplo, fazer com que o script __foo__ seja executado na inicialização do sistema colocando-o em __/etc/init.d/__ e instalando as ligações com o comando __update-rc.d foo defaults 19__. O argumento __defaults__ se refere aos níveis de execução padrões, que são do nível __2__ até o nível __5__. O argumento __19__ assegura que __foo__ seja chamado antes de quaisquer scripts contendo números __20__ ou superiores.
  
@@ -121,17 +190,15 @@ O __shutdown__ criará o arquivo __/etc/nologin__ para não permitir que novos u
 + __-f__  Não executa a checagem do sistema de arquivos durante a inicialização do sistema. Este processo é feito gravando-se um arquivo __/fastboot__ que é interpretado pelos scripts responsáveis pela execução do __fsck__ durante a inicialização do sistema.
 + __-F__ 
 
+<!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- Informat -->
 <ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
