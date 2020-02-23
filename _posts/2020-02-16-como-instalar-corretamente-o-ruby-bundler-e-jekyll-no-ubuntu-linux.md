@@ -193,7 +193,9 @@ data-ad-slot="5351066970"></ins>
 
 ### Download dos arquivos:
 
-<a href="https://terminalroot.com.br/downs/thepinguim-jekyll.zip" class="btn dtn-danger">Clique aqui para baixar</a>
+<a href="https://terminalroot.com.br/downs/thepinguim-jekyll.zip">
+    <buttom class="btn dtn-danger">Clique Aqui para Baixar</button>
+</a>
 
 
 ## Links Úteis
