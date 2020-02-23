@@ -187,6 +187,15 @@ data-ad-slot="5351066970"></ins>
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/RdFoGToeqFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Assista ao vídeo de configuração do Jekyll
+
+<iframe width="920" height="400" src="https://www.youtube.com/embed/7lI5BfHK-kA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Download dos arquivos:
+
+<a href="https://terminalroot.com.br/downs/thepinguim-jekyll.zip" class="btn dtn-danger">Clique aqui para baixar</a>
+
+
 ## Links Úteis
 + Página oficial do Jekyll: <https://jekyllrb.com/>
 + Referências: <https://en.wikipedia.org/wiki/Jekyll_(software)>
