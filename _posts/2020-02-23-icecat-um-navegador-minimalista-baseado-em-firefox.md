@@ -14,7 +14,11 @@ tags:
 
 ![IceCat - Um navegador minimalista baseado em Firefox](/assets/img/browser/gnu-icecat.png)
 
-O [GNU IceCat](https://www.gnu.org/software/gnuzilla/), ou simplesmente IceCat(antes conhecido como Iceweasel) é a versão GNU do navegador Firefox. Sua principal vantagem é a ética . Embora o código-fonte do Firefox do projeto Mozilla seja um software gratuito, eles distribuem e recomendam softwares não-livres como plug-ins e complementos. Além disso, a licença de marca registrada impõe requisitos para a distribuição de versões modificadas .
+O [GNU IceCat](https://www.gnu.org/software/gnuzilla/), ou simplesmente IceCat(antes conhecido como Iceweasel) é a versão GNU do navegador Firefox.
+
+Sua principal vantagem é a ética . Embora o código-fonte do Firefox do projeto Mozilla seja um software gratuito, eles distribuem e recomendam softwares não-livres como plugins e complementos.
+
+Além disso, a licença de marca registrada impõe requisitos para a distribuição de versões modificadas .
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
