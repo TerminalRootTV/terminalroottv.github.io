@@ -27,7 +27,7 @@ data-ad-slot="5351066970"></ins>
 
 O complemento foi criado para resolver o chamado ["JavaScript Trap"](http://www.gnu.org/philosophy/javascript-trap.html), descrito pela primeira vez por Richard Stallman em 2009, uma situação em que muitos usuários, sem saber, executam rastreadores maliciosos no navegador .
 
-Foi desenvolvido por Ruben Rodriguez e Nik Nyby e é incluído por padrão no navegador [GNU IceCat](https://terminalroot/icecat/) , também pode funcionar com o [Tor](https://terminalroot.com.br/2019/08/navegacao-anonima-com-tor-browser-instalacao-e-dicas-para-deep-web.html) .
+Foi desenvolvido por Ruben Rodriguez e Nik Nyby e é incluído por padrão no navegador [GNU IceCat](https://terminalroot.com.br/2020/02/icecat-um-navegador-minimalista-baseado-em-firefox.html) , também pode funcionar com o [Tor](https://terminalroot.com.br/2019/08/navegacao-anonima-com-tor-browser-instalacao-e-dicas-para-deep-web.html) .
 
 O complemento permite a lista de permissões do site e possui um sistema de detecção de e-mail para que os usuários entrem em contato com os webmasters da página para persuadi-los a tornar seu código [JavaScript](https://terminalroot.com.br/2020/01/javascript.html) compatível com o **LibreJS**.
 
