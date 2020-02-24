@@ -51,7 +51,7 @@ data-ad-slot="5351066970"></ins>
 O IceCat é gerado no Firefox com os scripts disponíveis em [git.savannah.gnu.org/cgit/gnuzilla.git](https://git.savannah.gnu.org/cgit/gnuzilla.git) .
 
 # Complementos e plugins
-Mantemos uma [lista de complementos](https://directory.fsf.org/wiki/GNU_IceCat) gratuitos .
+Eles mantém uma [lista de complementos](https://directory.fsf.org/wiki/GNU_IceCat) gratuitos .
 
 O GNUzilla(versão GNU da Mozilla) executa seu próprio serviço de busca de plugins no [gnuzilla.gnu.org](https://gnuzilla.gnu.org).
 
