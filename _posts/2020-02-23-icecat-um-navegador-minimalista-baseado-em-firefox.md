@@ -16,6 +16,16 @@ tags:
 
 O [GNU IceCat](https://www.gnu.org/software/gnuzilla/), ou simplesmente IceCat(antes conhecido como Iceweasel) é a versão GNU do navegador Firefox. Sua principal vantagem é a ética . Embora o código-fonte do Firefox do projeto Mozilla seja um software gratuito, eles distribuem e recomendam softwares não-livres como plug-ins e complementos. Além disso, a licença de marca registrada impõe requisitos para a distribuição de versões modificadas .
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Recursos do IceCat
 
 - [LibreJS](https://terminalroot.com.br/2020/02/librejs-um-javascript-que-nao-deixa-seu-navegador-lento.html): GNU O LibreJS visa solucionar o problema de JavaScript descrito no artigo de Richard Stallman, The Trap JavaScript .
@@ -26,6 +36,17 @@ O [GNU IceCat](https://www.gnu.org/software/gnuzilla/), ou simplesmente IceCat(a
 
 # Download
 Os lançamentos oficiais do IceCat estão disponíveis em [ftp.gnu.org](https://ftp.gnu.org/gnu/gnuzilla/) , a versão mais recente pode ser encontrada [diretamente nesse link](https://ftp.gnu.org/gnu/gnuzilla/60.7.0/) disponível para 32 e 64-bit.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 O IceCat é gerado no Firefox com os scripts disponíveis em [git.savannah.gnu.org/cgit/gnuzilla.git](https://git.savannah.gnu.org/cgit/gnuzilla.git) .
 
