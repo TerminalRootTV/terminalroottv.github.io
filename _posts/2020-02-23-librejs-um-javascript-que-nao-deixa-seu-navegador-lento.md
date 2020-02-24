@@ -15,6 +15,16 @@ tags:
 
 O [GNU LibreJS](https://www.gnu.org/software/librejs/) , ou simplesmente [LibreJS](https://www.gnu.org/software/librejs/) , é uma extensão  navegadores baseados no [Mozilla Firefox](https://terminalroot.com.br/2014/09/complementos-uteis-para-firefox.html) , criada pelo [GNU Project](https://www.gnu.org/) . Seu objetivo é bloquear programas [JavaScript](https://terminalroot.com.br/2020/01/javascript.html) não triviais .
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 O complemento foi criado para resolver o chamado ["JavaScript Trap"](http://www.gnu.org/philosophy/javascript-trap.html), descrito pela primeira vez por Richard Stallman em 2009, uma situação em que muitos usuários, sem saber, executam rastreadores maliciosos no navegador .
 
 Foi desenvolvido por Ruben Rodriguez e Nik Nyby e é incluído por padrão no navegador [GNU IceCat](https://terminalroot/icecat/) , também pode funcionar com o [Tor](https://terminalroot.com.br/2019/08/navegacao-anonima-com-tor-browser-instalacao-e-dicas-para-deep-web.html) .
@@ -27,6 +37,17 @@ O complemento permite a lista de permissões do site e possui um sistema de dete
 você pode instalar o LibreJS clicando neste link e seguindo as instruções subsequentes: [librejs-7.20.1.xpi](https://ftp.gnu.org/gnu/librejs/librejs-7.20.1.xpi)
 
 Os arquivos de origem do LibreJS podem ser encontrados via HTTPS: [librejs-7.20.1.tar.gz](https://ftp.gnu.org/gnu/librejs/librejs-7.20.1.tar.gz) . Ou FTP: [ftp://ftp.gnu.org/gnu/librejs/](ftp://ftp.gnu.org/gnu/librejs/) . Também pode ser encontrado nos espelhos do GNU, este link selecionará automaticamente um espelho para você.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 O LibreJS também está disponível no [site de complementos da Mozilla](https://addons.mozilla.org/en-US/firefox/addon/librejs/) , devido ao processo de revisão da Mozilla, a versão do LibreJS disponível no site de Complementos geralmente está desatualizada. Isso não está sob controle do GNU Project.
 
