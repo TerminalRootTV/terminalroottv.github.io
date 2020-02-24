@@ -32,7 +32,7 @@ data-ad-slot="5351066970"></ins>
 
 # Recursos do IceCat
 
-- [LibreJS](https://terminalroot.com.br/2020/02/librejs-um-javascript-que-nao-deixa-seu-navegador-lento.html): GNU O LibreJS visa solucionar o problema de JavaScript descrito no artigo de Richard Stallman, The Trap JavaScript .
+- [LibreJS](https://terminalroot.com.br/2020/02/librejs-um-javascript-que-nao-deixa-seu-navegador-lento.html): O LibreJS visa solucionar o problema de JavaScript descrito no artigo de Richard Stallman, The Trap JavaScript .
 - [Https-Everywhere](https://www.eff.org/https-everywhere): extensão que criptografa suas comunicações com muitos sites importantes, tornando sua navegação mais segura.
 - [SpyBlock](https://crypto.stanford.edu/spyblock/): Bloqueia os rastreadores de privacidade no modo de navegação normal e todas as solicitações de terceiros no modo de navegação privada. Baseado no Adblock Plus.
 - [AboutIceCat](https://www.gnu.org/software/gnuzilla/): adiciona uma página inicial personalizada `about:icecat` com links para informações sobre o software gratuito e os recursos de privacidade no IceCat, além de caixas de seleção para ativar e desativar os mais propensos a invadir sites.
