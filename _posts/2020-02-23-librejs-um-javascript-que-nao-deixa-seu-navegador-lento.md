@@ -49,7 +49,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-O LibreJS também está disponível no [site de complementos da Mozilla](https://addons.mozilla.org/en-US/firefox/addon/librejs/) , devido ao processo de revisão da Mozilla, a versão do LibreJS disponível no site de Complementos geralmente está desatualizada. Isso não está sob controle do GNU Project.
+O [LibreJS](https://en.wikipedia.org/wiki/GNU_LibreJS) também está disponível no [site de complementos da Mozilla](https://addons.mozilla.org/en-US/firefox/addon/librejs/) , devido ao processo de revisão da Mozilla, a versão do LibreJS disponível no site de Complementos geralmente está desatualizada. Isso não está sob controle do GNU Project.
 
 # Documentação
 A documentação do LibreJS está [disponível online](https://www.gnu.org/software/librejs/manual/).
