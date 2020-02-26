@@ -23,6 +23,16 @@ tags:
 
 [Netlify](https://www.netlify.com/) é uma empresa de computação em nuvem sediada em São Francisco que oferece serviços de hospedagem e back-end sem servidor para sites estáticos . Seus recursos incluem implantação contínua do Git, suporte para funções do AWS Lambda e integração completa com  [Let's Encrypt](https://letsencrypt.org/) . [➕](https://en.wikipedia.org/wiki/Netlify)
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # 🎬 Grade do Vídeo
@@ -36,6 +46,17 @@ tags:
 ---
 
 # Assista ao Vídeo
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/ahkpilbOtpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -114,6 +135,18 @@ netlify deploy -d _site
 ## Código para uso de comentários
 > Site do Disqus: <https://disqus.com/>
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {% highlight html %}
 <div id="comments" class="mt-5">
     <div id="disqus_thread">
@@ -132,7 +165,7 @@ netlify deploy -d _site
     </noscript>
 </div>
 {% endhighlight %}
-Depois inclua no seu `comentarios.html` ao seu `_layouts/post.html`
+Depois inclua `comentarios.html` ao seu `_layouts/post.html`
 > Lembre também de criar um objeto no seu `_config.yml`
 
 {% highlight bash %}
