@@ -36,12 +36,12 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # 🎬 Grade do Vídeo
-- ➡️ 01. Comparativos das Plataformas [00:00]()
-- ➡️ 02. Como Hospedar Gratuitamente no GitHub [03:05]()
-- ➡️ 03. Como Hospedar Gratuitamente no GitLab [17:08]()
-- ➡️ 04. Como Hospedar Gratuitamente no Netlify [26:16]()
-- ➡️ 05. Como Criar um Domínio Próprio [38:47]()
-- ➡️ 06. Dicas Adicionais [43:11]()
+- ➡️ 01. Comparativos das Plataformas [00:00](https://www.youtube.com/watch?v=ahkpilbOtpE&t=0s)
+- ➡️ 02. Como Hospedar Gratuitamente no GitHub [03:05](https://www.youtube.com/watch?v=ahkpilbOtpE&t=185s)
+- ➡️ 03. Como Hospedar Gratuitamente no GitLab [17:08](https://www.youtube.com/watch?v=ahkpilbOtpE&t=1028s)
+- ➡️ 04. Como Hospedar Gratuitamente no Netlify [26:16](https://www.youtube.com/watch?v=ahkpilbOtpE&t=1576s)
+- ➡️ 05. Como Criar um Domínio Próprio [38:47](https://www.youtube.com/watch?v=ahkpilbOtpE&t=2327s)
+- ➡️ 06. Dicas Adicionais [43:11](https://www.youtube.com/watch?v=ahkpilbOtpE&t=2591s)
 
 ---
 
