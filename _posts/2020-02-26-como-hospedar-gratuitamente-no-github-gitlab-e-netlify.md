@@ -132,11 +132,8 @@ netlify deploy -d _site
     </noscript>
 </div>
 {% endhighlight %}
-Depois inclua no seu `_layouts/post.html`
-{% highlight bash %}
-{% include comentarios.html %}
-{% endhighlight %}
-> Lembre també de criar um objeto no seu `_config.yml`
+Depois inclua no seu `_layouts/post.html` → `{% include comentarios.html %}`
+> Lembre também de criar um objeto no seu `_config.yml`
 
 {% highlight bash %}
 disqus: [seu-usuario-no-disqus]
