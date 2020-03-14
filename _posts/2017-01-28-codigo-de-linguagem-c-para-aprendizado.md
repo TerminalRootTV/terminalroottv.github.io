@@ -6,7 +6,7 @@ image: '/assets/img/c/c.jpg'
 description: "O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C."
 color: '#3465a4'
 tags:
-- linguagem-c
+- linguagemc
 categories:
 ---
 
