@@ -6,7 +6,7 @@ image: '/assets/img/js/javascript.jpg'
 description: 'Para quem deseja aprender JavaScript do Zero no Linux.'
 tags:
 - javascript
-- js
+- javascript
 - jquery
 ---
 

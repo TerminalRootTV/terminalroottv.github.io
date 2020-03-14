@@ -11,7 +11,7 @@ tags:
 - html
 - jquery
 - javascript
-- js
+- javascript
 ---
 
 ![APRENDA BOOTSTRAP 4 - CURSO DE DESENVOLVIMENTO WEB #03](/assets/img/css/aprenda-bootstrap-4.jpg)
