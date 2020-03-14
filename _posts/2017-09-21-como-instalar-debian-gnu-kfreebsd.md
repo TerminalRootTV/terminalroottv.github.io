@@ -6,7 +6,7 @@ image: '/assets/img/distros/debian-gnu-kfreebsd.jpg'
 description: "Debian GNU/kFreeBSD é um sistema operacional de propósito geral, uma distribuição oficial Debian com as ferramentas GNU , mas usando o kernel do FreeBSD"
 tags:
 - debian
-- software livre
+- freesoftware
 - opensource
 - gnu
 ---

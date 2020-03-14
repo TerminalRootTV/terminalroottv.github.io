@@ -8,7 +8,7 @@ tags:
 - bash
 - linux
 - shellscript
-- software livre
+- freesoftware
 - opensource
 - gnu
 - games

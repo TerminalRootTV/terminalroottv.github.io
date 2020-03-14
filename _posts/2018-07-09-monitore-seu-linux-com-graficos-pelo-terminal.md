@@ -11,7 +11,7 @@ tags:
 - blessed
 - shellscript
 - shellscript
-- videos
+- video
 ---
 
 # Conceitos iniciais

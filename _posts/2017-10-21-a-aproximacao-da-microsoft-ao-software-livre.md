@@ -5,7 +5,7 @@ date: 2017-10-21 16:05:34
 image: '/assets/img/live-youtube/software-live-x-microsoft.jpg '
 description: "Vídeo que foi gravado ao vivo. Um debate sobre o tema que vem gerando questionamentos na comundidade do Software Livre."
 tags:
-- software livre
+- freesoftware
 - youtube
 ---
 

@@ -8,7 +8,7 @@ tags:
 - bash
 - shellscript
 - contabeis
-- software livre
+- freesoftware
 - opensource
 - gnu
 - terminal

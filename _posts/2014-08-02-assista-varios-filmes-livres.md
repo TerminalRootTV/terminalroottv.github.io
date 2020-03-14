@@ -6,8 +6,8 @@ image: '/assets/img/linux/filmes-gnu-linux.jpg'
 description: "Filmes sobre Software Livre e Tecnologia"
 tags:
 - linux
-- software livre
-- richard stallman
+- freesoftware
+- richardstallman
 - opensource
 - video
 ---

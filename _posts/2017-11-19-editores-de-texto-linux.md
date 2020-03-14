@@ -7,7 +7,7 @@ description: "Um editor de texto é um aplicativo de edição de arquivos de tex
 tags:
 - top5
 - tv
-- videos
+- video
 ---
 
 Um [editor de texto](http://texteditors.org/) é um aplicativo de edição de arquivos de texto, e sem dúvida são os softwares mais utilizados em informática, por favor não confunda com processadores de texto, por exemplo, o [LibreOffice Writer](http://www.terminalroot.com.br/2016/10/aprenda-usar-o-libreoffice.html). 

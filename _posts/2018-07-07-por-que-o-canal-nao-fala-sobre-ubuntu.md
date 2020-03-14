@@ -6,7 +6,7 @@ image: '/assets/img/live/porque-o-canal-nao-fala-sobre-ubuntu.jpg '
 description: 'Bate papo interessante sobre minha história no Linux, para responder a pergunta sobre Ubuntu.'
 tags:
 - ubuntu
-- videos
+- video
 - artigo
 ---
 
