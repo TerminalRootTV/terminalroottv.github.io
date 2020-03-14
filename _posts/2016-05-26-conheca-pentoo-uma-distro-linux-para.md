@@ -6,7 +6,7 @@ image: '/assets/img/distros/pentoo.jpg'
 description: "O Pentoo é um Live CD com o foco na segurança da informação."
 tags:
 - distros
-- web hacker
+- hacker
 ---
 
 

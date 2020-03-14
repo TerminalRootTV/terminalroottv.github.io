@@ -6,7 +6,7 @@ image: '/assets/img/distros/backbox-linux.jpg'
 description: "BackBox é uma distribuição GNU/Linux derivada do Ubuntu, voltada para executar testes de penetração e de vulnerabilidade"
 tags:
 - distros
-- web hacker
+- hacker
 ---
 
 ![Conheça BackBox um Linux para Invasão](/assets/img/distros/backbox-linux.jpg "Conheça BackBox um Linux para Invasão")

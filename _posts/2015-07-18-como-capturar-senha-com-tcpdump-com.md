@@ -8,7 +8,7 @@ tags:
 - linux
 - servidores
 - gnu
-- web hacker
+- hacker
 - redes
 ---
 
