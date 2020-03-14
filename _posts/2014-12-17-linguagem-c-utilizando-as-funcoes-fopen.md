@@ -5,7 +5,7 @@ date: '2014-12-17T12:30:00.002-08:00'
 image: '/assets/img/c/c.jpg'
 description: "O sistema de entrada e saída do ANSI C é composto por uma série de funções, cujos protótipos estão reunidos em stdio.h."
 tags:
-- linguagem c
+- linguagemc
 ---
 ![Linguagem C: Utilizando as funções: fopen() , fputs() e fclose()](/assets/img/c/c.jpg "Linguagem C: Utilizando as funções: fopen() , fputs() e fclose()")
 

@@ -5,7 +5,7 @@ date: '2012-11-24T15:08:00.000-08:00'
 image: '/assets/img/c/for_c.jpg'
 description: 'Fazer coisas básicas e aos poucos fazem memorização e fixação melhor dos detalhes.'
 tags:
-- linguagem c
+- linguagemc
 ---
 
 ![Loop for na Linguagem C](/assets/img/c/for_c.jpg "Loop for na Linguagem C")

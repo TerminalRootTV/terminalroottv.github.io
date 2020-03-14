@@ -4,7 +4,7 @@ title: 'Como instalar o PHP-GTK'
 date: '2011-11-04T18:02:00.000-07:00'
 description: 'Caso seu sistema não tenha a biblioteca Gtk2 instalada, você poderá baixar a versão estática, que contém toda a biblioteca Gtk2 compilada'
 tags:
-- php-gtk
+- php
 ---
 
 Caso seu sistema não tenha a __biblioteca Gtk2__ instalada, você poderá baixar a versão estática, que contém toda a biblioteca Gtk2 compilada, bem como suas dependências, disponível nos pacotes a seguir. Os pacotes acompanham estes componentes

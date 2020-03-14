@@ -6,7 +6,7 @@ description: Criando o primeiro programa em C
 color: '#3465a4'
 author: The Bang Bash
 tags:
-- linguagem c
+- linguagemc
 modified_time: '2014-10-21t18:35:26.381-07:00'
 ---
 

@@ -6,7 +6,7 @@ image: "/assets/img/c/megasenac.jpg"
 description: "Função em Linguagem C para gerar 6 números aleatórios para a Mega-Sena."
 color: '#3465a4'
 tags:
-- linguagem c
+- linguagemc
 categories:
 ---
 

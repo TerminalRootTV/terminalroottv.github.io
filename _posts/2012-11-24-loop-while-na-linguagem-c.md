@@ -5,7 +5,7 @@ date: '2012-11-24T15:30:00.000-08:00'
 image: '/assets/img/c/while_c.jpg'
 description: 'Mais um ensinamento básico para fixação de Linguagem C'
 tags:
-- linguagem c
+- linguagemc
 ---
 
 ![Loop while na Linguagem C](/assets/img/c/while_c.jpg "Loop while na Linguagem C")
