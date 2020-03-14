@@ -6,7 +6,7 @@ image: '/assets/img/lpi/redhat-yum-rpm-fedora-centos.jpg'
 description: "Gerenciador de Pacotes YUM e pacotes RPM"
 tags:
 - linux
-- lpi'
+- lpi
 ---
 
 ![Gerenciador de Pacotes YUM e pacotes RPM](/assets/img/lpi/redhat-yum-rpm-fedora-centos.jpg "Gerenciador de Pacotes YUM e pacotes RPM")
