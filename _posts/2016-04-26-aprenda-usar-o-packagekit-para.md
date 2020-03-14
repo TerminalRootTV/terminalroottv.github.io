@@ -6,7 +6,7 @@ image: '/assets/img/dev/package-kit.jpg'
 description: PackageKit é um sistema projetado para fazer a instalação e atualização de software no seu computador mais fácil.""
 tags:
 - linux
-- x window
+- xwindow
 - desenvolvimento
 ---
 ![Blog Linux](/assets/img/dev/package-kit.jpg "Blog Linux")
