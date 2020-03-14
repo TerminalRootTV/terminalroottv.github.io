@@ -7,7 +7,7 @@ description: "Shell é um interpretador de comandos que fica entre o usuário e 
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

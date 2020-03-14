@@ -7,7 +7,7 @@ description: "O Bash possui maneiras próprias de tratar as variáveis e os arra
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

@@ -7,7 +7,7 @@ description: "Assista ao vídeo e descubra como fazer BOAS PRÁTICAS em Shell Sc
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

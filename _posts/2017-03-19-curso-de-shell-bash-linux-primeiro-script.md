@@ -7,7 +7,7 @@ description: "O primeiro passo é, saber o que se deseja fazer, então ver qual 
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

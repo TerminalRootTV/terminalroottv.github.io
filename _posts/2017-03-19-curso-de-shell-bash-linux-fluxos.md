@@ -7,7 +7,7 @@ description: "Em vez de testar o resultado de um comando ou entrada do usuário,
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

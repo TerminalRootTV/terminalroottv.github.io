@@ -7,7 +7,7 @@ description: 'Criei essa primeira versão desse tema.'
 tags:
 - vim
 - temas
-- themes
+- temas
 - colorscheme
 ---
 

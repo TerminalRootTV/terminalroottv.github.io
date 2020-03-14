@@ -7,7 +7,7 @@ description: "No mundo do Shell Script há possibilidade de criarmos também pro
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

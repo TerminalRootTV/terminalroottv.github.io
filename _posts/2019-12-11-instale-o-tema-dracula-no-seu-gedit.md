@@ -7,7 +7,7 @@ description: 'Disponível para diversos editores, IDEs, Shells e outros.'
 tags:
 - gedit
 - tema
-- themes
+- temas
 ---
 
 ![Gedit Dracula](/assets/img/gedit/gedit.png)

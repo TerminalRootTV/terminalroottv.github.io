@@ -7,7 +7,7 @@ description: "As funções do Shell são uma forma de agrupar comandos para exec
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

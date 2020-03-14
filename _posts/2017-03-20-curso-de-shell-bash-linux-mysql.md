@@ -7,7 +7,7 @@ description: "Este vídeo se propõe a mostrar como podemos integrar Shell Scrip
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

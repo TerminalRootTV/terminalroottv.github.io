@@ -7,7 +7,7 @@ description: "Assista ao vídeo e dscubra dicas e técnicas incríveis sobre ess
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

@@ -7,7 +7,7 @@ description: "Assim como qualquer outra linguagem de programação, o shell tamb
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

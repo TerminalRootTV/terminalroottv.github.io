@@ -6,7 +6,7 @@ image: '/assets/img/gimp/gimp-linux.jpg'
 description: "Video tutorial de Criando texto no GIMP com fundo de Imagem, assista o vídeo!"
 tags:
 - gimp
-- tv
+- terminalroottv
 ---
 
 ![Blog Linux](/assets/img/gimp/gimp-linux.jpg "Blog Linux")

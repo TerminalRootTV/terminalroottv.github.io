@@ -5,7 +5,7 @@ date: 2018-03-13 21:09:47
 image: '/assets/img/mac/mac-os-x-em-virtualbox-no-linux.jpg'
 description: 'Nesse vídeo instalamos o Mac OS X - Sierra na VirtualBox dentro do Gentoo.Existe toda uma configuração própria para essa façanha, além de um script pelo comando VBoxManage.'
 tags:
-- mac
+- macos
 - macos
 - virtualbox
 - apple

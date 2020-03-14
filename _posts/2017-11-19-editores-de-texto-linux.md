@@ -6,7 +6,7 @@ image: '/assets/img/tv/editores-de-texto-linux.jpg'
 description: "Um editor de texto é um aplicativo de edição de arquivos de texto, e sem dúvida são os softwares mais utilizados em informática."
 tags:
 - top5
-- tv
+- terminalroottv
 - video
 ---
 

@@ -7,7 +7,7 @@ description: "A maioria das linguagens tem o conceito de loops. Se quisermos rep
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

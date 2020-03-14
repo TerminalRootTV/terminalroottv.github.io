@@ -10,7 +10,7 @@ tags:
 - atom
 - anjuta
 - codeblocks
-- visual-studio-code
+- vscode
 - neovim
 - gedit
 - spacemacs

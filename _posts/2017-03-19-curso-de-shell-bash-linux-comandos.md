@@ -7,7 +7,7 @@ description: "Se o usuário utiliza tais comandos, então ele se encontra no mod
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

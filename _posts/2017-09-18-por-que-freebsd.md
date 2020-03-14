@@ -6,7 +6,7 @@ image: '/assets/img/freebsd/freebsd.jpg'
 description: "O FreeBSD é um sistema operacional livre do tipo Unix-like que provém do Research Unix via a Berkeley Software Distribution (BSD)."
 tags:
 - freebsd
-- tv
+- terminalroottv
 ---
 
 O [FreeBSD](https://www.freebsd.org/) é um sistema operacional livre do tipo [Unix-like](http://terminalroot.com.br/2016/11/blog-linux-unix.html) que provém do _Research Unix_ via a [Berkeley Software Distribution (BSD)](http://www.bsd.org/). Aplicativos podem ser instalados usando o sistema de gerenciador de pacotes : [Ports](https://www.freebsd.org/ports/), ou compilando o código-fonte. Devido aos seus termos de licenciamento permissivos, grande parte do código do FreeBSD tornou-se parte integral de outros sistemas operacionais tal como o [OS X da Apple](http://www.apple.com/macosx).

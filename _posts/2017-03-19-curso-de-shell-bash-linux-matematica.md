@@ -7,7 +7,7 @@ description: "Todas linguagens de programação precisam efetuar cálculos matem
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 ***

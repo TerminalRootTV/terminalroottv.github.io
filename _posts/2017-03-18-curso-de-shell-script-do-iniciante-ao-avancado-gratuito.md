@@ -7,7 +7,7 @@ description: "Shell Script é uma Linguagem de Script utilizada por vários Sist
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 <!--

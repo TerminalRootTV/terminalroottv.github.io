@@ -7,7 +7,7 @@ description: "Shell Script é tão completo, que exatamente tudo é possível fa
 tags:
 - shellscript
 - bash
-- tv
+- terminalroottv
 ---
 
 <!-- 

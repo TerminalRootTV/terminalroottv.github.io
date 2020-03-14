@@ -6,7 +6,7 @@ image: '/assets/img/vim/vim-wallpaper.jpg'
 description: 'O Vim é o editor de texto e IDE mais utilizado mundo.'
 tags:
 - vim
-- vi
+- vim
 ---
 
 ![10 DICAS para Você Usar o VIM como um NINJA](/assets/img/vim/vim-wallpaper.jpg "10 DICAS para Você Usar o VIM como um NINJA")
