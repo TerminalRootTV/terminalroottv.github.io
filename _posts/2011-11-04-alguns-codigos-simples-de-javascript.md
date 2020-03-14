@@ -6,8 +6,8 @@ description: Alguns códigos simples de JavaScript
 color: '#fbbc05'
 author: The Bang Bash
 tags:
-- javascript-jquery
-modified_time: '2013-05-03t07:16:10.932-07:00'
+- javascript
+- jquery
 ---
 
 

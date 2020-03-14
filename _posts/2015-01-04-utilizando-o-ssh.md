@@ -10,7 +10,6 @@ tags:
 - servidores
 - gnu
 - redes
-modified_time: '2015-01-04t12:36:38.392-08:00'
 thumbnail: http://3.bp.blogspot.com/-ldrjtnugdxq/vkmknoyiq2i/aaaaaaaabim/kauyzk5gg7u/s72-c/ssh.jpg
 ---
 

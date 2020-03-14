@@ -5,7 +5,8 @@ date: '2014-08-17T17:11:00.001-07:00'
 image: '/assets/img/shell-script/terminal-online.jpg'
 description: "JS/UIX é um sistema operacional UN*X-like para navegadores web padrão, escrito inteiramente em JavaScript (sem plugins usados)."
 tags:
-- javascript-jquery
+- javascript
+- jquery
 - comandos
 ---
 

@@ -7,7 +7,6 @@ color: '#d6ba32'
 author: Marcos Oliveira
 tags:
 - artigos
-modified_time: '2014-10-17t19:22:07.253-07:00'
 thumbnail: "http://1.bp.blogspot.com/-4zeplvavnzi/vehor3h8jmi/aaaaaaaaa3i/h9psul28v18/s72-c/richard%2be%2bdilma.thumbnail.jpg"
 ---
 
