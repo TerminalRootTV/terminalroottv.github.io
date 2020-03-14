@@ -6,7 +6,7 @@ image: '/assets/img/c/programador-c.jpg'
 description: 'Incluindo comparativos à C++, Java e Python.'
 tags:
 - linguagemc
-- c
+- linguagemc
 - cpp
 - java
 - python

@@ -7,7 +7,7 @@ description: 'Exemplos de funções: fread(), fwrite(), remove() e outras em C'
 tags:
 - linguagemc
 - clang
-- c
+- linguagemc
 - programming
 - code
 ---

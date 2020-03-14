@@ -8,7 +8,7 @@ tags:
 - gnu
 - autotools
 - make
-- language-c
+- linguagemc
 - cpp
 ---
 

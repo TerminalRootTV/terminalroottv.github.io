@@ -9,7 +9,7 @@ tags:
 - desenvolvimento
 - codigo
 - assembly
-- c
+- linguagemc
 - cpp
 - go
 - bash
