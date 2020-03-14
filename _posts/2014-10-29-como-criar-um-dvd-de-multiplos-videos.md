@@ -5,7 +5,7 @@ date: '2014-10-29T16:55:00.000-07:00'
 image: '/assets/img/multimidia/devede.jpg'
 description: 'DeVeDe é um open-source (GPLv3) software de autoração de DVD que lhe permite criar um vídeo DVD, VCD, SVCD ou DivX a partir de qualquer número de arquivos de vídeo.'
 tags:
-- multimídia
+- multimidia
 - freesoftware
 - opensource
 - gnu

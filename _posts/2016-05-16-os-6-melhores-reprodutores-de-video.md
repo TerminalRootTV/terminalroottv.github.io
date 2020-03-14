@@ -6,7 +6,7 @@ image: '/assets/img/multimidia/players-video.jpg'
 description: "Veja uma lista de Reprodutores de Vídeo pra Linux."
 tags:
 - linux
-- multimídia
+- multimidia
 ---
 
 ![Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux](/assets/img/multimidia/players-video.jpg "Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux")

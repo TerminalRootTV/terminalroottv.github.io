@@ -5,7 +5,7 @@ date: '2016-05-19T12:42:00.000-07:00'
 image: '/assets/img/editores/video-editor.jpg'
 description: "Escolha o melhor!"
 tags:
-- multimídia
+- multimidia
 
 ---
 

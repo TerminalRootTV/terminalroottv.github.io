@@ -6,7 +6,7 @@ image: '/assets/img/multimidia/producao.jpg'
 description: "LMMS, Rosegarden, Muse, Ardour,...entre outros"
 tags:
 - linux
-- multimídia
+- multimidia
 ---
 
 ![Os 20 Melhores Softwares para Produção e Edição de Áudio no Debian GNULinux](/assets/img/multimidia/producao.jpg "Os 20 Melhores Softwares para Produção e Edição de Áudio no Debian GNULinux")
