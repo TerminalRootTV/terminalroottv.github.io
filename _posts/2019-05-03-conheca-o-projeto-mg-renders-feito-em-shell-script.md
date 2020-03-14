@@ -5,7 +5,7 @@ date: 2019-05-03 00:54:57
 image: '/assets/img/contrib/mg-renders.jpg'
 description: 'Projeto criado para automatizar o download de suas buscas no site mg-renders.net'
 tags:
-- mg-renders
+- mgrenders
 - linux
 - anime
 - jacob

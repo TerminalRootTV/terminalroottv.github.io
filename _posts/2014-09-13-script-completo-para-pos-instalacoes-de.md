@@ -7,7 +7,7 @@ description: "Pós instalação das Distros Debian Squeeze ou Wheezy e Ubuntu Cu
 tags:
 - debian
 - shellscript
-- debian-likes
+- debian
 ---
 
 ![Script Completo para pós instalações de Debian Squeeze e Ubuntu](/assets/img/shell-script/fullscript-shell-script-bash.jpg "Script Completo para pós instalações de Debian Squeeze e Ubuntu")

@@ -7,7 +7,7 @@ description: "Pra quem conheceu o CrunchBang uma distro minimalista, baseada em 
 tags:
 - linux
 - dicas
-- debian-likes
+- debian
 - gnu
 ---
 

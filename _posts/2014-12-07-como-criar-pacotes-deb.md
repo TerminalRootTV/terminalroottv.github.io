@@ -8,7 +8,7 @@ tags:
 - debian
 - linux
 - dicas
-- debian-likes
+- debian
 - gnu
 ---
 

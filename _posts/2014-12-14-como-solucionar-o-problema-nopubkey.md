@@ -7,7 +7,7 @@ description: "Modo bem simples e funcional."
 tags:
 - debian
 - dicas
-- debian-likes
+- debian
 ---
 
 ![Como solucionar o problema NO_PUBKEY](/assets/img/debian/key.jpg "Como solucionar o problema NO_PUBKEY")
