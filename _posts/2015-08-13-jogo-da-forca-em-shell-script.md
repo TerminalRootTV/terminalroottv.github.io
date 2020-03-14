@@ -7,9 +7,9 @@ description: "ESSE É O PRIMEIRO JOGO QUE EU CRIEI EM SHELL SCRIPT!"
 tags:
 - bash
 - linux
-- shell script
+- shellscript
 - software livre
-- open source
+- opensource
 - gnu
 - games
 ---

@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/shell-script-gnomeshell-log-limpar-doc-rec.jpg'
 description: "Segue Script com cabeçalho e linhas comentadas explicando os comandos para análise."
 tags:
 - debian
-- shell script
+- shellscript
 ---
 
 ![Função Shell Script para limpar documentos recentes no Gnome Shell no Debian](/assets/img/shell-script/shell-script-gnomeshell-log-limpar-doc-rec.jpg "Função Shell Script para limpar documentos recentes no Gnome Shell no Debian")

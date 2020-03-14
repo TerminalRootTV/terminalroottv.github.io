@@ -5,7 +5,7 @@ date: '2013-02-16T18:30:00.000-08:00'
 image: '/assets/img/shell-script/senhas-shellscript.jpg'
 description: "Tentei escrever o código da forma mais simples, eficaz e econômica para fazer esse script, para entender cada linha/comando é só ler os próprios comentários do código."
 tags:
-- shell script
+- shellscript
 - shellscript
 ---
 

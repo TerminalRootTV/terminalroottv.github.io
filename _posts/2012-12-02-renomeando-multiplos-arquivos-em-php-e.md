@@ -5,7 +5,7 @@ date: '2012-12-02T11:05:00.000-08:00'
 image: '/assets/img/shell-scripit/arquivos-php-shell.gif'
 description: "Veja o código que é uma mesclagem de PHP e Shell"
 tags:
-- shell script
+- shellscript
 - php
 ---
 

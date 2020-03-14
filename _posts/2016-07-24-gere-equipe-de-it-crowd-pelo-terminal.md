@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/the_it_crowd.jpg'
 description: "Há um projeto bem bacana no GitHub para gerar imagens ASCII da equipe do Suporte Técnico de The IT Crowd!"
 tags:
 - bash
-- shell script
+- shellscript
 - dicas
 - terminal
 ---

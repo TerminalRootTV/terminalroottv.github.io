@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/rand.gif'
 description: "Nesse vídeo , mostramos como gerar jogos para Loteria/Lotofácil utilizando Shell Script"
 tags:
 - bash
-- shell script
+- shellscript
 - terminalroottv
 ---
 ![Como Gerar Números Aleatórios Sem Repetição em Shell Script](/assets/img/shell-script/rand.gif "Como Gerar Números Aleatórios Sem Repetição em Shell Script")

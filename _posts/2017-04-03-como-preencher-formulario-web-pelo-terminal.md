@@ -6,7 +6,7 @@ image: '/assets/img/bash/como-preencher-formulario-web-pelo-terminal.jpg'
 description: "Além de enviar dados pelo terminal para um formulário web, também foi demonstrado como pegar o IP através do HOST."
 tags:
 - bash
-- shell script
+- shellscript
 ---
 
 ![Como Preencher Formulário Web Pelo Terminal](/assets/img/bash/como-preencher-formulario-web-pelo-terminal.jpg "Como Preencher Formulário Web Pelo Terminal")

@@ -7,7 +7,7 @@ description: 'Ajuda os usuários a criar barras de status altamente personalizá
 tags:
 - polybar
 - bspwm
-- i3
+- i3wm
 ---
 
 ![Polybar Themes](/assets/img/polybar/polybar-themes.jpg)

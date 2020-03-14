@@ -5,7 +5,7 @@ date: '2013-07-06T18:51:00.001-07:00'
 image: '/assets/img/shell-script/terminal110.jpg'
 description: 'Analise o código e os comentários.'
 tags:
-- shell script
+- shellscript
 - sed
 ---
 

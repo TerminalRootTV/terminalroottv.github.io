@@ -7,7 +7,7 @@ description: "Vídeo demonstrativo."
 tags:
 - debian
 - linux
-- video-aulas
+- video
 ---
 
 ![Como instalar o GNU/Linux Debian 8 Jessie](/assets/img/debian/debian.jpg "Como instalar o GNU/Linux Debian 8 Jessie")

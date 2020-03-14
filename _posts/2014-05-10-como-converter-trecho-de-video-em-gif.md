@@ -5,10 +5,10 @@ date: '2014-05-10T18:28:00.000-07:00'
 image: '/assets/img/shell-script/video2gif-shell-script.gif'
 description: "Script para quem quiser criar gif de trecho de  vídeo."
 tags:
-- shell script
+- shellscript
 - dicas
-- open source
-- código aberto
+- opensource
+- opensource
 - gnu
 - terminal
 - terminalroot

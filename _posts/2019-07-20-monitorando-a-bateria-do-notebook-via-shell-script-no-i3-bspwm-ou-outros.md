@@ -5,7 +5,7 @@ date: 2019-07-20 21:54:24
 image: '/assets/img/dicas/notification.jpg'
 description: 'Nesse tutorial vamos mostrar uma forma mais simples e interessante.'
 tags:
-- i3
+- i3wm
 - i3wm
 - wm
 ---

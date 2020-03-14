@@ -5,7 +5,7 @@ date: '2013-06-20T18:38:00.001-07:00'
 image: '/assets/img/shell-script/terminal70.jpg'
 description: "Renomeia arquivos, sem alterar a extensão do mesmo."
 tags:
-- shell script
+- shellscript
 ---
 
 ![Renomear múltiplos arquivos com Shell Script](/assets/img/shell-script/terminal70.jpg "Renomear múltiplos arquivos com Shell Script")

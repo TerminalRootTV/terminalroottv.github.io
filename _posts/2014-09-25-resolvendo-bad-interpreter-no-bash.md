@@ -5,7 +5,7 @@ date: '2014-09-25T16:59:00.003-07:00'
 image: '/assets/img/bash/terminal.jpg'
 description: "bad interpreter: No such file or directory"
 tags:
-- shell script
+- shellscript
 - dicas
 ---
 

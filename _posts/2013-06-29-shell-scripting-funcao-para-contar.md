@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/terminal52.jpg'
 description: 'Contar quantas vezes uma determinada palavra aparece num texto (arquivo)'
 tags:
 - linux
-- shell script
+- shellscript
 - sed
 ---
 

@@ -5,7 +5,7 @@ date: '2015-07-12T10:53:00.004-07:00'
 description: "Fish é uma linha de comando inteligente mais amigável para usuários, disponível para Linux e Unix."
 image: '/assets/img/shell-script/fish.jpg'
 tags:
-- shell script
+- shellscript
 - terminal
 - comandos
 ---

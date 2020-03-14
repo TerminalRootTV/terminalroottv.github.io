@@ -6,10 +6,10 @@ image: '/assets/img/shell-script/irrf.jpg'
 description: "Simule o valor do seu Imposto de Renda"
 tags:
 - bash
-- shell script
-- contábeis
+- shellscript
+- contabeis
 - software livre
-- open source
+- opensource
 - gnu
 - terminal
 - terminalroot

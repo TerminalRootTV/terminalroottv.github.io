@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/fullscript-shell-script-bash.jpg'
 description: "Pós instalação das Distros Debian Squeeze ou Wheezy e Ubuntu Customizável desde o 12.04 e Debians-Like, um Script completo para instalar os aplicativos."
 tags:
 - debian
-- shell script
+- shellscript
 - debian-likes
 ---
 

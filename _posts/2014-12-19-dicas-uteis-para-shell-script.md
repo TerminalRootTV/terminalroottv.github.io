@@ -5,7 +5,7 @@ date: '2014-12-19T11:19:00.002-08:00'
 image: '/assets/img/shell-script/shell-script-logo.jpg'
 description: "Separei algumas dicas para Shell Script, deem uma analisada"
 tags:
-- shell script
+- shellscript
 ---
 
 ![Dicas úteis para Shell Script](/assets/img/shell-script/shell-script-logo.jpg "Dicas úteis para Shell Script")

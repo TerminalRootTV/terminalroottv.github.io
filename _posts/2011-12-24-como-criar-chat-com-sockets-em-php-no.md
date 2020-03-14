@@ -7,7 +7,7 @@ description: 'Demonstração de como criar Chat sem refresh de página e sem Aja
 tags:
 - debian
 - linux
-- video-tutorial
+- video
 - php
 - redes
 ---

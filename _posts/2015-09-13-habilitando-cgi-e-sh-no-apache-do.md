@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/gnuapache.jpg'
 description: "O bom de usar CGI é que você pode executar comando do Shell Script na sua página Web."
 tags:
 - debian
-- shell script
+- shellscript
 - apache
 - dicas
 ---

@@ -5,7 +5,7 @@ date: '2015-08-19T05:09:00.000-07:00'
 image: '/assets/img/shell-script/galeria.jpg'
 description: "Para você criar uma galeria estilo a da imagem dessa postagem é necessário que você possua o totem-video-thumbnailer."
 tags:
-- shell script
+- shellscript
 - multimídia
 - terminal
 - comandos

@@ -6,7 +6,7 @@ description: "Pra quem gosta de jogos pelo terminal, aqui vai um boa dica de um 
 image: '/assets/img/shell-script/housenka.jpg'
 tags:
 - bash
-- shell script
+- shellscript
 - games
 - terminal
 ---

@@ -5,7 +5,7 @@ date: 2019-03-17 19:34:48
 image: '/assets/img/gentoo/shell-script-i3-yad-gentoo.png'
 description: 'Nesse exemplo vamos usar uma ferramenta para Shell Script: Yad.'
 tags:
-- i3
+- i3wm
 - shellscript
 - yad
 - gentoo

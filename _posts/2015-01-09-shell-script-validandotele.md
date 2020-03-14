@@ -5,7 +5,7 @@ date: '2015-01-09T12:36:00.003-08:00'
 image: '/assets/img/shell-script/regex-bash.jpg'
 description: "grep é um utilitário de linha de comando para procurar conjuntos de dados de texto simples para as linhas que correspondem a uma expressão regular."
 tags:
-- shell script
+- shellscript
 ---
 
 ![Shell Script validando com Expressões Regulares](/assets/img/shell-script/regex-bash.jpg "Shell Script validando com Expressões Regulares")

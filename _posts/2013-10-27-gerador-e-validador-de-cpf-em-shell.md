@@ -5,7 +5,7 @@ date: '2013-10-27T14:16:00.000-07:00'
 image: '/assets/img/shell-script/cpf-shell.jpg'
 description: "Segue Script com COMENTÁRIOS."
 tags:
-- shell script
+- shellscript
 ---
 
 ![Gerador e Validador de CPF em Shell Script (Bash)](/assets/img/shell-script/cpf-shell.jpg "Gerador e Validador de CPF em Shell Script (Bash)")

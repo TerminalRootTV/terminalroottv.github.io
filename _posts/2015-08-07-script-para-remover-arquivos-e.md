@@ -5,7 +5,7 @@ date: '2015-08-06T22:49:00.000-07:00'
 image: '/assets/img/shell-script/remove.jpg'
 description: "Muitas vezes perdemos arquivos ou diretórios que não queríamos excluir com o comando rm."
 tags:
-- shell script
+- shellscript
 - dicas
 - terminal
 - comandos

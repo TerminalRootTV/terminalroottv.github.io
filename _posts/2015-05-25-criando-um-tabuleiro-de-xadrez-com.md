@@ -5,7 +5,7 @@ date: '2015-05-25T18:21:00.000-07:00'
 image: '/assets/img/shell-script/chess-shell.jpg'
 description: "Programação Shell Script de muita diversão. O script a seguir imprime um tabuleiro de xadrez com 8 × 8 quadrados intercalação preto e branco."
 tags:
-- shell script
+- shellscript
 ---
 ![Criando um tabuleiro de xadrez com Shell Script](/assets/img/shell-script/chess-shell.jpg "Criando um tabuleiro de xadrez com Shell Script")
 

@@ -5,7 +5,7 @@ date: '2012-11-20T16:15:00.000-08:00'
 image: '/assets/img/shell-script/intro-shell.jpg'
 description: "O Script possui todos os ensinamentos básicos de Shell Script"
 tags:
-- shell script
+- shellscript
 ---
 ![Script Introdutório em Shell](/assets/img/shell-script/intro-shell.jpg "Script Introdutório em Shell")
 

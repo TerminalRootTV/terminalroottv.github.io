@@ -5,7 +5,7 @@ date: '2014-10-27T16:19:00.000-07:00'
 image: '/assets/img/shell-script/games-terminal-bash-linux.jpg'
 description: "10 dicas de jogos para o terminal"
 tags:
-- shell script
+- shellscript
 - games
 - terminal
 ---

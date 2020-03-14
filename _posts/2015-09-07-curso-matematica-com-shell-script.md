@@ -5,7 +5,7 @@ date: '2015-09-07T17:06:00.001-07:00'
 image: '/assets/img/bash/matematica-shell-script.jpg'
 description: "Todas linguagens de programação precisam efetuar Cálculos Matemáticos e em Shell Script também."
 tags:
-- shell script
+- shellscript
 - matemática
 ---
 

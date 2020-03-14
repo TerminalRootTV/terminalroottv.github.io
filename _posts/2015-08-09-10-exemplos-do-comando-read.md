@@ -5,7 +5,7 @@ date: '2015-08-09T08:10:00.000-07:00'
 image: '/assets/img/shell-script/read.jpg'
 description: "O comando read faz a leitura a partir de uma interação do usuário."
 tags:
-- shell script
+- shellscript
 - comandos
 ---
 

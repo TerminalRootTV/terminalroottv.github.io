@@ -6,7 +6,7 @@ image: '/assets/img/distros/popy.jpg'
 description: 'Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.'
 tags:
 - arch
-- i3
+- i3wm
 - bash
 - shellscript
 ---

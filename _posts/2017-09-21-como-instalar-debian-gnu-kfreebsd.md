@@ -7,7 +7,7 @@ description: "Debian GNU/kFreeBSD é um sistema operacional de propósito geral,
 tags:
 - debian
 - software livre
-- open source
+- opensource
 - gnu
 ---
 

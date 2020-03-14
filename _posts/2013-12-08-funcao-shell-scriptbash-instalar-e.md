@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/prompt.jpg'
 description: "Acesse pastas de outros computadores com Linux via Rede"
 tags:
 - linux
-- shell script
+- shellscript
 - servidores
 - redes
 ---

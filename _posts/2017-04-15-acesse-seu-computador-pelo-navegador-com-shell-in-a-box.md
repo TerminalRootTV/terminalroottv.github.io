@@ -5,7 +5,7 @@ date: 2017-04-15 17:34:53
 image: '/assets/img/shell-script/shellinabox-terminal.jpg'
 description: "Shell in A Box é uma ferramenta que torna possível o acesso via SSH pelo Browser do Navegador"
 tags:
-- shell-script
+- shellscript
 - ssh
 - web
 ---

@@ -6,7 +6,7 @@ image: '/assets/img/gimp/animacao.gif'
 description: 'Vídeo demonstrativo de como fazer imagem GIF no GIMP.'
 tags:
 - gimp
-- video-tutorial
+- video
 ---
 
 ![Como criar uma imagem GIF no GIMP](/assets/img/gimp/animacao.gif "Como criar uma imagem GIF no GIMP")

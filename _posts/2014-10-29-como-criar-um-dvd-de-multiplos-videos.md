@@ -7,7 +7,7 @@ description: 'DeVeDe é um open-source (GPLv3) software de autoração de DVD qu
 tags:
 - multimídia
 - software livre
-- open source
+- opensource
 - gnu
 ---
 

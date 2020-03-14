@@ -6,7 +6,7 @@ image: '/assets/img/contabeis/linux-contabilidade.jpg'
 description: "Para aqueles que gostam, trabalham ou estudam Ciências Contábeis e Contabilidade, vou listar alguns softwares que possam apresentar serventia."
 tags:
 - linux
-- contábeis
+- contabeis
 - dicas
 ---
 

@@ -6,7 +6,7 @@ image: '/assets/img/bash/whiptail.jpg'
 description: "Quando você instala um novo software no terminal, muitas vezes você pode ver as caixas de diálogo informativas aparecendo."
 color: '#c2003a'
 tags:
-- shell script
+- shellscript
 - terminal
 - comandos
 ---

@@ -10,7 +10,7 @@ tags:
 - nodejs
 - blessed
 - shellscript
-- shell-script
+- shellscript
 - videos
 ---
 

@@ -5,7 +5,7 @@ date: 2017-04-14 11:35:58
 image: '/assets/img/shell-script/shelljs.jpg'
 description: "ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js."
 tags:
-- shell-script
+- shellscript
 - bash
 - javascript
 - unix

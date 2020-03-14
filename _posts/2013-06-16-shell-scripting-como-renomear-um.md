@@ -5,7 +5,7 @@ date: '2013-06-16T13:46:00.000-07:00'
 image: '/assets/img/shell-script/pasta-sem-nomes.jpg'
 description: "Baixei um disco da internet, onde as músicas vieram somente com os números, mas sem o nome das mesmas, pois os nomes vieram num arquivo TXT"
 tags:
-- shell script
+- shellscript
 ---
 
 > Olá galera, tive um problema hoje, seguinte: baixei um disco da internet, onde as músicas vieram somente com os números, mas sem o nome das mesmas, pois os nomes vieram num arquivo TXT exemplo: 

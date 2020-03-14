@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/explainshell.jpg'
 description: "Escreva uma linha de comando para ver o texto de ajuda que corresponde a cada argumento."
 tags:
 
-- shell-script
+- shellscript
 - bash
 - terminal
 ---

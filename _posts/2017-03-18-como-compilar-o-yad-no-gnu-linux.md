@@ -6,7 +6,7 @@ image: '/assets/img/bash/yad-color.jpg'
 description: "Yad é um fork do Zenity, melhorado. É uma ferramenta para criar interface gráfica para o usuário (GUI) em Shell Script."
 tags:
 - bash
-- shell script
+- shellscript
 ---
 
 ![Como Compilar o YAD no GNU-Linux](/assets/img/bash/yad-color.jpg "Como Compilar o YAD no GNU-Linux")

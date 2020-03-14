@@ -5,7 +5,7 @@ date: '2013-10-03T18:42:00.000-07:00'
 image: '/assets/img/shell-script/prompt.jpg'
 description: "Atalho pra exibir cores pelo terminal"
 tags:
-- shell script
+- shellscript
 ---
 
 ![Script para imprimir cores em Shell Script (Bash)](/assets/img/shell-script/prompt.jpg "Script para imprimir cores em Shell Script (Bash)")

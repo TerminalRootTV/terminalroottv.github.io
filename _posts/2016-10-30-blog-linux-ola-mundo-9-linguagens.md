@@ -5,7 +5,7 @@ date: '2016-10-30T09:52:00.000-07:00'
 image: '/assets/img/c/blog-linux-linguagens.jpg'
 description: "Olá Mundo em 9 linguagens de programação"
 tags:
-- linguagem
+- programacao
 - desenvolvimento
 - web
 ---

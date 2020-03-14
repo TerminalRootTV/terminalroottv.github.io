@@ -8,8 +8,8 @@ tags:
 - linux
 - software livre
 - richard stallman
-- código aberto
-- vídeos
+- opensource
+- video
 ---
 
 ![Assista vários filmes Livres!](/assets/img/linux/filmes-gnu-linux.jpg "Filmes sobre Software Livre e Tecnologia")

@@ -5,7 +5,7 @@ date: '2014-10-22T12:50:00.001-07:00'
 image: '/assets/img/shell-script/shtool.jpg'
 description: "GNU shtool é uma compilação de scripts de pequenas, mas muito estáveis ​​e portáteis shell em uma única ferramenta shell."
 tags:
-- shell script
+- shellscript
 - gnu
 ---
 ![GNU shtool - A Ferramenta portátil para o GNU Shell](/assets/img/shell-script/shtool.jpg "GNU shtool - A Ferramenta portátil para o GNU Shell")

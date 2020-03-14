@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/terminal-video-chat.gif'
 description: "Entre os mais populares aplicativos de vídeo do bate-papo aparece p2pvc"
 tags:
 - multimídia
-- notícias
+- noticias
 - terminal
 ---
  

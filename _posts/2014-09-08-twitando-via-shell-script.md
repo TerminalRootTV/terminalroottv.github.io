@@ -5,7 +5,7 @@ date: '2014-09-07T20:47:00.000-07:00'
 image: '/assets/img/shell-script/shell-scripting-bash-twitter.jpg'
 description: "Ele usa o comando curl."
 tags:
-- shell script
+- shellscript
 ---
 
 ![Twitando via Shell Script](/assets/img/shell-script/shell-scripting-bash-twitter.jpg "Twitando via Shell Script")

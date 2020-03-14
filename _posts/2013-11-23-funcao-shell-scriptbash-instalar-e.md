@@ -5,7 +5,7 @@ date: '2013-11-23T15:21:00.000-08:00'
 image: '/assets/img/shell-script/prompt.jpg'
 description: "Acesse outros computadores com Linux via Rede pelo Terminal"
 tags:
-- shell script
+- shellscript
 - servidores
 ---
 

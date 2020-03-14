@@ -5,7 +5,7 @@ date: '2013-08-25T09:27:00.004-07:00'
 image: '/assets/img/shell-script/cep.png'
 description: "Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código."
 tags:
-- shell script
+- shellscript
 - sed
 ---
 

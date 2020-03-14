@@ -5,7 +5,7 @@ date: '2013-09-29T18:18:00.001-07:00'
 image: '/assets/img/shell-script/terminal57.jpg'
 description: "Game simples para estudo básico"
 tags:
-- shell script
+- shellscript
 - games
 ---
 

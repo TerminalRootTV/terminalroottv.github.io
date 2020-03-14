@@ -5,7 +5,7 @@ date: '2015-08-19T18:07:00.001-07:00'
 image: '/assets/img/bash/arrays.jpg'
 description: "Completíssimo"
 tags:
-- shell script
+- shellscript
 - terminal
 - comandos
 ---

@@ -5,7 +5,7 @@ date: '2013-10-06T13:51:00.002-07:00'
 image: '/assets/img/shell-script/correios-shell.jpg'
 description: "Verificar andamento do processo de um objeto pelos Correios"
 tags:
-- shell script
+- shellscript
 - sed
 ---
 

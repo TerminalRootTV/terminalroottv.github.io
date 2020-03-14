@@ -7,7 +7,7 @@ description: "Gambas é um ambiente de desenvolvimento integrado (IDE) para Linu
 tags:
 - gambas
 - linux
-- open source
+- opensource
 - desenvolvimento
 ---
 

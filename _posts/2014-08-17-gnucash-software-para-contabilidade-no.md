@@ -6,7 +6,7 @@ image: '/assets/img/contabeis/gnucash.jpg'
 description: "GnuCash é um pequeno software de contabilidade que também está disponível para Linux, Mac OS X e Windows."
 tags:
 - linux
-- contábeis
+- contabeis
 - dicas
 - gnu
 ---
