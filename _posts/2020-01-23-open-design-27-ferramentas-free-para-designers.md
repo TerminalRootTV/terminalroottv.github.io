@@ -11,7 +11,7 @@ tags:
 - freesoftware
 - opensource
 - ferramentas
-- softwarelivre
+- freesoftware
 - alternativas
 ---
 

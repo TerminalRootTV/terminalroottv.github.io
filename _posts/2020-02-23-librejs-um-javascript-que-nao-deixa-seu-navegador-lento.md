@@ -8,7 +8,7 @@ tags:
 - librejs
 - javascript
 - gnu
-- softwarelivre
+- freesoftware
 ---
 
 ![LibreJS - Um Javascript que não deixa seu navegador lento](/assets/img/js/librejs.png)
