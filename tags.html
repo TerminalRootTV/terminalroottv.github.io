@@ -1,0 +1,39 @@
+---
+layout: minimal
+title: "#Tags"
+permalink: /tags/index.html
+description: "Procure os assuntos pelas tags."
+---
+
+<div class="container">
+  <ul class="pager">
+  {% assign tags_list = site.tags %}
+    {% if tags_list.first[0] == null %}
+      {% for tag in tags_list %}
+          <li><a href="#{{ tag | slugify }}">{{ tag }}</a></li>
+      {% endfor %}
+    {% else %}
+      {% for tag in tags_list %}
+          <li><a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+      {% endfor %}
+    {% endif %}
+  {% assign tags_list = nil %}
+  </ul>
+
+  {% for tag in site.tags  %}
+  <div class="list-group">
+      <li class="list-group-item active"><span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span></li>
+
+          {% assign pages_list = tag[1] %}
+          {% for post in pages_list reversed %}
+              {% if post.title != null %}
+              {% if group == null or group == post.group %}
+              <li class="list-group-item"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><span class="badge"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
+              {% endif %}
+              {% endif %}
+          {% endfor %}
+          {% assign pages_list = nil %}
+          {% assign group = nil %}
+      </div>
+  {% endfor %}
+</div>
