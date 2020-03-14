@@ -4,7 +4,6 @@ title: "Como Modificar um Game em Python"
 date: 2018-02-21 19:08:07
 image: '/assets/img/python/pygame.jpg'
 description: 'Foi feita uma simples modificação num game básico: Gentoo War.'
-main-class: 'python'
 tags:
 - game
 - python

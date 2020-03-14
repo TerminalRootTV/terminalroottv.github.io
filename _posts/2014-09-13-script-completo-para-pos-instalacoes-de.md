@@ -4,11 +4,10 @@ title: "Script Completo para pós instalações de Debian Squeeze e Ubuntu"
 date: '2014-09-12T20:02:00.001-07:00'
 image: '/assets/img/shell-script/fullscript-shell-script-bash.jpg'
 description: "Pós instalação das Distros Debian Squeeze ou Wheezy e Ubuntu Customizável desde o 12.04 e Debians-Like, um Script completo para instalar os aplicativos."
-main-class: 'bash'
 tags:
-- Debian
-- Shell Script
-- Debian-Likes
+- debian
+- shell script
+- debian-likes
 ---
 
 ![Script Completo para pós instalações de Debian Squeeze e Ubuntu](/assets/img/shell-script/fullscript-shell-script-bash.jpg "Script Completo para pós instalações de Debian Squeeze e Ubuntu")

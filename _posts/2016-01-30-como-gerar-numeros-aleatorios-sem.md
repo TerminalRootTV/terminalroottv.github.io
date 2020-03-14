@@ -4,11 +4,10 @@ title: "Como Gerar Números Aleatórios Sem Repetição em Shell Script"
 date: '2016-01-30T15:51:00.000-08:00'
 image: '/assets/img/shell-script/rand.gif'
 description: "Nesse vídeo , mostramos como gerar jogos para Loteria/Lotofácil utilizando Shell Script"
-main-class: 'bash'
 tags:
-- Bash
-- Shell Script
-- TerminalRootTV
+- bash
+- shell script
+- terminalroottv
 ---
 ![Como Gerar Números Aleatórios Sem Repetição em Shell Script](/assets/img/shell-script/rand.gif "Como Gerar Números Aleatórios Sem Repetição em Shell Script")
 

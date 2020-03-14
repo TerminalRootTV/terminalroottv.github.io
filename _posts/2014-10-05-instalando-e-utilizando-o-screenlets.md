@@ -4,9 +4,8 @@ title: 'Instalando e utilizando o Screenlets'
 date: '2014-10-05T06:34:00.000-07:00'
 image: '/assets/img/linux/screenlets.jpg'
 description: 'Screenlets são pequenas aplicações que permitem que você coloque coisas como notas, relógios, calendários em seu desktop Linux.'
-main-class: 'misc'
 tags:
-- Dicas
+- dicas
 ---
 
 ![Instalando e utilizando o Screenlets](/assets/img/linux/screenlets.jpg "Instalando e utilizando o Screenlets")

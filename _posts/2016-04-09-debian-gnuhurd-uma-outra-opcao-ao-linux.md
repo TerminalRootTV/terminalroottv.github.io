@@ -4,11 +4,10 @@ title: "Debian GNU/Hurd , uma outra opção ao Linux"
 date: '2016-04-09T13:01:00.000-07:00'
 image: '/assets/img/tv/debian-gnu-hurd.jpg'
 description: "Debian GNU/Hurd é uma distribuição do sistema operacional GNU com o núcleo Hurd."
-main-class: 'debian'
 tags:
-- Debian
-- Linux
-- GNU
+- debian
+- linux
+- gnu
 ---
 
 ![Debian GNU/Hurd , uma outra opção ao Linux](/assets/img/tv/debian-gnu-hurd.jpg "Debian GNU/Hurd , uma outra opção ao Linux")

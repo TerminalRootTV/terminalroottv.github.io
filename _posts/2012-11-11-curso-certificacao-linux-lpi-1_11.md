@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Hierarquia do Sistema"
 date: '2012-11-11T03:40:00.000-08:00'
 image: '/assets/img/lpi/linux.jpg'
 description: "Sistema de arquivos é a forma de organização de dados em algum meio de armazenamento de dados em massa frequentemente feito em discos magnéticos."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Blog Linux](/assets/img/lpi/linux.jpg "Blog Linux")

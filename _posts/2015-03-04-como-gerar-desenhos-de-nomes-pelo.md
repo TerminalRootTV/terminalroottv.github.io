@@ -4,10 +4,9 @@ title: Como gerar desenhos de nomes pelo terminal
 date: '2015-03-04T18:27:00.000-08:00'
 image: '/assets/img/shell-script/figlet.jpg'
 description: "Um programa para fazer grandes letras de texto comum."
-main-class: 'misc'
 tags:
-- Terminal
-- Comandos
+- terminal
+- comandos
 ---
 
 ![Blog Linux](/assets/img/shell-script/figlet.jpg "Blog Linux")

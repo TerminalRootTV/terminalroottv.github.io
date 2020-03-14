@@ -4,7 +4,6 @@ title: "OpenBSD em Dual Boot com Linux (Partição Única)"
 date: 2019-06-03 17:23:15
 image: '/assets/img/openbsd/openbsd-linux.jpg'
 description: 'Como Instalar o OpenBSD em Dual Boot com Linux (Partição Única)'
-main-class: 'bsd'
 tags:
 - openbsd
 - bsd

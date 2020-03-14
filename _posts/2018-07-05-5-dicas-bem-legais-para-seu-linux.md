@@ -4,7 +4,6 @@ title: "5 Dicas Bem Legais Para Seu Linux"
 date: 2018-07-05 18:05:18
 image: '/assets/img/dicas/5-dicas-legais-para-seu-linux.jpg '
 description: 'As 5 dicas servem para qualquer distribuição Linux: Ubuntu, Linux Mint, Debian e entre outros.'
-main-class: 'bash'
 tags:
 - dicas
 - linux

@@ -4,7 +4,6 @@ title: "Script básico de Python 2 para aprendizado"
 date: 2016-12-26 22:52:08
 image: '/assets/img/python/python.jpg'
 description: "Pra quem gosta de Python e está pensando em comprar um livro ou fazer um curso, recomendo ler/executar esse script que serve como uma 'luz'."
-main-class: 'misc'
 color: '#34a853'
 tags:
 - python

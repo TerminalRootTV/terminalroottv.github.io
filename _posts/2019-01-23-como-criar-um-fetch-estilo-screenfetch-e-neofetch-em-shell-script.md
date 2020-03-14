@@ -4,7 +4,6 @@ title: "Como Criar um FETCH, estilo ScreenFetch e Neofetch em SHELL SCRIPT"
 date: 2019-01-23 12:01:03
 image: '/assets/img/shellpro/myfetch-shell-script-800.jpg'
 description: "Nesse vídeo criamos do zero, um fetch que exibe logo em ASCII e informações do Sistema em Shell Script."
-main-class: 'bash'
 tags:
 - shellscript
 - shellpro

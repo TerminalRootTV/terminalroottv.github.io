@@ -4,12 +4,11 @@ title: "Como criar um DVD de Múltiplos Vídeos no desktop Linux"
 date: '2014-10-29T16:55:00.000-07:00'
 image: '/assets/img/multimidia/devede.jpg'
 description: 'DeVeDe é um open-source (GPLv3) software de autoração de DVD que lhe permite criar um vídeo DVD, VCD, SVCD ou DivX a partir de qualquer número de arquivos de vídeo.'
-main-class: 'gnu'
 tags:
-- Multimídia
-- Software Livre
-- Open Source
-- GNU
+- multimídia
+- software livre
+- open source
+- gnu
 ---
 
 __DeVeDe__ é um open-source (GPLv3) software de __autoração de DVD__ que lhe permite criar um vídeo __DVD, VCD, SVCD ou DivX__ a partir de qualquer número de arquivos de vídeo. DeVeDe depende de outros softwares como o __MPlayer, FFMpeg, MEncoder, DVDAuthor, VCDImager e mkisofs__ para conversão de formato. Como tal, ela suporta uma variedade de entradas populares formatos de vídeo/áudio (por exemplo, __mp4, avi, mpg, mkv__). Você pode escolher entre __PAL__ e formatos de vídeo __NTSC__, e pode adicionar menus ou legendas.

@@ -3,9 +3,8 @@ layout: post
 title: 'Criando uma simples função de soma em Linguagem C'
 date: '2011-10-30T13:50:00.000-07:00'
 description: 'Bom, esse é o básico do entendimento, para quem já trabalha com PHP encontrará diversas similiaridades.'
-main-class: 'misc'
 tags:
-- Linguagem C
+- linguagem c
 ---
 
 > Bom, esse é o básico do entendimento, para quem já trabalha com PHP encontrará diversas similiaridades.

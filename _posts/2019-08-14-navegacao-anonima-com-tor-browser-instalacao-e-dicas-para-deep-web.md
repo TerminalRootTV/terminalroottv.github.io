@@ -4,7 +4,6 @@ title: "Navegação Anônima com Tor Browser - Instalação e dicas para Deep We
 date: 2019-08-14 09:54:19
 image: '/assets/img/hacker/tor-browser.jpg'
 description: 'Sua identidade na internet é quase desconhecida com esse Navegador.'
-main-class: 'linux'
 tags:
 - tor
 - webhacker

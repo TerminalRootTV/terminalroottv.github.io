@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Executando, Gerenciando e Terminando P
 date: '2012-11-17T17:04:00.000-08:00'
 image: '/assets/img/lpi/processos.jpg'
 description: "O escalonamento (scheduling) de processos ou agendador de tarefas é uma atividade organizacional feita pelo escalonador (scheduler) da CPU ou de um sistema distribuído"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-1: Executando, Gerenciando e Terminando Processos](/assets/img/lpi/processos.jpg "Curso Certificação Linux LPI-1: Executando, Gerenciando e Terminando Processos")

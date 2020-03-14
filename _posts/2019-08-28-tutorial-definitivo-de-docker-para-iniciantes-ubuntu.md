@@ -4,7 +4,6 @@ title: "Tutorial Definitivo de Docker para INICIANTES (Ubuntu)"
 date: 2019-08-28 10:22:53
 image: '/assets/img/docker/docker-basic.jpg'
 description: 'Ele tem a capacidade de implantar instâncias de contêineres que fornecem uma virtualização usando o kernel do host.'
-main-class: 'linux'
 tags:
 - docker
 - linux

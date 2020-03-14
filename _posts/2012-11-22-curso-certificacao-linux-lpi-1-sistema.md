@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Sistema de Boot, Shutdown e Runlevels"
 date: '2012-11-22T13:17:00.000-08:00'
 image: '/assets/img/lpi/400-boot-process-chart-terminalroot.jpg'
 description: "Em informática, boot é o termo em inglês para o processo de iniciação do computador que carrega o sistema operacional quando a máquina é ligada."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 - linux
 - lpi
 ---

@@ -4,15 +4,12 @@ title: "Curso de Git e GitHub para Iniciantes"
 date: 2017-01-31 00:51:08
 image: '/assets/img/cursos/git-github-mini.jpg'
 description: "Desenvolvedores em qualquer linguagem ou plataforma que desejam mais segurança para seus projetos com uma ferramenta de controle de versão."
-main-class: 'tv'
 color: '#7d669e'
 tags:
 - git
 - github
 - cursos
 categories:
-twitter_text: "Curso de Git e GitHub para Iniciantes"
-introduction: "Desenvolvedores em qualquer linguagem ou plataforma que desejam mais segurança para seus projetos com uma ferramenta de controle de versão."
 ---
 
 ![Git GitHub](/assets/img/cursos/git-github.jpg)

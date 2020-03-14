@@ -4,12 +4,11 @@ title: "Habilitando CGI e .sh no Apache do Debian Jessie"
 date: '2015-09-13T06:16:00.000-07:00'
 image: '/assets/img/shell-script/gnuapache.jpg'
 description: "O bom de usar CGI é que você pode executar comando do Shell Script na sua página Web."
-main-class: 'bash'
 tags:
-- Debian
-- Shell Script
-- Apache
-- Dicas
+- debian
+- shell script
+- apache
+- dicas
 ---
 
 ![Blog Linux](/assets/img/shell-script/gnuapache.jpg "Blog Linux")

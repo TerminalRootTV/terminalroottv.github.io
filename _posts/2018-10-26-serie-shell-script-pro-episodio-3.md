@@ -4,7 +4,6 @@ title: "Série Shell Script Pro Episódio 3"
 date: 2018-10-26 01:11:08
 image: '/assets/img/shellpro/shellpro3.jpg'
 description: 'Criando repositório no Github e filtramos data de publicação, comentários e colocamos cores no script.'
-main-class: 'bash'
 tags:
 - shellpro
 - bash

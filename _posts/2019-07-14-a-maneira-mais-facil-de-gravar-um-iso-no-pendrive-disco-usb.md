@@ -4,7 +4,6 @@ title: "A Maneira MAIS FÁCIL de Gravar um ISO no PENDRIVE (Disco USB)"
 date: 2019-07-14 19:32:06
 image: '/assets/img/dicas/pendrive-iso-usb.jpg'
 description: 'Um software para gravar .iso para vários sistemas operacionais'
-main-class: 'linux'
 tags:
 - usb
 - iso

@@ -4,7 +4,6 @@ title: "Como Conectar ao Linux pelo Windows via SSH"
 date: 2017-12-08 13:29:11
 image: '/assets/img/rede/windows-linux-ssh.jpg'
 description: 'O PuTTy é um software de emulação de terminal grátis e de código livre. Suporta SSH, destinado a suportar o acesso remoto a servidores via shell seguro e a construção de túneis cifrados entre servidores.'
-main-class: 'misc'
 tags:
 - windows
 - linux

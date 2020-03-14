@@ -4,11 +4,10 @@ title: "Atalhos da linha de comando"
 date: '2015-01-04T12:46:00.002-08:00'
 image: '/assets/img/shell-script/bourne-shell.jpg'
 description: "Agilize sua produtividade no terminal usando atalhos."
-main-class: 'misc'
 tags:
-- Dicas
-- Terminal
-- Comandos
+- dicas
+- terminal
+- comandos
 ---
 
 <style>

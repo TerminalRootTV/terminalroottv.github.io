@@ -4,7 +4,6 @@ title: "Aprenda a explorar o comando wget"
 date: 2019-05-24 10:29:52
 image: '/assets/img/gnu/gnu-wget.jpg'
 description: 'Muita gente instala utilitários de download, mesmo sem saber que seu Linux já possui o melhor utilitário que existe: wget.'
-main-class: 'gnu'
 tags:
 - gnu
 - wget

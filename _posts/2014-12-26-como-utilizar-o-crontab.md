@@ -4,11 +4,10 @@ title: "Como utilizar o Crontab"
 date: '2014-12-26T09:15:00.002-08:00'
 image: '/assets/img/linux/crontab.jpg'
 description: "O __cron__ é um programa de agendamento de tarefas."
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- LPI
+- linux
+- gnu
+- lpi
 ---
 ![Como utilizar o Crontab](/assets/img/linux/crontab.jpg "Como utilizar o Crontab")
 

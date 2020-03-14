@@ -3,9 +3,8 @@ layout: post
 title: 'Upload de Imagens com redimensionamento, inserir Marca Dagua e salvar no banco'
 date: '2011-12-29T11:37:00.000-08:00'
 description: 'Segue os códigos em 3 arquivos comentados, utilizando PDO no PHP para tal façanha'
-main-class: 'web'
 tags:
-- PHP
+- php
 ---
 
 Salve salve rapaziada, como o próprio título diz, segue os códigos em 3 arquivos comentados, utilizando PDO no PHP para tal façanha, eu iria fazer um vídeo-tutorial, mas no final todo mundo pede pra disponibilizar o código então segue-os em 3 arquivos.

@@ -4,7 +4,6 @@ title: "Como Customizar seu Linux Mint com i3 + Polybar + Rofi"
 date: 2019-07-02 12:52:45
 image: '/assets/img/distros/linuxmint-polybar-shellscript-1360.jpg'
 description: 'Nesse vídeo foi feita toda a transformação via Shell Script e funciona também no Ubuntu e Debian.'
-main-class: 'linux'
 tags:
 - mint
 - linuxmint

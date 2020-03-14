@@ -4,12 +4,11 @@ title: Gere a equipe de The IT Crowd pelo Terminal
 date: '2016-07-23T21:12:00.000-07:00'
 image: '/assets/img/shell-script/the_it_crowd.jpg'
 description: "Há um projeto bem bacana no GitHub para gerar imagens ASCII da equipe do Suporte Técnico de The IT Crowd!"
-main-class: 'bash'
 tags:
-- Bash
-- Shell Script
-- Dicas
-- Terminal
+- bash
+- shell script
+- dicas
+- terminal
 ---
 ![Blog Linux](/assets/img/shell-script/the_it_crowd.jpg "Blog Linux")
 

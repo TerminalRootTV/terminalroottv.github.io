@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Sistemas de Arquivos e Dispositivos"
 date: '2012-11-11T12:36:00.000-08:00'
 image: '/assets/img/lpi/file-systems-devides-linux.jpg'
 description: "No Linux cada partição é representada por um número inteiro."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Blog Linux](/assets/img/lpi/file-systems-devides-linux.jpg "Blog Linux")

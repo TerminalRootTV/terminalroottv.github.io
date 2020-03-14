@@ -4,7 +4,6 @@ title: "Como Compilar o Kernel do Zero no Gentoo Linux"
 date: 2017-07-09 20:27:47
 image: '/assets/img/gentoo/gentoo-install-02.jpg'
 description: "O núcleo em torno do qual todas as distribuições são criadas é o kernel Linux. Ele é a camada entre os programas de usuários e o hardware do sistema. O Gentoo provê aos seus usuários diversos possíveis fontes do kernel."
-main-class: 'web'
 tags:
 - gentoo
 - linux

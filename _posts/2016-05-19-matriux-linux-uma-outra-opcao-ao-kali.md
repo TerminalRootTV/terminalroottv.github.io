@@ -4,9 +4,8 @@ title: "Matriux Linux uma outra opção ao Kali Linux"
 date: '2016-05-19T12:42:00.002-07:00'
 image: '/assets/img/distros/Matriux-linux-os.jpg'
 description: "Matriux é um sistema operacional baseado em Linux de código aberto que é projetado de acordo com as necessidades dos investigadores de segurança e profissionais."
-main-class: 'misc'
 tags:
-- Distros
+- distros
 - hacker
 ---
 

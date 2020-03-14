@@ -4,14 +4,11 @@ title: "Como usar o mouse no terminal"
 date: 2017-01-14 10:11:52
 image: '/assets/img/dicas/mouse.jpg'
 description: "A principal funcionalidade de ter um mouse em um TERMINAL TTY é poder marcar um texto e colar este texto com o scroll do mouse por comando."
-main-class: 'gnu'
 color: '#720c76'
 tags:
 - comandos
 - terminal
 categories:
-twitter_text: "Como usar o mouse no terminal"
-introduction: "A principal funcionalidade de ter um mouse em um TERMINAL TTY é poder marcar um texto e colar este texto com o scroll do mouse por comando."
 ---
 
 ![Mouse](/assets/img/dicas/mouse.jpg)

@@ -4,7 +4,6 @@ title: "Assista agora o filme Piratas do Vale do Silício"
 date: 2019-08-15 12:55:48
 image: '/assets/img/movie/piratas-do-vale-do-silicio.jpg'
 description: 'Conta a história da rivalidade entre a Apple e a Microsoft'
-main-class: 'movie'
 tags:
 - filme
 - windows

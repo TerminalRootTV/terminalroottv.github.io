@@ -4,7 +4,6 @@ title: "Finalizando a Customização do Slackware"
 date: 2017-05-07 12:49:36
 image: '/assets/img/slackware/slackware-ff-slim-terminalroot.jpg'
 description: "Instalamos o Slim Gerenciador de Login, deixamos o Firefox pt-BR entre outras alterações."
-main-class: 'tv'
 tags:
 - slackware
 - gnu

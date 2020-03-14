@@ -4,10 +4,9 @@ title: "Acertando data e hora no Linux"
 date: '2013-02-14T15:23:00.000-08:00'
 image: '/assets/img/linux/date.jpg'
 description: "Pra não esquecer mais."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
+- linux
+- dicas
 ---
 
 ![Acertando data e hora no Linux](/assets/img/linux/date.jpg "Acertando data e hora no Linux")

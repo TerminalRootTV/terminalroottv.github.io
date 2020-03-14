@@ -3,10 +3,9 @@ layout: post
 title: 'Autenticação no Apache2'
 date: '2011-11-01T06:37:00.000-07:00'
 description: 'Vou explicar aqui como você disponibilizar o acesso a uma pasta do Apache exigindo usuario e senha.'
-main-class: 'web'
 tags:
-- Servidores
-- Apache
+- servidores
+- apache
 ---
 
 Vou explicar aqui como você disponibilizar o acesso a uma pasta do __Apache(www)__ exigindo usuario e senha.

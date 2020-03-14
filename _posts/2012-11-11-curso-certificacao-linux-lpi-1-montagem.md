@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Montagem e Desmontagem de Sistema de A
 date: '2012-11-11T13:15:00.000-08:00'
 image: '/assets/img/lpi/mounting.jpg'
 description: "Montagem e Desmontagem de Sistema de Arquivos, para facilitar o aprendizado"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-1: Montagem e Desmontagem de Sistema de Arquivos](/assets/img/lpi/mounting.jpg "Curso Certificação Linux LPI-1: Montagem e Desmontagem de Sistema de Arquivos")

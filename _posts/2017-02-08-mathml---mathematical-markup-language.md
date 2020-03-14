@@ -4,14 +4,11 @@ title: "Crie Marcação Matemática em HTML com MathML"
 date: 2017-02-08 12:18:38
 image: '/assets/img/dicas/mathml.jpg'
 description: "Mathematical Markup Language - MathML é uma aplicação do XML para representar símbolos e fórmulas matemáticas, apontada na integração dela em documentos World Wide Web."
-main-class: 'html'
 color: '#eb7728'
 tags:
 - html
 - xml
 categories:
-twitter_text: "Crie Marcação Matemática em HTML com MathML"
-introduction: "Mathematical Markup Language - MathML é uma aplicação do XML para representar símbolos e fórmulas matemáticas, apontada na integração dela em documentos World Wide Web."
 ---
 
 ![MathML](/assets/img/dicas/mathml.jpg "MathML Blog Linux")

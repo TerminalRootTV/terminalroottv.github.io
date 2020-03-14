@@ -4,7 +4,6 @@ title: "Como Customizar o Grub"
 date: 2019-01-04 18:44:50
 image: '/assets/img/grub/grub-theme.jpg'
 description: "Veja como adicionar o tema da sua preferência e deixar seu Grub mais estiloso."
-main-class: 'linux'
 tags:
 - grub
 - linux

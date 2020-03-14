@@ -4,7 +4,6 @@ title: "Fish Shell, mais produtividade no seu Shell Script"
 date: 2018-01-22 20:34:53
 image: '/assets/img/shell-script/fish.jpg'
 description: 'Fish é uma linha de comando inteligente mais amigável para usuários, disponível para Linux e Unix.'
-main-class: 'bash'
 tags:
 - shellscript
 - terminal

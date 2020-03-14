@@ -4,7 +4,6 @@ title: "Como Personalizar e Instalar Programas no Slackware"
 date: 2017-05-06 11:30:43
 image: '/assets/img/slackware/slackware-config-apps.jpg'
 description: "O que fazer após a Instalação do Slackware 14.2"
-main-class: 'tv'
 tags:
 - slackware
 - comandos

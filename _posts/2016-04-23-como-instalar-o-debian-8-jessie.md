@@ -4,10 +4,9 @@ title: "Como Instalar o Debian 8 Jessie"
 date: '2016-04-23T10:43:00.000-07:00'
 image: '/assets/img/tv/obtendo-e-instalando-debian-8-jessie.jpg'
 description: "Foram explicados diversos itens da instalação"
-main-class: 'debian'
 tags:
-- Debian
-- TerminalRootTV
+- debian
+- terminalroottv
 ---
 
 ![Como Instalar o Debian 8 Jessie](/assets/img/tv/obtendo-e-instalando-debian-8-jessie.jpg "Como Instalar o Debian 8 Jessie")

@@ -4,7 +4,6 @@ title: "Como Converter seu Shell Script em Binário"
 date: 2019-08-01 11:20:47
 image: '/assets/img/shellpro/shell-script-binario.jpg'
 description: 'Como criar um arquivo binário do seu Shell Scripting.'
-main-class: 'bash'
 tags:
 - bash
 - shellscript

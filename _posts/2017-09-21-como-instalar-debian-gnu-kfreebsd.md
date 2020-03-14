@@ -4,12 +4,11 @@ title: "Como Instalar o Debian GNU/kFreeBSD"
 date: '2017-09-21T10:57:00.000-07:00'
 image: '/assets/img/distros/debian-gnu-kfreebsd.jpg'
 description: "Debian GNU/kFreeBSD é um sistema operacional de propósito geral, uma distribuição oficial Debian com as ferramentas GNU , mas usando o kernel do FreeBSD"
-main-class: 'debian'
 tags:
-- Debian
-- Software Livre
-- Open Source
-- GNU
+- debian
+- software livre
+- open source
+- gnu
 ---
 
 

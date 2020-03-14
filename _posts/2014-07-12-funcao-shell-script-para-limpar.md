@@ -4,10 +4,9 @@ title: "Função Shell Script para limpar documentos recentes no Gnome Shell no 
 date: '2014-07-12T19:47:00.002-07:00'
 image: '/assets/img/shell-script/shell-script-gnomeshell-log-limpar-doc-rec.jpg'
 description: "Segue Script com cabeçalho e linhas comentadas explicando os comandos para análise."
-main-class: 'bash'
 tags:
-- Debian
-- Shell Script
+- debian
+- shell script
 ---
 
 ![Função Shell Script para limpar documentos recentes no Gnome Shell no Debian](/assets/img/shell-script/shell-script-gnomeshell-log-limpar-doc-rec.jpg "Função Shell Script para limpar documentos recentes no Gnome Shell no Debian")

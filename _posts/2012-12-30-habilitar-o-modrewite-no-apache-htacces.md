@@ -4,12 +4,11 @@ title: 'Habilitar o mod_rewite no Apache'
 date: '2012-12-30T07:18:00.000-08:00'
 image: '/assets/img/servidor/apache.jpg'
 description: "Pra quem vai trabalhar com MVC no PHP (por exemplo) precisa habilitar o mod_rewrite no Apache pra que funcione, segue os passos pra fazer isso"
-main-class: 'linux'
 tags:
-- Debian
-- Linux
-- Apache
-- PHP
+- debian
+- linux
+- apache
+- php
 ---
 
 ![Habilitar o mod_rewite no Apache](/assets/img/servidor/apache.jpg "Habilitar o mod_rewite no Apache")

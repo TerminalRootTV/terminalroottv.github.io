@@ -4,13 +4,12 @@ title: "Enviando e-mail via Terminal"
 date: '2015-08-01T16:31:00.000-07:00'
 image: '/assets/img/terminal/e-mail.jpg'
 description: "Utilizando o Mutt"
-main-class: 'linux'
 tags:
-- Linux
-- Servidores
-- GNU
-- Terminal
-- Comandos
+- linux
+- servidores
+- gnu
+- terminal
+- comandos
 ---
 
 

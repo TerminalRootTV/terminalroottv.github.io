@@ -4,7 +4,6 @@ title: "Como Acessar o Windows pelo Linux com Metasploit"
 date: 2019-04-17 21:03:35
 image: '/assets/img/dicas/metasploit-linux-min.jpg'
 description: 'Metasploit é um projeto de segurança da informação que fornece informações sobre vulnerabilidades de segurança e ajuda nos testes de penetração.'
-main-class: 'bash'
 tags:
 - metasploit
 - security

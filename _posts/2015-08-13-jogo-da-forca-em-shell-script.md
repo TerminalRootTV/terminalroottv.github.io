@@ -4,15 +4,14 @@ title: "Jogo da Forca em Shell Script"
 date: '2015-08-12T20:49:00.001-07:00'
 image: 'jogo-da-forca-shell-script.jpg'
 description: "ESSE É O PRIMEIRO JOGO QUE EU CRIEI EM SHELL SCRIPT!"
-main-class: 'bash'
 tags:
-- Bash
-- Linux
-- Shell Script
-- Software Livre
-- Open Source
-- GNU
-- Games
+- bash
+- linux
+- shell script
+- software livre
+- open source
+- gnu
+- games
 ---
 
 ![Jogo da Forca em Shell Script](/assets/img/shell-script/jogo-da-forca-shell-script.jpg "Jogo da Forca em Shell Script")

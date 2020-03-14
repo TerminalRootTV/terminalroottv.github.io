@@ -4,7 +4,6 @@ title: "Conheça o NomadBSD uma alternativa ao Tails"
 date: 2019-06-16 18:28:34
 image: '/assets/img/bsd/nomadbsd.jpg'
 description: 'Um sistema instalável em USB que você pode levar para qualquer lugar.'
-main-class: 'bsd'
 tags:
 - bsd
 - freebsd

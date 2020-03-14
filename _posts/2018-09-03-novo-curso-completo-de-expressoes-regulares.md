@@ -4,7 +4,6 @@ title: "Novo Curso Completo de Expressões Regulares"
 date: 2018-09-03 14:31:33
 image: '/assets/img/cursos/regex.jpg'
 description: 'As Expressões Regulares estão em todas as linguagens de programação, editores de texto, processadores de texto, Servidores e entre outros.'
-main-class: 'misc'
 tags:
 - regex
 - sed

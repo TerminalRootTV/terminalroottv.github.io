@@ -4,7 +4,6 @@ title: "6 Dicas Bem Interessantes para seu Shell Linux"
 date: 2018-10-10 19:49:25
 image: '/assets/img/shellpro/6-dicas-shell-linux.jpg'
 description: 'Esse vídeo é o 2º Episódio da série Como Criar Shell Script Profissional.'
-main-class: 'bash'
 tags:
 - shellpro
 - bash

@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Impressão no Linux"
 date: '2013-03-31T14:36:00.000-07:00'
 image: '/assets/img/lpi/printer-linux.jpg'
 description: "Como configurar e compartilhar impressão no Linux"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Impressão no Linux](/assets/img/lpi/printer-linux.jpg "Impressão no Linux")

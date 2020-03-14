@@ -4,7 +4,6 @@ title: "Extrair Dados do Youtube via Shell Script - VERSÃO FINAL"
 date: 2018-11-20 01:04:49
 image: '/assets/img/shellpro/shellpro4.jpg'
 description: 'Nesse vídeo finalizamos a primeira versão do aplicativo que extrai dados do Youtube via Shell Script.'
-main-class: 'bash'
 tags:
 - shellpro
 - bash

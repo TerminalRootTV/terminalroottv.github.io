@@ -4,14 +4,11 @@ title: "Feliz Natal com Bash por Julio Neves"
 date: 2016-12-24 10:26:59
 image: '/assets/img/feliznatal/feliznatal.jpg'
 description: "O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo de Shell Script."
-main-class: 'bash'
 color: '#c2003a'
 tags:
 - bash
 - shellscript
 categories:
-twitter_text: "Feliz Natal com Bash por Julio Neves"
-introduction: "O grande mestre do Shell Script, Julio C. Neves criou esse script há alguns anos atrás, e ele renasce a cada final de ano, como o próprio informou no grupo de Shell Script."
 ---
 
 ![Feliz Natal](/assets/img/feliznatal/feliznatal.jpg)

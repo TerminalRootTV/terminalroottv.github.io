@@ -4,7 +4,6 @@ title: "Fluxos de Entrada e Saída - Curso de Shell Script do Iniciante ao Avan�
 date: 2017-03-19 17:45:13
 image: '/assets/img/cursoshell/08-fluxos.jpg'
 description: "Em vez de testar o resultado de um comando ou entrada do usuário, você pode especificar pra um arquivo a entrada."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

@@ -4,7 +4,6 @@ title: "Assista agora o filme de Eduard Snowden - Herói ou Traidor"
 date: 2019-07-28 11:12:04
 image: '/assets/img/movie/snowdenmovie.jpg'
 description: 'Ex-funcionário terceirizado da NSA, Snowden divulga a jornalistas uma série de documentos sigilosos dos EUA .'
-main-class: 'movie'
 tags:
 - filme
 - snowden

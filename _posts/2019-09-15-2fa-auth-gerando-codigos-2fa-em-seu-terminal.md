@@ -7,7 +7,6 @@ description: 'Gerando códigos/token 2FA no terminal do GNU/Linux'
 author: 'Vinicius de Alencar'
 image_author: '/assets/img/comandos/vinicius-de-alencar_alencc1986.jpg'
 url_author: 'https://github.com/alencc1986/'
-main-class: shell
 tags:
 - shellscript
 - 2factorauthenticator

@@ -4,11 +4,10 @@ title: "Como Contar Palavras de um arquivo com Shell Script"
 date: '2013-06-29T19:07:00.002-07:00'
 image: '/assets/img/shell-script/terminal52.jpg'
 description: 'Contar quantas vezes uma determinada palavra aparece num texto (arquivo)'
-main-class: 'linux'
 tags:
-- Linux
-- Shell Script
-- SED
+- linux
+- shell script
+- sed
 ---
 
 ![Como Contar Palavras de um arquivo com Shell Script](/assets/img/shell-script/terminal52.jpg "Como Contar Palavras de um arquivo com Shell Script")

@@ -4,7 +4,6 @@ title: "Como Criar Uma Imagem .iso Pelo Terminal"
 date: 2017-10-07 16:32:53
 image: '/assets/img/comandos/imagem-iso-pelo-terminal-linux.jpg'
 description: "Para esse feito utilizamos novamente o comando dd, com alguns parâmetros adicionais."
-main-class: 'bash'
 tags:
 - usb
 - iso

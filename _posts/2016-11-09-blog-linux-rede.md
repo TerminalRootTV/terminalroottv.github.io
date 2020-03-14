@@ -4,12 +4,9 @@ title: "Como Rodar Aplicativos Gráficos pela Rede no Linux"
 date: '2016-11-09T16:06:00.000-08:00'
 image: '/assets/img/tv/blog-linux-ssh.jpg'
 description: "Vídeo demonstrando como rodar aplicativos gráficos pela rede no Linux"
-main-class: 'tv'
 color: '#cc181e'
 tags:
-- TerminalRootTV
-twitter_text: "Como Rodar Aplicativos Gráficos pela Rede no Linux"
-introduction: "Vídeo demonstrando como rodar aplicativos gráficos pela rede no Linux"
+- terminalroottv
 ---
 
 ![Blog Linux Rede](/assets/img/tv/blog-linux-ssh.jpg)

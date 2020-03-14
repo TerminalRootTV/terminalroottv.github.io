@@ -4,10 +4,9 @@ title: "Game de advinhação em Shell Script"
 date: '2013-09-29T18:18:00.001-07:00'
 image: '/assets/img/shell-script/terminal57.jpg'
 description: "Game simples para estudo básico"
-main-class: 'bash'
 tags:
-- Shell Script
-- Games
+- shell script
+- games
 ---
 
 ![Game de advinhação em Shell Script](/assets/img/shell-script/terminal57.jpg "Game de advinhação em Shell Script")

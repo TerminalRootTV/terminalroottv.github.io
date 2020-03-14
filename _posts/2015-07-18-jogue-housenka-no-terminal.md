@@ -4,12 +4,11 @@ title: "Jogue Housenka no Terminal"
 date: '2015-07-18T06:02:00.002-07:00'
 description: "Pra quem gosta de jogos pelo terminal, aqui vai um boa dica de um jogo divertido e simples!"
 image: '/assets/img/shell-script/housenka.jpg'
-main-class: 'bash'
 tags:
-- Bash
-- Shell Script
-- Games
-- Terminal
+- bash
+- shell script
+- games
+- terminal
 ---
 ![Jogue Housenka no Terminal](/assets/img/shell-script/housenka.jpg "Jogue Housenka no Terminal")
 

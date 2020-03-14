@@ -4,7 +4,6 @@ title: "Variáveis e Arrays - Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-19 08:45:13
 image: '/assets/img/cursoshell/04-variaveis-expansao-arrays.jpg'
 description: "O Bash possui maneiras próprias de tratar as variáveis e os arrays e várias mágicas que economizam trabalho."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

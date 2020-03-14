@@ -4,10 +4,9 @@ title: "Deixar o VI colorido e com numeracao de linhas"
 date: '2016-08-21T10:17:00.000-07:00'
 image: '/assets/img/editores/vim_console.jpg'
 description: "Dica rápida!"
-main-class: 'misc'
 tags:
-- Dicas
-- VIM
+- dicas
+- vim
 ---
 
 ![Deixar o VI colorido e com numeracao de linhas](/assets/img/editores/vim_console.jpg "Deixar o VI colorido e com numeracao de linhas")

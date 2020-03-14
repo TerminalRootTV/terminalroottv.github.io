@@ -4,7 +4,6 @@ title: "Funtoo + Bspwm + Polybar + Rofi"
 date: 2018-11-13 01:24:08
 image: '/assets/img/funtoo/funtoo2.jpg'
 description: 'Nesse video ajustamos algumas configurações e instalamos o bspwm,polybar,rofi e outros no Funtoo.'
-main-class: 'misc'
 tags:
 - funtoo
 - shellscript

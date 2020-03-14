@@ -4,7 +4,6 @@ title: "Novo Blog Terminal Root com GitHub e Jekyll"
 date: '2016-11-12 20:41:38'
 image: '/assets/img/novo-blog/blog-linux-github-jekyll.jpg'
 description: "Nossa nova aventura em busca de tecnologia mais moderna e funcional."
-main-class: "html"
 color: '#fbbc05'
 author: Terminal Root
 tags:
@@ -12,8 +11,6 @@ tags:
 - jekyll
 - markdown
 categories:
-twitter_text: "Novo Blog Terminal Root com GitHub e Jekyll"
-introduction:	"Nossa nova aventura em busca de tecnologia mais moderna e funcional."
 ---
 
 ![Novo Blog Terminal Root com GitHub e Jekyll](/assets/img/novo-blog/blog-linux-github-jekyll.jpg)

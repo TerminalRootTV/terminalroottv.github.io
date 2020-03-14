@@ -4,7 +4,6 @@ title: "Rodando JavaScript via Terminal e Shell via JS"
 date: 2018-01-30 16:16:42
 image: '/assets/img/js/phantomjs.jpg'
 description: 'PhantomJS é browser baseado em scripts, sem interface gráfica, para automatizar tarefas da web.'
-main-class: 'web'
 tags:
 - javascript
 - terminal

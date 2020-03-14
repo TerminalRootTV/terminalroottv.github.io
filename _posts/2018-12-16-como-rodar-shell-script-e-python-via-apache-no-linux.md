@@ -4,7 +4,6 @@ title: "Como Rodar Shell Script e Python via Apache no Linux"
 date: 2018-12-16 11:22:45
 image: '/assets/img/servidor/sh-py-apache.jpg'
 description: 'Crie Sistemas Web com Shell Script ou Python de maneira rápida e prática.'
-main-class: 'bash'
 tags:
 - apache
 - shellscript

@@ -4,9 +4,8 @@ title: 'Desmarcando pacotes do autoremove'
 date: '2014-08-03T12:31:00.001-07:00'
 image: '/assets/img/linux/new.jpg'
 description: 'Algumas vezes quando executamos o comando apt-get autoremove ele lista pacotes ou programas que não queremos que sejam removido'
-main-class: 'debian'
 tags:
-- Debian
+- debian
 ---
 
 ![Desmarcando pacotes do autoremove](/assets/img/linux/new.jpg "Desmarcando pacotes do autoremove")

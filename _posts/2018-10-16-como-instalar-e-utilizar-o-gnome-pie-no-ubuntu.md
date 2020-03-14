@@ -4,7 +4,6 @@ title: "Como Instalar e Utilizar o gnome-pie no Ubuntu"
 date: 2018-10-16 22:28:26
 image: '/assets/img/dicas/gnome-pie.jpg'
 description: 'O Gnome-Pie é um lançador de aplicativos circular ( menu torta ) para Linux.'
-main-class: 'misc'
 tags:
 - gnome
 - dicas

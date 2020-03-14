@@ -4,10 +4,9 @@ title: 'Curso Certificação Linux LPI-102: A Certificação LPI'
 date: '2013-04-17T17:22:00.000-07:00'
 image: '/assets/img/lpi/lpi.jpg'
 description: "O Linux Professional Institute (LPI) é uma organização sem fins lucrativos, sediada na California - USA um programa de certificação em sistemas GNU/Linux."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![A Certificação LPI](/assets/img/cursos/lpi.jpg "A Certificação LPI")

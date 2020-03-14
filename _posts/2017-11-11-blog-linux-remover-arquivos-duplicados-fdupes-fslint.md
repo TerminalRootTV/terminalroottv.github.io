@@ -4,10 +4,9 @@ title: "Veja Como remover arquivos duplicados no seu PC"
 date: 2017-11-11 16:10:56
 image: '/assets/img/dicas/como-remover-arquivos-duplicados-no-linux.jpg'
 description: "Fdupes é um utilitário Linux capaz de encontrar arquivos duplicados no conjunto de diretórios e subdiretórios."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
+- linux
+- dicas
 ---
 
 # O que é ?

@@ -4,16 +4,15 @@ title: "Como converter trecho de vídeo em gif (Função Shell Scripting)"
 date: '2014-05-10T18:28:00.000-07:00'
 image: '/assets/img/shell-script/video2gif-shell-script.gif'
 description: "Script para quem quiser criar gif de trecho de  vídeo."
-main-class: 'bash'
 tags:
-- Shell Script
-- Dicas
-- Open Source
-- Código Aberto
-- GNU
-- Terminal
+- shell script
+- dicas
+- open source
+- código aberto
+- gnu
+- terminal
 - terminalroot
-- Comandos
+- comandos
 ---
 
 ![Como converter trecho de vídeo em gif (Função Shell Scripting)](/assets/img/shell-script/video2gif-shell-script.gif "Como converter trecho de vídeo em gif (Função Shell Scripting)")

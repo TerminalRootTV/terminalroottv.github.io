@@ -4,7 +4,6 @@ title: "Como Renderizar Markdown no Linux"
 date: 2018-09-07 09:21:46
 image: '/assets/img/dicas/md-linux.jpg'
 description: 'O Markdown existe pra simplificar ainda mais o HTML, ou seja, ele converte seu texto em um HTML válido.'
-main-class: 'html'
 tags:
 - markdown
 - html

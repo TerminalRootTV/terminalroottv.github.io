@@ -4,7 +4,6 @@ title: "Como Instalar e Configurar o i3wm e o i3blocks"
 date: 2018-07-31 02:39:48
 image: '/assets/img/outros/bmyWm0p.png'
 description: 'i3 é um gerenciador de janelas lado a lado projetado para X11, inspirado wmii, e escrito em C.'
-main-class: 'misc'
 tags:
 - xwindow
 - i3wm

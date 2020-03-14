@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Configurando a Rede"
 date: '2013-03-24T14:49:00.000-07:00'
 image: '/assets/img/lpi/rede-config.jpg'
 description: "Várias distribuições oferecem ferramentas próprias para a configuração e carga dos recursos de rede."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Configurando a Rede](/assets/img/lpi/rede-config.jpg "Configurando a Rede")

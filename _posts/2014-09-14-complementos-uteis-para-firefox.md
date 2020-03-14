@@ -4,7 +4,6 @@ title: "16 Complementos úteis para Firefox"
 date: '2014-09-14T15:49:00.000-07:00'
 image: '/assets/img/firefox/firefox.jpg'
 description: "Veja uma lista selecionada de complementos para o Firefox."
-main-class: 'web'
 tags:
 - firefox
 - web

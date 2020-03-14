@@ -4,11 +4,10 @@ title: "Aprenda VIM , jogando!"
 date: '2015-07-13T16:07:00.000-07:00'
 image: '/assets/img/shell-script/vim-adventures.jpg'
 description: "Um jogo on line que te faz aprender comandos do VIM."
-main-class: 'misc'
 tags:
-- VIM
-- Games
-- Comandos
+- vim
+- games
+- comandos
 ---
 
 ![Aprenda VIM , jogando!](/assets/img/shell-script/vim-adventures.jpg "Aprenda VIM , jogando!")

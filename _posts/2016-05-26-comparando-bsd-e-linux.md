@@ -4,10 +4,9 @@ title: "Comparando BSD e Linux"
 date: '2016-05-26T18:55:00.000-07:00'
 image: '/assets/img/bsd/linux_vs_bsd.jpg'
 description: "Então qual é realmente a diferença entre, digamos, o Debian GNU/Linux e o FreeBSD ?"
-main-class: 'artigos'
 tags:
-- Linux
-- BSD
+- linux
+- bsd
 ---
 
 ![Comparando BSD e Linux](/assets/img/bsd/linux_vs_bsd.jpg "Comparando BSD e Linux")

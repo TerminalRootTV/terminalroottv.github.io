@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Arquivos de LOG"
 date: '2013-03-30T11:15:00.000-07:00'
 image: '/assets/img/lpi/log.jpg'
 description: "O Linux possui um serviço especial chamado syslog que faz todo o trabalho sujo de filtrar e gravar mensagens importantes"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Arquivos de LOG](/assets/img/lpi/log.jpg "Arquivos de LOG")

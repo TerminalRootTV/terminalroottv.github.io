@@ -4,9 +4,8 @@ title: "Confira o Mapa Submarino dos Cabos da Internet"
 date: '2016-05-10T16:04:00.000-07:00'
 image: '/assets/img/rede/mapa-interativo-dos-cabos.jpg'
 description: "A TeleGeography disponibilizou um mapa de cabos que retrata sistemas de cabos submarinos planejados e ativos e suas estações de destino."
-main-class: 'misc'
 tags:
-- Redes
+- redes
 ---
 
 ![Confira o Mapa Submarino dos Cabos da Internet](/assets/img/rede/mapa-interativo-dos-cabos.jpg "Confira o Mapa Submarino dos Cabos da Internet")

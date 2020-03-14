@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Criptografia de Dados"
 date: '2013-04-07T06:21:00.000-07:00'
 image: '/assets/img/lpi/criptografia-xyz.jpg'
 description: "O gpg (GNU pgp, versão livre da ferramenta pgp) permite encriptar dados, adicionalmente poderá verificar se a origem dos dados é confiável, através da assinatura de arquivos."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Criptografia de Dados](/assets/img/lpi/criptografia-xyz.jpg "Criptografia de Dados")

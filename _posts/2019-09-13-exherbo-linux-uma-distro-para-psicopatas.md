@@ -4,7 +4,6 @@ title: "Exherbo Linux - Uma Distro para Psicopatas!"
 date: 2019-09-13 19:55:55
 image: '/assets/img/distros/exherbo-thumbnail.jpg'
 description: 'Sexta-feira 13 é dia de conhecer um Linux bem apropriado.'
-main-class: 'linux'
 tags:
 - exherbo
 - psicopata

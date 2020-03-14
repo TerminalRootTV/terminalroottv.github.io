@@ -4,7 +4,6 @@ title: "Como Instalar o Funtoo pelo Ubuntu ou Linux Mint"
 date: 2018-10-30 00:00:40
 image: '/assets/img/funtoo/funtoo.jpg'
 description: 'Funtoo é um Sistema Operacional livre com o kernel Linux, baseado no Gentoo.'
-main-class: 'misc'
 tags:
 - funtoo
 - shellscript

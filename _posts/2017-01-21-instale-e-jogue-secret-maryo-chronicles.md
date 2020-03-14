@@ -4,13 +4,10 @@ title: "Instale e Jogue Secret Maryo Chronicles"
 date: 2017-01-21 20:45:47
 image: '/assets/img/games/secret-maryo-cronicles.jpg'
 description: "Um jogo baseado no Super Mario Bros para GNU/Linux !"
-main-class: 'games'
 color: '#141b63'
 tags:
 - games
 categories:
-twitter_text: "Instale e Jogue Secret Maryo Chronicles"
-introduction: "Um jogo baseado no Super Mario Bros para GNU/Linux !"
 ---
 
 ![Secret Maryo Cronicles](/assets/img/games/secret-maryo-cronicles.jpg)

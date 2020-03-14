@@ -4,10 +4,9 @@ title: Quebrando a senha de root
 date: '2014-12-26T09:10:00.002-08:00'
 image: '/assets/img/linux/root.jpg'
 description: Quebrando a senha de root
-main-class: 'linux'
 tags:
-- Linux
-- GNU
+- linux
+- gnu
 ---
 
 ### A maneira mais fácil de se quebrar a senha de root no Linux é

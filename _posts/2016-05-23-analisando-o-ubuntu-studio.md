@@ -4,9 +4,8 @@ title: "Analisando o Ubuntu Studio"
 date: '2016-05-23T19:02:00.002-07:00'
 image: '/assets/img/distros/ubuntu-studio.jpg'
 description: "Ubuntu Studio  é uma distribuição Linux baseada no Ubuntu voltada para pessoas ligadas à edição de material multimídia como áudio, vídeo e imagem."
-main-class: 'misc'
 tags:
-- Ubuntu
+- ubuntu
 ---
 ![Analisando o Ubuntu Studio](/assets/img/distros/ubuntu-studio.jpg "Analisando o Ubuntu Studio")
 

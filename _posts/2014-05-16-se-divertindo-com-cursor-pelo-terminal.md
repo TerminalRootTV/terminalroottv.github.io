@@ -4,11 +4,10 @@ title: "Se divertindo com cursor pelo Terminal"
 date: '2014-05-16T18:21:00.000-07:00'
 image: '/assets/img/shell-script/Neko_animated.gif'
 description: "O aplicativo oneko cria a imagem de um gato, que fica correndo  atrás do cursor no ambiente desktop de sistemas GNU/Linux."
-main-class: 'misc'
 tags:
-- Dicas
-- Terminal
-- Comandos
+- dicas
+- terminal
+- comandos
 ---
 ![Se divertindo com cursor pelo Terminal](/assets/img/shell-script/Neko_animated.gif "Se divertindo com cursor pelo Terminal")
 

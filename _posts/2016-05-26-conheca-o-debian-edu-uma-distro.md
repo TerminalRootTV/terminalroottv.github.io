@@ -4,10 +4,9 @@ title: "Conheça o Debian Edu uma distro Educacional baseada em Debian"
 date: '2016-05-26T09:39:00.003-07:00'
 image: '/assets/img/distros/DebianEduSqueeze.jpg'
 description: "O Debian Edu, é um sistema operacional Debian GNU/Linux completo com aplicativos voltados pro ambiente educacional."
-main-class: 'debian'
 tags:
-- Debian
-- Distros
+- debian
+- distros
 ---
 ![Conheça o Debian Edu uma distro Educacional baseada em Debian](/assets/img/distros/DebianEduSqueeze.jpg "Conheça o Debian Edu uma distro Educacional baseada em Debian")
 

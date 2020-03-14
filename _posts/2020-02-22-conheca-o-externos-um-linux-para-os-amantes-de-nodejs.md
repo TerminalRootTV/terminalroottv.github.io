@@ -5,7 +5,7 @@ date: 2020-02-22 09:45:30
 image: '/assets/img/distros/eXternOS.jpg'
 description: 'Um sistema operacional Linux gratuito, moderno e interessante, baseado no Node.js'
 tags:
-- eXternOS
+- externos
 - nodejs
 - javascript
 - distros

@@ -4,10 +4,8 @@ title: "Como Importar seu blog do Blogger, Wordpress,...para o GitHub"
 date: 2017-02-19 20:00:44
 image: '/assets/img/gitgithub/blogger2jekyll-github.jpg'
 description: "Fácil, rápido, seguro e moderno, mude do Blogger, Wordpress ou outro para o GitHub Pages!"
-main-class: 'web'
 tags:
 - github
-introduction: "Fácil, rápido, seguro e moderno, mude do Blogger, Wordpress ou outro para o GitHub Pages!"
 ---
 
 ![Como Importar seu blog do Blogger para o GitHub](/assets/img/gitgithub/blogger2jekyll-github.jpg "Como Importar seu blog do Blogger para o GitHub")

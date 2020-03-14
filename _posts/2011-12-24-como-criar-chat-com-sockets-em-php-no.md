@@ -4,13 +4,12 @@ title: 'Como criar Chat com Sockets em PHP no Linux'
 date: '2011-12-24T13:30:00.000-08:00'
 image: '/assets/img/php/socket.jpg'
 description: 'Demonstração de como criar Chat sem refresh de página e sem Ajax, somente com Sockets, o banco de dados somente como gravação de dados.'
-main-class: 'web'
 tags:
-- Debian
-- Linux
-- Video-Tutorial
-- PHP
-- Redes
+- debian
+- linux
+- video-tutorial
+- php
+- redes
 ---
 
 ![Como criar Chat com Sockets em PHP no Linux](/assets/img/php/socket.jpg "Como criar Chat com Sockets em PHP no Linux")

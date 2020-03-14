@@ -4,7 +4,6 @@ title: "Como Instalar o Debian Remotamente via SSH"
 date: 2017-09-25 09:43:31
 image: '/assets/img/debian/debian-remotamente.jpg'
 description: "Nesse vídeo foi demonstrado como instalar o Debian pela Internet ou Rede LAN utilizando as Opções Avançadas do instalador e o Expert Install."
-main-class: 'debian'
 tags:
 - debian
 - rede

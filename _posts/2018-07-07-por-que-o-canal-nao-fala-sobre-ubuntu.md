@@ -4,7 +4,6 @@ title: "Por que o Canal Não Fala Sobre Ubuntu ?"
 date: 2018-07-07 17:09:25
 image: '/assets/img/live/porque-o-canal-nao-fala-sobre-ubuntu.jpg '
 description: 'Bate papo interessante sobre minha história no Linux, para responder a pergunta sobre Ubuntu.'
-main-class: 'misc'
 tags:
 - ubuntu
 - videos

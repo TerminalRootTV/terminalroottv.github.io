@@ -3,9 +3,8 @@ layout: post
 title: 'Enviando E-Mails (Gmail) com PHPMailer'
 date: '2011-11-18T18:18:00.000-08:00'
 description: 'Eu utilizei essa classe hoje pra configurar minha página de contato aqui do Blog'
-main-class: 'web'
 tags:
-- PHP
+- php
 ---
 
 Eu utilizei essa classe hoje pra configurar minha página de contato aqui do Blog.

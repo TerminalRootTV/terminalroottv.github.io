@@ -4,7 +4,6 @@ title: "Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu"
 date: 2019-02-25 19:18:26
 image: '/assets/img/gentoo/gentoo-ubuntu.jpg'
 description: 'Nesse vídeo também mostramos como configurar o Kernel Linux do Zero.'
-main-class: 'bash'
 tags:
 - gentoo
 - ubuntu

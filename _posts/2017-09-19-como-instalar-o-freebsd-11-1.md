@@ -4,7 +4,6 @@ title: "Como Instalar o FreeBSD 11.1"
 date: 2017-09-19 19:09:58
 image: '/assets/img/freebsd/freebsd-install.jpg'
 description: "Nesse vídeo tutorial é demonstrada a instalação do FreeBSD Release 11.1"
-main-class: 'tv'
 tags:
 - freebsd
 - video

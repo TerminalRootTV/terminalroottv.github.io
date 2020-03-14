@@ -4,9 +4,8 @@ title: 'Como mudar a imagem de fundo da tela de login(GDM3) no Debian'
 date: '2013-02-11T16:45:00.000-08:00'
 image: '/assets/img/linux/spacemachine-gdm-preview.jpg'
 description: 'Dica rápida'
-main-class: 'debian'
 tags:
-- Debian
+- debian
 ---
 
 ![Como mudar a imagem de fundo da tela de login(GDM3)](/assets/img/linux/spacemachine-gdm-preview.jpg "Como mudar a imagem de fundo da tela de login(GDM3)")

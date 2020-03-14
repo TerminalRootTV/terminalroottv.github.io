@@ -4,7 +4,6 @@ title: "Conheça o GhostBSD - Um Sistema Simples, Rápido e Elegante"
 date: 2019-04-13 18:33:00
 image: '/assets/img/bsd/ghostbsd.jpg'
 description: 'GhostBSD é um sistema operacional baseado no FreeBSD , e é para desktops.'
-main-class: 'bsd'
 tags:
 - ghostbsd
 - freebsd

@@ -4,7 +4,6 @@ title: "Como Instalar e Usar o Shell ZSH e o Oh My Zsh!"
 date: 2018-02-23 15:32:47
 image: '/assets/img/shell-script/zsh-oh-my-zsh.jpg'
 description: 'Zsh é um shell de login interativo que também pode ser usado como um poderoso intérprete de linguagem de script. É semelhante ao bash e ao Korn shell, mas oferece uma grande capacidade de configuração.'
-main-class: 'artigos'
 tags:
 - shellscript
 ---

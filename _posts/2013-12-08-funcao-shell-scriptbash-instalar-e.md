@@ -4,12 +4,11 @@ title: "Função Shell Script (Bash): Instalar e Configurar o NFS"
 date: '2013-12-08T14:37:00.002-08:00'
 image: '/assets/img/shell-script/prompt.jpg'
 description: "Acesse pastas de outros computadores com Linux via Rede"
-main-class: 'linux'
 tags:
-- Linux
-- Shell Script
-- Servidores
-- Redes
+- linux
+- shell script
+- servidores
+- redes
 ---
 ![Função Shell Script (Bash): Instalar e Configurar o NFS](/assets/img/shell-script/prompt.jpg "Função Shell Script (Bash): Instalar e Configurar o NFS")
 

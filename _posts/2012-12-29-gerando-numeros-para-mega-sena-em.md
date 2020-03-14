@@ -4,13 +4,10 @@ title: "Gerando Números para Mega-Sena em Linguagem C"
 date: 2012-12-29 20:12:47
 image: "/assets/img/c/megasenac.jpg"
 description: "Função em Linguagem C para gerar 6 números aleatórios para a Mega-Sena."
-main-class: 'C'
 color: '#3465a4'
 tags:
-- Linguagem C
+- linguagem c
 categories:
-twitter_text: "Gerando Números para Mega-Sena em Linguagem C"
-introduction: "Função em Linguagem C para gerar 6 números aleatórios para a Mega-Sena."
 ---
 
 ![Mega Sena Linguagem C](/assets/img/c/megasenac.jpg)

@@ -4,10 +4,9 @@ title: "Resolvendo 'bad interpreter' no Bash"
 date: '2014-09-25T16:59:00.003-07:00'
 image: '/assets/img/bash/terminal.jpg'
 description: "bad interpreter: No such file or directory"
-main-class: 'bash'
 tags:
-- Shell Script
-- Dicas
+- shell script
+- dicas
 ---
 
 ![Resolvendo "bad interpreter" no Bash](/assets/img/bash/terminal.jpg "Resolvendo 'bad interpreter' no Bash")

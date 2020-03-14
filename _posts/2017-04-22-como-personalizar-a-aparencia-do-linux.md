@@ -4,10 +4,9 @@ title: "Como Personalizar a Aparência do Linux"
 date: 2017-04-22 19:45:19
 image: '/assets/img/debian/como-personalizar-a-aparencia-do-linux.jpg'
 description: "Veja como alterar o tema e os ícones do seu perfil no GNU/Linux."
-main-class: 'debian'
 tags:
-- MATE
-- Debian
+- mate
+- debian
 ---
 
 ### Link do artigo que mostra como remover os ícones da Área de Trabalho

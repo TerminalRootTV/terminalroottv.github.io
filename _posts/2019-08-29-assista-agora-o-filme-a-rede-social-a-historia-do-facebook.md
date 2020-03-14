@@ -4,7 +4,6 @@ title: "Assista agora o filme A Rede Social - A História do Facebook"
 date: 2019-08-29 21:02:31
 image: '/assets/img/movie/filme-a-rede-social-facebook.jpg'
 description: 'Conta a história da criação da rede social Facebook e seus desdobramentos.'
-main-class: 'filmes'
 tags:
 - filme
 - facebook

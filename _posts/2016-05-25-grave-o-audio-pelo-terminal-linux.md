@@ -3,7 +3,6 @@ layout: post
 title: "Grave o áudio pelo Terminal Linux"
 date: '2016-05-25T14:01:00.004-07:00'
 description: "Você pode usar o ALSAMIXER e o ARECORD!"
-main-class: 'linux'
 tags:
 - linux
 - multimidia

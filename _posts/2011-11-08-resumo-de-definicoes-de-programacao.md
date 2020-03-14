@@ -3,9 +3,8 @@ layout: post
 title: 'Resumo de definições de Programação Orientada a Objetos'
 date: '2011-11-07T19:09:00.000-08:00'
 description: 'Ideias sobre PHP, mas alguns tópicos servem pra outras linguagens.'
-main-class: 'misc'
 tags:
-- PHP
+- php
 ---
 
 + 01-Variáveis ​​dentro da classe são chamados de "propriedades".

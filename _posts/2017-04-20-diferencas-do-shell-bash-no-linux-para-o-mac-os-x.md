@@ -4,7 +4,6 @@ title: "Diferenças do Shell Bash no Linux para o Mac OS X"
 date: 2017-04-20 13:17:04
 image: '/assets/img/bash/macosx-linux.jpg'
 description: "No Mac OS X a partir do Panther, o Bash é o Shell padrão do sistema, e ele já devidamente instalado para todos os usuários."
-main-class: 'bash'
 tags:
 - bash
 - gnu

@@ -4,12 +4,11 @@ title: "Como obter seu IP via Terminal"
 date: '2015-08-02T16:23:00.000-07:00'
 image: '/assets/img/shell-script/obter-ip.jpg'
 description: "Existem várias formas de obter seu IP via Terminal"
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- Comandos
-- Redes
+- linux
+- gnu
+- comandos
+- redes
 ---
 
 ![Como obter seu IP via Terminal](/assets/img/shell-script/obter-ip.jpg "Como obter seu IP via Terminal")

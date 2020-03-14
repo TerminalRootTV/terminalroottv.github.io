@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Arquitetura de Hardware."
 date: '2012-11-10T15:15:00.000-08:00'
 image: '/assets/img/lpi/arquitetura.jpg'
 description: "Entrada/saída (em inglês: Input/output, sigla I/O) é um termo utilizado quase que exclusivamente no ramo da computação."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![LPI Linux Arquitetura de Hardware](/assets/img/lpi/architeture.jpg "LPI Linux Arquitetura de Hardware")

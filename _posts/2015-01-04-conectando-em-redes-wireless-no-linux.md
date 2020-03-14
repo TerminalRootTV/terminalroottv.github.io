@@ -4,11 +4,10 @@ title: "Conectando em Redes Wireless no Linux por comando"
 date: '2015-01-04T12:29:00.000-08:00'
 image: '/assets/img/rede/wifi.jpg'
 description: "Nesse post vou iniciar um processo de rede wireless para executarmos por comando."
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- Redes
+- linux
+- gnu
+- redes
 ---
 
 Nesse post vou iniciar um processo de rede wireless para executarmos por comando,  comando é bom, pois poderemos criar __Scripts em Shell__, caso precisarmos, no final desse post tem um modo mais simples, mais vou explicar primeiramente "__tudo na unha__".

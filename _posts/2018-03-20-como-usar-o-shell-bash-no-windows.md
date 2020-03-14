@@ -4,7 +4,6 @@ title: "Como Usar o Shell Bash no Windows"
 date: 2018-03-20 01:10:41
 image: '/assets/img/bash/windows-bash.jpg'
 description: "Todos já sabem que agora é possível usar o Bash no Windows nativamente, então vamos dar algumas dicas."
-main-class: 'bash'
 tags:
 - bash
 - ubuntu

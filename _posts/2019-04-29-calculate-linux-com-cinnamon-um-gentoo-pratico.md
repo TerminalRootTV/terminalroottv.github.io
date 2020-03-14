@@ -4,7 +4,6 @@ title: "Calculate Linux com Cinnamon - Um Gentoo Prático"
 date: 2019-04-29 13:59:05
 image: '/assets/img/distros/calculate-linux.jpg'
 description: 'Calculate Linux é uma distribuição Linux da Rússia baseada no Gentoo.'
-main-class: 'gentoo'
 tags:
 - gentoo
 - distros

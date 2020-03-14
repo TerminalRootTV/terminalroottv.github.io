@@ -4,7 +4,6 @@ title: "Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-18 16:06:45
 image: '/assets/img/cursoshell/curso-shell-script-do-iniciante-ao-avancado-linux.jpg'
 description: "Shell Script é uma Linguagem de Script utilizada por vários Sistemas Operacionais (Linux, Mac OS X, BSD e Windows), que facilita a ordem de rotinas em diversas áreas."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

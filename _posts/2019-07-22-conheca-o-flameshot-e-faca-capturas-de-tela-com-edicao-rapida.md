@@ -4,7 +4,6 @@ title: "Conheça o Flameshot e Faça Capturas de Tela com Edição Rápida"
 date: 2019-07-22 22:18:47
 image: '/assets/img/dicas/flameshot.png'
 description: 'Possui uma interface interativa com controles para selecionar a região de captura desejada.'
-main-class: 'linux'
 tags:
 - flameshot
 - linux

@@ -4,7 +4,6 @@ title: "Como Customizar Totalmente a Aparência do GNOME"
 date: 2018-02-17 23:23:49
 image: '/assets/img/gnome/gnome.jpg'
 description: 'Alteração dos ícones, dash, dock, painel transparente, conky entr e outras modificações interessantes no GNOME.'
-main-class: 'web'
 tags:
 - gnome
 ---

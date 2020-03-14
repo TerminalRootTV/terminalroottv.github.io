@@ -4,10 +4,9 @@ title: "Como instalar o GDM3 ou configurar o LightDM no Debian"
 date: '2016-05-07T07:44:00.000-07:00'
 image: '/assets/img/debian/gm3.jpg'
 description: "Apesar de ser configurável e ser um ótimo Display Manager, há quem goste de uma forma diferente de logar no sistema."
-main-class: 'debian'
 tags:
-- Debian
-- MATE
+- debian
+- mate
 ---
 
 ![Como instalar o GDM3 ou configurar o LightDM no Debian](/assets/img/debian/gm3.jpg "Como instalar o GDM3 ou configurar o LightDM no Debian")

@@ -4,15 +4,12 @@ title: "Como criar um SLIDE de IMAGENS ou VÍDEOS pelo TERMINAL"
 date: '2016-02-27T09:31:00.001-08:00'
 image: '/assets/img/dicas/slide.jpg'
 description: "Automatize criação de múltiplos Slides"
-main-class: 'linux'
 color: '#3b5998'
 author: Terminal Root
 tags:
 - linux
 - multimidia
 - terminal
-twitter_text: "Como criar um SLIDE de IMAGENS ou VÍDEOS pelo TERMINAL"
-introduction: "Automatize criação de múltiplos Slides"
 ---
 
 ![Blog Linux Terminal Root](/assets/img/dicas/slide.jpg)

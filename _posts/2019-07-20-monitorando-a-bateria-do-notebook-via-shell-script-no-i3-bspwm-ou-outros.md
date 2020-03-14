@@ -4,7 +4,6 @@ title: "Monitorando a Bateria do Notebook via Shell Script no i3, bspwm ou outro
 date: 2019-07-20 21:54:24
 image: '/assets/img/dicas/notification.jpg'
 description: 'Nesse tutorial vamos mostrar uma forma mais simples e interessante.'
-main-class: 'i3'
 tags:
 - i3
 - i3wm

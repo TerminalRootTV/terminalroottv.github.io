@@ -4,7 +4,6 @@ title: "Como Exibir Gráficos de Música no Desktop do seu Linux"
 date: 2019-06-16 11:57:47
 image: '/assets/img/multimidia/musica-com-grafico.jpg'
 description: 'Instale um visualizador de espectro para áudio usado para janelas ou planos de fundo da área de trabalho.'
-main-class: 'linux'
 tags:
 - multimidia
 - audio

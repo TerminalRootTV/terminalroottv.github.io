@@ -4,7 +4,6 @@ title: "Conheça o Yabar - uma alternativa para sua barra de status"
 date: 2019-07-25 13:31:16
 image: '/assets/img/polybar/yabar.jpg'
 description: 'Yabar é uma barra de status moderna e leve para bspwm e i3wm .'
-main-class: 'unix'
 tags:
 - yabar
 - polybar

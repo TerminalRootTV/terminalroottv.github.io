@@ -4,7 +4,6 @@ title: "Como Configurar o Grub Para Enxergar o FreeBSD no Linux"
 date: 2017-09-27 07:21:26
 image: '/assets/img/grub/grub-linux-freebsd.jpg'
 description: "Caso você não consiga enxergar o FreeBSD no grub (no GNU/Linux), você precisa efetuar algumas modificações no grub pra enxergar o FreeBSD."
-main-class: 'tv'
 tags:
 - freebsd
 - linux

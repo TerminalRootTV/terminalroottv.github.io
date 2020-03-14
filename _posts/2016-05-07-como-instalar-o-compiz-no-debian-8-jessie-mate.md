@@ -4,13 +4,10 @@ title: "Como instalar o COMPIZ no Debian 8 Jessie MATE"
 date: '2016-05-07T17:00:00.001-07:00'
 image: '/assets/img/debian/compiz.jpg'
 description: "Compiz foi um dos primeiros gerenciadores de janelas 3D para o servidor de janela X, onde foi usada aceleração OpenGL."
-main-class: 'debian'
 tags:
-- Debian
-- MATE
-- TerminalRootTV
-twitter_text: "Como instalar o COMPIZ no Debian 8 Jessie MATE"
-introduction: "Compiz foi um dos primeiros gerenciadores de janelas 3D para o servidor de janela X, onde foi usada aceleração OpenGL."
+- debian
+- mate
+- terminalroottv
 ---
 ![Compiz Debian Blog Linux Terminal Root](/assets/img/debian/compiz.jpg "Compiz Debian Blog Linux Terminal Root")
 

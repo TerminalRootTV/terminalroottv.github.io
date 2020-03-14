@@ -4,13 +4,11 @@ title: "10 comandos perigosos que você nunca deve executar no GNU/Linux"
 date: '2015-06-06T09:49:00.001-07:00'
 image: '/assets/img/linux/forkbomb.jpg'
 description: "A linha de comando no GNU/Linux é muito produtiva, útil e interessante, no entanto, às vezes pode ser muito perigoso."
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- Terminal
-- Comandos
-introduction: "A linha de comando no GNU/Linux é muito produtiva, útil e interessante, no entanto, às vezes pode ser muito perigoso."
+- linux
+- gnu
+- terminal
+- comandos
 ---
 
 ![Fork Bomb](/assets/img/linux/forkbomb.jpg)

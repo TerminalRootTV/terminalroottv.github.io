@@ -4,9 +4,8 @@ title: 'Condições IF, ELSE IF e ELSE em C'
 date: '2012-01-04T08:06:00.000-08:00'
 image: '/assets/img/c/c.jpg'
 description: 'Segue um exemplo simples para entendimento das condições na Linguagem C, leia os comentários para entender linha por linha.'
-main-class: 'misc'
 tags:
-- Linguagem C
+- linguagem c
 ---
 
 > Segue um exemplo simples para entendimento das condições na __Linguagem C__, leia os comentários para entender linha por linha.

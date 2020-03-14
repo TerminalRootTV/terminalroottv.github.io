@@ -4,7 +4,6 @@ title: "DragonFlyBSD + HerbstluftWM + Lemonbar"
 date: 2019-02-03 19:45:50
 image: '/assets/img/bsd/dragonflybsd.jpg'
 description: 'Nesse vídeo instalamos e configuramos o Dragonflybsd, Herbstluftwm e o Lemonbar.'
-main-class: 'bsd'
 tags:
 - bsd
 - dragonflybsd

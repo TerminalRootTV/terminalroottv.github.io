@@ -4,7 +4,6 @@ title: "Conceito - Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-18 19:45:13
 image: '/assets/img/cursoshell/02-conceito.jpg'
 description: "Shell é um interpretador de comandos que fica entre o usuário e o Kernel (núcleo)."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Configurando o DHCP"
 date: '2013-03-26T17:00:00.000-07:00'
 image: '/assets/img/lpi/dhcp.jpg'
 description: "Hoje em dia, quase todas as redes utilizam algum tipo de servidor DHCP."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 ![Curso Certificação Linux LPI-102: Configurando o DHCP](/assets/img/lpi/dhcp.jpg "Curso Certificação Linux LPI-102: Configurando o DHCP")
 

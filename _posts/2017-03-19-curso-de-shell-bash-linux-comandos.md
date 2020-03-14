@@ -4,7 +4,6 @@ title: "Comandos - Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-19 18:45:13
 image: '/assets/img/cursoshell/09-comandos.jpg'
 description: "Se o usuário utiliza tais comandos, então ele se encontra no modo shell, também chamado de modo texto (ou GNU/Linux tradicional)."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

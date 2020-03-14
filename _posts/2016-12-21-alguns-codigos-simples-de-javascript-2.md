@@ -4,12 +4,9 @@ title: "10 códigos úteis de JavaScript #2"
 date: 2016-12-21 20:15:17
 image: '/assets/img/js-imgs/js.jpg'
 description: "Comandos prontos pra copiar e colar!"
-main-class: 'html'
 color: '#de4508'
 tags:
 - javascript
-twitter_text: "Alguns códigos simples de JavaScript #2"
-introduction: "Comandos prontos pra copiar e colar!"
 ---
 
 ![Javascript Linux](/assets/img/js-imgs/js.jpg "JavaScript Linux") 

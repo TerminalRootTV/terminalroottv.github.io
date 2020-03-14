@@ -6,7 +6,7 @@ image: '/assets/img/vim/100-dicas-vim.png'
 description: 'Falar de Vim é falar de MÚLTIPLAS FACILIDADES com simples pressionamento de teclas e comandos úteis.'
 tags:
 - vim
-- Vim
+- vim
 - vimscript
 ---
 

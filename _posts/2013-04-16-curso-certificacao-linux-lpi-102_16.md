@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Gerenciador de Pacotes YUM e pacotes
 date: '2013-04-16T17:46:00.000-07:00'
 image: '/assets/img/lpi/redhat-yum-rpm-fedora-centos.jpg'
 description: "Gerenciador de Pacotes YUM e pacotes RPM"
-main-class: 'linux'
 tags:
-- Linux
-- LPI'
+- linux
+- lpi'
 ---
 
 ![Gerenciador de Pacotes YUM e pacotes RPM](/assets/img/lpi/redhat-yum-rpm-fedora-centos.jpg "Gerenciador de Pacotes YUM e pacotes RPM")

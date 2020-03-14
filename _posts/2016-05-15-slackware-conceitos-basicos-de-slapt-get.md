@@ -4,12 +4,9 @@ title: 'Slackware: conceitos básicos de slapt-get'
 date: '2016-05-15T06:56:00.001-07:00'
 image: '/assets/img/distros/slackware-slapt-get.jpg'
 description: 'slapt-get é um sistema baseado no APT para gerenciamento de pacotes da distribuição Slackware'
-main-class: 'linux'
 tags:
-- Slackware
-- Distros
-twitter_text: 'Slackware: conceitos básicos de slapt-get'
-introduction: 'slapt-get é um sistema baseado no APT para gerenciamento de pacotes da distribuição Slackware'
+- slackware
+- distros
 ---
 ![Blog Linux](/assets/img/distros/slackware-slapt-get.jpg "Blog Linux")
 [slapt-get](http://software.jaos.org/) é um sistema baseado no APT para gerenciamento de pacotes da distribuição [Slackware](http://www.slackware.com/) [GNU](http://www.terminalroot.com.br/tags#gnu)/[Linux](http://www.terminalroot.com.br/tags#linux) . Ele foi escrito por Jason Woodward no ano de 2003 e tem como objetivo fornecer os mesmos recursos que a versão original do software apt-get do [Debian GNU/Linux](http://www.terminalroot.com.br/tags#debian) .

@@ -4,7 +4,6 @@ title: "Como Instalar o Gentoo"
 date: 2017-05-14 15:58:22
 image: '/assets/img/gentoo/gentoo-install.jpg'
 description: "O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível."
-main-class: 'web'
 tags:
 - gentoo
 - linux

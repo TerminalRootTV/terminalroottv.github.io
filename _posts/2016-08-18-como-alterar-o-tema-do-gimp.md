@@ -4,10 +4,9 @@ title: "Como alterar o Tema do GIMP"
 date: '2016-08-18T14:26:00.000-07:00'
 image: '/assets/img/gimp/como-alterar-tema-gimp.jpg'
 description: "Dê uma nova cara pro seu GIMP."
-main-class: 'tv'
 tags:
-- GIMP
-- TerminalRootTV
+- gimp
+- terminalroottv
 ---
 
 ### Download dos Temas

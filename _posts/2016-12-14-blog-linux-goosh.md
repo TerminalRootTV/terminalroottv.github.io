@@ -4,14 +4,11 @@ title: "Conheça o Goosh, o Shell para o Google"
 date: 2016-12-14 21:53:42
 image: '/assets/img/goosh/blog-linux-goosh-shell-google.jpg'
 description: 'Que tal pesquisar no Google via Linha de Comando ?'
-main-class: 'bash'
 color: '#c2003a'
 tags:
 - shellscript
 - bash
 categories:
-twitter_text: 'Que tal pesquisar no Google via Linha de Comando ?'
-introduction: 'Que tal pesquisar no Google via Linha de Comando ?'
 ---
 
 <div style="text-align: center;">

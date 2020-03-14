@@ -4,7 +4,6 @@ title: 'Extrair os números do CPF formatado por Comando'
 date: '2014-10-05T06:13:00.002-07:00'
 image: '/assets/img/shell-script/tr.jpg'
 description: 'O tr é um comando muito versátil, especialmente útil para apagar caracteres indesejados.'
-main-class: 'misc'
 tags: 
 - comandos
 ---

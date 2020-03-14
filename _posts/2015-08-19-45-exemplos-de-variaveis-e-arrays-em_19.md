@@ -4,13 +4,10 @@ title: "45 Exemplos de Variáveis e Arrays em Shell Script"
 date: '2015-08-19T18:07:00.001-07:00'
 image: '/assets/img/bash/arrays.jpg'
 description: "Completíssimo"
-main-class: 'bash'
 tags:
-- Shell Script
-- Terminal
-- Comandos
-twitter_text: "45 Exemplos de Variáveis e Arrays em Shell Script"
-introduction: "Completíssimo"
+- shell script
+- terminal
+- comandos
 ---
 
 ![Blog Linux](/assets/img/bash/arrays.jpg "Arrays Bash")

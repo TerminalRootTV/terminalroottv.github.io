@@ -4,14 +4,11 @@ title: "100 Melhores Ferramentas Open Source de Segurança"
 date: 2017-02-08 11:09:08
 image: '/assets/img/opensource/100tools.jpg'
 description: "Se você é um administrador de rede, um profissional de segurança ou um usuário final, é importante que você mantenha seu sistema limpo e seguro."
-main-class: 'artigos'
 color: '#009688'
 tags:
 - opensource
 - linux
 categories:
-twitter_text: "100 Melhores Ferramentas Open Source de Segurança"
-introduction: "Se você é um administrador de rede, um profissional de segurança ou um usuário final, é importante que você mantenha seu sistema limpo e seguro."
 ---
 
 ![Open Source Blog Linux](/assets/img/opensource/100tools.jpg "Open Source Blog Linux")

@@ -4,11 +4,8 @@ title: "Classe para Exibir e Gravar em TXT: IP, OS, Data e Hora."
 date: '2011-10-30T12:38:00.000-07:00'
 image: '/assets/img/php/php.jpg'
 description: "Segue classe e já instanciada e setada a função pronta para utilização e estudo ."
-main-class: 'dev'
 tags:
-- PHP
-twitter_text: "Classe para Exibir e Gravar em TXT: IP, OS, Data e Hora."
-introduction: "Segue classe e já instanciada e setada a função pronta para utilização e estudo."
+- php
 ---
 
 ![Classe para Exibir e Gravar em TXT: IP, OS, Data e Hora](/assets/img/php/php.jpg "Classe para Exibir e Gravar em TXT: IP, OS, Data e Hora")

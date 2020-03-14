@@ -3,9 +3,8 @@ layout: post
 title: "Gerando Números para Mega-Sena com Shell Script"
 date: '2015-01-09T12:29:00.000-08:00'
 description: "Script em Bash para gerar números para Mega-Sena, o Script foi melhorado e enviado por Diego Rocha."
-main-class: 'bash'
 tags:
-- Shell Script
+- shell script
 ---
 ![Gerando Números para Mega-Sena com Shell Script](/assets/img/sh-rep-mega/blog-linux-mega-sena-bash-repub.jpg "Gerando Números para Mega-Sena com Shell Script")
 

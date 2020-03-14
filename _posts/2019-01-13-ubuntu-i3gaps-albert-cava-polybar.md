@@ -4,7 +4,6 @@ title: "Ubuntu + i3-gaps + Albert + Cava + Polybar"
 date: 2019-01-13 16:42:04
 image: '/assets/img/dicas/ubuntu-i3gaps-albert-cava-polybar.png'
 description: 'Veja como instalar e configurar o i3-gaps, Albert, Cava e Polybar no Ubuntu 18.04'
-main-class: 'misc'
 tags:
 - ubuntu
 - i3

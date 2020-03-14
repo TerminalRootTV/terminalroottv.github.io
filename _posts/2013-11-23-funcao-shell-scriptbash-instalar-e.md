@@ -4,10 +4,9 @@ title: "Função Shell Script(Bash): Instalar e Configurar o OpenSSH"
 date: '2013-11-23T15:21:00.000-08:00'
 image: '/assets/img/shell-script/prompt.jpg'
 description: "Acesse outros computadores com Linux via Rede pelo Terminal"
-main-class: 'bash'
 tags:
-- Shell Script
-- Servidores
+- shell script
+- servidores
 ---
 
 ![Função Shell Script(Bash): Instalar e Configurar o OpenSSH](/assets/img/shell-script/prompt.jpg "Função Shell Script(Bash): Instalar e Configurar o OpenSSH")

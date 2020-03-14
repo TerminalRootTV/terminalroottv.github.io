@@ -4,12 +4,11 @@ title: "Conheça a Distro CrunchBang Plus Plus"
 date: '2015-10-14T16:00:00.000-07:00'
 image: '/assets/img/distros/crunchbang-plus-plus.jpg'
 description: "Pra quem conheceu o CrunchBang uma distro minimalista, baseada em Debian, que foi descontinuada, del surgiu a ideia do CrunchBang Plus Plus."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
-- Debian-Likes
-- GNU
+- linux
+- dicas
+- debian-likes
+- gnu
 ---
 
 ![Conheça a Distro CrunchBang Plus Plus](/assets/img/distros/crunchbang-plus-plus.jpg "Conheça a Distro CrunchBang Plus Plus")

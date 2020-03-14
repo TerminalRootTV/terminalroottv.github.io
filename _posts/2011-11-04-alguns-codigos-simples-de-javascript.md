@@ -3,14 +3,11 @@ layout: post
 title: Alguns códigos simples de JavaScript
 date: '2011-11-03T19:17:00.000-07:00'
 description: Alguns códigos simples de JavaScript
-main-class: 'html'
 color: '#fbbc05'
 author: The Bang Bash
 tags:
-- JavaScript-JQuery
-modified_time: '2013-05-03T07:16:10.932-07:00'
-twitter_text: Alguns códigos simples de JavaScript
-introduction: Alguns códigos simples de JavaScript
+- javascript-jquery
+modified_time: '2013-05-03t07:16:10.932-07:00'
 ---
 
 

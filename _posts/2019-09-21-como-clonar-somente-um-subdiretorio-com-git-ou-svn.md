@@ -4,7 +4,6 @@ title: "Como Clonar Somente um Subdiretório com Git ou SVN"
 date: 2019-09-21 13:33:54
 image: '/assets/img/git/git-clone-min.jpg'
 description: 'No Git já é possível, mas no SVN é bem mais simples.'
-main-class: 'git'
 tags:
 - git
 - svn

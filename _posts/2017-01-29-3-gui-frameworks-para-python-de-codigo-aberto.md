@@ -4,13 +4,10 @@ title: "3 GUI Frameworks para Python de Código Aberto"
 date: 2017-01-29 12:42:47
 image: '/assets/img/python/python-gui-mini.jpg'
 description: "Chega um momento na jornada da maioria dos programadores que ele precisa construir uma interface gráfica para seu programa."
-main-class: 'python'
 color: '#3174a7'
 tags:
 - python
 categories:
-twitter_text: "3 GUI Frameworks para Python de Código Aberto"
-introduction: "Chega um momento na jornada da maioria dos programadores que ele precisa construir uma interface gráfica para seu programa."
 ---
 
 ![GUI Frameworks Python](/assets/img/python/python-gui.jpg)

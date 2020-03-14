@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Serviços de Rede no Linux"
 date: '2013-03-27T16:49:00.000-07:00'
 image: '/assets/img/lpi/services.jpg'
 description: "Serviços de rede é o que está disponí­vel para ser acessado pelo usuário."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Serviços de Rede no Linux](/assets/img/lpi/services.jpg "Serviços de Rede no Linux")

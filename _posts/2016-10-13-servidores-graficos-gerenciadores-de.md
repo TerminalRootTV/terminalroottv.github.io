@@ -4,11 +4,8 @@ title: "Servidores Gráficos, Gerenciadores de Janelas e Interfaces no Linux"
 date: '2016-10-13T17:32:00.002-07:00'
 image: '/assets/img/linux/gui-gnu-linux.jpg'
 description: "Informações importantes!"
-main-class: 'tv'
 tags:
-- TerminalRootTV
-twitter_text: "Servidores Gráficos, Gerenciadores de Janelas e Interfaces no Linux"
-introduction: "Informações importantes!"
+- terminalroottv
 ---
 ![Blog Linux](/assets/img/linux/gui-gnu-linux.jpg "Blog Linux")
 

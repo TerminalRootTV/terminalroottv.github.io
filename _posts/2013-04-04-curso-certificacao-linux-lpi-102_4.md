@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Configurando o Shell Seguro OpenSSH"
 date: '2013-04-04T16:16:00.000-07:00'
 image: '/assets/img/lpi/ssh.jpg'
 description: "Secure Shell ou SSH é, simultaneamente, um programa de computador e um protocolo de rede que permite a conexão com outro computador na rede"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Configurando o Shell Seguro OpenSSH](/assets/img/lpi/ssh.jpg "Configurando o Shell Seguro OpenSSH")

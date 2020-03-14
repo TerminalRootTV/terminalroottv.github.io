@@ -4,14 +4,11 @@ title: "20 exemplos do comando find"
 date: '2015-07-20T16:54:00.000-07:00'
 image: '/assets/img/bash/find.jpg'
 description: "find é um aplicativo para linha de comando de busca de arquivos utilizado em sistemas operativos Unix-like e derivados. "
-main-class: 'bash'
 color: '#c2003a'
 tags:
-- Terminal
-- Comandos
+- terminal
+- comandos
 categories:
-twitter_text: "20 exemplos do comando find"
-introduction: "find é um aplicativo para linha de comando de busca de arquivos utilizado em sistemas operativos Unix-like e derivados. "
 ---
 
 ![Comando find blog linux](/assets/img/bash/find.jpg "Comando find blog linux")

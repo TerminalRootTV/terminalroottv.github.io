@@ -4,7 +4,6 @@ title: "Como Calcular o Tempo de Múltiplos Vídeos com Shell Script"
 date: 2017-04-07 12:25:52
 image: '/assets/img/shell-script/como-contar-videos-shell-script.jpg'
 description: 'O vídeo mostra como efetuar o cálculo do tempo total de múltiplos vídeos com Shell Script.'
-main-class: 'bash'
 tags:
 - shell script
 - bash

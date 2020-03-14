@@ -4,7 +4,6 @@ title: "Criando um A L E R T A em Shell Script"
 date: 2019-06-19 02:49:43
 image: '/assets/img/video/alerta.jpg'
 description: 'Código pronto que faz a tela do monitor piscar.'
-main-class: 'bash'
 tags:
 - comando
 - shellscript

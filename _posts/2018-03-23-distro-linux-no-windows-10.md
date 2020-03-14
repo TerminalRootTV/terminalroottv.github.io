@@ -4,7 +4,6 @@ title: "Distros Linux no Windows 10 - Qual a Necessidade Disso ?"
 date: 2018-03-23 23:11:11
 image: '/assets/img/live-youtube/hoje.jpg'
 description: 'Assista caso você não tenha visto ao vivo e conheça a opinião dos participantes em relação a essa união.'
-main-class: 'tv'
 tags:
 - live
 - youtube

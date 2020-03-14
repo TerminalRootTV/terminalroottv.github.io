@@ -4,7 +4,6 @@ title: "Como Deixar o Linux Mint 19 Com Cara de macOS"
 date: 2018-07-24 22:14:30
 image: '/assets/img/distros/mint2mac.jpg'
 description: 'Dica rápida para aqueles que são entusiastas do macOS!'
-main-class: 'misc'
 tags:
 - linux
 - dicas

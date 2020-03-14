@@ -4,7 +4,6 @@ title: "Os 5 Melhores Editores de Texto  de Todos os Tempos para Linux"
 date: 2017-11-19 16:31:05
 image: '/assets/img/tv/editores-de-texto-linux.jpg'
 description: "Um editor de texto é um aplicativo de edição de arquivos de texto, e sem dúvida são os softwares mais utilizados em informática."
-main-class: 'bash'
 tags:
 - top5
 - tv

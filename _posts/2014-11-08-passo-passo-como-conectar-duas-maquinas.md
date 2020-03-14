@@ -4,14 +4,11 @@ title: "Passo a Passo como conectar duas máquinas Linux e Windows via rede com 
 date: '2014-11-08T16:18:00.002-08:00'
 description: Passo a Passo como conectar duas máquinas Linux e Windows via rede com cabo
 image: '/assets/img/rede/rede.jpg'
-main-class: 'misc'
 color: '#34a853'
 tags:
-- Servidores
-- Redes
+- servidores
+- redes
 categories:
-twitter_text: "Passo a Passo como conectar duas máquinas Linux e Windows"
-introduction: "Passo a Passo como conectar duas máquinas Linux e Windows"
 ---
 
 ![Linux x Windows](/assets/img/rede/rede.jpg)

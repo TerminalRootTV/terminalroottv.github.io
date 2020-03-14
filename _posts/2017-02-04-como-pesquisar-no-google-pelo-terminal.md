@@ -4,14 +4,11 @@ title: "Como Pesquisar no Google Pelo Terminal"
 date: 2017-02-04 21:10:30
 image: '/assets/img/dicas/googler.jpg'
 description: "O Googler permite que você use a pesquisa do Google na linha de comando do Linux."
-main-class: 'web'
 color: '#7d669e'
 tags:
 - terminal
 - google
 categories:
-twitter_text: "Como Pesquisar no Google Pelo Terminal"
-introduction: "O Googler permite que você use a pesquisa do Google na linha de comando do Linux."
 ---
 
 ![Googler](/assets/img/dicas/googler.jpg)

@@ -4,7 +4,6 @@ title: "Os 8 Melhores Reprodutores de Áudio para Debian GNU/Linux"
 date: '2016-05-14T07:46:00.000-07:00'
 image: '/assets/img/audio/reprodutores-audio-linux.jpg'
 description: "Na verdade existem muito mais reprodutores de áudio para Debian GNU/Linux, mas escolhi os que eu acredito que são os melhores e mais leves."
-main-class: 'debian'
 tags:
 - audio
 - debian

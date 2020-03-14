@@ -4,7 +4,6 @@ title: "Instale o gotop - Um Monitor Gráfico do Sistema via Terminal"
 date: 2019-07-27 17:34:08
 image: '/assets/img/dicas/gotop.jpg'
 description: 'Escrito em Go e disponível para Linux e macOS.'
-main-class: 'terminal'
 tags:
 - gotop
 - redes

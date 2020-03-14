@@ -4,7 +4,6 @@ title: "Como Instalar o Sabayon Linux, um Gentoo Fácil"
 date: 2018-02-01 22:55:31
 image: '/assets/img/distros/sabayon.jpg'
 description: 'Sabayon Linux é uma distribuição Linux baseada no Gentoo.'
-main-class: 'linux'
 tags:
 - gentoo
 - sabayon

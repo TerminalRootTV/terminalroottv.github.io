@@ -4,7 +4,6 @@ title: "Conheça e Instale o Oh My Bash!"
 date: 2019-05-22 15:37:56
 image: '/assets/img/bash/oh-my-bash-min.jpg'
 description: 'Deixe seu Terminal mais atraente para aumentar e melhorar sua vontade de sempre utilizá-lo.'
-main-class: 'bash'
 tags:
 - bash
 - shellscript

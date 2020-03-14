@@ -4,7 +4,6 @@ title: "Como fazer FACILMENTE Dual Boot com Windows 7 e Arch Linux"
 date: 2018-08-09 11:29:37
 image: '/assets/img/distros/windows-arch-linux.jpg'
 description: 'Se você deseja ter o Windows 7 e o Arch Linux de forma simplificada.'
-main-class: 'misc'
 tags:
 - windows
 - arch

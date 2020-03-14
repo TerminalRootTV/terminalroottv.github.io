@@ -4,11 +4,10 @@ title: "Divirta-se colorindo seu terminal"
 date: '2015-05-30T17:41:00.001-07:00'
 image: '/assets/img/shell-script/lolcat.jpg'
 description: Divirta-se colorindo seu terminal
-main-class: 'misc'
 tags:
-- Imagens
-- Terminal
-- Comandos
+- imagens
+- terminal
+- comandos
 ---
 
 ![Divirta-se colorindo seu terminal](/assets/img/shell-script/lolcat.jpg "Divirta-se colorindo seu terminal")

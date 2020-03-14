@@ -4,7 +4,6 @@ title: "Curso do Editor de Textos Vim Para Iniciantes"
 date: 2017-12-12 08:32:59
 image: '/assets/img/vim/curso-do-editor-vim-para-iniciantes.jpg'
 description: "Agilize suas tarefas e automatize seus códigos com o editor de texto Vim."
-main-class: 'tv'
 tags:
 - cursos
 - vim

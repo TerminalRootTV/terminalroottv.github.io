@@ -4,7 +4,6 @@ title: "Aprenda a Criar Shell Script Profissional - Episódio 1"
 date: 2018-09-20 09:29:04
 image: '/assets/img/shellpro/shellpro.jpg'
 description: 'Descubra como filtrar dados online utilizando Shell Script e Expressão Regular.'
-main-class: 'bash'
 tags:
 - shellpro
 - bash

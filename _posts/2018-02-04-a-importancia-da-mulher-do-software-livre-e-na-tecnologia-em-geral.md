@@ -4,7 +4,6 @@ title: "A Importância da Mulher no Software Livre e na Tecnologia"
 date: 2018-02-04 16:36:30
 image: '/assets/img/live/woman-tech.jpg'
 description: 'A participação da Mulher no SL e na Tecnologia em Geral ainda é muito baixa, qual a importância e como podemos contribuir para resolver esse problema ?'
-main-class: 'web'
 tags:
 - live
 - terminalroot

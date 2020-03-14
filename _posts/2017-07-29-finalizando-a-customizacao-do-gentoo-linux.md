@@ -4,7 +4,6 @@ title: "Finalizando a Customização do Gentoo Linux"
 date: 2017-07-29 18:58:52
 image: '/assets/img/gentoo/gentoo-install-04.jpg'
 description: "O Gentoo Linux pronto para uso!"
-main-class: 'web'
 tags:
 - gentoo
 - linux

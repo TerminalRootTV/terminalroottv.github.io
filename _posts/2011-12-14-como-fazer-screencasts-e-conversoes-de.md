@@ -4,10 +4,9 @@ title: 'Como fazer ScreenCasts e Conversões de Video e Audio'
 date: '2011-12-14T06:46:00.000-08:00'
 image: '/assets/img/multimidia/multimidia.gif'
 description: 'Para executar estas façanhas você pode utilizar alguns aplicativos, como: FFmpeg, XvidCap, Mencoder entre outros.'
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
+- linux
+- dicas
 ---
 
 ![Como fazer ScreenCasts e Conversões de Video e Audio](/assets/img/multimidia/multimidia.gif "Como fazer ScreenCasts e Conversões de Video e Audio")

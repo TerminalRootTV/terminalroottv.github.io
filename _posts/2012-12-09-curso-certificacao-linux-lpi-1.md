@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Gerenciamento de pacotes no Debian"
 date: '2012-12-09T14:45:00.000-08:00'
 image: '/assets/img/lpi/deb/debian-packages.jpg'
 description: "Debian é uma organização voluntária que constrói distribuições consistentes de pacotes binários pré-compilados de software livre e distribui-os a partir do seu arquivo."
-main-class: 'linux'
 tags:
-- Debian
-- Linux
+- debian
+- linux
 ---
 
 ![Curso Certificação Linux LPI-1: Gerenciamento de pacotes no Debian](/assets/img/lpi/deb/debian-packages.jpg "Curso Certificação Linux LPI-1: Gerenciamento de pacotes no Debian")

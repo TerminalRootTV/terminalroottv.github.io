@@ -4,7 +4,6 @@ title: "Acesse seu Computador pelo Navegador com Shell In A Box"
 date: 2017-04-15 17:34:53
 image: '/assets/img/shell-script/shellinabox-terminal.jpg'
 description: "Shell in A Box é uma ferramenta que torna possível o acesso via SSH pelo Browser do Navegador"
-main-class: 'bash'
 tags:
 - shell-script
 - ssh

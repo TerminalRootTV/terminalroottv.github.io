@@ -4,7 +4,6 @@ title: "Como Gravar CD/DVD Pelo Terminal"
 date: 2017-09-19 09:14:57
 image: '/assets/img/comandos/growisofs.jpg'
 description: "Programa para gravações de CD/DVD via linha de comando."
-main-class: 'linux'
 tags:
 - comandos
 - gnu

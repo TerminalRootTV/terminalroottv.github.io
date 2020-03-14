@@ -4,7 +4,6 @@ title: "Conexão com MySQL - Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-20 02:45:13
 image: '/assets/img/cursoshell/13-mysql.jpg'
 description: "Este vídeo se propõe a mostrar como podemos integrar Shell Script com banco de dados via Web."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

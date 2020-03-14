@@ -4,9 +4,8 @@ title: 'Utilizando Media Queries do CSS'
 date: '2011-11-23T07:12:00.000-08:00'
 image: '/assets/img/css3/midia-queries.jpg'
 description: 'Media Queries é a utilização de Media Types com uma ou mais expressões envolvendo características de uma media para definir formatações para diversos dispositivos.'
-main-class: 'web'
 tags:
-- CSS
+- css
 ---
 
 > __Media Queries__ é a utilização de __Media Types__ com uma ou mais expressões envolvendo características de uma media para definir formatações para diversos dispositivos. O browser ou a aplicação lê as expressões definidas na query, caso o dispositivo se encaixe nestas requisições, o __CSS__ será aplicado.

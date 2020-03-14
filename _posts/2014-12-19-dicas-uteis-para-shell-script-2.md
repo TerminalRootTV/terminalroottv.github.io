@@ -4,10 +4,9 @@ title: "Dicas úteis para Shell Script 2"
 date: '2014-12-19T12:57:00.000-08:00'
 image: '/assets/img/shell-script/shell-script-logo.jpg'
 description: "Continuação de dicas úteis."
-main-class: 'bash'
 tags:
-- Shell Script
-- Dicas
+- shell script
+- dicas
 ---
 ![Dicas úteis para Shell Script 2](/assets/img/shell-script/shell-script-logo.jpg "Dicas úteis para Shell Script 2")
 

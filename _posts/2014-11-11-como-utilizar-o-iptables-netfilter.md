@@ -4,13 +4,10 @@ title: "Como utilizar o Iptables (Netfilter)"
 date: '2014-11-11T17:39:00.003-08:00'
 image: '/assets/img/servidor/firewall.jpg'
 description: "Eu estava configurando meu Firewall hoje e decidi escrever um Post sobre Iptables pra documentar algumas informações."
-main-class: 'linux'
 tags:
-- Linux
-- Servidores
-- Redes
-twitter_text: "Como utilizar o Iptables (Netfilter)"
-introduction: "Eu estava configurando meu Firewall hoje e decidi escrever um Post sobre Iptables pra documentar algumas informações."
+- linux
+- servidores
+- redes
 ---
 
 ![Blog Linux](/assets/img/servidor/firewall.jpg "Iptables Netfilter")

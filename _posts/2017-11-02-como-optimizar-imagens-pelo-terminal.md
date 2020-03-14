@@ -4,7 +4,6 @@ title: "Como Optimizar Imagens Pelo Terminal"
 date: 2017-11-02 20:08:42
 image: '/assets/img/dicas/otimizar-imagens-pelo-terminal.jpg'
 description: "Otimizar múltiplas imagens via linha de comando sem perder a qualidade da mesma."
-main-class: 'linux'
 tags:
 - dicas
 - linux

@@ -4,9 +4,8 @@ title: "Baixe mais de 7GB de Tutoriais de Tecnologia"
 date: '2016-08-20T10:06:00.001-07:00'
 image: '/assets/img/outros/mais-de-7GB.jpg'
 description: Baixe mais de 7GB de Tutoriais de Tecnologia
-main-class: 'misc'
 tags:
-- Downloads
+- downloads
 ---
 ![Baixe mais de 7GB de Tutoriais de Tecnologia](/assets/img/outros/mais-de-7GB.jpg "Baixe mais de 7GB de Tutoriais de Tecnologia")
 

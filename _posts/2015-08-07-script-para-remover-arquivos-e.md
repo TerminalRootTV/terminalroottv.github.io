@@ -4,12 +4,11 @@ title: "Script para remover arquivos e diretórios com segurança"
 date: '2015-08-06T22:49:00.000-07:00'
 image: '/assets/img/shell-script/remove.jpg'
 description: "Muitas vezes perdemos arquivos ou diretórios que não queríamos excluir com o comando rm."
-main-class: 'bash'
 tags:
-- Shell Script
-- Dicas
-- Terminal
-- Comandos
+- shell script
+- dicas
+- terminal
+- comandos
 ---
 ![Script para remover arquivos e diretórios com segurança](/assets/img/shell-script/remove.jpg "Script para remover arquivos e diretórios com segurança")
 

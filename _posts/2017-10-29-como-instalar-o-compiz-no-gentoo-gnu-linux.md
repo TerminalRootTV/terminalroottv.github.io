@@ -4,7 +4,6 @@ title: "Como Instalar o Compiz no Gentoo GNU/Linux"
 date: 2017-10-29 17:38:26
 image: '/assets/img/gentoo/gentoo-compiz.jpg'
 description: "Passo a passo para instalar o Compiz no Gentoo."
-main-class: 'gnu'
 tags:
 - compiz
 ---

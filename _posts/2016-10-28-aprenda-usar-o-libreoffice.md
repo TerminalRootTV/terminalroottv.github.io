@@ -4,12 +4,9 @@ title: "Aprenda usar o LibreOffice"
 date: '2016-10-28T12:45:00.001-07:00'
 image: '/assets/img/libreoffice/libreoffice.jpg'
 description: "O LibreOffice é uma potente suíte de escritório; sua interface limpa e suas poderosas ferramentas libertam sua criatividade e melhoram sua produtividade."
-main-class: 'misc'
 tags:
-- LibreOffice
-- TerminalRootTV
-twitter_text: "Aprenda usar o LibreOffice"
-introduction: "O LibreOffice é uma potente suíte de escritório; sua interface limpa e suas poderosas ferramentas libertam sua criatividade e melhoram sua produtividade."
+- libreoffice
+- terminalroottv
 ---
 
 ![LibreOffice](/assets/img/libreoffice/libreoffice.jpg)

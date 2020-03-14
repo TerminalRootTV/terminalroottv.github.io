@@ -4,7 +4,6 @@ title: "Pos Install Arch Linux + i3 + Polybar + Pywal"
 date: 2018-08-23 22:03:20
 image: '/assets/img/distros/popy.jpg'
 description: 'Pós instalação do Arch Linux com i3, Polybar, Pywal e aplicativos.'
-main-class: 'bash'
 tags:
 - arch
 - i3

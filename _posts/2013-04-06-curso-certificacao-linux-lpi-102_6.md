@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Segurança"
 date: '2013-04-06T16:14:00.000-07:00'
 image: '/assets/img/lpi/security.jpg'
 description: "Existem várias ferramentas de segurança que podem auxiliar a vida de um administrador de redes e sistemas no Linux. Aqui abordarei duas fundamentais para obter tal segurança."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-102: Segurança](/assets/img/lpi/security.jpg "Curso Certificação Linux LPI-102: Segurança")

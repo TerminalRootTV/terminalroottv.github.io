@@ -4,7 +4,6 @@ title: "VSCodium - Um VS Code Open Source que NÃO te rastreia"
 date: 2019-04-18 14:03:26
 image: '/assets/img/editores/vscodium.png'
 description: 'O VSCodium é um fork idêntico ao Visual Studio Code da Microsoft, somente com o ícone diferente.'
-main-class: 'dica'
 tags:
 - vscodium
 - vscode

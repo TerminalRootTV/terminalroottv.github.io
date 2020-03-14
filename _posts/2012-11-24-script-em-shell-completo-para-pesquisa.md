@@ -4,9 +4,8 @@ title: "Script em Shell (completo) para pesquisa"
 date: '2012-11-24T13:37:00.000-08:00'
 image: '/assets/img/shell-script/procura-basica-shell.jpg'
 description: "Exercício Shell"
-main-class: 'bash'
 tags:
-- Shell Script
+- shell script
 ---
 
 ![Script em Shell (completo) para pesquisa](/assets/img/shell-script/procura-basica-shell.jpg "Script em Shell (completo) para pesquisa")

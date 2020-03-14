@@ -4,7 +4,6 @@ title: "Uma Coletânea de Imagens e Wallpapers para seu Linux"
 date: 2018-08-04 16:39:36
 image: '/assets/img/dicas/coletanea-imagens-wallpapers-linux.jpg'
 description: 'Você pode usar os designs fornecidos para quaisquer fins, como a criação camisetas, cartazes, canecas, adesivos e entre outros.'
-main-class: 'misc'
 tags:
 - bash
 - dicas

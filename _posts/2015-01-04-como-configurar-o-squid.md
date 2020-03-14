@@ -4,16 +4,13 @@ title: "Como configurar o Squid"
 date: '2015-01-04T12:56:00.001-08:00'
 image: '/assets/img/servidor/squid.jpg'
 description: "O Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros."
-main-class: 'linux'
 color: '#3b5998'
 tags:
-- Linux
-- Servidores
-- GNU
-- Redes
+- linux
+- servidores
+- gnu
+- redes
 categories:
-twitter_text: "Como configurar o Squid"
-introduction: "O Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros."
 ---
 
 ![Squid Blog Linux](/assets/img/servidor/squid.jpg)

@@ -4,7 +4,6 @@ title: "Escaneando Redes com NMAP"
 date: 2018-07-10 21:05:06
 image: '/assets/img/hacker/nmap.jpg'
 description: 'O Nmap (Network Mapper) é um scanner de segurança, usado para descobrir hosts e serviços em uma rede de computadores , construindo assim um "mapa" da rede.'
-main-class: 'bash'
 tags:
 - redes
 - servidores

@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102:  Compartilhamento via NFS"
 date: '2013-04-03T17:22:00.000-07:00'
 image: '/assets/img/lpi/nfs.jpg'
 description: "NFS é um protocolo de sistema de arquivos para compartilhamento entre arquivos e diretórios entre computadores conectados em rede."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Compartilhamento via NFS](/assets/img/lpi/nfs.jpg "Compartilhamento via NFS")

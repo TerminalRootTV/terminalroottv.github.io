@@ -4,11 +4,10 @@ title: "Personalize seu shell na entrada de seu logon"
 date: '2015-03-18T18:15:00.000-07:00'
 image: '/assets/img/shell-script/bin-bash.jpg'
 description: "Você pode deixar seu Shell mais interessante e até mesmo deixar lembretes nele."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
-- Terminal
+- linux
+- dicas
+- terminal
 ---
 ![Blog Linux](/assets/img/shell-script/bin-bash.jpg "Blog Linux")
 

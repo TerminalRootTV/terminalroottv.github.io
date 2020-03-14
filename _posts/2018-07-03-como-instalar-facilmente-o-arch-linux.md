@@ -4,7 +4,6 @@ title: "Como Instalar Facilmente o Arch Linux"
 date: 2018-07-03 10:06:19
 image: '/assets/img/distros/como-instalar-facilmente-arch-linux.jpg '
 description: 'Veja como instalar o Arch Linux com dois comandos somente!'
-main-class: 'bash'
 tags:
 - shell
 - bash

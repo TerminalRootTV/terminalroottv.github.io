@@ -4,7 +4,6 @@ title: "Como Instalar o MATE Desktop no FreeBSD 11.1"
 date: 2017-09-22 16:28:10
 image: '/assets/img/freebsd/freebsd03.jpg'
 description: "Como instalar o Xorg, MATE Desktop, SLiM e configurar o rc.conf utilizando o Easy Editor."
-main-class: 'tv'
 tags:
 - freebsd
 - video

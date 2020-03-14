@@ -4,15 +4,12 @@ title: "Dica rápida: Como buscar recursivamente usando o grep"
 date: 2017-01-15 11:58:04
 image: '/assets/img/dicas/grep.jpg'
 description: "Muitos irão tentar usar o find com grep."
-main-class: 'bash'
 color: '#c2003a'
 tags:
 - dicas
 - gnu
 - linux
 categories:
-twitter_text: "Dica rápida: Como buscar recursivamente usando o grep"
-introduction: "Muitos irão tentar usar o find com grep."
 ---
 
 ![Grep](/assets/img/dicas/grep.jpg)

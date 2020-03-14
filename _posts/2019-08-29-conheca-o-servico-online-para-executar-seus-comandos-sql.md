@@ -4,7 +4,6 @@ title: "Conheça 7 Serviços OnLine para Executar seus Comandos SQL"
 date: 2019-08-29 21:50:07
 image: '/assets/img/mysql/sqlonline.jpg'
 description: 'É possível utilizar diversos Bancos de Dados.'
-main-class: 'artigos'
 tags:
 - sql
 - mysql

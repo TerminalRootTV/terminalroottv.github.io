@@ -4,13 +4,10 @@ title: "Código de Linguagem C para Aprendizado"
 date: 2017-01-28 21:58:07
 image: '/assets/img/c/c.jpg'
 description: "O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C."
-main-class: 'C'
 color: '#3465a4'
 tags:
 - linguagem-c
 categories:
-twitter_text: "Código de Linguagem C para Aprendizado"
-introduction: "O código serve como estudos/lembrete para iniciantes que desejam aprender Linguagem C."
 ---
 
 ![Linguagem C para Aprendizado](/assets/img/c/c.jpg)

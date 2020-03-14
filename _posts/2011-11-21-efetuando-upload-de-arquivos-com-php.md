@@ -3,9 +3,8 @@ layout: post
 title: 'Efetuando Upload de arquivos com PHP'
 date: '2011-11-21T16:01:00.000-08:00'
 description: 'Upload de arquivos é um assunto complicado, pois ele é uma brecha pra varios ataques se não for feito de maneira correta.'
-main-class: 'web'
 tags:
-- PHP
+- php
 ---
 
 __Upload de arquivos__ é um assunto complicado, pois ele é uma brecha pra varios ataques se não for feito de maneira correta. Temos que estabelecer alguns LIMITES obrigatóriamente se quisermos ter segurança.

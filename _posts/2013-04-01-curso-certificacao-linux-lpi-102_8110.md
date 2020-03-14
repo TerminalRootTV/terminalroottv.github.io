@@ -4,10 +4,9 @@ title: 'Curso Certificação Linux LPI-102: Servidor Postfix'
 date: '2013-04-01T16:08:00.000-07:00'
 image: '/assets/img/lpi/postfix1.gif'
 description: " O Postfix é um agente de transferência de emails (MTA), um software livre para envio e entrega de emails."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Servidor Postfix](/assets/img/lpi/postfix1.gif "Servidor Postfix")

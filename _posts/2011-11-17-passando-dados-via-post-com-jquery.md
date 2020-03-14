@@ -3,7 +3,6 @@ layout: post
 title: 'Passando dados via POST com JQuery'
 date: '2011-11-17T04:58:00.000-08:00'
 description: 'Nesse exemplo tem o básico só para causar o entendimento mesmo.servirá para suas aplicações em que você deseja que não haja carregamento de página.'
-main-class: 'web'
 tags:
 - javascript
 ---

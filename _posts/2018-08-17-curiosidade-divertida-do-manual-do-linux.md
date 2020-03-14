@@ -4,7 +4,6 @@ title: "Curiosidade e Tradução do Manual do Linux"
 date: 2018-08-17 10:02:34
 image: '/assets/img/cursos/manuais-trecho.jpg '
 description: 'Trecho Do Capítulo 01 De Manuais do Módulo II Do Curso Extremamente Avançado De Shell Script.'
-main-class: 'bash'
 tags:
 - curso
 - bash

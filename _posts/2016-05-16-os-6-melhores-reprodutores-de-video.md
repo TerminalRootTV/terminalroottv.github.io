@@ -4,10 +4,9 @@ title: "Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux"
 date: '2016-05-16T13:18:00.001-07:00'
 image: '/assets/img/multimidia/players-video.jpg'
 description: "Veja uma lista de Reprodutores de Vídeo pra Linux."
-main-class: 'debian'
 tags:
-- Linux
-- Multimídia
+- linux
+- multimídia
 ---
 
 ![Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux](/assets/img/multimidia/players-video.jpg "Os 6 Melhores Reprodutores de Vídeo para Debian GNU/Linux")

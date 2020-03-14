@@ -4,7 +4,6 @@ title: "Spacemacs um Editor para Desenvolvimento Profissional"
 date: 2018-07-16 15:44:52
 image: '/assets/img/dicas/spacemacs-min.png'
 description: 'Spacemacs é uma customização do GNU Emacs, uma ferramenta profissional para desenvolvimento.'
-main-class: 'misc'
 tags:
 - gnu
 - emacs

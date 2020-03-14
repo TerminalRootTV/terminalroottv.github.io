@@ -4,10 +4,9 @@ title: "Por que systemd ?"
 date: 2019-07-07 11:14:31
 image: '/assets/img/info/systemd.jpg'
 description: 'O que tem de diferente nesse software tão polêmico ?'
-main-class: 'linux'
 tags:
 - systemd
-- Linux
+- linux
 - linux
 ---
 

@@ -4,9 +4,8 @@ title: "Como criar uma leitura pausada em Shell Script"
 date: '2015-07-27T18:56:00.000-07:00'
 image: '/assets/img/shell-script/leitura.jpg'
 description: "Veja o código e leia os cometários para exercitar"
-main-class: 'bash'
 tags:
-- Shell Script
+- shell script
 ---
 ![Como criar uma leitura pausada em Shell Script](/assets/img/shell-script/leitura.jpg "Como criar uma leitura pausada em Shell Script")
  

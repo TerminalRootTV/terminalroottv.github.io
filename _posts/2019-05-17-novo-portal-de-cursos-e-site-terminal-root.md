@@ -4,7 +4,6 @@ title: "Novo Portal de Cursos e Site Terminal Root"
 date: 2019-05-17 21:19:07
 image: '/assets/img/tv/terminalroot800.jpg'
 description: 'Conheça o novo Portal de Cursos Terminal Root.'
-main-class: 'youtube'
 tags:
 - terminalroot
 - youtube

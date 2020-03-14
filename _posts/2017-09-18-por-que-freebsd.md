@@ -4,7 +4,6 @@ title: "Por que FreeBSD ?"
 date: 2017-09-18 08:45:42
 image: '/assets/img/freebsd/freebsd.jpg'
 description: "O FreeBSD é um sistema operacional livre do tipo Unix-like que provém do Research Unix via a Berkeley Software Distribution (BSD)."
-main-class: 'tv'
 tags:
 - freebsd
 - tv

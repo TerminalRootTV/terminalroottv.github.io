@@ -4,9 +4,8 @@ title: "Ubuntu Christian: Um Ubuntu Linux para Cristãos"
 date: '2016-05-15T05:58:00.000-07:00'
 image: '/assets/img/distros/ubuntu-christian.jpg'
 description: "Ubuntu Christian Edition (CE) é um sistema gratuito, open source voltado para os cristãos."
-main-class: 'misc'
 tags:
-- Ubuntu
+- ubuntu
 ---
 
 ![Ubuntu Christian: Um Ubuntu Linux para Cristãos](/assets/img/distros/ubuntu-christian.jpg "Ubuntu Christian: Um Ubuntu Linux para Cristãos")

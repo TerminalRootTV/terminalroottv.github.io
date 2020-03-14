@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Instalando e Compilando Programas"
 date: '2012-12-02T16:13:00.000-08:00'
 image: '/assets/img/lpi/compilador.jpg'
 description: "Os pacotes com código fonte são geralmente distribuídos na forma dos famosos pacotes .tar.gz ou .tar.bz2"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
  
 ![Compilando](/assets/img/lpi/compilador.jpg "Compilando")

@@ -4,7 +4,6 @@ title: "O Que Fazer Após Instalar o Gentoo Linux"
 date: 2017-07-17 16:23:43
 image: '/assets/img/gentoo/gentoo-install-03.jpg'
 description: "Algumas dicas de como instalar Interface Gráfica e configurações do sistema, logo após ser instalado."
-main-class: 'web'
 tags:
 - gentoo
 - linux

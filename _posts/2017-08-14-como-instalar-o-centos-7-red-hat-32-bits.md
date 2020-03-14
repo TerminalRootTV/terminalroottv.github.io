@@ -4,7 +4,6 @@ title: "Como Instalar o CentOS 7 Red Hat  32 bits"
 date: 2017-08-14 21:59:02
 image: '/assets/img/redhat/serie-centos-redhat-1.jpg'
 description: "O CentOS, abreviação de Community ENTerprise Operating System, é uma distribuição Linux de classe corporativa derivada de códigos fonte gratuitamente distribuídos pela Red Hat Enterprise Linux e mantida pelo CentOS Project."
-main-class: 'tv'
 tags:
 - centos
 - redhat

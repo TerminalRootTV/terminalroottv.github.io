@@ -4,7 +4,6 @@ title: 'Enviando dados via Terminal para um formulário web'
 date: '2015-07-12T18:32:00.000-07:00'
 description: "Curl é uma ferramenta para transferir dados de ou para um servidor"
 image: '/assets/img/shell-script/CurlLogo.jpg'
-main-class: 'bash'
 tags:
 - shellscript
 - criptografia

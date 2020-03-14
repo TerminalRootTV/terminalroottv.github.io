@@ -3,11 +3,10 @@ layout: post
 title: "Curso Certificação Linux LPI-1: Filtros de Texto"
 date: '2012-11-11T02:47:00.000-08:00'
 description: "A filtragem de textos é o processo de executar algumas conversões no texto de um fluxo de entrada de texto antes de enviá-lo para um fluxo de saída."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
-- SED
+- linux
+- lpi
+- sed
 ---
 
 ![Blog Linux](/assets/img/lpi/filtros.jpg "Blog Linux")

@@ -3,12 +3,11 @@ layout: post
 title: 'Como configurar o inetd.conf para habilitar uma porta'
 date: '2011-12-20T19:52:00.000-08:00'
 description: 'Quando você abre uma porta no Iptables, não significa que existirá um Daemon(um programa rodando em background gerenciado pelo sistema) para aquela porta.'
-main-class: 'linux'
 tags:
-- Debian
-- Linux
-- Servidores
-- Redes
+- debian
+- linux
+- servidores
+- redes
 ---
 
 Quando você abre uma porta no __Iptables__, não significa que existirá um __Daemon__(um programa rodando em background gerenciado pelo sistema) para aquela __porta__. Para habilitar um __Daemon__ para tal porta é necessário configurarmos o __inetd__.O __inetd é um Daemon__ (geralmente os __Daemons terminam com a letra "d"__, exemplo: o daemon do __TCP__ é o __tcdp__, ou seja, um programa que gerencia o TCP), e o arquivo de configuração dele é o "__inetd.conf__".Precisei habilitar a inicialização do serviço de leitura de Sockets(usado em ligações de redes de computadores para um fim de um elo __bidirecional__ de comunicação entre dois programas), e para isso precisava de uma porta "livre", a __porta 8080__ já tem um serviço pré-definido, de __webcaching__.

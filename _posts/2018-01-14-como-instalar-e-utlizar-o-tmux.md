@@ -4,7 +4,6 @@ title: "Como Instalar E Utlizar O Tmux"
 date: 2018-01-14 17:34:02
 image: '/assets/img/terminal/como-instalar-utilizar-tmux.jpg'
 description: 'O tmux é um software que serve para multiplexar vários terminais'
-main-class: 'bash'
 tags:
 - terminal
 ---

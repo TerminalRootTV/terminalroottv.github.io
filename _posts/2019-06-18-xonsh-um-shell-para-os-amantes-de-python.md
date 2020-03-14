@@ -4,7 +4,6 @@ title: "Xonsh - Um Shell para os Amantes de Python"
 date: 2019-06-18 12:30:03
 image: '/assets/img/python/xonsh.jpg'
 description: 'O Xonsh é uma Shell e um prompt de comando compatíveis com Unix, Python e multiplataforma.'
-main-class: 'shell'
 tags:
 - python
 - shellscript

@@ -4,9 +4,8 @@ title: "Conheça a Distro Cyborg Linux para Testes Avançados de Invasão"
 date: '2016-05-19T14:19:00.000-07:00'
 image: '/assets/img/hacker/cyborg.jpg'
 description: "Neste artigo vamos apresentar o Cyborg Hawk Linux, uma distribuição para pentest baseada em Ubuntu."
-main-class: 'misc'
 tags:
-- Distros
+- distros
 - hacker
 - pentest
 ---

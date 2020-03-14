@@ -4,14 +4,11 @@ title: "GNUCash software para Contabilidade no Linux"
 date: '2014-08-17T07:08:00.004-07:00'
 image: '/assets/img/contabeis/gnucash.jpg'
 description: "GnuCash é um pequeno software de contabilidade que também está disponível para Linux, Mac OS X e Windows."
-main-class: 'artigos'
 tags:
-- Linux
-- Contábeis
-- Dicas
-- GNU
-twitter_text: "GNUCash software para Contabilidade no Linux"
-introduction: "GnuCash é um pequeno software de contabilidade que também está disponível para Linux, Mac OS X e Windows."
+- linux
+- contábeis
+- dicas
+- gnu
 ---
 
 ![Blog Linux](/assets/img/contabeis/gnucash.jpg "GNUCash")

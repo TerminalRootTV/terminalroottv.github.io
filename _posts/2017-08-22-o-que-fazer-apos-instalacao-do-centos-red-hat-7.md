@@ -4,7 +4,6 @@ title: "O Que Fazer Após Instalação do CentOS/Red Hat 7"
 date: 2017-08-22 20:58:00
 image: '/assets/img/redhat/serie-centos-redhat-3.jpg'
 description: "O vídeo mostra como atualizar o sistema com o yum instalar e remover programas, alterar ícone do painel do gnome, transformar em svg, alterar o host do computador..."
-main-class: 'tv'
 tags:
 - redhat
 - centos

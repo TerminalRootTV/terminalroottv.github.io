@@ -4,7 +4,6 @@ title: "Funções - Curso de Shell Script do Iniciante ao Avançado"
 date: 2017-03-19 11:45:13
 image: '/assets/img/cursoshell/05-funcoes.jpg'
 description: "As funções do Shell são uma forma de agrupar comandos para execução posterior, usando um único nome para esse grupo ou rotina."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

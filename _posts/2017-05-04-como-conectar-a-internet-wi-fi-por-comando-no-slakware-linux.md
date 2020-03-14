@@ -4,7 +4,6 @@ title: "Como Conectar a Internet Wi-Fi por Comando no Slackware Linux"
 date: 2017-05-04 15:13:51
 image: '/assets/img/slackware/slackware-wireless-comando.jpg'
 description: "A demonstração é feita para o Slackware Linux, no entanto, o procedimento serve pra qualquer distribuição Linux."
-main-class: 'tv'
 tags:
 - slackware
 - redes

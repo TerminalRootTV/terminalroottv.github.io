@@ -4,7 +4,6 @@ title: "Como Customizar o Polybar, Rofi e Outros"
 date: 2018-11-28 16:59:21
 image: '/assets/img/funtoo/funtoo3.jpg'
 description: 'Nesse vídeo finalizamos a série sobre o Funtoo Linux e customizamos e configuramos aplicativos.'
-main-class: 'misc'
 tags:
 - funtoo
 - shellscript

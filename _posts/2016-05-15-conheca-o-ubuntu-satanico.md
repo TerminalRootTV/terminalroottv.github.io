@@ -4,7 +4,6 @@ title: "Conheça o Ubuntu Satânico"
 date: '2016-05-15T05:37:00.000-07:00'
 image: '/assets/img/distros/ubuntu-santanico.jpg'
 description: "Ubuntu Satanic Edition (SE) é uma distribuição Linux baseada no Ubuntu."
-main-class: 'misc'
 tags:
 - ubuntu
 - psicopata

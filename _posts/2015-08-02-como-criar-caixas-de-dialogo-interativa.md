@@ -4,14 +4,11 @@ title: "Como criar caixas de diálogo interativa com script shell"
 date: '2015-08-02T19:17:00.000-07:00'
 image: '/assets/img/bash/whiptail.jpg'
 description: "Quando você instala um novo software no terminal, muitas vezes você pode ver as caixas de diálogo informativas aparecendo."
-main-class: 'bash'
 color: '#c2003a'
 tags:
-- Shell Script
-- Terminal
-- Comandos
-twitter_text: "Como criar caixas de diálogo interativa com script shell"
-introduction: "Quando você instala um novo software no terminal, muitas vezes você pode ver as caixas de diálogo informativas aparecendo."
+- shell script
+- terminal
+- comandos
 ---
 
 ![Whiptail Blog Linux](/assets/img/bash/whiptail.jpg "Whiptail Blog Linux")

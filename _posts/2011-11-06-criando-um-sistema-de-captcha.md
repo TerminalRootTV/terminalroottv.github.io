@@ -4,9 +4,8 @@ title: 'Criando um sistema de Captcha'
 date: '2011-11-06T16:37:00.000-08:00'
 image: '/assets/img/php/captcha.jpg'
 description: 'Existem varias formas de se fazer isso, algumas formas tiveram problema acredito por causa da biblioteca GD, se vc não as tem instaladas.'
-main-class: 'web'
 tags:
-- PHP
+- php
 ---
 
 ![Criando um sistema de Captcha](/assets/img/php/captcha.jpg "Criando um sistema de Captcha")

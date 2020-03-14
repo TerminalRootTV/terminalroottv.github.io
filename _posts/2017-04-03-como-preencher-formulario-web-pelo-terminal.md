@@ -4,7 +4,6 @@ title: "Como Preencher Formulário Web Pelo Terminal"
 date: 2017-04-03 21:49:39
 image: '/assets/img/bash/como-preencher-formulario-web-pelo-terminal.jpg'
 description: "Além de enviar dados pelo terminal para um formulário web, também foi demonstrado como pegar o IP através do HOST."
-main-class: 'tv'
 tags:
 - bash
 - shell script

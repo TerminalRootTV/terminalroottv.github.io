@@ -4,13 +4,10 @@ title: "Lista com 30 Softwares de Contabilidade para Linux"
 date: '2015-11-08T09:07:00.001-08:00'
 image: '/assets/img/contabeis/linux-contabilidade.jpg'
 description: "Para aqueles que gostam, trabalham ou estudam Ciências Contábeis e Contabilidade, vou listar alguns softwares que possam apresentar serventia."
-main-class: 'artigos'
 tags:
-- Linux
-- Contábeis
-- Dicas
-twitter_text: "Lista com 30 Softwares de Contabilidade para Linux"
-introduction: "Para aqueles que gostam, trabalham ou estudam o ramo de Ciências Contábeis e Contabilidade, vou listar alguns softwares que possam apresentar serventia."
+- linux
+- contábeis
+- dicas
 ---
 
 ![Blog Linux Contabilidade](/assets/img/contabeis/linux-contabilidade.jpg)

@@ -3,10 +3,9 @@ layout: post
 title: 'Configurando a placa de rede'
 date: '2011-11-14T18:16:00.000-08:00'
 description: 'Então, minha conexão possui autenticação no roteador e meu modem em modo bridge, porém um dia precisei configurar a autenticação no computador para poder disponibilizar via meu servidor de DynDNS'
-main-class: 'linux'
 tags:
-- Linux
-- Redes
+- linux
+- redes
 ---
 
 > Então, minha conexão possui autenticação no __roteador__ e meu __modem__ em __modo bridge__, porém um dia precisei configurar a __autenticação__ no computador para poder disponibilizar via meu servidor de __DynDNS__ com a porta __80__ o acesso ao meu PC (da pasta __/var/www__), utilizando o __Servidor Apache__, para isso configuei meu __Roteador também em modo Brigde__ e depois utilizei o comando

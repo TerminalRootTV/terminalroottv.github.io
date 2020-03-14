@@ -5,14 +5,11 @@ date: 2016-12-19 19:18:32
 image: '/assets/img/semicodeos/semicodeos.jpg'
 blog-image: '/img/semicodeos/semicodeos.jpg'
 description: "Se olharmos para a vasta lista de várias distribuições Linux, existem soluções especializadas para hackers, usuários avançados, artistas e jogadores. Mas, há uma escassez de distros que afirmam servir as necessidades exclusivas dos programadores, provavelmente, porque a maioria dos sistemas operacionais baseados em Linux são personalizáveis e os desenvolvedores podem instalar todas as ferramentas úteis em nenhum momento."
-main-class: 'linux'
 color: '#3b5998'
 tags:
 - linux
 - distros
 categories:
-twitter_text: "SemiCode OS - Um Linux para Programadores e Desenvolvedores Web"
-introduction: "Se olharmos para a vasta lista de várias distribuições Linux, existem soluções especializadas para hackers, usuários avançados, artistas e jogadores. Mas, há uma escassez de distros que afirmam servir as necessidades exclusivas dos programadores, provavelmente, porque a maioria dos sistemas operacionais baseados em Linux são personalizáveis e os desenvolvedores podem instalar todas as ferramentas úteis em nenhum momento."
 ---
 
 <div style="text-align: center;">

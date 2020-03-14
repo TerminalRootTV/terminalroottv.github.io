@@ -4,11 +4,10 @@ title: "Assista Star Wars pelo Terminal"
 date: '2015-07-14T16:48:00.000-07:00'
 image: '/assets/img/shell-script/starwars-animations-terminal-ascii.jpg'
 description: "Direto do túnel do tempo, uma animação via telnet."
-main-class: 'misc'
 tags:
-- Dicas
-- Terminal
-- Comandos
+- dicas
+- terminal
+- comandos
 ---
 
 ![Assista Star Wars pelo Terminal](/assets/img/shell-script/starwars-animations-terminal-ascii.jpg "Assista Star Wars pelo Terminal")

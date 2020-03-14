@@ -4,14 +4,11 @@ title: "GNOME-Pie, Um Lançador de Aplicativos Circular para o Desktop, Veja Com
 date: 2017-02-10 10:28:27
 image: '/assets/img/dicas/GNOME-PIE.jpg'
 description: "O Gnome-Pie é um Lançador de Aplicativos Circular para Linux."
-main-class: 'artigos'
 color: '#009688'
 tags:
 - dicas
 - linux
 categories:
-twitter_text: "GNOME-Pie, Um Lançador de Aplicativos Circular para o Desktop, Veja Como Instalar"
-introduction: "O Gnome-Pie é um Lançador de Aplicativos Circular para Linux."
 ---
 
 ![Gnome Pie Blog Linux](/assets/img/dicas/GNOME-PIE.jpg "Gnome Pie")

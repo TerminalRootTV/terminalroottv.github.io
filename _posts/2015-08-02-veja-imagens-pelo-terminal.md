@@ -4,12 +4,11 @@ title: "Veja imagens pelo Terminal"
 date: '2015-08-02T17:41:00.000-07:00'
 image: '/assets/img/shell-script/tux.jpg'
 description: "O programa cacaview permite exibir imagens no terminal, através de arte textual com cores. Ele suporta vários formatos comuns, como PNG, JPEG, GIF e BMP."
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- Imagens
-- Terminal
+- linux
+- gnu
+- imagens
+- terminal
 ---
 
 ![Veja imagens pelo Terminal](/assets/img/shell-script/tux.jpg "Veja imagens pelo Terminal")

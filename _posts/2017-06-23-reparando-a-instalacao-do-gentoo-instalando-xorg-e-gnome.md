@@ -4,7 +4,6 @@ title: "Reparando a Instalação do Gentoo, instalando Xorg e GNOME"
 date: 2017-06-23 23:47:33
 image: '/assets/img/gentoo/reparando-instalacao-gentoo-com-xorg-gnome-eselect.jpg'
 description: "Alterando o tipo de instalação do Gentoo, instalando o sistema com Xorg e Interface Gráfica"
-main-class: 'web'
 tags:
 - feature
 - linux

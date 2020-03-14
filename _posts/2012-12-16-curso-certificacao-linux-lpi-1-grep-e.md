@@ -4,11 +4,10 @@ title: "Curso Certificação Linux LPI-1: grep e sed"
 date: '2012-12-16T05:47:00.000-08:00'
 image: '/assets/img/lpi/sed-e-grep.gif'
 description: "Básico de Grep e Sed, mas o essencial pra passar no LPI"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
-- SED
+- linux
+- lpi
+- sed
 ---
 
 ![Curso Certificação Linux LPI-1: grep e sed](/assets/img/lpi/sed-e-grep.gif "Curso Certificação Linux LPI-1: grep e sed")

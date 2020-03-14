@@ -4,7 +4,6 @@ title: "Como Habilitar o Numlock no i3wm, bspwm e no LightDM e +2 dicas bônus"
 date: 2019-08-01 09:41:10
 image: '/assets/img/dicas/numlock-linux.jpg'
 description: 'Poupe sua paciência e veja como torná-lo padrão no seu Linux ou Unix-like.'
-main-class: 'unix'
 tags:
 - numlock
 - unix

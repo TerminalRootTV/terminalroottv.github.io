@@ -4,10 +4,8 @@ title: "Dicas Importantes para seu Blog no GitHub"
 date: 2017-02-19 20:31:50
 image: '/assets/img/gitgithub/dicasgithub.jpg'
 description: "Não digitar toda hora git add, commit e push...entre outras dias valiosíssimas"
-main-class: 'tv'
 tags:
 - github
-introduction: "Não digitar toda hora git add, commit e push...entre outras dias valiosíssimas"
 ---
 
 ![Dicas Importantes para seu Blog no GitHub](/assets/img/gitgithub/dicasgithub.jpg "Dicas Importantes para seu Blog no GitHub")

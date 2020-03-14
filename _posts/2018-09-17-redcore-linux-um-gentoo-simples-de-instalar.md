@@ -4,7 +4,6 @@ title: "Redcore Linux - um Gentoo Simples de Instalar"
 date: 2018-09-17 01:07:41
 image: '/assets/img/distros/redcore-linux.jpg'
 description: 'O Redcore Linux é uma distribuição baseada no Gentoo Linux.'
-main-class: 'linux'
 tags:
 - gentoo
 ---

@@ -4,10 +4,9 @@ title: 20 exemplos do comando tput
 date: '2015-08-18T09:43:00.000-07:00'
 image: '/assets/img/shell-script/tput.jpg'
 description: "tput é um comando do sistema operacional Unix que faz uso de capacidades do terminal."
-main-class: 'bash'
 tags:
-- Shell Script
-- Comandos
+- shell script
+- comandos
 ---
 
 ![20 exemplos do comando tput](/assets/img/shell-script/tput.jpg "20 exemplos do comando tput")

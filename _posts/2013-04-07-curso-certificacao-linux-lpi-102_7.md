@@ -4,10 +4,9 @@ title: 'Curso Certificação Linux LPI-102: Acessibilidade no Linux'
 date: '2013-04-07T16:43:00.000-07:00'
 image: '/assets/img/lpi/accessibility-keyboard-blog.jpg'
 description: "Com a popularização do GNU/Linux entre o público não-técnico, tem havido um interesse renovado por um suporte mais mainstream à acessibilidade."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Acessibilidade no Linux](/assets/img/lpi/accessibility-keyboard-blog.jpg "Acessibilidade no Linux")

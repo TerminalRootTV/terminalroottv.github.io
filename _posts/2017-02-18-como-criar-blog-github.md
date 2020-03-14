@@ -4,13 +4,10 @@ title: "Como Criar um Blog no GitHub"
 date: 2017-02-18 21:52:41
 image: '/assets/img/gitgithub/como-criar-um-blog-no-github.jpg'
 description: "Tudo que você precisa saber para criar rapidamente um Blog no GitHub Pages."
-main-class: 'tv'
 color: '#b31917'
 tags:
 - github
 categories:
-twitter_text: "Como Criar um Blog no GitHub"
-introduction: "Tudo que você precisa saber para criar rapidamente um Blog no GitHub Pages."
 ---
 
 ![Como Criar um Blog no GitHub](/assets/img/gitgithub/como-criar-um-blog-no-github.jpg)

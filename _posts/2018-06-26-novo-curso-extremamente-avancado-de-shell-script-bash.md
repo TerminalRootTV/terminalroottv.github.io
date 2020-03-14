@@ -4,7 +4,6 @@ title: "Novo Curso Extremamente Avançado de Shell Script Bash"
 date: 2018-06-26 23:05:29
 image: '/assets/img/cursos/shell-extremo.jpg'
 description: '50% de DESCONTO !!! Absolutamente tudo sobre manuais, processos, animações em ASCII e Unicode, Games, Instalador profissional pro Arch e muito mais!'
-main-class: 'bash'
 tags:
 - cursos
 - shell

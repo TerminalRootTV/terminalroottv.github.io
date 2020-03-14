@@ -4,11 +4,10 @@ title: "Criando arquivos .tar.gz com senha"
 date: '2014-12-20T04:05:00.002-08:00'
 image: '/assets/img/linux/gpg.jpg'
 description: "Aqui vai uma dica para deixar seus arquivos compactados em tar.gz com senha, na verdade o arquivo será transformado num .gpg"
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
-- GNU
+- linux
+- dicas
+- gnu
 ---
 ![Criando arquivos .tar.gz com senha](/assets/img/linux/gpg.jpg "Criando arquivos .tar.gz com senha")
 

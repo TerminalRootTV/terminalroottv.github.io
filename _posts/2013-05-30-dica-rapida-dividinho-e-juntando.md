@@ -4,10 +4,9 @@ title: 'Dica rápida: Dividinho e juntando arquivos'
 date: '2013-05-30T14:49:00.001-07:00'
 image: '/assets/img/linux/Screenshot.jpg'
 description: 'O comando split'
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
+- linux
+- dicas
 ---
 
 ![Dica rápida: Dividinho e juntando arquivos](/assets/img/linux/Screenshot.jpg "O comando split")

@@ -4,10 +4,9 @@ title: 'Exemplo de utilização de SQLite com PHP'
 date: '2011-12-13T09:25:00.000-08:00'
 image: '/assets/img/php/sqlite.jpg'
 description: 'SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido.'
-main-class: 'web'
 tags:
-- SQLite
-- PHP
+- sqlite
+- php
 ---
 
 ![Exemplo de utilização de SQLite com PHP](/assets/img/php/sqlite.jpg "Exemplo de utilização de SQLite com PHP")

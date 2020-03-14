@@ -4,11 +4,10 @@ title: 'Resolvendo problemas com .ICEautority'
 date: '2014-08-02T21:11:00.002-07:00'
 image: '/assets/img/linux/ICEautority.jpg'
 description: 'Caso você tenha problemas ao iniciar o sistema com a mensagem de problema com o ICEauthority.'
-main-class: 'linux'
 tags:
-- Linux
-- GNU
-- Imagens
+- linux
+- gnu
+- imagens
 ---
 
 ![Resolvendo problemas com .ICEautority](/assets/img/linux/ICEautority.jpg "Resolvendo problemas com .ICEautority")

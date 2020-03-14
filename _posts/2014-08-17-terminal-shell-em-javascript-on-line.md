@@ -4,10 +4,9 @@ title: "Terminal Shell em JavaScript online"
 date: '2014-08-17T17:11:00.001-07:00'
 image: '/assets/img/shell-script/terminal-online.jpg'
 description: "JS/UIX é um sistema operacional UN*X-like para navegadores web padrão, escrito inteiramente em JavaScript (sem plugins usados)."
-main-class: 'html'
 tags:
-- JavaScript-JQuery
-- Comandos
+- javascript-jquery
+- comandos
 ---
 
 ![Terminal Shell em JavaScript online](/assets/img/shell-script/terminal-online.jpg "Terminal Shell em JavaScript online")

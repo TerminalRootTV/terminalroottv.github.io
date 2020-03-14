@@ -4,15 +4,12 @@ title: "Como Blogar pelo Terminal Linux"
 date: 2017-01-12 19:52:25
 image: '/assets/img/icons/largetile.jpg'
 description: "Eu sei que muitos devem se perguntar: Por que postar pelo Terminal se existe a Interface Gráfica ? Simples, por vários motivos."
-main-class: 'gnu'
 color: '#720c76'
 tags:
 - dicas
 - gnu
 - linux
 categories:
-twitter_text: "Como Blogar pelo Terminal Linux"
-introduction: "Eu sei que muitos devem se perguntar: Por que postar pelo Terminal se existe a Interface Gráfica ? Simples, por vários motivos."
 ---
 
 ![Blog Linux Terminal Root](/assets/img/icons/largetile.jpg)

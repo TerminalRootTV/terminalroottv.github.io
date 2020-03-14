@@ -4,7 +4,6 @@ title: "Como Criar um Pull Request no Github"
 date: 2017-12-05 19:29:03
 image: '/assets/img/gitgithub/git-github-pull-request.jpg'
 description: "Contribuir com Projetos Open Source é uma experiência gratificante!"
-main-class: 'web'
 tags:
 - git
 - github

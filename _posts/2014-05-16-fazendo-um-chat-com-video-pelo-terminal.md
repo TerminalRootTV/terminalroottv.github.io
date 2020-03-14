@@ -4,11 +4,10 @@ title: "Fazendo um Chat com Vídeo pelo Terminal"
 date: '2014-05-16T18:04:00.000-07:00'
 image: '/assets/img/shell-script/terminal-video-chat.gif'
 description: "Entre os mais populares aplicativos de vídeo do bate-papo aparece p2pvc"
-main-class: 'misc'
 tags:
-- Multimídia
-- Notícias
-- Terminal
+- multimídia
+- notícias
+- terminal
 ---
  
 ![Fazendo um Chat com Vídeo pelo Terminal](/assets/img/shell-script/terminal-video-chat.gif "Fazendo um Chat com Vídeo pelo Terminal")

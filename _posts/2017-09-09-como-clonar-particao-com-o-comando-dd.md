@@ -4,7 +4,6 @@ title: "Como Clonar Partição com o Comando dd"
 date: 2017-09-09 21:18:35
 image: '/assets/img/comandos/dd.jpg'
 description: "dd é uma linha de comandos em sistemas operacionais unix-like. Seu objetivo principal é o de converter e copiar arquivos."
-main-class: 'misc'
 tags:
 - comandos
 - unix

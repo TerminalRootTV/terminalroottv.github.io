@@ -4,14 +4,11 @@ title: "Gambas, o Visual Basic Open Source para Linux"
 date: '2016-10-28T17:52:00.000-07:00'
 image: '/assets/img/dev/gambas.jpg'
 description: "Gambas é um ambiente de desenvolvimento integrado (IDE) para Linux uma alternativa Open Source ao Visual Basic ."
-main-class: 'dev'
 tags:
-- Gambas
-- Linux
-- Open Source
-- Desenvolvimento
-twitter_text: "Gambas, o Visual Basic Open Source para Linux"
-introduction: "Gambas é um ambiente de desenvolvimento integrado (IDE) para Linux uma alternativa Open Source ao Visual Basic."
+- gambas
+- linux
+- open source
+- desenvolvimento
 ---
 
 

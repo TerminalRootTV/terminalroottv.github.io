@@ -4,7 +4,6 @@ title: "Os 10 Melhores Emuladores de Terminal para seu Linux"
 date: 2019-08-21 10:23:18
 image: '/assets/img/terminal/terminal.jpg'
 description: 'Ranking baseado nas minha experiências.'
-main-class: 'bash'
 tags:
 - terminal
 - linux

@@ -4,12 +4,11 @@ title: "Como Acessar arquivos do Windows pelo Linux e vice-versa"
 date: '2016-04-17T05:09:00.000-07:00'
 image: '/assets/img/servidor/como-acessar-windows-pelo-linux-video-youtube.jpg'
 description: "Vídeo e Arquivo MODELO do smb.conf"
-main-class: 'linux'
 tags:
-- Linux
-- Servidores
-- TerminalRootTV
-- Redes
+- linux
+- servidores
+- terminalroottv
+- redes
 ---
 
 ![Como Acessar arquivos do Windows pelo Linux e vice-versa](/assets/img/servidor/como-acessar-windows-pelo-linux-video-youtube.jpg "Como Acessar arquivos do Windows pelo Linux e vice-versa")

@@ -4,10 +4,9 @@ title: Como alterar a Tela de Abertura do GIMP (Splash Screen)
 date: '2016-08-13T16:36:00.000-07:00'
 image: '/assets/img/gimp/theme-photoshp.jpg'
 description: Como alterar a Tela de Abertura do GIMP (Splash Screen)
-main-class: 'tv'
 tags:
-- GIMP
-- TerminalRootTV
+- gimp
+- terminalroottv
 ---
 
 ### Caminho da Splash

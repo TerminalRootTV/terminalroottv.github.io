@@ -5,9 +5,7 @@ date: '2016-05-19T12:42:00.000-07:00'
 image: '/assets/img/editores/video-editor.jpg'
 description: "Escolha o melhor!"
 tags:
-- Multimídia
-twitter_text: "6 Melhores Editores de Vídeos para Debian GNU/Linux"
-introduction: "Escolha o melhor!"
+- multimídia
 
 ---
 

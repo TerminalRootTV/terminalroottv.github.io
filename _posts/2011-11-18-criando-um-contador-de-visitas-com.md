@@ -3,9 +3,8 @@ layout: post
 title: 'Criando um Contador de Visitas com Cookie'
 date: '2011-11-17T18:39:00.000-08:00'
 description: 'Nesse exemplo setamos um cookie no computador do usuário pra controle, o cookie existirá até ele fechar o navegador.'
-main-class: 'web'
 tags:
-- PHP
+- php
 ---
 
 Nesse exemplo setamos um __cookie__ no computador do usuário pra controle, o __cookie__ existirá até ele fechar o navegador.

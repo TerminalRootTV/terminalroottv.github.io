@@ -4,14 +4,13 @@ title: "Gere logos no seu terminal com LinuxLogo"
 date: '2015-07-26T17:38:00.001-07:00'
 image: '/assets/img/terminal/linuxlogo.jpg'
 description: "LinuxLogo é um pequeno utilitário que exibe um logotipo ANSI ou ASCII do pinguim Linux, juntamente com algumas informações do sistema ou não, ou seja, é opcional."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
-- GNU
-- Imagens
-- Terminal
-- Comandos
+- linux
+- dicas
+- gnu
+- imagens
+- terminal
+- comandos
 ---
 
 ![Gere logos no seu terminal com LinuxLogo](/assets/img/terminal/linuxlogo.jpg "Gere logos no seu terminal com LinuxLogo")

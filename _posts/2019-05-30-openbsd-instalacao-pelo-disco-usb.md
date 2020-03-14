@@ -4,7 +4,6 @@ title: "OpenBSD - Instalação pelo Disco USB (pendrive)"
 date: 2019-05-30 15:30:41
 image: '/assets/img/openbsd/openbsd-usb.jpg'
 description: 'Esse vídeo é uma compilação de 3 vídeos que mostra o processo completo.'
-main-class: 'bsd'
 tags:
 - openbsd
 - pendrive

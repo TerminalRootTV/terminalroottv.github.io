@@ -4,11 +4,10 @@ title: 'Comandos para registrar chave pública do APT'
 date: '2013-12-07T05:42:00.000-08:00'
 image: '/assets/img/debian/chave.jpg'
 description: 'Aprenda a resolver isso!'
-main-class: 'debian'
 tags:
-- Debian
-- Linux
-- Dicas
+- debian
+- linux
+- dicas
 ---
 
 ![Comandos para registrar chave pública do APT](/assets/img/debian/chave.jpg "Aprenda a resolver isso!")

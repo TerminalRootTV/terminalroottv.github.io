@@ -4,7 +4,6 @@ title: "qutebrowser - Um Navegador estilo Vim , Muito Veloz!"
 date: 2019-06-27 17:50:39
 image: '/assets/img/dicas/qutebrowser.jpg'
 description: 'qutebrowser é um navegador da Web com associações de teclas no estilo vim baseadas no QtWebKit'
-main-class: 'linux'
 tags:
 - qutebrowser
 - firefox

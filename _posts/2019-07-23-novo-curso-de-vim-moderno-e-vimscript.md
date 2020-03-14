@@ -4,7 +4,6 @@ title: "Novo Curso de Vim Moderno e Vimscript"
 date: 2019-07-23 12:12:44
 image: '/assets/img/cursos/vim-udemy.jpg'
 description: 'Você pode transformar o Vim no Editor que você deseja.'
-main-class: 'linux'
 tags:
 - vim
 - neovim

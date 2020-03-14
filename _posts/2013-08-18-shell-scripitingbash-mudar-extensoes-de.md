@@ -4,9 +4,8 @@ title: "Mudar extensões de múltiplos arquivos com Shell Script"
 date: '2013-08-18T18:37:00.000-07:00'
 image: '/assets/img/shell-script/terminal14.jpg'
 description: "Altera o formato de várias extensões de uma só vez"
-main-class: 'bash'
 tags:
-- Shell Script
+- shell script
 ---
 
 ![Mudar extensões de múltiplos arquivos com Shell Script](/assets/img/shell-script/terminal14.jpg "Mudar extensões de múltiplos arquivos com Shell Script")

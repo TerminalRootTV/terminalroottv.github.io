@@ -4,9 +4,8 @@ title: "Tutorial básico de AWK"
 date: '2014-12-07T05:38:00.003-08:00'
 image: '/assets/img/awk/awk.jpg'
 description: "AWK tem a mesma pronúncia de Auk, uma espécie de pássaro."
-main-class: 'misc'
 tags:
-- AWK
+- awk
 ---
 ![Tutorial básico de AWK](/assets/img/awk/awk.jpg "Tutorial básico de AWK")
 

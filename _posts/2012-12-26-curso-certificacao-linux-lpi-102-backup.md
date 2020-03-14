@@ -4,11 +4,10 @@ title: "Curso Certificação Linux LPI-102: Backup, compactação e descompacta�
 date: '2012-12-26T13:09:00.000-08:00'
 image: '/assets/img/lpi/compactacao.jpg'
 description: "A compressão de dados é o ato de reduzir o espaço ocupado por dados num determinado dispositivo."
-main-class: 'linux'
 tags:
-- Linux
-- Dicas
-- LPI
+- linux
+- dicas
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-102: Backup, compactação e descompactação](/assets/img/lpi/compactacao.jpg "Curso Certificação Linux LPI-102: Backup, compactação e descompactação")

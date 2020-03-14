@@ -4,11 +4,10 @@ title: "Curso Certificação Linux LPI-102: Fundamentos e Serviços de Rede - TC
 date: '2013-03-03T12:54:00.000-08:00'
 image: '/assets/img/lpi/rede-de-computadores.jpg'
 description: "O TCP/IP é um conjunto de protocolos de comunicação entre computadores em rede (também chamado de pilha de protocolos TCP/IP)."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
-- Redes
+- linux
+- lpi
+- redes
 ---
 
 

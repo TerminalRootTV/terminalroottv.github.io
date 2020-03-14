@@ -4,13 +4,10 @@ title: "Porque eu não uso Linux"
 date: '2016-05-05 08:42:51'
 image: '/assets/img/gnu/gnu-linux.jpg'
 description: "Depois de mais de duas décadas do lançamento oficial do Linux e união com o projeto GNU, os usuários ainda sentem dificuldade em dar uma correta nomenclatura a esse sistema."
-main-class: 'linux'
 tags:
-- Linux
-- Artigos
-- GNU
-twitter_text: "Porque eu não uso Linux"
-introduction: "Depois de mais de duas décadas do lançamento oficial do Linux e união com o projeto GNU, os usuários ainda sentem dificuldade em dar uma correta nomenclatura a esse sistema."
+- linux
+- artigos
+- gnu
 ---
 ![Blog Linux](/assets/img/gnu/gnu-linux.jpg "Blog Linux")
 

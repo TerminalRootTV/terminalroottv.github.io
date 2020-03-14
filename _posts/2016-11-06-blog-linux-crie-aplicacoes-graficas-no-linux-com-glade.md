@@ -4,11 +4,8 @@ title: "Crie aplicações gráficas no Linux com Glade"
 date: '2016-11-06T08:48:00.000-08:00'
 image: '/assets/img/dev/glade.jpg'
 description: "Glade é um construtor de interface gráfica para GTK+ que facilita a criação de programas que se integram ao GNOME e outras GUIs."
-main-class: 'gnu'
 tags:
-- Dicas
-twitter_text: "Crie aplicações gráficas no Linux com Glade"
-introduction: "Glade é um construtor de interface gráfica para GTK+ que facilita a criação de programas que se integram ao GNOME e outras GUIs."
+- dicas
 ---
 
 

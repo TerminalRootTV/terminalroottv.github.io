@@ -4,12 +4,9 @@ title: "CAELinux, Uma Distro Linux voltada para Engenharia"
 date: '2016-05-01T16:47:00.000-07:00'
 description: "CAELinux é basicamente uma plataforma de distribuição com um conjunto completo de ferramentas de engenharia que estão disponíveis gratuitamente para usuários de Linux."
 image: '/assets/img/distros/caelinux.gif'
-main-class: 'linux'
 tags:
-- Linux
-- Distros
-twitter_text: "CAELinux: Uma distro Linux voltada para Engenharia"
-introduction: "CAELinux é basicamente uma plataforma de distribuição com um conjunto completo de ferramentas de engenharia que estão disponíveis gratuitamente para usuários de Linux."
+- linux
+- distros
 ---
 
 ![Caelinux Blog Linux Terminal Root](/assets/img/distros/caelinux.gif)

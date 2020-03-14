@@ -4,7 +4,6 @@ title: "Como Instalar o Powerline"
 date: 2018-01-21 16:34:45
 image: '/assets/img/terminal/como-instalar-o-powerline.jpg'
 description: 'O Powerline é um plugin de status para o terminal, vim, tmux e vários outros aplicativos.'
-main-class: 'web'
 tags:
 - terminal
 ---

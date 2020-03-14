@@ -4,15 +4,12 @@ title: "Como acessar o Google Drive pelo Terminal Linux"
 date: 2017-01-16 19:05:08
 image: '/assets/img/dicas/drive.jpg'
 description: "O desenvolvedor Petter Rasmussen, sob MIT License , criou um aplicativo que torna possível esse acesso pelo Terminal"
-main-class: 'linux'
 color: '#3b5998'
 tags:
 - linux
 - terminal
 - google
 categories:
-twitter_text: "Como acessar o Google Drive pelo Terminal Linux"
-introduction: "O desenvolvedor Petter Rasmussen, sob MIT License , criou um aplicativo que torna possível esse acesso pelo Terminal"
 ---
 
 ![Google Drive Terminal Linux](/assets/img/dicas/drive.jpg)

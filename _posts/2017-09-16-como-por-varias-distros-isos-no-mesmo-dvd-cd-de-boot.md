@@ -4,7 +4,6 @@ title: "Como Pôr Várias Distros/ISOs no Mesmo DVD/CD de Boot"
 date: 2017-09-16 21:28:42
 image: '/assets/img/apps/como-por-varias-distros-isos-no-mesmo-dvd-cd-de-boot.jpg'
 description: "O multicd.sh é um shell script projetado para criar uma imagem de CD de inicialização múltipla contendo muitas distribuições e/ou iso de diferentes Linux."
-main-class: 'tv'
 tags:
 - usb
 - iso

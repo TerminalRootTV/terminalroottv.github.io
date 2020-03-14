@@ -4,12 +4,11 @@ title: "Como criar uma galeria de fotos pelo Terminal"
 date: '2015-08-19T05:09:00.000-07:00'
 image: '/assets/img/shell-script/galeria.jpg'
 description: "Para você criar uma galeria estilo a da imagem dessa postagem é necessário que você possua o totem-video-thumbnailer."
-main-class: 'bash'
 tags:
-- Shell Script
-- Multimídia
-- Terminal
-- Comandos
+- shell script
+- multimídia
+- terminal
+- comandos
 ---
 
 ![Como criar uma galeria de fotos pelo Terminal](/assets/img/shell-script/galeria.jpg "Como criar uma galeria de fotos pelo Terminal")

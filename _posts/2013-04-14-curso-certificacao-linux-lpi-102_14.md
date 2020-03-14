@@ -4,11 +4,10 @@ title: "Curso Certificação Linux LPI-102: Configurando Conexões PPPoE no Linu
 date: '2013-04-14T09:18:00.000-07:00'
 image: '/assets/img/lpi/figura-1.jpg'
 description: "PPPoE (sigla em inglês para Point-to-Point Protocol over Ethernet) é um protocolo de rede para conexão de usuários em uma rede Ethernet para alcançar a Internet."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
-- Redes
+- linux
+- lpi
+- redes
 ---
 
 ![Configurando Conexões PPPoE no Linux](/assets/img/lpi/figura-1.jpg "Configurando Conexões PPPoE no Linux")

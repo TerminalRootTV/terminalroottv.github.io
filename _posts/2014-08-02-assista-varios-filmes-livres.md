@@ -4,13 +4,12 @@ title: 'Assista vários filmes Livres!'
 date: '2014-08-02T16:08:00.002-07:00'
 image: '/assets/img/linux/filmes-gnu-linux.jpg'
 description: "Filmes sobre Software Livre e Tecnologia"
-main-class: 'linux'
 tags:
-- Linux
-- Software Livre
-- Richard Stallman
-- Código Aberto
-- Vídeos
+- linux
+- software livre
+- richard stallman
+- código aberto
+- vídeos
 ---
 
 ![Assista vários filmes Livres!](/assets/img/linux/filmes-gnu-linux.jpg "Filmes sobre Software Livre e Tecnologia")

@@ -4,10 +4,9 @@ title: "Renomeando múltiplos arquivos em PHP e Shell Script"
 date: '2012-12-02T11:05:00.000-08:00'
 image: '/assets/img/shell-scripit/arquivos-php-shell.gif'
 description: "Veja o código que é uma mesclagem de PHP e Shell"
-main-class: 'bash'
 tags:
-- Shell Script
-- PHP
+- shell script
+- php
 ---
 
 ![Renomeando múltiplos arquivos em PHP e Shell Script](/assets/img/shell-scripit/arquivos-php-shell.gif "Renomeando múltiplos arquivos em PHP e Shell Script")

@@ -4,11 +4,10 @@ title: "Como instalar o Roblox no Debian e no Ubuntu Linux"
 date: '2016-10-16T07:21:00.000-07:00'
 image: '/assets/img/games/como-instalar-roblox-debian-ubuntu-linux.jpg'
 description: "Passos para rodar o game no seu computador"
-main-class: 'debian'
 tags:
-- Debian
-- Ubuntu
-- Games
+- debian
+- ubuntu
+- games
 ---
 
 ![Como instalar o Roblox no Debian e no Ubuntu Linux](/assets/img/games/como-instalar-roblox-debian-ubuntu-linux.jpg "Como instalar o Roblox no Debian e no Ubuntu Linux")

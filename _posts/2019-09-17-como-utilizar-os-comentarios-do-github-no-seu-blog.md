@@ -4,7 +4,6 @@ title: "Como Inserir Facilmente os Comentários do GitHub no seu Blog"
 date: 2019-09-17 19:29:01
 image: '/assets/img/gitgithub/comentarios-com-github.jpg'
 description: 'Diga adeus ao Disqus, comentários do Facebook ou qualquer outro!'
-main-class: 'github'
 tags:
 - github
 - web

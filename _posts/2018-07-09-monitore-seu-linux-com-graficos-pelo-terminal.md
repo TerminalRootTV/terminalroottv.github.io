@@ -4,7 +4,6 @@ title: "Monitore seu Linux com Gráficos pelo Terminal"
 date: 2018-07-09 14:01:19
 image: '/assets/img/js/blessed-nodejs-shellscript.jpg'
 description: 'Blessed é uma biblioteca de interface para terminal de alto nível construída em node.js que nos permite criar aplicativos de terminal impressionantes facilmente.'
-main-class: 'js'
 tags:
 - terminal
 - javascript

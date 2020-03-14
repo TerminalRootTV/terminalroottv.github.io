@@ -4,15 +4,14 @@ title: "Função Shell Script para cálculo do Imposto de Renda e INSS"
 date: '2015-12-23T14:13:00.000-08:00'
 image: '/assets/img/shell-script/irrf.jpg'
 description: "Simule o valor do seu Imposto de Renda"
-main-class: 'bash'
 tags:
-- Bash
-- Shell Script
-- Contábeis
-- Software Livre
-- Open Source
-- GNU
-- Terminal
+- bash
+- shell script
+- contábeis
+- software livre
+- open source
+- gnu
+- terminal
 - terminalroot
 ---
 

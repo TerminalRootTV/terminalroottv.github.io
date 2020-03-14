@@ -3,18 +3,15 @@ layout: post
 title: Utilizando o SSH
 date: '2015-01-04T12:36:00.001-08:00'
 description: "Em informática o Secure Shell ou SSH é, simultaneamente, um programa de computador e um protocolo de rede que permite a conexão com outro computador na rede, de forma a executar comandos de uma unidade remota."
-main-class: 'linux'
 color: '#3b5998'
 author: Marcos Oliveira
 tags:
-- Linux
-- Servidores
-- GNU
-- Redes
-modified_time: '2015-01-04T12:36:38.392-08:00'
-thumbnail: http://3.bp.blogspot.com/-LdrJTnUGDxQ/VKmkNOyiq2I/AAAAAAAABIM/KAuyzK5Gg7U/s72-c/ssh.jpg
-twitter_text: "Utilizando o SSH"
-introduction: "Em informática o Secure Shell ou SSH é, simultaneamente, um programa de computador e um protocolo de rede que permite a conexão com outro computador na rede, de forma a executar comandos de uma unidade remota."
+- linux
+- servidores
+- gnu
+- redes
+modified_time: '2015-01-04t12:36:38.392-08:00'
+thumbnail: http://3.bp.blogspot.com/-ldrjtnugdxq/vkmknoyiq2i/aaaaaaaabim/kauyzk5gg7u/s72-c/ssh.jpg
 ---
 
 

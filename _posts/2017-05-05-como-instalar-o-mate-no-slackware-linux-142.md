@@ -4,7 +4,6 @@ title: "Como Instalar o MATE no Slackware Linux 14.2"
 date: 2017-05-05 10:18:08
 image: '/assets/img/slackware/slackware-mate-desktop.jpg'
 description: "Procedimento feito utilizando arquivos já empacotados para Slackware."
-main-class: 'tv'
 tags:
 - slackware
 - mate

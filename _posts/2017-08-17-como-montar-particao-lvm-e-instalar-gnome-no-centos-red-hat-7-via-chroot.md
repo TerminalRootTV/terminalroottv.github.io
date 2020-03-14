@@ -4,7 +4,6 @@ title: "Como Montar Partição LVM e Instalar GNOME no CentOS-Red Hat 7 via chro
 date: 2017-08-17 21:29:59
 image: '/assets/img/redhat/serie-centos-redhat-2.jpg'
 description: "LVM é um método de alocar espaço do disco rígido em volumes lógicos que podem ser facilmente redimensionados, ao contrário das partições."
-main-class: 'tv'
 tags:
 - redhat
 - centos

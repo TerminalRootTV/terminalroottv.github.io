@@ -4,7 +4,6 @@ title: "Coleção de Shell Script Bash Para Seu Linux"
 date: 2018-07-22 17:54:51
 image: '/assets/img/bash/bash-snipets.jpg'
 description: 'Bash Snippets é uma coleção de Shell Script Bash com 19 ferramentas que servem pra você usar de forma rápida.'
-main-class: 'bash'
 tags:
 - bash
 - shellscript

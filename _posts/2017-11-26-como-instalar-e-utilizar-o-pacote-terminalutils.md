@@ -4,7 +4,6 @@ title: "Como Instalar e Utilizar o Pacote terminalutils"
 date: 2017-11-26 16:53:41
 image: '/assets/img/dicas/terminalutils.jpg'
 description: "Pacote que possui um conjunto de ferramentas para usar no dia a dia"
-main-class: 'bash'
 tags:
 - shellscript
 - bash

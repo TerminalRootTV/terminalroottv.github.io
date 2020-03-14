@@ -4,7 +4,6 @@ title: "Ética, Vigilância e Democracia na visão de Richard Stallman"
 date: 2018-10-22 22:38:04
 image: '/assets/img/gnu/PT1216_FEATURE_STALLMAN_06.jpg'
 description: 'O Software Livre possui um conceito superior a somente usar o termo Open Source.'
-main-class: 'gnu'
 tags:
 - gnu
 - stallman

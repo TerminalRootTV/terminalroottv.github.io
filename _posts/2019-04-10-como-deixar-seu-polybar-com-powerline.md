@@ -4,7 +4,6 @@ title: "Como Deixar Seu POLYBAR com POWERLINE"
 date: 2019-04-10 00:33:03
 image: '/assets/img/dicas/polybar-powerline.jpg'
 description: "Assista o vídeo e veja como adicionar fonts Powerline ao Polybar"
-main-class: "dicas"
 tags:
 - polybar
 - dicas

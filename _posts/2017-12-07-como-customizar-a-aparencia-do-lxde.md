@@ -4,7 +4,6 @@ title: 'Como Customizar a Aparencia do LXDE'
 date: '2017-12-07 08:59:20'
 image: '/assets/img/freebsd/lxde-custom.jpg'
 description: 'LXDE é um ambiente de desktop open source para Unix e outras plataformas POSIX, como Linux e BSD. O nome LXDE significa "Lightweight X11 Desktop Environment.'
-main-class: 'C'
 tags:
 - freebsd
 - lxde

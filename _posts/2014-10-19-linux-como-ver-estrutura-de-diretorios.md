@@ -4,10 +4,9 @@ title: "Como ver a estrutura de diretórios em árvore"
 date: '2014-10-19T14:19:00.004-07:00'
 image: '/assets/img/shell-script/tree-output-2.jpg'
 description: "Veja a árvore de diretórios completa."
-main-class: 'linux'
 tags:
-- Linux
-- Comandos
+- linux
+- comandos
 ---
 
 ![Como ver a estrutura de diretórios em árvore](/assets/img/shell-script/tree-output-2.jpg "Como ver a estrutura de diretórios em árvore")

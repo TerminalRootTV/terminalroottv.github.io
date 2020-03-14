@@ -4,7 +4,6 @@ title: "5 Ferramentas para você usar no seu WM"
 date: 2019-04-25 20:16:38
 image: '/assets/img/dicas/5-tools-to-unixporn.jpg'
 description: '5 ferramentas (in)úteis, mas atrativas para usar no seu rice no #unixporn .'
-main-class: 'bash'
 tags:
 - shellscript
 - shell

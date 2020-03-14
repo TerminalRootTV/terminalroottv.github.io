@@ -4,9 +4,8 @@ title: "Emulando os jogos do Atari no Linux"
 date: '2015-07-29T15:12:00.000-07:00'
 image: '/assets/img/games/enduro.gif'
 description: "Jogue os games do Atari no GNU/Linux, com o emulador Stella."
-main-class: 'games'
 tags:
-- Games
+- games
 ---
 ![Emulando os jogos do Atari no Linux](/assets/img/games/enduro.gif "Emulando os jogos do Atari no Linux")
 

@@ -4,7 +4,6 @@ title: "Como Compilar Programas no FreeBSD via Ports"
 date: 2018-02-20 16:13:04
 image: '/assets/img/freebsd/ports.jpg'
 description: 'O Sistema de Ports, também chamado de Coleção de Ports ou simplesmente Ports, é um "sistema de instalação" de pacotes prático e eficiente utilizado pelo FreeBSD.'
-main-class: 'tv'
 tags:
 - freebsd
 ---

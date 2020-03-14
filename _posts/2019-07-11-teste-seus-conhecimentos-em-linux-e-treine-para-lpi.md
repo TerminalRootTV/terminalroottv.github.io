@@ -4,7 +4,6 @@ title: "Teste Seus Conhecimentos em Linux e Treine para LPI"
 date: 2019-07-11 20:18:08
 image: '/assets/img/lpi/quiz-terminalroot-400.jpg'
 description: 'São selecionadas 10 perguntas entre mais de 160.'
-main-class: 'linux'
 tags:
 - linux
 - lpi

@@ -4,11 +4,10 @@ title: "Conectando por comando com chave WPA/WPA2 a Wireless"
 date: '2014-12-14T09:12:00.002-08:00'
 image: '/assets/img/rede/wifi.jpg'
 description: "Bem, no outro post Conectando em Redes Wireless no Linux por comando mostrei como conectar por comando em chave WEP que é bem simples, nesse post aqui vou explicar para chaves WAP ou WAP2."
-main-class: 'linux'
 tags:
-- Debian
-- Linux
-- Redes
+- debian
+- linux
+- redes
 ---
 
 Bem, no outro post Conectando em __Redes Wireless__ no __Linux__ por comando mostrei como conectar por comando em chave __WEP__ que é bem simples, nesse post aqui vou explicar para chaves __WAP ou WAP2__, vamos utilizar a mesma lógica porém um pouco menos fácil.Primeiramente precisamos nos certificar que o roteador está configurado corretamente

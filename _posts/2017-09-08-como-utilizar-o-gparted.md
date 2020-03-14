@@ -4,7 +4,6 @@ title: "Como Utilizar o GParted"
 date: 2017-09-08 20:44:49
 image: '/assets/img/apps/gparted.jpg'
 description: "GParted (ou Gnome Partition Editor) é o aplicativo GNOME para edição de partições."
-main-class: 'misc'
 tags:
 - gparted
 - gnome

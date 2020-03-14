@@ -4,11 +4,8 @@ title: "Os 8 melhores Editores de Texto para Debian GNU/Linux"
 date: '2016-05-18T12:24:00.001-07:00'
 image: '/assets/img/editores/text-editor.jpg'
 description: "Sempre que precisamos digitar textos rápidos ou desenvolver aplicações via linha de comando precisamos de EDITORES DE TEXTO para agilizar nossas tarefas"
-main-class: 'dev'
 tags:
-- GNU
-twitter_text: "Os 8 melhores Editores de Texto para Debian GNU/Linux"
-introduction: "Sempre que precisamos digitar textos rápidos ou desenvolver aplicações via linha de comando precisamos de EDITORES DE TEXTO para agilizar nossas tarefas"
+- gnu
 ---
 ![Blog Linux](/assets/img/editores/text-editor.jpg "Blog Linux")
 > Sempre que precisamos digitar textos rápidos ou desenvolver aplicações via linha de [comando](http://www.terminalroot.com.br/tags#comando) precisamos de __EDITORES DE TEXTO__ para agilizar nossas tarefas, os Editor de Texto é considerado software mais usado no mundo da informática, aqui separamos os 8 melhores.

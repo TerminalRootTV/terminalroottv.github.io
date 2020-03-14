@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Hora e Internacionalização do Sist
 date: '2013-03-31T15:45:00.000-07:00'
 image: '/assets/img/lpi/date.jpg'
 description: "Configurando Hora e Internacionalização do Sistema"
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Hora e Internacionalização do Sistema](/assets/img/lpi/date.jpg "Hora e Internacionalização do Sistema")

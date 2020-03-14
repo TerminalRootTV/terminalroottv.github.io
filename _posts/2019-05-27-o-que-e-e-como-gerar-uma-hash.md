@@ -4,7 +4,6 @@ title: "O que é e como gerar uma HASH ?"
 date: 2019-05-27 09:05:47
 image: '/assets/img/hacker/hash.jpg'
 description: 'hash é a transformação de uma grande quantidade de dados em uma pequena quantidade de informações.'
-main-class: 'artigos'
 tags:
 - hash
 - hacker

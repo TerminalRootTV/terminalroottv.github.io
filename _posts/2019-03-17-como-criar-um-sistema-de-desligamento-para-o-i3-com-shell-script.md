@@ -4,7 +4,6 @@ title: "Como Criar um Sistema de Desligamento para o i3 com Shell Script"
 date: 2019-03-17 19:34:48
 image: '/assets/img/gentoo/shell-script-i3-yad-gentoo.png'
 description: 'Nesse exemplo vamos usar uma ferramenta para Shell Script: Yad.'
-main-class: 'bash'
 tags:
 - i3
 - shellscript

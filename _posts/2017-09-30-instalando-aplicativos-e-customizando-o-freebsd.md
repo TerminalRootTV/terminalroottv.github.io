@@ -4,7 +4,6 @@ title: "Instalando Aplicativos e Customizando o FreeBSD"
 date: 2017-09-30 08:47:35
 image: '/assets/img/freebsd/freebsd-print.jpg'
 description: "Nesse vídeo finalizamos a Série #PorqueFreeBSD, instalamos aplicativos, alteramos a shell, adicionamos o usuário ao grupo wheel, alteramos o tema do SLiM e customizamos o MATE DE."
-main-class: 'tv'
 tags:
 - freebsd
 ---

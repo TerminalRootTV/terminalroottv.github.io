@@ -4,7 +4,6 @@ title: "Como Instalar o Lumina Desktop no FreeBSD"
 date: 2017-12-06 17:32:13
 image: '/assets/img/freebsd/lumina-freebsd.jpg'
 description: "O Lumina Desktop Environment é um ambiente de desktop. Ele foi projetado para TrueOS e sistemas derivados do BSD em geral, mas foi portado para várias distribuições Linux."
-main-class: 'tv'
 tags:
 - freebsd
 ---

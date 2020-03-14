@@ -4,7 +4,6 @@ title: "Uma Coleção de Temas Prontos para seu Polybar"
 date: 2019-07-24 10:27:21
 image: '/assets/img/polybar/polybar-themes.jpg'
 description: 'Ajuda os usuários a criar barras de status altamente personalizáveis para o ambiente desktop.'
-main-class: 'unix'
 tags:
 - polybar
 - bspwm

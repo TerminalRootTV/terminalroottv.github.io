@@ -4,7 +4,6 @@ title: "O que é SGBD ?"
 date: 2019-08-30 10:51:16
 image: '/assets/img/mysql/sgbd.jpg'
 description: 'Vamos ver conceitos e dicas SQL.'
-main-class: 'sql'
 tags:
 - sql
 - sgbd

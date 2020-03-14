@@ -4,7 +4,6 @@ title: "Como Criar um Alerta em Bash ao Final de um Evento"
 date: 2017-05-08 18:59:16
 image: '/assets/img/terminal/alerta-shell-script.jpg'
 description: "Dica rápida e simples pra usar com xmessage."
-main-class: 'bash'
 tags:
 - terminal
 - bash

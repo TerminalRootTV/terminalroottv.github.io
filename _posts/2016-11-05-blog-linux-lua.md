@@ -4,12 +4,9 @@ title: "Lua uma linguagem de programação criada por brasileiros, e utilizada p
 date: '2016-11-05T11:18:00.000-07:00'
 image: '/assets/img/dev/lua.jpg'
 description: "Lua foi criada por um time de desenvolvedores do Tecgraf da PUC-Rio, a princípio, para ser usada em um projeto da Petrobras."
-main-class: 'dev'
 tags:
-- Lua
+- lua
 categories:
-twitter_text: "Lua uma linguagem de programação criada por brasileiros, e utilizada pelo mundo"
-introduction: "Lua foi criada por um time de desenvolvedores do Tecgraf da PUC-Rio, a princípio, para ser usada em um projeto da Petrobras."
 ---
 
 ![Blog Linux Lua](/assets/img/dev/lua.jpg)

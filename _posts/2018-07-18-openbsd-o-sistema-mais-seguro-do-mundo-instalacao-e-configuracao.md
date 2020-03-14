@@ -4,7 +4,6 @@ title: "OpenBSD - O Sistema mais Seguro do Mundo - Instalação e Configuração
 date: 2018-07-18 11:36:10
 image: '/assets/img/bsd/openbsd.jpg'
 description: 'Nesse vídeo também customizamos o XFCE, além de dicas adicionais de compilação, Shell e muitas outras coisas.'
-main-class: 'tv'
 tags:
 - shellscript
 - openbsd

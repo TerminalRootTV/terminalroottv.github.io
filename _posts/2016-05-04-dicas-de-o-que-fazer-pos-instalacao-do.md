@@ -4,9 +4,8 @@ title: "Dicas de o que fazer pós instalação do Debian"
 date: '2016-05-04T09:15:00.001-07:00'
 image: 'o-que-fazer-apos-instalacao-do-debian-8-jessie.jpg'
 description: "O que fazer após instalação do Debian 8 Jessie"
-main-class: 'tv'
 tags:
-- TerminalRootTV
+- terminalroottv
 ---
 
 ## Foram instalados os aplicativos:

@@ -4,7 +4,6 @@ title: "Enlightenment Desktop - Uma Luz pro Linux"
 date: 2018-06-27 20:42:41
 image: '/assets/img/review/shot-enlightenment.jpg '
 description: 'Enlightenment é um desktop environment completamente open-source e independente que tem sido desenvolvido há mais de 10 anos.'
-main-class: 'linux'
 tags:
 - enlightenment
 ---

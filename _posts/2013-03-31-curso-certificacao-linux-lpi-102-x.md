@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: X Window System"
 date: '2013-03-31T08:06:00.000-07:00'
 image: '/assets/img/lpi/x-window-system.jpg'
 description: "X Window System, X-Window, X11 ou simplesmente X é um software de sistema e um protocolo que fornece uma base para interfaces gráficas de usuário."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![X Window System](/assets/img/lpi/x-window-system.jpg "X Window System")

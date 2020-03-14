@@ -4,9 +4,8 @@ title: "Características de: FreeBSD, OpenBSD e NetBSD"
 date: '2016-05-26T18:56:00.000-07:00'
 image: '/assets/img/bsd/caracteristicas_de_freebsd_openbsd_e_netbsd.jpg'
 description: "O objetivo deste artigo é mostrar as características dos sistemas operacionais FreeBSD, OpenBSD e NetBSD"
-main-class: 'artigos'
 tags:
-- BSD
+- bsd
 ---
 
 ![Características de: FreeBSD, OpenBSD e NetBSD](/assets/img/bsd/caracteristicas_de_freebsd_openbsd_e_netbsd.jpg "Características de: FreeBSD, OpenBSD e NetBSD")

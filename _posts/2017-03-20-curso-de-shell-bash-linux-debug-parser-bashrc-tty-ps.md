@@ -4,7 +4,6 @@ title: "Debug, Parser, profile, TTY e PS - Curso de Shell Script do Iniciante ao
 date: 2017-03-20 04:45:13
 image: '/assets/img/cursoshell/14-debug-parser-bashrc-tty-ps1.jpg'
 description: "Assista ao vídeo e dscubra dicas e técnicas incríveis sobre esses assuntos."
-main-class: 'bash'
 tags:
 - shellscript
 - bash

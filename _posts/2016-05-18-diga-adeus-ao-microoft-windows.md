@@ -4,13 +4,10 @@ title: "Diga Adeus ao Micro$oft Windows!"
 date: '2016-05-18T12:24:00.003-07:00'
 image: '/assets/img/dicas/goodbye-microsoft.jpg'
 description: "Agora uma nova forma de instalação de distribuições Linux está disponível para usuários iniciantes que usam Windows."
-main-class: 'debian'
 color: '#de4508'
 tags:
-- Debian
-- Ubuntu
-twitter_text: "Diga Adeus ao Micro$oft Windows!"
-introduction: "Agora uma nova forma de instalação de distribuições Linux está disponível para usuários iniciantes que usam Windows."
+- debian
+- ubuntu
 ---
 
 ![Adeus Windows](/assets/img/dicas/goodbye-microsoft.jpg)

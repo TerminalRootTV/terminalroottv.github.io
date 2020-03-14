@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-1: Quotas de Disco"
 date: '2012-12-14T06:00:00.000-08:00'
 image: "/assets/img/lpi/quotas-linux.jpg"
 description: "No Linux existe a possibilidade de habilitarmos quotas de disco para gerenciarmos melhor o uso do espaço disponível em disco."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-1: Quotas de Disco](/assets/img/lpi/quotas-linux.jpg "Curso Certificação Linux LPI-1: Quotas de Disco")

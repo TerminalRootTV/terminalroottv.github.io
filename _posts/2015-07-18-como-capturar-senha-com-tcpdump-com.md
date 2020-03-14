@@ -4,15 +4,12 @@ title: "Como capturar a senha com TCPDump"
 date: '2015-07-18T15:37:00.000-07:00'
 image: '/assets/img/hacker/tcpdump.jpg'
 description: "Isso serve como conhecimento de proteção, ou seja, alguém que está usando sua rede WI-FI por exemplo"
-main-class: 'linux'
 tags:
-- Linux
-- Servidores
-- GNU
-- Web Hacker
-- Redes
-twitter_text: "Como capturar a senha com TCPDump"
-introduction: "Isso serve como conhecimento de proteção, ou seja, alguém que está usando sua rede WI-FI por exemplo"
+- linux
+- servidores
+- gnu
+- web hacker
+- redes
 ---
 
 ![TCPDump Hacker Blog Linux](/assets/img/hacker/tcpdump.jpg)

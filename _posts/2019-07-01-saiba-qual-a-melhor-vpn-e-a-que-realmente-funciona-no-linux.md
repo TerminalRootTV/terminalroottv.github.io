@@ -4,11 +4,10 @@ title: "Saiba qual a melhor VPN e a que realmente funciona no Linux"
 date: 2019-07-01 13:35:22
 image: '/assets/img/terceiros/vpn-terminalroot-tekcompare.jpg'
 description: 'Como escolher a VPN certa e ficar seguro quando estiver on-line.'
-main-class: 'linux'
 tags:
 - vpn
 - linux
-- Linux
+- linux
 ---
 
 ![Saiba qual a melhor VPN e a que realmente funciona no Linux](/assets/img/terceiros/vpn-terminalroot-tekcompare.jpg)

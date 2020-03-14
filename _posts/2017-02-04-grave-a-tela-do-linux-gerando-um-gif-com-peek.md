@@ -4,14 +4,11 @@ title: "Grave a Tela do Linux gerando um GIF com Peek"
 date: 2017-02-04 21:32:26
 image: '/assets/img/dicas/peek.gif'
 description: "Procurando uma ferramenta simples que lhe permite gravar sua tela e exportá-la como um GIF ?"
-main-class: 'linux'
 color: '#637a91'
 tags:
 - dicas
 - linux
 categories:
-twitter_text: "Grave a Tela do Linux gerando um GIF com Peek"
-introduction: "Procurando uma ferramenta simples que lhe permite gravar sua tela e exportá-la como um GIF ?"
 ---
 
 ![Peek GIF](/assets/img/dicas/peek.gif)

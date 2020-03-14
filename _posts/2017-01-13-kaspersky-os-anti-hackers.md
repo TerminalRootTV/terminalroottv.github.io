@@ -4,7 +4,6 @@ title: "Kaspersky OS, um Sistema Operacional à prova de hackers!"
 date: 2017-01-13 18:41:48
 image: '/assets/img/hacker/hacker.jpg'
 description: "Um produto totalmente inovador e que foi construído do zero para que o seu propósito fosse alcançado na plenitude."
-main-class: 'misc'
 color: '#34a853'
 tags:
 - noticias

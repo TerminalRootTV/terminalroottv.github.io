@@ -4,7 +4,6 @@ title: "Execute Comandos do Shell em JavaScript com ShellJS"
 date: 2017-04-14 11:35:58
 image: '/assets/img/shell-script/shelljs.jpg'
 description: "ShellJS é uma implementação portable para Linux, OS X e Windows de comandos de Shell Unix da API Node.js."
-main-class: 'web'
 tags:
 - shell-script
 - bash

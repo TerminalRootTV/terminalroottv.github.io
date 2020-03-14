@@ -4,13 +4,12 @@ title: "Como criar pacotes .deb"
 date: '2014-12-07T05:46:00.000-08:00'
 image: '/assets/img/debian/deb.jpg'
 description: "Pacotes .deb facilitam a instalação de aplicativos."
-main-class: 'linux'
 tags:
-- Debian
-- Linux
-- Dicas
-- Debian-Likes
-- GNU
+- debian
+- linux
+- dicas
+- debian-likes
+- gnu
 ---
 
 ![Como criar pacotes .deb](/assets/img/debian/deb.jpg "Como criar pacotes .deb")

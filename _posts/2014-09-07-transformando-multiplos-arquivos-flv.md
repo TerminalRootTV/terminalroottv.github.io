@@ -4,9 +4,8 @@ title: "Transformando múltiplos arquivos FLV para MP3 com Shell Script"
 date: '2014-09-06T21:40:00.000-07:00'
 image: '/assets/img/shell-script/flv-to-mp3-converter.jpg'
 description: "Script em Bash pra transformar vários arquivos FLV para MP3 de uma só vez."
-main-class: 'bash'
 tags:
-- Shell Script
+- shell script
 ---
 ![Transformando múltiplos arquivos FLV para MP3 com Shell Script](/assets/img/shell-script/flv-to-mp3-converter.jpg "Transformando múltiplos arquivos FLV para MP3 com Shell Script")
 

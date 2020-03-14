@@ -4,10 +4,9 @@ title: "Removendo ícones da área de trabalho no MATE"
 date: '2014-10-20T12:24:00.001-07:00'
 image: '/assets/img/mate/Mate-logo.jpg'
 description: "Por padrão, MATE mostra vários ícones no desktop: o conteúdo do seu diretório desktop, computador, home e diretórios de rede, a lixeira e as unidades montadas."
-main-class: 'misc'
 tags:
-- MATE
-- Dicas
+- mate
+- dicas
 ---
 
 ![Removendo ícones da área de trabalho no MATE](/assets/img/mate/Mate-logo.jpg "Removendo ícones da área de trabalho no MATE")

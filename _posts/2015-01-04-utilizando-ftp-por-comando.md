@@ -4,12 +4,11 @@ title: "Utilizando FTP por comando"
 date: '2015-01-04T12:39:00.001-08:00'
 image: '/assets/img/lpi/ftp.jpg'
 description: "FTP significa File Transfer Protocol ( Protocolo de Transferência de Arquivos ), e é uma forma bastante rápida e versátil de transferir arquivo"
-main-class: 'linux'
 tags:
-- Linux
-- Servidores
-- GNU
-- Redes
+- linux
+- servidores
+- gnu
+- redes
 ---
 
 ![Utilizando FTP por comando](/assets/img/lpi/ftp.jpg "Utilizando FTP por comando")

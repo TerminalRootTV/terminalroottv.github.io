@@ -4,7 +4,6 @@ title: "BSPWM Review"
 date: 2018-09-13 12:50:39
 image: '/assets/img/bspwm/bspwm-review-min.jpg'
 description: 'bspwm é um gerenciador de janelas leve, lado a lado, e minimalista escrito em C que organiza janelas em árvore binária completa.'
-main-class:
 tags:
 - bspwm
 - gentoo 

@@ -4,10 +4,9 @@ title: "Pesquisando CEP via Shell Script"
 date: '2013-08-25T09:27:00.004-07:00'
 image: '/assets/img/shell-script/cep.png'
 description: "Script simples para saber o Estado, Cidade, Bairro e Logradouro de um determinado CEP, explicações segue nos comentários do código."
-main-class: 'bash'
 tags:
-- Shell Script
-- SED
+- shell script
+- sed
 ---
 
 ![Pesquisando CEP via Shell Script](/assets/img/shell-script/cep.png "Pesquisando CEP via Shell Script")

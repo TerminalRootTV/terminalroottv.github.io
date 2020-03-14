@@ -4,11 +4,10 @@ title: "Procurando e movendo, removendo, renomeando e mudando permissão"
 date: '2015-07-19T15:59:00.001-07:00'
 image: '/assets/img/shell-script/terminal109.jpg'
 description: "Precisando automatizar algumas tarefas com a necessidade de agilizá-las e ainda se tratando de muitos arquivos, podemos facilitar muito este trabalho utilizando apenas uma linha."
-main-class: 'bash'
 tags:
-- Dicas
-- Terminal
-- Comandos
+- dicas
+- terminal
+- comandos
 ---
 
 ![Procurando e movendo, removendo, renomeando e mudando permissão](/assets/img/shell-script/terminal109.jpg "Procurando e movendo, removendo, renomeando e mudando permissão")

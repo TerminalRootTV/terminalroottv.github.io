@@ -4,11 +4,10 @@ title: "Jogos para o Terminal"
 date: '2014-10-27T16:19:00.000-07:00'
 image: '/assets/img/shell-script/games-terminal-bash-linux.jpg'
 description: "10 dicas de jogos para o terminal"
-main-class: 'bash'
 tags:
-- Shell Script
-- Games
-- Terminal
+- shell script
+- games
+- terminal
 ---
 
 ![Jogos para o Terminal](/assets/img/shell-script/games-terminal-bash-linux.jpg "Jogos para o Terminal")

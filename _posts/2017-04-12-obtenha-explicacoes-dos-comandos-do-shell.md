@@ -4,7 +4,6 @@ title: "Obtenha Explicações dos Comandos do Shell"
 date: 2017-04-12 19:49:10
 image: '/assets/img/shell-script/explainshell.jpg'
 description: "Escreva uma linha de comando para ver o texto de ajuda que corresponde a cada argumento."
-main-class: 'bash'
 tags:
 
 - shell-script

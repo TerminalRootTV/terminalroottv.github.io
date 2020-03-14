@@ -4,10 +4,9 @@ title: 'Curso Certificação Linux LPI-1: Trabalhando com Permissões'
 date: '2012-11-25T15:42:00.000-08:00'
 image: '/assets/img/lpi/permissoes/permissions.jpg'
 description: "Cada arquivo no Linux tem o definido controle de acesso."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 
 ![Curso Certificação Linux LPI-1: Trabalhando com Permissões](/assets/img/lpi/permissoes/permissions.jpg "Curso Certificação Linux LPI-1: Trabalhando com Permissões")

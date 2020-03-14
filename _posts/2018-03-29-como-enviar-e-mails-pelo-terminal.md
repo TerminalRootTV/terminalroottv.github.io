@@ -4,7 +4,6 @@ title: "Como Enviar E-Mails pelo Terminal"
 date: 2018-03-29 12:09:19
 image: '/assets/img/terminal/mutt.jpg'
 description: 'Todos os clientes de e-mail são idiotas. Este só é um pouco menos!'
-main-class: 'misc'
 tags:
 - terminal
 - mutt

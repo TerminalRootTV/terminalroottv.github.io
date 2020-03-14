@@ -4,10 +4,9 @@ title: "Curso Certificação Linux LPI-102: Kernel Linux"
 date: '2013-02-15T17:09:00.000-08:00'
 image: '/assets/img/lpi/kernel.jpg'
 description: "O núcleo do Linux (Linux Kernel) forma a estrutura base do sistema operacional GNU/Linux, que é um sistema operacional tipo unix."
-main-class: 'linux'
 tags:
-- Linux
-- LPI
+- linux
+- lpi
 ---
 ![Kernel Linux](/assets/img/lpi/kernel.jpg "Kernel Linux")
 

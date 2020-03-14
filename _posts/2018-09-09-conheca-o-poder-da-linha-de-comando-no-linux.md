@@ -4,7 +4,6 @@ title: "Conheça o Poder da Linha de Comando no Linux"
 date: 2018-09-09 12:31:17
 image: '/assets/img/dicas/poder-linux.jpg'
 description: 'Esse vídeo é uma compilação de dicas para aumentar sua produtividade, para isso vamos utilizar de cobaia um game em Shell Script.'
-main-class: 'linux'
 tags:
 - bash
 - regex

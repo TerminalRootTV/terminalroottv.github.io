@@ -4,10 +4,9 @@ title: "Shell Scripiting (Bash): Função para mostrar qual seu IP na internet"
 date: '2013-07-06T18:51:00.001-07:00'
 image: '/assets/img/shell-script/terminal110.jpg'
 description: 'Analise o código e os comentários.'
-main-class: 'bash'
 tags:
-- Shell Script
-- SED
+- shell script
+- sed
 ---
 
 ![Shell Scripiting (Bash): Função para mostrar qual seu IP na internet](/assets/img/shell-script/terminal110.jpg "Shell Scripiting (Bash): Função para mostrar qual seu IP na internet")

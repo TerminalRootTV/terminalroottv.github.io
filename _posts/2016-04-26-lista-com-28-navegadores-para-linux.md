@@ -4,7 +4,6 @@ title: "Lista com 28 Navegadores para Linux"
 date: '2016-04-26T18:47:00.000-07:00'
 image: '/assets/img/browser/navegadores-linux.jpg'
 description: "Criei uma lista com o número máximo que eu encontrei de navegadores disponíveis para GNU/Linux."
-main-class: 'web'
 tags:
 - firefox
 - web

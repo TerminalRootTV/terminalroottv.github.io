@@ -4,7 +4,6 @@ title: "Tratamento de imagens com ImageMagick"
 date: '2015-03-17T18:18:00.000-07:00'
 image: '/assets/img/dicas/imagemagick.jpg'
 description: "ImageMagick é uma  poderosa ferramenta em modo texto para tratar imagens em suas diversas  formas: converter, redimensionar, criar, editar, cortar, juntar, editar  cores e mais um bilhão de funcionalidades."
-main-class: 'artigos'
 color: '#009688'
 tags:
 - imagens

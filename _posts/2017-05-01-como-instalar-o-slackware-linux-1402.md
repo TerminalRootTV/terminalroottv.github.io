@@ -4,7 +4,6 @@ title: "Como Instalar o Slackware Linux 14.2"
 date: 2017-05-01 17:54:54
 image: '/assets/img/slackware/slackware.jpg'
 description: "Slackware é o nome da mais antiga e conhecida distribuição Linux mantida ainda em evidência."
-main-class: 'tv'
 tags:
 - slackware
 - linux

@@ -4,11 +4,10 @@ title: "Como solucionar o problema NO_PUBKEY"
 date: '2014-12-14T09:08:00.000-08:00'
 image: '/assets/img/debian/key.jpg'
 description: "Modo bem simples e funcional."
-main-class: 'debian'
 tags:
-- Debian
-- Dicas
-- Debian-Likes
+- debian
+- dicas
+- debian-likes
 ---
 
 ![Como solucionar o problema NO_PUBKEY](/assets/img/debian/key.jpg "Como solucionar o problema NO_PUBKEY")

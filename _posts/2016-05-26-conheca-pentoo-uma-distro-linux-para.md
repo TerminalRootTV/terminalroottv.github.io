@@ -4,10 +4,9 @@ title: "Conheça Pentoo uma distro Linux para Hackers"
 date: '2016-05-26T09:39:00.000-07:00'
 image: '/assets/img/distros/pentoo.jpg'
 description: "O Pentoo é um Live CD com o foco na segurança da informação."
-main-class: 'misc'
 tags:
-- Distros
-- Web Hacker
+- distros
+- web hacker
 ---
 
 

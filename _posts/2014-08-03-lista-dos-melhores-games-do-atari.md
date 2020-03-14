@@ -4,7 +4,6 @@ title: 'Lista dos melhores Games do Atari'
 date: '2014-08-03T12:56:00.003-07:00'
 image: '/assets/img/games/enduro.gif'
 description: 'Sou fã de jogos de 8 bits, principalemente se tratando de Atari. Atualmente estudo desenvolvimento de todos esse jogos em Shell Script, segue a lista dos que eu mais gosto.'
-main-class: 'games'
 tags:
 - games
 - atari
