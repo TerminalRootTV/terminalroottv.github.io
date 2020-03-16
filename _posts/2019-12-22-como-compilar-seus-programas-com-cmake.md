@@ -90,7 +90,7 @@ Dentro desse arquivo(para esse exemplo básico, e que serve até para projetos m
 // CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 project(MeuExemplo)
-add_executable(myexample main.cpp
+add_executable(myexample main.cpp)
 {% endhighlight %}
 
 Após isso, basta criar um diretório os ficarão os arquivos do CMake e executar o comando `cmake`:
