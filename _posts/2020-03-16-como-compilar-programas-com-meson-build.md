@@ -24,30 +24,30 @@ O Meson suporta GNU Compiler Collection, Clang, Microsoft Visual Studio e outros
 
 # Como compilar um programa com Meson
 Para uma forma simples de entendimento, vamos criar um exemplo para um programa [Olá, Mundo!](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) em [C++](https://terminalroot.com.br/cpp). Supondo que você possui o seguinte arquivo:
-```cpp
+{% highlight cpp %}
 #include <iostream>
 
 int main(){
     std::cout << "Hello, World! Meson Build!" << '\n';
     return 0;
 }
-```
+{% endhighlight %}
 
 No mesmo diretório do seu arquivo/projeto código você deve criar um arquivo de nome **meson.build**: `vim meson.build`
-```meson
+{% highlight make %}
 project('tutorial', 'cpp')
 executable('demo', 'main.cpp')
-```
+{% endhighlight %}
 
 Vamos criar o arquivo: **tutorial**, a linguagem é **cpp**(C++), o arquivo binário final terá o nome: **demo** e o arquivo que vamos compilar é o **main.cpp**.
 
 Feito isso o próximo passo é rodar o comando:
-```sh
+{% highlight bash %}
 meson builddir
-```
+{% endhighlight %}
 
 A saída será similar a essa:
-```sh
+{% highlight bash %}
 marcos@gentoo ~$ meson builddir
 The Meson build system
 Version: 0.53.1
@@ -64,19 +64,19 @@ Build targets in project: 1
 
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /usr/bin/ninja
 marcos@gentoo ~$ 
-```
+{% endhighlight %}
 
 Ele irá criar um diretório com o nome **builddir** e precisamos entrar nele para efetuar a compilação:
-```sh
+{% highlight bash %}
 cd builddir
 ninja
-```
+{% endhighlight %}
 
 Após isso é só rodar o arquivo executável gerado:
-```sh
+{% highlight bash %}
 ./demo
 Hello, World! Meson Build!
-```
+{% endhighlight %}
 
 Para mais informações e detalhes veja a [documentação oficial](https://mesonbuild.com/Tutorial.html).
 
