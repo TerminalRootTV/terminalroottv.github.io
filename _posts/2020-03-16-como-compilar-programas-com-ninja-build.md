@@ -64,6 +64,8 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+
 Analisando o arquivo acima, de acordo com conhecimentos prévios sobre o [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html), por exemplo, conseguimos notar que o arquivo que será compilado definimos como: **main.c** , o arquivo temporário chamamos de **src.o** e o arquivo binário final nomeamos como **demo-c**.
 
 Agora, basta estar no diretório que você salvou e via linha de comando rodar:
