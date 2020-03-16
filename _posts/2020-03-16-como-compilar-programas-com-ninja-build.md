@@ -3,7 +3,7 @@ layout: post
 title: "Como compilar programas com Ninja Build"
 date: 2020-03-16 08:41:05
 image: '/assets/img/cpp/ninja-build.jpg'
-description: 'Uma ferramenta de software para automatizar a construção (compilação) de software.'
+description: 'É um sistema de compilação pequeno , com foco na velocidade.'
 tags:
 - ninja
 - meson
