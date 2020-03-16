@@ -18,6 +18,16 @@ tags:
 
 Ao contrário do Make , um "gerador de compilação" deve ser usado para gerar arquivos de compilação Ninja. [Gyp](https://en.m.wikipedia.org/wiki/GYP_(software)) , [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html) , [Meson](https://terminalroot.com.br/2020/03/como-compilar-programas-com-meson-build.html) e [gn](https://gn.googlesource.com/gn/) são ferramentas populares de software de gerenciamento de compilação que suportam a criação de arquivos de compilação para o Ninja.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # Como compilar com o Ninja?
 O processo é bem parecido com o do [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html).
 ## Compilando em [C](https://terminalroot.com.br/2014/12/linguagem-c-utilizando-as-funcoes-fopen.html), único arquivo:
@@ -44,6 +54,16 @@ rule link
 build src.o: cc main.c
 build demo-c: link src.o
 ```
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 Analisando o arquivo acima, de acordo com conhecimentos prévios sobre o [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html), por exemplo, conseguimos notar que o arquivo que será compilado definimos como: **main.c** , o arquivo temporário chamamos de **src.o** e o arquivo binário final nomeamos como **demo-c**.
 
 Agora, basta estar no diretório que você salvou e via linha de comando rodar:
@@ -91,6 +111,19 @@ class Dectobin{
 };
 #endif
 ```
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > `vim dectobin.cpp`
 ```cpp
 #include <iostream>
@@ -129,6 +162,19 @@ cd dec2bin/
 ls
 dectobin.cpp  dectobin.hpp  main.cpp
 ```
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Da mesma forma que a anterior, vamos criar um arquivo **build.ninja**, só com as seguintes configurações:
 ```ninja
