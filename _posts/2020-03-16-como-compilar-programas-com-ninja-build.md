@@ -2,7 +2,7 @@
 layout: post
 title: "Como compilar programas com Ninja Build"
 date: 2020-03-16 08:41:05
-image: '/assets/img/cpp/meson-build.jpg'
+image: '/assets/img/cpp/ninja-build.jpg'
 description: 'Uma ferramenta de software para automatizar a construção (compilação) de software.'
 tags:
 - ninja
@@ -12,7 +12,7 @@ tags:
 - compiladores
 ---
 
-![Como compilar programas com Ninja Build](ninja-build.jpg)
+![Como compilar programas com Ninja Build](/assets/img/cpp/ninja-build.jpg)
 
 [Ninja](https://ninja-build.org/) é um sistema de compilação pequeno , com foco na velocidade. Em essência, o Ninja é uma alternativa ao [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html) . O Ninja é utilizado por diversos projetos, tendo como seu principal cliente o [Google Chrome](https://www.google.pt/intl/pt-BR/chrome/) e o [Android](https://www.android.com/intl/pt-BR_br/), e é usado pela maioria dos desenvolvedores que trabalham no [LLVM](https://terminalroot.com.br/2019/12/gcc-vs-llvm-qual-e-o-melhor-compilador.html).
 
@@ -192,6 +192,6 @@ build program-cpp: link source1.o source2.o
 {% endhighlight %}
 
 Depois é só rodar o comando `ninja` e o arquivo `program-cpp` ficará pronto no mesmo diretório. Veja a saída na imagem abaixo onde aproveitamos o programinha para converter o número decimal: **9** em binário: **1001**:
-![Dec2Bin compilado com g++ via Ninja Build](ninja-cpp.png)
+![Dec2Bin compilado com g++ via Ninja Build](/assets/img/cpp/ninja-cpp.png)
 
 Simples, né? Abraços!
