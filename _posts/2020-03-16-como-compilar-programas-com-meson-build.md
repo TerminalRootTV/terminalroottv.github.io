@@ -12,7 +12,6 @@ tags:
 - compiladores
 ---
 
-# Como Compilar Programas com Meson Build
 ![Como Compilar Programas com Meson Build](/assets/img/cpp/meson-build.jpg)
 
 
@@ -21,6 +20,16 @@ tags:
 O [Meson](https://en.wikipedia.org/wiki/Meson_(software)) suporta as linguagens [C](https://terminalroot.com.br/2014/12/linguagem-c-utilizando-as-funcoes-fopen.html), [C++](https://terminalroot.com.br/cpp), CUDA, D, Objective-C, Fortran, [Java](https://terminalroot.com.br/2019/10/jython-a-linguagem-que-mistura-java-com-python.html), C# , Rust e Vala, e possui um mecanismo para lidar com dependências chamado Wrap.
 
 O Meson suporta GNU Compiler Collection, Clang, Microsoft Visual Studio e outros.
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Como compilar um programa com Meson
 Para uma forma simples de entendimento, vamos criar um exemplo para um programa [Olá, Mundo!](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) em [C++](https://terminalroot.com.br/cpp). Supondo que você possui o seguinte arquivo:
@@ -40,6 +49,16 @@ executable('demo', 'main.cpp')
 {% endhighlight %}
 
 Vamos criar o arquivo: **tutorial**, a linguagem é **cpp**(C++), o arquivo binário final terá o nome: **demo** e o arquivo que vamos compilar é o **main.cpp**.
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Feito isso o próximo passo é rodar o comando:
 {% highlight bash %}
@@ -65,6 +84,18 @@ Build targets in project: 1
 Found ninja-1.9.0.git.kitware.dyndep-1.jobserver-1 at /usr/bin/ninja
 marcos@gentoo ~$ 
 {% endhighlight %}
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ele irá criar um diretório com o nome **builddir** e precisamos entrar nele para efetuar a compilação:
 {% highlight bash %}
