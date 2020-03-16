@@ -3,7 +3,7 @@ layout: post
 title: "Como Compilar Programas com Meson Build"
 date: 2020-03-16 08:57:43
 image: '/assets/img/cpp/meson-build.jpg'
-description: 'Uma ferramenta de software para automatizar a construção (compilação) de software.'
+description: 'Uma ferramenta para automatizar a construção (compilação) de software.'
 tags:
 - ninja
 - meson
@@ -15,7 +15,7 @@ tags:
 ![Como Compilar Programas com Meson Build](/assets/img/cpp/meson-build.jpg)
 
 
-[Meson](https://mesonbuild.com/) é uma ferramenta de software para automatizar a construção (compilação) de software. Ele é um front-end para o [Ninja](https://terminalroot.com.br/2020/03/como-compilar-programas-com-ninja-build.html). Meson é um software livre e de código aberto escrito em Python , sob a Apache License 2.0 .
+[Meson](https://mesonbuild.com/) é uma ferramenta para automatizar a construção (compilação) de software. Ele é um front-end para o [Ninja](https://terminalroot.com.br/2020/03/como-compilar-programas-com-ninja-build.html). Meson é um software livre e de código aberto escrito em Python , sob a Apache License 2.0 .
 
 O [Meson](https://en.wikipedia.org/wiki/Meson_(software)) suporta as linguagens [C](https://terminalroot.com.br/2014/12/linguagem-c-utilizando-as-funcoes-fopen.html), [C++](https://terminalroot.com.br/cpp), CUDA, D, Objective-C, Fortran, [Java](https://terminalroot.com.br/2019/10/jython-a-linguagem-que-mistura-java-com-python.html), C# , Rust e Vala, e possui um mecanismo para lidar com dependências chamado Wrap.
 
