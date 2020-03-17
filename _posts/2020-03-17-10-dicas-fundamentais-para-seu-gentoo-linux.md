@@ -92,7 +92,9 @@ Faça uso frequente da opção `--quiet` ou somente `-q` , os *outputs* do compi
 ---
 
 # 6. Saiba com usar corretamente as FLAGS
-Use o arquivo `/etc/portage/package.use/zz-autounmask` . Não defina **flags** diretamente usando a variável [USE](https://wiki.gentoo.org/wiki/USE_flag) no terminal, ex.: ~~`sudo USE="network mpd" emerge polybar`~~ , isso gera problema quando você atualizar o software, ele recompilará sem suporte à **network** e **mpd** , sem dizer que na maioria das vezes não é interessante adicionar **flags** universalmente à variável **USE** no `/etc/portage/make.conf` , somente quando são caso globais, ou seja, quando qualquer software depende dele, por exemplo: `USE="gnome -kde"`(se seu sistema tem o GNOME instalado e não tem o KDE), mas esse exemplo foi bem razoável, pois seu **profile**(veja `eselect profile list`) que você definiu na instalação do seu Gentoo e escolheu(`set`) para o GNOME, logo todas as **flags** para isso já estão definidas para o Portage, veja com `emerge info | grep ^USE`.
+Use o arquivo `/etc/portage/package.use/zz-autounmask` . Não defina **flags** diretamente usando a variável [USE](https://wiki.gentoo.org/wiki/USE_flag) no terminal, ex.: ~~`sudo USE="network mpd" emerge polybar`~~ , isso gera problema quando você atualizar o software, ele recompilará sem suporte à **network** e **mpd** , sem dizer que na maioria das vezes não é interessante adicionar **flags** universalmente à variável **USE** no `/etc/portage/make.conf` .
+
+Somente quando são caso globais, ou seja, quando qualquer software depende dele, por exemplo: `USE="gnome -kde"`(se seu sistema tem o GNOME instalado e não tem o KDE), mas esse exemplo foi bem razoável, pois seu **profile**(veja `eselect profile list`) que você definiu na instalação do seu Gentoo e escolheu(`set`) para o GNOME, logo todas as **flags** para isso já estão definidas para o Portage, veja com `emerge info | grep ^USE`.
 
 Logo a maneira mais correta é inserir a **flag** somente para o software que deseja no arquivo `/etc/portage/package.use/zz-autounmask`, lembre-se de adicionar com a versão do software, exemplo: `echo '>=x11-misc/polybar-3.4.2-r1 network mpd' | sudo tee -a /etc/portage/package.use/zz-autounmask` a opção `>=` no início da linha diz que o Portage deve incluir essa **flag** para qualquer versão igual ou superior à informada e separado por espaços informe as **flags**.
 
@@ -116,12 +118,12 @@ Existem várias opções para o comando `equery`(quais pacotes dependem de algum
 ---
 
 # 8. Atente-se às licenças!
-Use também a variável __ACCEPT_LICENSE="*"__ no seu `make.conf` , nesse caso ele aceita todos os tipos de licença e evita problema durante instalação de aplicativos.
+Use também a variável `ACCEPT_LICENSE="*"` no seu `make.conf` , nesse caso ele aceita todos os tipos de licença e evita problema durante instalação de aplicativos.
 
 ---
 
 # 9. Pacotes de idiomas
-Defina também o idioma do seu sistema diretamente no seu `make.conf` usando a variável **L10N**, exemplo: **L10N="pt-BR"** para nesse caso se você instala softwares com o idioma em **Português Brasileiro**.
+Defina também o idioma do seu sistema diretamente no seu `make.conf` usando a variável **L10N**, exemplo: `L10N="pt-BR"` para nesse caso se você instala softwares com o idioma em **Português Brasileiro**.
 
 Para saber qual código/nome usar para seu país [veja aqui](https://en.wikipedia.org/wiki/Language_localisation), se seu sistema for **Inglês Estados Unidos** é dispensável essa informação e não esqueça de atualizar com a opção `--changed-use`, ex.: `emerge --update --changed-use @world`. Não use a variável **LINGUAS** ela [foi descontinuada](https://www.gentoo.org/support/news-items/2016-06-23-l10n-use_expand.html) , [veja](https://wiki.gentoo.org/wiki/Localization/Guide) também.
 
