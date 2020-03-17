@@ -330,7 +330,7 @@
 }
 
 #post-page ul li a {
-    border-bottom: 1px solid dotted;
+    border-bottom: 1px dotted #3B70B5;
 }
 
 /*--------------------------------------------------------------
