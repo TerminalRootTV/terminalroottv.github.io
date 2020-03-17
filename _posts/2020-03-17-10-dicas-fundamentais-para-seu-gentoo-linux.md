@@ -16,7 +16,11 @@ As pessoas me pedem diversos conteúdos sobre [Gentoo](https://www.gentoo.org/) 
 
 Então vou postar séries de dicas de ambos aqui em lista de tópicos como esse, apesar de não haver essa informação no título dessa posatgem, essa é a **PRIMEIRA PARTE** dessa série. Acredito que para início essas dicas iniciais são fundamentais, vamos à lista!
 
+
+
 ---
+
+
 
 # 1. Habilite o **IKCONFIG** no [Kernel](https://www.kernel.org/)
 O suporte ao `.config` no Kernel, também conhecido como [IKCONFIG](https://wiki.gentoo.org/wiki/Kernel/IKCONFIG_Support), permite que os usuários construam uma cópia da configuração com a qual o kernel foi construído dentro do próprio kernel.
@@ -52,7 +56,11 @@ make && make modules_install && make install
 ```
 > Se possui o GRUB , rode também: `grub-mkconfig -o /boot/grub/grub.cfg`
 
+
+
 ---
+
+
 
 # 2. Defina o a **ACCEPT_KEYWORDS** no seu arquivo `/etc/portage/make.conf`
 Se seu sistema é **amd64**, por exemplo, alguns softwares exigem que você explicite isso, porque o pacote tem código para outras arquiteturas, e você não conseguirá instalá-lo se essa variável não estiver definida, [saiba mais aqui](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS/pt-br). Exemplo: `ACCEPT_KEYWORDS="~amd64"`, ou somente rode:
@@ -60,12 +68,19 @@ Se seu sistema é **amd64**, por exemplo, alguns softwares exigem que você expl
 echo 'ACCEPT_KEYWORDS="~amd64"' | sudo tee -a /etc/portage/make.conf
 ```
 
+
+
 ---
+
+
 
 # 3. Saiba quando é melhor usar um [Overlay](https://overlays.gentoo.org/)
 Se precisar compilar um software que não há na árvore do [Portage](https://wiki.gentoo.org/wiki/Portage), e quiser mais facilidade de instalação use um Overlay, veja aqui como instalar o [Layman](https://en.terminalroot.com.br/how-to-install-programs-via-layman-in-gentoo/).
 
+
+
 ---
+
 
 
 # 4. Habilite parâmetros mais usados por padrão
@@ -84,12 +99,20 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+
 ---
+
+
 
 # 5. Ganhe mais desempenho nas compilações
 Faça uso frequente da opção `--quiet` ou somente `-q` , os *outputs* do compilador não somente deixam o prompt feio, elas deixam a compilação mais demorada, sério! Fiz o teste com pequenos e grandes softwares e os tempos aproximaram o ganho de 15% em média. Só não recomendo usar esse parâmetro na variável da dica anterior, pois as saídas do `--search` ficarão suprimidas e com menos detalhes, [saiba mais](https://wiki.gentoo.org/wiki/EMERGE_DEFAULT_OPTS).
 
+
+
 ---
+
+
 
 # 6. Saiba com usar corretamente as FLAGS
 Use o arquivo `/etc/portage/package.use/zz-autounmask` . Não defina **flags** diretamente usando a variável [USE](https://wiki.gentoo.org/wiki/USE_flag) no terminal, ex.: ~~`sudo USE="network mpd" emerge polybar`~~ , isso gera problema quando você atualizar o software, ele recompilará sem suporte à **network** e **mpd** , sem dizer que na maioria das vezes não é interessante adicionar **flags** universalmente à variável **USE** no `/etc/portage/make.conf` .
@@ -98,7 +121,12 @@ Somente quando são caso globais, ou seja, quando qualquer software depende dele
 
 Logo a maneira mais correta é inserir a **flag** somente para o software que deseja no arquivo `/etc/portage/package.use/zz-autounmask`, lembre-se de adicionar com a versão do software, exemplo: `echo '>=x11-misc/polybar-3.4.2-r1 network mpd' | sudo tee -a /etc/portage/package.use/zz-autounmask` a opção `>=` no início da linha diz que o Portage deve incluir essa **flag** para qualquer versão igual ou superior à informada e separado por espaços informe as **flags**.
 
+
+
 ---
+
+
+
 
 # 7. Explore o [Gentoolkit](https://wiki.gentoo.org/wiki/Gentoolkit)
 - Antes de compilar/instalar qualquer pacote, use o comando `equery uses [categoria/nome-do-pacote]`(informe sempre com a categoria para evitar nomes ambíguos de pacotes), é necessário possuir o [Gentoolkit](https://wiki.gentoo.org/wiki/Gentoolkit) instalado(`emerge gentoolkit`) ex.: `equery uses x11-misc/polybar` , e veja quais flags já estão habilitadas para instalação e/ou também atualização e quais você gostaria de incluir no seu `package.use/zz-autounmask`.
@@ -115,19 +143,35 @@ data-ad-slot="5351066970"></ins>
 
 Existem várias opções para o comando `equery`(quais pacotes dependem de alguma flag; quais pacotes usam determinada flag; ...) , rode `equery --help` para mais detalhes e teste cada uma delas para entender melhor cada opção.
 
+
+
 ---
+
+
 
 # 8. Atente-se às licenças!
 Use também a variável `ACCEPT_LICENSE="*"` no seu `make.conf` , nesse caso ele aceita todos os tipos de licença e evita problema durante instalação de aplicativos.
 
+
+
+
 ---
+
+
+
 
 # 9. Pacotes de idiomas
 Defina também o idioma do seu sistema diretamente no seu `make.conf` usando a variável **L10N**, exemplo: `L10N="pt-BR"` para nesse caso se você instala softwares com o idioma em **Português Brasileiro**.
 
 Para saber qual código/nome usar para seu país [veja aqui](https://en.wikipedia.org/wiki/Language_localisation), se seu sistema for **Inglês Estados Unidos** é dispensável essa informação e não esqueça de atualizar com a opção `--changed-use`, ex.: `emerge --update --changed-use @world`. Não use a variável **LINGUAS** ela [foi descontinuada](https://www.gentoo.org/support/news-items/2016-06-23-l10n-use_expand.html) , [veja](https://wiki.gentoo.org/wiki/Localization/Guide) também.
 
+
+
+
 ---
+
+
+
 
 # 10. Fique mais veloz!
 Deixe os downloads dos pacotes mais velozes definindo um `mirror` para o mesmo usando a variável **GENTOO_MIRRORS** no seu `make.conf` , exemplo para o mirror do Brazil da UFPR: `GENTOO_MIRRORS="https://gentoo.c3sl.ufpr.br/ http://gentoo.c3sl.ufpr.br/ rsync://gentoo.c3sl.ufpr.br/gentoo/"` , consulte a lista dos mirros [aqui](https://www.gentoo.org/downloads/mirrors/) .
@@ -147,7 +191,13 @@ data-full-width-responsive="true"></ins>
 
 Se quiser mais facilidade para inserir, instale/use o comando [mirrorselect](https://wiki.gentoo.org/wiki/Mirrorselect).
 
+
+
+
 ---
+
+
+
 
 Espero que seja útil essa primeira parte dessa série, caso tenha interesse em saber como está meu `make.conf`, aqui está:
 ```sh
