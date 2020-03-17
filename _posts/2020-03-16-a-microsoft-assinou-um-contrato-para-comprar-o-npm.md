@@ -35,10 +35,20 @@ data-ad-slot="5351066970"></ins>
 > Para os milhões de desenvolvedores que usam o registro público do npm todos os dias, o npm estará sempre disponível e sempre será gratuito. Nosso foco após o fechamento do negócio será:
 > 
 > 👉️ Investir na infraestrutura e na plataforma de registro. O ecossistema JavaScript é enorme e cresce rapidamente. Ele precisa de um registro sólido. Faremos os investimentos necessários para garantir que o npm seja rápido, confiável e escalável.
-
+> 
 > 👉️ Melhorar a experiência principal. Trabalharemos para melhorar a experiência cotidiana de desenvolvedores e mantenedores e daremos suporte ao excelente trabalho já iniciado na CLI do npm v7, que **permanecerá livre e de código aberto**. Alguns recursos maiores que estamos entusiasmados são os [Workspaces](https://github.com/npm/rfcs/blob/de8d71c0453f5cf443d3ef2f47e313f12dd6aaf9/accepted/0000-workspaces.md) e as melhorias na experiência de publicação e autenticação de múltiplos fatores.
 >     Interaja com a comunidade. Vamos nos envolver ativamente com a comunidade JavaScript para obter suas idéias e nos ajudar a definir o futuro da npm.
-> 
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 > Olhando para o futuro, integraremos o GitHub e o npm para melhorar a segurança da cadeia de suprimentos de software de código aberto e permitir que você rastreie uma alteração de uma solicitação pull do GitHub para a versão do pacote npm que a corrigiu. A segurança de código aberto é uma questão global importante e, com o recente lançamento do [GitHub Security Lab](https://securitylab.github.com/) e dos avisos de segurança integrados do GitHub, estamos bem posicionados para fazer a diferença. Além disso, os [patrocinadores do GitHub](https://github.com/sponsors) já pagaram milhões de dólares para colaboradores de código aberto, e estamos entusiasmados em explorar maneiras interessantes de estendê-lo ao ecossistema npm.
 > 
 > Para clientes pagantes que usam o npm Pro, Teams e Enterprise para hospedar registros particulares, continuaremos apoiando você. Também estamos investindo pesadamente nos pacotes GitHub como um ótimo registro de pacotes multilíngues totalmente integrado ao GitHub. No final deste ano, permitiremos que os clientes pagantes do npm movam seus pacotes npm privados para os pacotes GitHub, permitindo que o npm se concentre exclusivamente em ser um ótimo registro público para JavaScript.
