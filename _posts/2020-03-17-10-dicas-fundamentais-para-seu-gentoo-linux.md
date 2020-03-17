@@ -29,18 +29,11 @@ cd /usr/src/linux
 make menuconfig
 ```
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3>Kernel<span class="badge badge-secondary">Novo</span></h3>
-  </div>
-  <div class="panel-body">
-<pre>
+```txt
 General Setup  --->
     <*/M> Kernel .config support
         [*] Enable access to .config through /proc/config.gz
-</pre>
-  </div>
-</div>
+```
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
