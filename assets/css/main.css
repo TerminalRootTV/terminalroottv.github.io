@@ -329,8 +329,12 @@
 	height: 400px;
 }
 
-#post-page ul li a {
+#post-page > ul > li > a {
     border-bottom: 1px dotted #3B70B5;
+}
+
+#post-page > ul > li > a:hover {
+    border-bottom: none;
 }
 
 /*--------------------------------------------------------------
