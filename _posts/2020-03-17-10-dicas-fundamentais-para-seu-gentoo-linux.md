@@ -2,7 +2,7 @@
 layout: post
 title: "10 Dicas Fundamentais para seu Gentoo Linux"
 date: 2020-03-17 13:12:32
-image: '/assets/img//assets/img/gentoo/larry-gentoo.jpg'
+image: '/assets/img/gentoo/larry-gentoo.jpg'
 description: 'Primeira parte dessa série.'
 tags:
 - gentoo
