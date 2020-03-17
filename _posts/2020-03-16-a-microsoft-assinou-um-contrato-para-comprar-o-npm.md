@@ -37,7 +37,7 @@ data-ad-slot="5351066970"></ins>
 > 👉️ Investir na infraestrutura e na plataforma de registro. O ecossistema JavaScript é enorme e cresce rapidamente. Ele precisa de um registro sólido. Faremos os investimentos necessários para garantir que o npm seja rápido, confiável e escalável.
 > 
 > 👉️ Melhorar a experiência principal. Trabalharemos para melhorar a experiência cotidiana de desenvolvedores e mantenedores e daremos suporte ao excelente trabalho já iniciado na CLI do npm v7, que **permanecerá livre e de código aberto**. Alguns recursos maiores que estamos entusiasmados são os [Workspaces](https://github.com/npm/rfcs/blob/de8d71c0453f5cf443d3ef2f47e313f12dd6aaf9/accepted/0000-workspaces.md) e as melhorias na experiência de publicação e autenticação de múltiplos fatores.
->     Interaja com a comunidade. Vamos nos envolver ativamente com a comunidade JavaScript para obter suas idéias e nos ajudar a definir o futuro da npm.
+> 👉️ Interaja com a comunidade. Vamos nos envolver ativamente com a comunidade JavaScript para obter suas idéias e nos ajudar a definir o futuro da npm.
 
 <!-- LISTA MIN -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
