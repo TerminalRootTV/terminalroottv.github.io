@@ -329,7 +329,7 @@
 	height: 400px;
 }
 
-#post-page > li > a {
+#post-page > ul > li > a {
     border-bottom: 1px solid dotted;
 }
 
