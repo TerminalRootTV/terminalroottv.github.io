@@ -27,6 +27,7 @@ O suporte ao `.config` no Kernel, também conhecido como [IKCONFIG](https://wiki
 
 Isso permite que eles inspecionem a configuração do kernel enquanto estiver em execução, sem ter que se preocupar se eles mudaram ou limparam o diretório de origem após a compilação.
 > Habilitando no kernel:
+
 ```sh
 su
 cd /usr/src/linux
