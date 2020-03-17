@@ -232,13 +232,13 @@ source /var/lib/layman/make.conf
 ```
 
 # Veja também:
-## [Como Instalar o Gentoo](https://terminalroot.com.br/2017/05/como-instalar-o-gentoo.html)
-## [O Que Fazer Após Instalar o Gentoo Linux](https://terminalroot.com.br/2017/07/o-que-fazer-apos-instalar-o-gentoo-linux.html)
-## [Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu](https://terminalroot.com.br/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html)
-## [Como Instalar o Pentoo, um Gentoo para Pentest](https://terminalroot.com.br/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html)
-## [Como Instalar o Sabayon Linux, um Gentoo Fácil](https://terminalroot.com.br/2018/02/como-instalar-o-sabayon-um-gentoo-facil.html)
-## [Calculate Linux com Cinnamon - Um Gentoo Prático](https://terminalroot.com.br/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html)
-## [Como Criar um Sistema de Desligamento para o i3 com Shell Script](https://terminalroot.com.br/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html)
-## [Gentoo + i3 + Ly](https://terminalroot.com.br/2019/03/gentoo-i3-ly.html)
-## [Redcore Linux - um Gentoo Simples de Instalar](https://terminalroot.com.br/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html)
-## [Como Instalar o Compiz no Gentoo GNU/Linux](https://terminalroot.com.br/2017/10/como-instalar-o-compiz-no-gentoo-gnu-linux.html)
++ [Como Instalar o Gentoo](https://terminalroot.com.br/2017/05/como-instalar-o-gentoo.html)
++ [O Que Fazer Após Instalar o Gentoo Linux](https://terminalroot.com.br/2017/07/o-que-fazer-apos-instalar-o-gentoo-linux.html)
++ [Como Instalar o Gentoo Linux em Dual Boot com o Ubuntu](https://terminalroot.com.br/2019/02/como-instalar-o-gentoo-linux-em-dual-boot-com-o-ubuntu.html)
++ [Como Instalar o Pentoo, um Gentoo para Pentest](https://terminalroot.com.br/2018/02/como-instalar-o-pentoo-um-gentoo-para-pentest.html)
++ [Como Instalar o Sabayon Linux, um Gentoo Fácil](https://terminalroot.com.br/2018/02/como-instalar-o-sabayon-um-gentoo-facil.html)
++ [Calculate Linux com Cinnamon - Um Gentoo Prático](https://terminalroot.com.br/2019/04/calculate-linux-com-cinnamon-um-gentoo-pratico.html)
++ [Como Criar um Sistema de Desligamento para o i3 com Shell Script](https://terminalroot.com.br/2019/03/como-criar-um-sistema-de-desligamento-para-o-i3-com-shell-script.html)
++ [Gentoo + i3 + Ly](https://terminalroot.com.br/2019/03/gentoo-i3-ly.html)
++ [Redcore Linux - um Gentoo Simples de Instalar](https://terminalroot.com.br/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html)
++ [Como Instalar o Compiz no Gentoo GNU/Linux](https://terminalroot.com.br/2017/10/como-instalar-o-compiz-no-gentoo-gnu-linux.html)
