@@ -10,7 +10,6 @@ tags:
 - polkit
 ---
 
-Como Montar Partição sem Autenticação no Linux
 ![Como Montar Partição sem Autenticação no Linux](/assets/img/dicas/autenticacao-montar-particao.jpg)
 
 Quando você vai acessar uma partição via interfaçe gráfica em alguns sistemas como [Gentoo](https://terminalroot.com.br/2020/03/10-dicas-fundamentais-para-seu-gentoo-linux.html) e [Debian](https://terminalroot.com.br/2017/09/como-instalar-o-debian-remotamente-via-ssh.html), por exemplo, é pedido que você insira sua senha de `sudo` ou `root` como no exemplo abaixo:
