@@ -15,7 +15,7 @@ tags:
 
 Uma das facilidades de você utilizar [Shell Script](https://terminalroot.com.br/shell) para seus aplicativos web é que a implementação de diversas funcionalidades(Acesso Banco de Dados, bibliotecas, e principalmente, disponibilidade de todos os comandos UNIX) é bem fácil!
 
-Para muita gente, configurar o servidor Apache para isso pode ser complicado, então para resolver esse impasse, desenvolvemos um script que automaticamente habilita o [Shell Scrip](https://terminalroot.com.br/bash) no Apache de maneira simples e sem perda de tempo!
+Para muita gente, configurar o servidor Apache para isso pode ser complicado, então para resolver esse impasse, desenvolvemos um script que automaticamente habilita o [Shell Script](https://terminalroot.com.br/bash) no Apache de maneira simples e sem perda de tempo!
 
 ## Procedimento
 Primeiramente baixe o script
