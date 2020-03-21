@@ -45,7 +45,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![alt text](/assets/img/themes/gnome-tweaks.jpg)
+![GNOME Tweaks](/assets/img/themes/gnome-tweaks.jpg)
 ### Alternativamente você pode alterar o tema via linha de comando usando o [gsettings](https://developer.gnome.org/GSettings/) com o comando:
 {% highlight bash %}
 gsettings set org.gnome.desktop.interface gtk-theme 'NOME_DO_TEMA'
