@@ -92,7 +92,7 @@ Acessando o **#unixporn**:
 
 Veja alguns gifs de demonstração de uso:
 ![RTV Demo](/assets/img/terminal/demo.gif)
-![RTV mailcap](mailcap.gif)
+![RTV mailcap](/assets/img/terminal/mailcap.gif)
 
 Para mais informação consulte o [endereço oficial do RTV](https://github.com/michael-lazar/rtv).
 
