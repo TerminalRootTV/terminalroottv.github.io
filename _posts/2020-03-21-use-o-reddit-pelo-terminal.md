@@ -80,7 +80,7 @@ Escolha o tema via linha de comando: `--list-themes` e selecione com `--theme`
 + Use as teclas direcionais:**← ↑ → ↓** para mover o cursor;
 + Tecle **/** para pequisar alguma página ou usuário:
 ![RTV Search](/assets/img/terminal/rtv-search.jpg)
-![RTV Terminal Root](/assets/img/terminal/rtv-terminalroot.jpg)
+[![RTV Terminal Root](/assets/img/terminal/rtv-terminalroot.jpg)](/assets/img/terminal/rtv-terminalroot.jpg)
 + **u** para logar;
 + **o** para abrir uma postagem e **l** para comentar;
 + **c** para criar uma postagem;
