@@ -12,7 +12,7 @@ tags:
 
 ![Use o Reddit pelo Terminal](/assets/img/terminal/rtv.png)
 
-O [Reddit](https://www.reddit.com/) é um dos maiores candidatos à falir o [Facebook](https://www.facebook.com/TerminalRootTV) 😀️, é lá que estão as comunidades mais **root** do [Linux](terminalroot.com.br/linux), e a uma das mais ativas do nosso querido [#unixporn](https://www.reddit.com/r/unixporn/). Nós também possuimos uma página [lá](https://www.reddit.com/user/terminalroot/).
+O [Reddit](https://www.reddit.com/) é um dos maiores candidatos à falir o [Facebook](https://www.facebook.com/TerminalRootTV) 😀️, é lá que estão as comunidades mais **root** do [Linux](terminalroot.com.br/linux), e a mais ativa, nosso querido [#unixporn](https://www.reddit.com/r/unixporn/). Nós também possuimos uma página [lá](https://www.reddit.com/user/terminalroot/).
 
 O [RTV(Reddit Terminal Viewer)](https://github.com/michael-lazar/rtv) é uma interface de usuário do terminal (TUI, Terminal User Interface) para o Reddit que permite fazer login na sua conta do Reddit, abrir mídia usando ferramentas externas e muito mais. O aplicativo do console é criado usando Python e a biblioteca curses e é executado no Linux e Mac.
 
