@@ -169,7 +169,6 @@ data-full-width-responsive="true"></ins>
 </script>
 
 Caso queira instalar todos de uma só vez rode esses comandos:
-> Extraindo com [extract](https://github.com/terroo/extract)
 
 ```sh
 git clone https://github.com/terroo/terminalroot-themes
