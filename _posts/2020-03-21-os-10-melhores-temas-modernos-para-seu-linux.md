@@ -35,6 +35,16 @@ Tecle `Alt + F2` e digite: `gnome-tweaks`, ou rode esse comando no **terminal**
 ### 5. Escolha o tema que aparece:
 > Escolha a linha **Aplicativos**, se você ainda não houver alterado estrá escolhido o *Adwaita(padrão)*, clique e altere para o nome do tema que você deseja, veja imagem abaixo:
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![alt text](/assets/img/themes/gnome-tweaks.jpg)
 ### Alternativamente você pode alterar o tema via linha de comando usando o [gsettings](https://developer.gnome.org/GSettings/) com o comando:
 ```sh
@@ -65,6 +75,17 @@ gtk-theme-name = "NOME_DO_TEMA"
 ---
 
 ## 08. [Orchis](https://github.com/vinceliuice/Orchis-theme)
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ![Orchis](/assets/img/themes/orchis.jpg)
 
 <a href="https://github.com/vinceliuice/Orchis-theme" class="btn btn-danger btn-lg btn-block">Download do Tema Orchis</a>
@@ -104,6 +125,18 @@ gtk-theme-name = "NOME_DO_TEMA"
 
 <a href="https://github.com/EliverLara/Juno" class="btn btn-danger btn-lg btn-block">Download do Tema Juno</a>
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ## 02. [macOS Transparent](https://github.com/paullinuxthemer/Mc-OS-themes)
@@ -121,6 +154,19 @@ gtk-theme-name = "NOME_DO_TEMA"
 <a href="https://github.com/arc-design/arc-theme" class="btn btn-danger btn-lg btn-block">Download do Arc Theme</a>
 
 ---
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Caso queira instalar todos de uma só vez rode esses comandos:
 > Extraindo com [extract](https://github.com/terroo/extract)
