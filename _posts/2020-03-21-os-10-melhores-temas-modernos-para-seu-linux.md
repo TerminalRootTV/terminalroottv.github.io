@@ -16,11 +16,11 @@ O tema padrão do GNOME é bem clássico([Adwaita](https://github.com/GNOME/gtk/
 
 ## Como instalar os temas?
 Lembrando que antes de mais nada é interessante você possuir o [GNOME Tweaks](https://github.com/GNOME/gnome-tweaks) instalado, exemplos:
-```sh
+{% highlight bash %}
 sudo emerge gnome-tweaks # Gentoo, Funtoo,...
 sudo apt install gnome-tweaks # Debian, Ubuntu, Mint,...
 sudo pacman -s gnome-tweaks # Arch, Manjaro,...
-```
+{% endhighlight %}
 E então seguir esses passo:
 ### 1. Fazer download do tema, exemplo:
 Você pode baixar via *http*, [git](https://terminalroot.com.br/git), via [linha de comando](https://terminalroot.com.br/2019/05/aprenda-a-explorar-o-comando-wget.html), ou qualquer outro meio que você encontrar
@@ -47,14 +47,14 @@ data-ad-slot="5351066970"></ins>
 
 ![alt text](/assets/img/themes/gnome-tweaks.jpg)
 ### Alternativamente você pode alterar o tema via linha de comando usando o [gsettings](https://developer.gnome.org/GSettings/) com o comando:
-```sh
+{% highlight bash %}
 gsettings set org.gnome.desktop.interface gtk-theme 'NOME_DO_TEMA'
-```
+{% endhighlight %}
 Ou alterando o arquivo `vim ~/.config/gtk-3.0/settings.ini` e definindo o tema nesse arquivo:
-```sh
+{% highlight bash %}
 [Settings]
 gtk-theme-name = "NOME_DO_TEMA"
-```
+{% endhighlight %}
 
 ### Eu selecionei os 10 melhores que eu testei atualmente de acordo com a data de publicação dessa postagem, são eles na ordem dos que eu mais gosto!
 
@@ -170,11 +170,11 @@ data-full-width-responsive="true"></ins>
 
 Caso queira instalar todos de uma só vez rode esses comandos:
 
-```sh
+{% highlight bash %}
 git clone https://github.com/terroo/terminalroot-themes
 mkdir -p ~/.themes
 mv terminalroot-themes/* ~/.themes
-```
+{% endhighlight %}
 
 ## Links úteis:
 + <https://www.gnome-look.org/>
