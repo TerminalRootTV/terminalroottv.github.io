@@ -63,14 +63,14 @@ gtk-theme-name = "NOME_DO_TEMA"
 ## 10. [Fantasma](https://www.opencode.net/ju1464/Fantasma/tree/master/GTK-Gnome/Fantasma)
 ![Fantasma](/assets/img/themes/fantasma.jpg)
 
-<a href="https://www.opencode.net/ju1464/Fantasma/tree/master/GTK-Gnome/Fantasma" class="btn btn-danger btn-lg btn-block">Download do Tema Fantasma</a>
+<a href="https://www.opencode.net/ju1464/Fantasma/tree/master/GTK-Gnome/Fantasma" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Fantasma</a>
 
 ---
 
 ## 09. [Teja](https://www.opencode.net/ju1464/Teja)
 ![Teja](/assets/img/themes/teja.jpg)
 
-<a href="https://www.opencode.net/ju1464/Teja" class="btn btn-danger btn-lg btn-block">Download do Tema Teja</a>
+<a href="https://www.opencode.net/ju1464/Teja" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Teja</a>
 
 ---
 
@@ -88,42 +88,42 @@ data-ad-slot="5351066970"></ins>
 
 ![Orchis](/assets/img/themes/orchis.jpg)
 
-<a href="https://github.com/vinceliuice/Orchis-theme" class="btn btn-danger btn-lg btn-block">Download do Tema Orchis</a>
+<a href="https://github.com/vinceliuice/Orchis-theme" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Orchis</a>
 
 ---
 
 ## 07. [Nordic](https://github.com/EliverLara/Nordic)
 ![Nordic](/assets/img/themes/nordic.jpg)
 
-<a href="https://github.com/EliverLara/Nordic" class="btn btn-danger btn-lg btn-block">Download do Tema Nordic</a>
+<a href="https://github.com/EliverLara/Nordic" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Nordic</a>
 
 ---
 
 ## 06. [Mint Aqua](https://www.gnome-look.org/p/1175954/)
 ![Mint Aqua](/assets/img/themes/mint-aqua.jpg)
 
-<a href="https://www.gnome-look.org/p/1175954/" class="btn btn-danger btn-lg btn-block">Download do Tema Mint Aqua</a>
+<a href="https://www.gnome-look.org/p/1175954/" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Mint Aqua</a>
 
 ---
 
 ## 05. [Materia](https://github.com/nana-4/materia-theme)
 ![Materia](/assets/img/themes/materia.jpg)
 
-<a href="https://github.com/nana-4/materia-theme" class="btn btn-danger btn-lg btn-block">Download do Tema Materia</a>
+<a href="https://github.com/nana-4/materia-theme" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Materia</a>
 
 ---
 
 ## 04. [Kimi](https://github.com/EliverLara/Kimi)
 ![Kimi](/assets/img/themes/kimi.jpg)
 
-<a href="https://github.com/EliverLara/Kimi" class="btn btn-danger btn-lg btn-block">Download do Tema Kimi</a>
+<a href="https://github.com/EliverLara/Kimi" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Kimi</a>
 
 ---
 
 ## 03. [Juno](https://github.com/EliverLara/Juno)
 ![Juno](/assets/img/themes/juno.jpg)
 
-<a href="https://github.com/EliverLara/Juno" class="btn btn-danger btn-lg btn-block">Download do Tema Juno</a>
+<a href="https://github.com/EliverLara/Juno" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema Juno</a>
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -142,7 +142,7 @@ data-ad-slot="8549252987"></ins>
 ## 02. [macOS Transparent](https://github.com/paullinuxthemer/Mc-OS-themes)
 ![macOS Transparent](/assets/img/themes/macos-transparent.jpg)
 
-<a href="https://github.com/paullinuxthemer/Mc-OS-themes" class="btn btn-danger btn-lg btn-block">Download do Tema macOS Transparent</a>
+<a href="https://github.com/paullinuxthemer/Mc-OS-themes" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Tema macOS Transparent</a>
 
 ---
 
@@ -151,7 +151,7 @@ data-ad-slot="8549252987"></ins>
 ![Arc Darker](/assets/img/themes/arc-theme-darker.jpg)
 ![Arc Dark](/assets/img/themes/arc-theme-dark.jpg)
 
-<a href="https://github.com/arc-design/arc-theme" class="btn btn-danger btn-lg btn-block">Download do Arc Theme</a>
+<a href="https://github.com/arc-design/arc-theme" class="btn btn-danger btn-lg btn-block" style="color:#fff;text-decoration:none;">Download do Arc Theme</a>
 
 ---
 
