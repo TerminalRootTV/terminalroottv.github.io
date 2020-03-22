@@ -141,7 +141,7 @@ curl https://git.io/ -i -F "url=SUA_URL_LONGA" -F "code=LETRAS_CUSTOMIZADAS"
 # curl https://git.io/ -i -F "url=https://gist.github.com/terroo/5bafbcb1cc6f4ab922b70fa165e39468" -F "code=mycode.sh"
 {% endhighlight %}
 
-Link do código gerado: git.io/mycode.sh
+Link do código gerado: [git.io/mycode.sh](https://git.io/mycode.sh)
 
 ![Gist](/assets/img/code/gist.png)
 
