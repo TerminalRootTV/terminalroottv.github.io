@@ -77,7 +77,7 @@ Da mesma forma que o anterior, só que ainda mais simples, exemplo de uso:
 cat mycode.sh | curl -F 'sprunge=<-' http://sprunge.us
 {% endhighlight %}
 
-![ix.io](/assets/img/code/ix.png)
+![ix.io](/assets/img/code/sprunge.png)
 
 Link do código gerado: <http://sprunge.us/M3zF8m>
 
