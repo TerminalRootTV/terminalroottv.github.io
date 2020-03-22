@@ -116,7 +116,7 @@ Link do código gerado: <https://hastebin.com/morovoxegu.bash>
 ---
 
 # 04. [Gist GitHub](https://gist.github.com/)
-Esse é a opção e uma das mais conhecidas, pois tem a marca/publicidade do [GitHub](https://github.com/terroo). Você pode compartilhar anonimamente também ou se estiver logado, fica gravado para seu usuário. Tem até clientes para ele: [Lepton](https://hackjutsu.com/Lepton/) e também: [Gisto](https://www.gistoapp.com/) . Outro serviço deles, não relacionado, é um encurtador de url: [git.io](https://git.io/), só encurta URLs do site/endereços relaconados ao GitHub, mas serve caso você queira encutar seus snippets e até mesmo URL longa do GitHub. Dá pra encurtar via linha de comando de forma personalizada, exemplo:
+Essa opção e uma das mais conhecidas, pois tem a marca/publicidade do [GitHub](https://github.com/terroo). Você pode compartilhar anonimamente também ou se estiver logado, fica gravado para seu usuário. Tem até clientes para ele: [Lepton](https://hackjutsu.com/Lepton/) e também: [Gisto](https://www.gistoapp.com/) . Outro serviço deles, não relacionado, é um encurtador de url: [git.io](https://git.io/), só encurta URLs do site/endereços relaconados ao GitHub, mas serve caso você queira encutar seus snippets e até mesmo URL longa do GitHub. Dá pra encurtar via linha de comando de forma personalizada, exemplo:
 > Edite **SUA_URL_LONGA** e **LETRAS_CUSTOMIZADAS** para nomes específicos caso queira.
 
 <!-- RETANGULO LARGO -->
