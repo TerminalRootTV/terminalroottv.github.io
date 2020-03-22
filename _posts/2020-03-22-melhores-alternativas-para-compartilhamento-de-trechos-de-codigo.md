@@ -33,6 +33,8 @@ do
 done
 {% endhighlight %}
 
+![mycode.sh](/assets/img/code/code.png)
+
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
