@@ -53,7 +53,7 @@ O compartilhamento do seu código é realizado via linha de comando, exemplo:
 # Compatilhando um arquivo e obtendo o link
 cat mycode.sh | curl -F 'f:1=<-' ix.io
 {% endhighlight %}
-A saída informará o link que você pode usar para compartilhar. Se quiser masi facilidade crie uma função em Shell para isso ou use o client deles disponível na mesma página, além de outras opções, como guardar os códigos e links ao rodar o comando.
+A saída informará o link que você pode usar para compartilhar. Se quiser mais facilidade crie uma função em Shell para isso ou use o client deles disponível na mesma página, além de outras opções, como guardar os códigos e links ao rodar o comando.
 
 ![ix.io](/assets/img/code/ix.png)
 
