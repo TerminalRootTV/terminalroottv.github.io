@@ -163,7 +163,8 @@ data-ad-slot="5351066970"></ins>
 
 Os códigos que os programadores disponibilizaram como público podem ser consultados [aqui](https://gitlab.com/explore/snippets).
 
-Para criar você precisa estar logado e ir no botão de [+](https://gitlab.com/snippets/new) ou no botão [New Snippet](https://gitlab.com/snippets/new){: class=btn btn-success }:
+Para criar você precisa estar logado e ir no botão de [+](https://gitlab.com/snippets/new) ou no botão <a href="https://gitlab.com/snippets/new" class="btn btn-success">New Snippet]</a>.
+
 ![New Snippet GitLab](/assets/img/code/snippet-gitlab.png)
 
 <https://gitlab.com/snippets/1955776>
