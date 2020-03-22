@@ -222,14 +222,14 @@ Link do código gerado: <https://paste.ubuntu.com/p/bwqY6XHpqm/>
 
 # 10. [0x0.st](http://0x0.st/)
 ![0x0.st](/assets/img/code/0x0.jpg)
-Esse é completo, não se trata somente de um code snippet e sim se um compartilhador de arquivos, url e tudo que você deseja no limite de 512MB. É uma alternativa ao [transfer.sh](https://terminalroot.com.br/2019/08/transfersh-guarde-seu-arquivos-na-nuvem-gratuitamente-via-linha-de-comando.html) que nós temos um artigo [aqui no blog](https://terminalroot.com.br/2019/08/transfersh-guarde-seu-arquivos-na-nuvem-gratuitamente-via-linha-de-comando.html). Exemplo de uso:
+Esse é completo, não se trata somente de um code snippet e sim de um compartilhador de arquivos, url e tudo que você deseja no limite de 512MB. É uma alternativa ao [transfer.sh](https://terminalroot.com.br/2019/08/transfersh-guarde-seu-arquivos-na-nuvem-gratuitamente-via-linha-de-comando.html) que nós temos um artigo [aqui no blog](https://terminalroot.com.br/2019/08/transfersh-guarde-seu-arquivos-na-nuvem-gratuitamente-via-linha-de-comando.html). Exemplo de uso:
 {% highlight bash %}
 curl -F'file=@mycode.sh' http://0x0.st
 {% endhighlight %}
 
 ---
 
-Opções é que não falta, fique à vontade para escolher nesse mundo de alternativa! 😀️ Um que eu definitivamente não recomendaria seria o ~~PasteBin.com~~ , esse gera ['bad interpreter'](https://terminalroot.com.br/2014/09/resolvendo-bad-interpreter-no-bash.html) no seu código, se você baixar e usar no [Linux](https://terminalroot.com.br/linux), [saiba mais aqui](https://terminalroot.com.br/2014/09/resolvendo-bad-interpreter-no-bash.html).
+Opções é que não falta, fique à vontade para escolher nesse mundo de alternativa! 😀️ Um que eu definitivamente **NÃO RECOMENDARIA** é o → ~~PasteBin.com~~ , esse gera ['bad interpreter'](https://terminalroot.com.br/2014/09/resolvendo-bad-interpreter-no-bash.html) no seu código, se você baixar e usar no [Linux](https://terminalroot.com.br/linux), [saiba mais aqui](https://terminalroot.com.br/2014/09/resolvendo-bad-interpreter-no-bash.html).
 
 # Abraços
 
