@@ -85,7 +85,7 @@ Link do código gerado: <http://sprunge.us/M3zF8m>
 
 # 03. [Hastebin](https://hastebin.com/)
 ![Hastebin](/assets/img/code/hastebin.jpg)
-Ele funciona online, você precisa inserir(digitar/colar) seu código e clicar em **Save 💾 `Ctrl + s`**. Se quiser compartilhar seu código, basta clicar em **Just Text 📋️** ou teclar `Ctrl + shift + r`.
+Ele funciona online e via linha de comando, você precisa inserir(digitar/colar) seu código e clicar em **Save 💾 `Ctrl + s`**. Se quiser compartilhar seu código, basta clicar em **Just Text 📋️** ou teclar `Ctrl + shift + r`.
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -99,7 +99,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Vocẽ ainda pode usar o cliente deles via linha de comando, instalando-o via [gem](https://terminalroot.com.br/2020/02/como-instalar-corretamente-o-ruby-bundler-e-jekyll-no-ubuntu-linux.html):
+Você ainda pode usar o cliente deles via linha de comando, instalando-o via [gem](https://terminalroot.com.br/2020/02/como-instalar-corretamente-o-ruby-bundler-e-jekyll-no-ubuntu-linux.html):
 {% highlight bash %}
 gem install haste
 {% endhighlight %}
@@ -116,7 +116,7 @@ Link do código gerado: <https://hastebin.com/morovoxegu.bash>
 ---
 
 # 04. [Gist GitHub](https://gist.github.com/)
-Essa opção e uma das mais conhecidas, pois tem a marca/publicidade do [GitHub](https://github.com/terroo). Você pode compartilhar anonimamente também ou se estiver logado, fica gravado para seu usuário.
+Essa opção é uma das mais conhecidas, pois tem a marca/publicidade do [GitHub](https://github.com/terroo). Você pode compartilhar anonimamente também ou se estiver logado, fica gravado para seu usuário.
 
 Tem até clientes para ele: [Lepton](https://hackjutsu.com/Lepton/) e também: [Gisto](https://www.gistoapp.com/) . Outro serviço deles, não relacionado, é um encurtador de url: [git.io](https://git.io/), só encurta URLs do site/endereços relacionados ao GitHub, mas serve caso você queira encutar seus snippets e até mesmo URL longa do GitHub. 
 
