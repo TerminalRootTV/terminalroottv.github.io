@@ -56,6 +56,11 @@ Ou alterando o arquivo `vim ~/.config/gtk-3.0/settings.ini` e definindo o tema n
 gtk-theme-name = "NOME_DO_TEMA"
 {% endhighlight %}
 
+Caso deseje saber qual o nome do tema que está rodando no momento(current theme), use o comando:
+```sh
+gsettings get org.gnome.desktop.interface gtk-theme
+```
+
 ### Eu selecionei os 10 melhores que eu testei atualmente de acordo com a data de publicação dessa postagem, são eles na ordem dos que eu mais gosto!
 
 ---
