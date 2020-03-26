@@ -3,7 +3,7 @@ layout: post
 title: "Como instalar o Docker no Gentoo"
 date: 2020-03-26 18:41:37
 image: '/assets/img/docker/docker-gentoo.jpg'
-description: 'Habilitando os módulos do kernel corretamente.'
+description: 'Habilitando os módulos do kernel corretamente. 🐋'
 tags:
 - docker
 - gentoo
