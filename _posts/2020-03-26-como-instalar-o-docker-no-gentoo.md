@@ -127,7 +127,7 @@ sh check-config.sh
 A saída será similar a isso:
 [![Chech config Docker módulos do Kernel](/assets/img/docker/check-config-output.jpg)](/assets/img/docker/check-config-output.jpg)
 
-Caso existam módulos *não habilitados*(`missing`), verifique antes se a sua versão do Kernel possui esse nome de módulo, exemplo para o módulo **grep [CONFIG_EXT3_FS_XATTR](https://cateee.net/lkddb/web-lkddb/EXT3_FS_XATTR.html):
+Caso existam módulos *não habilitados*(`missing`), verifique antes se a sua versão do Kernel possui esse nome de módulo, exemplo para o módulo [CONFIG_EXT3_FS_XATTR](https://cateee.net/lkddb/web-lkddb/EXT3_FS_XATTR.html):
 {% highlight bash %}
 grep 'CONFIG_EXT3_FS_XATTR' /usr/src/linux/.config 
 {% endhighlight %}
