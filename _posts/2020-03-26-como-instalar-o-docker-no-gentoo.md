@@ -23,6 +23,17 @@ make menuconfig
 {% endhighlight %}
 
 E habilite os módulos
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 {% highlight bash %}
 General setup  --->
     [*] POSIX Message Queues
@@ -116,6 +127,16 @@ Security options  --->
     [*]   Diffie-Hellman operations on retained keys
 {% endhighlight %}
 
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 2. Certifique-se de ter habilitado todos os módulos corretamente
 Para isso você pode usar um [script em Bash](https://terminalroot.com.br/bash): `check-config.sh`
 {% highlight bash %}
@@ -133,9 +154,21 @@ grep 'CONFIG_EXT3_FS_XATTR' /usr/src/linux/.config
 {% endhighlight %}
 Se não retornar saída é porque não tem, mas se retornar, copie o nome do módulo e pesquise em qualquer tela do menu do Kernel, pressionando a barra(`/`) abrirá um box para você inserir o nome que deseja pesquisar, basta colar o nome que você havia copiado e em seguida pressionar **Enter**, exemplo:
 
-- Pesquisei o módulo: **CONFIG_NETFILTER_XT_MATCH_IPVS**
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Pesquise o módulo: **CONFIG_NETFILTER_XT_MATCH_IPVS**
 [![search module kerne](/assets/img/docker/search-module-kernel.jpg)](/assets/img/docker/search-module-kernel.jpg)
-- Resultado com o caminho completo e todos os dados:
+-Resultado com o caminho completo e todos os dados:
 {% highlight bash %}
 Symbol: NETFILTER_XT_MATCH_IPVS [=m]
 Type  : tristate
@@ -168,6 +201,19 @@ Adicione seu usuário ao grupo `docker`
 {% highlight bash %}
 usermod -aG docker <username>
 {% endhighlight %}
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Se quiser adicione o Docker para iniciar junto com o [OpenRC](https://wiki.gentoo.org/wiki/OpenRC)
 {% highlight bash %}
