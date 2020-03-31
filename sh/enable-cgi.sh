@@ -1,5 +1,8 @@
 #!/bin/bash
+# author: Marcos Oliveira <terminalroot.com.br>
+# license: GNU GPLv3
 # How to enable CGI on Apache in distro APT based
+
 _help(){
 cat <<EOF
 usage: ${0##*/} [flags]
