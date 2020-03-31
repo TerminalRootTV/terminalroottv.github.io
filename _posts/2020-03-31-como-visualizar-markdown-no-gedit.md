@@ -12,9 +12,9 @@ tags:
 
 ![Como Visualizar Markdown no Gedit](/assets/img/gedit/gedit-markdown-preview-menu-min.jpg)
 
-O [Gedit]() é o editor padrão do [GNOME Desktop]() e muita gente começou nele à arriscar suas primeiras linhas de código no [Linux]() . Aqui no blog temos mais tutoriais de dicas sobre Gedit, use esse link para encontrar as postagens.
+O [Gedit]() é o editor padrão do [GNOME Desktop]() e muita gente começou nele à arriscar suas primeiras linhas de código no [Linux](https://terminalroot.com.br/linux) . Aqui no blog temos mais tutoriais de dicas sobre Gedit, use esse [link](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=gedit) para encontrar as postagens.
 
-Por padrão o Gedit não renderiza seus documentos em [Markdown]() , mas é possível conseguir essa façanha com o plugin [Markdown Preview](), vamos ver como instalar, configurar e utilizá-lo.
+Por padrão o Gedit não renderiza seus documentos em [Markdown](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=markdown) , mas é possível conseguir essa façanha com o plugin [Markdown Preview](https://github.com/maoschanz/gedit-plugin-markdown_preview), vamos ver como instalar, configurar e utilizá-lo.
 
 ## Instalação
 Primeiramente instale as dpendências
