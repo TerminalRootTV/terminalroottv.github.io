@@ -10,7 +10,7 @@ _usage(){
 usage: ${0##*/} options [title]
   
   Options:
-    -c [title]    Show channel title
+    -c [title]    Create post title
     -h            Print this help message
     -v            Print version
 
