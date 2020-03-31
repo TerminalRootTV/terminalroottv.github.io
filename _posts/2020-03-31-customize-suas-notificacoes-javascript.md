@@ -19,19 +19,19 @@ Assim como já mostramos opções de customizar seus alertas [aqui](https://term
 Para usá-lo, existem diversas maneiras, para isso, recomendo você consultar o [site] do projeto. Mas vamos mostrar um exemplo básico:
 
 1. Adicione o [CSS](https://terminalroot.com.br/css/) ao cabeçalho no seu documento [HTML](https://terminalroot.com.br/html/):
-```css
+{% highlight css %}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-```
+{% endhighlight %}
 > Se estiver usando [Bootstrap](https://terminalroot.com.br/2020/02/aprenda-bootstrap-4-curso-de-desenvolvimento-web-03.html), recomendo inserir essa linha após o CSS do Bootstrap.
 
 2. Depois adicione o [JS](https://terminalroot.com.br/2020/01/javascript.html):
-```js
+{% highlight js %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-```
+{% endhighlight %}
 > Lembrando que ele utiliza a biblioteca [jQuery](https://jquery.com/), logo, é recomendado inserir após o jQuery.
 
 3. Depois é só criar um exemplo para vê-lo funcionar:
-```html
+{% highlight html %}
 <!DOCTYPE html>
 <!--
 vim: et ts=2 sw=2 ft=html:
@@ -58,7 +58,7 @@ vim: et ts=2 sw=2 ft=html:
     <button class="my">Clique aqui para exibir a notificação</button>
   </body>
 </html>
-```
+{% endhighlight %}
 > **AVISO**: Tive alguns problemas em fazer funcionar com versões recentes de [jQuery](http://code.jquery.com/jquery-1.9.1.js) , por isso usei a versão **1.9.1** como exibido acima, que funcionou de boa!
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -82,7 +82,7 @@ Existem outros tipos de mensagens tipo:
 Também é possível customizar o tempo de exibição entre outros, exemplo:
 > Insira isso no seu código JS
 
-```js
+{% highlight js %}
 toastr.options = {
   "closeButton": true,
   "debug": false,
@@ -100,6 +100,6 @@ toastr.options = {
   "showMethod": "fadeIn",
   "hideMethod": "fadeOut"
 }
-```
+{% endhighlight %}
 
 Para mais detahes consulte o [demo](https://codeseven.github.io/toastr/demo.html).
