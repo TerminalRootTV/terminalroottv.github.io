@@ -17,7 +17,7 @@ O [Gedit]() é o editor padrão do [GNOME Desktop]() e muita gente começou nele
 Por padrão o Gedit não renderiza seus documentos em [Markdown](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=markdown) , mas é possível conseguir essa façanha com o plugin [Markdown Preview](https://github.com/maoschanz/gedit-plugin-markdown_preview), vamos ver como instalar, configurar e utilizá-lo.
 
 ## Instalação
-Primeiramente instale as dpendências
+Primeiramente instale as dependências
 ```sh
 sudo apt install python3-markdown pandoc gir1.2-webkit2-4.0 git # Debian, Ubuntu, Mint, ...
 sudo dnf install python3-markdown pandoc webkit2gtk3 git # Fedora
