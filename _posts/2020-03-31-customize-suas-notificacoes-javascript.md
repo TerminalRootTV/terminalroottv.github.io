@@ -76,7 +76,7 @@ vim: et ts=2 sw=2 ft=html:
 Existem outros tipos de mensagens tipo:
 + De cor vermelha(e com ícone de erro): `toastr.error("Mensagem");`
 + De cor amarela(e com ícone de aviso): `toastr.warning("Mensagem");`
-+ De cor verde(e com ícone de ok): `toastr.warning("Mensagem");`
++ De cor verde(e com ícone de ok): `toastr.success("Mensagem");`
 
 Também é possível customizar o tempo de exibição entre outros, exemplo:
 > Insira isso no seu código JS
