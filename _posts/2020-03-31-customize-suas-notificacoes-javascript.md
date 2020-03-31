@@ -3,7 +3,7 @@ layout: post
 title: "Customize suas notificações Javascript"
 date: 2020-03-31 14:18:18
 image: '/assets/img/js/toastrjs.jpg'
-description:
+description: 'Simple e elegante!'
 tags:
 - javascript
 - js
