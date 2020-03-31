@@ -16,7 +16,7 @@ tags:
 
 Assim como já mostramos opções de customizar seus alertas [aqui](https://terminalroot.com.br/2020/02/customize-o-alert-do-seu-javascript.html) , você pode deixar ainda mais interesssante suas notificações com [Toastr](https://github.com/CodeSeven/toastr).
 
-Para usá-lo, existem diversas maneiras, para isso, recomendo você consultar o [site] do projeto. Mas vamos mostrar um exemplo básico:
+Para usá-lo, existem diversas maneiras, para isso, recomendo você consultar o [site](https://github.com/CodeSeven/toastr) do projeto. Mas vamos mostrar um exemplo básico:
 
 1. Adicione o [CSS](https://terminalroot.com.br/css/) ao cabeçalho no seu documento [HTML](https://terminalroot.com.br/html/):
 {% highlight css %}
