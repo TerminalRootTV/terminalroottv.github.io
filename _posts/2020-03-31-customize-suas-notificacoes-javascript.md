@@ -101,4 +101,7 @@ toastr.options = {
 }
 {% endhighlight %}
 
-Para mais detahes consulte o [demo](https://codeseven.github.io/toastr/demo.html).
+Para mais detalhes consulte o [demo](https://codeseven.github.io/toastr/demo.html).
+
+
+
