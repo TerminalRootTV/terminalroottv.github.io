@@ -52,7 +52,7 @@ Agora vá até as **Preferências** do Gedit e na Aba **Plugins**, selecione o *
 Feche e abra o Gedit.
 ## Utilização
 Assim que você abre um documento Markdown, o Markdown Preview já surgirá, e você pode ajustá-lo como desejar. Mas para exibir ou esconder basta teclar **F9**.
-![Opções](/home/marcos/Documentos/terminalroot/terminalroottv.github.io/assets/img/gedit/gedit-markdown-tags-min.jpg)
+![Opções](/assets/img/gedit/gedit-markdown-tags-min.jpg)
 
 ## Links úteis
 + [Habilitando Renderização de MarkDown no Apache Web Server](https://terminalroot.com.br/2019/12/habilitando-renderizacao-de-markdown-no-apache-web-server.html)
