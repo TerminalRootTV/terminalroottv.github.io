@@ -46,7 +46,6 @@ vim: et ts=2 sw=2 ft=html:
     <script>
       $(document).ready( function(){
         $('.my').click( function(){
-          //alert("Tá funfandoo!");
           toastr.success("Tá funfandoo!");
         } );
 
