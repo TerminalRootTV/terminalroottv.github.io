@@ -33,27 +33,30 @@ Para usá-lo, existem diversas maneiras, para isso, recomendo você consultar o 
 3. Depois é só criar um exemplo para vê-lo funcionar:
 ```html
 <!DOCTYPE html>
+<!--
+vim: et ts=2 sw=2 ft=html:
+-->
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <title>Teste Toastr</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-        <script>
-                $(document).ready( function(){
-                        $('.my').click( function(){
-                                //alert("Tá funfandoo!");
-                                toastr.info("Tá funfandoo!");
-                        } );
+  <head>
+    <meta charset="UTF-8">
+    <title>Teste Toastr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+      $(document).ready( function(){
+        $('.my').click( function(){
+          //alert("Tá funfandoo!");
+          toastr.success("Tá funfandoo!");
+        } );
 
-                } );
-        </script>
-        
-</head>
-<body>
-        <button class="my">Clique aqui para exibir a notificação</button>
-</body>
+      } );
+    </script>
+
+  </head>
+  <body>
+    <button class="my">Clique aqui para exibir a notificação</button>
+  </body>
 </html>
 ```
 > **AVISO**: Tive alguns problemas em fazer funcionar com versões recentes de [jQuery](http://code.jquery.com/jquery-1.9.1.js) , por isso usei a versão **1.9.1** como exibido acima, que funcionou de boa!
