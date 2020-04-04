@@ -21,7 +21,7 @@ tags:
 Nesse vídeo mostramos algumas técnicas bacanas de Shell Script Web, Frontend(CSS, Javascript, jQuery) e entre outros.
 
 
- A única alteração do conteúdo criado no vídeo é na **linha 15** que eu esqueci de informar o arquivo **`$_filename`** em `sh/index.sh` qque ficou assim: `sed -i "s/'/\\\'/g"` , por isso o código foi transformado sem interpretação das partes com *aspas simples* , mas alterei e deixei assim:
+ A única alteração do conteúdo criado no vídeo é na **linha 15** que eu esqueci de informar o arquivo **`$_filename`** em `sh/index.sh` que ficou assim: `sed -i "s/'/\\\'/g"` , por isso o código foi transformado sem interpretação das partes com *aspas simples* , mas alterei e deixei assim:
 {% highlight bash %}
 sed -i "s/'/\\\'/g" "$_filename"
 {% endhighlight %}
