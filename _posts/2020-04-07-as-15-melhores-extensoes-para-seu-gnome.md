@@ -17,7 +17,7 @@ Separei as extensões que acredito que sejam as melhores e as mais úteis para v
 ---
 
 # 01. [Activities Configurator](https://extensions.gnome.org/extension/358/activities-configurator/)
-O [Activities Configurator] ajuda a personalizar o botão de atividades e a aparência do painel. Você pode adicionar muitos recursos, mais de 20 opções para tornar sua área de trabalho produtiva, no menu de atividades, até ícone no local no nome **Atividades** além de mudar o próprio nome, exemplo: pôr o ícone e nome da sua distro 😀️.
+O Activities Configurator ajuda a personalizar o botão de atividades e a aparência do painel. Você pode adicionar muitos recursos, mais de 20 opções para tornar sua área de trabalho produtiva, no menu de atividades, até ícone no local no nome **Atividades** além de mudar o próprio nome, exemplo: pôr o ícone e nome da sua distro 😀️.
 
 ![Activities Configurator](/assets/img/gnome/01-activies-configurator.jpg)
 
@@ -58,7 +58,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![alt text](/assets/img/gnome/03-drop_down_terminal.jpg)
+![Drop Down Terminal](/assets/img/gnome/03-drop_down_terminal.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/442/drop-down-terminal/">Obter o Drop Down Terminal</a>
 
