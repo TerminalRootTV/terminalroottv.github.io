@@ -19,7 +19,7 @@ Separei as extensões que acredito que sejam as melhores e as mais úteis para v
 # 01. [Activities Configurator](https://extensions.gnome.org/extension/358/activities-configurator/)
 O [Activities Configurator] ajuda a personalizar o botão de atividades e a aparência do painel. Você pode adicionar muitos recursos, mais de 20 opções para tornar sua área de trabalho produtiva, no menu de atividades, até ícone no local no nome **Atividades** além de mudar o próprio nome, exemplo: pôr o ícone e nome da sua distro 😀️.
 
-![Activities Configurator](URL/01-activies-configurator.jpg)
+![Activities Configurator](/assets/img/gnome/01-activies-configurator.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/358/activities-configurator/">Obter o Activities Configurator</a>
 
@@ -38,7 +38,7 @@ data-ad-slot="5351066970"></ins>
 # 02. [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 O Dash to Dock é uma extensão fantástica do Gnome Shell que fornecerá um dock altamente configurável(podendo alterar a posição do dock: direita, abaixo , ...) . Você pode facilmente colocar qualquer aplicativo neste Dock. Também oferecerá a troca do aplicativo mais rapidamente.
 
-![Dash to Dock](URL/02-dash_to_dock.jpg)
+![Dash to Dock](/assets/img/gnome/02-dash_to_dock.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/307/dash-to-dock/">Obter o Dash to Dock</a>
 
@@ -58,7 +58,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![alt text](URL/03-drop_down_terminal.jpg)
+![alt text](/assets/img/gnome/03-drop_down_terminal.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/442/drop-down-terminal/">Obter o Drop Down Terminal</a>
 
@@ -67,7 +67,7 @@ data-ad-slot="5351066970"></ins>
 # 04. [EasyScreenCast](https://extensions.gnome.org/extension/690/easyscreencast/)
 Esta é uma extensão fantástica para gravar sua área de trabalho do Gnome. Você pode gravar qualquer área selecionada com o Easy Screencast. Esta extensão possui gravação de vídeo e áudio ao mesmo tempo.
 
-![Drop Down Terminal](URL/04-easyscreencast.jpg)
+![Drop Down Terminal](/assets/img/gnome/04-easyscreencast.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/690/easyscreencast/">Obter o EasyScreenCast</a>
 
@@ -76,7 +76,7 @@ Esta é uma extensão fantástica para gravar sua área de trabalho do Gnome. Vo
 # 05. [Open Weather](https://extensions.gnome.org/extension/750/openweather/)
 O Open Weather é uma extensão de produtividade que mostra suas condições climáticas atuais, como temperatura, velocidade do vento, umidade etc. Você obterá todas as informações em openweathermap.org ou forecast.io. Você pode personalizá-lo de diferentes maneiras no Gnome Shell.
 
-![Open Weather](URL/05-open_weather.jpg)
+![Open Weather](/assets/img/gnome/05-open_weather.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/750/openweather/">Obter o Open Weather</a>
 
@@ -84,7 +84,7 @@ O Open Weather é uma extensão de produtividade que mostra suas condições cli
 
 # 06. [Cover flow Alt-tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
 
-![Cover flow Alt-tab](URL/06-cover_flow_alt_tab.jpg)
+![Cover flow Alt-tab](/assets/img/gnome/06-cover_flow_alt_tab.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/97/coverflow-alt-tab/">Obter o Cover flow Alt-tab</a>
 
@@ -93,7 +93,7 @@ O Open Weather é uma extensão de produtividade que mostra suas condições cli
 # 07. [NetSpeed](https://extensions.gnome.org/extension/104/netspeed/)
 O NetSpeed monitora e mostra a velocidade da sua internet. Existem várias maneiras de personalizá-lo no Linux. Basta usá-lo e aproveitar seus recursos interessantes.
 
-![NetSpeed](URL/07-netspeed.jpg)
+![NetSpeed](/assets/img/gnome/07-netspeed.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/104/netspeed/">Obter o NetSpeed</a>
 
@@ -102,7 +102,7 @@ O NetSpeed monitora e mostra a velocidade da sua internet. Existem várias manei
 # 08. [Applications Menu](https://extensions.gnome.org/extension/6/applications-menu/)
 O Menu Aplicativos é uma extensão fantástica que o ajudará a organizar todos os seus aplicativos de acordo com diferentes categorias. Faz parte do modo clássico do Ubuntu Gnome e agora é oficialmente suportado para todos.
 
-![Applications Menu](URL/08-applications_menu.jpg)
+![Applications Menu](/assets/img/gnome/08-applications_menu.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/6/applications-menu/">Obter o Applications Menu</a>
 
@@ -123,7 +123,7 @@ data-ad-slot="8549252987"></ins>
 # 09. [Todo.txt](https://extensions.gnome.org/extension/570/todotxt/)
 Muito útil para gerenciar todas as atividades do seu sistema operacional Linux, como criar ou excluir novas tarefas. Quando você terminar de executar qualquer tarefa, marque-as como completas com esta extensão.
 
-![Todo.txt](URL/09-todo_txt.jpg)
+![Todo.txt](/assets/img/gnome/09-todo_txt.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/570/todotxt/">Obter o Todo.txt</a>
 
@@ -132,7 +132,7 @@ Muito útil para gerenciar todas as atividades do seu sistema operacional Linux,
 # 10. [Media Player Indicator](https://extensions.gnome.org/extension/55/media-player-indicator/)
 Incrível para controlar músicas do seu shell Gnome. Ele oferecerá o controle de vários players de música de maneira simples.
 
-![Media Player Indicator](URL/10-media_player_indicat_IDndr.jpg)
+![Media Player Indicator](/assets/img/gnome/10-media_player_indicat_IDndr.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/55/media-player-indicator/">Obter o Media Player Indicator</a>
 
@@ -154,7 +154,7 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![Appfolders Management extension](URL/11-app-folders.jpg)
+![Appfolders Management extension](/assets/img/gnome/11-app-folders.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/1217/appfolders-manager/">Obter o Appfolders Management extension</a>
 
@@ -163,7 +163,7 @@ data-full-width-responsive="true"></ins>
 # 12. [Apt Update Indicator](https://extensions.gnome.org/extension/1139/apt-update-indicator/)
 Para distribuições que utilizam o Apt como seu gerenciador de pacotes, como Ubuntu ou Debian, a extensão Indicador de Atualização do Apt permite uma experiência de atualização mais simplificada no GNOME.
 
-![Apt Update Indicator](URL/12-apt-gnome.jpg)
+![Apt Update Indicator](/assets/img/gnome/12-apt-gnome.jpg)
 
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/1139/apt-update-indicator/">Obter o Apt Update Indicator</a>
@@ -173,7 +173,7 @@ Para distribuições que utilizam o Apt como seu gerenciador de pacotes, como Ub
 # 13. [Gno-Menu](https://extensions.gnome.org/extension/608/gnomenu/)
 O Gno-Menu é um menu de aplicativos Gnome-Shell com estilo tradicional e completo, que visa oferecer todos os elementos essenciais em uma interface intuitiva e organizada.
 
-![Gno-Menu](URL/13-gno-menu.jpg)
+![Gno-Menu](/assets/img/gnome/13-gno-menu.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/608/gnomenu/">Obter o Gno-Menu</a>
 
@@ -192,7 +192,7 @@ data-ad-slot="5351066970"></ins>
 # 14. [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 O GSConnect é uma implementação completa do KDE Connect, especialmente para o GNOME Shell com integração com Nautilus, Chrome e Firefox. Ele não depende do aplicativo da área de trabalho do KDE Connect e não funcionará somente com ele instalado.
 
-![GSConnect](URL/14-gsconnect.jpg)
+![GSConnect](/assets/img/gnome/14-gsconnect.jpg)
 
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/1319/gsconnect/">Obter o GSConnect</a>
 
@@ -200,7 +200,7 @@ O GSConnect é uma implementação completa do KDE Connect, especialmente para o
 
 # 15. [Extensions](https://extensions.gnome.org/extension/1036/extensions/)
 Habilite/desabilite facilmente as extensões do shell gnome em um menu no painel superior. Também permite editar as configurações das extensões.
-![Extensions](URL/15-extesions.jpg)
+![Extensions](/assets/img/gnome/15-extesions.jpg)
 <a class="btn btn-lg btn-danger" href="https://extensions.gnome.org/extension/1036/extensions/">Obter o Extensions</a>
 
 ---
