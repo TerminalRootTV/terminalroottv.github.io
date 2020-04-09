@@ -54,11 +54,11 @@ Pra você conseguir enviar e-mails, você precisa autorizar o uso de __APLICATIV
 
 > Se você não habilitar no GMail essa opção, provavelmente você obterá o erro:
 
-<pre>
+{% highlight bash %}
 TLSv1.2 connection using TLSv1/SSLv3 (ECDHE-RSA-AES128-GCM-SHA256)
 SASL authentication failed
 Could not send the message.
-</pre>
+{% endhighlight %}
 
 Após efetuado esses passos, você já consegue enviar e-mails com o simples comando:
 
