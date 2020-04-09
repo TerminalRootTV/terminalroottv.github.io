@@ -52,7 +52,7 @@ Crie os diretórios e arquivos necessários para o funcionamento do *mpd*
 
 {% highlight bash %}
 mkdir -p ~/.config/mpd && cd ~/.config/mpd
-touch database  mpd.conf  mpd.fifo  mpd.log   mpdstate
+touch database mpd.conf mpd.fifo mpd.log mpdstate
 {% endhighlight %}
 
 Você pode usar as configurações padrão que fica em `/etc/mpd.conf` copiando para seu usuário e editando: `cp /etc/mpd.conf ~/.config/mpd/mpd.conf`, por exemplo o meu está assim:
