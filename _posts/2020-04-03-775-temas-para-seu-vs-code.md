@@ -4,6 +4,8 @@ title: "775 Temas para seu VS Code"
 date: 2020-04-03 17:10:23
 image: '/assets/img/vscode/Gruvbox-Dark-Medium.png'
 description: 'Sim, você leu corretamente: 775! 😮️'
+icon: 'logos:visual-studio-code'
+iconname: 'vscode'
 tags:
 - vscode
 - editor
