@@ -4,6 +4,8 @@ title: "Os 10 Melhores Temas GTK Modernos para seu Linux"
 date: 2020-03-21 13:10:11
 image: '/assets/img/themes/macos-transparent.jpg'
 description: 'Na ordem dos que eu mais gosto! 🏃️'
+icon: 'simple-icons:gnome'
+iconname: 'gnome'
 tags:
 - temas
 - linux

@@ -4,6 +4,8 @@ title: "Como Visualizar Markdown no Gedit"
 date: 2020-03-31 11:41:15
 image: '/assets/img/gedit/gedit-markdown-preview-menu-min.jpg'
 description: 'Se você curte o Gedit e quer dar uma turbinada nele, vem com nós! 👋️'
+icon: 'logos:markdown'
+iconname: 'markdown'
 tags:
 - gedit
 - markdown

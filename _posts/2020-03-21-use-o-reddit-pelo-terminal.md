@@ -4,6 +4,8 @@ title: "Use o Reddit pelo Terminal"
 date: 2020-03-21 19:59:42
 image: '/assets/img/terminal/rtv.png'
 description: 'RTV é uma TUI(Terminal User Interface) para o Reddit.'
+icon: 'logos:reddit-icon'
+iconname: 'reddit'
 tags:
 - terminal
 - comandos

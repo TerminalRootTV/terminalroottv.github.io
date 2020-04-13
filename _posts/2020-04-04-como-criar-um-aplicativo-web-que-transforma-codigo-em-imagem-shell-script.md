@@ -4,6 +4,8 @@ title: "Como Criar um Aplicativo Web que Transforma código em Imagem (Shell Scr
 date: 2020-04-04 01:51:53
 image: '/assets/img/dev/code-to-img.jpg'
 description: 'Tava devendo essa faz tempo.'
+icon: 'emojione:spiral-shell'
+iconname: 'shellscript'
 tags:
 - shellscript
 - desenvolvimentoweb
@@ -28,7 +30,7 @@ sed -i "s/'/\\\'/g" "$_filename"
 
 # Vídeo do tutorial
 
-<iframe width="1244" height="700" src="https://www.youtube.com/embed/q-nDkg1PauE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="1244" height="500" src="https://www.youtube.com/embed/q-nDkg1PauE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 # [Baixar o projeto](https://github.com/terroo/code2img)
 {% highlight bash %}

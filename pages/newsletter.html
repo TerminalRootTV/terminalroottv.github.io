@@ -1,50 +1,32 @@
 ---
 layout: page
-title: 'Newsletter - Terminal Root'
-permalink: '/newsletter/'
-description: 'Cadastre-se para ficar por dentro de todas as novidades e promoções!'
-image: '/assets/img/gif/newsletter.jpg'
+title: "Newsletter Terminal Root"
+permalink: "/newsletter/"
+description: 'Receba as novidades no seu e-mail!'
 ---
 
-<div class="container py-5 text-center">
-  <div
-    class="jumbotron text-center"
-    id="form"
-    style="border: 1px solid silver; border-radius: 5px;"
-  >
-    <h1 class="text-center">Receba as novidades no seu e-mail!</h1>
-    <p class="lead">
-      Após cadastro e confirmação do e-mail, enviaremos semanalmente resumos e
-      também sempre que houver novidades por aqui para que você mantenha-se
-      atualizado!
-    </p>
 
-    <div class="mb-5 text-center mx-1">
-      <input
-        type="text"
-        class="form-control rounded-0"
-        placeholder="Digite seu e-mail"
-        id="email"
-        style="width: 100%;"
-      />
-      
-      
-      <div class="text-center">
-        <button class="btn btn-primary btn-block mt-2 text-center" type="button" id="btn-newsletter" >
-          Quero receber novidades
-        </button>
+<div class="container newsletter pt-5 ">
+
+  <div class="jumbotron bg-dark text-white text-center" id="form">
+    <h1 class="text-center">Receba as novidades no seu e-mail!</h1>
+    <p class="lead">Após cadastro e confirmação do e-mail, enviaremos semanalmente resumos e também sempre que houver novidades por aqui para que você mantenha-se atualizado!</p>
+    <hr class="my-4">
+
+    <div class="input-group mb-0 mx-auto" style="max-width: 50rem;">
+      <input type="text" class="form-control rounded-0" placeholder="Digite seu e-mail" id="email">
+      <div class="input-group-prepend">
+        <button class="btn btn-primary" type="button" id="btn-newsletter">Quero receber novidades</button>
       </div>
+    </div>
+    <p>caso queira entrar em contato conosco, <a href="mailto:contato@terminalroot.com.br" class="crossover">envie-nos um e-mail.</a> </p>
+  </div>
+
+  <div id="return" class="text-center my-5 py-5" style="font-size: 30px;"></div>
+  <div id="gif" style="display:none;" class="text-center">
+    <div class="spinner-border text-center" style="width: 8rem; height: 8rem;" role="status">
+      <span class="sr-only text-center">Enviando a solicitação ...</span>
     </div>
   </div>
 
-  <div id="return" style="color: #000;"></div>
-  <div style="display: none;" class="text-center" id="gif">
-    <h3>Enviando a solicitação</h3>
-    <img
-      src="https://terminalroot.com.br/assets/img/gif/tenor.gif"
-      alt="loader"
-    />
-  </div>
-
-  <hr />
 </div>

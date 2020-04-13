@@ -4,6 +4,8 @@ title: "10 Melhores Alternativas para Compartilhamento de Trechos de Código"
 date: 2020-03-22 16:09:34
 image: '/assets/img/code/instacode.png'
 description: 'Simples e muito necessário! ♨️'
+icon: 'fa-regular:file-code'
+iconname: 'desenvolvimento'
 tags:
 - desenvolvimento
 - programacao

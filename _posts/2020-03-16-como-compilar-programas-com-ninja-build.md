@@ -4,6 +4,8 @@ title: "Como compilar programas com Ninja Build"
 date: 2020-03-16 08:41:05
 image: '/assets/img/cpp/ninja-build.jpg'
 description: 'É um sistema de compilação pequeno , com foco na velocidade.'
+icon: 'logos:c-plusplus'
+iconname: 'c++'
 tags:
 - ninja
 - meson

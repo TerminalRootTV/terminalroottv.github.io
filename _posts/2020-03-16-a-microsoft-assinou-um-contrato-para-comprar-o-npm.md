@@ -4,6 +4,8 @@ title: "A Microsoft assinou um contrato para Comprar o npm"
 date: 2020-03-16 23:40:26
 image: '/assets/img/noticias/github-npm-blog.png'
 description: 'O npm está se unindo ao GitHub'
+icon: 'logos:npm'
+iconname: 'npm'
 tags:
 - npm
 - microsoft

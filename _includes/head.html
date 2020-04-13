@@ -1,22 +1,54 @@
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="/assets/img/icon.png" sizes="32x32" type="image/png">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <!-- METADADOS:  -->
+  <meta name="keywords" content="linux, shell script, bash, desenvolvimento, tecnologia">
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="author" content="{{ site.author }}">
 	<meta name="robots" content="noodp">
 	<meta name="reply-to" content="{{ site.email }}">
-	<meta name="generator" content="VIM - Vi IMproved 8.1 (2018 May 18, compiled Apr  7 2019 00:42:18)">
+	<meta name="generator" content="VIM - Vi IMproved 8.1 (2020 Mar 18, compiled Dec  7 2019 00:09:36)">
 	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
 	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>
+	
 	<!-- Favicons -->
 	<link href="/assets/img/site/favicon.png" rel="icon">
 	<link rel="search" type="application/opensearchdescription+xml" href="https://terminalroot.com.br/www-terminalroot-com-br.xml" title="Terminal Root - Linux e Desenvolvimento">
 	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
-	
-	<!-- Google Analytics -->
+
+  <!-- BOOTSTRAP:  -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+  <link rel='stylesheet' href='https://unpkg.com/izitoast/dist/css/iziToast.min.css'>
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/assets/js/popper.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+
+  <script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+
+  <!-- ICONS:  -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Devicons in your header -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- ICONIFY DESIGN  -->
+  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
+  <!-- FONTS:  -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Terminal+Dosis" />
+
+  <!-- MY FILES:  -->
+  <link rel="stylesheet" href="/assets/css/main-dark.css">
+  <script src="/assets/js/toogle-theme.js"></script>
+
+  <!-- Google Analytics -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -53,25 +85,10 @@
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="fb:admins" content="439112053506193"/>
 
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-	<!-- Bootstrap CSS File -->
-	<link href="/assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Libraries CSS Files -->
-	<!--<link href="/assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link href="/assets/lib/animate/animate.min.css" rel="stylesheet">
-	<link href="/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-	<link href="/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-	<link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 	<!-- My Main Stylesheet File -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-	<!-- Main Stylesheet File -->
-	<link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
-	<link rel="stylesheet" href="{{ "/assets/css/dracula.css" | prepend: site.baseurl }}">
 
 
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -88,4 +105,5 @@
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
 
+  <link rel="stylesheet" href="/assets/css/dracula.css">
 </head>

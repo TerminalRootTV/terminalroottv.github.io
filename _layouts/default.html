@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 {% include head.html %}
+
 <body>
 
-{% include header.html %}
+  {% include header.html %}
 
-{{ content }}
+  {% include intro.html %}
 
-{% include footer.html %}
+  {% include posts.html %}
+
+  {% include tags.html %}
+
+  {% include newsletter.html %}
+
+  {% include footer.html %}
 
 </body>
 </html>

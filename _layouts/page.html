@@ -1,29 +1,34 @@
----
-layout: default
-comments: true
----
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<section id="post-page-header" class="clearfix" style="background: {{ page.color }};">
+{% include head.html %}
 
+<body>
 
-  <div class="page-post-header-info text-center">
-    <h2>{{ page.title }}</h2>
-    <h4>{{ page.description }}</h4>
-	<p style="color: #babdb6;">
-		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-	</p>
+  {% include header.html %}
+
+  <div class="container">
+    <div class="row mt-5 intro">
+      <div class="col-sm-12 text-center px-5">
+        <h1 class="pt-5 pb-1">
+          <span class="intro-title">{{ page.title }}</span>
+        </h1>
+        <h2 class="py-3">{{ page.description }}</h2>
+      </div>
+    </div>
+    <hr>
+  </div> <!-- CONTAINER INTRO -->
+
+  <div class="container pagina">
+    {{ content }}
   </div>
-</section><!-- #page-post-header -->
-  
-  <main id="main">
-  <section id="post-page">
- 
-  	{{ content }}
-  	
-  </section>
-  </main>
-  
-  {% include marketing.html %}
 
-</div>
 
+  {% include tags.html %}
+
+  {% include newsletter.html %}
+
+  {% include footer.html %}
+
+</body>
+</html>

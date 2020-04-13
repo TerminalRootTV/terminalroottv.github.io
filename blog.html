@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="assets/img/icon.png" sizes="32x32" type="image/png">
+  <title>Blog | New</title>
+
+  <!-- BOOTSTRAP:  -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- ICONS:  -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Devicons in your header -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- ICONIFY DESIGN  -->
+  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
+  <!-- FONTS:  -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Terminal+Dosis" />
+
+  <!-- MY FILES:  -->
+  <link rel="stylesheet" href="assets/css/main-dark.css">
+  <script src="assets/js/toogle-theme.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container">
+      <a class="navbar-brand" href="">Terminal Root</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <i class="fas fa-bars menu-bar"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promoção</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link mySearch" data-toggle="modal" data-target="#mySearch">Pesquise</a>
+          </li>
+          <!-- PESQUISE -->
+          <!-- INICIO MODAL -->
+          <div class="modal fade text-center" tabindex="-1" id="mySearch" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    <span class="iconify" data-icon="ei:close" data-inline="false" style="color: white;" data-width="32" data-height="32"></span>
+                  </button>
+                </div>
+                <div class="modal-body" style="background-color: transparent;">
+                  <input type="text" id="search-input" value="Digite o que você procura aqui" onblur="if(this.value == ''){ this.value='Digite o que você procura aqui';}" onfocus="if(this.value == 'Digite o que você procura aqui'){ this.value='';}">
+                  <br>
+                  <ul id="results-container"></ul>
+                </div><!-- modal-body:  -->
+              </div><!-- modal-content:  -->
+            </div><!-- modal-dialog -->
+          </div>
+          <!-- MODAL FIM:  -->
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+          <a href="https://youtube.com/TerminalRootTV" class="nav-link youtube">
+            <i class="fab fa-youtube"></i>
+          </a>
+
+          <a href="https://twitter.com/TerminalRootTV" class="nav-link twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <a href="https://github.com/terroo" class="nav-link github">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a class="nav-link dark-mode" style="cursor:pointer;" id="toogle-theme"  data-toggle="tooltip" data-html="true" title="<em>Alterar</em> <u>modo</u> <b>Dark/Light</b>">
+            <i class="far fa-circle" id="too"></i>
+            <!--<i class="fas fa-adjust"></i>-->
+            <!--<i class="far fa-lightbulb"></i>-->
+            <!-- <i class="fas fa-lightbulb"></i> -->
+          </a>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid text-dark publicidade py-5">
+    <h1 class="text-center pt-5">Pacote Promocional com Todos os Cursos</h1>
+    <h4 class="text-center pt-3">Adquira todos os cursos para se tornar um ninja do Terminal e do Linux.</h4>
+    <p class="text-center py-5">
+      <button type="button" class="btn btn-custom btn-lg btn-outline-light py-3 px-5" name="button">Mais detalhes</button>
+    </p>
+  </div><!-- PUBLICIDADE CONTAINER  -->
+
+  <div class="container my-5 py-5">
+    <h1 class="text-center">Todas as postagens</h1>
+    <hr>
+
+      <div class="card text-white bg-dark mb-3 blog-list">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3 blog-list">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3 blog-list">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3 blog-list">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+  </div><!-- CONTAINER BLOG_LISTS -->
+
+  <div class="container">
+
+    <h1 class="text-center">Qual seus assuntos preferidos?</h1>
+    <hr>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-graduation-cap"></i> Cursos <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="simple-icons:udemy" data-inline="false" style="color: white;"></span> Udemy <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-check-circle"></i> Promoção <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-linux"></i> Linux <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="simple-icons:gnu" data-inline="false" style="color: white;"></span> GNU <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="simple-icons:openbsd" data-inline="false" style="color: white;"></span> OpenBSD <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-terminal"></i> Shell Script <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="simple-icons:gnubash" data-inline="false" style="color: white;"></span> Bash <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="cib:gentoo" data-inline="false" style="color: white;"></span> Gentoo <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-freebsd"></i> FreeBSD <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-python"></i> Python <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-node-js"></i> Node.js <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="devicon-cplusplus-plain"></i> C++ <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="devicon-vim-plain"></i> Vim <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-book-reader"></i> Artigos <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-github"></i> Git <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-rss"></i> Feed <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="devicon-mysql-plain"></i> MySQL <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-html5"></i> HTML <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-css3"></i> CSS <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-js"></i> JavaScript <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="cib:jekyll" data-inline="false" style="color: white;"></span> Jekyll <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-newspaper"></i> Notícias <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-language"></i> English <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-dove"></i> Awk <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="cib:stripe-s" data-inline="false" style="color: white;"></span> Sed <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="mdi:regex" data-inline="false" style="color: white;"></span> Regex <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-link"></i> Blog <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-reddit-alien"></i> #unixporn <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-github"></i> GitHub <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-gitlab"></i> GitLab <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-code"></i> Desenvolvimento Web <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-firefox"></i> Firefox <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-video"></i> Filmes <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-vuejs"></i> Vue.js <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="devicon-c-plain"></i> Linguagem C <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-redhat"></i> Red Hat <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-gamepad"></i> Games <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-php"></i> PHP <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <i class="devicon-debian-plain"></i> Debian <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-ubuntu"></i> Ubuntu <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-windows"></i> Windows <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-apple"></i> macOS <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fas fa-server"></i> Servidores <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-fedora"></i> Fedora <span class="nada"></span>
+    </a>
+
+    <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <i class="fab fa-centos"></i> CentOS <span class="nada"></span>
+    </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+      <span class="iconify" data-icon="cib:apache" data-inline="false" style="color: white;"></span>  Apache <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <i class="fas fa-network-wired"></i> Redes <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+        <i class="devicon-gimp-plain"></i> GIMP <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <i class="fab fa-markdown"></i> MarkDown <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <i class="fab fa-docker"></i> Docker <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+        <i class="devicon-jquery-plain"></i> jQuery <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+        <i class="devicon-mongodb-plain"></i> MongoDB <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+        <i class="devicon-postgresql-plain"></i> PostGreSQL <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <span class="iconify" data-icon="cil:terminal" data-inline="false" style="color: white;"></span> Comandos <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+        <i class="devicon-ruby-plain"></i> Ruby <span class="nada"></span>
+     </a>
+
+     <a href="#" class="btn btn-dark text-white rounded-0 mb-1">
+       <i class="fas fa-atom"></i> Atom <span class="nada"></span>
+     </a>
+
+
+  </div><!-- CONTAINER TAGS  -->
+
+
+
+  <div class="container newsletter pb-5 ">
+    <hr class="my-5">
+    <div class="jumbotron bg-dark text-white text-center">
+      <h1 class="text-center">Receba as novidades no seu e-mail!</h1>
+      <p class="lead">Após cadastro e confirmação do e-mail, enviaremos semanalmente resumos e também sempre que houver novidades por aqui para que você mantenha-se atualizado!</p>
+      <hr class="my-4">
+      <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
+      <div class="input-group mb-3 mx-auto" style="max-width: 50rem;">
+        <input type="text" class="form-control rounded-0" placeholder="Digite seu e-mail">
+        <div class="input-group-prepend">
+          <button class="btn btn-primary" type="button" id="button-addon1">Quero receber novidades</button>
+        </div>
+      </div>
+      <p>caso queira entrar em contato conosco, <a href="mailto:contato@terminalroot.com.br">envie-nos um e-mail.</a> </p>
+    </div>
+  </div>
+
+
+  <div class="jumbotron jumbotron-fluid footer mt-0 mb-0">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+          <img src="assets/img/logo-blog.png" alt="Terminal Root" class="img-fluid">
+          <h6 class="my-4">Site sobre GNU/Linux, Desenvolvimento de software, Gentoo, BSD, Open Source e Software Livre . Compra segura e conteúdo confiável via PagSeguro e PayPal.</h6>
+        </div>
+
+        <div class="col-4 midias-sociais ml-auto text-center">
+
+          <a href="https://youtube.com/TerminalRootTV" class="youtube"><i class="fab fa-youtube"></i></a>
+          <a href="https://twitter.com/TerminalRootTV" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://terminalroot.com.br/feed.xml" class="rss"><i class="fas fa-rss"></i></a>
+          <a href="https://www.reddit.com/user/terminalroot" class="reddit"><i class="fab fa-reddit"></i></a>
+          <a href="https://br.pinterest.com/terminalroot/" class="pinterest"><i class="fab fa-pinterest"></i></a>
+          <a href="https://www.instagram.com/terminalroot/" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://terminalroot.tumblr.com/" class="tumblr"><i class="fab fa-tumblr"></i></a>
+          <a href="http://bit.ly/2WGFO7u" class="google"><i class="fab fa-google"></i></a>
+          <a href="https://github.com/terroo" class="github"><i class="fab fa-github"></i></a>
+          <a href="https://facebook.com/TerminalRootTV" class="facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/marcos-oliveira-049327166/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+          <a href="https://vk.com/id473144337" class="vk"><i class="fab fa-vk"></i></a>
+
+          <hr>
+
+          <div class="flinkz mt-4">
+
+            <h5 style="color:#fff;">Conheça também</h5>
+
+            <a href="https://www.edivaldobrito.com.br/">Blog do Edivaldo</a>
+            <a href="https://www.linuxnocafe.com.br/">Linux no Café</a>
+            <a href="https://www.diolinux.com.br/">Diolinux</a>
+            <a href="http://bit.ly/NewsTerminalRoot1">NewsTR</a>
+            <a href="https://terminalroot.com.br/contribua">Contribua</a>
+            <a href="https://en.terminalroot.com.br/">English version</a>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="text-center">
+        <img src="assets/img/paycards.png" alt="Paycards" class="img-fluid mt-3">
+      </div>
+
+      <hr>
+      <p class="text-center mt-5 mb-0">
+        <a href="https://terminalroot.com.br">Terminal Root</a>.
+        &reg; Todos os Direitos Reservados.
+        Feito com <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://getbootstrap.com.br/">Bootstrap</a> e <i class="fas fa-heart" style="color:#E06C75;"></i></p>
+    </div>
+  </div>
+
+  <a id="js-scroll-vanilla"><i class="fa fa-chevron-up"></i></a>
+
+</body>
+</html>

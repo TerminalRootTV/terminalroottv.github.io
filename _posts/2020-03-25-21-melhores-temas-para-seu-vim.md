@@ -4,6 +4,8 @@ title: "21 Melhores Temas para seu Vim"
 date: 2020-03-25 09:47:39
 image: '/assets/img/vim/vim-themes.jpg'
 description: 'E 10 Linhas Interessantes para seu .vimrc'
+icon: 'logos:vim'
+iconname: 'vim'
 tags:
 - vim
 - temas
@@ -42,7 +44,7 @@ sed -n '/github\|Author\|Maintainer/p'; done
 {% endhighlight %}
 
 # Assista ao vídeo
-<iframe width="920" height="400" src="https://www.youtube.com/embed/XXGk3n1uzPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1244" height="500" src="https://www.youtube.com/embed/XXGk3n1uzPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Veja também:
 - [10 DICAS para Você Usar o VIM como um NINJA](https://www.youtube.com/watch?v=nFWQJiLvjnk)

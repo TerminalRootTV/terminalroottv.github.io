@@ -1,56 +1,60 @@
----
-layout: default
-comments: true
----
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<section id="post-page-header" class="clearfix">
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div class="container mb-1 pb-1">
+    <div class="row mt-5 intro">
+      <div class="col-sm-12 text-center px-5">
+        <h2 class="pt-5 pb-1">
+          <span class="intro-title">{{ page.title }}</span>
+        </h2>
+        <h4 class="py-3">{{ page.description }}</h4>
+        <p class="oblique">
+          <i class="fas fa-calendar oblique"></i>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </p>
+      </div>
+    </div>
+    <hr>
+  </div> <!-- CONTAINER INTRO -->
+
+  <div class="container mt-1 pt-1 artigo">
+    <div class="row">
+      <div class="col-md-9">
+
+        {{ content }}
+
+        {% include tags-footer.html %}
+
+        {% include author.html %}
+
+        {% include relacionados.html %}
+
+        <hr>
+
+      </div>
 
 
-  <div class="page-post-header-info text-center">
-    <h2>{{ page.title }}</h2>
-    <h4>{{ page.description }}</h4>
-	<p style="color: #babdb6;">
-		<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-	</p>
+      {% include sidebar.html %}
 
-
+    </div><!-- ROW ARTIGO -->
 
   </div>
-</section><!-- #page-post-header -->
-  
-  <main id="main">
-  <section id="post-page">
+</div><!-- CONTAINER ARTIGO  -->
 
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	  <ins class="adsbygoogle"
-	       style="display:block; text-align:center;"
-	       data-ad-layout="in-article"
-	       data-ad-format="fluid"
-	       data-ad-client="ca-pub-2838251107855362"
-	       data-ad-slot="7504231210"></ins>
-	  <script>
-		  (adsbygoogle = window.adsbygoogle || []).push({});
-	  </script> 
-  	
-  	<br>
-  	
-	  {{ content }}
-  
-  </section>
-  </main>
-  
-  
-  {% include shared.html %}
-  
-  {% include author.html %}
-  
-  {% include marketing.html %}
-  
-  {% include related-posts.html %}
-  
-  <hr style="max-width:1000px;">
-  
-  {% include comments.html %}
-  
-</div>
 
+
+
+{% include publicidade.html %}
+
+{% include newsletter.html %}
+
+{% include footer.html %}
+
+</body>
+</html>

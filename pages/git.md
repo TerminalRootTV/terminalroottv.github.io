@@ -21,11 +21,11 @@ Principais Comandos do Git
 > Opções do parâmetro **add**
 
 {% highlight bash %}
-git-add # mesmo comando que 'git add' 
-# O comando git-add não irá adicionar arquivos ignorados por padrão a menos que seja utilizado o parâmetro '-f' 
-git add -A # Adiciona todos arquivos que foram modificados, mesmo que: --all, --no-ignore-removal 
+git-add # mesmo comando que 'git add'
+# O comando git-add não irá adicionar arquivos ignorados por padrão a menos que seja utilizado o parâmetro '-f'
+git add -A # Adiciona todos arquivos que foram modificados, mesmo que: --all, --no-ignore-removal
 git add *.txt # Adiciona todos os arquivos '.txt' que foram modificados
-man git-add # manual completo sobre git-add 
+man git-add # manual completo sobre git-add
 {% endhighlight %}
 
 - `git commit -m "Minhas mudanças efetuadas"` » Armazena as mudanças efetuadas e descreve o que foi alterado
@@ -44,18 +44,16 @@ man git-add # manual completo sobre git-add
 - `man git` » Obtém o Manual do git
 
 <div class="text-center">
-     <a href="https://pag.ae/bhgSpYQ"><button type="button" class="btn btn-success">
-       Me pague um café <i class="fa fa-coffee"></i> com 
+     <a href="https://pag.ae/bhgSpYQ"  class="btn btn-success btn-block">
+       Me pague um café <i class="fa fa-coffee"></i> com
        <strong>PagSeguro</strong>
-      </button>
-    </a> 
+    </a>
 
-     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MDBKEUL69LKSY">
-      <button type="button" class="btn btn-info">
-       &nbsp;&nbsp;&nbsp;&nbsp;Me pague um café <i class="fa fa-coffee"></i> com 
-       <strong>PayPal</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </button>
-    </a> 
+     <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MDBKEUL69LKSY"  class="btn btn-info btn-block">
+       Me pague um café <i class="fa fa-coffee"></i> com
+       <strong>PayPal</strong>
+
+    </a>
 </div>
 
 Assista os Vídeos {#assista-os-vdeos}
@@ -75,4 +73,3 @@ Vídeos Adicionais {#vdeos-adicionais}
 - [▶️ Como Importar seu blog do Blogger para o GitHub](https://www.youtube.com/watch?v=wpHWQqnlpG0 "Terminal Root")
 - [▶️ Dicas Importantes para seu Blog no GitHub](https://www.youtube.com/watch?v=sOSWfN6iGno "Terminal Root")
 - [▶️ Como Criar um Pull Request](https://www.youtube.com/TerminalRootTV "Terminal Root")
-

@@ -4,6 +4,8 @@ title: "Como Habilitar Facilmente Shell Script Web no Linux Mint - Servidor Apac
 date: 2020-03-18 20:19:35
 image: '/assets/img/shellpro/shellscript-web.jpg'
 description: 'Uma opção CGI para seu Desenvolvimento Web.'
+icon: 'logos:apache'
+iconname: 'apache'
 tags:
 - shellscript
 - desenvolvimentoweb
@@ -46,7 +48,7 @@ Então use-o com o parâmetro `--custom` como **RECOMENDADO**:
 
 E aguarde o término da execução do script e aguarde que ele abrirá automaticamente o navegador e exibirá uma página exemplo!
 # Assista ao Vídeo
-<iframe width="920" height="400" src="https://www.youtube.com/embed/JTmYcQpIISU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1244" height="500" src="https://www.youtube.com/embed/JTmYcQpIISU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Veja também:
-<iframe width="920" height="400" src="https://www.youtube.com/embed/5hQyfXIMviM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1244" height="500" src="https://www.youtube.com/embed/5hQyfXIMviM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
