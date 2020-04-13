@@ -12,7 +12,7 @@ tags:
 - linux
 ---
 
-[![](/assets/img/vscode/Gruvbox-Dark-Medium.png)](/assets/img/vscode/Gruvbox-Dark-Medium.png)
+[![775 Temas para seu VS Code](/assets/img/vscode/Gruvbox-Dark-Medium.png)](/assets/img/vscode/Gruvbox-Dark-Medium.png)
 
 
 Abaixo segue dados sobre cada um dos temas:
