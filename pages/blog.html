@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Blog Terminal Root"
+permalink: "/blog/"
+description: 'Artigos, séries, dicas e tutoriais.'
+---
+
+<div class="container my-5 py-5 blog-page">
+{% for post in site.posts %}
+  <div class="card my-3 bg-dark text-white">
+    <div class="card-header">
+      <h3 class="card-title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+    </div>
+    <div class="card-body">
+      <p style="text-align: left;">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.description }}</a>
+      </p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-custom">LEIA MAIS</a>
+    </div>
+  </div>
+  <hr>
+{% endfor %}
+</div>
