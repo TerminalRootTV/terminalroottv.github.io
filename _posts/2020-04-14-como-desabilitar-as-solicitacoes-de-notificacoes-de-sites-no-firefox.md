@@ -35,7 +35,7 @@ Para desabilitar permanentemente basta seguir os seguintes passos:
 
 ![Privacidade e Segurança](/assets/img/firefox/web-push-02.jpg)
 
-+ **03**. Role para baixo até a seção **Permissões**
++ **03**. Role para baixo até a seção **Permissões**, e clique em **Configurações** no item **Notificações**
 
 ![Permissões](/assets/img/firefox/web-push-03.jpg)
 
