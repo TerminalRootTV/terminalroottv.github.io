@@ -32,11 +32,11 @@ Softphone compatível com SIP e mensagem instantânea baseada em SIP para Linux,
 ---
 
 # Comunique-se de várias maneiras
-+ • Uma ferramenta simples para conectar, comunicar e compartilhar.
-+ • Ingresse facilmente em chamadas para criar conferências com vários participantes.
-+ • Suporta uma variedade de opções de entrada de vídeo, incluindo várias câmeras e arquivos de imagem e vídeo, e a seleção de entradas e saídas de áudio; tudo isso é suportado por vários codecs de áudio e vídeo de alta qualidade.
-+ • Envie mensagens de texto durante ou fora das chamadas (desde que o seu par esteja conectado).
-+ • Um componente básico para o seu projeto de IoT: reutilize a tecnologia de comunicação universal da Jami com sua biblioteca portátil no sistema de sua escolha.
++ Uma ferramenta simples para conectar, comunicar e compartilhar.
++ Ingresse facilmente em chamadas para criar conferências com vários participantes.
++ Suporta uma variedade de opções de entrada de vídeo, incluindo várias câmeras e arquivos de imagem e vídeo, e a seleção de entradas e saídas de áudio; tudo isso é suportado por vários codecs de áudio e vídeo de alta qualidade.
++ Envie mensagens de texto durante ou fora das chamadas (desde que o seu par esteja conectado).
++ Um componente básico para o seu projeto de IoT: reutilize a tecnologia de comunicação universal da Jami com sua biblioteca portátil no sistema de sua escolha.
 
 O Jami é desenvolvido e mantido pela empresa canadense [Savoir-faire Linux](https://savoirfairelinux.com/), e com a ajuda de uma comunidade global de usuários e colaboradores.
 
