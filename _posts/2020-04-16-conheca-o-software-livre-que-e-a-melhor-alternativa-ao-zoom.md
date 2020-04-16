@@ -4,7 +4,7 @@ title: "Conheça o Software Livre que é a Melhor Alternativa ao ZOOM"
 date: 2020-04-16 10:22:22
 image: '/assets/img/assets/apps/jami.jpg'
 description: 'Não é somente Open Source, é um Software Livre!'
-icon: 'logos:gnu'
+icon: 'simple-icons:gnu'
 iconname: 'gnu'
 tags:
 - softwares
