@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o Software Livre que é a Melhor Alternativa ao ZOOM"
 date: 2020-04-16 10:22:22
-image: '/assets/img/assets/apps/jami.jpg'
+image: '/assets/img/apps/jami.jpg'
 description: 'Não é somente Open Source, é um Software Livre!'
 icon: 'simple-icons:gnu'
 iconname: 'gnu'
@@ -12,7 +12,7 @@ tags:
 - gnu
 ---
 
-![Conheça o Software Livre que é a Melhor Alternativa ao ZOOM](/assets/img/assets/apps/jami.jpg)
+![Conheça o Software Livre que é a Melhor Alternativa ao ZOOM](/assets/img/apps/jami.jpg)
 
 Todo mundo sabe que o [ZOOM](https://is.gd/KdxXkD) foi bastante noticiado ultimamente por possui falhas graves de segurança e diversas pessoas tem evitado e empresas como o Google, por exemplo, proibiu o uso do mesmo.
 
