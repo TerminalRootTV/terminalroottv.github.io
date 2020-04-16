@@ -14,7 +14,7 @@ tags:
 
 ![Conheça o Software Livre que é a Melhor Alternativa ao ZOOM](/assets/img/apps/jami.jpg)
 
-Todo mundo sabe que o [ZOOM](https://is.gd/KdxXkD) foi bastante noticiado ultimamente por possui falhas graves de segurança e diversas pessoas tem evitado e empresas como o Google, por exemplo, proibiu o uso do mesmo.
+Todo mundo sabe que o [ZOOM](https://is.gd/KdxXkD) foi bastante noticiado ultimamente por possuir falhas graves de segurança e diversas pessoas tem evitado e empresas como o Google, por exemplo, proibiu o uso do mesmo.
 
 Algumas pessoas nunca ouviram falar do ZOOM, e outras nem sequer sabem pra que serve. Mas ficou com a curiosidade de saber quais alternativas à esse software.
 
