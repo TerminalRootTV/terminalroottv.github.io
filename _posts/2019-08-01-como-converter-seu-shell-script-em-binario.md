@@ -10,7 +10,7 @@ tags:
 - shellpro
 ---
 
-![Bin Bash](http://localhost/1/terminalroottv.github.io/assets/img/shellpro/shell-script-binario.jpg)
+![Bin Bash](/assets/img/shellpro/shell-script-binario.jpg)
 
 Este artigo irá ajudá-lo a criar um arquivo binário do seu Shell Scripting, para que ninguém possa ver o código-fonte do seu script e podemos usá-lo como um comando. Para criar um arquivo binário a partir de um script, usamos o compilador SHC
 
