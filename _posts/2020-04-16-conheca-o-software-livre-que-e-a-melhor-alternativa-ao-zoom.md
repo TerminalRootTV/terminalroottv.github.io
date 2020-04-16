@@ -52,7 +52,7 @@ O Jami utiliza TLS 1.3 com um requisito de sigilo de encaminhamento perfeito par
 Como já foi dito, o mesmo está disponível para Linux, macOS e Windows, além de sistemas de dispositivos móveis: iOS e Android, entre outros dispositivos e plataformas.
 
 No Linux eles fizeram questão de faciltar a instalação e disponibilizar pacotes para as distribuições mais conhecidas. Veja a imagem abaixo:
-![Jami distros Linux](/assets/img/assets/apps/jami-linux.png)
+![Jami distros Linux](/assets/img/apps/jami-linux.png)
 
 Se sua distro não está na lista, não se preocupe, encontre-a na [lista de contribuições](https://jami.net/download-jami-linux/): Arch Linux e entre outras. Inclusive o Gentoo, a distro que eu uso, existe um [overlay](https://github.com/stefan-langenmaier/ring-overlay) prontinho e que pode ser instalado com Layman:
 {% highlight bash %}
