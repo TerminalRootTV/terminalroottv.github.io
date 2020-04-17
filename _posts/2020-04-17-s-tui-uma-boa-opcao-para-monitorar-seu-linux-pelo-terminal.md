@@ -12,7 +12,6 @@ tags:
 - comandos
 ---
 
-# S-TUI uma boa opção para-monitorar seu Linux pelo terminal
 ![S-TUI uma boa opção para-monitorar seu Linux pelo terminal](/assets/img/terminal/s-tui.jpg)
 
 Aqui no blog já mostramos um software similar que também usa [TUI](https://en.m.wikipedia.org/wiki/Text-based_user_interface)(Terminal User Interface,  Interface de usuário baseada em texto), o [gotop](https://terminalroot.com.br/2019/07/instale-o-gotop-um-monitor-grafico-do-sistema-via-terminal.html), escrito em [Go](https://golang.org/), bem como também como você pode começar a desenvolver esse tipo de interface: [Monitore seu Linux com Gráficos pelo Terminal](https://youtu.be/-6O7_UQ765g) que utiliza [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html).
@@ -52,7 +51,7 @@ Se você não gosta de usar gerenciadores de terceiros, no [GitHub](https://gith
 
 # Uso
 Depois instalado é só rodar o comando:
-{% endhighlight %}
+{% highlight bash %}
 s-tui
 {% endhighlight %}
 
