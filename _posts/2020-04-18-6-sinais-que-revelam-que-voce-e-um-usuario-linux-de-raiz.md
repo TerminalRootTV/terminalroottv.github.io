@@ -88,7 +88,7 @@ tchau(){
     touch ${HOME}/.local/share/recently-used.xbel
     _DIRB="$(find ${HOME}/.mozilla/firefox -type d -name "*bookmarkbackups*")"
     rm $_DIRB/* 2>/dev/null
-	rm -rf "${HOME}/.local/share/Trash/files/*"
+    rm -rf "${HOME}/.local/share/Trash/files/*"
 }
 ```
 > A variável `_DIRB` criei propositadamente porque todos os meus comandos são portáveis, eu uso em qualquer sistema ou quando eu vou formatar ou algo desse tipo, o nome encriptado do diretório do Firefox é alterado pelo próprio Firefox, em um novo ambiente.
