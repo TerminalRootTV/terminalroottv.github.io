@@ -51,7 +51,7 @@ gist(){
 }
 ```
 
-Então para criar a URL amigável, basta usar esse comando, e se esquecer a ordem é só digitar o comando sem parâmetros uqe o mano `help` me ajudará! 😄 .
+Então para criar a URL amigável, basta usar esse comando, e se esquecer a ordem é só digitar o comando sem parâmetros que o mano `help` me ajudará! 😄 .
 
 Você também pode alternar os comandos temporariamente criando alias diretamente no seu prompt para situações específicas, faço isso bastante, se você também faz, considere fazer parte do grupo do título 😃 .
 
