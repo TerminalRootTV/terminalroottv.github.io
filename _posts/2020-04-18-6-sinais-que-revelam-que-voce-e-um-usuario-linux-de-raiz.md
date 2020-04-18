@@ -110,7 +110,7 @@ O ponto é que as distribuições Linux são projetos apaixonantes, e é diverti
 ---
 
 # 6. Você é apaixonado por Open Source e Free Software
-Apesar de você não alterar sequer uma única linha de código, e muitas vezes nem saber programar, isso não lhe impede de ser apaixonado por essas tecnologia, porque você sabe que não está sendo enganado.
+Apesar de você não alterar sequer uma única linha de código, e muitas vezes nem saber programar, isso não lhe impede de ser apaixonado por essas tecnologias, porque você sabe que não está sendo enganado.
 
 De que ninguém está vigiando sua vida, isso me dá um alívio, por isso prefiro [Software Livre](https://terminalroot.com.br/tags/#freesoftware) e [Código aberto(https://terminalroot.com.br/tags/#opensource)], e compilar eles direto da fonte!
 
