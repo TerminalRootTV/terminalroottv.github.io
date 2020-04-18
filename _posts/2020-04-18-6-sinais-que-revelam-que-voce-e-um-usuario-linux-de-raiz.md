@@ -33,7 +33,7 @@ Para mais detalhes sugiro você assistir à [esse vídeo](https://www.youtube.co
 
 ---
 
-# 2. Você acha que é uma tarefa difícil digitar algo além de duas letras para fazer alguma coisa
+# 2. Você acha que é uma tarefa difícil digitar algo com muitas letras para fazer alguma coisa
 Os comandos Unix mais comuns são notoriamente curtos. Além de [comandos](https://terminalroot.com.br/tags/#comandos) como `cd` e `ls` e `mv`, há um comando que literalmente não pode ser mais curto: `w` (que mostra quem está atualmente conectado de acordo com o arquivo `/var/run/utmp`).
 
 Por um lado, comandos extremamente curtos parecem pouco intuitivos. Um novo usuário provavelmente não vai adivinhar que digitar `ls` listaria diretórios. Depois de aprender os comandos, porém, quanto mais curtos, melhor. Se você passa o dia todo em um terminal, menos teclas digitadas significa que pode gastar mais tempo realizando seu trabalho.
