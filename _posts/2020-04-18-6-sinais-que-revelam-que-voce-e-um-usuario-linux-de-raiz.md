@@ -38,7 +38,7 @@ Os comandos Unix mais comuns são notoriamente curtos. Além de [comandos](https
 
 Por um lado, comandos extremamente curtos parecem pouco intuitivos. Um novo usuário provavelmente não vai adivinhar que digitar `ls` listaria diretórios. Depois de aprender os comandos, porém, quanto mais curtos, melhor. Se você passa o dia todo em um terminal, menos teclas digitadas significa que pode gastar mais tempo realizando seu trabalho.
 
-Felizmente, os comandos de uma letra estão distantes entre si, o que significa que você pode usar a maioria das letras para *aliases*. Por exemplo, eu crio URL amigáveis do [git.io](https://git.io) com frequência e o comando é muito longo para digitar, por isso eu o **alias** e adicionei esta linha ao meu arquivo `~/.bashrc`:
+Felizmente, os comandos de uma letra estão distantes entre si, o que significa que você pode usar a maioria das letras para *aliases*. Por exemplo, eu crio URL amigáveis do [git.io](https://git.io) com frequência e o comando é muito longo para digitar, por isso criei um **alias/função** e adicionei esta linha ao meu arquivo `~/.bashrc`:
 
 ```sh
 gist(){
