@@ -40,7 +40,7 @@ Por um lado, comandos extremamente curtos parecem pouco intuitivos. Um novo usu�
 
 Felizmente, os comandos de uma letra estão distantes entre si, o que significa que você pode usar a maioria das letras para *aliases*. Por exemplo, eu crio URL amigáveis do [git.io](https://git.io) com frequência e o comando é muito longo para digitar, por isso criei um **alias/função** e adicionei esta linha ao meu arquivo `~/.bashrc`:
 
-```sh
+{% highlight bash %}
 gist(){
 	[[ -z "$1" || -z "$2" ]] && {
 		printf "%s\n" "Use: gist [URL] [SHORT-URL]"
@@ -49,7 +49,7 @@ gist(){
 	curl https://git.io/ -i -F "url=$1" -F "code=$2"
 	echo
 }
-```
+{% endhighlight %}
 
 Então para criar a URL amigável, basta usar esse comando, e se esquecer a ordem é só digitar o comando sem parâmetros que o mano `help` me ajudará! 😄 .
 
@@ -80,7 +80,7 @@ Perdoe a hipérbole, mas muitos usuários de Linux esperam que seu computador tr
 As coisas fáceis de automatizar são as ações que você já executa em um terminal, porque os comandos são apenas cadeias que você digita em um intérprete e esse intérprete (o [shell](https://terminalroot.com.br/tags/#shellscript) em execução no [terminal](https://terminalroot.com.br/tags/#terminal)) não se importa se você digitou as cadeias manualmente ou se você está apenas apontando para um script.
 
 Por exemplo, comumente limpo o: histórico, thumbnails, lixeira, bookmarks backups do Firefox e entre outros com um único comando, o `tchau`, eu adicionei essa função ao meu `~/.bashrc` e toda vez que eu quero limpar tudo, basta eu dar um tchau para eles! ✋
-```sh
+{% highlight bash %}
 tchau(){
     [[ -d "${HOME}/.cache/thumbnails" ]] && rm -rf ${HOME}/.cache/thumbnails/    
     [[ -d "${HOME}/.cache/mozilla" ]] && rm -rf ${HOME}/.cache/mozilla/    
@@ -90,7 +90,7 @@ tchau(){
     rm $_DIRB/* 2>/dev/null
     rm -rf "${HOME}/.local/share/Trash/files/*"
 }
-```
+{% endhighlight %}
 > A variável `_DIRB` criei propositadamente porque todos os meus comandos são portáveis, eu uso em qualquer sistema ou quando eu vou formatar ou algo desse tipo, o nome encriptado do diretório do Firefox é alterado pelo próprio Firefox, em um novo ambiente.
 
 ---
@@ -122,6 +122,6 @@ Espero que vocês tenham gostado do artigo. Lembrando que apesar dele se parecer
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/LpASuM1Uhw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Abraços!
+Abraços! 😀️
 
 
