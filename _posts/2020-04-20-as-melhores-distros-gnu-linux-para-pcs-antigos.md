@@ -3,7 +3,7 @@ layout: post
 title: "As Melhores Distros GNU/LINUX para PCs ANTIGOS"
 date: 2020-04-20 09:53:51
 image: '/assets/img/distros/best-gnu-linux-old-pcs.jpg'
-description:
+description: 'Se você está tentando escolher um Linux para aquele seu computador antigo.'
 icon: 'simple-icons:gnu'
 iconname: 'gnu/linux'
 tags:
