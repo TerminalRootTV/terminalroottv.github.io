@@ -29,7 +29,7 @@ Parabola GNU/Linux-libre é um projeto de software livre que tem como objetivo f
 
 Parabola GNU/Linux-libre é listado pela Free Software Foundation como um sistema operacional totalmente livre.
 
-+ Site oficial: https://www.parabola.nu/
++ Site oficial: <https://www.parabola.nu/>
 + Shell padrão: Bash
 + Interface padrão: LXDE
 + Utiliza o kernel Linux-libre em vez de Linux
@@ -99,7 +99,7 @@ data-ad-slot="5351066970"></ins>
 
 Puppy Linux é uma distribuição iniciada em  2003 . O Puppy é muito pequeno, e desenvolvido para ser seguro, fácil de usar e completamente customizável. Todo o sistema operacional e todos os outros aplicativos rodam da memória RAM. Há ainda a possibilidade de se adicionar aplicações com a ferramenta Setup. A distribuição foi desenvolvida do zero, não sendo baseada em nenhuma outra distribuição.
 
-+ Site oficial: http://puppylinux.com/
++ Site oficial: <http://puppylinux.com/>
 + Shell padrão: Bash
 + Interface padrão: JWM
 + Versão atual: 8.0
@@ -117,7 +117,7 @@ Puppy Linux é uma distribuição iniciada em  2003 . O Puppy é muito pequeno, 
 
 Trisquel é uma distribuição Linux, derivada do Ubuntu.  O projeto visa um sistema de software totalmente gratuito sem software ou firmware proprietário e usa uma versão do kernel modificado do Ubuntu com blobs binários removido.  Trisquel depende de doações de usuários.  Seu logotipo é um triskelion, um símbolo celta.  Trisquel é listado pela Free Software Foundation como uma distribuição que contém apenas software livre.
 
-+ Site oficial: https://trisquel.info/
++ Site oficial: <https://trisquel.info/>
 + Shell padrão: Bash
 + Interface padrão: MATE
 + Versão atual:8.0
@@ -139,7 +139,7 @@ O Lubuntu é voltado para ambientes com baixos requisitos de sistema e pouca mem
 
 Em fevereiro de 2009, Mark Shuttleworth fez um convite aos integrantes do projeto LXDE a se juntarem a comunidade Ubuntu, o objetivo foi de conceder suporte ao ambiente e dedicarem oficialmente uma nova derivação do Ubuntu a ser chamada Lubuntu.
 
-+ Site oficial: https://lubuntu.me/
++ Site oficial: <https://lubuntu.me/>
 + Shell padrão: Bash
 + Interface padrão: LXQT, usava anteriormente o LXDE
 + Versão atual: 19.10
