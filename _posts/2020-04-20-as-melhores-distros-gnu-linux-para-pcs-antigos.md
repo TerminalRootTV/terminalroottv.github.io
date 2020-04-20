@@ -22,7 +22,7 @@ Segue!
 
 ---
 
-# 06. Parabola GNU/Linux-libre
+# 06. [Parabola GNU/Linux-libre](https://www.parabola.nu/)
 ![Parabola GNU/Linux-libre](/assets/img/distros/parabola.jpg)
 
 Parabola GNU/Linux-libre é um projeto de software livre que tem como objetivo fornecer uma versão do Arch Linux completamente livre, com pacotes otimizados para 32-bit, 64-bit e mips64. Parabola pretende que as ferramentas de sua gestão e os pacotes sejam simples, e o controle total do sistema seja feito com aplicações 100% livres.
@@ -42,7 +42,7 @@ Parabola GNU/Linux-libre é listado pela Free Software Foundation como um sistem
 
 ---
 
-# 05. Hyperbola GNU/Linux-libre
+# 05. [Hyperbola GNU/Linux-libre](https://www.hyperbola.info/)
 ![Hyperbola GNU/Linux-libre](/assets/img/distros/hyperbola.jpg)
 
 Hyperbola GNU/Linux-libre é um sistema operacional que funciona nas plataformas i686 and x86-64. Ele é baseado nos snapshots da Arch e também se baseia no desenvolvimento e segurança do Debian.
@@ -66,7 +66,7 @@ Em dezembro de 2019 o Hyperbola anunciou no seu site que migrará seu Kernel par
 
 ---
 
-# 04. CrunchBang++
+# 04. [CrunchBang++](https://crunchbangplusplus.org/)
 ![Crunchbang Plus Plus](/assets/img/distros/cbpp.jpg)
 
 O Crunchbang Plus Plus é uma distribuição Linux baseada em Debian GNU/Linux, criada por e desenvolvida com o objetivo de oferecer um sistema tanto rápido quanto funcional. Um projeto similar ao CrunchBang++ é a distro BunsenLabs.
@@ -94,7 +94,7 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-# 03. Puppy Linux
+# 03. [Puppy Linux](http://puppylinux.com/)
 ![Puppy Linux](/assets/img/distros/puppy.jpg)
 
 Puppy Linux é uma distribuição iniciada em  2003 . O Puppy é muito pequeno, e desenvolvido para ser seguro, fácil de usar e completamente customizável. Todo o sistema operacional e todos os outros aplicativos rodam da memória RAM. Há ainda a possibilidade de se adicionar aplicações com a ferramenta Setup. A distribuição foi desenvolvida do zero, não sendo baseada em nenhuma outra distribuição.
@@ -112,7 +112,7 @@ Puppy Linux é uma distribuição iniciada em  2003 . O Puppy é muito pequeno, 
 
 ---
 
-# 02. Trisquel GNU/Linux
+# 02. [Trisquel GNU/Linux](https://trisquel.info/)
 ![Trisquel GNU/Linux](/assets/img/distros/trisquel.jpg)
 
 Trisquel é uma distribuição Linux, derivada do Ubuntu.  O projeto visa um sistema de software totalmente gratuito sem software ou firmware proprietário e usa uma versão do kernel modificado do Ubuntu com blobs binários removido.  Trisquel depende de doações de usuários.  Seu logotipo é um triskelion, um símbolo celta.  Trisquel é listado pela Free Software Foundation como uma distribuição que contém apenas software livre.
@@ -130,7 +130,7 @@ Trisquel é uma distribuição Linux, derivada do Ubuntu.  O projeto visa um sis
 
 ---
 
-# 01. Lubuntu
+# 01. [Lubuntu](https://lubuntu.me/)
 ![Lubuntu](/assets/img/distros/lubuntu.jpg)
 
 Lubuntu é um projeto derivado da distribuição Linux Ubuntu que utiliza o ambiente de desktop LXQt . Seu diferencial está em seu desenvolvimento, que foca computadores e notebooks antigos, com menos de 512 MB de RAM.
