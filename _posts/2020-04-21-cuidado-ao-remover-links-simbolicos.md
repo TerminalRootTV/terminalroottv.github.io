@@ -26,7 +26,7 @@ Só que isso não solucionou e ela decidiu remover o link simbólico com o segui
 rm -rf /boot/efi
 {% endhighlight %}
 
-O que acontece é que o diretório `/boot/grub/x86_64-efi` não foi removids, mas os arquivos sim! 😱
+O que acontece é que o diretório `/boot/grub/x86_64-efi` não foi removido, mas os arquivos sim! 😱
 ![Que tristeza](/assets/img/dicas/triste.jpg)
 
 Se você criar um teste aí no seu sistema com diretórios em sua `/home/$USER/` só pra isso, perceberá que realmente é isso que acontecerá!
