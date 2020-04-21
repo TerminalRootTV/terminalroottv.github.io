@@ -2,7 +2,7 @@
 layout: post
 title: "CUIDADO ao remover links simbólicos"
 date: 2020-04-21 16:25:53
-image: '/assets/img/'
+image: '/assets/img/dicas/remove-symbolic-link.jpg'
 description: 'As vezes soluções simples evitam problemas complexos! 😱'
 icon: 'ion:terminal-sharp'
 iconname: 'terminalroot'
