@@ -14,11 +14,43 @@ tags:
 
 ![As Melhores Distros GNU/LINUX para PCs ANTIGOS](/assets/img/distros/best-gnu-linux-old-pcs.jpg)
 
-> Original de acordo com o vídeo: **As 6 Melhores Distros GNU/LINUX para PCs ANTIGOS**
 
 Se você está tentando escolher um Linux para aquele seu computador antigo que você deseja recuperá-lo, ou até mesmo para qualquer outra situação, esse artigo pode lhe ajudar, veja a lista abaixo, com informações detalhadas de cada uma distro, que podem lhe auxiliar ainda mais na sua escolha.
 
 Segue!
+---
+
+> Atualizada de acordo com a: **Contribuição da comunidade**
+
+# [Bodhi Linux](https://www.bodhilinux.com/)
+![Bodhi Linux](/assets/img/distros/bodhi.png)
+
+> Site oficial: <https://www.bodhilinux.com/>
+
+---
+
+# [Q4OS Trinity](https://q4os.org/)
+![Q4OS](/assets/img/distros/q4OS.jpg)
+
+> Site oficial: <https://q4os.org/>
+
+---
+
+# [SparkyLinux](https://sparkylinux.org/)
+![SparkyLinux](/assets/img/distros/sparky.jpg)
+
+> Site oficial: <https://sparkylinux.org/>
+
+---
+
+# [antiX Linux](https://antixlinux.com/)
+![antiX](/assets/img/distros/antix.jpg)
+
+> Site oficial: <https://antixlinux.com/>
+
+---
+
+> Original de acordo com o vídeo: **As 6 Melhores Distros GNU/LINUX para PCs ANTIGOS**
 
 ---
 
