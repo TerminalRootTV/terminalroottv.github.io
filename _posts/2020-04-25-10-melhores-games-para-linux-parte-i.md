@@ -105,15 +105,23 @@ O jogo permite que você construa um veículo robô que pode ser usado para voar
 <a href="https://www.minetest.net/downloads/" class="btn btn-success btn-block">Disponível no Site (Gratuito)</a> 
 
 Ou via gerenciador de pacotes da sua distro, exemplos:
-```sh
+{% highlight bash %}
 emerge games-action/minetest # Gentoo, Funtoo
 sudo apt install minetest # Ubuntu, Debian, Mint, ...
-```
+{% endhighlight %}
 
 # 10. SuperTuxKart
 SuperTuxKart é um popular jogo de corrida de kart no ecossistema Linux, de código aberto e totalmente gratuito. O jogo é muito parecido com Mario Kart e Wacky Wheels. É um jogo em 3D e apresenta vários mascotes do FOSS como personagens. Você pode jogar como Tux, GNU, o elefante PHP ou o daemon BSD. O jogo tem mais de 20 faixas, meia dúzia de modos de jogo, incluindo um modo multiplayer em tela dividida. É frequentemente adicionado novo conteúdo - a versão mais recente trouxe alguns novos personagens, modo AI, um modo Grand Prix separado e melhorias gráficas significativas.
 
 ![SuperTuxKart](/assets/img/games/stk.jpg)
+
+<a href="https://sourceforge.net/projects/supertuxkart/" class="btn btn-success btn-block">Disponível no Site (Gratuito)</a> 
+
+Ou via gerenciador de pacotes da sua distro, exemplos:
+{% highlight bash %}
+emerge games-action/supertuxkart # Gentoo, Funtoo
+sudo apt install supertuxkart # Ubuntu, Debian, Mint, ...
+{% endhighlight %}
 
 
 ---
