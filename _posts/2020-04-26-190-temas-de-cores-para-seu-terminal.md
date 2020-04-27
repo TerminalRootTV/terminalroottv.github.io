@@ -54,6 +54,6 @@ Próximo passo é clicar com o botão direito do mouse e ir até **Preferências
 
 Show de bola!
 
-Viste o site do [Gogh](http://mayccoll.github.io/Gogh/) para mais detalhes:
+Visite o site do [Gogh](http://mayccoll.github.io/Gogh/) para mais detalhes:
 # <http://mayccoll.github.io/Gogh/>
 
