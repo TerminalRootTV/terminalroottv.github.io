@@ -20,20 +20,20 @@ tags:
 # Instalação 
 
 Para instalar e utilizar o Gogh é muito simples. Primeiramente certifique-se de que possui as dependências, exemplo para sistemas baseados em APT:
-```sh
+{% highlight bash %}
 sudo apt install dconf-cli uuid-runtime wget
-```
+{% endhighlight %}
 
 Após isso é só escolher um dos comandos abaixo, como `wget` ou `curl`:
-```sh
+{% highlight bash %}
 bash -c  "$(wget -qO- https://git.io/vQgMr)"
-```
+{% endhighlight %}
 
 ou
 
-```sh
+{% highlight bash %}
  bash -c  "$(curl -sLo- https://git.io/vQgMr)" 
-```
+{% endhighlight %}
 
 Ele vai executar e exibir uma lista com 190 temas, exemplo:
 > Para escolher  basta digitar o **NÚMERO** do tema
