@@ -17,7 +17,7 @@ tags:
 
 [Gogh](http://mayccoll.github.io/Gogh/) é um conjunto de scripts do [Bash](https://terminalroot.com.br) que facilita a alteração do esquema de cores dos [terminais](https://terminalroot.com.br/tags#terminal) no [Linux](https://terminalroot.com.br/tags#linux) e no [macOS](https://terminalroot.com.br/tags#macos). Atualmente, oferece 190 esquemas de cores de terminais e suporta terminais baseados em Gtk, como [Gnome](https://terminalroot.com.br/tags#gnome) Terminal, Xfce Terminal, Mate Terminal, Pantheon Terminal, Tilix e Guake no Linux e iTerm2 no Mac.
 
-# Instalação 
+# Instalação
 
 Para instalar e utilizar o Gogh é muito simples. Primeiramente certifique-se de que possui as dependências, exemplo para sistemas baseados em APT:
 {% highlight bash %}
