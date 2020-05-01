@@ -46,6 +46,7 @@ a.nav-link:hover {
 .artigo .social a:hover {border: none; text-decoration: none;}
 .artigo div.relateds:hover img {border-color: : #abb2bf; padding: 0;}
 .artigo a.relateds {color: #fff; font-size: 18px;}
+.artigo img {background: #222428;}
 
 .pagina ul li {font-size: 24px; background-color: #222428; color: #abb2bf;}
 .pagina ol li {font-size: 24px; background-color: #222428; color: #abb2bf;}
