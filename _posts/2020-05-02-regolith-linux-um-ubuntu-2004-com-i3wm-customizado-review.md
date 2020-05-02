@@ -52,9 +52,9 @@ sudo apt autoclean
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/7oK0hy_olJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Site: <https://regolith-linux.org/>
-Download: <https://regolith-linux.org/download/>
-Github unofficial fork i3wm: <https://github.com/regolith-linux/regolith-i3>
++ Site: <https://regolith-linux.org/>
++ Download: <https://regolith-linux.org/download/>
++ Github unofficial fork i3wm: <https://github.com/regolith-linux/regolith-i3>
 
 # Veja também
 + [Como Instalar e Configurar o i3wm e o i3blocks](https://www.youtube.com/watch?v=-geUXpuOJBU)
