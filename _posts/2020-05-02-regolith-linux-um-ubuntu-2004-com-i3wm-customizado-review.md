@@ -4,7 +4,7 @@ title: "Regolith Linux - Um Ubuntu 20.04 com i3wm customizado (REVIEW)"
 date: 2020-05-02 09:55:06
 image: '/assets/img/distros/regolith.jpg'
 description: 'Uma mistura de Ubuntu, GNOME Flashback e i3wm.'
-icon: 'ion:terminal-sharp'
+icon: 'cib:ubuntu'
 iconname: 'ubuntu'
 tags:
 - ubuntu
