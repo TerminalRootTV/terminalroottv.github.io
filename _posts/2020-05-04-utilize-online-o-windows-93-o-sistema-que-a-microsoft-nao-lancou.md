@@ -3,7 +3,7 @@ layout: post
 title: "Utilize Online o Windows 93, o Sistema que a Microsoft não lançou"
 date: 2020-05-04 12:56:11
 image: '/assets/img/windows/windows93.jpg'
-description:
+description: 'Windows 93 disponível com direito à travadas, para não perder o costume.'
 icon: 'simple-icons:windows95'
 iconname: 'windows'
 tags:
