@@ -3,7 +3,7 @@ layout: post
 title: "Personalize o seu Ubuntu com Wayland + Sway + Ulauncher + Waybar"
 date: 2020-05-07 19:35:18
 image: '/assets/img/wm/ubuntu-sway.jpg'
-description:
+description: 'Facilmente via Shell Script.'
 icon: 'bx:bxl-reddit'
 iconname: 'unixporn'
 tags:
