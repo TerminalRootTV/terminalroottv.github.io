@@ -3,7 +3,7 @@ layout: post
 title: "Como Customizar o ROFI, Like a FOSS!"
 date: 2020-05-12 03:32:07
 image: '/assets/img/wm/rofi-like-a-foss.jpg'
-description:
+description: 'Um dos melhores launchers também serve para inúmeras coisas.'
 icon: 'dashicons:menu-alt3'
 iconname: 'rofi'
 tags:
