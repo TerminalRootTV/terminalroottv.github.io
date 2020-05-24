@@ -46,6 +46,8 @@ usage: app-get [options] [package]
 Veja como diretamente no repositório oficial do programa:
 ## <https://github.com/terroo/app-get>
 
+> Se tiver problemas com exibição de fonts, recomendo instalar essas fontes: <https://github.com/terroo/fonts>
+
 <!-- LISTA MIN -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
