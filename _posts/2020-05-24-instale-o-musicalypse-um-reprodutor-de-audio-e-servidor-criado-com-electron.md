@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instale o Musicalypse - Um reprodutor de áudio e servidor criado com ElectronJs"
+title: "Instale o Musiclypse - Um reprodutor de áudio e servidor criado com ElectronJs"
 date: 2020-05-24 00:13:10
 image: '/assets/img/audio/musicalypse.jpg'
 description: 'O Musicalypse é um player e servidor de áudio moderno, construído com tecnologias da Web.'
@@ -13,7 +13,7 @@ tags:
 - javascript
 ---
 
-![Instale o Musicalypse - Um reprodutor de áudio e servidor criado com ElectronJs](/assets/img/audio/musicalypse.jpg)
+![Instale o Musiclypse - Um reprodutor de áudio e servidor criado com ElectronJs](/assets/img/audio/musicalypse.jpg)
 
 Aqui no [blog](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=audio) e também no [canal](https://youtu.be/tholV10zDi0) já possui diversos conteúdos sobre áudio , mas é sempre interessante conhecer novas alternativas principalmente quando essas foram contruidas com tecnologias diferentes. E hoje vamos conhecer o [Musicalypse](https://github.com/tgambet/musicalypse) que foi contruído com [Electron](https://www.electronjs.org/).
 
