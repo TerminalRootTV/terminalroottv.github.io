@@ -37,9 +37,9 @@ Aqui está a lista completa das linguagens de programação assalariadas mais al
 <table class="table table-bordered table-responsive">
    <thead>
       <tr>
-         <th>Position</th>
-         <th>Language</th>
-         <th>Median Salary (Global)</th>
+         <th>Posição</th>
+         <th>Linguagem</th>
+         <th>Média Salarial (em dólares)</th>
       </tr>
    </thead>
    <tbody>
