@@ -203,5 +203,5 @@ data-ad-slot="8549252987"></ins>
 </script>
 
 
-Esse artigo foi originalmente publicado por [FossBytes](https://fossbytes.com/stack-overflow-highest-salary-programming-languages-2020/) com modificações e incremento de informações po [Marcos Oliveira](https://terminalroot.com.br)
+Esse artigo foi originalmente publicado por [FossBytes](https://fossbytes.com/stack-overflow-highest-salary-programming-languages-2020/) com modificações e incremento de informações por [Marcos Oliveira](https://www.linkedin.com/in/marcos-oliveira-049327166/)
 
