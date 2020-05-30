@@ -34,7 +34,7 @@ O mais interessante é que o Perl também está na lista dos [principais idiomas
 
 Aqui está a lista completa das linguagens de programação assalariadas mais altas de 2020.
 
-<table class="table table-bordered table-responsive">
+<table class="table table-bordered">
    <thead>
       <tr>
          <th>Posição</th>
