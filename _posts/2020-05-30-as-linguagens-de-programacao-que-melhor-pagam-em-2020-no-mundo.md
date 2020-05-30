@@ -34,33 +34,143 @@ O mais interessante é que o Perl também está na lista dos [principais idiomas
 
 Aqui está a lista completa das linguagens de programação assalariadas mais altas de 2020.
 
-|Posição|Linguagem|Média do Salário (em Dólares)|
-|--- |--- |--- |
-|1|Perl|$76k|
-|2|Scala|$76k|
-|3|Go|$74k|
-|4|Rust|$74k|
-|5|Ruby|$71k|
-|6|Bash/Shell/PowerShell|$65k|
-|7|Objective-C|$64k|
-|8|Haskell|$60k|
-|9|Julia|$59k|
-|10|Python|$59k|
-|11|Swift|$58k|
-|12|C#|$57k|
-|13|R|$57k|
-|14|TypeScript|$57k|
-|15|Kotlin|$54k|
-|16|SQL|$54k|
-|17|Assembly|$53k|
-|18|C++|$53k|
-|19|JavaScript|$53k|
-|20|HTML/CSS|$52k|
-|21|VBA|$51k|
-|22|C|$50k|
-|23|Java|$50k|
-|24|PHP|$39k|
-|25|Dart|$37k|
+<table class="table table-bordered table-responsive">
+   <thead>
+      <tr>
+         <th>Position</th>
+         <th>Language</th>
+         <th>Median Salary (Global)</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>1</td>
+         <td>Perl</td>
+         <td>$76k</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>Scala</td>
+         <td>$76k</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>Go</td>
+         <td>$74k</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>Rust</td>
+         <td>$74k</td>
+      </tr>
+      <tr>
+         <td>5</td>
+         <td>Ruby</td>
+         <td>$71k</td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>Bash/Shell/PowerShell</td>
+         <td>$65k</td>
+      </tr>
+      <tr>
+         <td>7</td>
+         <td>Objective-C</td>
+         <td>$64k</td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>Haskell</td>
+         <td>$60k</td>
+      </tr>
+      <tr>
+         <td>9</td>
+         <td>Julia</td>
+         <td>$59k</td>
+      </tr>
+      <tr>
+         <td>10</td>
+         <td>Python</td>
+         <td>$59k</td>
+      </tr>
+      <tr>
+         <td>11</td>
+         <td>Swift</td>
+         <td>$58k</td>
+      </tr>
+      <tr>
+         <td>12</td>
+         <td>C#</td>
+         <td>$57k</td>
+      </tr>
+      <tr>
+         <td>13</td>
+         <td>R</td>
+         <td>$57k</td>
+      </tr>
+      <tr>
+         <td>14</td>
+         <td>TypeScript</td>
+         <td>$57k</td>
+      </tr>
+      <tr>
+         <td>15</td>
+         <td>Kotlin</td>
+         <td>$54k</td>
+      </tr>
+      <tr>
+         <td>16</td>
+         <td>SQL</td>
+         <td>$54k</td>
+      </tr>
+      <tr>
+         <td>17</td>
+         <td>Assembly</td>
+         <td>$53k</td>
+      </tr>
+      <tr>
+         <td>18</td>
+         <td>C++</td>
+         <td>$53k</td>
+      </tr>
+      <tr>
+         <td>19</td>
+         <td>JavaScript</td>
+         <td>$53k</td>
+      </tr>
+      <tr>
+         <td>20</td>
+         <td>HTML/CSS</td>
+         <td>$52k</td>
+      </tr>
+      <tr>
+         <td>21</td>
+         <td>VBA</td>
+         <td>$51k</td>
+      </tr>
+      <tr>
+         <td>22</td>
+         <td>C</td>
+         <td>$50k</td>
+      </tr>
+      <tr>
+         <td>23</td>
+         <td>Java</td>
+         <td>$50k</td>
+      </tr>
+      <tr>
+         <td>24</td>
+         <td>PHP</td>
+         <td>$39k</td>
+      </tr>
+      <tr>
+         <td>25</td>
+         <td>Dart</td>
+         <td>$37k</td>
+      </tr>
+   </tbody>
+</table>
+
 
 
 As linguagens mais usadas, como Java, [C](https://terminalroot.com.br/tags/#linguagemc) ou [PHP](https://terminalroot.com.br/tags/#php), tendem a receber salários muito menores. Mais uma vez, a demanda e a oferta podem ser citadas como o maior fator aqui.
