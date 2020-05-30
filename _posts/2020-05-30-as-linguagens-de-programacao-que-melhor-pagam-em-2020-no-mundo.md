@@ -173,7 +173,7 @@ Aqui está a lista completa das linguagens de programação assalariadas mais al
 
 
 
-As linguagens mais usadas, como Java, [C](https://terminalroot.com.br/tags/#linguagemc) ou [PHP](https://terminalroot.com.br/tags/#php), tendem a receber salários muito menores. Mais uma vez, a demanda e a oferta podem ser citadas como o maior fator aqui.
+As linguagens mais usadas, como [Java](https://terminalroot.com.br/2019/10/jython-a-linguagem-que-mistura-java-com-python.html), [C](https://terminalroot.com.br/tags/#linguagemc) ou [PHP](https://terminalroot.com.br/tags/#php), tendem a receber salários muito menores. Mais uma vez, a demanda e a oferta podem ser citadas como o maior fator aqui.
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
