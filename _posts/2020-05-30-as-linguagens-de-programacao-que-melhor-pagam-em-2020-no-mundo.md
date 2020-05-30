@@ -28,7 +28,7 @@ data-ad-slot="5351066970"></ins>
 
 Felizmente, o Stack Overflow fornece uma estimativa aproximada dos valores reais de salário para as [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) mais bem pagas usadas em todo o mundo.
 
-A [Pesquisa para desenvolvedores para 2020](https://insights.stackoverflow.com/survey/2020#overview) da Stack Overflow já foi lançada e revela que, globalmente, os entrevistados que usam Perl, Scala e Go tendem a ter os salários mais altos. Todos os três idiomas têm um salário médio de cerca de `US $ 75.000`.
+A [Pesquisa para desenvolvedores para 2020](https://insights.stackoverflow.com/survey/2020#overview) da Stack Overflow já foi lançada e revela que, globalmente, os entrevistados que usam Perl, Scala e Go tendem a ter os salários mais altos. Todos os três idiomas têm um salário médio de cerca de `US$ 75.000`.
 
 O mais interessante é que o Perl também está na lista dos [principais idiomas mais temidos em 2020](https://fossbytes.com/stack-overflow-most-loved-dreaded-wanted-programming-languages-in-2020/), garantindo a terceira posição nele, lembrando que o site de pesquisa: [DuckDuckGo](https://terminalroot.com.br/2019/10/como-pesquisar-no-google-e-duckduckgo-via-linha-de-comando.html) possui o Back-End escrito em Perl. Mas isso também pode ser uma razão pela qual aprender Perl tem mais incentivos financeiros. Para compensar a escassez de desenvolvedores Perl, as empresas precisam pagar mais para atrair desenvolvedores.
 
