@@ -3,7 +3,8 @@
 body {
   background-color: #f8f9fa;
   font-family:Whitney,sans-serif;
-  color: #222428;
+  color: #222428;  
+  background-image: url("/assets/img/bg/bg_dotted_ubuntu.png");
   /*background-color: #fcfdff;
   background-image: url("/assets/img/bg/egg-shell.png");
    This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
