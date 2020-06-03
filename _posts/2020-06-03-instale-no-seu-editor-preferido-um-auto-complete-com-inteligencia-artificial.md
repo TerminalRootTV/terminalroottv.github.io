@@ -53,7 +53,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Você pode utilizá-lo GRATUITO por 14 dias com a [Versão Trial](https://www.tabnine.com/trial/) . No entanto, após os 14 dias ele continuará funcionando normalmente, a diferença é que funções adicionais, qeu eu particularmente nem notei, não estarã disponíveis. Essa diferenças podem ser consultadas [aqui](https://www.tabnine.com/pricing).
+Você pode utilizá-lo GRATUITO por 14 dias com a [Versão Trial](https://www.tabnine.com/trial/) . No entanto, após os 14 dias ele continuará funcionando normalmente, a diferença é que funções adicionais, que eu particularmente nem notei, não estarã disponíveis. Essa diferenças podem ser consultadas [aqui](https://www.tabnine.com/pricing).
 
 # Instalando no Vim
 A versão para o [Vim](https://www.youtube.com/watch?v=nFWQJiLvjnk) é baseada no [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) e para adicioná-lo, você pode usar o [Vundle](https://github.com/VundleVim/Vundle.vim):
