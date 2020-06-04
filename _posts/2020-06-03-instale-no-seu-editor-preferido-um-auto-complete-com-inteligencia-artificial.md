@@ -58,23 +58,23 @@ Você pode utilizá-lo GRATUITO por 14 dias com a [Versão Trial](https://www.ta
 # Instalando no Vim
 A versão para o [Vim](https://www.youtube.com/watch?v=nFWQJiLvjnk) é baseada no [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) e para adicioná-lo, você pode usar o [Vundle](https://github.com/VundleVim/Vundle.vim):
 + Adicione ao seu [.vimrc](https://www.youtube.com/watch?v=XXGk3n1uzPg): 
-```viml
+{% highlight viml %}
 Plugin 'zxqfl/tabnine-vim'
-```
+{% endhighlight %}
 + E instale:
-```sh
+{% highlight bash %}
 :PluginInstall
-```
+{% endhighlight %}
 
 Ou você pode instalar também da forma *vanilla*:
 + Clone com [Git](https://terminalroot.com.br/git): 
-```sh
+{% highlight bash %}
 git clone --depth 1 https://github.com/zxqfl/tabnine-vim
-```
+{% endhighlight %}
 + E adicionar ao seu `~/.vimrc`: 
-```sh
+{% highlight bash %}
 set rtp+=~/tabnine-vim
-```
+{% endhighlight %}
 > Substitua o caminho completo pelo caminho que você clonou.
 
 Veja abaixo o TabNine em ação:
