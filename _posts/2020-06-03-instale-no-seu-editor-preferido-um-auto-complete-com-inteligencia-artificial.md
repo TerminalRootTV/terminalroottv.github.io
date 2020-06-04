@@ -81,6 +81,8 @@ Veja abaixo o TabNine em ação:
 
 ![TabNine](/assets/img/programacao/tabnine.gif)
 
+### Nesse vídeo em alguns trechos aparece o TabNine quando eu abro meu Vim: <https://www.youtube.com/watch?v=sjnzhoE5keQ>
+
 # Conclusão
 Eu realmente pretendo obter a versão paga, pois achei que o auto-complete do meu **Vim** ficou até mais rápido e bem mais completo. Lembrando que esse artigo não é um post pago, eu rejeito diariamente propostas de posts pagos quando eu não acredito no produto . Mas o TabNine, além de ser um produto de qualidade você pode usar ele normalmente mesmo após o período de trial.
 
