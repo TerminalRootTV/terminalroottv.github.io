@@ -148,11 +148,11 @@ Cappuccino é um framework de código aberto que torna fácil a criação de apl
 
 ---
 
-## 12. [JavaScript MVC](http://javascriptmvc.com/)
-> Site oficial: <http://javascriptmvc.com/>
+## 12. [JsMVC](https://github.com/Nitij/JsMvc)
+> Site oficial: <https://github.com/Nitij/JsMvc>
 JavaScriptMVC é um framework de código aberto que contém as melhores ideias no desenvolvimento do jQuery.
 
-![JavaScriptMVC](/assets/img/js/cappuccino.png)
+![JavaScriptMVC](/assets/img/js/jsmvc.png)
 
 ---
 
