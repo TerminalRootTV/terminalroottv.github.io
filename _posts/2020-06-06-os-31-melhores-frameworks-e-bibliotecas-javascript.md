@@ -331,7 +331,7 @@ O Anime.js (/ˈæn.ə.meɪ/) é uma biblioteca de animação JavaScript leve, co
 
 Bom pessoal, é isso. Minhas preferências das citadas acima são **Vue.js** , **Textillate.js** e **Anime.js** , mas isso vai de questão de gosto.
 
-Espero que tenham gostado da postagem e se você ainda é iniciante ou desej inciar nesse mundo de front-end/programação , recomendo você assistir aos vídeos abaixo:
+Espero que tenham gostado da postagem e se você ainda é iniciante ou deseja inciar nesse mundo de front-end/programação , recomendo você assistir aos vídeos abaixo:
 
 # HTML & CSS
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/SGA6nQqYH7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
