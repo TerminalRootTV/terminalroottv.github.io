@@ -2,7 +2,7 @@
 layout: post
 title: "10 plataformas para blogs de código aberto para desenvolvedores"
 date: 2020-06-09 19:38:53
-image: '/assets/img/blog/blog-programming.jpg'
+image: '/assets/img/blogs/blog-programming.jpg'
 description: 'Para desenvolvedores Node.js, Python, PHP, Go e Ruby.'
 icon: 'carbon:blog'
 iconname: 'blogs para programadores'
@@ -16,7 +16,7 @@ tags:
 - python
 ---
 
-![10 plataformas para blogs de código aberto para desenvolvedores](/assets/img/blog/blog-programming.jpg)
+![10 plataformas para blogs de código aberto para desenvolvedores](/assets/img/blogs/blog-programming.jpg)
 
 As principais plataformas de blogs como [WordPress](https://br.wordpress.org/), [Blogger](https://www.blogger.com/), [Tumblr](https://terminalroot.tumblr.com/) etc. Não foram projetadas para [hackers](https://pt.wikipedia.org/wiki/Hacker). Eles são sobrecarregados por recursos que os desenvolvedores simplesmente não precisam ou desejam.
 
@@ -37,7 +37,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # [Hexo](https://hexo.io/)
-![Hexo](/assets/img/blog/hexo.png)
+![Hexo](/assets/img/blogs/hexo.png)
 
 O Hexo é uma plataforma de blogs criada pelo [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html). (é o que diz ali no slogan do site). Seus recursos compatíveis com hackers incluem suporte nativo ao GitHub Flavored Markdown (GMF), além de recursos de modelagem e extensibilidade usando EJS, Swig e Stylus.
 
@@ -55,7 +55,7 @@ Fato tangencial interessante: "npm" não significa Node packaged modules ou Node
 ---
 
 # [Jekyll](http://jekyllrb.com/)
-![Jekyll](/assets/img/blog/jekyll.png)
+![Jekyll](/assets/img/blogs/jekyll.png)
 
 O Jekyll é um gerador de site estático que compila seus arquivos de marcação em documentos HTML prontos para a Web - é o que todos os geradores de site estático fazem, mais ou menos - a proposta de valor é o melhor desempenho da Web e a opção de abandonar seus bancos de dados e scripts do servidor.
 
@@ -85,7 +85,7 @@ Para um tutorial do zero sobre Jekyll, sugiro você assistir esse vídeo também
 ---
 
 # [Anchor CMS](http://anchorcms.com/) 
-![Anchor CMS](/assets/img/blog/anchorcms.png)
+![Anchor CMS](/assets/img/blogs/anchorcms.png)
 
 Anchor CMS é extremamente leve. O arquivo `.zip` do código-fonte do projeto tem pouco mais de **200KB** 😱️ .
 
@@ -123,7 +123,7 @@ npm install wheat
 ---
 
 # [Nikola](http://getnikola.com/)
-![Nikola](/assets/img/blog/nikola.png)
+![Nikola](/assets/img/blogs/nikola.png)
 
 O Nikola, um gerador estático de sites, é fortemente orientado para blogs, mas também pode ser usado para qualquer outro tipo de site. Os organizadores de código vão adorar o fato de ter uma pequena base de código, que o criador do Nikola considera uma vantagem porque significa que "os programadores podem entender todo o núcleo do Nikola em um dia".
 
@@ -147,7 +147,7 @@ O toto é um mecanismo de blog minimalista que roda no Git, o que significa que 
 ---
 
 # [Poet](http://jsantell.github.io/poet/)
-![Poet](/assets/img/blog/poet.jpg)
+![Poet](/assets/img/blogs/poet.jpg)
 
 O Poet é outra plataforma de blog Node.js. O que o torna único é o mascote de personagem arrogante do projeto 😀️ . 
 
@@ -182,7 +182,7 @@ Dropplets é uma plataforma de blog minimalista do Markdown. Seu conjunto de rec
 ---
 
 # [Pelican](http://blog.getpelican.com/)
-![Peli](/assets/img/blog/pelican.png)
+![Peli](/assets/img/blogs/pelican.png)
 
 O Pelican é outro gerador de site estático, só que escrito em Python. Ele suporta a marcação [reStructuredText](https://docutils.sourceforge.io/rst.html), [Markdown](https://daringfireball.net/projects/markdown/syntax) ou [AsciiDoc](https://asciidoc.org/). Possui syntax highlighting erecurso de importação de dados provenientes de outras plataformas de publicação, como o WordPress. os temas podem ser feitos usando o [Jinja2](http://jinja.pocoo.org/).
 
@@ -193,7 +193,7 @@ O Pelican é outro gerador de site estático, só que escrito em Python. Ele sup
 ---
 
 # [Hugo](https://gohugo.io/)
-![Hugo](/assets/img/blog/hugo.png)
+![Hugo](/assets/img/blogs/hugo.png)
 
 Hugo é um dos geradores de sites estáticos de código aberto mais populares. Com sua incrível velocidade e flexibilidade, Hugo torna a construção de sites divertida e fácil.
 
@@ -204,7 +204,7 @@ Hugo é um dos geradores de sites estáticos de código aberto mais populares. C
 ---
 
 # [Bolt](http://bolt.cm/)
-![Bolt](/assets/img/blog/bolt.png)
+![Bolt](/assets/img/blogs/bolt.png)
 
 O Bolt é um sistema completo de gerenciamento de conteúdo, para que você possa usá-lo para outros fins fora dos blogs. Ele usa o [Twig](http://twig.sensiolabs.org/) para modelagem e vem com sua própria barra de depuração do [Symphony](https://symfony.com/) para rastrear problemas de código. 
 
