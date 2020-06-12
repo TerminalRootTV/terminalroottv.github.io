@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $(".artigo table").addClass("table table-bordered");
+
   $("a[href^='http']:not([href^='https://terminalroot.com.br'])").attr("target","_blank");
 	$("a[href^='http']:not([href^='https://terminalroot.com.br'])").attr("rel","noopener noreferrer");
 
