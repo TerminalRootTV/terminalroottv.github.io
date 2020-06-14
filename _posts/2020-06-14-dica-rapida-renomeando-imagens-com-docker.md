@@ -22,7 +22,7 @@ docker tag arch-linux/glibc-amd64:latest archlinux
 docker rmi arch-linux/glibc-amd64:latest
 ```
 
-E se for um conatiner, basta alterar `tag` por `rename`, exemplo: `docker rename CONTAINER NEW_NAME` .
+E se for um container, basta alterar `tag` por `rename`, exemplo: `docker rename CONTAINER NEW_NAME` .
 
 Simples, né?
 
