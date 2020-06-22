@@ -102,8 +102,8 @@ Se você gosta da [linha de comando](https://terminalroot.com.br/tags/#comandos)
 Uma das muitas vantagens do software de linha de comando é que eles geralmente são mais econômicos com os recursos do sistema. Ao reproduzir o áudio armazenado localmente, o Tizonia consome apenas 18 MB de RAM. O streaming do Spotify consumiu 34 MB de RAM, enquanto o streaming com o cliente oficial da GUI pesava 612 MB!
 
 # Tizonia links
-Endereço oficial: [tizonia.org](https://tizonia.org/)
-Suporte: [Documentação](https://docs.tizonia.org/), [GitHub](https://github.com/tizonia/tizonia-openmax-il), [Gitter](https://gitter.im/tizonia/Lobby)
-Desenvolvedor: Juan A. Rubio
-Licença: GNU Lesser General Public License v3.0
++ Endereço oficial: [tizonia.org](https://tizonia.org/)
++ Suporte: [Documentação](https://docs.tizonia.org/), [GitHub](https://github.com/tizonia/tizonia-openmax-il), [Gitter](https://gitter.im/tizonia/Lobby)
++ Desenvolvedor: Juan A. Rubio
++ Licença: GNU Lesser General Public License v3.0
 
