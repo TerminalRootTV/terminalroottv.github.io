@@ -3,7 +3,7 @@ layout: post
 title: "Descubra quais tecnologias os sites usam"
 date: 2020-06-23 14:42:44
 image: '/assets/img/hacker/wappalyzer.jpg'
-description: 'Identificando as tecnologia que os sites utilizaram para construir as paǵinas.'
+description: 'Identificando as tecnologias que os sites utilizaram para construir as paǵinas.'
 icon: 'ion:analytics-outline'
 iconname: 'analytics'
 tags:
