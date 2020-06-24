@@ -134,6 +134,7 @@ _get_package(){
 	[[ "$_lang" -eq 0 ]] && _c="${_l}/" || _c=""
 	wget -q "${_url}${_c}${_act}/" -O "${_o}"
 	_pack=$(egrep "${_act}${_dot}.*${_os}" "${_o}" | sed 's/.*=\"//g;s/\".*//g')
+    _pack="https://www.torproject.org/dist/torbrowser/9.5/tor-browser-linux64-9.5_en-US.tar.xz"
 	read -p "$(_msg "6")'$(echo $_pack | cut -d'/' -f 7)' $(_e 37 0)[S/n]: " -sn 1 _resp
 	if [[ "$_resp" != "s" && "$_resp" != "S" ]]; then
 		_msg "9"
