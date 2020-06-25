@@ -56,7 +56,7 @@ O GDB suporta os seguintes idiomas (em ordem alfabética):
 
 # Instalação
 A maioria dos sistemas baseados em UNIX como Linux e BSD possui o GDB no repositório das distros, então basta você instalar via o comando de instalação de pacotes da sua distro, exemplo no [Gentoo](https://terminalroot.com.br/tags/#gentoo)
-{% highlight bash %}
+{% highlight cpp %}
 emerge gdb
 {% endhighlight %}
 
@@ -64,7 +64,7 @@ emerge gdb
 Bom, o problema mais comum fica geralmente fica confuso do programador descobrir é a famosa **Falha de segmentação** . Vejamos aqui um exemplo.
 
 Supondo que você possua o seguinte código escrito em C++ :
-{% highlight bash %}
+{% highlight cpp %}
 #include <iostream>
 
 class TerminalRoot {
@@ -99,7 +99,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 + Primeiramente use o GDB indicando o binário:
-{% highlight bash %}
+{% highlight cpp %}
 gdb ./binario
 {% endhighlight %}
 ![GDB 1](/assets/img/cpp/gdb-1.png)
@@ -120,7 +120,7 @@ Recompilei com o `-g3` e pronto, está lá o erro é na linha 6 e verificando pe
 Talvez esse exemplo ou a simplicidade do mesmo dificultou um pouco de ver o poder do GDB. Mas posso lhe garantir que ele já me salvou várias vezes.
 
 Para mais informações use o manual e o help do GDB:
-{% highlight bash %}
+{% highlight cpp %}
 gdb --help
 man gdb
 {% endhighlight %}
