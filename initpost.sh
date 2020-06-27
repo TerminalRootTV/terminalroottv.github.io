@@ -36,17 +36,6 @@ _skell(){
     echo "---"
     echo
     echo '
-
-<!-- LISTA MIN -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-style="display:inline-block;width:730px;height:95px"
-data-ad-client="ca-pub-2838251107855362"
-data-ad-slot="5351066970"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 '
 }
 
