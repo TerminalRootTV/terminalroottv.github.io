@@ -15,8 +15,9 @@ tags:
 ![Imagem Exemplo de Tearing](/assets/img/dicas/tearing.jpg)
 
 
-Primeiramente você precisa instalar os pacotes: `linux-firmware` e `xf86-video-intel` com o devido nome da sua distro , adicione seu usuário ao grupo video, se ainda não estiver:
+> Primeiramente você precisa instalar os pacotes: `linux-firmware` e `xf86-video-intel` com o devido nome da sua distro , adicione seu usuário ao grupo video, se ainda não estiver:
 Verifique os grupos que vc faz parte:
+
 {% highlight bash %}
 groups $USER
 {% endhighlight %}
