@@ -3,7 +3,7 @@ layout: post
 title: "Conheça a distro OpenMandriva"
 date: 2020-06-30 16:59:49
 image: '/assets/img/distros/openmandriva.jpg'
-description: 'A origem do OpenMandriva estão no Mandrake e no Conectiva.'
+description: 'A origem do OpenMandriva está no Mandrake e no Conectiva.'
 icon: 'cib:linux'
 iconname: 'linux'
 tags:
