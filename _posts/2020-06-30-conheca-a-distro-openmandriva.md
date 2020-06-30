@@ -3,7 +3,7 @@ layout: post
 title: "Conheça a distro OpenMandriva"
 date: 2020-06-30 16:59:49
 image: '/assets/img/distros/openmandriva.jpg'
-description:
+description: 'A origem do OpenMandriva estão no Mandrake e no Conectiva.'
 icon: 'cib:linux'
 iconname: 'linux'
 tags:
@@ -17,7 +17,7 @@ tags:
 
 O objetivo da [OpenMandriva](https://www.openmandriva.org/) Association é desenvolver uma distribuição pragmática que ofereça a melhor experiência ao usuário para todos, de iniciantes a desenvolvedores, com um melhor equilíbrio entre os recursos mais modernos e a estabilidade.
 
-A origem do OpenMandriva estão no Mandrake e no Conectiva Linux que juntos formaram o Madriva, que ao longo do tempo foi descontinuada.
+A origem do OpenMandriva estão no Mandrake e no Conectiva Linux que juntos formaram o Mandriva, que ao longo do tempo foi descontinuada.
 
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
