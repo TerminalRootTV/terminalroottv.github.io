@@ -19,7 +19,7 @@ O objetivo da [OpenMandriva](https://www.openmandriva.org/) Association é desen
 
 A origem do OpenMandriva estão no Mandrake e no Conectiva Linux que juntos formaram o Madriva, que ao longo do tempo foi descontinuada.
 
-!-- MINI ANÚNCIO -->
+<!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Games Root -->
 <ins class="adsbygoogle"
