@@ -82,6 +82,20 @@ button.close {color: #fff; font-size: 60px;}
 #results-container li a:hover {color: #729fcf;}
 .modal-content {background-color: transparent; border:none;}
 
+
+.artigo img  {
+  max-width:100%;
+  height:auto;
+  padding:.25rem;
+  background-color:#fff;
+  border:1px solid #dee2e6;
+  border-radius:.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 @media screen and (min-width:350px){
 .modal {
            width:450px;
@@ -99,7 +113,7 @@ button.close {color: #fff; font-size: 60px;}
            width:750px;
           }
 
-.artigo > p > img { width: 60%; height: 60%; }
+.artigo img { max-width: 70%; }
 
 }
 
@@ -182,18 +196,6 @@ button.close {color: #fff; font-size: 60px;}
 .main-tag a {font-size: 24px;}
 .main-tag a:hover {text-decoration: underline;}
 
-.artigo img  {
-  max-width:100%;
-  height:auto;
-  padding:.25rem;
-  background-color:#fff;
-  border:1px solid #dee2e6;
-  border-radius:.25rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
 
 .artigo iframe {
   max-width:100%;
