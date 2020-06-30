@@ -31,7 +31,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 # Download
-Atualmente o OpenMandriva está na versão **OpenMandriva Lx 4.2** , mas eles também disponibilizam o download da versão 4.1 Codename Mercury que é a versão disponível para download que possui o Ambiente Desktop KDE Plasma pré instalado.
+Atualmente o OpenMandriva está na versão **OpenMandriva Lx 4.2** , mas a versão disponível para download é a 4.1 Codename Mercury que possui o Ambiente Desktop KDE Plasma pré instalado.
 
 <a href="https://sourceforge.net/projects/openmandriva/postdownload" class="btn btn-success">Download via SourceForge</a>
 
