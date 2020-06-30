@@ -37,7 +37,7 @@ Atualmente o OpenMandriva está na versão **OpenMandriva Lx 4.2** , mas a vers�
 
 
 # Instalação
-A instalação do OpenMandriva é bem intuitivo e dispõe de uma interface gráfica amigável. Para visualizar todos os passos, basta visualizar esse [link](https://wiki.openmandriva.org/en/doc/guides/howto-install-steam) para obter o passo a passo e todas as informações necessárias.
+A instalação do OpenMandriva é bem intuitiva e dispõe de uma interface gráfica amigável. Para visualizar todos os passos, basta clicar nesse [link](https://wiki.openmandriva.org/en/doc/guides/howto-install-steam) para obter o passo a passo e todas as informações necessárias.
 
 # Screenshots
 Além da imagem de *chamada* desse post você pode também obter mais screenshots para ver como é o OpenMandriva rodando antes de instalar. Para ver os screenshots, use esse [link](https://gallery.openmandriva.org/index.php?/category/33) .
