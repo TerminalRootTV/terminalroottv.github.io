@@ -8,6 +8,8 @@ tags:
 - shellscript
 ---
 
+![Como Instalar e Usar o Shell ZSH e o Oh My Zsh](/assets/img/shell/oh-my-zsh.png)
+
 [Zsh](http://www.zsh.org/) é um [shell](http://terminalroot.com.br/shell) de login interativo que também pode ser usado como um poderoso intérprete de linguagem de script. É semelhante ao [bash](http://terminalroot.com.br/tags/#bash) e ao Korn shell, mas oferece uma grande capacidade de configuração.
 
 ## Instalação
