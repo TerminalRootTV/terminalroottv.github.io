@@ -23,6 +23,16 @@ O enne é um utilitário via linha de comando escrito em [Python3](https://termi
 O programa está na sua inicial, então, muitos *bugs* e adaptações serão feitas no futuro. Espero contar com você, caro leitor, para contribuir com o desenvolvimento desta ferramenta.
 Para contribuições(dicas, relatos de bugs, feedback, etc) deixo o link do projeto [GitHub](https://github.com/viktorsht/enne).
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## INSTALAÇÃO
 Para a utilização do programa é necessário ter ter instalado na sua máquina:
 
@@ -44,6 +54,17 @@ python3 enne.py [url-da-musica]
 - Caso o url já exista no `arquivo.txt` o programa será fechado.  
 - O usuário deve passar o `PATH` onde o arquivo deverá ser salvo. O programa identifica a sua pasta de usuário.
 - O usuário pode escolher realizar outro download ou não.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Exemplo
 Digite  
