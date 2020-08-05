@@ -38,25 +38,25 @@ O [Gocker](https://github.com/shuveb/containers-the-hard-way) é uma implementa�
 O [Gocker](https://github.com/shuveb/containers-the-hard-way) pode emular o núcleo do Docker, permitindo gerenciar imagens do Docker (obtidas no Docker Hub), executar contêineres, listar contêineres em execução ou executar um processo em um contêiner já em execução:
 
 + Executar um processo em um contêiner
-```sh
+{% highlight bash %}
 gocker run <--cpus=cpus-max> <--mem=mem-max> <--pids=pids-max> <image[:tag]> </path/to/command>
-```
+{% endhighlight %}
 + Listar contêineres em execução
-```sh
+{% highlight bash %}
 gocker ps
-```
+{% endhighlight %}
 + Executar um processo em um contêiner em execução
-```sh
+{% highlight bash %}
 gocker exec <container-id> </path/to/command>
-```
+{% endhighlight %}
 + Listar imagens disponíveis localmente
-```sh
+{% highlight bash %}
 gocker images
-```
+{% endhighlight %}
 + Remover uma imagem disponível localmente
-```sh
+{% highlight bash %}
 gocker rmi <image-id>
-```
+{% endhighlight %}
 
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
