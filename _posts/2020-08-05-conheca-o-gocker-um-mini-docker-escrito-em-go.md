@@ -5,7 +5,7 @@ date: 2020-08-05 13:34:53
 image: '/assets/img/docker/gocker.png'
 description: 'Contêineres, um caminho difícil ?'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'gocker'
 tags:
 - docker
 - linux
