@@ -55,7 +55,6 @@ data-ad-slot="5351066970"></ins>
 # Instalação
 ```sh
 git clone https://gitlab.com/terminalroot/gamma-text-editor/
-git clone 
 cd gamma-text-editor 
 chmod +x setup.sh
 ./setup.sh
