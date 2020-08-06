@@ -60,7 +60,7 @@ cd gamma-text-editor
 chmod +x setup.sh
 ./setup.sh
 ```
-> Observação: O repositório oficial é: <https://gitlab.com/hamadmarri/gamma-text-editor> , mas eu forkei e alterei a Shebang que está incoreta, para que você não precise alterar na "mão grande", eu enviei um Pull Request para eles, mas é uma alteração tão simples, que acredito que nem precisa disso, mas já comentei lá e acredito que eles vão alterar logo em breve.
+> Observação: O repositório oficial é: <https://gitlab.com/hamadmarri/gamma-text-editor> , mas eu forkei e alterei a Shebang que está incorreta, para que você não precise alterar na "mão grande", eu enviei um Pull Request para eles, mas é uma alteração tão simples, que acredito que nem precisa disso, mas já comentei lá e acredito que eles vão alterar logo em breve.
 
 
 # Utilização e configuração
