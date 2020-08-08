@@ -162,7 +162,7 @@ data-ad-slot="8549252987"></ins>
 # 07. [xmonad](https://xmonad.org/)
 É escrito e configurado em Haskell. Em um WM normal, você gasta metade do seu tempo alinhando e procurando janelas. O xmonad torna o trabalho mais fácil, automatizando isso.
 
-![xmonad](/assets/img/wm/08-xmonad.jpg)
+![xmonad](/assets/img/wm/07-xmonad.jpg)
 
 <https://xmonad.org/>
 
