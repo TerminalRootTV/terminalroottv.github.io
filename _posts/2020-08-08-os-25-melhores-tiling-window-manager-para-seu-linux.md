@@ -21,6 +21,17 @@ Eles consomem bem menos recursos do seu sistema quando comparados com Interfaces
 
 Nesse artigo vamos os 25 melhores e mais 2 dicas bônus ao final!
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 ---
 
 # 01. [bspwm](https://github.com/baskerville/bspwm)
@@ -42,6 +53,16 @@ Veja também uma [REVIEW do bspwm](https://terminalroot.com.br/2018/09/bspwm-rev
 
 # 02. [i3wm](https://i3wm.org/)
 O i3wm foi totalmente escrito do zero. As plataformas de destino são os sistemas operacionais GNU/Linux e BSD. É um Software Livre e de Código Aberto (FOSS) sob a licença BSD. O i3 é voltado principalmente para usuários e desenvolvedores avançados. Ele foi baseado no gerenciador de janelas: wmii.
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![i3wm](/assets/img/wm/02-i3wm.jpg)
 
@@ -69,6 +90,16 @@ O dwm gerencia janelas em layouts lado a lado, monóculo e flutuante. Todos os l
 <https://dwm.suckless.org/>
 
 Assista à um vídeo mostrando como instalar e configurar o dwm:
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/wzh_dKh3eps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -112,6 +143,19 @@ Assista à um vídeo mostrando como instalar e configurar o AwesomeWM no Alpine 
 Assista à um vídeo mostrando como instalar e configurar o HerbstluftWM:
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/cI5rPUnNi1I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -162,6 +206,19 @@ Ratpoison é um gerenciador de janelas simples, sem grandes dependências de bib
 
 <http://ratpoison.nongnu.org/>
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # 12. [PekWm](https://www.pekwm.org/)
@@ -192,6 +249,16 @@ EXWM (Emacs X Window Manager) é um gerenciador de janelas X com todos os recurs
 
 # 15. [2bwm](https://github.com/venam/2bwm)
 Um WM de flutuação rápida, com a particularidade de possuir 2 bordas, escrito sobre a biblioteca XCB e derivado do mcwm escrito por Michael Cardell. No 2bWM tudo é acessível a partir do teclado, mas um dispositivo apontador pode ser usado para mover, redimensionar e aumentar/diminuir.
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2bwm](/assets/img/wm/15-2bwm.jpg)
 
@@ -234,6 +301,16 @@ O objetivo do IceWM é velocidade, simplicidade e não atrapalhar o usuário.
 <https://code.google.com/archive/p/wmii/>
 
 ---
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 20. [Spectrwm](https://github.com/conformal/spectrwm)
 Ele tenta ficar fora do caminho para que o valioso espaço da tela possa ser usado para coisas muito mais importantes. Possui padrões lógicos e não requer que se aprenda um idioma para fazer qualquer configuração. Ele foi escrito por hackers para hackers e se esforça para ser pequeno, compacto e rápido.
@@ -288,6 +365,16 @@ Um gerenciador de janelas para X que é extensível com Guile Scheme.
 <https://github.com/kori/Xlambda>
 
 ---
+
+<!-- LISTA MIN -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Bônus
 ## Se você utiliza Windows, existe o [Windawesome](https://archive.codeplex.com/?p=windawesome)
