@@ -287,7 +287,7 @@ Projetado para se integrar ao ambiente de desktop GNOME. Ele fornece um modo de 
 # 18. [IceWM](https://ice-wm.org/)
 O objetivo do IceWM é velocidade, simplicidade e não atrapalhar o usuário.
 
-![IceWM](/assets/img/wm/18-iceWm.jpg)
+![IceWM](/assets/img/wm/18-icewm.jpg)
 
 <https://ice-wm.org/>
 
