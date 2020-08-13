@@ -3,7 +3,7 @@ layout: post
 title: "Como abrir arquivos Markdown com extensão md no Firefox"
 date: 2020-08-13 09:52:23
 image: '/assets/img/firefox/markdown-firefox.jpg'
-description: 'Já li essa pergunta em vários lugares, resolvi fazer um artigo para mostrar como,'
+description: 'Já li essa pergunta em vários lugares, resolvi fazer um artigo para mostrar como.'
 icon: 'cib:markdown'
 iconname: 'markdown/firefox'
 tags:
