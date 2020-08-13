@@ -86,7 +86,11 @@ data-ad-slot="8549252987"></ins>
 
 ![Renderização de markdown no Firefox](/assets/img/firefox/tcharaaamm.png)
 
-Você ainda pode customizar o CSS para deixá-lo do jeito como deseja, centralizado, por exemplo como eu fiz e está na imagem, indo em: hambúrguer → Extensões → ... (do plugin) → Preferências → Preferências(do plugin) e abaixo à o campo de inserir seu CSS , no meu caso eu inseri: `body { max-width: 1000px; margin: auto; }` como na imagem abaixo:
+Você ainda pode customizar o CSS para deixá-lo do jeito como deseja, centralizado, por exemplo como eu fiz e está na imagem, indo em:
+
+**☰  → Extensões → ... (do plugin) → Preferências → Preferências(do plugin)**
+
+E abaixo à o campo de inserir seu CSS , no meu caso eu inseri: `body { max-width: 1000px; margin: auto; }` como na imagem abaixo:
 
 ![tres pontinhos](/assets/img/firefox/tres-pontinhos.png)
 ![css](/assets/img/firefox/css.png)
