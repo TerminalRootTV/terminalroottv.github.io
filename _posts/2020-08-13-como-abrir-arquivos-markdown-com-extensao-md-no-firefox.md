@@ -32,11 +32,11 @@ Ou seja, o navegador pergunta se você deseja abrir com um editor de texto ou fa
 
 Se você só instalar plugins não vai resolver, você precisa seguir os seguintes passos:
 
-1. Acessar as configurações do Firefox digitando no endereço de url: `about:config`
+# 1. Acessar as configurações do Firefox digitando no endereço de url: `about:config`
 
 ![about config](/assets/img/firefox/about-config.png)
 
-1. No campo de pesquisa, procurar a configuração de nome: `helpers.private_mime_types_file`
+# 2. No campo de pesquisa, procurar a configuração de nome: `helpers.private_mime_types_file`
 
 ![helpers.private_mime_types_file](/assets/img/firefox/helpers.private_mime_types_file.png)
 
@@ -53,7 +53,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-1. Vamos criar o arquivo:
+# 3. Vamos criar o arquivo:
 ```sh
 vim ~/.mime.types
 ```
@@ -64,13 +64,13 @@ text/plain     md txt
 
 Como isso informamos quais tipos de arquivo queremos que o Firefox abra diretamente no navegador, se quiser mais arquivos fique à vontade para informar. Sei que o txt já abre por padrão, mas não haverá problema reinformar.
 
-1. Agora se voçe tentar abrir o arquivo .md , perceba que já é aberto:
+# 4. Agora se voçe tentar abrir o arquivo .md , perceba que já é aberto:
 
 ![Arquivo md](/assets/img/firefox/file-md.png)
 
 Mas perceba que o Markdown não é renderizado e sim exibido o código como arquivo de texto. No próximo passo vamos alterar isso!
 
-1. Agora sim entra o papel da [extensão/addon/plugin](https://addons.mozilla.org/firefox/extensions/) do Firefox . Para isso vamos usar o [Markdown Viewer Webext](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/), existem outros, mas vamos utilizar esse, após instalar, tcharaaamm!!!
+# 5. Agora sim entra o papel da [extensão/addon/plugin](https://addons.mozilla.org/firefox/extensions/) do Firefox . Para isso vamos usar o [Markdown Viewer Webext](https://addons.mozilla.org/pt-BR/firefox/addon/markdown-viewer-webext/), existem outros, mas vamos utilizar esse, após instalar, tcharaaamm!!!
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
