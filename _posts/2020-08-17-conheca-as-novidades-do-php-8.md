@@ -16,10 +16,17 @@ tags:
 
 Se você não gosta e/ou não sabe [PHP](https://terminalroot.com.br/php/) , talvez seja pelo motivo que você é novo demais! Todos os programadores "dazantiga" sabem [PHP](http://php.net/) e até hoje é a forma mais fácil e econômica de criar e hospedar um site, loja virtual, sistema online e tantas outras coisas!
 
-Todo mundo sabe que o [PHP](https://terminalroot.com.br/tags#php) e [Javascript](https://terminalroot.com.br/tags#javascript) foram os grandes responsáveis pela evolução da [World Wide Web]() , e para quem não sabe elas possuem muitas similaridades, como as [arrow functions](https://www.php.net/manual/pt_BR/functions.arrow.php), por exemplo.
+Todo mundo sabe que o [PHP](https://terminalroot.com.br/tags#php) e [Javascript](https://terminalroot.com.br/tags#javascript) foram os grandes responsáveis pela evolução da [World Wide Web](https://pt.wikipedia.org/wiki/World_Wide_Web) , e para quem não sabe elas possuem muitas similaridades, como as [arrow functions](https://www.php.net/manual/pt_BR/functions.arrow.php), por exemplo.
 
-
----
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mas as novidades do [PHP 8]() haverá muita coisa que lhe fará parecida também com outras linguagens de programação, haverá: 
 + JIT: Just in Time Compiler;
@@ -43,7 +50,6 @@ Vamos ver algumas delas!
 # Declaração de tipos
 Declarações de tipos escalares vêm em dois sabores: coercivo (padrão) e estrito. Para parâmetros os seguintes tipos agora podem ser forçados (tanto coercivamente quanto estritamente): strings (string), inteiros (int), números de ponto flutuante (float) e booleanos (bool). Exemplo:
 ```php
-
 <?php
 // Modo coercivo
 function sumOfInts(int ...$ints){
@@ -53,6 +59,18 @@ function sumOfInts(int ...$ints){
 var_dump(sumOfInts(2, '3', 4.1));
 // A saída será: int(9)
 ```
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ---
 
@@ -90,5 +108,17 @@ Se você ainda não sabe, ou se sente inseguro em [PHP](terminalroot.com.br/php/
 É recomendado também pra quem não sabe nada, pois o curso inclui: [HTML e CSS](https://www.youtube.com/watch?v=SGA6nQqYH7A), [Javascript](https://www.youtube.com/watch?v=HI6YZJxoaIQ), [Bootstrap](https://www.youtube.com/watch?v=mRlkt7P2gZI), [Jekyll](https://www.youtube.com/watch?v=7lI5BfHK-kA), [GitHub](https://terminalroot.com.br/git), [Gitlab e Netlify](https://www.youtube.com/watch?v=ahkpilbOtpE).
 
 Corre que ainda dá tempo! [Clique aqui para saber mais sobre o curso](terminalroot.com.br/php/).
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Fui!
