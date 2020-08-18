@@ -14,8 +14,6 @@ tags:
 
 ![Conheça as novidades do PHP 8](/assets/img/php/php8.jpg)
 
-Se você não gosta e/ou não sabe [PHP](https://terminalroot.com.br/php/) , talvez seja pelo motivo que você é novo demais! Todos os programadores "dazantiga" sabem [PHP](http://php.net/) e até hoje é a forma mais fácil e econômica de criar e hospedar um site, loja virtual, sistema online e tantas outras coisas!
-
 Todo mundo sabe que o [PHP](https://terminalroot.com.br/tags#php) e [Javascript](https://terminalroot.com.br/tags#javascript) foram os grandes responsáveis pela evolução da [World Wide Web](https://pt.wikipedia.org/wiki/World_Wide_Web) , e para quem não sabe elas possuem muitas similaridades, como as [arrow functions](https://www.php.net/manual/pt_BR/functions.arrow.php), por exemplo.
 
 <!-- QUADRADO -->
@@ -28,7 +26,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Mas as novidades do [PHP 8]() haverá muita coisa que lhe fará parecida também com outras linguagens de programação, haverá: 
+Mas as novidades do [PHP 8](https://terminalroot.com.br/php/) haverá muita coisa que lhe fará parecida também com outras linguagens de programação, haverá: 
 + JIT: Just in Time Compiler;
 + classe WeakMap;
 + Fatal Error em sobrecarga de métodos;
