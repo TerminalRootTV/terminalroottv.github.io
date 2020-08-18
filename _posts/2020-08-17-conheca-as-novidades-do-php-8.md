@@ -30,12 +30,8 @@ data-ad-slot="5351066970"></ins>
 
 Mas as novidades do [PHP 8]() haverá muita coisa que lhe fará parecida também com outras linguagens de programação, haverá: 
 + JIT: Just in Time Compiler;
-+ Declaração de tipos de dados(escalares);
-+ Declarações de tipo de retorno;
-+ Operador de coalescência nula;
-+ Operador "nave espacial" (spaceship);
-+ Arrays de constantes utilizando a função `define()`;
-+ Classes anônimas;
++ classe WeakMap;
++ Fatal Error em sobrecarga de métodos;
 + Entre muita coisa nova!
 
 Vamos ver algumas delas!
