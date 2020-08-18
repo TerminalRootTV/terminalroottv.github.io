@@ -62,6 +62,9 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+---
+
 + Um sistema de arquivos btrfs montado em `/var/bocker`
 + Uma rede em modo bridge de nome `bridge0` e um IP de `10.0.0.1/24`
 + Encaminhamento de IP habilitado em `/proc/sys/net/ipv4/ip_forward`
