@@ -17,6 +17,16 @@ tags:
 
 [Anjuta](http://anjuta.org/) é um Ambiente de Desenvolvimento Integrado para C e C++ em GNU/Linux. Ele foi escrito para GTK+/GNOME e suporta muitas capacidades avançadas como gerenciamento de projetos e um poderoso editor de código fonte. Anjuta é software livre distribuído sob a licença GPL.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # Instalação
@@ -41,6 +51,18 @@ Opcionalmente você também essas:
 + [glade](https://glade.gnome.org/)3 (3.1.5 or later): for integrated UI designing
 + libsvn: (www.subversion.org) to build subversion plugin
 + graphviz: for class hierarchy view and profiler.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Download
 Para esse exemplo vamos instalar a versão **3.34.0** , que de acordo com a data de publicação desse artigo, é a mais recente, mas verifique [aqui](https://download.gnome.org/sources/anjuta/) qual a versão mais recente.
@@ -94,6 +116,19 @@ Anjuta 3.34.0
 ```
 
 ![Anjuta](/assets/img/anjuta/anjuta-ide.png)
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Links úteis:
 + <https://www.gtkmm.org/en/>
