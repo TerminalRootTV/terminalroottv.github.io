@@ -131,6 +131,7 @@ data-full-width-responsive="true"></ins>
 </script>
 
 ## Links úteis:
++ <https://gitlab.gnome.org/GNOME/anjuta>
 + <https://www.gtkmm.org/en/>
 + <https://terminalroot.com.br/cpp/>
 + <https://www.cesareriva.com/anjuta-an-alternative-ide-for-pygi/>
