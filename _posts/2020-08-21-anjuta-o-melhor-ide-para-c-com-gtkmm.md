@@ -88,7 +88,7 @@ anjuta -v
 anjuta: error while loading shared libraries: libanjuta-3.so.0: cannot open shared object file: No such file or directory
 ```
 
-Então *debuguei* as bibliotecas compartilhadas com [ldd]() e obtive logo nas primeiras linhas esse erro de **not found**:
+Então *debuguei* as bibliotecas compartilhadas com [ldd](https://man7.org/linux/man-pages/man1/ldd.1.html) e obtive logo nas primeiras linhas esse erro de **not found**:
 ```sh
 ldd /usr/local/bin/anjuta 
 linux-vdso.so.1 =>  (0x00007fff0e9c9000)
