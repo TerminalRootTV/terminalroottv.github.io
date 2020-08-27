@@ -4,8 +4,8 @@ title: "Analise a qualidade de seu código PHP com PHP Insights"
 date: 2020-08-27 12:49:56
 image: '/assets/img/laravel/php-insights.png'
 description: 'Tornar o código confiável, menos acoplado, simples e limpo.'
-icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+icon: 'cib:php'
+iconname: 'insights'
 tags:
 - php
 - laravel
