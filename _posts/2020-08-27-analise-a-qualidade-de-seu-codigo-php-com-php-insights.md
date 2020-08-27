@@ -45,7 +45,7 @@ Para esse nosso exemplo, vou utilizar o Laravel, pois é o que eu uso no dia-dia
 {% highlight bash %}
 composer -vvv require --dev phpunit/phpunit:^9.0 --update-with-dependencies
 {% endhighlight %}
-> A opção `-vvv` é legal pra ver as saídas do composer, pois por defaulti ele é estilo UNIX, não exibe tanta saída.
+> A opção `-vvv` é legal pra ver as saídas do composer, pois por padrão ele é estilo UNIX, não exibe tanta saída.
 
 + 02 - Depois instale o PHP Insights
 {% highlight bash %}
