@@ -57,7 +57,7 @@ composer -vvv require nunomaduro/phpinsights --dev
 php artisan vendor:publish --provider="NunoMaduro\PhpInsights\Application\Adapters\Laravel\InsightsServiceProvider"
 {% endhighlight %}
 
-+ 04 - O Laravel vai pedir que você rode o comando abaixo e escolha o *publish*:
++ 04 - Ou se rodar sem o `--provider` o Laravel vai pedir que você rode o comando abaixo e escolha o *publish*:
 > Nesse caso, escolha a opção do Insights(n meu caso, número **9**), como na imagem logo abaixo:
 
 {% highlight bash %}
