@@ -43,15 +43,21 @@ Para esse nosso exemplo, vou utilizar o Laravel, pois é o que eu uso no dia-dia
 > Necessário possuir o [Composer](https://getcomposer.org/) devidamente instalado.
 
 {% highlight bash %}
-composer require --dev phpunit/phpunit:^9.0 --update-with-dependencies
+composer -vvv require --dev phpunit/phpunit:^9.0 --update-with-dependencies
+{% endhighlight %}
+> A opção `-vvv` é legal pra ver as saídas do composer, pois por defaulti ele é estilo UNIX, não exibe tanta saída.
+
++ 02. Depois instale o PHP Insights
+{% highlight bash %}
+composer -vvv require nunomaduro/phpinsights --dev
 {% endhighlight %}
 
-+ 02. Após isso, é necessário publicar o arquivo de configuração:
++ 03. Após isso, é necessário publicar o arquivo de configuração:
 {% highlight bash %}
 php artisan vendor:publish --provider="NunoMaduro\PhpInsights\Application\Adapters\Laravel\InsightsServiceProvider"
 {% endhighlight %}
 
-+ 03. O Laravel vai pedir que você rode o comando abaixo e escolha o *publish*:
++ 04. O Laravel vai pedir que você rode o comando abaixo e escolha o *publish*:
 > Nesse caso, escolha a opção do Insights(n meu caso, número **9**), como na imagem logo abaixo:
 
 {% highlight bash %}
@@ -59,7 +65,7 @@ php artisan vendor:publish
 {% endhighlight %}
 ![vendor publish](/assets/img/laravel/vendor-publish.png)
 
-+ 04. Depois de tudo preparado, basta rodar o comando:
++ 05. Depois de tudo preparado, basta rodar o comando:
 {% highlight bash %}
 php artisan insights
 {% endhighlight %}
