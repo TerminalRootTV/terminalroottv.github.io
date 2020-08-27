@@ -93,7 +93,7 @@ Para outras soluções, confira o procedimento na documentação oficial: <https
 + [GitHub do PHP Insights](https://github.com/nunomaduro/phpinsights)
 + [Página Oficial](https://phpinsights.com/)
 
-Se você ainda não sabe, ou se sente inseguro em [PHP](terminalroot.com.br/php/) sugiro você fazer nosso [Curso de Desenvolvimento Web do Zero - PHP & MySQL](https://terminalroot.com.br/php/) que além de PHP você vai entender utilizar o banco de dados mais utilizado no mundo: [MySQL](https://terminalroot.com.br/mysql)! Além de:
+Se você ainda não sabe, ou se sente inseguro em [PHP](http://terminalroot.com.br/php/) sugiro você fazer nosso [Curso de Desenvolvimento Web do Zero - PHP & MySQL](https://terminalroot.com.br/php/) que além de PHP você vai entender utilizar o banco de dados mais utilizado no mundo: [MySQL](https://terminalroot.com.br/mysql)! Além de:
 + Programação Orientada a Objetos;
 + Wordpress;
 + Laravel;
@@ -107,7 +107,7 @@ Se você ainda não sabe, ou se sente inseguro em [PHP](terminalroot.com.br/php/
 
 É recomendado também pra quem não sabe nada, pois o curso inclui: [HTML e CSS](https://www.youtube.com/watch?v=SGA6nQqYH7A), [Javascript](https://www.youtube.com/watch?v=HI6YZJxoaIQ), [Bootstrap](https://www.youtube.com/watch?v=mRlkt7P2gZI), [Jekyll](https://www.youtube.com/watch?v=7lI5BfHK-kA), [GitHub](https://terminalroot.com.br/git), [Gitlab e Netlify](https://www.youtube.com/watch?v=ahkpilbOtpE).
 
-Corre que ainda dá tempo! [Clique aqui para saber mais sobre o curso](terminalroot.com.br/php/).
+Corre que ainda dá tempo! [Clique aqui para saber mais sobre o curso](https://terminalroot.com.br/php/).
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
