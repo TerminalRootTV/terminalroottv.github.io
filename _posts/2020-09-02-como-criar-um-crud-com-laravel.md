@@ -70,7 +70,7 @@ laravel new [nome-do-projeto]
 
 O tutorial de como criar um CRUD segue no vídeo logo abaixo:
 
-<iframe width="1234" height="694" src="https://www.youtube.com/embed/VIDEO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="1234" height="694" src="https://www.youtube.com/embed/TKH4S4_d9PA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 Download do projeto:
 
