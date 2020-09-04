@@ -72,6 +72,24 @@ O tutorial de como criar um CRUD segue no vídeo logo abaixo:
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/TKH4S4_d9PA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
+Se você ainda não sabe, ou se sente inseguro em [PHP](http://terminalroot.com.br/php/) sugiro você fazer nosso [Curso de Desenvolvimento Web do Zero - PHP & MySQL](https://terminalroot.com.br/php/) que além de PHP você vai entender utilizar o banco de dados mais utilizado no mundo: [MySQL](https://terminalroot.com.br/mysql)! Além de:
++ Programação Orientada a Objetos;
++ Wordpress;
++ Laravel;
++ Composer;
++ Psy Shell;
++ PHP-GTK;
++ Redirecionamento sem alterar a URL;
++ PHPMailer;
++ Deploy de PHP puro e de Laravel na Heroku;
++ E muito mais!
+
+É recomendado também pra quem não sabe nada, pois o curso inclui: [HTML e CSS](https://www.youtube.com/watch?v=SGA6nQqYH7A), [Javascript](https://www.youtube.com/watch?v=HI6YZJxoaIQ), [Bootstrap](https://www.youtube.com/watch?v=mRlkt7P2gZI), [Jekyll](https://www.youtube.com/watch?v=7lI5BfHK-kA), [GitHub](https://terminalroot.com.br/git), [Gitlab e Netlify](https://www.youtube.com/watch?v=ahkpilbOtpE).
+
+Corre que ainda dá tempo! [Clique aqui para saber mais sobre o curso](https://terminalroot.com.br/php/).
+
+---
+
 Download do projeto:
 
 <a href="https://bit.ly/32Ozb8u" class="btn btn-danger btn-block">CRUD LARAVEL DOWNLOAD</a> 

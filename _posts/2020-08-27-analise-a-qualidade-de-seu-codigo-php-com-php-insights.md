@@ -109,6 +109,10 @@ Se você ainda não sabe, ou se sente inseguro em [PHP](http://terminalroot.com.
 
 Corre que ainda dá tempo! [Clique aqui para saber mais sobre o curso](https://terminalroot.com.br/php/).
 
+# Veja um vídeo sobre Laravel
+
+<iframe width="1234" height="694" src="https://www.youtube.com/embed/TKH4S4_d9PA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
