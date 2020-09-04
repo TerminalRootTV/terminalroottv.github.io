@@ -4,8 +4,8 @@ title: "Denovel - Um Framework para Deno para Web Artisans Inspirado no Laravel"
 date: 2020-09-04 19:28:21
 image: '/assets/img/'
 description:
-icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+icon: 'cib:deno'
+iconname: 'deno'
 tags:
 - laravel
 - javascript
