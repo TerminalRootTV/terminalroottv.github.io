@@ -73,7 +73,7 @@ deno run -A --unstable denomand.ts --name </YourControllerName>
 
 ---
 
-O projeto para ainda estar começando, mas já vale aquele velho teste! Para mais informações, acesso o [GitHub](https://github.com/fauzan121002/denovel) do projeto.
+O projeto para ainda está começando, mas já vale aquele velho teste! Para mais informações, acesso o [GitHub](https://github.com/fauzan121002/denovel) do projeto.
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
