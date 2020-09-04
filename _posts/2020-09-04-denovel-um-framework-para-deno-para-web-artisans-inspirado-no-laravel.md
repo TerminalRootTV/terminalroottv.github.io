@@ -2,8 +2,8 @@
 layout: post
 title: "Denovel - Um Framework para Deno para Web Artisans Inspirado no Laravel"
 date: 2020-09-04 19:28:21
-image: '/assets/img/'
-description:
+image: '/assets/img/laravel/denovel.jpg'
+description: 'O projeto para ainda estar começando, mas já vale aquele velho teste!'
 icon: 'cib:deno'
 iconname: 'deno'
 tags:
@@ -11,6 +11,8 @@ tags:
 - javascript
 - nodejs
 ---
+
+![Denovel - Um Framework para Deno para Web Artisans Inspirado no Laravel](/assets/img/laravel/denovel.jpg)
 
 O [Deno](https://deno.land/) ainda não arrancou tanto quanto seu antecessor: o [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html) . Mas acredito que um dos motivos é qua a comundidade ainda não começou a desenvolver ferramentas em massa para ele.
 
