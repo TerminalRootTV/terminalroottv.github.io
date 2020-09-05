@@ -14,7 +14,7 @@ tags:
 
 ![Denovel - Um Framework para Deno para Web Artisans Inspirado no Laravel](/assets/img/laravel/denovel.jpg)
 
-O [Deno](https://deno.land/) ainda não arrancou tanto quanto seu antecessor: o [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html) . Mas acredito que um dos motivos é que a comundidade ainda não começou a desenvolver ferramentas em massa para ele.
+O [Deno](https://deno.land/) ainda não arrancou tanto quanto seu antecessor: o [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html) . Mas acredito que um dos motivos é que a comunidade ainda não começou a desenvolver ferramentas em massa para ele.
 
 Só que isso pode mudar e um dos novo projetos para o Deno é o Denovel!
 
