@@ -3,7 +3,7 @@ layout: post
 title: "Denovel - Um Framework para Deno para Web Artisans Inspirado no Laravel"
 date: 2020-09-04 19:28:21
 image: '/assets/img/laravel/denovel.jpg'
-description: 'O projeto para ainda estar começando, mas já vale aquele velho teste!'
+description: 'O projeto para ainda está começando, mas já vale aquele velho teste!'
 icon: 'cib:deno'
 iconname: 'deno'
 tags:
