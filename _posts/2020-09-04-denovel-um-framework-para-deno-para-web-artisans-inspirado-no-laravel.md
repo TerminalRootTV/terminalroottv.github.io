@@ -75,18 +75,6 @@ deno run -A --unstable denomand.ts --name </YourControllerName>
 
 O projeto para ainda está começando, mas já vale aquele velho teste! Para mais informações, acesso o [GitHub](https://github.com/fauzan121002/denovel) do projeto.
 
-<!-- RETANGULO LARGO 2 -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-2838251107855362"
-data-ad-slot="8549252987"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 # Assista um vídeo sobre Laravel
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/TKH4S4_d9PA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
