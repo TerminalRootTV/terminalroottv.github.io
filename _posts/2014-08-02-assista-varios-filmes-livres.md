@@ -5,7 +5,7 @@ date: '2014-08-02T16:08:00.002-07:00'
 image: '/assets/img/linux/filmes-gnu-linux.jpg'
 description: "Filmes sobre Software Livre e Tecnologia"
 tags:
-- filmes
+- filme
 ---
 
 ![Assista vários filmes Livres!](/assets/img/linux/filmes-gnu-linux.jpg "Filmes sobre Software Livre e Tecnologia")
