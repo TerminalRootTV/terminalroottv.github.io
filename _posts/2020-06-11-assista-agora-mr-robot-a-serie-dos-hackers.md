@@ -21,8 +21,6 @@ Esse é o Episódio 1 da 1° Temporada.
 
 ## Assista agora
 
-*Dica*: Se quiser ver em **Tela Cheia** [CLIQUE NESSE LINK](https://drive.google.com/file/d/17-NIqCA47A17jiDCNITsOQhZqq0nWLBC/view) e depois clique no ícone: ![Full Screen](/assets/img/movie/fullscreen-30.png)
-
 <!-- LISTA MIN -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
