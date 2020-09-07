@@ -23,6 +23,16 @@ Esta é a função de abertura de arquivos. Seu protótipo é
 
 O __nome_do_arquivo__ determina qual arquivo deverá ser aberto. Este nome deve ser __válido no sistema operacional__ que estiver sendo utilizado. O modo de abertura diz à função __fopen()__ que tipo de uso você vai fazer do arquivo. A tabela abaixo mostra os valores de modo válidos:
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <table border="1">
 <tbody>
 <tr>
@@ -93,7 +103,19 @@ int main(){
 }
 {% endhighlight %}
 
-### Modo Resumido 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+### Modo Resumido
+
 {% highlight bash %}
 #include <stdio.h>
 // ################## -- MODO Resumido -- ###################
@@ -117,7 +139,6 @@ int main(){
 {% endhighlight %}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- Informat -->
 <ins class="adsbygoogle"
  style="display:block"
@@ -125,7 +146,6 @@ int main(){
  data-ad-slot="2327980059"
  data-ad-format="auto"
  data-full-width-responsive="true"></ins>
-
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
