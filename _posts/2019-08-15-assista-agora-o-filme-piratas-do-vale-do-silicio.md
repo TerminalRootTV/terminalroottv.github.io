@@ -35,6 +35,4 @@ Em 2001, foi transmitido no Brasil através do canal pago TNT com o título de *
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-*Dica*: Se quiser ver em **Tela Cheia** [CLIQUE NESSE LINK](https://drive.google.com/file/d/1J4FzL7BP7kBkCdlYWBWLnDQpGWxHK20Z/view) e depois clique no ícone: ![Full Screen](/assets/img/movie/fullscreen-30.png)
-
-<iframe style="border:none;" src="https://drive.google.com/file/d/1J4FzL7BP7kBkCdlYWBWLnDQpGWxHK20Z/preview" width="950" height="400"></iframe>
+<iframe style="border:none;" src="https://drive.google.com/file/d/1J4FzL7BP7kBkCdlYWBWLnDQpGWxHK20Z/preview" width="950" height="400" allowfullscreen></iframe>
