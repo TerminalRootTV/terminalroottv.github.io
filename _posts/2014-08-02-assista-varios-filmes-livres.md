@@ -66,6 +66,12 @@ data-ad-slot="5351066970"></ins>
 ***
 
 # Deixe seu comentário indicando um filme que você gostaria que estivesse nessa lista!
+---
+# Assista também
+## [Assista agora o filme de Eduard Snowden - Herói ou Traidor](https://terminalroot.com.br/2019/07/assista-o-filme-de-eduard-snowden-completo.html)
+## [Assista agora o filme Piratas do Vale do Silício](https://terminalroot.com.br/2019/08/assista-agora-o-filme-piratas-do-vale-do-silicio.html)
+## [Assista agora o filme A Rede Social - A História do Facebook](https://terminalroot.com.br/2019/08/assista-agora-o-filme-a-rede-social-a-historia-do-facebook.html)
+## [Assista agora Mr. Robot - A série dos hackers](https://terminalroot.com.br/2020/06/assista-agora-mr-robot-a-serie-dos-hackers.html)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
