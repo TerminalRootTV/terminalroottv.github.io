@@ -5,11 +5,7 @@ date: '2014-08-02T16:08:00.002-07:00'
 image: '/assets/img/linux/filmes-gnu-linux.jpg'
 description: "Filmes sobre Software Livre e Tecnologia"
 tags:
-- linux
-- freesoftware
-- richardstallman
-- opensource
-- video
+- filmes
 ---
 
 ![Assista vários filmes Livres!](/assets/img/linux/filmes-gnu-linux.jpg "Filmes sobre Software Livre e Tecnologia")
@@ -49,8 +45,6 @@ data-ad-slot="5351066970"></ins>
 
 ***
 
-# Piratas do Vale do Silício
-
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Games Root -->
@@ -61,13 +55,6 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-> Sinopse do filme. A história começa no início da década de 1970 e termina em 1985, antes de Steve Jobs ser demitido da Apple por John Sculley. Piratas do Vale do Silício (Pirates of Silicon Valley, no original, de 1999) é uma obra feita para a televisão, pela TNT, escrito e dirigido por Martyn Burke.
-
-
-<iframe width="1234" height="694" src="https://www.youtube.com/embed/wI5Z8J8wFOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-***
 
 # Conceito, História e Estrutura do Linux
 
