@@ -32,6 +32,10 @@ O filme apareceu em 78 listas de melhores filmes do ano, 22 delas como número u
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-*Dica*: Se quiser ver em **Tela Cheia** [CLIQUE NESSE LINK](https://drive.google.com/file/d/1a_g5M9KM6gFGsNM_0jj4akViY1JH7_VE/view) e depois clique no ícone: ![Full Screen](/assets/img/movie/fullscreen-30.png)
+<iframe style="border:none;" src="https://drive.google.com/file/d/1a_g5M9KM6gFGsNM_0jj4akViY1JH7_VE/preview" width="950" height="400" allowfullscreen></iframe>
 
-<iframe style="border:none;" src="https://drive.google.com/file/d/1a_g5M9KM6gFGsNM_0jj4akViY1JH7_VE/preview" width="950" height="400"></iframe>
+---
+# Assista também
+## [Assista agora o filme de Eduard Snowden - Herói ou Traidor](https://terminalroot.com.br/2019/07/assista-o-filme-de-eduard-snowden-completo.html)
+## [Assista agora o filme Piratas do Vale do Silício](https://terminalroot.com.br/2019/08/assista-agora-o-filme-piratas-do-vale-do-silicio.html)
+## [Assista agora Mr. Robot - A série dos hackers](https://terminalroot.com.br/2020/06/assista-agora-mr-robot-a-serie-dos-hackers.html)

@@ -33,7 +33,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<iframe style="border:none;" src="https://drive.google.com/file/d/17-NIqCA47A17jiDCNITsOQhZqq0nWLBC/preview" width="950" height="400"></iframe>
+<iframe style="border:none;" src="https://drive.google.com/file/d/17-NIqCA47A17jiDCNITsOQhZqq0nWLBC/preview" width="950" height="400" allowfullscreen></iframe>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
@@ -48,3 +48,10 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 Se quiser assistir todos os episódios de todas as temporadas clique [aqui](https://bit.ly/2BQmIqS)
+
+---
+# Assista também
+## [Assista agora o filme de Eduard Snowden - Herói ou Traidor](https://terminalroot.com.br/2019/07/assista-o-filme-de-eduard-snowden-completo.html)
+## [Assista agora o filme Piratas do Vale do Silício](https://terminalroot.com.br/2019/08/assista-agora-o-filme-piratas-do-vale-do-silicio.html)
+## [Assista agora o filme A Rede Social - A História do Facebook](https://terminalroot.com.br/2019/08/assista-agora-o-filme-a-rede-social-a-historia-do-facebook.html)
+## [Assista agora Mr. Robot - A série dos hackers](https://terminalroot.com.br/2020/06/assista-agora-mr-robot-a-serie-dos-hackers.html)
