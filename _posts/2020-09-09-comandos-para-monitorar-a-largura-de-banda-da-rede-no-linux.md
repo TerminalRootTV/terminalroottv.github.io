@@ -3,7 +3,7 @@ layout: post
 title: "18 Comandos para Monitorar a Largura de Banda da Rede no Linux"
 date: 2020-09-09 13:50:40
 image: '/assets/img/rede/network-bandwidth-linux.png'
-description:
+description: 'Algumas ferramentas de linha de comando do Linux que podem ser usadas para monitorar o uso da rede.'
 icon: 'carbon:network-2'
 iconname: 'network'
 tags:
