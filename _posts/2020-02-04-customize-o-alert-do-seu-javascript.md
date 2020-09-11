@@ -6,7 +6,6 @@ image: '/assets/img/js/sweetalert.jpg'
 description: 'Torna as mensagens pop-up fáceis e bonitas.'
 tags:
 - javascript
-- javascript
 - reactjs
 - vuejs
 - angularjs

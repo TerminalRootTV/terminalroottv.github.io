@@ -8,7 +8,6 @@ icon: 'logos:javascript'
 iconname: 'javascript'
 tags:
 - javascript
-- js
 - html
 - css
 - desenvolvimentoweb

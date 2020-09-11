@@ -8,7 +8,6 @@ icon: 'raphael:js'
 iconname: 'javascript'
 tags:
 - javascript
-- js
 - desenvolvimento
 ---
 
