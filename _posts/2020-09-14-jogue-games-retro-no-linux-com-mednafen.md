@@ -21,7 +21,7 @@ Antigamente eu usava os emuladores: **Gens** para o Mega-Drive, **ZNES** para o 
 
 Cheguei a tentar o [Retroarch](https://www.retroarch.com/) e outros. Mas encontrei alguns bugs bizarros, pelo menos pro sistema que eu uso: [Gentoo](https://terminalroot.com.br/tags#gentoo).
 
-Daí navegando nas opções de emuladores da [documentação do Gentoo](https://wiki.gentoo.org/wiki/Games/emulation), conheci o [Mednafen](https://mednafen.github.io/). Pra testar primeiro testei no [Ubuntu](https://terminalroot.com.br/tags#ubuntu) que eu tenho em outra partição e segui o tutorial do [OSistemático](http://www.osistematico.com.br/2017/12/jogue-os-classicos-do-mega-drive-no.html) e deu certo.
+Daí navegando nas opções de emuladores da [documentação do Gentoo](https://wiki.gentoo.org/wiki/Games/emulation), conheci o [Mednafen](https://mednafen.github.io/). Pra testar primeiro tentei no [Ubuntu](https://terminalroot.com.br/tags#ubuntu) que eu tenho em outra partição e segui o tutorial do [OSistemático](http://www.osistematico.com.br/2017/12/jogue-os-classicos-do-mega-drive-no.html) e deu certo.
 
 Mas precisei ajustar o arquivo de configuração do Mednafen na mão porque a versão gráfica ainda possui alguns limites.
 
