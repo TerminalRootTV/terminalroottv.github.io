@@ -145,7 +145,7 @@ Então consegui abrir o Mednaffe:
 
 ![Mednaffe rodando](/assets/img/games/mednaffe-running.png)
 
-Adicionei uma ROM em **File > Opem ROM** , lembrando que não precisa descompactar a ROM que você baixou. Um site legal pra fazer download de jogos/ROMs é o [Cool ROM](https://coolrom.com.au/) , se quiser pesquisar games de um console específico vá em **Arquivos ROM**, [aqui](https://coolrom.com.au/roms/genesis/) um exemplo de link para pesquisar e encontrar jogos para o Mega-Drive.
+Adicionei uma ROM em **File > Open ROM** , lembrando que não precisa descompactar a ROM que você baixou. Um site legal pra fazer download de jogos/ROMs é o [Cool ROM](https://coolrom.com.au/) , se quiser pesquisar games de um console específico vá em **Arquivos ROM**, [aqui](https://coolrom.com.au/roms/genesis/) um exemplo de link para pesquisar e encontrar jogos para o Mega-Drive.
 
 Bom, até aí tudo certo, mas então apareceu uma "nova barreira", o Mega-Drive só "enxergava" 3 botões, mas consegui resolver esse problema e vou lhe mostrar como resolvi no tópico abaixo.
 
