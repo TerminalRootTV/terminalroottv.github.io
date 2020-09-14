@@ -3,7 +3,7 @@ layout: post
 title: "Jogue Games Retro no Linux com Mednafen"
 date: 2020-09-14 12:52:59
 image: '/assets/img/games/mednafen.jpg'
-description:
+description: 'Mednafen é um emulador de linha de comando para muitos sistemas diferentes.'
 icon: 'dashicons:games'
 iconname: 'games'
 tags:
