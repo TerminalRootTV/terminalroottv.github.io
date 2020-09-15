@@ -48,7 +48,7 @@ data-ad-slot="5351066970"></ins>
 
 [![É game pra caramba!!](/assets/img/games/games-all.png)](https://bit.ly/33cW9X3)
 
-Corra porque está no *mega.nz* , vai que o FBI decidi deletar de novo! 😃 
+Corra porque está no *mega.nz* , vai que o FBI decide deletar de novo! 😃 
 
 # Fui!
 
