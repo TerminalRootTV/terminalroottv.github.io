@@ -13,7 +13,7 @@ tags:
 
 ![Baixe mais de 20.000 Games para MegaDrive, SuperNintendo, PlayStation e outros](/assets/img/games/all-games.jpg)
 
-Na [postagem anterior](https://terminalroot.com.br/2020/09/jogue-games-retro-no-linux-com-mednafen.html) a essa nós mostramos como você pode jogar games de quase todos os consoles antigos: [Jogue Games Retro no Linux com Mednafen](https://mega.nz/folder/UpsGHC4b#Eyp-2mhz1kyo7743flnxbQ/folder/09FgGIYR)
+Na [postagem anterior](https://terminalroot.com.br/2020/09/jogue-games-retro-no-linux-com-mednafen.html) a essa nós mostramos como você pode jogar games de quase todos os consoles antigos: [Jogue Games Retro no Linux com Mednafen](https://terminalroot.com.br/2020/09/jogue-games-retro-no-linux-com-mednafen.html)
 
 E agora nós voltamos com mais boas novas!
 
