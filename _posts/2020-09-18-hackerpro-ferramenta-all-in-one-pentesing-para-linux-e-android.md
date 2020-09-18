@@ -29,6 +29,16 @@ São diversas ferramentas para Pentesing em uma só! São elas:
 - Post Exploitation
 - Install The HACKERPRO
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Coleta de informações:
 
 - [Nmap](https://www.youtube.com/watch?v=LFjMu993uAA)
@@ -52,6 +62,17 @@ São diversas ferramentas para Pentesing em uma só! São elas:
 - reaver
 - pixiewps
 - Fluxion
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Ferramentas de exploração:
 
@@ -98,6 +119,18 @@ São diversas ferramentas para Pentesing em uma só! São elas:
 - ports Scan (common ports)
 - Get server Info
 - Bypass Cloudflare
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Post Exploitation:
 
