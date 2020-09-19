@@ -28,6 +28,16 @@ Basicamente é o mesmo conceito do `diff` só que o comando é `meld`, exemplo:
 meld arquivo1.txt arquivo2.txt
 {% endhighlight %}
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Para um exemplo mais detalhado, criei 2 arquivos [Shell Script](https://terminalroot.com.br/shell/):
 + `cat tchau.sh`
 {% highlight bash %}
@@ -51,6 +61,17 @@ function oi(){
 
 oi $1
 {% endhighlight %}
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Se usarmos o `diff tchau.sh oi.sh` a saída fica assim:
 {% highlight bash %}
@@ -83,6 +104,18 @@ Existem algumas opções do programa, como por exemplo se formos em: **Arquivo**
 
 Mais um exemplo:
 ![Meld mais exemplo](/assets/img/comandos/meld.jpg)
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Referências
 + <https://meldmerge.org/>
