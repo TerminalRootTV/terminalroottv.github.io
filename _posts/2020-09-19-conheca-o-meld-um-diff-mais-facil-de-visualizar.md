@@ -5,7 +5,7 @@ date: 2020-09-19 13:20:42
 image: '/assets/img/comandos/meld.jpg'
 description: 'Acha difícil reconhecer mudanças com o diff ? Isso pode lhe ajudar! 😃'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'comandos'
 tags:
 ---
 
