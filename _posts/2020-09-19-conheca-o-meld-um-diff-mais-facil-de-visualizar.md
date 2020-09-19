@@ -81,6 +81,9 @@ Existem algumas opções do programa, como por exemplo se formos em: **Arquivo**
 
 ![Meld](/assets/img/comandos/meld-sh.png)
 
+Mais um exemplo:
+![Meld mais exemplo](/assets/img/comandos/meld.jpg)
+
 # Referências
 + <https://meldmerge.org/>
 + [opensource](https://opensource.com/article/20/3/meld)
