@@ -26,6 +26,16 @@ O método `concat()` retorna um novo array contendo todos os arrays ou valores p
 ### Exemplo:
 ![concat](/assets/img/js/array/concat.gif)
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # [fill()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
@@ -62,6 +72,17 @@ O método `find()` retorna o valor do primeiro elemento do array que satisfizer 
 O método `forEach()` executa uma dada função em cada elemento de um array.
 ### Sintaxe
 > arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Exemplo
 ![forEach](/assets/img/js/array/foreach.gif)
@@ -105,6 +126,18 @@ O método `map()` invoca a função `callback` passada por argumento para cada e
 
 ### Exemplo
 ![map](/assets/img/js/array/map.gif)
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -168,6 +201,19 @@ O método `unshift()` adiciona um ou mais elementos no início de um array e ret
 ![unshift](/assets/img/js/array/unshift.gif)
 
 ---
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Existe um repositório com todos os gifs [aqui](https://cutt.ly/LfYhgCw) para mais informações veja [aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
