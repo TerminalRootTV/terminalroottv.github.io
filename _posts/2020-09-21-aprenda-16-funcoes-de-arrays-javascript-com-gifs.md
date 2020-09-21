@@ -215,7 +215,7 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Existe um repositório com todos os gifs [aqui](https://cutt.ly/LfYhgCw) para mais informações veja [aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array).
+Existe um repositório com todos os gifs [aqui](https://cutt.ly/LfYhgCw) . Para mais informações veja [aqui](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 
 
