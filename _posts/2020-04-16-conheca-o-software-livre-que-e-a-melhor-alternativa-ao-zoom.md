@@ -7,8 +7,7 @@ description: 'Não é somente Open Source, é um Software Livre!'
 icon: 'simple-icons:gnu'
 iconname: 'gnu'
 tags:
-- softwares
-- alternativas
+- meet
 - gnu
 ---
 
