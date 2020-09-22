@@ -14,7 +14,7 @@ tags:
 
 Muitas vezes, um conceito fica difícil para nós assimilarmos, no entanto, se o conteúdo é multimídia fica mais fácil para a maioria das pessoas.
 
-E esses GIFs tornam mais fácil de entender e como funciona algumas funções [JavaScript](https://terminalroot.com.br/tags#javascript) que são importantes!
+E esses GIFs(criados por **Rafael Angrizani**) tornam mais fácil de entender e como funciona algumas funções [JavaScript](https://terminalroot.com.br/tags#javascript) que são importantes!
 
 ---
 
@@ -201,6 +201,9 @@ O método `unshift()` adiciona um ou mais elementos no início de um array e ret
 ![unshift](/assets/img/js/array/unshift.gif)
 
 ---
+
+# Crédito das imagens
+As imagens foram criadas por **Rafael Angrizani** .
 
 <!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
