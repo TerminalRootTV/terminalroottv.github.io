@@ -3,7 +3,7 @@ layout: post
 title: "O Microsoft Edge para Linux finalmente tem uma data de lançamento"
 date: 2020-09-22 19:52:09
 image: '/assets/img/noticias/microsoft-edge-on-ubuntu-linux.jpg'
-description:
+description: 'Será que alguém vai querer usar ?'
 icon: 'logos:microsoft-edge'
 iconname: 'navegadores'
 tags:
