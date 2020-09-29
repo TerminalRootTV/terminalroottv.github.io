@@ -3,7 +3,7 @@ layout: post
 title: "3 Formas de Testar a Velocidade da Sua Internet no Linux"
 date: 2020-09-29 11:25:13
 image: '/assets/img/comandos/internet-test.jpg'
-description:
+description: 'Todos os dias duvidamos do nosso provedor de internet se ele realmente está entregando a largura de banda que contratamos.'
 icon: 'mdi:web'
 iconname: 'internet'
 tags:
