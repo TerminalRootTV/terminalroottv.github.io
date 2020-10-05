@@ -16,7 +16,7 @@ tags:
 **xclip** é um utilitário de linha de comando projetado para ser executado em qualquer sistema com X11. Em linhas gerais: um utilitário para fazer *Ctrl + c* via linha de comando.
 
 # Instalação
-O `xclip` está disponível na maioria dos repositórios das distros [Linux](), incluindo sistemas [BSD]() . Ou seja, para instalá-lo, basta usar o gerenciador de pacotes da sua distribuição ou do seu sistema, exemplos:
+O `xclip` está disponível na maioria dos repositórios das distros [Linux](https://terminalroot.com.br/tags/linux), incluindo sistemas [BSD](https://terminalroot.com.br/tags/#bsd) . Ou seja, para instalá-lo, basta usar o gerenciador de pacotes da sua distribuição ou do seu sistema, exemplos:
 {% highlight bash %}
 emerge xclip # Gentoo, Funtoo, ...
 sudo apt install xclip # Debian, Ubuntu, Mint, ...
