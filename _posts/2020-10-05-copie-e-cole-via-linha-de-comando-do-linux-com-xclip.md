@@ -85,7 +85,7 @@ Access an X server selection for reading or writing.
   -d, -display     X display to connect to (eg localhost:0)
   -h, -help        usage information
       -selection   selection to access ("primary", "secondary", "clipboard" or "buffer-cut")
-      -noutf8      don't treat text as utf-8, use old unicode
+      -noutf8      don't treat text as utf-8, use old unicode'
       -target      use the given target atom
       -rmlastnl    remove the last newline charater if present
       -version     version information
