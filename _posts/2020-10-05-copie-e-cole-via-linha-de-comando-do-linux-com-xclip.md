@@ -82,7 +82,7 @@ Access an X server selection for reading or writing.
   -o, -out         prints the selection to standard out (generally for
                    piping to a file or program)
   -l, -loops       number of selection requests to wait for before exiting
-  -d, -display     X display to connect to (eg localhost:0")
+  -d, -display     X display to connect to (eg localhost:0)
   -h, -help        usage information
       -selection   selection to access ("primary", "secondary", "clipboard" or "buffer-cut")
       -noutf8      don't treat text as utf-8, use old unicode
