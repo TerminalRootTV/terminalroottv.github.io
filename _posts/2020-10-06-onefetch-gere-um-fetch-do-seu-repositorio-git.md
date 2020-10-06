@@ -82,7 +82,7 @@ As informações do repo são exibidas ao lado do logotipo ASCII do idioma domin
 {% highlight bash %}
 onefetch -i path/to/image.jpg
 {% endhighlight %}
-![Exemplo de suporte de imagem](/assets/img/rust/r.png)
+![Exemplo de suporte de imagem](/assets/img/rust/onefetch.png)
 
 ---
 
