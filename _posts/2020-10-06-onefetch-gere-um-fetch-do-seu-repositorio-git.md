@@ -5,7 +5,7 @@ date: 2020-10-06 08:19:44
 image: '/assets/img/rust/aesthetic.png'
 description: 'Obtenha informação do seu repositório Git via linha de comando.'
 icon: 'cib:git'
-iconname: 'rust'
+iconname: 'git'
 tags:
 - rust
 - git
