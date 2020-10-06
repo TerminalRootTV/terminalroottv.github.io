@@ -14,7 +14,7 @@ tags:
 
 ![Obtenha informação do seu repositório Git via linha de comando](/assets/img/rust/aesthetic.png)
 
-**Onefetch** é uma ferramenta de informação via linha de comando que exibe informações sobre seu repositório Git diretamente em seu terminal.
+**Onefetch** é uma ferramenta de informação via linha de comando que exibe informações sobre seu repositório [Git](https://terminalroot.com.br/git/) diretamente em seu terminal.
 
 Onefetch fornece ao usuário estatísticas de código e informações de projeto com recursos como detecção de licença. Onefetch mostrará a:
 + A linguagem de programação, bem como as integrantes do projeto;
