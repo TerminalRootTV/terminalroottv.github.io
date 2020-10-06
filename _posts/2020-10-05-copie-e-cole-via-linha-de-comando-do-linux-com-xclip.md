@@ -98,7 +98,7 @@ Report bugs to <astrand@lysator.liu.se>
 
 > Dica extra: Como o parametro `-sel copy` é o mais utilizado, você pode até criar um *alias* no seu `.bashrc`:
 {% highlight bash %}
-echo 'alias xclip="xclip -sel clip"' >> ~/.bashrc
+echo -e '\nalias copiar="xclip -sel clip"' >> ~/.bashrc
 exec $SHELL
 xclip -i file.txt
 {% endhighlight %}
