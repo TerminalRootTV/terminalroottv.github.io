@@ -48,7 +48,7 @@ sudo zypper install onefetch # OpenSUSE
 
 Para qualquer distro [Linux](https://terminalroot.com.br/tags#linux) basta instalar o Rust via seu gerenciador de pacotes de pacotes e adicionar o [binário pré-compilado](https://github.com/o2sh/onefetch/releases) à sua variavel `$PATH`, exemplo para `/usr/local/bin` com a versão mais atual de acordo com a data da publicação desse artigo:
 {% highlight bash %}
-git clone https://github.com/o2sh/onefetch/releases/download/v2.4.0/onefetch-linux.tar.gz
+wget https://github.com/o2sh/onefetch/releases/download/v2.4.0/onefetch-linux.tar.gz
 tar zxvf onefetch-linux.tar.gz
 cd onefetch-linux/
 sudo mv onefetch /usr/local/bin/
