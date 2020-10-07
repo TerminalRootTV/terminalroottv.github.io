@@ -106,7 +106,7 @@ Concentrando-se na simplicidade e no machine learning de uso geral tudo-em-um pa
 ---
 
 # 04. [stdlib](https://github.com/stdlib-js/stdlib)
-![stdlib.js](/assets/img/ai/stidlib.png)
+![stdlib.js](/assets/img/ai/stdlib.png)
 
 stidlib é a maneira mais rápida e fácil de construir APIs infinitamente escaláveis e de autocura. A Biblioteca Padrão é baseada na arquitetura Function as a Service (“sem servidor”), inicialmente popularizada pela AWS Lambda.
 
