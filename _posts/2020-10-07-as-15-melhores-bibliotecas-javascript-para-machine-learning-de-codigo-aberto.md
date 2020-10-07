@@ -346,6 +346,11 @@ Neste artigo, examinamos as 15 melhores bibliotecas de machine learning JavaScri
 
 Além disso, como um desenvolvedor, ter e usar as Bibliotecas de machine learning JavaScript corretas o ajudará na busca por montar um algoritmo que irá explorar os pontos fortes e recursos do projeto de machine learning de sua escolha.
 
+# Veja também
++ [As 30 melhores bibliotecas e pacotes Python para Iniciantes](https://terminalroot.com.br/2019/12/as-30-melhores-bibliotecas-e-pacotes-python-para-iniciantes.html)
++ [Conheça o Algoface , Uma Inteligência Artificial que reconhece seu rosto online](https://terminalroot.com.br/2019/10/conheca-o-algoface-uma-inteligencia-articial-que-reconhece-seu-rosto-online.html)
++ [Instale no seu Editor Preferido, um Auto-Complete com Inteligência Artificial](https://terminalroot.com.br/2020/06/instale-no-seu-editor-preferido-um-auto-complete-com-inteligencia-artificial.html)
+
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
