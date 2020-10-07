@@ -70,7 +70,7 @@ sed -n '6,9p' arquivo.txt
 
 ## 4 - Deleta todas as lihas que contém a palavra string no arquivo
 {% highlight bash %}
-sed -i '/dmx/d' arquivo.txt
+sed -i '/string/d' arquivo.txt
 {% endhighlight %}
 
 # [Conheça o Curso Completo de Expressões Regulares, clique aqui](http://terminalroot.com.br/regex)
@@ -127,12 +127,12 @@ sed -i '/^$/d' arquivo.txt
 
 ## 12 - Substitui "foo" por "bar" somente as linhas que contém "plop"
 {% highlight bash %}
-sed '/plop/ s/foo/bar/g' arquivo.txt
+sed '/plop/s/foo/bar/g' arquivo.txt
 {% endhighlight %}
 
 ## 13 - Substitui "foo" por "bar" exceto as linhas que contém "plop"
 {% highlight bash %}
-sed '/plop/! s/foo/bar/g' arquivo.txt
+sed '/plop/!s/foo/bar/g' arquivo.txt
 {% endhighlight %}
 
 <!-- MINI ANÚNCIO -->
