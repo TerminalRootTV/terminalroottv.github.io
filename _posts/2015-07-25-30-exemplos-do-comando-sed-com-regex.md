@@ -33,7 +33,7 @@ data-ad-slot="5351066970"></ins>
 + `s` substitui um trecho de texto por outro
 + `!` inverte a lógica do comando
 + `;` separador de comandos
-+ `&#124;` separador de strings
++ `|` separador de strings
 + `d` no final deleta
 + `p` no final imprime
 + `g` no final (como se usa o d e p) altera todas as ocorrências
@@ -49,7 +49,7 @@ data-ad-slot="5351066970"></ins>
 + `[[:lower:]]` Letras minúsculas [a-z]
 + `[[:upper:]]` Letras maiúsculas [A-Z]
 + `[[:print:]]` Caracteres visíveis (ou seja, exceto os de controle) [\x20-\x7E]
-+ `[[:punct:]]` Pontuação `[-!"#$%&'()*+,./:;?@[\\\]_`{|}~]`.
++ `[[:punct:]]` Pontuação `[-!"#$%&'()*+,./:;?@[\\\]_{|}~]`.
 + `[[:space:]]` Espaço em branco [ \t\r\n\v\f]
 + `[[:xdigit:]]` Número hexadecimais [0-9 a-f A-F]
 
