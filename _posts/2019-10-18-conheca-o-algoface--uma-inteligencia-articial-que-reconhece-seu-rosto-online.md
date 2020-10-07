@@ -6,9 +6,9 @@ image: '/assets/img/ai/algoface1.jpg'
 description: 'Ele rastreia 209 pontos de marca facial em tempo real. 😮'
 tags:
 - algoface
-- intelligence
+- artificialinteligence
+- machinelearning
 - deeplearning
-- intelligenceartificial
 - tecnologia
 ---
 

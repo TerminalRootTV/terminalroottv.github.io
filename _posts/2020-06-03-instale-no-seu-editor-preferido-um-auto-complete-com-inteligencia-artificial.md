@@ -10,8 +10,9 @@ tags:
 - vim
 - visualstudiocode
 - programacao
-- desenvolvimento
-- editores
+- artificialinteligence
+- machinelearning
+- deeplearning
 ---
 
 ![Instale no seu Editor Preferido, um Auto-Complete com Inteligência Artificial](/assets/img/programacao/tabnine.jpg)

@@ -6,10 +6,9 @@ image: '/assets/img/python/opencv-python-library.jpg'
 description: 'Prontos para facilitar a programação dos desenvolvedores.'
 tags:
 - python
-- opencv
-- tensorflow
-- bibliotecas
-- packages
+- artificialinteligence
+- machinelearning
+- deeplearning
 ---
 
 ![As 30 melhores bibliotecas e pacotes Python para Iniciantes](/assets/img/python/opencv-python-library.jpg)

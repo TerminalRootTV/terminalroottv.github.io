@@ -6,11 +6,10 @@ image: '/assets/img/js/javascript.jpg'
 description: 'Para quem deseja aprender JavaScript do Zero no Linux.'
 tags:
 - javascript
-- javascript
 - jquery
 ---
 
-[Javascript para Iniciantes](/assets/img/js/javascript.jpg)
+[Javascript para Iniciantes](/assets/img/js/js.jpg)
 
 JavaScript é uma linguagem de programação interpretada.
 

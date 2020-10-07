@@ -1,46 +1,57 @@
 ---
 layout: post
-title: "30 exemplos do comando sed - com regex"
+title: "30 exemplos do comando Sed - com Regex"
 date: '2015-07-25T11:11:00.000-07:00'
 image: '/assets/img/editores/sed.jpg'
 description: "O Sed é um editor de textos não interativo.Vem do inglês Stream EDitor, ou seja, editor de fluxos (de texto)."
 tags:
 - sed
-- sed
+- regex
 ---
 
 ![30 exemplos do comando sed - com regex](/assets/img/editores/sed.jpg "30 exemplos do comando sed - com regex")
 
-> O [Sed](https://www.gnu.org/software/sed/manual/sed.html) é um editor de textos não interativo. Vem do inglês [S]tream [ED]itor, ou seja, __editor de fluxos de texto__. O Sed da [GNU](https://www.gnu.org/), atualmente é o utilizado pela maioria das distribuições de [Linux](http://www.terminalroot.com.br/tags#linux) e é o que tem mais funcionalidades novas: [GNU](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=GNU)/[Linux](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=Linux).
+> O [Sed](https://www.gnu.org/software/sed/manual/sed.html) é um editor de textos não interativo. Vem do inglês [S]tream [ED]itor, ou seja, `editor de fluxos de texto`.
+
+O Sed da [GNU](https://www.gnu.org/), atualmente é o utilizado pela maioria das distribuições de [Linux](http://www.terminalroot.com.br/tags#linux) e é o que tem mais funcionalidades novas: [GNU](http://www.terminalroot.com.br/tags#gnu)/[Linux](http://www.terminalroot.com.br/linux/).
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 ### É case sentive
-* __-i__ altera o arquivo
-* __-e__ imprime na tela sem alterar o arquivo
-* __-n__ faz a supressão, mostra só o resutado do comando
-* __s__ substitui um trecho de texto por outro
-* __!__ inverte a lógica do comando
-* __;__ separador de comandos
-* __&#124;__ separador de strings
-* __d__ no final deleta
-* __p__ no final imprime
-* __g__ no final (como se usa o d e p) altera todas as ocorrências
-* __q__ sai do sed , não continua o comando
++ `-i` altera o arquivo
++ `-e` imprime na tela sem alterar o arquivo
++ `-n` faz a supressão, mostra só o resutado do comando
++ `s` substitui um trecho de texto por outro
++ `!` inverte a lógica do comando
++ `;` separador de comandos
++ `&#124;` separador de strings
++ `d` no final deleta
++ `p` no final imprime
++ `g` no final (como se usa o d e p) altera todas as ocorrências
++ `q` sai do sed , não continua o comando
 
-## Lista completa das classes de caracteres do GNU sed
-
-* __[[:alnum:]]__ Alfabéticos e númericos [a-z A-Z 0-9]
-* __[[:alpha:]]__ Alfabéticos [a-z A-Z]
-* __[[:blank:]]__ Caractere em branco, espaço ou tab [ \t]
-* __[[:cntrl:]]__ Caracteres de controle [\x00-\x1F\x7F]
-* __[[:digit:]]__ Números [0-9]
-* __[[:graph:]]__ Qualquer caractere visível(ou seja, exceto em branco) [\x20-\x7E]
-* __[[:lower:]]__ Letras minúsculas [a-z]
-* __[[:upper:]]__ Letras maiúsculas [A-Z]
-* __[[:print:]]__ Caracteres visíveis (ou seja, exceto os de controle) [\x20-\x7E]
-* __[[:punct:]]__ Pontuação [-!"#$%&'()*+,./:;?@[\\\]_`{|}~].
-* __[[:space:]]__ Espaço em branco [ \t\r\n\v\f]
-* __[[:xdigit:]]__ Número hexadecimais [0-9 a-f A-F]
+## Lista completa das classes de caracteres do GNU Sed(POSIX)
++ `[[:alnum:]]` Alfabéticos e númericos [a-z A-Z 0-9]
++ `[[:alpha:]]` Alfabéticos [a-z A-Z]
++ `[[:blank:]]` Caractere em branco, espaço ou tab [ \t]
++ `[[:cntrl:]]` Caracteres de controle [\x00-\x1F\x7F]
++ `[[:digit:]]` Números [0-9]
++ `[[:graph:]]` Qualquer caractere visível(ou seja, exceto em branco) [\x20-\x7E]
++ `[[:lower:]]` Letras minúsculas [a-z]
++ `[[:upper:]]` Letras maiúsculas [A-Z]
++ `[[:print:]]` Caracteres visíveis (ou seja, exceto os de controle) [\x20-\x7E]
++ `[[:punct:]]` Pontuação `[-!"#$%&'()*+,./:;?@[\\\]_`{|}~]`.
++ `[[:space:]]` Espaço em branco [ \t\r\n\v\f]
++ `[[:xdigit:]]` Número hexadecimais [0-9 a-f A-F]
 
 ## 1 - Troca todas as palavras em um arquivo por outra
 {% highlight bash %}
@@ -69,14 +80,13 @@ sed -i '/dmx/d' arquivo.txt
 sed 's/^/palavra/' arquivo.txt
 {% endhighlight %}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Informat -->
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
 <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2838251107855362"
-     data-ad-slot="2327980059"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -125,6 +135,17 @@ sed '/plop/ s/foo/bar/g' arquivo.txt
 sed '/plop/! s/foo/bar/g' arquivo.txt
 {% endhighlight %}
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 14 - Insere da Linha 2 a linha 7 o "#" no início de cada linha
 {% highlight bash %}
 sed '2,7s/^/#/' arquivo.txt
@@ -151,14 +172,14 @@ sed -n '/dia/{p;q;}' arquivo.txt
 sed '9s/$/final da linha/' arquivo.txt
 {% endhighlight %}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Informat -->
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2838251107855362"
-     data-ad-slot="2327980059"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -183,7 +204,8 @@ sed '/segundo/{/falou/{s/segundo.*falou//;t};:a;/falou/!{N;s/\n//;ta;};s/segundo
 sed 's/<[^>]*>//g' arquivo.txt
 {% endhighlight %}
 
-# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/?couponCode=TERROO)
+# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/)
+# [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed)
 
 ## 23 - Apaga o 1o caracter da frase
 {% highlight bash %}
@@ -210,6 +232,19 @@ sed 's/.\{4,\}//' arquivo.txt
 sed 's/.\{2,4\}//' arquivo.txt
 {% endhighlight %}
 
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 28 - Exemplos de intervalo
 {% highlight bash %}
 echo "aáeéiíoóuú" | sed "s/[a-u]//g"
@@ -229,18 +264,6 @@ Fica: **&lt;a href="http://www.com">http://www.com&lt;/a>**
 {% highlight bash %}
 sed 's_\<\(ht\|f\)tp://[^ ]*_<a href="&">&</a>_' arquivo.txt
 {% endhighlight %}
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Informat -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2838251107855362"
-     data-ad-slot="2327980059"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## 30 - Expressões Regulares com SED ( sed regex )
 Este sed lê dados do arquivo.txt e apaga (comando d) desde a primeira linha, até a linha que contenha 3 números seguidos, jogando o resultado na tela. Se quiser gravar o resultado, redirecione-o para outro arquivo, não o próprio arquivo.txt .
@@ -275,6 +298,17 @@ temos um arquivo com os números de telefone assim:
 {% endhighlight %}
 
 Executando alguns desse modos de comando em SED:
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Modo Neandertal
 + Substitui 2 caracteres ".." por "&" que é a saída da solicitação
@@ -324,7 +358,8 @@ sed 's/\(..\)\(.\{4\}\)/(\1)\2-/g' arquivo.txt
 
 ## Links úteis para mais informações:
 
-# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/?couponCode=TERROO)
+# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/)
+# [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed)
 
 {% highlight txt %}
 http://www.gnu.org/software/sed/
