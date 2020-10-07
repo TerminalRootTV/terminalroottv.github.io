@@ -3,7 +3,7 @@ layout: post
 title: "As 15 Melhores bibliotecas JavaScript para Machine Learning de código aberto"
 date: 2020-10-07 11:42:52
 image: '/assets/img/ai/artificial-inteligence-js.png'
-description:
+description: 'E mais prós e contras de cada uma delas.'
 icon: 'cib:javascript'
 iconname: 'javascript'
 tags:
