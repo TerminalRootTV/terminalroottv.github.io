@@ -361,6 +361,10 @@ sed 's/\(..\)\(.\{4\}\)/(\1)\2-/g' arquivo.txt
 # [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/)
 # [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed)
 
+# Assista um vídeo com 1o exemplos adicionais
+
+<iframe width="1234" height="694" src="https://www.youtube.com/embed/vduHKQRPwEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
 {% highlight txt %}
 http://www.gnu.org/software/sed/
 http://sed.sourceforge.net/
