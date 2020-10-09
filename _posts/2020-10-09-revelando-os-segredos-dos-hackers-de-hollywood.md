@@ -16,7 +16,7 @@ tags:
 
 Quem nunca viu aqueles hackers dos filmes descriptografando dados com um único [enter] ? Seria bom se fosse fácil assim, mas o efeito é legalzinho! 😃 
 
-Agora vamos ver como que eles fazem aquelas descriptografia tosca, como no trecho desse filme:
+Agora vamos ver como que eles fazem aquelas descriptografia tosca, como no [trecho desse filme](https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35):
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/F5bAa6gFvLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
@@ -54,7 +54,7 @@ Para usar basta rodar qualquer comando que exiba saída e jogar o `stdout` para 
 
 ![No More Secrets](/assets/img/comandos/no-more-secrets.gif)
 
-Alternativamente você também tem o comando `sneakers` que exibe justamente o conteúdo do filme Sneakers:
+Alternativamente você também tem o comando `sneakers` que exibe justamente o conteúdo do filme [Sneakers](https://www.youtube.com/watch?v=F5bAa6gFvLs&t=35):
 
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
