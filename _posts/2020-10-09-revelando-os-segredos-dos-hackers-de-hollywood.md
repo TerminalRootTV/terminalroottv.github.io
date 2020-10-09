@@ -18,7 +18,7 @@ Quem nunca viu aqueles hackers dos filmes descriptografando dados com um único 
 
 Agora vamos ver como que eles fazem aquelas descriptografia tosca, como no trecho desse filme:
 
-<iframe width="1234" height="694" src="https://www.youtube.com/embed/F5bAa6gFvLs&t=35" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="1234" height="694" src="https://www.youtube.com/embed/F5bAa6gFvLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 Sem mais segredos! 😎 
 
