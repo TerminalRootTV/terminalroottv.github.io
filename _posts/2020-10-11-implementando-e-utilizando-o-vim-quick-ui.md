@@ -3,7 +3,7 @@ layout: post
 title: "Implementando e Utilizando o Vim Quick UI"
 date: 2020-10-11 08:21:00
 image: '/assets/img/vim/vim-quickui.jpg'
-description:
+description: 'O vim-quickui adiciona componentes básicos da interface do usuário  adiciona componentes básicos da interface do usuário.'
 icon: 'cib:vim'
 iconname: 'vim'
 tags:
