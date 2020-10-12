@@ -8,7 +8,6 @@ icon: 'dashicons:games'
 iconname: 'games'
 tags:
 - games
-- linux
 ---
 
 Agora você pode realmente jogar vários jogos de título *AAA* no Linux que estavam disponíveis exclusivamente no Windows anteriormente. Estão disponíveis nos sistemas Linux, por transferência direta ou por meio de um serviço que gera compatibilidade. 
