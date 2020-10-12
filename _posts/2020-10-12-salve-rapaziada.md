@@ -40,17 +40,5 @@ data-ad-slot="5351066970"></ins>
 Tem uma galera que odeia conteúdo gratuito e corre pra denunciar, assim foi com a postagem sobre [RetroGames](https://terminalroot.com.br/2020/09/baixe-mais-de-20000-games-para-megadrive-supernintendo-playstation-e-outros.html), que não foi o FBI como eu havia avisado, mas sumiu!
 
 Então corre, que os ~~haters~~ 😡💩 estão de olho!                                                                                                                                           
-<!-- RETANGULO LARGO 2 -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-style="display:block; text-align:center;"
-data-ad-layout="in-article"
-data-ad-format="fluid"
-data-ad-client="ca-pub-2838251107855362"
-data-ad-slot="8549252987"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 # Fui!
 
