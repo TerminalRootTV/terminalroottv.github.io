@@ -3,7 +3,7 @@ layout: post
 title: "Baixe 30 mil arquivos, PDFs, Aulas, Livros de Linux, Programação, Pentest,... que somam 350 GB"
 date: 2020-10-12 14:38:59
 image: '/assets/img/downloads/info.png'
-description: 'É muita coisa que não dá pra descrver no título e descrição! 😀'
+description: 'É muita coisa que não dá pra descrever no título e descrição! 😀'
 icon: 'bi:cloud-download'
 iconname: 'muito conteúdo!'
 tags:
