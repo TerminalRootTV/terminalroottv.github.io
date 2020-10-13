@@ -40,7 +40,7 @@ Prepare-se para lutar contra os alienígenas e salvar a Terra sendo tomada pelo 
 ---
 
 # 02. Unknown Horizons
-![Unknown Horizons](/assets/img/games/unknown-horizons.png)
+![Unknown Horizons](/assets/img/games/unknown-horizons.jpg)
 
 Você adora jogos de construção de cidades direto de suas economias? Então eu tenho um simulador de economia em tempo real especial e um jogo de construção de cidade para você. Unknown Horizons é o simulador 2D para você com recursos como desenvolvimento urbano, gestão de commodities, diplomacia, comércio, estratégia e exploração.
 
