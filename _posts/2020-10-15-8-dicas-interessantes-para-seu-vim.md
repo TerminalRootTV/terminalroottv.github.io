@@ -55,6 +55,7 @@ Você gosta da facilidade do `set mouse=a`, mas também *odeia* 😡 quando voc�
 
 Use essa função no seu `~/.vimrc` ou no seu `~/.config/nvim/init.vim` e altere o modo somente teclando `F4`
 ```viml
+function! StatusMouse()
         if &mouse == 'a' 
          set mouse=i
         else
