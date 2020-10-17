@@ -55,7 +55,7 @@ Tailwind CSS é um framework CSS de baixo nível altamente personalizável const
 
 ---
 
-# 04. [PatterFly](https://www.patternfly.org/)
+# 04. [PatternFly](https://www.patternfly.org/)
 > **FEITO PELA [Red Hat](https://terminalroot.com.br/2020/09/faca-varios-cursos-gratuitos-do-red-hat-linux.html)**
 
 ![PatterFly](/assets/img/css/patternfly.jpg)
