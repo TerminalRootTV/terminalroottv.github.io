@@ -80,3 +80,5 @@ O sistema GNU/Linux possui a seguinte estrutura básica de diretórios, organiza
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

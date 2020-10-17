@@ -131,3 +131,5 @@ echo "FINAL DO SCRIPT $0 , ATÉ A PRÓXIMA!"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

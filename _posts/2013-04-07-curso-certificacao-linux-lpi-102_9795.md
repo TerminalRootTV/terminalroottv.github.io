@@ -326,3 +326,5 @@ Fonte: http://pt.wikibooks.org/wiki/Guia_do_Linux/Avançado
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

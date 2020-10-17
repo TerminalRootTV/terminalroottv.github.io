@@ -66,3 +66,5 @@ data-full-width-responsive="true"></ins>
 
 Esse artigo foi originalmente publicado por [OMG! Ubuntu!](https://www.omgubuntu.co.uk/2020/09/microsoft-edge-linux-preview-october) através da fonte: [Microsoft Blog](https://blogs.windows.com/windowsexperience/2020/09/22/whats-new-in-web-experiences-ignite-2020-need-to-secure-your-remote-workers-choose-microsoft-edge-as-your-browser-for-business/).
 
+
+

@@ -84,3 +84,5 @@ Mas caso você deseje postar mesmo por __Modo Gráfico__ , existem algumas ferra
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

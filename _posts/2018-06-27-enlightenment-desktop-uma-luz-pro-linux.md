@@ -112,3 +112,5 @@ Lógico que você também pode fazer tudo isso pelo repositório do Git deles <k
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

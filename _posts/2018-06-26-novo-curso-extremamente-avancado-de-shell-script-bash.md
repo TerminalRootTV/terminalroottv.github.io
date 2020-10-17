@@ -43,3 +43,5 @@ Absolutamente tudo sobre manuais, processos, animações em ASCII e Unicode. Vai
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

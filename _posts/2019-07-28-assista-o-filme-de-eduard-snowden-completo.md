@@ -41,3 +41,5 @@ Em 2015, Oliver Stone iniciou a produçāo da cinebiografia de Edward Snowden. O
 ## [Assista agora o filme Piratas do Vale do Silício](https://terminalroot.com.br/2019/08/assista-agora-o-filme-piratas-do-vale-do-silicio.html)
 ## [Assista agora o filme A Rede Social - A História do Facebook](https://terminalroot.com.br/2019/08/assista-agora-o-filme-a-rede-social-a-historia-do-facebook.html)
 ## [Assista agora Mr. Robot - A série dos hackers](https://terminalroot.com.br/2020/06/assista-agora-mr-robot-a-serie-dos-hackers.html)
+
+

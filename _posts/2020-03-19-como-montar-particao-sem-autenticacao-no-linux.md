@@ -103,3 +103,5 @@ Desde a versão 0.105, lançada em abril de 2012, o nome do projeto foi alterado
 + [Polkit, Gentoo Wiki](https://wiki.gentoo.org/wiki/Polkit)
 + [Exemplo de config para o i3wm](https://github.com/terroo/fonts/blob/master/files/i3/config)
 + [How to mount internal device without needing password?](https://forums.linuxmint.com/viewtopic.php?t=152357)
+
+

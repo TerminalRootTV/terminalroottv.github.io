@@ -82,3 +82,5 @@ Stallman se preocupa com a vigilância porque ele a vê como uma ameaça à demo
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -277,3 +277,5 @@ http://pt.wikipedia.org/wiki/BIND
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

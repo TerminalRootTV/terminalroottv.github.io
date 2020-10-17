@@ -38,3 +38,5 @@ O software é bem intuitivo e fácil de usar! :)
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -76,3 +76,5 @@ Apesar da Julia ter sido desenvolvido especificamente para a ciência de dados, 
 
 > Esse artigo foi originalmente escrito e publicado por [CIO](https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/) e pode ser consultado no link: <https://cio.com.br/julia-vs-python-qual-e-a-melhor-para-a-ciencia-de-dados/> , não modifiquei nada, simplesmente trouxe para cá, pois gostei muito do artigo e gostaria de que ficasse disponível aqui quando os seguidores desse blog quiserem encontrar com mais facilidade e sem possibilidade de perda de link.
     
+
+

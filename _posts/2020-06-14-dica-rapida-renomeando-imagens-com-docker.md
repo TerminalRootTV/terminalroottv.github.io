@@ -46,3 +46,5 @@ Valeu!
 Links úteis:
 + <https://docs.docker.com/engine/reference/commandline/rename/>
 + <https://bit.ly/2YsjEc4> 
+
+

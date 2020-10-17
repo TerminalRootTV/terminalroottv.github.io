@@ -37,3 +37,5 @@ Blz, sei que não há serventia nenhuma , mas pra quem está estudando isso pode
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

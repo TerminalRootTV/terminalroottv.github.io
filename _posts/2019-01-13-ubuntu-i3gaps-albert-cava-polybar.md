@@ -129,3 +129,5 @@ sudo apt-get install libfftw3-dev libasound2-dev libncursesw5-dev libpulse-dev l
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -145,3 +145,5 @@ Depois de tudo configurado, rode o `mpd` e depois o `ncmpcpp` . Para utilizar o 
 
 
 ## Tem algo pra perguntar ou acrescentar ? Comente!    
+
+

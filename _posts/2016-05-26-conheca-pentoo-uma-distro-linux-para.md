@@ -39,3 +39,5 @@ Existem duas versões do Live CD - __Pentoo__ e __MPentoo__ - que se diferem bas
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -262,3 +262,5 @@ Mais inforções sobre [snap](https://tutorials.ubuntu.com/tutorial/basic-snap-u
 
 Mais em: [https://alternativeto.net/software/docker/](https://alternativeto.net/software/docker/)
     
+
+

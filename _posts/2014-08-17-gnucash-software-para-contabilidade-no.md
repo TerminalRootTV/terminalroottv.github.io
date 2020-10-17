@@ -41,3 +41,5 @@ Site oficial: [http://www.gnucash.org/](http://www.gnucash.org/])
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

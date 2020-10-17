@@ -139,3 +139,5 @@ host www.terminalroot.com.br
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

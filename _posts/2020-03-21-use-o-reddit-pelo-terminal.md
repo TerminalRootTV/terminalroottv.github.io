@@ -118,3 +118,5 @@ data-ad-slot="8549252987"></ins>
 Porquê falar de alternativas logo na postagem sobre o projeto? O RTV, apesar de ainda funcionar, foi arquivado! 😥️ , [saiba mais aqui](https://github.com/michael-lazar/rtv/issues/696).
 
 Abraços!   
+
+

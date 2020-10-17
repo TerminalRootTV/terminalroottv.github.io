@@ -75,3 +75,5 @@ wget https://raw.githubusercontent.com/terminalrootsh/terminalrootsh.github.io/m
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

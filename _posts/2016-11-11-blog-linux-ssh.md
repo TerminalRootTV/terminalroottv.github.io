@@ -54,3 +54,5 @@ vncviewer [IP]:[porta]
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

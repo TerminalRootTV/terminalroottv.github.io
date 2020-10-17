@@ -80,3 +80,5 @@ O comando __cat__ recebe a entrada a partir do __stdin__, caso você não especi
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

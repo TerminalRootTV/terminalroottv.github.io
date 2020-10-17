@@ -77,3 +77,5 @@ $ echo 'Teste com anexo' | mutt -s 'Assunto teste com anexo' -a meuscript.sh log
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

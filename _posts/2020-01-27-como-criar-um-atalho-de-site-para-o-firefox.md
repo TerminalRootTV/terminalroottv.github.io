@@ -82,3 +82,5 @@ Depois disso é só procurar no **Dash/Launcher** .
 Dúvidas ?! Manda aê nos comments!
 
 Valeuuu!
+
+

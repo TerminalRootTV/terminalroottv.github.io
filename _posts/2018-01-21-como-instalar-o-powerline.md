@@ -73,3 +73,5 @@ Saia do terminal, abra de novo e desfrute!
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

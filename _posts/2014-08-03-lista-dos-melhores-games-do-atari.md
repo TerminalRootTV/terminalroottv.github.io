@@ -53,3 +53,5 @@ Sou fã de jogos de __8 bits__, principalemente se tratando de __Atari__. Atualm
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -84,3 +84,5 @@ gsettings set org.gnome.gedit.state.history-entry replace-with-entry "['']"
 Uma dica rápida e útil. Lembrando que existem outros temas e você pode encontrar em diversos lugares na internet e também aqui: <https://www.gnome-look.org/browse/cat/279/>
 
 Abraços!
+
+

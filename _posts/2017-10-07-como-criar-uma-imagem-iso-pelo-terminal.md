@@ -42,3 +42,5 @@ dd if=/dev/cdrom of=/home/$USER/imagem.iso bs=2048 status=progress
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

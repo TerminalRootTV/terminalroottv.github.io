@@ -84,3 +84,5 @@ Conheça nossos cursos de [Shell Script](http://terminalroot.com.br/shell) e [en
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

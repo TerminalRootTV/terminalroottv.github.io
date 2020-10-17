@@ -168,3 +168,5 @@ sed(/(\w+)\s(\w+)/, '$2, $1', 'file.txt');
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

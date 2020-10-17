@@ -74,3 +74,5 @@ Depois é só __reiniciar o PC, sem o LiveCD__, lógico, e usuar o __root__, se 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

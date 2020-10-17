@@ -64,3 +64,5 @@ Pra você saber mais sobre as ferramentas citadas, você pode cosultar os links 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

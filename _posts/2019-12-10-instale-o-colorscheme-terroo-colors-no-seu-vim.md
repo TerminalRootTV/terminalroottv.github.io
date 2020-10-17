@@ -101,3 +101,5 @@ Como você sabe, o esquema de cores no vim, por padrão, suporta muitas linguage
 Se você precisar de mais realce de sintaxe, poderá usar o [vim-polyglot](https://github.com/sheerun/vim-polyglot).
 
 Valeu!
+
+

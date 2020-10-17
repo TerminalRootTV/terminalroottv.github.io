@@ -173,3 +173,5 @@ O Linux tem suporte a diversos dispositivos USB através dos módulos do Kernel.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

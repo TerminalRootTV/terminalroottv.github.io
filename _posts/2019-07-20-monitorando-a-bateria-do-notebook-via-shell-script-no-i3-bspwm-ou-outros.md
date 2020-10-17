@@ -170,3 +170,5 @@ Pronto, agora o notebook não desligará mais por falta de energia!😁️
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

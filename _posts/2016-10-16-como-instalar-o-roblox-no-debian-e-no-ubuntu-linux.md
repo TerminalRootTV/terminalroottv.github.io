@@ -98,3 +98,5 @@ obs.: Se o CrossOver pedir para confirmar/comprar/registrar , clique em Try Now.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

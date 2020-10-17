@@ -137,3 +137,5 @@ echo -e "\033[$atributo;$cor$texto\033[0m"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

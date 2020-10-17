@@ -213,3 +213,5 @@ Se imprimir na tela: __nomequalquer/outronome/__ (ou o nome que você escolheu),
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

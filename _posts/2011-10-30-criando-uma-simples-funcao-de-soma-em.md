@@ -49,3 +49,5 @@ Uma simples função de soma para entendimento, um pouco mais acima do código d
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

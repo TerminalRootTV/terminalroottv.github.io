@@ -244,3 +244,5 @@ source /var/lib/layman/make.conf
 + [Gentoo + i3 + Ly](https://terminalroot.com.br/2019/03/gentoo-i3-ly.html)
 + [Redcore Linux - um Gentoo Simples de Instalar](https://terminalroot.com.br/2018/09/redcore-linux-um-gentoo-simples-de-instalar.html)
 + [Como Instalar o Compiz no Gentoo GNU/Linux](https://terminalroot.com.br/2017/10/como-instalar-o-compiz-no-gentoo-gnu-linux.html)
+
+

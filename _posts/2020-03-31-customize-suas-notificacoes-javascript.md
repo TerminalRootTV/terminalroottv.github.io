@@ -106,3 +106,5 @@ Para mais detalhes consulte o [demo](https://codeseven.github.io/toastr/demo.htm
 
 
 
+
+

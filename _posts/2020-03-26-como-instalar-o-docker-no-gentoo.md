@@ -238,3 +238,5 @@ docker info
 + <https://cateee.net/lkddb/>
 + <https://github.com/coreos/docker/blob/master/contrib/check-config.sh>
 + <https://terminalroot.com.br/2020/03/melhores-alternativas-para-compartilhamento-de-trechos-de-codigo.html>
+
+

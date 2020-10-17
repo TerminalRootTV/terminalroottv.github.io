@@ -362,3 +362,5 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 Esse artigo foi originalmente publicado em <https://medium.com/javascript-in-plain-english/top-15-opensource-javascript-machine-learning-libraries-db3131ee3426>, mas a postagem original foi deletada pelo autor.
+
+

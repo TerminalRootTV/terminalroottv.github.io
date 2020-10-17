@@ -74,3 +74,5 @@ Lembrando que o *Clear Linux OS* não deve ser confundido com [ClearOS](https://
 Espero que vocês também tenham gostado, e se quiserem testar sem instalar, o mesmo funciona em modo Live, e bem rápido por sinal.
 
 Abraços!
+
+

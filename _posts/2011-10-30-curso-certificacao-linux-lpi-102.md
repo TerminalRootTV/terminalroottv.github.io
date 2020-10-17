@@ -499,3 +499,5 @@ Se você especificar para uma coluna numérica ZEROFILL, automaticamente o MySQL
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

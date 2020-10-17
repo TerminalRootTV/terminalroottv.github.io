@@ -72,3 +72,5 @@ Se você tiver um tema bem bacana do [Vim](https://terminalroot.com.br) e quiser
 2. Vários colorschemes prontos para o Gedit: <https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes>
 
 Valeu!
+
+

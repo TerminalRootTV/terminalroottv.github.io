@@ -50,3 +50,5 @@ O [Vim](https://vim.org) é o editor de texto e IDE mais utilizado mundo. Seu ma
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

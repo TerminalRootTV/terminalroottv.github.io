@@ -111,3 +111,5 @@ data-ad-slot="5351066970"></ins>
 Apesar do sucesso do Ruby, que já foi bastante popular entre os desenvolvedores web, a linguagem sofreu uma pequena reviravolta, de acordo com a Codementor. Por conta da sua baixa perspectiva de crescimento, o Ruby teve a sua pior colocação no ranking (17ª posição). Apesar disso, o forte envolvimento da comunidade e a demanda por talentos compensam a questão. Primeiras posições entre as piores linguagens de programação para aprender
 
 Via: [CIO](https://cio.com.br/estas-sao-as-piores-linguagens-de-programacao-para-aprender-atualmente/)
+
+

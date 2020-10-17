@@ -41,3 +41,5 @@ Esse vídeo faz parte da Série [#VamosUsarSlack](https://goo.gl/wz9GmE) !!!
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

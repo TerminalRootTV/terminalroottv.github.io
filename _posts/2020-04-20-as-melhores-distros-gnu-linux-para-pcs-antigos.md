@@ -196,3 +196,5 @@ Caso você tenha alguma que você acredita que deveria estar nessa lista, coment
 + <https://www.gnu.org/distros/free-non-gnu-distros.html>
 
 
+
+

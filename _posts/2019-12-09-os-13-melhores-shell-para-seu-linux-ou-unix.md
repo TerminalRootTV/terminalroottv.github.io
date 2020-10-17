@@ -255,3 +255,5 @@ Se quiser ver uma comparação de recursos de cada um, veja esse link: [Compara�
 
 Espero que você tenham gostado da lista e do ranking, se tiver algo novo pra sugerir, use os comentários . E eu como sempre, escolho o Bash , meu companheiro de guerra! 😀 . Um forte abraço e até mais!
     
+
+

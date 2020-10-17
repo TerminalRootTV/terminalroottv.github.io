@@ -152,3 +152,5 @@ Consulte também o guia do usuário para usar suas configurações pessoais:
 ### <https://github.com/veonim/veonim/blob/master/docs/readme.md>
 
 Valeu!
+
+

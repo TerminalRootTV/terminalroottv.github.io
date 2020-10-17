@@ -148,3 +148,5 @@ ln -s /home/$USER/arquivo.txt arquivo
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

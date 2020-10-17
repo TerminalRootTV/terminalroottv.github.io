@@ -108,3 +108,5 @@ Dica com imagem para cada número a correspondente saída para o **octeto**:
 + <https://pt.wikipedia.org/wiki/Identificador_de_usu%C3%A1rio> , complemento top!
 
 Até a próxima!
+
+

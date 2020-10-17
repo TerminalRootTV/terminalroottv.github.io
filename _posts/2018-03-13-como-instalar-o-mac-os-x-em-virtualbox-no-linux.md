@@ -74,3 +74,5 @@ VBoxManage setextradata "MacOsSierra" "VBoxInternal/Devices/smc/0/Config/GetKeyF
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

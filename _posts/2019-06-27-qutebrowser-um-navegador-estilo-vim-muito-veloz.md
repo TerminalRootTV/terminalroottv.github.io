@@ -110,3 +110,5 @@ Assim como o Vim você pode usar teclas rápidas, veja o mapa de teclas oferecid
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

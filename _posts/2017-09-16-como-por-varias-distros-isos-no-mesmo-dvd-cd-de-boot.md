@@ -45,3 +45,5 @@ Para utilizá-lo é muito simples, basta baixá-lo e executar o script contendo 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

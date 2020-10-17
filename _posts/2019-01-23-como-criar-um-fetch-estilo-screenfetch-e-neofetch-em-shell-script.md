@@ -43,3 +43,5 @@ Um fetch é um script bash disponível para Linux e outros sistemas que exibe in
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

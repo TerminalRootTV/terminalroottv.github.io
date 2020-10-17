@@ -69,3 +69,5 @@ Simples e rápido, espero que gostem e comentem!
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -37,3 +37,5 @@ O endereço é bem completo e explica muito bem como instalar e utilizar, mas ca
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

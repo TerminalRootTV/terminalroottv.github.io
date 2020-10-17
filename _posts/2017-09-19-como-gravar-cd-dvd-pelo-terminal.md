@@ -52,3 +52,5 @@ growisofs -dvd-compat -speed=8 -Z /dev/cdrom=arquivo-ou-caminho.iso
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

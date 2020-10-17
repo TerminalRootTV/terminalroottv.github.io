@@ -76,3 +76,5 @@ Post baseado em: http://www.vivaolinux.com.br/artigo/Personalize-seu-shell-na-en
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

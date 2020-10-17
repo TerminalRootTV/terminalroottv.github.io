@@ -92,3 +92,5 @@ sed -i '/configuration {/a theme:  "input-emph-topbar";' ~/.config/rofi/config.r
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

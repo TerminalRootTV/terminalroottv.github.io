@@ -172,3 +172,5 @@ http://www.imartins.com.br/informix/artigos/capturando-senha-usuarios
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

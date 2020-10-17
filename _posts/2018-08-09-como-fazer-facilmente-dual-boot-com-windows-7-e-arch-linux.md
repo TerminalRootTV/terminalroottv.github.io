@@ -47,3 +47,5 @@ Para adquirir o Curso e saber mais sobre o conteúdo (__como criar animações p
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

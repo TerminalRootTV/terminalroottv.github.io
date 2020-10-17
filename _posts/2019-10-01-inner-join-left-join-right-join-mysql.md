@@ -145,3 +145,5 @@ mysql -h HOST -u NOME_DO_USUÁRIO -p --default_character_set utf8 NOME_DA_BASE <
 + <https://terminalroot.com.br/2019/08/o-que-e-sgbd.html>
 + <https://ayltoninacio.com.br/blog/como-utilizar-inner-left-right-join-mysql>
     
+
+

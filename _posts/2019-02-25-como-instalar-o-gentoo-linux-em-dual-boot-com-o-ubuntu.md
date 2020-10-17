@@ -43,3 +43,5 @@ Site oficial do Gentoo: <https://gentoo.org>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

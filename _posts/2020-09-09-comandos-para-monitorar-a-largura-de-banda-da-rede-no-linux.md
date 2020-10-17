@@ -558,3 +558,5 @@ data-ad-slot="5351066970"></ins>
 + [Network Bandwidth](https://pt.wikipedia.org/wiki/Largura_de_barramento)
 
 
+
+

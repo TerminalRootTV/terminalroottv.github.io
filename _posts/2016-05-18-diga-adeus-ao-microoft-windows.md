@@ -34,3 +34,5 @@ que todo o processo de instalação do Linux será automático!
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -202,3 +202,5 @@ data-ad-slot="5351066970"></ins>
 + Página oficial do Jekyll: <https://jekyllrb.com/>
 + Referências: <https://en.wikipedia.org/wiki/Jekyll_(software)>
 + BuntuWM: <https://terminalroot.com.br/2019/10/remaster-ubuntu-buntuwm-linux.html>
+
+

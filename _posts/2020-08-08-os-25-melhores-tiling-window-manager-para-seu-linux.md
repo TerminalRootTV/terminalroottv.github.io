@@ -390,3 +390,5 @@ data-ad-slot="5351066970"></ins>
 + [Como Customizar o ROFI, Like a FOSS!](https://terminalroot.com.br/2020/05/como-customizar-o-rofi-like-a-foss.html)
 
 # Fui!
+
+

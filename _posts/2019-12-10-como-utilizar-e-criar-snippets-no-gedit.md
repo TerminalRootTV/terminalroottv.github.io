@@ -165,3 +165,5 @@ Se houver uma `$2` ela será a pŕoxima a ser automaticamente selecionada e assi
 Se quiser, você ainda pode criar uma *tecla de atalho* e tem a opção também de *Alvo de destino*.
 
 Bem simples, né ?! Forte abraço e até a próxima.
+
+

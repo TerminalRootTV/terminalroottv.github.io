@@ -99,3 +99,5 @@ FONTE: <https://www.freebsd.org/doc/pt_BR/articles/explaining-bsd/comparing-bsd-
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

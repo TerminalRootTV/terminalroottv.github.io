@@ -68,3 +68,5 @@ Caso exista algum problema, uma mensagem de erro é exibida e o 2FA-Auth deixa d
 No caso de você possuir mais de 1 chave GnuPG, escolha uma de suas chaves e utilize as IDs (UserID e KeyID) para informar que chave dever ser utilizada na criptografia e decriptografia de informações referentes aos tokens.
 
 Para maiores informações e aprendizado, leia os arquivos "README" e "doc/How\_to\_use\_2FA-Auth.pdf".
+
+

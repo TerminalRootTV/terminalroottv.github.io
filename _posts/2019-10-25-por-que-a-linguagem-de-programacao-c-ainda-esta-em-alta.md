@@ -105,3 +105,5 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 Via: [CIO](https://cio.com.br/por-que-a-linguagem-de-programacao-c-ainda-esta-em-alta/)
+
+

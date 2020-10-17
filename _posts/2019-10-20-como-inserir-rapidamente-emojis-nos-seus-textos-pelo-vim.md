@@ -66,3 +66,5 @@ Show, né ?! Quer saber como criar plugins pro [Vim](https://terminalroot.com.br
 
 Por hoje é só, um forte abraço e até mais!
 
+
+

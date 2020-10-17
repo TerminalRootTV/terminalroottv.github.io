@@ -36,3 +36,5 @@ grep -rl "palavra" diretório/
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

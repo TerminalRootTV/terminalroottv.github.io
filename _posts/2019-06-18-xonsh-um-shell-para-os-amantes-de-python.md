@@ -152,3 +152,5 @@ Você pode customizar ainda mais seu PROMPT, cores, criar funções, aliases,...
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

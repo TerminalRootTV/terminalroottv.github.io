@@ -50,3 +50,5 @@ Ele satisfará todas as necessidades de navegação em jogos, multimídia, escri
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

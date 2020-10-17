@@ -34,3 +34,5 @@ Além de enviar dados pelo terminal para um formulário web, também foi demonst
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -104,3 +104,5 @@ man shc
 <https://neurobin.org/projects/softwares/unix/shc/>
 
 Ficou alguma dúvida ? Comente!    
+
+

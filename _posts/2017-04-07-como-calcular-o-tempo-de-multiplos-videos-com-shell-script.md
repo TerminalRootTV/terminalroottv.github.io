@@ -33,3 +33,5 @@ O vídeo mostra como efetuar o cálculo do tempo total de múltiplos vídeos com
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

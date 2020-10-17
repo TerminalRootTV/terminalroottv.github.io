@@ -89,3 +89,5 @@ Além de otimizar minhas tarefas e mostrar os resultados dos meus estudos em Pyt
 
 ## Agradecimentos
 Agradeço ao Blog Terminal Root pela oportunidade de mostrar minha evolução no mundo da programação e contribuição no mundo [GNU](https://terminalroot.com.br/tags#gnu)/[Linux](https://terminalroot.com.br/linux).
+
+

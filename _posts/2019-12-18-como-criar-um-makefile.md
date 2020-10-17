@@ -101,3 +101,5 @@ Eu crio e uso Makefiles diariamente, criei até um comando em [Shell](https://te
 Se ainda não pegou, sugiro você dá uma olhada nos exemplos simples sugerido pelos caras do GNU, foi lá que eu aprendi: <https://www.gnu.org/software/make/manual/html_node/Simple-Makefile.html> . Os arquivos do exemplo aqui citados podem ser conseguidos no tutorial que eu fiz pra documentação do [Gentoo](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Gentoo) nesse link: <https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds> .
 
 Abraços!
+
+

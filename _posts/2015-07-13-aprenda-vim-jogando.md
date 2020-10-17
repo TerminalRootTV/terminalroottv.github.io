@@ -30,3 +30,5 @@ Acesse o site e se divirta: <http://vim-adventures.com/>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

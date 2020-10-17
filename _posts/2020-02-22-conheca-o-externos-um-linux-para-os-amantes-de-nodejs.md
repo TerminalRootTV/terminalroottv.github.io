@@ -83,3 +83,5 @@ data-ad-slot="8549252987"></ins>
 </script>
 
 Esse texto foi parcialmente traduzido de [TecMint, eXtern OS – A NodeJS Based Linux Distribution](https://www.tecmint.com/externos-nodejs-based-linux-distribution/). [Twitter do Desenvolvedor](https://twitter.com/anesuchiodze).
+
+

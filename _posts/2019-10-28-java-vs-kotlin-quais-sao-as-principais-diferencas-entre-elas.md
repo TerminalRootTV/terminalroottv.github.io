@@ -122,3 +122,5 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 Via: [Gravum](https://www.gravum.com/software-development/java-vs-kotlin-what-are-the-key-differences-between-them/)
+
+

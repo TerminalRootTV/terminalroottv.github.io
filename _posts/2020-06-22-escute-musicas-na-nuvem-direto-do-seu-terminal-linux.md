@@ -107,3 +107,5 @@ Uma das muitas vantagens do software de linha de comando é que eles geralmente 
 + Desenvolvedor: Juan A. Rubio
 + Licença: GNU Lesser General Public License v3.0
 
+
+

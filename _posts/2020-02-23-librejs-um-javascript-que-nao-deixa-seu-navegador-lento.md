@@ -62,3 +62,5 @@ git clone git://git.sv.gnu.org/librejs.git
 ![O projeto LibreJS está buscando mais programadores JavaScript para ajudar a manter essa extensão do navegador. Se você quiser ajudar, envie um email para <info@gnu.org>](/assets/img/js/librejs-devs.png "O projeto LibreJS está buscando mais programadores JavaScript para ajudar a manter essa extensão do navegador. Se você quiser ajudar, envie um email para <info@gnu.org> .")
 
 Obtenha mais informações no site oficial: <https://www.gnu.org/software/librejs/>.
+
+

@@ -76,3 +76,5 @@ Se quiser desinstalar o Tor, use o mesmo script com a opção `--uninstall`
 
 
     
+
+

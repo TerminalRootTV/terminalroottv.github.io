@@ -63,3 +63,5 @@ http://softwarelivre.org/acessibilidade-em-software-livre/acessibilidade-no-orca
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

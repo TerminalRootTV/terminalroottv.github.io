@@ -173,3 +173,5 @@ Veja alguns outros artigos e vídeo sobre [MarkDown](http://daringfireball.net/p
 + [Remarkable, Um Ótimo Editor MarkDown para Linux](https://terminalroot.com.br/2017/02/remarkable-editor-markdown-para-linux.html)
 
 <iframe width="920" height="400" src="https://www.youtube.com/embed/vAyz2Hnepuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

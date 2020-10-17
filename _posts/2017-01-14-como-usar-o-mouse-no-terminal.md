@@ -45,3 +45,5 @@ Movimente o mouse e se tudo estiver certo, será apresentado um cursor em forma 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

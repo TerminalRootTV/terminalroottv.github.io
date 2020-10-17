@@ -111,3 +111,5 @@ data-ad-slot="8549252987"></ins>
 + ✅ Conheça nossos Cursos: <http://bit.ly/CursosTerminalRoot>
 + ✅ Pacotes Promocionais: <http://bit.ly/PromoTerminalRoot>
 + 🎁 Todos os Cursos na Udemy: <http://bit.ly/UdemyTerminalRoot>
+
+

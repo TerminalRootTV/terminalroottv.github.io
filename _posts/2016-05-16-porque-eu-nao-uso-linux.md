@@ -51,3 +51,5 @@ Eu particularmente, acredito que o nome Linux virou um vício de linguagem, no e
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

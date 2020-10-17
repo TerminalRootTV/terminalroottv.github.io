@@ -56,3 +56,5 @@ slapt-get funciona com repositórios oficiais do Slackware e repositórios de te
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

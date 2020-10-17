@@ -248,3 +248,5 @@ Para alternar entre os modos, clique nas teclas de seta Para cima ou Para baixo 
 > <https://docs.xfce.org/xfce/xfce4-appfinder/start>
 
 ---
+
+

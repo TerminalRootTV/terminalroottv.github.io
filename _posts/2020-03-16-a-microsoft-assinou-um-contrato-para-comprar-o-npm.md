@@ -70,3 +70,5 @@ data-ad-slot="5351066970"></ins>
 > A incrível energia e criatividade de milhões de desenvolvedores de JavaScript são evidentes todos os dias no trabalho que aparece na NPM. Temos a honra de apoiar essa comunidade de uma nova maneira. O futuro da npm e o ecossistema JavaScript é muito brilhante.
 
 ### Link da postagem original: <https://github.blog/2020-03-16-npm-is-joining-github/> , Março 16, 2020
+
+

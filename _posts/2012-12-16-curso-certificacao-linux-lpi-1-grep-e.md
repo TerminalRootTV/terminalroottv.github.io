@@ -83,3 +83,5 @@ sed 's/marcos/pinguim/' arquivo.txt > novoarquivo.txt
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

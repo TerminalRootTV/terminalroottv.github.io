@@ -126,3 +126,5 @@ ssh -t host.example.com screen -R -d
 Espero que você tenha gostado e não esqueça de ver a documentação, manual, help, ajuda e se quiser esse [Cheat Sheet](https://gist.github.com/fredrick/1216878)
 
 Abraços!
+
+

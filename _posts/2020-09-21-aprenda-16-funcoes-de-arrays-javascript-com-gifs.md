@@ -224,3 +224,5 @@ Existe um repositório com todos os gifs [aqui](https://cutt.ly/LfYhgCw) . Para 
 
 
 
+
+

@@ -96,3 +96,5 @@ Esse post foi adaptado do original [pplware](https://pplware.sapo.pt/microsoft/c
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

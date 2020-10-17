@@ -659,3 +659,5 @@ Basicamente, o Shell script é uma linguagem de script usada em vários sistemas
 [twitter-follow-img]: https://img.shields.io/twitter/follow/apsantos_dev.svg?label=Follow&style=social
 [twitter-follow-ln]: https://twitter.com/intent/follow?screen_name=apsantos_dev "Veja meu perfil no Twitter"
 [vscode-ln]: https://code.visualstudio.com/ "Pressione Ctrl e clique neste link para abrir a página em uma nova guia"
+
+

@@ -194,3 +194,5 @@ mv terminalroot-themes/* ~/.themes
 + <https://www.pling.com/>
 
 # Valeu! 
+
+

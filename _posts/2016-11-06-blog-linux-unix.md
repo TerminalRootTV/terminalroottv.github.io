@@ -83,3 +83,5 @@ Vários  movimentos no sentido de descomplicar o uso das dezenas de  distribuiç
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

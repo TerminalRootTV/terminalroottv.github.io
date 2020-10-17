@@ -33,3 +33,5 @@ Conheça as _Funny ManPages_ e como efetuar _tradução_ do Manual via _Linha de
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

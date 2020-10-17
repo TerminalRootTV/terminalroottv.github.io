@@ -33,3 +33,5 @@ O [PuTTy](http://www.putty.org/) é um software de emulação de [terminal](http
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

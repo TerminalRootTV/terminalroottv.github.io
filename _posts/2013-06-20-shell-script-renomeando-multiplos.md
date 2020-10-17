@@ -57,3 +57,5 @@ echo "Foram renomeados: "$(ls | wc -l) "arquivos $param($count) !"
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

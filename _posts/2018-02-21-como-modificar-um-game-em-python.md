@@ -36,3 +36,5 @@ git clone https://github.com/terminalrootsh/gentoo-war.git
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

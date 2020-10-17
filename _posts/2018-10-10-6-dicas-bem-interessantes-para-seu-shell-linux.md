@@ -113,3 +113,5 @@ Saiba mais: <http://terminalroot.com.br/2017/04/obtenha-explicacoes-dos-comandos
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

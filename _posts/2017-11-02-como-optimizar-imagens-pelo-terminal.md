@@ -80,3 +80,5 @@ jpegoptim -f --size=42% *.jpg
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

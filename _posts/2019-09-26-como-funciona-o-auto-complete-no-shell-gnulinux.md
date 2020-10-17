@@ -97,3 +97,5 @@ emerge --searchdesc bash-completion
 + <https://www.vivaolinux.com.br/dica/Habilitando-autocomplete-para-o-sudo-e-man>
 + <https://medium.com/marcos-oliveira/how-auto-complete-works-in-shell-linux-fe3c37b47361>
     
+
+

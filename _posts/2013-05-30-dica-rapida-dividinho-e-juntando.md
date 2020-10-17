@@ -80,3 +80,5 @@ cat * > arquivo.mpeg
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

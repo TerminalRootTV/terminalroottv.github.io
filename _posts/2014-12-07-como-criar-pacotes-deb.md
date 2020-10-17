@@ -126,3 +126,5 @@ Pronto, é só isso, espero que gostem e comentem.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

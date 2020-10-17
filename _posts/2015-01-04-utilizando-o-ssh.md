@@ -122,3 +122,5 @@ scp -r marcos@192.168.1.107:~/isos /home/marcos/tmp
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

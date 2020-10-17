@@ -83,3 +83,5 @@ Depois de dar um _reboot_ no sistema __shutdown -r now__ levantamos a interface 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

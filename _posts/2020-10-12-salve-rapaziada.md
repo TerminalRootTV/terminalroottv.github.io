@@ -42,3 +42,5 @@ Tem uma galera que odeia conteúdo gratuito e corre pra denunciar, assim foi com
 Então corre, que os ~~haters~~ 😡💩 estão de olho!                                                                                                                                           
 # Fui!
 
+
+

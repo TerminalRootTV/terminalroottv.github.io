@@ -44,3 +44,5 @@ Mas se preferir instalar numa mídia do zero faça o download do __Ubuntu Studio
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

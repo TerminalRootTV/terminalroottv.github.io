@@ -103,3 +103,5 @@ Depois baixe e compile o grub (ou o lilo), configure e instale-o! Case deseje vo
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

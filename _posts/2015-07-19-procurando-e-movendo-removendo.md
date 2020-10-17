@@ -86,3 +86,5 @@ http://www.vivaolinux.com.br/topico/Debian-para-iniciantes/Comando-find-com-mv
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

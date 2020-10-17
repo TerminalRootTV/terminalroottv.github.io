@@ -287,3 +287,5 @@ Esse é praticamente o segundo artigo aqui no blog sobre editores, a lista antig
 Espero que você tenham gostado da lista e do ranking. Caso tenha uma sugestão melhor de aplicativos ou ordem do ranking, fique à vontade em comentar!
 
 Abraços!
+
+

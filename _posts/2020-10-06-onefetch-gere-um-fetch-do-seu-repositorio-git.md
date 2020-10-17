@@ -89,3 +89,5 @@ onefetch -i path/to/image.jpg
 Para mais informações consulte o [repositório do projeto](https://github.com/o2sh/onefetch/).
 
 # Fui!
+
+

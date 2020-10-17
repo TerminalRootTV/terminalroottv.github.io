@@ -55,3 +55,5 @@ Existem tipos de hashes (ou funções hash), elas podem ser: md5, sha256, whirpo
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

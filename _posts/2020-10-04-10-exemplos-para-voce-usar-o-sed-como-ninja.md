@@ -100,3 +100,5 @@ Veja também:
 + [30 exemplos do comando Sed - com Regex](https://terminalroot.com.br/2015/07/30-exemplos-do-comando-sed-com-regex.html)
 
 
+
+

@@ -268,3 +268,5 @@ Via: [PRMINFO](http://www.prminformatica.com.br/2012/12/mathml.html)
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

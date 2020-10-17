@@ -322,3 +322,5 @@ Ou pela [Udemy](https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/) 
 > *Válido por 5 dias contando da data de publicação desse artigo*.
 
 Espero ter ajudado. Um forte abraço!
+
+

@@ -62,3 +62,5 @@ As teclas direcionais servem para obter informações detalhadas e para fechar o
 Simples e fácil! 😃
 
 ### Página oficial do S-TUI: <https://github.com/amanusk/s-tui>
+
+

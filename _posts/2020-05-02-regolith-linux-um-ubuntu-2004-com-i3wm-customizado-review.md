@@ -58,3 +58,5 @@ sudo apt autoclean
 
 # Veja também
 + [Como Instalar e Configurar o i3wm e o i3blocks](https://www.youtube.com/watch?v=-geUXpuOJBU)
+
+

@@ -31,3 +31,5 @@ Possui softwares como GEDA , Kicad, Fritzing, Arduino, dxf2gcode , cadpy , GNU O
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

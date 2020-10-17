@@ -54,3 +54,5 @@ Nesse vídeo iniciamos uma série infinita de Shell Script, onde iremos utilizar
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -43,3 +43,5 @@ Vídeo que foi gravado ao vivo. Um debate sobre o tema que vem gerando questiona
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

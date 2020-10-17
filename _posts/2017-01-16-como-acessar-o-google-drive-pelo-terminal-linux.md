@@ -85,3 +85,5 @@ Ainda há vários parâmetros que podem ser passados, como:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

@@ -107,3 +107,5 @@ usermod -G operator [usuário]
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

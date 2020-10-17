@@ -47,3 +47,5 @@ Fonte: http://bruxy.regnet.cz/web/linux/EN/housenka-bash-game/
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

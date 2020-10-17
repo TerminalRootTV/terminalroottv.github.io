@@ -136,3 +136,5 @@ shell.echo('-e','Para mais informações acesse:\nhttps://www.npmjs.com/package/
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

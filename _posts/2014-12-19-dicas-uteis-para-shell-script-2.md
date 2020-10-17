@@ -230,3 +230,5 @@ Fonte: <http://www.vivaolinux.com.br/dica/Truques-para-tratamento-de-variaveis-e
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

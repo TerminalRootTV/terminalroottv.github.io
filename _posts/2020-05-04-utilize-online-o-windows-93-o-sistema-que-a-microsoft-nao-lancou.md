@@ -85,3 +85,5 @@ data-full-width-responsive="true"></ins>
 </script>
 
 > Esse artigo foi originalmente criado pela [VICE](https://www.vice.com/pt_br/article/qk3y55/o-windows-93-e-real-e-espetacular) com tradução de: Ananda Pieratti
+
+

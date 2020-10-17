@@ -48,3 +48,5 @@ VBoxManage convertfromraw debian-hurd-*.img debian-hurd.vdi --format vdi
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

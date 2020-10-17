@@ -99,3 +99,5 @@ Eu particularmente uso bastante o Wappalyzer para descobrir tecnologias que eu d
 Valeu!
 
 
+
+

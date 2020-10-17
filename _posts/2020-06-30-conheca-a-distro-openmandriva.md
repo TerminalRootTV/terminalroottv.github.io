@@ -62,3 +62,5 @@ data-ad-slot="5351066970"></ins>
 + [Issues](https://issues.openmandriva.org/)
 + [Wiki](https://wiki.openmandriva.org/en/home)
 + [Para fazer uma doação](https://www.openmandriva.org/donate)
+
+

@@ -47,3 +47,5 @@ Sysinfo é um, alternativa minimalista leve para HardInfo e lshw-gtk e pode exib
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

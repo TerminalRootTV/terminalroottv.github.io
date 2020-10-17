@@ -48,3 +48,5 @@ Para a compreensão total do processo via postagem veja o link [Como Instalar o 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

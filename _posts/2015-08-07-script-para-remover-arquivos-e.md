@@ -51,3 +51,5 @@ Como disse , você pode editar seu __~/.bashrc__ e incluir no final do arquivo o
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

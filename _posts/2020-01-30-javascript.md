@@ -62,3 +62,5 @@ function show_data(data) {
 - 🔗 Vue.js: <https://vuejs.org/>
 - 🔗 jQuery: <https://jquery.com/>
 - 🔗 jQuery na W3Shools: <https://www.w3schools.com/jquery/>
+
+

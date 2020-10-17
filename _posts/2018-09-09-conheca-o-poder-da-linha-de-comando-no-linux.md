@@ -38,3 +38,5 @@ Para complementar o vídeo, acesse os links abaixo:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

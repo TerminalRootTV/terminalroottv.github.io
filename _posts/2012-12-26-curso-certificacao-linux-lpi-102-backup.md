@@ -220,3 +220,5 @@ Para automatizar tarefas, você pode utilizar o Cron e Crontab.
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

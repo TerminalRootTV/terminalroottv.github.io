@@ -102,3 +102,5 @@ __locate__ realiza buscas em um banco de dados criado com updatedb.whatis pesqui
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

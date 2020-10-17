@@ -240,3 +240,5 @@ Opções é que não falta, fique à vontade para escolher nesse mundo de altern
 + <https://www.saashub.com/github-gist-alternatives>
 + <https://www.slant.co/topics/7247/~code-snippets-manager>
 
+
+

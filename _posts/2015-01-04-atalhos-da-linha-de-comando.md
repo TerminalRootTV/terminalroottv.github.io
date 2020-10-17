@@ -59,3 +59,5 @@ Fonte: [Aurelio.net Canivete Suíço do Shell](http://aurelio.net/shell/canivete
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

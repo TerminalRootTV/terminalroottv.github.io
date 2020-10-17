@@ -149,3 +149,5 @@ print('Basicamente pra começar isso já é necessário, aguarde nas próximas p
 {% endhighlight %}
 
 Comente!
+
+

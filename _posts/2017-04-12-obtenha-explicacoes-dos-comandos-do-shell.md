@@ -36,3 +36,5 @@ Estamos falando da ferramenta online __[ExplainShell](https://explainshell.com/)
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

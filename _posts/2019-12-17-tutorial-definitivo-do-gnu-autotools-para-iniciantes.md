@@ -567,3 +567,5 @@ data-ad-slot="5351066970"></ins>
 + <https://klebermota.eti.br/2010/10/13/tutorial-para-criar-a-estrutura-de-arquivos-do-autoconf-automake-para-seu-projeto/>
 + <https://developer.gnome.org/anjuta-build-tutorial/stable/create-autotools.html.en>
 + <https://dwheeler.com/autotools/>  
+
+

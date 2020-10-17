@@ -101,3 +101,5 @@ reboot # ou sudo reboot
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

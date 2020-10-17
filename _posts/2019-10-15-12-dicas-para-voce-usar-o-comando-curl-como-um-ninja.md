@@ -213,3 +213,5 @@ curl -u usuário:senha -O http://dandosopa.org/m/secret/meus-arquivos-secretos.t
 + <https://addons.mozilla.org/pt-BR/firefox/addon/user-agent-switcher-revived/>
 
 Abraços!    
+
+

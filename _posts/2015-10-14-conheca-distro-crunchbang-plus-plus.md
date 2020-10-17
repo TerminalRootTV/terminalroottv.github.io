@@ -58,3 +58,5 @@ Você pode baixar a versão que deseja 32 ou 64 bits, ambas disponíveis nesse l
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

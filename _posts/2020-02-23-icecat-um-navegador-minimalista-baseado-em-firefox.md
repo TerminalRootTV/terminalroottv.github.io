@@ -71,3 +71,5 @@ Para mais informações, consulte o endereço oficial: <https://www.gnu.org/soft
 
 Veja também:
 # [Lista com 28 Navegadores para Linux](https://terminalroot.com.br/2016/04/lista-com-28-navegadores-para-linux.html)
+
+

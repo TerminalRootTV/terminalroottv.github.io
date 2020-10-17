@@ -78,3 +78,5 @@ Para mais informações e versões para outros editores, consulte os links abaix
 + [ASCII Decorator](https://marketplace.visualstudio.com/items?itemName=helixquar.asciidecorator)
 + [Extensão para o Sublime Text](https://github.com/viisual/ASCII-Decorator)
 + [Para o Atom](https://atom.io/packages/figlet)
+
+

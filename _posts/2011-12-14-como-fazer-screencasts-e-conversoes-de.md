@@ -96,3 +96,5 @@ Os itens __-ab__ é a taxa de transferência(o bitrate), __-ac__ é a qualidade 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

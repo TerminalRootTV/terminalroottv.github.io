@@ -146,3 +146,5 @@ Abraço e até a próxima!
 + [Coleção de Shell Script Bash Para Seu Linux](https://youtu.be/Nm1OPSCDBpI)
 
 
+
+

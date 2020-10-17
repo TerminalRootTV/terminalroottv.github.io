@@ -56,3 +56,5 @@ O [Exherbo](https://exherbo.org/) é uma distribuição Linux baseada no [Gentoo
 + <https://www.imagination-land.org/tags/exherbo.html>
 + <https://bryanostergaard.com/blog/2018/07/16/why-i-created-the-exherbo-linux-project/>
     
+
+

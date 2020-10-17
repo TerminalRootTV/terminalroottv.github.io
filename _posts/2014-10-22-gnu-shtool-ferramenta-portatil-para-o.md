@@ -52,3 +52,5 @@ Página Oficial: <http://www.gnu.org/software/shtool/shtool.html>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

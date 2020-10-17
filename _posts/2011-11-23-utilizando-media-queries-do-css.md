@@ -90,3 +90,5 @@ Verifique que usamos a propriedade __@media screen __and(operador booleano) para
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

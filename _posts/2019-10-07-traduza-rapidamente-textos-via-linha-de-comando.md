@@ -220,3 +220,5 @@ Abraços!
 + <https://github.com/soimort/translate-shell>
 + <https://github.com/soimort/translate-shell/issues>
 
+
+

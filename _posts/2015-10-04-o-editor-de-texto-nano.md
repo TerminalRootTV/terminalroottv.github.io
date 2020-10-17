@@ -149,3 +149,5 @@ http://www.vivaolinux.com.br/artigo/Introducao-ao-Linux-O-editor-de-texto-Nano h
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

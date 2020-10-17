@@ -274,3 +274,5 @@ data-ad-slot="5351066970"></ins>
 + <https://www.gnu.org/thankgnus/2019supporters.html#TOCother>
 + <https://www.linuxfoundation.org/blog/2018/10/gcc-a-world-class-compiler-optimizing-linux-and-more/>
 + <https://www.nccs.nasa.gov/nccs-users/instructional/using-discover/compilation-software/compilers>
+
+

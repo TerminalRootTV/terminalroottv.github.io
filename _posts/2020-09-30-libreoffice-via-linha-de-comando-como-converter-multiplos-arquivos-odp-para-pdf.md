@@ -73,3 +73,5 @@ Temos um vídeo antigo, mas ainda de muita serventia sobre LibreOffice, se quise
 + [White Template](http://templates.libreoffice.org/template-center/white-template)
 
 
+
+

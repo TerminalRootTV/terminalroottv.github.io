@@ -122,3 +122,5 @@ Ok, até apróxima que é para __WAP__ e __WAP2__ e depois como quebrar essas ch
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

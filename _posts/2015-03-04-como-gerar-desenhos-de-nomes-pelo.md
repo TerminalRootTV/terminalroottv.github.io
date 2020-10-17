@@ -58,3 +58,5 @@ Site Oficial do Projeto: <http://www.figlet.org/>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

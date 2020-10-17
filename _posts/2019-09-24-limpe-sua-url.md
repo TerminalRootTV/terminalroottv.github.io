@@ -107,3 +107,5 @@ Visite o [GitHub do Neat URL](https://github.com/Smile4ever/Neat-URL) → <https
 + [Usar Extensões do Google Chrome no Vivaldi](https://vivaldi.com/blog/chrome-web-store-extensions-in-vivaldi-browser/)
 + [ClearURLS para Firefox](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) → <https://addons.mozilla.org/en-US/firefox/addon/clearurls/>
     
+
+

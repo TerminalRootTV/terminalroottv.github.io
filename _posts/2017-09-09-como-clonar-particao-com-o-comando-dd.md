@@ -78,3 +78,5 @@ gzip --decompress --stdout img.gz | dd of=/dev/sdaY
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

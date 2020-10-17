@@ -150,3 +150,5 @@ print 'Basicamente pra começar isso já é necessário, aguarde nas próximas p
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

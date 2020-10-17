@@ -124,3 +124,5 @@ data-ad-slot="5351066970"></ins>
 + GitHub do Vis: <https://github.com/dpayne/cli-visualizer#cli-visualizer>
 + Imagem da chamada: <https://linuxundich.de/gnu-linux/audio-visualizer-terminal-cli-visualizer/>
     
+
+

@@ -199,3 +199,5 @@ Depois é só rodar o comando `ninja` e o arquivo `program-cpp` ficará pronto n
 ![Dec2Bin compilado com g++ via Ninja Build](/assets/img/cpp/ninja-cpp.png)
 
 Simples, né? Abraços!
+
+

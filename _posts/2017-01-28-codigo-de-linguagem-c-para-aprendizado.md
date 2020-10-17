@@ -166,3 +166,5 @@ int soma(int x,int y)
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

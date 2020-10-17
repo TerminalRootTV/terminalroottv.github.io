@@ -64,3 +64,5 @@ Assim que você abre um documento Markdown, o Markdown Preview já surgirá, e v
 + [Curso de Desenvolvimento Web do Zero no Linux](https://terminalroot.com.br/2020/01/desenvolvimento-web.html)
 + [How To Add Markdown Support To Gedit Using Markdown Preview Plugin](https://www.linuxuprising.com/2020/02/how-to-add-markdown-support-to-gedit.html)
 
+
+

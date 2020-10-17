@@ -180,3 +180,5 @@ man {numlockx,setleds,xkb,xkbcomp,setxkbmap} | less
 + <https://www.tldp.org/HOWTO/Keyboard-and-Console-HOWTO-10.html>
 + <https://wiki.gentoo.org/wiki/Automatic_login_to_virtual_console>
 + <https://wiki.archlinux.org/index.php/Activating_Numlock_on_Bootup_(Portugu%C3%AAs)>
+
+

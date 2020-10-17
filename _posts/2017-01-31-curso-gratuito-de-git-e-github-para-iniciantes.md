@@ -36,3 +36,5 @@ Desenvolvedores em qualquer linguagem ou plataforma que desejam mais segurança 
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

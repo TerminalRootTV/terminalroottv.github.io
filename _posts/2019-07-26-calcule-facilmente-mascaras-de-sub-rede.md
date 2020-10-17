@@ -80,3 +80,5 @@ Se quiser fazer consultas online, o **ipcalc** disponibiliza a versão web no en
 ## Assista um vídeo para entender como esse cálculo é feito
 
 <iframe width="1246" height="701" src="https://www.youtube.com/embed/GCU_cndQN1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

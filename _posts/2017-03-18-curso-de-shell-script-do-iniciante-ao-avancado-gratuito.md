@@ -45,3 +45,5 @@ __Shell Script__ ajudará a você __ganhar tempo__ nos seus __trabalhos__ e __es
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+

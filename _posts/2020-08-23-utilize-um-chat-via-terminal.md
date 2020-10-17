@@ -107,3 +107,5 @@ E para mais dicas do freenode.net:
 + <https://freenode.net/kb/answer/registration>
 
 
+
+

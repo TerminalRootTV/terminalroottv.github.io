@@ -53,3 +53,5 @@ sed -n '/github\|Author\|Maintainer/p'; done
 - [Conheça o Kakoune, um Vim fácil de usar](http://bit.ly/2RUAUWe)
 - [Conheça o Bat, um clone do cat com Asas](http://bit.ly/2Tv8uiR)
 - <https://vimcolors.com>    
+
+

@@ -89,3 +89,5 @@ Esse é o básico, mas só com isso pode-se ir "__Ao infinito e Além__", só de
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+
