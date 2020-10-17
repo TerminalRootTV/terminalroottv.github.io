@@ -47,7 +47,7 @@ Os **Material Components for the web** ajudam os desenvolvedores a executar o de
 ---
 
 # 03. [Tailwind CSS](https://tailwindcss.com/)
-> **O QUE MAIS TEM SE APROXIMADO DO BOOTSTRAP ULTIMAMENTE, MUITOS DEVS ESTÃO MIGRNDO PARA ELE**
+> **O QUE MAIS TEM SE APROXIMADO DO BOOTSTRAP ULTIMAMENTE, MUITOS DEVS ESTÃO MIGRANDO PARA ELE**
 
 ![Tailwind CSS](/assets/img/css/tailwind-css.jpg)
 
