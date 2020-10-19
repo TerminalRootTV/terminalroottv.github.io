@@ -11,7 +11,7 @@ tags:
 - go
 ---
 
-![Termshark: Um Wireshark pelo Terminal](url)
+![Termshark: Um Wireshark pelo Terminal](/assets/img/rede/termshark.jpg)
 
 **Termshark** é uma interface de usuário via linha de comando, inspirada no Wireshark.
 
