@@ -6,6 +6,7 @@ image: '/assets/img/shell-script/shell-script-logo.jpg'
 description: "Separei algumas dicas para Shell Script, deem uma analisada"
 tags:
 - shellscript
+- bash
 ---
 
 ![Dicas úteis para Shell Script](/assets/img/shell-script/shell-script-logo.jpg "Dicas úteis para Shell Script")
@@ -24,6 +25,16 @@ echo ${#variavel}
 {% highlight bash %}
 cat arquivo.txt | cut -c3
 {% endhighlight %}
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 + Mostrar somente a __3° coluna EM DIANTE__(de cada linha) do arquivo
 
@@ -48,7 +59,18 @@ cat arquivo.txt | cut -c3-6
 {% highlight bash %}
 cat arquivo.txt | cut -c3 | sort
 {% endhighlight %}
-#### →  Variáveis ​​locais e o comando define:
+#### →  Variáveis locais e o comando define:
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Uma variável declarada como local é aquele que só é visível dentro do bloco de código em que ela aparece. Em uma função, uma variável local só tem sentido dentro desse bloco de função forma de declarar uma variável(aspas simples e colar igual(__=__))
 
@@ -102,6 +124,18 @@ __-f__ (para criar funções somente leitura)
 {% highlight bash %}
 declare -r variavel
 {% endhighlight %}
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 + Use o comando __readonly__ para fazer as variáveis ​​e funções __readonly__ ou seja, você não pode alterar o valor de variáveis ​​.Ou, em vez de __-r__ , usar: __readonly variavel__
 
@@ -192,6 +226,19 @@ bc -l
 {% endhighlight %}
 
 Pequena curiosidade: o comando 'quit' é executado assim que ele é encontrado. Portanto, algo como
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 >  __if (0==1) quit__
 >  mesmo __0==1__ sendo impossível, vai fazer o ' __bc__ ' __sair__.
@@ -389,6 +436,17 @@ diff hashing_site.txt hashing_sum.txt
 
 #### →  Usando o Comando beep
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 + Instalando:
 
 {% highlight bash %}
@@ -511,7 +569,18 @@ Líder Revolucionário!
  + 0 estado de saída significa que o comando foi bem sucedido sem erros.
  + A não-zero (1-255 valores) saída de comando, o estatuto foi falha.
  
-Você pode usar variáveis ​​shell especial chamado? para obter o status de saída do comando anteriormente executado.Para imprimir? variável usar o comando echo
+Você pode usar variáveis shell especial chamado? para obter o status de saída do comando anteriormente executado.Para imprimir? variável usar o comando echo
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   
 {% highlight bash %}
 #!/bin/bash
@@ -590,6 +659,17 @@ eric
 
 ## Veja a parte 2 dos Exmplos Úteis
 ### [Dicas úteis para Shell Script 2](http://terminalroot.com.br/2014/12/dicas-uteis-para-shell-script-2.html)
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### Mais infos e fontes:
  
