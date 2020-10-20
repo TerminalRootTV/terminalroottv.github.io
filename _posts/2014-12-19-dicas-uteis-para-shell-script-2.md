@@ -6,7 +6,7 @@ image: '/assets/img/shell-script/shell-script-logo.jpg'
 description: "Continuação de dicas úteis."
 tags:
 - shellscript
-- dicas
+- bash
 ---
 ![Dicas úteis para Shell Script 2](/assets/img/shell-script/shell-script-logo.jpg "Dicas úteis para Shell Script 2")
 
@@ -18,6 +18,16 @@ $ cat > condicao_ternaria.sh
 ping -c1 www.linux.org && echo 'Rede OK' || echo 'Rede Sujou.'
 EOF
 {% endhighlight %}
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 utilizando o __EOS__ e uma condição ternária com somente mensagens
 
@@ -70,6 +80,18 @@ echo ${VAR%.jpeg}
  
 > Saída: __minha_foto__
 
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Como podemos ver, "__.jpeg__" será excluído. Indicamos o que será excluído depois do caracter '__%__'.
 
 + Retirar da variável a parte inicial do valor dado
@@ -112,6 +134,18 @@ echo ${VAR#*@}
 > Saída: terminalroot
 
 Bom, aqui indicamos o caracter a ser deletado e tudo a sua esquerda, depois da string "#*".
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 + Elimina o caracter mostrado e tudo a DIREITA
 
@@ -179,6 +213,20 @@ echo ${VAR//:/-CC-}
  Saída: c1-CC-c2-CC-c3
 
 + Mostrar o comprimento da variável:
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
  
  VAR="tenho 19 caracteres"
  echo ${#VAR}
