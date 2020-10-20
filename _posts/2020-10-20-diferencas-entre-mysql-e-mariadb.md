@@ -60,7 +60,7 @@ data-ad-slot="5351066970"></ins>
 | 07 | Ele não suporta logs binários ou espaço de tabela temporário. | Ele suporta espaço de tabela temporário e criptografia binária. | 
 | 08 | Ele não pode lidar com dados de grande porte facilmente. | Ele pode lidar facilmente com dados de grande porte. | 
 | 09 | As verificações de privilégios não são tão rápidas no MySQL. | As verificações de privilégios são feitas mais rapidamente no MariaDB. | 
-| 10 | O MySQL tem 1.600 garfos. | MariaDB possui 868 garfos. | 
+| 10 | O MySQL tem 1.600 forks. | MariaDB possui 868 forks. | 
 | 11 | Empresas famosas como Airbnb, Pinterest, Slack, Udemy, Twitter usam MySQL. | Empresas famosas como CUNY, Accenture, Docplanner, Grooveshark, Northrop Grumman, usam MariaDB. | 
 | 12 | Os sistemas operacionais de servidor para MySQL são FreeBSD, Linux, OS X, Solaris, Windows, ou seja, OS X é compatível com MySQL como um servidor. | Os  sistemas operacionais de servidor são FreeBSD, Linux, Solaris, Windows, ou seja, OS X não é compatível com o MariaDB como servidor. | 
 
