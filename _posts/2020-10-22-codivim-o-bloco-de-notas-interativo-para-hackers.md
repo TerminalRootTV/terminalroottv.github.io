@@ -30,7 +30,7 @@ Linguagens com suporte integrado: [Python](https://terminalroot.com.br/2019/12/a
 
 # Instalação
 Para instalar use seu gerenciador de pacotes favoritos para o [Vim](https://terminalroot.com.br/vim/). Exemplo, utilizando o *Plug*:
-{% endhighlight viml %}
+{% highlight viml %}
 Plug 'metakirby5/codi.vim'
 {% endhighlight %}
 
