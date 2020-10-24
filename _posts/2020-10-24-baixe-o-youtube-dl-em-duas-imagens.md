@@ -3,7 +3,7 @@ layout: post
 title: "Baixe o Youtube-dl em Duas imagens"
 date: 2020-10-24 13:49:17
 image: '/assets/img/code/ytdl.jpg'
-description: 'Ferraram com o o Youtube-DL, mas nem tudo está perdido.'
+description: 'Ferraram com o Youtube-DL, mas nem tudo está perdido.'
 icon: 'openmoji:hacker-cat'
 iconname: 'youtube-dl'
 tags:
