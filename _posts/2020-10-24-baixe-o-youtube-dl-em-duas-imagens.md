@@ -31,7 +31,7 @@ convert -depth 8 ytdl2.png rgb:yt_dl2.part
 cat yt_dl1.part yt_dl2.part > yt_dl-2020.9.20.tar.gz
 ```
 
-Será gerado um arquivo [gzip]() e então é só descompactá-lo:
+Será gerado um arquivo [gzip](https://pt.wikipedia.org/wiki/Gzip) e então é só descompactá-lo:
 ```sh
 tar zxvf yt_dl-2020.9.20.tar.gz
 ```
@@ -60,6 +60,6 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Alternativamente você tem alguns repositórios em outras plataformas como [esse do GitLab]() , apesar de não estar tão atualizado como o das imagens.
+Alternativamente você tem alguns repositórios em outras plataformas como [esse do GitLab](https://gitlab.com/HacktorIT/youtube-dl) , apesar de não estar tão atualizado como o das imagens.
 
-Essa dia foi do [hacker](): [cat /dev/spooky](https://twitter.com/GalacticFurball/status/1319765986791157761)
+Essa dia foi do [hacker](https://terminalroot.com.br/tags#hacker): [cat /dev/spooky](https://twitter.com/GalacticFurball/status/1319765986791157761)
