@@ -63,3 +63,9 @@ data-ad-slot="5351066970"></ins>
 Alternativamente você tem alguns repositórios em outras plataformas como [esse do GitLab](https://gitlab.com/HacktorIT/youtube-dl) , apesar de não estar tão atualizado como o das imagens.
 
 Essa dica foi do [hacker](https://terminalroot.com.br/tags#hacker): [cat /dev/spooky](https://twitter.com/GalacticFurball/status/1319765986791157761)
+
+# # Links Úteis
++ <https://rawpixels.net/>
++ <https://en.wikipedia.org/wiki/AACS_encryption_key_controversy>
++ <http://decss.zoy.org/>
+
