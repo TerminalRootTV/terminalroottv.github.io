@@ -15,6 +15,16 @@ tags:
 
 A linha de comando no GNU/Linux é muito produtiva, útil e interessante, no entanto, às vezes pode ser muito perigoso, principalmente se tratando do usuário root, ou do usuário que pode assumir a maioria dos seus privilégios, o sudo. É necessário saber exatamente o que está fazendo. Esse artigo serve para alertá-los sobre alguns comandos do terminal, para não executá-los.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 # 1. rm -rf
 
@@ -44,6 +54,17 @@ A descrição acima é o fork bomb. Ele opera através da definição de uma fun
 
 
 # 3. comando > /dev/sda
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 O comando acima escreve a saída do 'comando' no bloco /dev/sda. O comando acima escreve dados brutos e todos os arquivos no bloco serão substituídos por dados brutos, resultando em perda total dos dados no bloco.
 
@@ -90,6 +111,18 @@ e redirecionar com 2 "maiores que", >> , se necessário, exemplo para um source.
 echo "link pacote deb" >> /etc/apt/source.list
 {% endhighlight %}
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 # 8. ^foo^bar
 
@@ -128,26 +161,26 @@ Este comando aqui mostra que a ameaça pode ser escondida e normalmente não det
 
 Veja um vídeo bem legal onde resume os 5 mais perigosos
 
-# [Clique Aqui para Ver o Vídeo](https://www.youtube.com/watch?v=-mDqHdIOjJM)
+# [Assista ao vídeo](https://www.youtube.com/watch?v=-mDqHdIOjJM)
+
+<iframe width="1234" height="694" src="https://www.youtube.com/embed/-mDqHdIOjJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 
 ## NÃO EXECUTE NENHUM COMANDO ACIMA, CASO QUEIRA TESTÁ-LOS, UTILIZE UM A MÁQUINA VIRTUAL PARA TESTES
 
 <sub>Via: http://www.tecmint.com/10-most-dangerous-commands-you-should-never-execute-on-linux/</sub>
 
+<!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <!-- Informat -->
 <ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
 
 
