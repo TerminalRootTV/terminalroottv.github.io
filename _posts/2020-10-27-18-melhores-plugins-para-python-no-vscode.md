@@ -85,17 +85,18 @@ Tecnicamente, Emmet não é uma extensão porque já está integrado ao VS Code 
 Emmet será seu melhor amigo se você estiver escrevendo muito HTML e CSS. Ele permite que você expanda abreviações simples em HTML completo, adiciona prefixos CSS e um monte de outras funções úteis (renomear uma tag, dentro/fora, ir para o par correspondente, etc.)
 
 Na verdade eu conheci esse plugin utilizando o [Vim](https://terminalroot.com.br/vim/), aliás foi lá que começou sua popularidade. Se você digitar:
-```html
+{% highlight html %}
 ul>li.list-item*3
-```
+{% endhighlight %}
+
 E depois pressionar ENTER, resultará em:
-```html
+{% highlight html %}
 <ul>
   <li class="list-item"></li>
   <li class="list-item"></li>
   <li class="list-item"></li>
 </ul>
-```
+{% endhighlight %}
 
 ---
 
