@@ -52,7 +52,7 @@ Em primeiro lugar - o plugin Python para VS Code. Por padrão, não há suporte 
 Se você está trabalhando com frameworks, geralmente existe um plugin que tornará sua vida mais fácil, como Django ou Flask. Eles trazem algumas melhorias adicionais para uma determinada estrutura, como:
 
 + Melhor destaque de sintaxe para arquivos específicos da estrutura (por exemplo, arquivos de modelo em Django que combinam HTML com tags Django)
-+ Trechos adicionais - especialmente úteis para os sistemas de modelos. Ser capaz de inserir loops e if-s com um atalho de duas letras sem abrir e fechar todas as tags {% é uma bênção!
++ Trechos adicionais - especialmente úteis para os sistemas de modelos. Ser capaz de inserir loops e if-s com um atalho de duas letras sem abrir e fechar todas as tags `{%` é uma bênção!
 + Suporte aprimorado para diferentes funções. Por exemplo, o plugin Django adiciona a capacidade de “Ir para a definição” a partir dos modelos.
 
 ---
