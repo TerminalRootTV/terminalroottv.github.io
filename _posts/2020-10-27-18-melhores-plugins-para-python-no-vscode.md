@@ -52,7 +52,7 @@ Em primeiro lugar - o plugin Python para VS Code. Por padrão, não há suporte 
 Se você está trabalhando com frameworks, geralmente existe um plugin que tornará sua vida mais fácil, como Django ou Flask. Eles trazem algumas melhorias adicionais para uma determinada estrutura, como:
 
 + Melhor destaque de sintaxe para arquivos específicos da estrutura (por exemplo, arquivos de modelo em Django que combinam HTML com tags Django)
-+ Trechos adicionais - especialmente úteis para os sistemas de modelos. Ser capaz de inserir loops e if-s com um atalho de duas letras sem abrir e fechar todas as tags `{%` é uma bênção!
++ Trechos adicionais - especialmente úteis para os sistemas de modelos. Ser capaz de inserir loops e if-s com um atalho de duas letras sem abrir e fechar todas as tags `\{\%` é uma bênção!
 + Suporte aprimorado para diferentes funções. Por exemplo, o plugin Django adiciona a capacidade de “Ir para a definição” a partir dos modelos.
 
 ---
@@ -103,9 +103,9 @@ E depois pressionar ENTER, resultará em:
 # [Autodocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 ![05](/assets/img/python/vscode/05.gif)
 
-Este plug-in acelera a escrita da documentação do Python, gerando alguns dos padrões para você.
+Este plugin acelera a escrita da documentação do Python, gerando alguns dos padrões para você.
 
-Escreva uma assinatura de função, digite `"""` para iniciar a docstring, pressione Enter e este plug-in faz o resto. Ele se encarregará de copiar os argumentos da assinatura da função para os documentos. E se você adicionar tipos aos seus argumentos, irá reconhecê-los e colocá-los no lugar correto na documentação.
+Escreva uma assinatura de função, digite `"""` para iniciar a docstring, pressione Enter e este plugin faz o resto. Ele se encarregará de copiar os argumentos da assinatura da função para os documentos. E se você adicionar tipos aos seus argumentos, irá reconhecê-los e colocá-los no lugar correto na documentação.
 
 ---
 
