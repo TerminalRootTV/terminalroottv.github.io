@@ -60,6 +60,7 @@ n
 y
 sudo mysql -u root -p
 123456
+
 {% endhighlight %}
 
 # Parte 3 - Conectar sem o sudo
@@ -85,6 +86,7 @@ mysql -u root -p
 Enter password:
 
 MariaDB [(none)]> 
+
 {% endhighlight %}
 
 <!-- MINI ANÚNCIO -->
@@ -99,7 +101,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 # Parte 4 - Testar conexão do PHP ao MariaDB/MySQL com PDO
-{% endhighlight %}php
+{% highlight php %}
 
 <?php
 
