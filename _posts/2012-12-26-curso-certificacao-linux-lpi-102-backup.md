@@ -18,6 +18,16 @@ __Comprimir__ dados destina-se também a retirar a redundância, baseando-se que
 Alguns compactadores de arquivos:
  
 ![Blog Linux](/assets/img/lpi/compactadores-linux.jpg "Blog Linux")
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
  
 ## TAR
 > MIME:  __application/x-tar__
@@ -50,6 +60,17 @@ __Não confundir com o formato ZIP__.
 > Formato de compactação de arquivos, muito utilizado em sistemas __Unix-Like__.
 
 ## COMPACTAÇÃO
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Compactando arquivos .tar
 
@@ -91,6 +112,18 @@ rar a arquivo.rar [arquivo ou pasta]
 {% highlight bash %}
 zip -r arquivo.zip [arquivo ou pasta]
 {% endhighlight %}
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DESCOMPACTAÇÃO
 
@@ -137,6 +170,19 @@ unzip arquivo.zip
 > O comando __dd__ é um clássico dos ambientes [Unix-Like](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=unix), com ele você pode fazer uma __cópia exata__ de um arquivo, ou seja uma __cópia bit a bit__. 
 
 ### Sintaxe básica
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > dd if=origem of=destino
 
@@ -195,6 +241,17 @@ Para zerar (formatar) o seu HD (use com cuidado!)
 dd if=/dev/zero of=/dev/hda
 {% endhighlight %}
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Gerar senhas de forma (pseudo) aleatória
 {% highlight bash %}
 dd if=/dev/random bs=2 count=6 | base64 -
@@ -206,19 +263,7 @@ r2KWFW83e9nTniVR
 
 Para automatizar tarefas, você pode utilizar o Cron e Crontab.
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<!-- Informat -->
-<ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 
