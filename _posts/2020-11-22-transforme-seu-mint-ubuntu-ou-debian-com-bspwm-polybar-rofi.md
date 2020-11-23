@@ -73,7 +73,7 @@ data-ad-slot="5351066970"></ins>
 
 # Quer aprender [Shell Script](https://terminalroot.com.br/shell) ?
 E criar scripts similares ao [aptporn](https://github.com/terroo/aptporn) ? Aproveite a promoção da [Black Friday](https://terminalroot.com.br/promo) e consiga descontos de até 100 reais para todos os cursos. Clique no link e saiba mais:
-# https://terminalroot.com.br/promo/
+# <https://terminalroot.com.br/promo/>
 
 
 
