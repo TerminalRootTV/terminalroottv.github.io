@@ -1,3 +1,12 @@
+---
+layout: page
+title: "ncurses - Guia de Utilização"
+permalink: "/ncurses/"
+description: 'A melhor biblioteca para TUI'
+image: '/assets/img/cpp/ncurses.jpg'
+---
+
+![{{ page.title }}]({{ page.image }})
 # COMO PROGRAMAR COM NCURSES
 + <https://terminalroot.com.br/ncurses/>
 + <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/>
