@@ -476,5 +476,5 @@ Todas essas funções recebem a coordenada y primeiro e depois x em seus argumen
 # CHEAT SHEET NCURSES
 
 <style>
-.pagina { text-align: left; }
+div.pagina p { text-align: left; color: red; }
 </style>
