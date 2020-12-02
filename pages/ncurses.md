@@ -1,12 +1,6 @@
----
-layout: page
-title: "ncurses - Guia de Utilização"
-permalink: "/ncurses/"
-description: 'A melhor biblioteca para TUI'
-image: '/assets/img/cpp/ncurses.jpg'
----
-
-![{{ page.title }}]({{ page.image }})
+# COMO PROGRAMAR COM NCURSES
++ <https://terminalroot.com.br/ncurses/>
++ <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/>
 
 ---
 
@@ -226,19 +220,22 @@ Bem-vindo ao mundo das `ncurses`. Antes de mergulharmos na biblioteca e examinar
 ## 2.1. Compilando com a Biblioteca NCURSES
 Para usar as funções da biblioteca `ncurses`, você deve incluir `<ncurses.h>` em seus programas. Para vincular o programa com ncurses, os sinalizadores `-lncurses` e `ltinfo` devem ser adicionados.
 + Exemplo de um `Hello, World!`
+
+
 ```cpp
 #include <ncurses.h>
 
 int main(){	
-	initscr();			
-	printw("Hello World !!!");	
-	refresh();			
-	getch();			
-	endwin();			
+  initscr();			
+  printw("Hello World !!!");	
+  refresh();			
+  getch();			
+  endwin();			
 
-	return 0;
+  return 0;
 }
 ```
+
 > Para compilar: `g++ helloworld.cpp -o helloworld.o -lncurses -ltinfo`
 > 
 > E então rode: `./helloworld.o`
