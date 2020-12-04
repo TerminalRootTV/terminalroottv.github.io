@@ -3,7 +3,7 @@ layout: post
 title: "Como Instalar o PHP 8 no Ubuntu 20.04"
 date: 2020-12-04 14:52:57
 image: '/assets/img/php/php-8.jpg'
-description:
+description: 'Este artigo mostrará como instalar o PHP 8 no Ubuntu 20.04 e integrá-lo ao Apache.'
 icon: 'cib:php'
 iconname: 'php'
 tags:
