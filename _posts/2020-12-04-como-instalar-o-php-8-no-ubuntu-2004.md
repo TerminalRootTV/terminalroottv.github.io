@@ -103,7 +103,7 @@ Para testar se o servidor da web está configurado corretamente para processamen
   phpinfo();
 ```
 
-![PHP 8 Apache Ubuntu](/assets/img/php/php8.jpg)
+![PHP 8 Apache Ubuntu](/assets/img/php/php8-apache.jpg)
 
 # Conclusão
 Instalar o PHP 8 no servidor Ubuntu 20.04 é uma tarefa simples. Tudo que você precisa fazer é habilitar o repositório "`ondrej/php`" e instalar o **PHP 8** com `apt`.
