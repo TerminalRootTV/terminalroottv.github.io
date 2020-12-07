@@ -30,7 +30,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 {% highlight bash %}
-pacman -S lightdm lightdm-gtk-greeter lightdm-webkit2-greeter git wget
+pacman -S lightdm lightdm-webkit2-greeter wget
 {% endhighlight %}
 
 Após isso é necessário configurar o *greeter* para o LightDM: `sudo vim /etc/lightdm/lightdm.conf` , procure a linha que tem a palavra: `greeter-session` e defina o valor para: `lightdm-webkit2-greeter`.
@@ -44,16 +44,16 @@ E reinicie seu PC. Após reiniciar o LightDM já será incializado e com o tema 
 # Alterar o tema do WebKit2
 Para alterar para o tema [Glorious](https://github.com/manilarome/lightdm-webkit2-theme-glorious), primeiro faça o download do tema com o comando:
 {% highlight bash %}
-curl https://git.io/webkit2 -o lightdm-webkit2-theme-glorious-2.0.5.tar.gz
+wget git.io/webkit2 -O tema.tar.gz
 {% endhighlight %}
 
 Crie um diretório para que os arquivos após descopactados não fiquem espalhados:
 {% highlight bash %}
 mkdir glorious
-mv lightdm-webkit2-theme-glorious* glorious/
+mv tema.tar.gz glorious/
 cd glorious
-tar zxvf lightdm-webkit2-*
-rm lightdm-webkit2-theme-glorious-2.0.5.tar.gz
+tar zxvf tema.tar.gz
+rm tema.tar.gz
 cd ..
 {% endhighlight %}
 
