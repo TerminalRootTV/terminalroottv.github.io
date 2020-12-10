@@ -113,6 +113,9 @@ Show esse guia rápido, né?!
 
 Compartilhe esse artigo!
 
+# Página oficial do tldr
+## <https://tldr.sh/>
+
 # Fui!
 
 
