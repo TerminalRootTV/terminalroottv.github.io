@@ -3,7 +3,7 @@ layout: post
 title: "Como Instalar Pacotes do AUR via Yay no Arch Linux"
 date: 2020-12-23 14:47:16
 image: '/assets/img/distros/aur-yay-archlinux.jpg'
-description: 'Instale facilmente pacotes que ainda não está no repositório oficial.'
+description: 'Instale facilmente pacotes que ainda não estão no repositório oficial.'
 icon: 'grommet-icons:archlinux'
 iconname: 'archlinux'
 tags:
