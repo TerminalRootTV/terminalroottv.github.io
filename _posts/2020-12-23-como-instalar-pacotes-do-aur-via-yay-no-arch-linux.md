@@ -29,7 +29,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 # Como instala o AUR ?
-Antes de qualquer coisa você precisa possuir as ferramentas de contrução, e para isso instale o pacote `base-devel` se não tiver instalado:
+Antes de qualquer coisa você precisa possuir as ferramentas de construção, e para isso instale o pacote `base-devel` se não tiver instalado:
 {% highlight bash %}
 sudo pacman -S --needed base-devel
 {% endhighlight %}
@@ -73,10 +73,10 @@ makepkg -si
 {% endhighlight %}
 > Lembrando que antes precisa do [base-devel](https://archlinux.org/groups/x86_64/base-devel/) como informado acima. Durante a instalação ele pedirá sua senha de `sudo` para copiar o binário para um caminho do sistema que está na variável `$PATH`.
 
-Daí em diante é melzinho na chupeta!
+Daí em diante é melzinho na chupeta! 🍺 
 
 Para instalar qualquer coisa é só rodar o comando `yay` com o parâmetro `-S` similar ao *pacman* e informar o nome do pacote.
-> Lembrando que ele possui auto-complete, logo fica fácil identificar se o pacote existe só teclando TAB ao digitar as primiras letras do nome, diminuindo a necessidade de ir até o endereço do AUR. Show, né ?!
+> Lembrando que ele possui auto-complete, logo, fica mais fácil identificar se o pacote existe só teclando TAB ao digitar as primiras letras do nome, diminuindo a necessidade de ir até o endereço do AUR. Show, né ?!
 
 Exemplo de novo com o pacote fictício `terminalroot`
 {% highlight bash %}
