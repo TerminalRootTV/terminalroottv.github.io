@@ -119,7 +119,7 @@ yay -S wf-shell
 > `vim ~/.config/wf-shell.ini`
 {% highlight bash %}
 [background]
-image = /home/SEU_USER/caminho/para/imagem.jpg
+ image = /home/SEU_USER/caminho/para/imagem.jpg
 {% endhighlight %}
 > Não use atalho: ~~`~/imagem.jpg`~~ . Caso queira um exemplo completo com configurações pré-definidas e com explicações como comentário no próprio arquivo, baixe o arquivo: `wf-shell.ini.example`
 {% highlight bash %}
