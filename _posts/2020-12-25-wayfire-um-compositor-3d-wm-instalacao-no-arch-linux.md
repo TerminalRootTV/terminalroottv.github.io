@@ -80,7 +80,7 @@ mkdir -p ~/.config/wofi
 vim .config/wofi/config
 {% endhighlight %}
 Insira essas cores de exemplo inicial
-{% endhighlight %}css
+{% highlight css %}
 window {
 color: #A9B1BD;
 background-color: #2D3037;
@@ -156,7 +156,7 @@ yay -S wlogout
 
 ### 6. Plugins
 Para ativar um plugin adicione ao `wayfire.ini`, exemplo adicionando o [Cube](https://github.com/WayfireWM/wayfire/wiki/Configuration#cube) . Inisira o nome do plugin e use `activate` e escolha uma combinação de tecla para iniciá-lo
-{% endhighlight %}ini
+{% highlight ini %}
 [cube]
 activate = <super> <alt> BTN_LEFT
 {% endhighlight %}
