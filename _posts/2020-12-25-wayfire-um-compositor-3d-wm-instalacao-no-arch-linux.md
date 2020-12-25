@@ -99,7 +99,7 @@ background-color: #2D3037;
 Se você tiver o [Firefox](https://terminalroot.com.br/2020/08/como-abrir-arquivos-markdown-com-extensao-md-no-firefox.html) instalado e não conseguir abrir, confgure o arquivo de abertura do Firefox da seguinte forma:
 + Abra o arquivo
 {% highlight bash %}
-sudo vim $(which fierfox)
+sudo vim $(which firefox)
 {% endhighlight %}
 Adicione a linha com esse conteúdo: `export MOZ_ENABLE_WAYLAND=1` e deixe-o assim:
 {% highlight bash %}
