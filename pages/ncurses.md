@@ -660,4 +660,5 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 
 <style>
 div.pagina p { text-align: left; }
+hr {border: 1px dotted silver; }
 </style>
