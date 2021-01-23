@@ -625,7 +625,7 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 | `COLOR_CYAN` | 6
 | `COLOR_WHITE` | 7
 
----
+
 
 ## Funções de Janelas
 | Funções | Descrição |
