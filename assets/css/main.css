@@ -1,7 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/7234adf2685474c81e28858c37d40610?family=Whitney);
 @font-face {
   font-family: Dosis;
   src: url(../fonts/dosis.otf);
+}
+
+@font-face {
+  font-family: Whitney;
+  src: url(../fonts/whitneybold.otf);
 }
 
 html {
