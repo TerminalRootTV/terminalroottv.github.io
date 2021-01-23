@@ -499,34 +499,146 @@ int main( int argc, char ** argv ){
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 # CHEAT SHEET NCURSES
+
+## Funções de inicialização
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **initscr()** | Inicializa o terminal no modo cursor. Ele deve ser chamado primeiro para fazer qualquer manipulação com o pacote ncurses.
+| **refresh()** | Diz ao sistema curses para descarregar o conteúdo da tela. Ele verifica a janela e atualiza apenas a parte que foi alterada.
+| **wrefresh()** | Diz ao sistema curses para descarregar o conteúdo da janela fornecida. Ele verifica a janela fornecida e atualiza apenas a parte que foi alterada.
+| **endwin()** | Termina o modo de cursor do terminal.
+| **raw()** | Desativar buffer embutido. Os caracteres de controle são passados diretamente para o programa sem gerar um sinal.
+| **cbreak()** | Desativa o buffer embutido. Os caracteres de controle são interpretados como qualquer outro caractere pelo driver de terminal.
+| **echo()** | Ligue o eco. |
+| **noecho()** | Desative o eco. |
+| **keypad(stdscr, TRUE)** | Habilita a leitura das teclas de função.
+| **halfdelay()** | Habilita o modo de meio-retardo, ele espera por 'X' décimos de segundo pela entrada e retorna **ERR**, se nenhuma entrada estiver disponível |
+
+## Funções diversas
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **clear()** | Limpa a janela stdscr. |
+| **wclear()** | Limpa a janela fornecida. |
+| **move(y, x)** | Mova o cursor para a posição x, y na janela.
+| **wmove(win, y, x)** | Mova o cursor para a posição x, y na janela fornecida. |
+| **getmaxyx(stdscr, y, x)** | Obter os limites da tela, ou seja, o número de linhas e colunas |
+| **getyx(stdscr, y, x)** | Obtenha a posição atual do cusor |
+
+## Funções de saída
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **addch()** | Imprime um caractere com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
+| **mvaddch()** | Mova o cursor para uma determinada posição e imprima como por **addch()** .
+| **waddch()** | Imprime um caractere como por **addch()**, mas na janela fornecida.
+| **mvwaddch()** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **addch()**, mas na janela fornecida.
+| **printw()** | Imprime semelhante a **printf()**, mas em qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
+| **mvprintw()** | Mova o cursor para uma determinada posição e depois imprima como por **printw()** .
+| **wprintw()** | Imprime como em **printw()**, mas na janela fornecida.
+| **mvwprintw()** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **printw()**, mas para a janela fornecida.
+| **addstr()** | Imprime uma cadeia de caracteres com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
+| **mvaddstr()** | Mova o cursor para uma determinada posição e imprima como por **addstr()** .
+| **waddstr()** | Imprime uma cadeia de caracteres como em **addstr()**, mas na janela fornecida.
+| **mvwaddstr()** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **addstr()**, mas na janela fornecida.
+
+## Funções de entrada
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **getch()** | Insira um caractere com os atributos fornecidos da posição atual do cursor e avance a posição do cursor. |
+| **mvgetch()** | Mova o cursor para uma determinada posição e insira como por **getch()** .
+| **whetch()** | Insira um caractere como **getch()**, mas a partir da janela fornecida.
+| **mvwgetch()** | Mova o cursor para uma determinada posição e, em seguida, insira como por **getch()**, mas na janela fornecida.
+| **scanw()** | Recebe entrada semelhante a **scanf()**, mas de qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
+| **mvscanw()** | Mova o cursor para uma determinada posição e insira como por **scanw()** .
+| **wscanw()** | Recebe entrada como por **scanw()**, mas da janela fornecida.
+| **mvwscanw()** | Mova o cursor para uma determinada posição e, em seguida, insira como por **scanw()**, mas a partir da janela fornecida.
+| **getstr()** | Insira uma cadeia de caracteres com os atributos fornecidos a partir da posição atual do cursor e avance a posição do cursor. |
+| **mvgetstr()** | Mova o cursor para uma determinada posição e insira como por **getstr()** .
+| **wgetstr()** | Insira uma cadeia de caracteres como em **getstr()**, mas a partir da janela fornecida.
+| **mvwgetstr()** | Mova o cursor para uma determinada posição e insira como por **getstr()** mas a partir da janela fornecida.
+
+## Funções de Atributo
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **attron()** | Alterna os atributos dados a ele. |
+| **wattron()** | Ativa **o(s)** **atributo(s)** **fornecido(s)** a ele, na janela fornecida.
+| **attrset()** | Sobrescreve totalmente quaisquer atributos que a janela tinha anteriormente e os define para os novos atributos. |
+| **wattrset()** | Substitui totalmente quaisquer atributos que a janela fornecida tinha anteriormente e os define como os novos atributos.
+| **attroff()** | Desativa os atributos dados a ele. |
+| **wattroff()** | Desativa o(s) **atributo(s)** fornecido(s) a ele, na janela fornecida.
+| **standend()** | Desativa todos os atributos e leva você ao modo normal. |
+| **attr_get()** | Obtém os atributos atuais e o par de cores da janela. |
+| **wattr_get()** | Obtém os atributos atuais e o par de cores da janela fornecida.
+| **chgat()** | Altere **atributo(s)** para caracteres que já estão na tela. |
+| **mvchgat()** | Mova o cursor para a posição fornecida e, em seguida, execute o trabalho como por **chgat()** .
+| **wchgat()** | Realiza o trabalho feito por **chgat()** na janela fornecida. |
+| **mvwchgat()** | Mova o cursor para a posição fornecida e execute o trabalho como por **chgat()** na janela fornecida.
+
+## Lista de Atributos
+
+Podemos **OR**(`|`) qualquer número dos atributos acima para obter um efeito combinado.
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **A_NORMAL** | Exibição **normal(sem destaque)** .
+| **A_STANDOUT** | Melhor modo de destaque do terminal.
+| **A_UNDERLINE** | Sublinhado.
+| **A_REVERSE** | Vídeo reverso.
+| **A_BLINK** | Piscando.
+| **A_DIM** | Meio brilhante.
+| **A_BOLD** | Extra brilhante ou negrito.
+| **A_PROTECT** | Modo protegido.
+| **A_INVIS** | Modo invisível ou em branco.
+| **A_ALTCHARSET** | Conjunto de caracteres alternativos.
+| **A_CHARTEXT** | Máscara de bits para extrair um caractere.
+| **COLOR_PAIR**(n) | Número do par de cores n. |
+
+## Funções de cor
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **start_color()** | Precisa ser chamado antes de usar cores.
+| **has_colors()** | Verifique se o terminal tem recursos de cores.
+| **init_pair()** | Inicie um número de par de cores n com cor de primeiro e segundo plano, que pode ser usado em **COLOR_PAIR**(n).
+| **init_color()** | Altere os valores rgb para as cores definidas por curses inicialmente.
+| **can_change_color()** | Verifique se o terminal tem capacidade de mudar de cor.
+
+## Colors
+
+As seguintes cores são definidas em curses.h. Você pode usá-los como parâmetros para várias funções de cores.
+
+| Cores | Código |
+| ------------- | ------------- |
+| **COLOR_BLACK** | 0 |
+| **COLOR_RED** | 1 |
+| **COLOR_GREEN** | 2 |
+| **COLOR_YELLOW** | 3 |
+| **COLOR_BLUE** | 4
+| **COLOR_MAGENTA** | 5 |
+| **COLOR_CYAN** | 6
+| **COLOR_WHITE** | 7
+
+## Funções de Janelas
+
+| Funções | Descrição |
+| ------------- | ------------- |
+| **box()** | Desenhe uma borda ao redor das janelas.
+| **newwin()** | Cria uma nova janela.
+| **create_newwin()** | Cria uma nova janela com **newwin()** e exibe uma borda ao redor com **box()** .
+| **delwin()** | Desalocar memória relacionada à janela.
+| **destroy_win()** | Apaga a janela da tela a dn e a exclui chamando **delwin()** |
+| **wborder()** | Desenha uma borda ao redor da janela pelos caracteres fornecidos a ela.
+
+
+
+> Essa página ainda está incompleta, o capítulo 7(8 tldp) e demais ainda serão adicionados a partir [daqui](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/attrib.html).
 
 <style>
 div.pagina p { text-align: left; }
