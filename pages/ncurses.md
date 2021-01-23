@@ -620,7 +620,7 @@ Podemos **`OR`**(`|`) qualquer número dos atributos acima para obter um efeito 
 | ------------- | ------------- |
 | **`start_color()`** | Precisa ser chamado antes de usar cores.
 | **`has_colors()`** | Verifique se o terminal tem recursos de cores.
-| **`init_pair()`** | Inicie um número de par de cores n com cor de primeiro e segundo plano, que pode ser usado em **`COLOR_PAIR**(n).
+| **`init_pair()`** | Inicie um número de par de cores n com cor de primeiro e segundo plano, que pode ser usado em **`COLOR_PAIR`**(n).
 | **`init_color()`** | Altere os valores rgb para as cores definidas por curses inicialmente.
 | **`can_change_color()`** | Verifique se o terminal tem capacidade de mudar de cor.
 
