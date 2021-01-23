@@ -610,7 +610,7 @@ Podemos **`OR**(`|`) qualquer número dos atributos acima para obter um efeito c
 | **`A_INVIS`** | Modo invisível ou em branco.
 | **`A_ALTCHARSET`** | Conjunto de caracteres alternativos.
 | **`A_CHARTEXT`** | Máscara de bits para extrair um caractere.
-| **`COLOR_PAIR**(n) | Número do par de cores n. |
+| **`COLOR_PAIR`**(n) | Número do par de cores n. |
 
 ---
 
