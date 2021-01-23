@@ -595,7 +595,7 @@ int main( int argc, char ** argv ){
 
 ## Lista de Atributos
 
-Podemos **`OR**(`|`) qualquer número dos atributos acima para obter um efeito combinado.
+Podemos **`OR`**(`|`) qualquer número dos atributos acima para obter um efeito combinado.
 
 | Funções | Descrição |
 | ------------- | ------------- |
