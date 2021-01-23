@@ -444,7 +444,60 @@ Todas essas funções recebem a coordenada y primeiro e depois x em seus argumen
 ---
 
 # 6. Funções de entrada 
-<https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/scanw.html>
+Classes:
++ `getch()`: Obtenha um caractere
++ `scanw()`: Obtenha uma entrada formatada
++ `getstr()`: Obtenha *strings*
+
+## 6.1. classe de funções `getch()`
+Essas funções lêem um único caractere do terminal. Mas existem vários fatos sutis a serem considerados. Por exemplo, se você não usar a função `cbreak()`, ncurses não irá ler seus caracteres de entrada de forma contígua, mas começarão a lê-los somente depois que uma nova linha ou um **EOF** for encontrado. Para evitar isso, a função `cbreak()` deve ser usada para que os caracteres estejam imediatamente disponíveis para seu programa. Outra função amplamente usada é `noecho()`. Como o nome sugere, quando esta função é configurada (utilizada), os caracteres que são digitados pelo usuário não aparecem na tela. As duas funções `cbreak()` e `noecho()` são exemplos típicos de gerenciamento de chaves.
+
+6.2. classe de funções `scanw()`
+Essas funções são semelhantes a `scanf()` com a capacidade adicional de obter a entrada de qualquer local da tela.
+
+### 6.2.1. `scanw()` e mvscanw
+O uso dessas funções é semelhante ao de `sscanf()` , onde a linha a ser verificada é fornecida pela função `wgetstr()` . Ou seja, essas funções chamam a função `wgetstr()` (explicada abaixo) e usa a linha resultante para uma varredura.
+
+6.2.2. `wscanw()` e `mvwscanw()`
+Essas funções são semelhantes às duas funções acima, exceto pelo fato de serem lidas em uma janela, que é fornecida como um dos argumentos para essas funções.
+
+### 6.2.3. `vwscanw()`
+Esta função é semelhante a `vscanf()` . Isso pode ser usado quando um número variável de argumentos deve ser verificado.
+
+### 6.3. `getstr()` classe de funções
+Essas funções são usadas para obter strings do terminal. Em essência, essa função executa a mesma tarefa que seria realizada por uma série de chamadas para `getch()` até que uma nova linha, retorno de carro ou fim de arquivo seja recebido. A seqüência de caracteres resultante é apontada por str , que é um ponteiro de caractere fornecido pelo usuário.
+7,4 Alguns exemplos
+
+#### Exemplo 4. Um exemplo de varredura simples
+```cpp
+#include <ncurses.h>
+#include <string.h>
+
+int main( int argc, char ** argv ){
+
+    // Mensagem aparece na tela
+    char mesg[]="Digite uma mensagem: ";
+    char str[80];
+
+    // para armazenar o número de linhas e o número de colunas da tela
+    int row,col;
+
+    // inicia a ncurses
+    initscr();
+
+    // obtém o número de linhas e colunas
+    getmaxyx(stdscr,row,col);
+
+    // imprime a mensagem no centro da tela
+    mvprintw(row/2,(col-strlen(mesg))/2,"%s",mesg);
+    getstr(str);
+    mvprintw(LINES - 2, 0, "You Entered: %s", str);
+    getch();
+    endwin();
+
+    return 0;
+}
+```
 
 
 
