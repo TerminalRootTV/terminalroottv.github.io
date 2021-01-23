@@ -518,7 +518,7 @@ int main( int argc, char ** argv ){
 | **`echo()`** | Ligue o eco. |
 | **`noecho()`** | Desative o eco. |
 | **`keypad(stdscr, TRUE)`** | Habilita a leitura das teclas de função.
-| **`halfdelay()`** | Habilita o modo de meio-retardo, ele espera por 'X' décimos de segundo pela entrada e retorna **`ERR**, se nenhuma entrada estiver disponível |
+| **`halfdelay()`** | Habilita o modo de meio-retardo, ele espera por 'X' décimos de segundo pela entrada e retorna **`ERR`**, se nenhuma entrada estiver disponível |
 
 ---
 
@@ -542,7 +542,7 @@ int main( int argc, char ** argv ){
 | **`addch()`** | Imprime um caractere com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
 | **`mvaddch()`** | Mova o cursor para uma determinada posição e imprima como por **`addch()`** .
 | **`waddch()`** | Imprime um caractere como por **`addch()**, mas na janela fornecida.
-| **`mvwaddch()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addch()**, mas na janela fornecida.
+| **`mvwaddch()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addch()`**, mas na janela fornecida.
 | **`printw()`** | Imprime semelhante a **`printf()**, mas em qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
 | **`mvprintw()`** | Mova o cursor para uma determinada posição e depois imprima como por **`printw()`** .
 | **`wprintw()`** | Imprime como em **`printw()**, mas na janela fornecida.
@@ -550,7 +550,7 @@ int main( int argc, char ** argv ){
 | **`addstr()`** | Imprime uma cadeia de caracteres com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
 | **`mvaddstr()`** | Mova o cursor para uma determinada posição e imprima como por **`addstr()`** .
 | **`waddstr()`** | Imprime uma cadeia de caracteres como em **`addstr()**, mas na janela fornecida.
-| **`mvwaddstr()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addstr()**, mas na janela fornecida.
+| **`mvwaddstr()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addstr()`**, mas na janela fornecida.
 
 ---
 
@@ -561,11 +561,11 @@ int main( int argc, char ** argv ){
 | **`getch()`** | Insira um caractere com os atributos fornecidos da posição atual do cursor e avance a posição do cursor. |
 | **`mvgetch()`** | Mova o cursor para uma determinada posição e insira como por **`getch()`** .
 | **`whetch()`** | Insira um caractere como **`getch()**, mas a partir da janela fornecida.
-| **`mvwgetch()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`getch()**, mas na janela fornecida.
+| **`mvwgetch()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`getch()`**, mas na janela fornecida.
 | **`scanw()`** | Recebe entrada semelhante a **`scanf()**, mas de qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
 | **`mvscanw()`** | Mova o cursor para uma determinada posição e insira como por **`scanw()`** .
 | **`wscanw()`** | Recebe entrada como por **`scanw()**, mas da janela fornecida.
-| **`mvwscanw()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`scanw()**, mas a partir da janela fornecida.
+| **`mvwscanw()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`scanw()`**, mas a partir da janela fornecida.
 | **`getstr()`** | Insira uma cadeia de caracteres com os atributos fornecidos a partir da posição atual do cursor e avance a posição do cursor. |
 | **`mvgetstr()`** | Mova o cursor para uma determinada posição e insira como por **`getstr()`** .
 | **`wgetstr()`** | Insira uma cadeia de caracteres como em **`getstr()**, mas a partir da janela fornecida.
@@ -578,15 +578,15 @@ int main( int argc, char ** argv ){
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`attron()`** | Alterna os atributos dados a ele. |
-| **`wattron()`** | Ativa **`o(s)`** **`atributo(s)`** **`fornecido(s)`** a ele, na janela fornecida.
+| **`wattron()`** | Ativa **o(s)** **atributo(s)** **fornecido(s`** a ele, na janela fornecida.
 | **`attrset()`** | Sobrescreve totalmente quaisquer atributos que a janela tinha anteriormente e os define para os novos atributos. |
 | **`wattrset()`** | Substitui totalmente quaisquer atributos que a janela fornecida tinha anteriormente e os define como os novos atributos.
 | **`attroff()`** | Desativa os atributos dados a ele. |
-| **`wattroff()`** | Desativa o(s) **`atributo(s)`** fornecido(s) a ele, na janela fornecida.
+| **`wattroff()`** | Desativa o(s) **atributo(s)** fornecido(s) a ele, na janela fornecida.
 | **`standend()`** | Desativa todos os atributos e leva você ao modo normal. |
 | **`attr_get()`** | Obtém os atributos atuais e o par de cores da janela. |
 | **`wattr_get()`** | Obtém os atributos atuais e o par de cores da janela fornecida.
-| **`chgat()`** | Altere **`atributo(s)`** para caracteres que já estão na tela. |
+| **`chgat()`** | Altere **atributo(s)** para caracteres que já estão na tela. |
 | **`mvchgat()`** | Mova o cursor para a posição fornecida e, em seguida, execute o trabalho como por **`chgat()`** .
 | **`wchgat()`** | Realiza o trabalho feito por **`chgat()`** na janela fornecida. |
 | **`mvwchgat()`** | Mova o cursor para a posição fornecida e execute o trabalho como por **`chgat()`** na janela fornecida.
@@ -599,7 +599,7 @@ Podemos **`OR`**(`|`) qualquer número dos atributos acima para obter um efeito 
 
 | Funções | Descrição |
 | ------------- | ------------- |
-| **`A_NORMAL`** | Exibição **`normal(sem destaque)`** .
+| **`A_NORMAL`** | Exibição **normal(sem destaque)** .
 | **`A_STANDOUT`** | Melhor modo de destaque do terminal.
 | **`A_UNDERLINE`** | Sublinhado.
 | **`A_REVERSE`** | Vídeo reverso.
@@ -660,5 +660,5 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 
 <style>
 div.pagina p { text-align: left; }
-hr {border: 1px solid silver;margin-top: 10px; }
+hr {border: 1px solid #333; margin-top: 10px; }
 </style>
