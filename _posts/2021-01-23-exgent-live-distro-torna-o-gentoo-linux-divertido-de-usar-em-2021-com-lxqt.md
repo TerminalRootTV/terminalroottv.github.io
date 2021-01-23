@@ -5,7 +5,7 @@ date: 2021-01-23 02:17:46
 image: '/assets/img/gentoo/exgent2021.jpg'
 description: 'Fácil de instalar e com a robustez do Gentoo.'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'gentoo'
 tags:
 - gentoo
 - distros
