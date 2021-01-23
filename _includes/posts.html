@@ -6,9 +6,11 @@
     {% for post in site.posts limit:12 %}
     <div class="card bg-dark mb-3" style="min-width: 18rem;">
       {% if post.icon %}
-        <div class="card-header"><span class="iconify" data-icon="{{ post.icon | escape }}" data-inline="false" {{ post.color }}></span> {{ post.iconname }}</div>
+      <!--<div class="card-header"><span class="iconify" data-icon="{{ post.icon | escape }}" data-inline="false" {{ post.color }}></span> {{ post.iconname }}</div>-->
+        <div class="card-header">◉ {{ post.iconname }}</div>
       {% else %}
-        <div class="card-header"><span class="iconify" data-icon="flat-color-icons:linux" data-inline="false"></span> linux</div>
+      <!--<div class="card-header"><span class="iconify" data-icon="flat-color-icons:linux" data-inline="false"></span> linux</div>-->
+        <div class="card-header">◉ linux</div>
       {% endif %}
       <div class="card-body">
         <h5 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
