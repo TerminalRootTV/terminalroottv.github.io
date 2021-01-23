@@ -533,52 +533,58 @@ int main( int argc, char ** argv ){
 | **`getmaxyx(stdscr, y, x)`** | Obter os limites da tela, ou seja, o número de linhas e colunas |
 | **`getyx(stdscr, y, x)`** | Obtenha a posição atual do cusor |
 
+
 ---
 
-## Funções de saída(to adjust)
+
+## Funções de saída(2 adjust)
 
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`addch()`** | Imprime um caractere com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
 | **`mvaddch()`** | Mova o cursor para uma determinada posição e imprima como por **`addch()`** . |
-| **`waddch()`** | Imprime um caractere como por **`addch()**, mas na janela fornecida. |
+| **`waddch()`** | Imprime um caractere como por **`addch()`**, mas na janela fornecida. |
 | **`mvwaddch()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addch()`**, mas na janela fornecida. |
-| **`printw()`** | Imprime semelhante a **`printf()**, mas em qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
+| **`printw()`** | Imprime semelhante a **`printf()`**, mas em qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
 | **`mvprintw()`** | Mova o cursor para uma determinada posição e depois imprima como por **`printw()`** . |
-| **`wprintw()`** | Imprime como em **`printw()**, mas na janela fornecida. |
-| **`mvwprintw()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`printw()**, mas para a janela fornecida. |
+| **`wprintw()`** | Imprime como em **`printw()`**, mas na janela fornecida. |
+| **`mvwprintw()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`printw()`**, mas para a janela fornecida. |
 | **`addstr()`** | Imprime uma cadeia de caracteres com os atributos fornecidos na posição atual do cursor e avança a posição do cursor. |
 | **`mvaddstr()`** | Mova o cursor para uma determinada posição e imprima como por **`addstr()`** . |
-| **`waddstr()`** | Imprime uma cadeia de caracteres como em **`addstr()**, mas na janela fornecida. |
+| **`waddstr()`** | Imprime uma cadeia de caracteres como em **`addstr()`**, mas na janela fornecida. |
 | **`mvwaddstr()`** | Mova o cursor para uma determinada posição e, em seguida, imprima como por **`addstr()`**, mas na janela fornecida. |
+
 
 ---
 
-## Funções de entrada(to adjust)
+
+## Funções de entrada(2 adjust)
 
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`getch()`** | Insira um caractere com os atributos fornecidos da posição atual do cursor e avance a posição do cursor. |
 | **`mvgetch()`** | Mova o cursor para uma determinada posição e insira como por **`getch()`** . |
-| **`whetch()`** | Insira um caractere como **`getch()**, mas a partir da janela fornecida. |
+| **`whetch()`** | Insira um caractere como **`getch()`**, mas a partir da janela fornecida. |
 | **`mvwgetch()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`getch()`**, mas na janela fornecida. |
-| **`scanw()`** | Recebe entrada semelhante a **`scanf()**, mas de qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
+| **`scanw()`** | Recebe entrada semelhante a **`scanf()`**, mas de qualquer posição na janela, ou seja, a posição atual do cursor e avança a posição do cursor. |
 | **`mvscanw()`** | Mova o cursor para uma determinada posição e insira como por **`scanw()`** . |
-| **`wscanw()`** | Recebe entrada como por **`scanw()**, mas da janela fornecida. |
+| **`wscanw()`** | Recebe entrada como por **`scanw()`**, mas da janela fornecida. |
 | **`mvwscanw()`** | Mova o cursor para uma determinada posição e, em seguida, insira como por **`scanw()`**, mas a partir da janela fornecida. |
 | **`getstr()`** | Insira uma cadeia de caracteres com os atributos fornecidos a partir da posição atual do cursor e avance a posição do cursor. |
 | **`mvgetstr()`** | Mova o cursor para uma determinada posição e insira como por **`getstr()`** . |
-| **`wgetstr()`** | Insira uma cadeia de caracteres como em **`getstr()**, mas a partir da janela fornecida. |
+| **`wgetstr()`** | Insira uma cadeia de caracteres como em **`getstr()`**, mas a partir da janela fornecida. |
 | **`mvwgetstr()`** | Mova o cursor para uma determinada posição e insira como por **`getstr()`** mas a partir da janela fornecida. |
+
 
 ---
 
-## Funções de Atributo(to adjust)
+
+## Funções de Atributo(2 adjust)
 
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`attron()`** | Alterna os atributos dados a ele. |
-| **`wattron()`** | Ativa **o(s)** **atributo(s)** **fornecido(s`** a ele, na janela fornecida. |
+| **`wattron()`** | Ativa **o(s)** **atributo(s)** **fornecido(s)** a ele, na janela fornecida. |
 | **`attrset()`** | Sobrescreve totalmente quaisquer atributos que a janela tinha anteriormente e os define para os novos atributos. |
 | **`wattrset()`** | Substitui totalmente quaisquer atributos que a janela fornecida tinha anteriormente e os define como os novos atributos. |
 | **`attroff()`** | Desativa os atributos dados a ele. |
