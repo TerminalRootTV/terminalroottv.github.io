@@ -625,8 +625,9 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 | **COLOR_CYAN** | 6
 | **COLOR_WHITE** | 7
 
-## Funções de Janelas
+---
 
+## Funções de Janelas
 | Funções | Descrição |
 | ------------- | ------------- |
 | **box()** | Desenhe uma borda ao redor das janelas.
@@ -636,7 +637,7 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 | **destroy_win()** | Apaga a janela da tela a dn e a exclui chamando **delwin()** |
 | **wborder()** | Desenha uma borda ao redor da janela pelos caracteres fornecidos a ela.
 
-
+---
 
 > Essa página ainda está incompleta, o capítulo 7(8 tldp) e demais ainda serão adicionados a partir [daqui](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/attrib.html).
 
