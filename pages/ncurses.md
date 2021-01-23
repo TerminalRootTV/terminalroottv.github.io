@@ -509,8 +509,8 @@ int main( int argc, char ** argv ){
 
 | Funções | Descrição |
 | ------------- | ------------- |
-| `initscr()` | Inicializa o terminal no modo cursor. Ele deve ser chamado primeiro para fazer qualquer manipulação com o pacote ncurses.
-| `refresh()` | Diz ao sistema curses para descarregar o conteúdo da tela. Ele verifica a janela e atualiza apenas a parte que foi alterada.
+| **`initscr()`** | Inicializa o terminal no modo cursor. Ele deve ser chamado primeiro para fazer qualquer manipulação com o pacote ncurses.
+| `**refresh()**` | Diz ao sistema curses para descarregar o conteúdo da tela. Ele verifica a janela e atualiza apenas a parte que foi alterada.
 | `wrefresh()` | Diz ao sistema curses para descarregar o conteúdo da janela fornecida. Ele verifica a janela fornecida e atualiza apenas a parte que foi alterada.
 | `endwin()` | Termina o modo de cursor do terminal.
 | `raw()` | Desativar buffer embutido. Os caracteres de controle são passados diretamente para o programa sem gerar um sinal.
