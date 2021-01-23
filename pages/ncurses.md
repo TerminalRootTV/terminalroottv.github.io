@@ -537,7 +537,7 @@ int main( int argc, char ** argv ){
 ---
 
 
-## Funções de saída(2 adjust)
+## Funções de saída
 
 | Funções | Descrição |
 | ------------- | ------------- |
@@ -558,7 +558,7 @@ int main( int argc, char ** argv ){
 ---
 
 
-## Funções de entrada(2 adjust)
+## Funções de entrada
 
 | Funções | Descrição |
 | ------------- | ------------- |
@@ -579,7 +579,7 @@ int main( int argc, char ** argv ){
 ---
 
 
-## Funções de Atributo(2 adjust)
+## Funções de Atributo
 
 | Funções | Descrição |
 | ------------- | ------------- |
