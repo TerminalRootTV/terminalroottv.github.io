@@ -18,7 +18,8 @@
         <p class="card-text"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.description }}</a></p>
       </div>
       <div class="card-footer">
-        <small class="text-muted"><span class="iconify" data-icon="flat-color-icons:calendar" data-inline="false"></span> {{ post.date | date_to_string }}</small>
+        <!--<small class="text-muted"><span class="iconify" data-icon="flat-color-icons:calendar" data-inline="false"></span> {{ post.date | date_to_string }}</small>-->
+        <small class="text-muted">📅 {{ post.date | date_to_string }}</small>
       </div>
     </div>
     {% endfor %}
