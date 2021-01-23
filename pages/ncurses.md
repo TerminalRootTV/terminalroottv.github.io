@@ -503,6 +503,8 @@ int main( int argc, char ** argv ){
 
 # CHEAT SHEET NCURSES
 
+---
+
 ## Funções de inicialização
 
 | Funções | Descrição |
@@ -518,6 +520,8 @@ int main( int argc, char ** argv ){
 | `keypad(stdscr, TRUE)` | Habilita a leitura das teclas de função.
 | `halfdelay()` | Habilita o modo de meio-retardo, ele espera por 'X' décimos de segundo pela entrada e retorna **ERR**, se nenhuma entrada estiver disponível |
 
+---
+
 ## Funções diversas
 
 | Funções | Descrição |
@@ -528,6 +532,8 @@ int main( int argc, char ** argv ){
 | `wmove(win, y, x)` | Mova o cursor para a posição x, y na janela fornecida. |
 | `getmaxyx(stdscr, y, x)` | Obter os limites da tela, ou seja, o número de linhas e colunas |
 | `getyx(stdscr, y, x)` | Obtenha a posição atual do cusor |
+
+---
 
 ## Funções de saída
 
@@ -546,6 +552,8 @@ int main( int argc, char ** argv ){
 | `waddstr()` | Imprime uma cadeia de caracteres como em **addstr()**, mas na janela fornecida.
 | `mvwaddstr()` | Mova o cursor para uma determinada posição e, em seguida, imprima como por **addstr()**, mas na janela fornecida.
 
+---
+
 ## Funções de entrada
 
 | Funções | Descrição |
@@ -562,6 +570,8 @@ int main( int argc, char ** argv ){
 | `mvgetstr()` | Mova o cursor para uma determinada posição e insira como por **getstr()** .
 | `wgetstr()` | Insira uma cadeia de caracteres como em **getstr()**, mas a partir da janela fornecida.
 | `mvwgetstr()` | Mova o cursor para uma determinada posição e insira como por **getstr()** mas a partir da janela fornecida.
+
+---
 
 ## Funções de Atributo
 
@@ -580,6 +590,8 @@ int main( int argc, char ** argv ){
 | `mvchgat()` | Mova o cursor para a posição fornecida e, em seguida, execute o trabalho como por **chgat()** .
 | `wchgat()` | Realiza o trabalho feito por **chgat()** na janela fornecida. |
 | `mvwchgat()` | Mova o cursor para a posição fornecida e execute o trabalho como por **chgat()** na janela fornecida.
+
+---
 
 ## Lista de Atributos
 
@@ -600,6 +612,8 @@ Podemos **OR**(`|`) qualquer número dos atributos acima para obter um efeito co
 | `A_CHARTEXT` | Máscara de bits para extrair um caractere.
 | `COLOR_PAIR**(n) | Número do par de cores n. |
 
+---
+
 ## Funções de cor
 
 | Funções | Descrição |
@@ -609,6 +623,8 @@ Podemos **OR**(`|`) qualquer número dos atributos acima para obter um efeito co
 | `init_pair()` | Inicie um número de par de cores n com cor de primeiro e segundo plano, que pode ser usado em **COLOR_PAIR**(n).
 | `init_color()` | Altere os valores rgb para as cores definidas por curses inicialmente.
 | `can_change_color()` | Verifique se o terminal tem capacidade de mudar de cor.
+
+---
 
 ## Colors
 
