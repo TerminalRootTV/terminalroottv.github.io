@@ -15,7 +15,7 @@ tags:
 
 Diversas [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) existem softwares para criação de gráficos e [visualizações de dados](https://pt.wikipedia.org/wiki/Visualiza%C3%A7%C3%A3o_de_dados). [Python](https://terminalroot.com.br/tags#python) é uma das mais "ricas" de bibliotecas nesse sentido, o [matplotlib](https://terminalroot.com.br/2019/12/as-30-melhores-bibliotecas-e-pacotes-python-para-iniciantes.html) é um dos mais utilizados. A [linguagem de programação R](https://www.r-project.org/) também é uma das melhores nesse quesito e podemos citar a **ggplot2**.
 
-Mas e se você estiver procurando por uma maneira ainda mais rápida e fácil de visualizar os dados armazenados em um arquivo de texto simples. E talvez você não queira sair do conforto do terminal? Você pode estar interessado no **Termgraph**.
+Mas e se você estiver procurando por uma maneira ainda mais rápida e fácil de visualizar os dados armazenados em um arquivo de texto simples. E talvez você não queira sair do conforto do terminal, você pode estar interessado no **Termgraph**.
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
