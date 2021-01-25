@@ -2,7 +2,7 @@
 layout: post
 title: "Cadmus - Uma alternativa ao OneNote feito com Shell Script"
 date: 2021-01-25 11:39:54
-image: '/assets/img/'
+image: '/assets/img/dicas/cadmus.jpg'
 description: 'Scripts Shell para facilitar a gerencia de notas de forma eficaz.'
 icon: 'ion:terminal-sharp'
 iconname: 'terminalroot'
@@ -11,7 +11,7 @@ tags:
 - dicas
 ---
 
-![Cadmus - Uma alternativa ao OneNote feito com Shell Script](/assets/img/)
+![Cadmus - Uma alternativa ao OneNote feito com Shell Script](/assets/img/dicas/cadmus.jpg)
 
 
 [Cadmus](https://github.com/RyanGreenup/cadmus) fornece uma interface orientada a comandos para localizar e editar arquivos Markdown, como localizar por nome, pesquisar termos, filtrar por tags, gerar backlinks e gerar links relativos a outras notas utilizando um monte de scripts que basicamente usam pipes e ripgrep com skim para exibi-los.
