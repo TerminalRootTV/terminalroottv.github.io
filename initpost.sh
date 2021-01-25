@@ -35,6 +35,8 @@ _skell(){
     echo "tags:"
     echo "---"
     echo
+    echo "![${1}](/assets/img/)"
+    echo 
     echo '
 '
 }
