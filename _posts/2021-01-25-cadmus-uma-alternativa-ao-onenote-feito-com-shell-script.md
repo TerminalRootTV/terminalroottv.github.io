@@ -5,7 +5,7 @@ date: 2021-01-25 11:39:54
 image: '/assets/img/dicas/cadmus.jpg'
 description: 'Scripts Shell para facilitar a gerencia de notas de forma eficaz.'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'shellscript'
 tags:
 - shellscript
 - dicas
