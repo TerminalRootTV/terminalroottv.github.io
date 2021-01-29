@@ -40,14 +40,13 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   </p>
                </div>
                <div class="collapse" id="collapseExample1">
-                  <div class="card card-body" style="background-color: transparent;">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
                      <ul class="list-group">
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
                            <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
                               <span v-text="gd1.capitulo"></span>
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
                               <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
-                           </span>
                               <div v-if="show" >
                                  <div v-if="videourl == gd1.url" class="embed-responsive embed-responsive-16by9">
                                     <hr v-if="videourl == gd1.url">
@@ -69,7 +68,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="media-body">
                <h5 class="mt-0" v-text="avancado.titulo">/h5>
                <p v-text="avancado.desc1">/p>
-               <p v-text="mensagens.invest">strong>R$ <span v-text="avancado.valor"></span></strong></p>
+               <p v-text="mensagens.invest"><strong>R$ <span v-text="avancado.valor"></span></strong></p>
                <p class="mb-0" v-text="avancado.desc2">/p>
                <hr>
                <div class="text-center">
@@ -92,7 +91,6 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                         <span v-text="gd2.capitulo"></span>
                         <i v-if="show && videourl == gd2.url" :key="gd2.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
-                     </span>
                         <div v-if="show" >
                            <div v-if="videourl == gd2.url" class="embed-responsive embed-responsive-16by9">
                               <hr v-if="videourl == gd2.url">
@@ -110,8 +108,8 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <img v-bind:src="qt.image" class="mr-3" :alt="qt.titulo" :title="qt.titulo" style="width:200px;height:200px;">
             <div class="media-body">
                <h5 class="mt-0" v-text="qt.titulo">/h5>
-               <p v-text="qt.desc1}}</p>
-               <p v-text="mensagens.invest">strong>R$ <span v-text="qt.valor"></span></strong></p>
+               <p v-text="qt.desc1}}"></p>
+               <p v-text="mensagens.invest"><strong>R$ <span v-text="qt.valor"></span></strong></p>
                <p class="mb-0" v-text="qt.desc2">/p>
                <hr>
                <div class="text-center">
@@ -134,7 +132,6 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                         <span v-text="gd3.capitulo"></span>
                         <i v-if="show && videourl == gd3.url" :key="gd3.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
-                     </span>
                         <div v-if="show" >
                            <div v-if="videourl == gd3.url" class="embed-responsive embed-responsive-16by9">
                               <hr v-if="videourl == gd3.url">
