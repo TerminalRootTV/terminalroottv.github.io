@@ -8,7 +8,7 @@
        titulo: "Curso de C++ Moderno para Iniciantes",
        image: "/assets/img/cpp/cpp-logo-1.png",
        valor: "79,90",
-       desc1: "Esse curso de <b><u>C++</b></u> é para  Quem deseja aprender a criar programas de <b><u>alta performance<b><u> e do jeito certo e atualizado. Você aprenderá a criar seus primeiros programas em C++ pelo Terminal e outros.",
+       desc1: "Esse curso de <b><u>C++</b></u> é para  Quem deseja aprender a criar programas de <b><u>alta performance<b></u> e do jeito certo e atualizado. Você aprenderá a criar seus primeiros programas em C++ pelo Terminal e outros.",
        desc2: "Existe uma infinidade de softwares famosos que foram desenvolvidos com <b><u>C++</b></u>, alguns deles são: Adobe Systems (todos incluindo o <b><u>Photoshop</b></u>), <b><u>Firefox</b></u> (e o Thunderbird), <b><u>Google Chrome</b></u>, <b><u>MySQL</b></u>, <b><u>Javascript</b></u>, <b><u>Nmap</b></u>, <b><u>MS Office</b></u>, <b><u>LibreOffice</b></u>, Sistema de pouso do <b><u>Curiosity</b></u> em Marte, Opera, OBS Studio, Windows Phone, <b><u>Apple OS</b></u>, <b><u>Unreal Engine</b></u>, Godot, <b><u>JVM</b></u> (Máquina Virtual do <b><u>Java</b></u>, bem como <b><u>compiladores</b></u> para essa linguagem), Tensorflow e entre outros. Para ver a grade clique no botão abaixo.",
        paypal: "https://cutt.ly/Cpaypal_i",
        udemy: "https://cutt.ly/CppIniciante"
