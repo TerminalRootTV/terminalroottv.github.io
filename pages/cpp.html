@@ -1,18 +1,166 @@
 ---
 layout: page
-title: "C++"
-permalink: "/cpp/"
-description: 'C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.'
+title: "Curso Moderno de C++"
+permalink: "/c++/"
+description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windows, AppImages e entre muitas outras coisas.'
 ---
-
-[C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.](https://pt.wikipedia.org/wiki/C++)
-
 <main id="main">
-<section id="page-only">
-	<script>
-	    window.location = 'https://isocpp.org/';
-	</script>
+   <section id="page-only">
+      <div class="container" id="app">
+         <hr>
+         <div class="text-center">
+            <h2>Curso Moderno de C++</h2>
+            <h4>Aprendar a Criar Aplicativos Gráficos para Linux e Windows</h4>
+            <hr>
+            <img src="/assets/img/cpp/cpp-terminalroot.jpg" class="img-thumbnail" alt="Curso de C++ - Aprendar a Criar Aplicativos Gráficos para Linux e Windows">
+            <br>
+            <hr>
+            <p>Essa é a página oficial dos Cursos Moderno de C++ . São três cursos que foram projetados para uma total compreensão de C++ e programação em geral. Além do conteúdo em vídeo, esses cursos lhe oferece também ao total: + de 174 recursos para download, + de 20 horas de conteúdo, PDFs, arquivos e entre outros . São quase 150 vídeos feitos com detalhes importantes se você deseja ingressar na área da programação do jeito certo, criar seus próprios programas para Linux e Windows CLI e com Interface Gráfica. </p>
+            <p><strong>Caso deseje comprar todos os cursos, sugiro usar o último botão dessa página que há um : </strong></p>
+            <p class="text-danger"><strong style="font-size:30px;"><u>DESCONTO de quase R$ 100,00 para os 3 cursos</u></strong>.</p>
+            <p><strong>Veja a descrição de cada um deles abaixo.</strong></p>
+         </div>
+         <hr>
+         <div class="media">
+            <img v-bind:src="iniciante.image"  class="mr-3"  v-bind:alt="iniciante.titulo" style="width:200px;height:200px;">
+            <div class="media-body">
+               <h2 class="mt-0" v-text="iniciante.titulo"></h2>
+               <p v-html="iniciante.desc1"></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="iniciante.valor"></strong></p>
+               <p class="mb-0" v-html="iniciante.desc2"></p>
+               <hr>
+               <div class="text-center">
+                  <a v-bind:href="iniciante.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="iniciante.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
+                  <p class="mt-2 text-to-light">
+                     <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="iniciante.titulo"></span>
+                     </a>
+                  </p>
+               </div>
+               <div class="collapse" id="collapseExample1">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
+                     <ul class="list-group">
+                        <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
+                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
+                              <span v-text="gd1.capitulo"></span>
+                              <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
+                              <i v-else class="fas fa-play-circle"></i> 
+                              <div v-if="show" >
+                                 <div v-if="videourl == gd1.url" class="embed-responsive embed-responsive-16by9">
+                                    <hr v-if="videourl == gd1.url">
+                                    <iframe v-if="videourl == gd1.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>
+                              </div>
+                           </span>
+                           <span v-if="gd1.url == ''" v-text="gd1.capitulo"></span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
 
 
-</section>
+         <br>
+         <hr>
+
+
+         <div class="media">
+            <img v-bind:src="avancado.image"  class="mr-3"  v-bind:alt="avancado.titulo" style="width:200px;height:200px;">
+            <div class="media-body">
+               <h2 class="mt-0" v-text="avancado.titulo"></h2>
+               <p v-html="avancado.desc1"></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="avancado.valor"></strong></p>
+               <p class="mb-0" v-html="avancado.desc2"></p>
+               <hr>
+               <div class="text-center">
+                  <a v-bind:href="avancado.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="avancado.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
+                  <p class="mt-2 text-to-light">
+                     <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="avancado.titulo"></span>
+                     </a>
+                  </p>
+               </div>
+               <div class="collapse" id="collapseExample2">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
+                     <ul class="list-group">
+                        <li v-for="gd2 in grade2" :key="gd2.capitulo" class="list-group-item">
+                           <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url">
+                              <span v-text="gd2.capitulo"></span>
+                              <i v-if="show && videourl == gd2.url" :key="gd2.url" class="fas fa-times-circle"></i> 
+                              <i v-else class="fas fa-play-circle"></i> 
+                              <div v-if="show" >
+                                 <div v-if="videourl == gd2.url" class="embed-responsive embed-responsive-16by9">
+                                    <hr v-if="videourl == gd2.url">
+                                    <iframe v-if="videourl == gd2.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>
+                              </div>
+                           </span>
+                           <span v-if="gd2.url == ''" v-text="gd2.capitulo"></span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <br>         
+         <hr>
+
+         
+         <div class="media">
+            <img v-bind:src="qt.image"  class="mr-3"  v-bind:alt="qt.titulo" style="width:200px;height:200px;">
+            <div class="media-body">
+               <h2 class="mt-0" v-text="qt.titulo"></h2>
+               <p v-html="qt.desc1"></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="qt.valor"></strong></p>
+               <p class="mb-0" v-html="qt.desc2"></p>
+               <hr>
+               <div class="text-center">
+                  <a v-bind:href="qt.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="qt.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
+                  <p class="mt-2 text-to-light">
+                     <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="qt.titulo"></span>
+                     </a>
+                  </p>
+               </div>
+               <div class="collapse" id="collapseExample3">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
+                     <ul class="list-group">
+                        <li v-for="gd3 in grade3" :key="gd3.capitulo" class="list-group-item">
+                           <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url">
+                              <span v-text="gd3.capitulo"></span>
+                              <i v-if="show && videourl == gd3.url" :key="gd3.url" class="fas fa-times-circle"></i> 
+                              <i v-else class="fas fa-play-circle"></i> 
+                              <div v-if="show" >
+                                 <div v-if="videourl == gd3.url" class="embed-responsive embed-responsive-16by9">
+                                    <hr v-if="videourl == gd3.url">
+                                    <iframe v-if="videourl == gd3.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>
+                              </div>
+                           </span>
+                           <span v-if="gd3.url == ''" v-text="gd3.capitulo"></span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <br>
+         <hr>
+         <br>
+         <h3 class="text-center">Comprar Pacote com os 3 Cursos de C++ com desconto de quase R$ 100,00 reais</h3>
+         <p>Essa é uma promoção fixa para todos os cursos de <s>R$ 389,70</s> por apenas <b style="font-size: 24px;">299,99</b> . Em resumo, ao comprar esse pacote o Curso de C++ Moderno para Iniciantes sai inteiramamente grátis além de + um desconto incluso. Aproveite!</p>
+         <a href="https://cutt.ly/CppAll" class="btn btn-success btn-lg btn-block"><i class="fab fa-paypal"></i> Adquirir a promoção com PayPal</a>
+         <hr>
+         <br>
+      </div>
+      <script src="/assets/js/vuejscursos.js"></script>
+   </section>
 </main>
