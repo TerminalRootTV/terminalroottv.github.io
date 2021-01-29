@@ -251,7 +251,7 @@ pre {background: #282a36; padding: 15px; color: #fff; font-size: 18px; border: 1
 }
 
 .pagina p {font-size: 24px;}
-.pagina ul li {font-size: 24px; color: #fff; padding: 10px; list-style: none;}
+.pagina ul li {font-size: 24px; color: #fff; padding: 10px 3px; list-style: none;}
 .pagina ol li {font-size: 24px;}
 .pagina blockquote p {font-size: 24px; border-left: 4px solid #abb2bf; padding-left: 20px; margin: 30px 0 30px 30px; text-align: left!important; font-style: oblique;}
 .pagina a {font-weight: bold;}
