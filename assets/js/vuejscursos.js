@@ -6,7 +6,7 @@
      mensagens: {paypal: "Comprar com PayPay", udemy: "Comprar na Udemy", invest: "Valor do investimento: "},
      iniciante: {
        titulo: "Curso de C++ Moderno para Iniciantes",
-       image: "cpp-logo-1.png",
+       image: "/assets/img/cpp/cpp-logo-1.png",
        valor: "79,90",
        desc1: "Esse curso de C++ é para  Quem deseja aprender a criar programas de alta performance e do jeito certo e atualizado. Você aprenderá a criar seus primeiros programas em C++ pelo Terminal e Games e outros.",
        desc2: "Existe uma infinidade de softwares famosos que foram desenvolvidos com C++, alguns deles são: Adobe Systems (todos incluindo o Photoshop), Firefox (e o Thunderbird), Google Chrome, MySQL, Javascript, Nmap, MS Office, LibreOffice, Sistema de pouso do Curiosity em Marte, Opera, OBS Studio, Windows Phone, Apple OS, Unreal Engine, Godot, JVM (Máquina Virtual do Java, bem como compiladores para essa linguagem), Tensorflow e entre outros. Paraver a grade clique no botão abaixo.",
@@ -15,7 +15,7 @@
      },
      avancado: {
        titulo: "Curso de C++ Moderno Avançado",
-       image: "cpp-logo-2.png",
+       image: "/assets/img/cpp/cpp-logo-2.png",
        valor: "159,90",
        desc1: "Esse curso de C++ lhe dará todo o alicerce de Programação Orientada a Objetos com C++. Além de diversos exemplos e exercícios e primeiros passos com as bibliotecas mais conhecidas do C++ como: Ncurses para criação de gráficos pelo Terminal, Games cli, GTK+ para criação de seu primeiros programas com Interface Gráfica, Conexão com banco de dados MySQL e SQLite, Desenvolvimento Web com C++, Criação de API, Frameworks WEB e entre outras bibliotecas.",
        desc2: "Além de diversos tutoriais inclusos como: obter informações de data e hora de forma correta; gerar números randômicos em tempo de execução e entre outros. Entender como tudo funciona para que você possa ler códigos fonte em repositórios online de controles de versão, como o GitHub por exemplo e entender a lógica do programa, podendo contribuir de forma padronizada e/ou que outros programadores possam contribuir com seus projetos.",
@@ -24,7 +24,7 @@
      },
      qt: {
        titulo: "Curso de Qt Moderno com C++ para Linux e Windows",
-       image: "cpp-logo-3.png",
+       image: "/assets/img/cpp/cpp-logo-3.png",
        valor: "149,90",
        desc1: "Esse curso de C++ é para  Quem deseja aprender a criar aplicativos gráficos no Linux e Windows de maneira prática, simples e da forma correta.",
        desc2: "Nesse Curso aprenderemos como utilizar o Qt no Linux e no Windows. Aprenderemos conceitos importantes e desenvolveremos diversos aplicativos como: Gerenciador de tarefas pessoas(ToDo), Mini Navegador, Editor de Texto, Como Criar um AppImage para qualquer Distribuição Linux, Depoly do GitHub com Travis CI, Como empacotar nossos programas em .deb, para sistemas baseados em APT: Debian, Ubuntu, Linux Mint e similares, Como importar nosso programa para o Windows 10, Como criar um instalador gráfico do nosso programa no Windows 10, Além de exemplos práticos para cada tema abordado.",
