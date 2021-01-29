@@ -38,27 +38,28 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                      </a>
                   </p>
                </div>
-               <div class="collapse" id="collapseExample1">
-                  <div class="card card-body" style="background-color: transparent; border:none;">
-                     <ul class="list-group">
-                        <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
-                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
-                              <span v-text="gd1.capitulo"></span>
-                              <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
-                              <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
-                              <div v-if="show" >
-                                 <div v-if="videourl == gd1.url" class="embed-responsive embed-responsive-16by9">
-                                    <hr v-if="videourl == gd1.url">
-                                    <iframe v-if="videourl == gd1.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                 </div>
-                              </div>
-                           </span>
-                           <span v-if="gd1.url == ''" v-text="gd1.capitulo"></span>
-                        </li>
-                     </ul>
-                  </div>
+               
                </div>
             </div>
+            <div class="collapse" id="collapseExample1">
+               <div class="card card-body" style="background-color: transparent; border:none;">
+                  <ul class="list-group">
+                     <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
+                        <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
+                           <span v-text="gd1.capitulo"></span>
+                           <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
+                           <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
+                           <div v-if="show" >
+                              <div v-if="videourl == gd1.url" class="embed-responsive embed-responsive-16by9">
+                                 <hr v-if="videourl == gd1.url">
+                                 <iframe v-if="videourl == gd1.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                           </div>
+                        </span>
+                        <span v-if="gd1.url == ''" v-text="gd1.capitulo"></span>
+                     </li>
+                  </ul>
+               </div>
          </div>
 
 
