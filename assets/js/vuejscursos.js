@@ -8,8 +8,8 @@
        titulo: "Curso de C++ Moderno para Iniciantes",
        image: "/assets/img/cpp/cpp-logo-1.png",
        valor: "79,90",
-       desc1: "Esse curso de <b>C++</b> é para  Quem deseja aprender a criar programas de <b>alta performance<b> e do jeito certo e atualizado. Você aprenderá a criar seus primeiros programas em C++ pelo Terminal e outros.",
-       desc2: "Existe uma infinidade de softwares famosos que foram desenvolvidos com <b>C++</b>, alguns deles são: Adobe Systems (todos incluindo o <b>Photoshop</b>), <b>Firefox</b> (e o Thunderbird), <b>Google Chrome</b>, <b>MySQL</b>, <b>Javascript</b>, <b>Nmap</b>, <b>MS Office</b>, <b>LibreOffice</b>, Sistema de pouso do <b>Curiosity</b> em Marte, Opera, OBS Studio, Windows Phone, <b>Apple OS</b>, <b>Unreal Engine</b>, Godot, <b>JVM</b> (Máquina Virtual do <b>Java</b>, bem como <b>compiladores</b> para essa linguagem), Tensorflow e entre outros. Para ver a grade clique no botão abaixo.",
+       desc1: "Esse curso de <b><u>C++</b></u> é para  Quem deseja aprender a criar programas de <b><u>alta performance<b><u> e do jeito certo e atualizado. Você aprenderá a criar seus primeiros programas em C++ pelo Terminal e outros.",
+       desc2: "Existe uma infinidade de softwares famosos que foram desenvolvidos com <b><u>C++</b></u>, alguns deles são: Adobe Systems (todos incluindo o <b><u>Photoshop</b></u>), <b><u>Firefox</b></u> (e o Thunderbird), <b><u>Google Chrome</b></u>, <b><u>MySQL</b></u>, <b><u>Javascript</b></u>, <b><u>Nmap</b></u>, <b><u>MS Office</b></u>, <b><u>LibreOffice</b></u>, Sistema de pouso do <b><u>Curiosity</b></u> em Marte, Opera, OBS Studio, Windows Phone, <b><u>Apple OS</b></u>, <b><u>Unreal Engine</b></u>, Godot, <b><u>JVM</b></u> (Máquina Virtual do <b><u>Java</b></u>, bem como <b><u>compiladores</b></u> para essa linguagem), Tensorflow e entre outros. Para ver a grade clique no botão abaixo.",
        paypal: "https://cutt.ly/Cpaypal_i",
        udemy: "https://cutt.ly/CppIniciante"
      },
@@ -17,7 +17,7 @@
        titulo: "Curso de C++ Moderno Avançado",
        image: "/assets/img/cpp/cpp-logo-2.png",
        valor: "159,90",
-       desc1: "Esse curso de <b>C++</b> lhe dará todo o alicerce de <b>Programação Orientada a Objetos</b> com C++. Além de diversos exemplos e exercícios e primeiros passos com as bibliotecas mais conhecidas do C++ como: <b>Ncurses</b> para criação de gráficos pelo Terminal, <b>Games CLI</b>, <b>GTK+</b> para criação de seu primeiros programas com Interface Gráfica, <b>Conexão com banco de dados MySQL e SQLite</b>, <b>Desenvolvimento Web</b> com <b>C++</b> e entre outras bibliotecas.",
+       desc1: "Esse curso de <b><u>C++</b></u> lhe dará todo o alicerce de <b><u>Programação Orientada a Objetos</b></u> com C++. Além de diversos exemplos e exercícios e primeiros passos com as bibliotecas mais conhecidas do C++ como: <b><u>Ncurses</b></u> para criação de gráficos pelo Terminal, <b><u>Games CLI</b></u>, <b><u>GTK+</b></u> para criação de seu primeiros programas com Interface Gráfica, <b><u>Conexão com banco de dados MySQL e SQLite</b></u>, <b><u>Desenvolvimento Web</b></u> com <b><u>C++</b></u> e entre outras bibliotecas.",
        desc2: "Além de diversos tutoriais inclusos como: obter informações de data e hora de forma correta; gerar números randômicos em tempo de execução e entre outros. Entender como tudo funciona para que você possa ler códigos fonte em repositórios online de controles de versão, como o GitHub por exemplo e entender a lógica do programa, podendo contribuir de forma padronizada e/ou que outros programadores possam contribuir com seus projetos.",
        paypal: "https://cutt.ly/Cpaypal_a",
        udemy: "https://cutt.ly/CppAvancado"
@@ -27,7 +27,7 @@
        image: "/assets/img/cpp/cpp-logo-3.png",
        valor: "149,90",
        desc1: "Esse curso de C++ é para  Quem deseja aprender a criar aplicativos gráficos no Linux e Windows de maneira prática, simples e da forma correta.",
-       desc2: "Nesse Curso aprenderemos como utilizar o Qt no Linux e no Windows. Aprenderemos conceitos importantes e desenvolveremos diversos aplicativos como: <b>Gerenciador de tarefas pessoas</b>(ToDo), Mini <b>Navegador</b>, <b>Editor de Textos</b>, <b>Como Criar um AppImage para qualquer Distribuição Linux</b>, <b>Depoly do GitHub com Travis CI</b>, Como empacotar nossos programas em .deb, para sistemas baseados em APT: Debian, Ubuntu, Linux Mint e similares, <b>Como importar nosso programa para o Windows 10</b>, <b>Como criar um instalador gráfico do nosso programa no Windows 10</b>, Além de exemplos práticos para cada tema abordado.",
+       desc2: "Nesse Curso aprenderemos como utilizar o Qt no Linux e no Windows. Aprenderemos conceitos importantes e desenvolveremos diversos aplicativos como: <b><u>Gerenciador de tarefas pessoas</b></u>(ToDo), Mini <b><u>Navegador</b></u>, <b><u>Editor de Textos</b></u>, <b><u>Como Criar um AppImage para qualquer Distribuição Linux</b></u>, <b><u>Depoly do GitHub com Travis CI</b></u>, Como empacotar nossos programas em .deb, para sistemas baseados em APT: Debian, Ubuntu, Linux Mint e similares, <b><u>Como importar nosso programa para o Windows 10</b></u>, <b><u>Como criar um instalador gráfico do nosso programa no Windows 10</b></u>, Além de exemplos práticos para cada tema abordado.",
        paypal: "https://cutt.ly/Cpaypal_qt",
        udemy: "https://cutt.ly/CppQt"
        
