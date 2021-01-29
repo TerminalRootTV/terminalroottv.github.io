@@ -44,7 +44,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                      <ul class="list-group">
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
                            <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
-                              <span v-else v-text="gd1.capitulo"></span>
+                              <span v-text="gd1.capitulo"></span>
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
                               <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                            </span>
@@ -55,7 +55,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                                  </div>
                               </div>
                            </span>
-                           <span v-else v-text="gd1.capitulo"></span>
+                           <span v-if="gd1.capitulo == ''" v-text="gd1.capitulo"></span>
                         </li>
                      </ul>
                   </div>
