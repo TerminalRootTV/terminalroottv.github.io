@@ -26,7 +26,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="media-body">
                <h2 class="mt-0" v-text="iniciante.titulo"></h2>
                <p v-html="iniciante.desc1"></p>
-               <p v-text="mensagens.invest"><strong> <span v-text="iniciante.valor"></span></strong></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="iniciante.valor"></strong></p>
                <p class="mb-0" v-html="iniciante.desc2"></p>
                <hr>
                <div class="text-center">
@@ -71,7 +71,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="media-body">
                <h2 class="mt-0" v-text="avancado.titulo"></h2>
                <p v-html="avancado.desc1"></p>
-               <p v-text="mensagens.invest"><strong> <span v-text="avancado.valor"></span></strong></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="avancado.valor"></strong></p>
                <p class="mb-0" v-html="avancado.desc2"></p>
                <hr>
                <div class="text-center">
@@ -116,7 +116,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="media-body">
                <h2 class="mt-0" v-text="qt.titulo"></h2>
                <p v-html="qt.desc1"></p>
-               <p v-text="mensagens.invest"><strong> <span v-text="qt.valor"></span></strong></p>
+               <p><span v-text="mensagens.invest"></span> R$ <strong v-text="qt.valor"></strong></p>
                <p class="mb-0" v-html="qt.desc2"></p>
                <hr>
                <div class="text-center">
