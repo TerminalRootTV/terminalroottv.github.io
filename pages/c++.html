@@ -45,9 +45,9 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
                            <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
                               <span v-text="gd1.capitulo"></span>
-                           </span>
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
                               <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
+                           </span>
                               <div v-if="show" >
                                  <div v-if="videourl == gd1.url" class="embed-responsive embed-responsive-16by9">
                                     <hr v-if="videourl == gd1.url">
@@ -90,9 +90,9 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <li v-for="gd2 in grade2" :key="gd2.capitulo" class="list-group-item">
                      <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url">
                         <span v-text="gd2.capitulo"></span>
-                     </span>
                         <i v-if="show && videourl == gd2.url" :key="gd2.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
+                     </span>
                         <div v-if="show" >
                            <div v-if="videourl == gd2.url" class="embed-responsive embed-responsive-16by9">
                               <hr v-if="videourl == gd2.url">
@@ -132,9 +132,9 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <li v-for="gd3 in grade3" :key="gd3.capitulo" class="list-group-item">
                      <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url">
                         <span v-text="gd3.capitulo"></span>
-                     </span>
                         <i v-if="show && videourl == gd3.url" :key="gd3.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
+                     </span>
                         <div v-if="show" >
                            <div v-if="videourl == gd3.url" class="embed-responsive embed-responsive-16by9">
                               <hr v-if="videourl == gd3.url">
