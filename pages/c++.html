@@ -26,16 +26,16 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <img v-bind:src="iniciante.image"  class="mr-3"  v-bind:alt="iniciante.titulo" style="width:200px;height:200px;">
             <div class="media-body">
                <h5 class="mt-0" v-text="iniciante.titulo"></h5>
-               <p>\{\{ iniciante.desc1 \}\}</p>
-               <p>{{ mensagens.invest }}<strong>R$ {{ iniciante.valor }}</strong></p>
-               <p class="mb-0">{{ iniciante.desc2 }}</p>
+               <p v-text="iniciante.desc1">/p>
+               <p v-text="mensagens.invest">strong>R$ <span v-text="iniciante.valor"</span>/strong></p>
+               <p class="mb-0" v-text="iniciante.desc2">/p>
                <hr>
                <div class="text-center">
-                  <a v-bind:href="iniciante.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> {{ mensagens.paypal }}</a>
-                  <a v-bind:href="iniciante.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> {{ mensagens.udemy }}</a>
+                  <a v-bind:href="iniciante.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="iniciante.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
                      <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do {{ iniciante.titulo }}
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="iniciante.titulo"></span>
                      </a>
                   </p>
                </div>
@@ -43,8 +43,8 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <div class="card card-body">
                      <ul class="list-group">
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
-                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url">
-                              {{ gd1.capitulo }} 
+                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url" v-text="gd1.capitulo">
+                              
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
                               <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                               <div v-if="show" >
@@ -54,7 +54,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                                  </div>
                               </div>
                            </span>
-                           <span v-else>{{ gd1.capitulo }}</span>
+                           <span v-else v-text="gd1.capitulo">/span>
                         </li>
                      </ul>
                   </div>
@@ -66,17 +66,17 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
          <div class="media">
             <img v-bind:src="avancado.image" class="mr-3" v-bind:alt="avancado.titulo" style="width:200px;height:200px;">
             <div class="media-body">
-               <h5 class="mt-0">{{ avancado.titulo }}</h5>
-               <p>{{ avancado.desc1 }}</p>
-               <p>{{ mensagens.invest }}<strong>R$ {{ avancado.valor }}</strong></p>
-               <p class="mb-0">{{ avancado.desc2 }}</p>
+               <h5 class="mt-0" v-text="avancado.titulo">/h5>
+               <p v-text="avancado.desc1">/p>
+               <p v-text="mensagens.invest">strong>R$ <span v-text="avancado.valor"></span></strong></p>
+               <p class="mb-0" v-text="avancado.desc2">/p>
                <hr>
                <div class="text-center">
-                  <a v-bind:href="avancado.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> {{ mensagens.paypal }}</a>
-                  <a v-bind:href="avancado.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> {{ mensagens.udemy }}</a>
+                  <a v-bind:href="avancado.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="avancado.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
                      <a class="btn btn-outline-danger btn-lg" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do {{ avancado.titulo }}
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="avancado.titulo"></span>
                      </a>
                   </p>
                </div>
@@ -87,8 +87,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="card card-body">
                <ul class="list-group">
                   <li v-for="gd2 in grade2" :key="gd2.capitulo" class="list-group-item">
-                     <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url">
-                        {{ gd2.capitulo }} 
+                     <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url" v-text="gd2.capitulo">
                         <i v-if="show && videourl == gd2.url" :key="gd2.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                         <div v-if="show" >
@@ -98,7 +97,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                            </div>
                         </div>
                      </span>
-                     <span v-else>{{ gd2.capitulo }}</span>
+                     <span v-else v-text="gd2.capitulo">/span>
                   </li>
                </ul>
             </div>
@@ -107,17 +106,17 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
          <div class="media">
             <img v-bind:src="qt.image" class="mr-3" :alt="qt.titulo" :title="qt.titulo" style="width:200px;height:200px;">
             <div class="media-body">
-               <h5 class="mt-0">{{ qt.titulo }}</h5>
-               <p>{{ qt.desc1}}</p>
-               <p>{{ mensagens.invest }}<strong>R$ {{ qt.valor }}</strong></p>
-               <p class="mb-0">{{ qt.desc2 }}</p>
+               <h5 class="mt-0" v-text="qt.titulo">/h5>
+               <p v-text="qt.desc1}}</p>
+               <p v-text="mensagens.invest">strong>R$ <span v-text="qt.valor"></span></strong></p>
+               <p class="mb-0" v-text="qt.desc2">/p>
                <hr>
                <div class="text-center">
-                  <a v-bind:href="qt.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> {{ mensagens.paypal }}</a>
-                  <a v-bind:href="qt.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> {{ mensagens.udemy }}</a>
+                  <a v-bind:href="qt.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
+                  <a v-bind:href="qt.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
                      <a class="btn btn-outline-success btn-lg" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do {{ qt.titulo }}
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="qt.titulo></span>
                      </a>
                   </p>
                </div>
@@ -128,8 +127,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="card card-body">
                <ul class="list-group">
                   <li v-for="gd3 in grade3" :key="gd3.capitulo" class="list-group-item">
-                     <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url">
-                        {{ gd3.capitulo }} 
+                     <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url" v-text="gd3.capitulo">
                         <i v-if="show && videourl == gd3.url" :key="gd3.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                         <div v-if="show" >
@@ -139,7 +137,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                            </div>
                         </div>
                      </span>
-                     <span v-else>{{ gd3.capitulo }}</span>
+                     <span v-else v-text="gd3.capitulo">/span>
                   </li>
                </ul>
             </div>
