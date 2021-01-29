@@ -41,7 +41,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                </div>
                <div class="collapse" id="collapseExample1">
                   <div class="card card-body">
-                     <ul class="list-group">
+                     <ul class="list-group" style="background-color: transparent;">
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
                            <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url" v-text="gd1.capitulo"></span>
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
