@@ -25,7 +25,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
          <div class="media">
             <img v-bind:src="iniciante.image"  class="mr-3"  v-bind:alt="iniciante.titulo" style="width:200px;height:200px;">
             <div class="media-body">
-               <h5 class="mt-0">{{ iniciante.titulo }}</h5>
+               <h5 class="mt-0" v-text="iniciante.titulo"></h5>
                <p>{{ iniciante.desc1 }}</p>
                <p>{{ mensagens.invest }}<strong>R$ {{ iniciante.valor }}</strong></p>
                <p class="mb-0">{{ iniciante.desc2 }}</p>
