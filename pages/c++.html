@@ -60,13 +60,16 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                </div>
             </div>
          </div>
+
+         
          <br>
          <hr>
+
+
          <div class="media">
-            <img v-bind:src="avancado.image" class="mr-3" v-bind:alt="avancado.titulo" style="width:200px;height:200px;">
+            <img v-bind:src="avancado.image"  class="mr-3"  v-bind:alt="avancado.titulo" style="width:200px;height:200px;">
             <div class="media-body">
-               <h5 class="mt-0" v-text="avancado.titulo">
-               </h5>
+               <h5 class="mt-0" v-text="avancado.titulo"></h5>
                <p v-text="avancado.desc1"></p>
                <p v-text="mensagens.invest"><strong>R$ <span v-text="avancado.valor"></span></strong></p>
                <p class="mb-0" v-text="avancado.desc2"></p>
@@ -75,13 +78,13 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <a v-bind:href="avancado.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
                   <a v-bind:href="avancado.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
-                     <a class="btn btn-outline-danger btn-lg" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                     <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
                      <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="avancado.titulo"></span>
                      </a>
                   </p>
                </div>
                <div class="collapse" id="collapseExample2">
-                  <div class="card card-body">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
                      <ul class="list-group">
                         <li v-for="gd2 in grade2" :key="gd2.capitulo" class="list-group-item">
                            <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url">
@@ -91,25 +94,28 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                               <div v-if="show" >
                                  <div v-if="videourl == gd2.url" class="embed-responsive embed-responsive-16by9">
                                     <hr v-if="videourl == gd2.url">
-                                    <iframe v-if="videourl == gd2.url" class="embed-responsive-item" v-bind:src="videourl" allowfullscreen></iframe>
+                                    <iframe v-if="videourl == gd2.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                  </div>
                               </div>
                            </span>
-                           <span v-else v-text="gd2.capitulo"></span>
+                           <span v-if="gd2.url == ''" v-text="gd2.capitulo"></span>
                         </li>
                      </ul>
                   </div>
                </div>
             </div>
          </div>
+
+
          <br>         
          <hr>
+
+         
          <div class="media">
-            <img v-bind:src="qt.image" class="mr-3" :alt="qt.titulo" :title="qt.titulo" style="width:200px;height:200px;">
+            <img v-bind:src="qt.image"  class="mr-3"  v-bind:alt="qt.titulo" style="width:200px;height:200px;">
             <div class="media-body">
-               <h5 class="mt-0" v-text="qt.titulo">
-               </h5>
-               <p v-text="qt.desc1}}"></p>
+               <h5 class="mt-0" v-text="qt.titulo"></h5>
+               <p v-text="qt.desc1"></p>
                <p v-text="mensagens.invest"><strong>R$ <span v-text="qt.valor"></span></strong></p>
                <p class="mb-0" v-text="qt.desc2"></p>
                <hr>
@@ -117,13 +123,13 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <a v-bind:href="qt.paypal" class="btn btn-info btn-lg"><i class="fab fa-paypal"></i> <span v-text="mensagens.paypal"></span></a>
                   <a v-bind:href="qt.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
-                     <a class="btn btn-outline-success btn-lg" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                     <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
                      <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="qt.titulo"></span>
                      </a>
                   </p>
                </div>
                <div class="collapse" id="collapseExample3">
-                  <div class="card card-body">
+                  <div class="card card-body" style="background-color: transparent; border:none;">
                      <ul class="list-group">
                         <li v-for="gd3 in grade3" :key="gd3.capitulo" class="list-group-item">
                            <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url">
@@ -133,17 +139,19 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                               <div v-if="show" >
                                  <div v-if="videourl == gd3.url" class="embed-responsive embed-responsive-16by9">
                                     <hr v-if="videourl == gd3.url">
-                                    <iframe v-if="videourl == gd3.url" class="embed-responsive-item" v-bind:src="videourl" allowfullscreen></iframe>
+                                    <iframe v-if="videourl == gd3.url" class="embed-responsive-item" v-bind:src="videourl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                  </div>
                               </div>
                            </span>
-                           <span v-else v-text="gd3.capitulo"></span>
+                           <span v-if="gd3.url == ''" v-text="gd3.capitulo"></span>
                         </li>
                      </ul>
                   </div>
                </div>
             </div>
          </div>
+
+
          <br>
          <hr>
          <br>
