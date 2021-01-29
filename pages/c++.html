@@ -27,7 +27,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="media-body">
                <h5 class="mt-0" v-text="iniciante.titulo"></h5>
                <p v-text="iniciante.desc1">/p>
-               <p v-text="mensagens.invest">strong>R$ <span v-text="iniciante.valor"></span></strong></p>
+               <p v-text="mensagens.invest"><strong>R$ <span v-text="iniciante.valor"></span></strong></p>
                <p class="mb-0" v-text="iniciante.desc2">/p>
                <hr>
                <div class="text-center">
@@ -43,8 +43,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <div class="card card-body">
                      <ul class="list-group">
                         <li v-for="gd1 in grade1" :key="gd1.capitulo" class="list-group-item">
-                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url" v-text="gd1.capitulo">
-                              
+                           <span v-if="gd1.url" v-on:click="videoDisplay(gd1.url)" style="color: #1c71d8;cursor:pointer;" :key="gd1.url" v-text="gd1.capitulo"></span>
                               <i v-if="show && videourl == gd1.url" :key="gd1.url" class="fas fa-times-circle"></i> 
                               <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                               <div v-if="show" >
@@ -54,7 +53,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                                  </div>
                               </div>
                            </span>
-                           <span v-else v-text="gd1.capitulo">/span>
+                           <span v-else v-text="gd1.capitulo"></span>
                         </li>
                      </ul>
                   </div>
@@ -87,7 +86,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="card card-body">
                <ul class="list-group">
                   <li v-for="gd2 in grade2" :key="gd2.capitulo" class="list-group-item">
-                     <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url" v-text="gd2.capitulo">
+                     <span v-if="gd2.url" v-on:click="videoDisplay(gd2.url)" style="color: #1c71d8;cursor:pointer;" :key="gd2.url" v-text="gd2.capitulo"></span>
                         <i v-if="show && videourl == gd2.url" :key="gd2.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                         <div v-if="show" >
@@ -97,7 +96,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                            </div>
                         </div>
                      </span>
-                     <span v-else v-text="gd2.capitulo">/span>
+                     <span v-else v-text="gd2.capitulo"></span>
                   </li>
                </ul>
             </div>
@@ -116,7 +115,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                   <a v-bind:href="qt.udemy" class="btn btn-danger btn-lg"><i class="fas fa-graduation-cap"></i> <span v-text="mensagens.udemy"></span></a>
                   <p class="mt-2">
                      <a class="btn btn-outline-success btn-lg" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="qt.titulo></span>
+                     <i class="fas fa-chevron-down"></i> <strong>Grade</strong> e alguns <strong>Vídeos</strong> do <span v-text="qt.titulo"></span>
                      </a>
                   </p>
                </div>
@@ -127,7 +126,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <div class="card card-body">
                <ul class="list-group">
                   <li v-for="gd3 in grade3" :key="gd3.capitulo" class="list-group-item">
-                     <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url" v-text="gd3.capitulo">
+                     <span v-if="gd3.url" v-on:click="videoDisplay(gd3.url)" style="color: #1c71d8;cursor:pointer;" :key="gd3.url" v-text="gd3.capitulo"></span>
                         <i v-if="show && videourl == gd3.url" :key="gd3.url" class="fas fa-times-circle"></i> 
                         <i v-else class="fas fa-play-circle" style="font-size:9px;"></i> 
                         <div v-if="show" >
@@ -137,7 +136,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
                            </div>
                         </div>
                      </span>
-                     <span v-else v-text="gd3.capitulo">/span>
+                     <span v-else v-text="gd3.capitulo"></span>
                   </li>
                </ul>
             </div>
