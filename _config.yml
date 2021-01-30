@@ -37,6 +37,10 @@ links:
     url: /
   - title: Cursos
     url: /cursos
+  - title: C++
+    url: /c++
+  - title: Linguagem C++
+    url: /cpp
   - title: Shell Script
     url: /shell
   - title: Bash
@@ -71,9 +75,5 @@ links:
     url: /css
   - title: MySQL
     url: /mysql
-  - title: C++
-    url: /c++
-  - title: Linguagem C++
-    url: /cpp
   - title: Newsletter
     url: /newsletter
