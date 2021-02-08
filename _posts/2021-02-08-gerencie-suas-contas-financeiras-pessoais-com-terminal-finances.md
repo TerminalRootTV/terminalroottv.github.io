@@ -124,6 +124,7 @@ O sistemas também oferece 2 temas para sua escolha: **Dark** e **Light**, como 
 # Configurações
 Se você desejar fazer o backup do banco de dados de seus lançamentos, clique nesse ícone localizado na barra lateral esquerda e escolha o local de exportação:
 
+![Exportar Banco de Dados - Terminal Finances](/assets/img/cpp/terminal-finances-07.png)
 ![Exportar Banco de Dados - Terminal Finances](/assets/img/cpp/terminal-finances-07.jpg)
 
 > O sistema irá salvar o arquivo com o nome `terminalfinances` e mais a data da exportação(`terminalfinances-xx-xx-xxxx.db`), exemplo se fosse hoje: `terminalfinances-08-02-2021.db` .
