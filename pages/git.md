@@ -44,11 +44,6 @@ man git-add # manual completo sobre git-add
 - `man git` » Obtém o Manual do git
 
 <div class="text-center">
-     <a href="https://pag.ae/bhgSpYQ"  class="btn btn-success btn-block">
-       Me pague um café <i class="fa fa-coffee"></i> com
-       <strong>PagSeguro</strong>
-    </a>
-
      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MDBKEUL69LKSY"  class="btn btn-info btn-block">
        Me pague um café <i class="fa fa-coffee"></i> com
        <strong>PayPal</strong>

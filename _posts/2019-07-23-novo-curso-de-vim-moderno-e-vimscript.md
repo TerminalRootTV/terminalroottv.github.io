@@ -50,18 +50,6 @@ amados do mundo UNIX!
 
 Na verdade, de forma muito simples, só clicar nos botões abaixo e escolher uma das compras seguras. Depois disso é só aguardar o recebimento do e-mail com os dados de acesso ao nosso **Portal de Cursos** . Geralmente o envio do e-mail é automático logo após confirmação da aquisição.
 
-<div class="text-center">
-	<p>
-		<a href="http://bit.ly/VimPagSeguro">
-			<button class="btn-lg btn-success">Comprar com PagSeguro</button>
-		</a>
-
-		<a href="http://bit.ly/VimPayPal">
-			<button class="btn-lg btn-info bt-lg-w">Comprar com PayPal</button>
-		</a>
-	</p>
-</div>
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- Informat -->
