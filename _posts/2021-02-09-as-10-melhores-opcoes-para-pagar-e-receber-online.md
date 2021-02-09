@@ -3,7 +3,7 @@ layout: post
 title: "As 10 Melhores Opções para Pagar e Receber online"
 date: 2021-02-09 16:51:41
 image: '/assets/img/financas/as-10-melhores-opcoes-para-pagamentos-online.jpg'
-description: 'Escolha serviços realmente profisionais e com garantia de verdade.'
+description: 'Escolha serviços realmente profissionais e com garantia de verdade.'
 icon: 'ion:terminal-sharp'
 iconname: 'finanças'
 tags:
