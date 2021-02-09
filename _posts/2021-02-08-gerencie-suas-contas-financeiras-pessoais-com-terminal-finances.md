@@ -9,7 +9,7 @@ iconname: 'terminalroot'
 tags:
 - cpp
 - qt
-- terminalroot
+- financas
 ---
 
 ![Gerencie suas contas financeiras pessoais com Terminal Finances](/assets/img/cpp/terminal-finances.jpg)
