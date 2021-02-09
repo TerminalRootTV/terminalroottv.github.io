@@ -9,6 +9,7 @@ iconname: 'finanças'
 tags:
 - financas
 - empreendimento
+- contabeis
 ---
 
 ![As 10 Melhores Opções para Pagar e Receber online](/assets/img/financas/as-10-melhores-opcoes-para-pagamentos-online.jpg)
