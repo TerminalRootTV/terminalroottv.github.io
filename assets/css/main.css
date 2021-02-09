@@ -173,11 +173,18 @@ button.close {color: #fff; font-size: 60px;}
 .page .img-main {width: 60%; height: 60%;}
 .page .h1 {margin-top: 5px; margin-bottom: 3px; text-align: center;}
 .publicidade {
-  background-image: url('/assets/img/bg/bg-pub.jpg');
+  background-image: url('/assets/img/cpp/banner.jpg');
   background-attachment: fixed;
 }
 .publicidade h1, .publicidade h4 {color:#fff; font-family: Whitney,sans-serif; text-shadow: 3px 3px #000000; font-weight: bold;}
 .publicidade button {font-weight: bold; text-shadow: 1px 1px #000000;}
+
+.publicidade2 {
+  background-image: url('/assets/img/bg/bg-pub.jpg');
+  background-attachment: fixed;
+}
+.publicidade2 h1, .publicidade2 h4 {color:#fff; font-family: Whitney,sans-serif; text-shadow: 3px 3px #000000; font-weight: bold;}
+.publicidade2 button {font-weight: bold; text-shadow: 1px 1px #000000;}
 
 .main-tag {border: 2px solid transparent; border-radius: 5px;}
 
