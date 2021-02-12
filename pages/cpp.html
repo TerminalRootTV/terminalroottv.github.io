@@ -22,8 +22,8 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
             <blockquote>Observação: Para os cursos na Udemy os valores e promoções podem ser diferentes para cada curso.</blockquote>
          </div>
          <hr>
-         <div class="card">
-            <img v-bind:src="iniciante.image" class="mr-3" v-bind:alt="iniciante.titulo" style="width:200px;height:200px;">
+         <div class="media" style="background: transparent;">
+            <img v-bind:src="iniciante.image" v-bind:alt="iniciante.titulo" style="width:200px;height:200px;">
             <br>
             <div class="media-body">
                <h2 class="mt-0" v-text="iniciante.titulo"></h2>
@@ -68,8 +68,8 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
          <hr>
 
 
-         <div class="card">
-            <img v-bind:src="avancado.image" class="mr-3" v-bind:alt="avancado.titulo" style="width:200px;height:200px;">
+         <div class="media" style="background: transparent;">
+            <img v-bind:src="avancado.image" v-bind:alt="avancado.titulo" style="width:199px;height:200px;">
             <div class="media-body">
                <h2 class="mt-0" v-text="avancado.titulo"></h2>
                <p v-html="avancado.desc1"></p>
@@ -113,7 +113,7 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
          <hr>
 
          
-         <div class="card">
+         <div class="media" style="background: transparent;">
             <img v-bind:src="qt.image" class="mr-3" v-bind:alt="qt.titulo" style="width:200px;height:200px;">
             <div class="media-body">
                <h2 class="mt-0" v-text="qt.titulo"></h2>
