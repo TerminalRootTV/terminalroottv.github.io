@@ -13,7 +13,7 @@ tags:
 - gentoo
 ---
 
-![Como instalar o QEMU/KVM no Linux Mint, Ubuntu e outras Distros](/assets/img/)
+![Como instalar o QEMU/KVM no Linux Mint, Ubuntu e outras Distros](/assets/img/virtualizacao/qemu.jpg)
 
 Já faz tempo que me perguntam quando haverá um vídeo/artigo sobre o [KVM](https://www.linux-kvm.org/) e [QEMU](https://www.qemu.org/), então resolvi e escolhi fazer um vídeo e artigo para sabermos do que se trata, como instala e como funciona.
 
