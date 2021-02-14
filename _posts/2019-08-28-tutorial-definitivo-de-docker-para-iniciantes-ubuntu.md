@@ -6,6 +6,7 @@ image: '/assets/img/docker/docker-basic.jpg'
 description: 'Ele tem a capacidade de implantar instâncias de contêineres que fornecem uma virtualização usando o kernel do host.'
 tags:
 - docker
+- virtualizacao
 - linux
 - ubuntu
 ---
