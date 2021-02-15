@@ -125,7 +125,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<a href="LINK" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD dp Angry IP scanner</a>
+<a href="https://angryip.org/download/#linux" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD dp Angry IP scanner</a>
 
 ---
 
@@ -157,7 +157,7 @@ Características principais
 + Qualys responde a ameaças em tempo real.
 + Suporta até 10 varreduras gratuitas.
 
-<a href="LINK" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD do Qualys FreeScan</a>
+<a href="https://freescan.qualys.com/freescan-front/" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD do Qualys FreeScan</a>
 
 ---
 
