@@ -28,10 +28,17 @@ Verificar andamento do processo de um objeto pelos Correios
 #
 # Ex.: ./rastreamento.sh DI781874650BR
 #
-# Autor: Marcos da B. M. Oliveira , http://www.terminalroot.com.br/
-# Desde: Dom 06 Out 2013 17:34:05 BRT 
+# Autor: Marcos Oliveira , https://www.terminalroot.com.br/
+# Desde: Dom 06 Out 2013 17:34:05 BRT
+# Last update: Seg 15 Feb 2021 19:49:02 BRT
 # Licença: GPL
 # --------------------------------------
+
+[[ $(which lynx 2>&-) ]] || {
+  printf "%s\n" "Precisa do 'lynx' instalado. Ex,: sudo apt install lynx"
+  exit 1
+}
+
 rastreamento(){
 url='http://websro.correios.com.br/sro_bin/txect01$.QueryList'
 # imprime em amarelo
@@ -40,22 +47,22 @@ for codigo
  do
   # baixa a url
   lynx -source "$url?P_LINGUA=001&amp;P_TIPO=001&amp;P_COD_UNI=$codigo" |
-  
+
   # deixa só as linhas que contém a string rowspan (que contém os dados do rastreamento), as demais são apagadas
-  sed '/rowspan/!d' | 
-  
+  sed '/rowspan/!d' |
+
   # substitui tudo entre  por espaço em branco
   sed 's// /g' |
-  
+
   # insere o texto abaixo na primeira linha
   sed -e "1s/^/\n\nO RASTREAMENTO DO SEU OBJETO $1 É:\n\n/" |
-  
+
   # limpa todas as tags e imprime uma linha em branco com echo
-  sed -e 's/]*>//g' &amp;&amp; echo
-  
-  
+  sed -e 's/]*>//g' && echo
+
+
  done
- 
+
 # finaliza a cor
 echo -e "\033[0m"
 }
