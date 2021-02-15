@@ -9,7 +9,7 @@ tags:
 - jquery
 ---
 
-[Javascript para Iniciantes](/assets/img/js/js.jpg)
+[Javascript para Iniciantes](/assets/img/js/javascript.jpg)
 
 JavaScript é uma linguagem de programação interpretada.
 
