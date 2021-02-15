@@ -19,6 +19,16 @@ O nome ncurses vem de "**n**ew **curses**", uma referência ao já descontinuado
 
 Ncurses faz parte do projeto [GNU](https://terminalroot.com.br/tags#gnu) e é um dos poucos componentes não distribuídos sob a licença [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.html) ou [LGPL](https://pt.wikipedia.org/wiki/GNU_Lesser_General_Public_License); é distribuído sob uma licença similar à [MIT License](https://mit-license.org/). 
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 Ultimamente venho traduzindo a [documentação oficial](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/index.html) das **ncurses** para o Português Brasileiro. Ainda faltam alguns poucos tópicos para ficar completa, mas já se encontra mais da metade e ainda incluir o **Cheat Sheet** que facilita o uso de todas as funções e atributos da mesma.
@@ -34,3 +44,16 @@ No [Curso de C++ Moderno Avançado](https://terminalroot.com.br/cpp/) nós criam
 ![Jogo da Cobra - Curso de C++ Moderno Avançado](/assets/img/cpp/snake-game.gif)
 
 Para saber mais sobre o curso acesse o endereço: <https://terminalroot.com.br/cpp>, veja também um vídeo com mais explicações [aqui](https://www.youtube.com/watch?v=BF809OoXfjM). E acesse a nossa página oficial das [ncurses](https://en.wikipedia.org/wiki/Ncurses): <https://terminalroot.com.br/ncurses/>
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
