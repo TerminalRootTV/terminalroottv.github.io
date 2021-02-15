@@ -28,6 +28,16 @@ echo -e "\e[0;3740m"
 
 Agora, o que esses caracteres mágicos significam? Difícil de compreender? Eles podem até ser diferentes para terminais diferentes. Portanto, os designers do UNIX inventaram um mecanismo chamado termcap. É um arquivo que lista todos os recursos de um terminal específico, junto com as sequências de escape necessárias para atingir um determinado efeito. Nos últimos anos, foi substituído pelo terminfo. Sem se aprofundar muito em detalhes, este mecanismo permite que programas de aplicativos consultem o banco de dados terminfo e obtenham os caracteres de controle a serem enviados a um terminal ou emulador de terminal.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 1.1. O que é NCURSES ?
 Você deve estar se perguntando qual é a importância de todo esse jargão técnico. No cenário acima, todo programa de aplicação deve consultar o terminfo e realizar as coisas necessárias (enviar caracteres de controle, etc.). Logo se tornou difícil administrar essa complexidade e isso deu origem a 'CURSES'. Curses é um trocadilho com o nome "otimização do cursor". A biblioteca Curses forma um invólucro sobre o trabalho com códigos de terminal brutos e fornece API (Interface de Programação de Aplicativo) altamente flexível e eficiente. Ele fornece funções para mover o cursor, criar janelas, produzir cores, brincar com o mouse, etc. Os programas aplicativos não precisam se preocupar com as capacidades subjacentes do terminal.
 
@@ -59,6 +69,18 @@ make                              # make it
 su root                           # become root
 make install                      # install it
 ```
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 + Usando variados sistemas de gerenciamento de pacotes de distribuições Linux
 ```sh
@@ -155,6 +177,19 @@ JustForFun
 ```
 Há um `Makefile` de nível superior incluído no diretório principal. Ele constrói todos os arquivos e coloca os *exes* prontos para uso no diretório `demo/exe`. Você também pode fazer um `make` seletivo no diretório correspondente. Cada diretório contém um arquivo README explicando o propósito de cada arquivo `c` no diretório.
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 Para cada exemplo, incluí o nome do caminho para o arquivo relativo ao diretório de exemplos.
 
 Se você preferir navegar por programas individuais, vá até o link <http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/ncurses_programs/>
@@ -209,6 +244,20 @@ Esta é a lista de desejos, em ordem de prioridade. Se você tiver um desejo ou 
 + Acessando termcap, terminfo usando funções fornecidas pelo pacote ncurses.
 + Trabalhando em dois terminais simultaneamente.
 + Adicione mais coisas à seção diversos.
+
+<!-- RETANGULO LARGO -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## 1.9. Direito autoral
 Copyright Š 2001 by Pradeep Padala.
@@ -295,7 +344,20 @@ E, finalmente, não se esqueça de encerrar o modo de `curses`. Caso contrário,
 Agora sabemos que para inicializar o sistema `curses`, a função `initscr()` deve ser chamada. Existem funções que podem ser chamadas após esta inicialização para personalizar nossa sessão de `curses`. Podemos pedir ao sistema `curses` para definir o terminal em modo bruto ou inicializar a cor ou inicializar o mouse, etc. Vamos discutir algumas das funções que normalmente são chamadas imediatamente após `initscr()`;
 
 ## 3.1. `raw()` e `cbreak()`
-Normalmente, o driver do terminal armazena os caracteres que um usuário digita até que uma nova linha ou retorno de carro seja encontrado. Mas a maioria dos programas exige que os caracteres estejam disponíveis assim que o usuário os digitar. As duas funções acima são usadas para desativar o buffer de linha. A diferença entre essas duas funções está na maneira como os caracteres de controle como suspender (CTRL-Z), interromper e sair (CTRL-C) são passados para o programa. No modo `raw()`, esses caracteres são passados diretamente para o programa sem gerar um sinal. No modo `cbreak()`, esses caracteres de controle são interpretados como qualquer outro caractere pelo driver do terminal. Eu pessoalmente prefiro usar `raw()` porque posso exercer maior controle sobre o que o usuário faz.
+Normalmente, o driver do terminal armazena os caracteres que um usuário digita até que uma nova linha ou retorno de carro seja encontrado. Mas a maioria dos programas exige que os caracteres estejam disponíveis assim que o usuário os digitar. As duas funções acima são usadas para desativar o buffer de linha. 
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+A diferença entre essas duas funções está na maneira como os caracteres de controle como suspender (CTRL-Z), interromper e sair (CTRL-C) são passados para o programa. No modo `raw()`, esses caracteres são passados diretamente para o programa sem gerar um sinal. No modo `cbreak()`, esses caracteres de controle são interpretados como qualquer outro caractere pelo driver do terminal. Eu pessoalmente prefiro usar `raw()` porque posso exercer maior controle sobre o que o usuário faz.
 
 ## 3.2. `echo()` e `noecho()`
 Essas funções exibem caracteres digitados pelo usuário no terminal. `noecho()` desativa a exibição. O motivo pelo qual você pode querer fazer isso é para obter mais controle sobre imprimir ou suprimir a exibição desnecessária enquanto recebe a entrada do usuário por meio das funções `getch()` etc. A maioria dos programas interativos chama `noecho()` na inicialização e faz a impressão de caracteres de uma maneira controlada. Dá ao programador a flexibilidade de imprimir caracteres em qualquer lugar da janela sem atualizar as coordenadas atuais (y, x).
@@ -354,6 +416,17 @@ printw("Olá !!!");
 refresh();
 ```
 Ele imprime a string em `stdscr` na posição atual do cursor. Da mesma forma, a chamada para `refresh()` funciona apenas em `stdscr`.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Digamos que você tenha criado janelas e então tenha que chamar uma função com um 'w' adicionado à função usual.
 ```cpp
@@ -436,7 +509,20 @@ O programa acima demonstra como é fácil usar `printw`. Basta alimentar as coor
 O programa acima nos apresenta uma nova função `getmaxyx()`, uma macro definida em `ncurses.h`. Fornece o número de colunas e o número de linhas em uma determinada janela. `getmaxyx()` faz isso atualizando as variáveis fornecidas a ele. Como `getmaxyx()` não é uma função, não passamos ponteiros para ela, apenas fornecemos duas variáveis inteiras.
 
 ## 5.3. `addstr()`
-Usada para colocar uma string de caracteres em uma determinada janela. Esta função é semelhante a chamar `addch()` uma vez para cada caractere em uma determinada string. Isso é verdadeiro para todas as funções de saída. Existem outras funções desta família, como `mvaddstr()`, `mvwaddstr()` e `waddstr()`, que obedecem à convenção de nomenclatura de `curses`. (Por exemplo, `mvaddstr()` é semelhante às respectivas chamadas `move()` e depois `addstr()`.) Outra função desta família é `addnstr()`, que recebe um parâmetro inteiro (digamos n) adicionalmente. Esta função coloca no máximo n caracteres na tela. Se *n* for negativo, toda a string será adicionada.
+Usada para colocar uma string de caracteres em uma determinada janela. Esta função é semelhante a chamar `addch()` uma vez para cada caractere em uma determinada string. Isso é verdadeiro para todas as funções de saída. Existem outras funções desta família, como `mvaddstr()`, `mvwaddstr()` e `waddstr()`, que obedecem à convenção de nomenclatura de `curses`. 
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+(Por exemplo, `mvaddstr()` é semelhante às respectivas chamadas `move()` e depois `addstr()`.) Outra função desta família é `addnstr()`, que recebe um parâmetro inteiro (digamos n) adicionalmente. Esta função coloca no máximo n caracteres na tela. Se *n* for negativo, toda a string será adicionada.
 
 ## 5.4. Uma palavra de cautela
 Todas essas funções recebem a coordenada y primeiro e depois x em seus argumentos. Um erro comum dos iniciantes é passar x, y nessa ordem. Se você estiver fazendo muitas manipulações de (y, x) coordenadas, pense em dividir a tela em janelas e manipular cada uma separadamente. As janelas são explicadas na seção de janelas.
@@ -501,11 +587,115 @@ int main( int argc, char ** argv ){
 
 ---
 
+# 7. Atributos
+Vimos um exemplo de como os atributos podem ser usados para imprimir caracteres com alguns efeitos especiais. Os atributos, quando definidos com prudência, podem apresentar informações de uma maneira fácil e compreensível. O programa a seguir pega um arquivo C como entrada e imprime o arquivo com comentários em negrito. Leia o código.
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+### Exemplo 5. Um exemplo de atributos simples
+```cpp
+#include <ncurses.h>
+#include <iostream>
+
+int main(int argc, char ** argv ){ 
+  int ch, prev, row, col;
+  prev = EOF;
+  FILE *fp;
+  int y, x;
+
+  if(argc != 2){
+    std::cout << "Use um nome de arquivo: " << argv[0] << '\n';
+    exit(1);
+  }
+  fp = fopen(argv[1], "r");
+  if(fp == NULL)  {
+    perror("Cannot open input file");
+    exit(1);
+  }
+  initscr();				
+  getmaxyx(stdscr, row, col);		
+  while((ch = fgetc(fp)) != EOF)  {
+    getyx(stdscr, y, x);		
+    if(y == (row - 1)){
+      printw("<-Pressione qualuqer tecla->");	
+      getch();
+      clear();				
+      move(0, 0);			
+    }
+    
+    if(prev == '/' && ch == '*'){
+      attron(A_BOLD);			
+      getyx(stdscr, y, x);		
+      move(y, x - 1);			
+      printw("%c%c", '/', ch); 		
+    }else{
+      printw("%c", ch);
+    }
+    
+    refresh();
+    if(prev == '*' && ch == '/'){
+      attroff(A_BOLD);
+    }
+    prev = ch;
+  }
+  endwin();                       	
+  fclose(fp);
+  return 0;
+}
+```
+
+Não se preocupe com toda a inicialização e outras parafernalhas. Concentre-se no loop `while`. Ele lê cada caractere no arquivo e procura o padrão `/*`. Depois de localizar o padrão, ele alterna o atributo **BOLD** com `attron()` . Quando obtemos o padrão `*/`, ele é desativado por `attroff()` .
+
+O programa acima também nos apresenta duas funções úteis `getyx()` e `move()` . A primeira função obtém as coordenadas do cursor atual nas variáveis **y**, **x**. Como `getyx()` é uma macro, não precisamos passar ponteiros para variáveis. A função `move()` move o cursor para as coordenadas fornecidas a ele.
+
+## 7.1 - Os detalhes
+Vamos entrar em mais detalhes sobre os atributos. As funções `attron()`, `attroff()`, `attrset()` e suas funções irmãs `attr_get()` etc. podem ser usadas para ligar/desligar atributos, obter atributos e produzir uma exibição colorida.
+
+As funções `attron` e `attroff` pegam uma máscara de bits de atributos e os ativam ou desativam, respectivamente. Os seguintes atributos de vídeo, que são definidos em `<ncurses.h>`, podem ser passados para essas funções.
+
+| Atributo | Explicação |
+|----------|------------|
+| A_NORMAL | Exibição normal (sem destaque) |
+| A_STANDOUT | Melhor modo de destaque do terminal. |
+| A_UNDERLINE | Sublinhado |
+| A_REVERSE | Vídeo reverso |
+| A_BLINK | Piscando |
+| A_DIM | meio brilhante |
+| A_BOLD | Extra brilhante ou negrito |
+| A_PROTECT | Modo protegido |
+| A_INVIS | modo invisível ou em branco |
+| A_ALTCHARSET | Conjunto de caracteres alternativos |
+| A_CHARTEXT | Bit-mask para extrair um caractere |
+| COLOR_PAIR | (n) Número do par de cores n  |
+
+
+
 # CHEAT SHEET NCURSES
 
 ---
 
 ## Funções de inicialização
+
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 | Funções | Descrição |
 | ------------- | ------------- |
@@ -536,6 +726,16 @@ int main( int argc, char ** argv ){
 
 ---
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Funções de saída
 
@@ -581,6 +781,17 @@ int main( int argc, char ** argv ){
 
 ## Funções de Atributo
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`attron()`** | Alterna os atributos dados a ele. |
@@ -622,6 +833,17 @@ Podemos **`OR`**(`|`) qualquer número dos atributos acima para obter um efeito 
 
 ## Funções de cor
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`start_color()`** | Precisa ser chamado antes de usar cores. |
@@ -651,6 +873,17 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 
 ## Funções de Janelas
 
+<!-- MINI ANÚNCIO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 | Funções | Descrição |
 | ------------- | ------------- |
 | **`box()`** | Desenhe uma borda ao redor das janelas. |
@@ -661,8 +894,87 @@ As seguintes cores são definidas em curses.h. Você pode usá-los como parâmet
 | **`wborder()`** | Desenha uma borda ao redor da janela pelos caracteres fornecidos a ela. |
 
 ---
+# Essa página ainda está incompleta, demais ainda serão adicionados a partir [daqui]().
+## TÓPICOS QUE AINDA FALTAM
+```txt
+08. Janelas
+    8.1. O básico
+    8.2. Que haja uma janela !!!
+    8.3. Explicação
+    8.4. As outras coisas no exemplo
+    8.5. Outras funções de fronteira
 
-> Essa página ainda está incompleta, o capítulo 7(8 tldp) e demais ainda serão adicionados a partir [daqui](https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/attrib.html).
+09. Cores
+    9.1. O básico
+    9.2. Alteração das definições de cores
+    9.3. Conteúdo de cor
+
+10. Interface com o teclado
+    10.1. O básico
+    10.2. Um exemplo de uso de chave simples
+
+11. Interface com o mouse
+    11.1. O básico
+    11.2. Obtendo os eventos
+    11.3. Juntando tudo
+    11.4. Funções Diversas
+
+12. Manipulação de tela
+    12.1. funções `getyx()`
+    12.2. Despejo de tela
+    12.3. Despejo de janela
+
+13. Recursos diversos
+    13.1. `curs_set()`
+    13.2. Saindo temporariamente do modo Curses
+    13.3. Variáveis `ACS_`
+
+14. Outras bibliotecas
+
+15. Biblioteca do painel
+    15.1. O básico
+    15.2. Compilando com a biblioteca de painéis
+    15.3. Navegação na janela do painel
+    15.4. Usando ponteiros do usuário
+    15.5. Movendo e redimensionando painéis
+    15.6. Escondendo e mostrando painéis
+    15.7. Funções `panel_above()` e `panel_below()`
+
+16. Biblioteca de Menus
+    16.1. O básico
+    16.2. Compilando com a Biblioteca do Menu
+    16.3. Menu Driver: O cavalo de trabalho do sistema de menu
+    16.4. Janelas de menu
+    16.5. Menus de rolagem
+    16.6. Menus multi-colunas
+    16.7. Menus de vários valores
+    16.8. Opções do menu
+    16.8. O útil ponteiro do usuário
+
+17. Biblioteca de formulários
+    17.1. O básico
+    17.2. Compilando com a Biblioteca de Formulários
+    17.3. Brincando com Campos
+    17.4. Form Windows
+    17.5. Validação de Campo
+    17.6. Driver de formulário: O cavalo de trabalho do sistema de formulários
+
+18. Ferramentas e bibliotecas de widgets
+    18.1. CDK (kit de desenvolvimento de ncurses)
+    18.2. O diálogo
+    18.3. Módulos Perl Curses `CURSES::FORM` e `CURSES::WIDGETS`
+
+19. Just For Fun !!!
+    20.1. O jogo da vida
+    20.2. Quadrado mágico
+    20.3. Torres de Hanói
+    20.4. Queens Puzzle
+    20.5. Shuffle
+    20.6. Tutor de Digitação
+20. Referências
+```
+---
+
 
 <style>
 div.pagina p { text-align: left; }
