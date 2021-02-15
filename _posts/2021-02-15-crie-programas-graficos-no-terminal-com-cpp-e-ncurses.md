@@ -31,4 +31,6 @@ A tradução pode ser encontrada no link: <https://terminalroot.com.br/ncurses/>
 
 No [Curso de C++ Moderno Avançado](https://terminalroot.com.br/cpp/) nós criamos o famoso [Jogo da Cobra](https://pt.wikipedia.org/wiki/Serpente_(jogo_eletrônico)) utilizando [Ncurses](https://terminalroot.com.br/ncurses/) , veja um trecho de um dos vídeos em gif abaixo:
 
-![Jogo da Cobra - Curso de C++ Moderno Avançado](url)
+![Jogo da Cobra - Curso de C++ Moderno Avançado](/assets/img/cpp/snake-game.gif)
+
+Para saber mais sobre o curso acesse o endereço: <https://terminalroot.com.br/cpp>, veja também um vídeo com mais explicações [aqui](https://www.youtube.com/watch?v=BF809OoXfjM). E acesse a nossa página oficial das [ncurses](https://en.wikipedia.org/wiki/Ncurses): <https://terminalroot.com.br/ncurses/>

@@ -2,14 +2,14 @@
 layout: post
 title: "Javascript para Iniciantes"
 date: 2020-01-30 17:33:10
-image: '/assets/img/js/javascript.jpg'
+image: '/assets/img/js/js.jpg'
 description: 'Para quem deseja aprender JavaScript do Zero no Linux.'
 tags:
 - javascript
 - jquery
 ---
 
-[Javascript para Iniciantes](/assets/img/js/javascript.jpg)
+[Javascript para Iniciantes](/assets/img/js/js.jpg)
 
 JavaScript é uma linguagem de programação interpretada.
 
