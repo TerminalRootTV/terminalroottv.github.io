@@ -97,7 +97,7 @@ Características principais
 + Fornecimento de relatórios para avaliação e mitigação de riscos.
 + Suporte para varreduras personalizadas inteligentes.
 
-<a href="LINK" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD do OpenVAS</a>
+<a href="https://www.openvas.org/" class="btn btn-success btn-lg" target="_blank" rel="noopener noreferrer">DOWNLOAD do OpenVAS</a>
 
 ---
 
