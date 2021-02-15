@@ -45,6 +45,8 @@ No [Curso de C++ Moderno Avançado](https://terminalroot.com.br/cpp/) nós criam
 
 Para saber mais sobre o curso acesse o endereço: <https://terminalroot.com.br/cpp>, veja também um vídeo com mais explicações [aqui](https://www.youtube.com/watch?v=BF809OoXfjM). E acesse a nossa página oficial das [ncurses](https://en.wikipedia.org/wiki/Ncurses): <https://terminalroot.com.br/ncurses/>
 
+Participe do nosso grupo [C++ Brasil](https://www.facebook.com/groups/901451760625548/) no [Facebook](https://www.facebook.com/groups/901451760625548/), [clique aqui para participar](https://www.facebook.com/groups/901451760625548) .
+
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Games Root -->
