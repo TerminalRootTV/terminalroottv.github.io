@@ -64,7 +64,7 @@ pip3 install conan --user
 ---
 
 # Utilização
-Vamos começar com um exemplo: vamos criar um aplicativo de calculadora de hash MD5 que usa uma das bibliotecas [C++](https://terminalroot.com.br/cpp/) mais populares: [Poco](https://pocoproject.org/). Usaremos o [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html) como sistema de construção neste caso, mas tenha em mente que Conan funciona com qualquer sistema de construção e não se limita a usar somente o CMake.
+Vamos começar com um exemplo básico, vamos criar um aplicativo de calcula a hash MD5 e que usa uma das bibliotecas mais populares para o [C++](https://terminalroot.com.br/cpp/): [Poco](https://pocoproject.org/). Usaremos o [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html) como sistema de construção neste caso, mas tenha em mente que Conan funciona com qualquer sistema de construção e não se limita a usar somente o CMake.
 
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
