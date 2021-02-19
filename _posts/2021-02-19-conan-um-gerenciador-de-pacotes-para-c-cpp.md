@@ -20,7 +20,7 @@ Funciona em todos os sistemas operacionais, incluindo [Windows](https://terminal
 
 Ele se integra com outras ferramentas como [Docker](https://terminalroot.com.br/2019/08/tutorial-definitivo-de-docker-para-iniciantes-ubuntu.html), [MinGW](https://terminalroot.com.br/2018/03/como-usar-o-shell-bash-no-windows.html), [WSL](https://www.youtube.com/watch?v=Mxt42P62HjY) e com todos os sistemas de construção, como [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html), MSBuild, [Makefiles](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html), [Meson](https://terminalroot.com.br/2020/03/como-compilar-programas-com-meson-build.html), SCons. Ele pode até mesmo se integrar com qualquer sistema de construção proprietário.
 
-Conan é totalmente gratuito, de código aberto e totalmente descentralizado. O repositório central ConanCenter contém centenas de pacotes de bibliotecas de código aberto populares, com muitos binários pré-compilados .
+Conan é totalmente gratuito, de código aberto e totalmente descentralizado. O repositório central [ConanCenter](https://conan.io/center/) contém centenas de pacotes de bibliotecas de código aberto populares, com muitos binários pré-compilados .
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
