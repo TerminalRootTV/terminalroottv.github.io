@@ -47,7 +47,7 @@ yay -S conan
 Você também pode baixar os pacotes [.deb](https://terminalroot.com.br/2014/12/como-criar-pacotes-deb.html), [.rpm](https://terminalroot.com.br/2013/04/curso-certificacao-linux-lpi-102_16.html), [tarball](https://terminalroot.com.br/2019/10/como-extrair-varios-formatos-compactados-com-um-comando.html) diretamente por [aqui](https://conan.io/downloads.html) e instalar:
 
 Ou até mesmo instalar via [pip](https://pypi.org/project/pip/), segundo eles, mais recomendado:
-> ANtes você precisará do Pip instalado, exemplo para sistemas que utilizam o APT:
+> Antes você precisará do Pip instalado, exemplo para sistemas que utilizam o APT:
 {% highlight bash %}
 sudo apt install python3-pip
 {% endhighlight %}
