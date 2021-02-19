@@ -140,7 +140,7 @@ data-ad-slot="8549252987"></ins>
 </script>
 
 
-Suponhamos que você usou o comando `conan inspect poco/1.9.4` para inspecionar essa versão e é justamente a versão que você deseja, então basta instalá-lo. Para isso crie um arquivo de nome: `conanfile.txt` dentro do seu projeto( nesse caso, o  projeto: *mymd5* ) com as seguintes informações:
+Suponhamos que você usou o comando `conan inspect poco/1.9.4`(Use o help para mais informações: `conan --help`) para inspecionar essa versão e é justamente a versão que você deseja, então basta instalá-lo. Para isso crie um arquivo de nome: `conanfile.txt` dentro do seu projeto( nesse caso, o  projeto: *mymd5* ) com as seguintes informações:
 {% highlight bash %}
 [requires]
 poco/1.9.4
