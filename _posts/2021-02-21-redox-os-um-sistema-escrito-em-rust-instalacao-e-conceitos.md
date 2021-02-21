@@ -3,7 +3,7 @@ layout: post
 title: "Redox OS - Um sistema escrito em Rust - Instalação e Conceitos"
 date: 2021-02-21 12:49:08
 image: '/assets/img/rust/redox.jpg'
-description:
+description: 'Tem um forte foco em segurança, estabilidade e alto desempenho.'
 icon: 'ion:terminal-sharp'
 iconname: 'terminalroot'
 tags:
