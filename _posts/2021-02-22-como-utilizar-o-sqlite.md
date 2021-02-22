@@ -3,7 +3,7 @@ layout: post
 title: "Como utilizar o SQLite"
 date: 2021-02-22 13:23:29
 image: '/assets/img/sqlite/sqlite.jpg'
-description: 'Simple, Veloz e Seguro!'
+description: 'Simples, Veloz e Seguro!'
 icon: 'ion:terminal-sharp'
 iconname: 'terminalroot'
 tags:
