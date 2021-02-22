@@ -15,7 +15,7 @@ tags:
 
 No dia 18 de fevereiro desse ano(2021) a [NASA](https://www.nasa.gov/) enviou seu quarto robô(**Perseverance**) para [Marte](https://www.nasa.gov/). Essa operação possui recursos mais avançados em comparação com os robôs anteriores.
 
-Dentre elas o **Perseverance** possui um **drone**(o **Ingenuity**) acoplado à sua estrutura física que fará em torno de quatro vôos por mês para analisar o território marciano.
+O **Perseverance** possui um **drone**(o **Ingenuity**) acoplado à sua estrutura física que fará em torno de quatro vôos por mês para analisar o território marciano.
 
 O Ingenuity por sua vez, além de possuir o sistema operacional [Linux](https://terminalroot.com.br/tags#linux) instalado, utilizará um software criado com [C++](https://terminalroot.com.br/cpp), (**F´, fprime** para esses vôos. Não é de hoje que [C++](https://terminalroot.com.br/cpp) já está em Marte, desde sondas anteriores, a NASA usa-o como ferramenta para cáculos precisos, como por exemplo, o sistema de pouso do robô anterior, o Curiosity, também foi escrito em [C++](https://terminalroot.com.br/cpp) e muito provavelmente o pouso do Perseverance também.
 
