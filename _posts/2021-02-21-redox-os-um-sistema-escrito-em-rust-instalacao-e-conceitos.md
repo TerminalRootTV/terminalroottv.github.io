@@ -5,7 +5,7 @@ date: 2021-02-21 12:49:08
 image: '/assets/img/rust/redox.jpg'
 description: 'Tem um forte foco em segurança, estabilidade e alto desempenho.'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'rust'
 tags:
 - rust
 - opensource

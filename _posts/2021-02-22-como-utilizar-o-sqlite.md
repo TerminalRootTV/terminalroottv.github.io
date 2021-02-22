@@ -5,7 +5,7 @@ date: 2021-02-22 13:23:29
 image: '/assets/img/sqlite/sqlite.jpg'
 description: 'Simples, Veloz e Seguro!'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'sqlite'
 tags:
 - sqlite
 - sql

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Repositório e detalhes do Software escrito em C++ do Drone da NASA em marte"
+title: "Repositório e detalhes do Software escrito em C++ do Drone da NASA em Marte"
 date: 2021-02-22 15:36:36
 image: '/assets/img/cpp/ingenuity-nasa.jpe'
 description: 'Saiba como instalar e/ou contribuir .'
