@@ -95,7 +95,7 @@ pip install --upgrade wheel setuptools pip
 pip install Fw/Python Gds/
 {% endhighlight %}
 
-+ Contruir a aplicação
++ Construir a aplicação
 {% highlight bash %}
 cd Ref
 fprime-util generate
