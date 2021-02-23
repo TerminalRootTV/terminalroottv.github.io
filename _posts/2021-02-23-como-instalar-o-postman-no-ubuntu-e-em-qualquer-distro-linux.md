@@ -5,7 +5,7 @@ date: 2021-02-23 19:04:56
 image: '/assets/img/dev/postman.jpg'
 description: 'Postman é atualmente uma das ferramentas mais populares usadas no desenvolvimento de API.'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'API'
 tags:
 - desenvolvimentoweb
 - laravel
