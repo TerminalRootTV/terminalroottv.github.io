@@ -30,7 +30,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![Postman Download](/assets/img/postman-0.jpg)
+![Postman Download](/assets/img/dev/postman-0.jpg)
 
 + Depois de baixar Postman em seu sistema, execute os seguintes comandos para instalar o Postman em seu sistema.
 > Certifique-se que está no diretório onde você fez o download do Postman
@@ -81,10 +81,10 @@ Categories=Development;Code;
 > Lembre-se de pressionar mais um ENTER para pular uma linha e digite `EOF` para terminar a inserção, ou utilize um editor de texto, mas precisa ser com `sudo`.
 
 + Agora digite "postman" no campo de pesquisa no Dashboard e abra-o, exemplo:
-![Postman Dashboard](/assets/img/postman-1.jpg)
+![Postman Dashboard](/assets/img/dev/postman-1.jpg)
 
 Se você ainda não tiver uma conta, você precisará registrar assim que abri-lo e seguir os passos do registro!
-![Postman Opened](/assets/img/postman-2.jpg)
+![Postman Opened](/assets/img/dev/postman-2.jpg)
 
 
 # Instalação no Ubuntu 20.04 LTS
