@@ -65,6 +65,8 @@ F´ possui as seguintes características:
 Para desenvolver aplicativos com F´, os seguintes requisitos do sistema do usuário devem ser atendidos.
 + Sistema operacional [Linux](https://terminalroot.com.br/2021/02/os-6-melhores-scanners-de-rede-para-linux.html) ou [Mac OS X](https://terminalroot.com.br/2018/03/como-instalar-o-mac-os-x-em-virtualbox-no-linux.html) (ou subsistema [Windows](https://terminalroot.com.br/2018/03/como-usar-o-shell-bash-no-windows.html) para [Linux](https://terminalroot.com.br/tags#linux) no [Windows](https://terminalroot.com.br/2019/08/assista-agora-o-filme-piratas-do-vale-do-silicio.html))
 
+---
+
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Games Root -->
@@ -75,6 +77,8 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+---
 
 + [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html)
 + [Bash](https://terminalroot.com.br/bash) ou [shell](https://terminalroot.com.br/shell) compatível com [Bash](https://terminalroot.com.br/shell)
@@ -117,6 +121,8 @@ Então se inscreva nos nossos [Cursos de C++ Moderno](https://terminalroot.com.b
 
 Acesse o endereço:
 # <https://terminalroot.com.br/cpp/> e saiba mais!
+
+---
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
