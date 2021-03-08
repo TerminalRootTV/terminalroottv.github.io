@@ -3,7 +3,7 @@ layout: post
 title: "Aprenda a Criar um Aplicativo Gráfico com C++ e GTKmm"
 date: 2021-03-08 08:34:35
 image: '/assets/img/gtkmm/gtkmm-cpp.jpg'
-description:
+description: 'Nesse vídeo vamos criar um aplicativo para o Firefox.'
 icon: 'ion:gnome'
 iconname: 'gtkmm'
 tags:
