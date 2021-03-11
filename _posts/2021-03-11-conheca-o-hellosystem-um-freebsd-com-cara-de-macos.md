@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o helloSystem, um FreeBSD com cara de macOS"
 date: 2021-03-11 07:41:33
 image: '/assets/img/freebsd/helloSystem.jpg'
-description:
+description: 'Um sistema de desktop para criadores com foco na simplicidade, elegância e usabilidade.'
 icon: 'ion:terminal-sharp'
 iconname: 'FreeBSD'
 tags:
