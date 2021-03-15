@@ -5,7 +5,7 @@ date: 2021-03-15 16:26:22
 image: '/assets/img/img/ai/nlp-cpp.jpg'
 description: 'PLN é uma subárea da computação e inteligência artificial.'
 icon: 'ion:terminal-sharp'
-iconname: 'C++'
+iconname: 'inteligência artificial'
 tags:
 - cpp
 - artificialinteligence
