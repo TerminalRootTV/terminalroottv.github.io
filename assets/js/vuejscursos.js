@@ -3,7 +3,7 @@
    data: {
      show: false,
      videourl: "",
-     mensagens: {paypal: "Comprar com PayPay", udemy: "Comprar na Udemy", invest: "Valor do investimento: "},
+     mensagens: {paypal: "Comprar com PayPal", udemy: "Comprar na Udemy", invest: "Valor do investimento: "},
      iniciante: {
        titulo: "Curso de C++ Moderno para Iniciantes",
        image: "/assets/img/cpp/cpp-logo-1.png",
