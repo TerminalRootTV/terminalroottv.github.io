@@ -89,7 +89,7 @@ Quotes are not required for multi-word queries.
 {% endhighlight %}
 
 # Exemplos
-Vamos pesquisar a palavra [Linux](), o comando seria:
+Vamos pesquisar a palavra [Linux](https://terminalroot.com.br/tags#linux), o comando seria:
 {% highlight bash %}
 wikit linux
 {% endhighlight %}
