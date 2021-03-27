@@ -14,9 +14,9 @@ tags:
 
 Uma vez eu li alguém dizendo: *"C++ não minha linguagem de programação preferida, e sim minha religião!"* 😃 , faço dessa citação minhas palavras!
 
-Algumas pessoas acham que[C++](https://terminalroot.com.br/cpp) é somente um [C](https://terminalroot.com.br/tags#linguagemc) com classes, mas na verdade[C++](https://terminalroot.com.br/cpp) tem tanto conceitos de C como da linguagem de programação [Simula](https://pt.wikipedia.org/wiki/Simula). Essas por sua vez também foram baseadas em outras. O C foi baseado na linguagem de programação [B](https://pt.wikipedia.org/wiki/B_(linguagem_de_programação))(que por sua vez era um miniset da [BCPL](https://pt.wikipedia.org/wiki/BCPL)), e a Simula foi baseada no [ALGOL 60](https://pt.wikipedia.org/wiki/ALGOL_60) .
+Algumas pessoas acham que [C++](https://terminalroot.com.br/cpp) é somente um [C](https://terminalroot.com.br/tags#linguagemc) com classes, mas na verdade [C++](https://terminalroot.com.br/cpp) tem tanto conceitos de C como da linguagem de programação [Simula](https://pt.wikipedia.org/wiki/Simula). Essas por sua vez também foram baseadas em outras. O C foi baseado na linguagem de programação [B](https://pt.wikipedia.org/wiki/B_(linguagem_de_programação))(que por sua vez era um miniset da [BCPL](https://pt.wikipedia.org/wiki/BCPL)), e a Simula foi baseada no [ALGOL 60](https://pt.wikipedia.org/wiki/ALGOL_60) .
 
-Algumas pessoas o considera uma linguagem de difícil sintaxe, o criador do Pascal uma vez disse que o[C++](https://terminalroot.com.br/cpp) era um [insulto ao cérebro humano](https://www.facebook.com/TerminalRootTV/photos/pb.526892601080836.-2207520000../1168989466871143/?type=3&theater), justamentamente por conta da complexidade do[C++](https://terminalroot.com.br/cpp) .
+Algumas pessoas o considera uma linguagem de difícil sintaxe, o criador do Pascal uma vez disse que o [C++](https://terminalroot.com.br/cpp) era um [insulto ao cérebro humano](https://www.facebook.com/TerminalRootTV/photos/pb.526892601080836.-2207520000../1168989466871143/?type=3&theater), justamentamente por conta da complexidade do [C++](https://terminalroot.com.br/cpp) .
  
 Mas, não é bem assim! Se fosse tão difícil assim, não seria largamente escolhida por diversos mega projetos que testam tudo antes: desempenho, segurança,... para escolher a linguagem ideal, sobre isso podemos atualmente citar o [Ingenuity](https://terminalroot.com.br/2021/02/repositorio-e-detalhes-do-software-escrito-em-cpp-do-drone-da-nasa-em-marte.html) o drone que irá voar no planeta Marte, que por sinal a [NASA](https://www.nasa.gov/) informou que a possível data será no dia 8 de abril de 2021 .
 
@@ -43,7 +43,7 @@ A maioria dos sistemas operacionais é escrita em linguagem C e C++. Estes inclu
 + Google Chrome OS;
 + RIM BlackBerry OS 4.x;
 + Apple iPhone iPod Touch e iPad OS;
-+ e o Haiku OS que é 100% escrito somente em[C++](https://terminalroot.com.br/cpp) .
++ e o Haiku OS que é 100% escrito somente em [C++](https://terminalroot.com.br/cpp) .
 
 O [Linux](https://terminalroot.com.br/linux) apesar de haver partes escritas em C++, em sua maioria prevalece somente o C .
 
@@ -77,7 +77,7 @@ data-ad-slot="5351066970"></ins>
 
 ## Web Sites
 + [Facebook](https://facebook.com/TerminalRootTV) - Apesar do seu código de exibição ser o PHP, quem executa todas as requisições é o C++.
-+ [Youtube](https://youtube.com/TerminalRootTV) - Da mesma forma do Facebook, o Youtube usa o Python como "front-end" que entrega para o[C++](https://terminalroot.com.br/cpp) processar todas as requisições.
++ [Youtube](https://youtube.com/TerminalRootTV) - Da mesma forma do Facebook, o Youtube usa o Python como "front-end" que entrega para o [C++](https://terminalroot.com.br/cpp) processar todas as requisições.
 + Amazon - Em muitos dos seus serviços
 + [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MDBKEUL69LKSY) - Todo o back-end
 
@@ -174,7 +174,7 @@ Bem, como eu disse sobre os Jogos/Games, uso as mesmas palavras para falar sobre
 
 ---
 
-Este não é o fim da lista, muitos outros softwares poderosos são desenvolvidos em C++. Muitos recursos criados pelo[C++](https://terminalroot.com.br/cpp) foram implementados ao C . Se algum *"amiguinho hater"* tentar lhe convencer do contrário, mostre esse artigo à ele.
+Este não é o fim da lista, muitos outros softwares poderosos são desenvolvidos em C++. Muitos recursos criados pelo [C++](https://terminalroot.com.br/cpp) foram implementados ao C . Se algum *"amiguinho hater"* tentar lhe convencer do contrário, mostre esse artigo à ele.
 
 # Deseja aprender [C++](https://terminalroot.com.br/cpp/) e criar seus programas Gráficos e para Terminal com portabilidade para Linux e Windows?
 Então se inscreva nos nossos [Cursos de C++ Moderno](https://terminalroot.com.br/cpp/) . Você aprender criar:
