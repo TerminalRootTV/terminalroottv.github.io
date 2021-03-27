@@ -3,7 +3,7 @@ layout: post
 title: "Lista de alguns softwares famosos escritos em C++"
 date: 2021-03-26 00:01:23
 image: '/assets/img/cpp/cpp.jpg'
-description: 'C foi o predecessor de B e BCPL. Simula foi o predecessor do ALGOL 60. E C++ é o meio termo dos dois.'
+description: 'C foi o sucessor de B . Simula foi o sucessor do ALGOL 60. E C++ foi o sucessor de ambos.'
 icon: 'ion:terminal-sharp'
 iconname: 'c++'
 tags:
