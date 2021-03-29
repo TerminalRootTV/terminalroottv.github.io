@@ -23,16 +23,16 @@ tags:
 
 🔊 Nesse vídeo testamos a velocidade das linguagens de programação:
 
-+ 01. [Python](https://terminalroot.com.br/tags#python)
-+ 02. [JavaScript](https://terminalroot.com.br/tags#javascript)
-+ 03. [Rust](https://terminalroot.com.br/tags#rust)
-+ 04. [Shell Script](https://terminalroot.com.br/shell)
-+ 05. [Java](https://terminalroot.com.br/tags#java)
-+ 06. [C++](https://terminalroot.com.br/cpp) 
-+ 07. [C](https://terminalroot.com.br/tags#linguagemc)
-+ 08. [PHP](https://terminalroot.com.br/php)
-+ 09. [Ruby](https://terminalroot.com.br/tags#ruby)
-+ 10. [Go](https://terminalroot.com.br/tags#go)
++ [Python](https://terminalroot.com.br/tags#python)
++ [JavaScript](https://terminalroot.com.br/tags#javascript)
++ [Rust](https://terminalroot.com.br/tags#rust)
++ [Shell Script](https://terminalroot.com.br/shell)
++ [Java](https://terminalroot.com.br/tags#java)
++ [C++](https://terminalroot.com.br/cpp) 
++ [C](https://terminalroot.com.br/tags#linguagemc)
++ [PHP](https://terminalroot.com.br/php)
++ [Ruby](https://terminalroot.com.br/tags#ruby)
++ [Go](https://terminalroot.com.br/tags#go)
 
 E ao final criamos um ranking com Awk .
 
@@ -123,7 +123,6 @@ for i in range(1000001):
 ---
 
 ### 06. JAVA `vim java.java`
-> Autocomplete: `cl<tab>`, class; `main<tab>`, método; `print<tab>`, print sem ln
 {% highlight java %}
 class java {
   public static void main ( String args[] ) {
