@@ -80,7 +80,7 @@ for( $i = 0; $i <= 1000000; $i++ ){
 ---
 
 ### 03. JAVASCRIPT `vim js.js`
-{% endhighlight js %}
+{% highlight js %}
 for( var i = 0; i <= 1000000; i++ ){
   process.stdout.write( i + "Ok\r");
 }
@@ -102,7 +102,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ### 04. RUBY `vim ruby.rb`
-{% endhighlight ruby %}
+{% highlight ruby %}
 for i in 1..1000000 do
  print "#{i}Ok\r"
 end
@@ -113,7 +113,7 @@ end
 ---
 
 ### 05. PYTHON `vim python.py`
-{% endhighlight python %}
+{% highlight python %}
 for i in range(1000001):
     print( str(i) + "Ok\r", end='' )
 {% endhighlight %}
@@ -124,7 +124,7 @@ for i in range(1000001):
 
 ### 06. JAVA `vim java.java`
 > Autocomplete: `cl<tab>`, class; `main<tab>`, método; `print<tab>`, print sem ln
-{% endhighlight java %}
+{% highlight java %}
 class java {
   public static void main ( String args[] ) {
     for ( int i = 0; i <= 1000000 ; i++ ){
@@ -151,7 +151,7 @@ data-ad-slot="8549252987"></ins>
 </script>
 
 ### 07. GO `vim go.go`
-{% endhighlight go %}
+{% highlight go %}
 package main
 import (
   "fmt"
@@ -170,7 +170,7 @@ func main() {
 ---
 
 ### 08. C++ `vim cpp.cpp`
-{% endhighlight cpp %}
+{% highlight cpp %}
 #include <iostream>
 
 int main(){
@@ -186,7 +186,7 @@ int main(){
 ---
 
 ### 09. RUST `vim rust.rs`
-{% endhighlight rust %}
+{% highlight rust %}
 fn main() {
  for i in 0..1000001 {
     print!("{}Ok\r", i);
@@ -199,7 +199,7 @@ fn main() {
 ---
 
 ### 10. C `vim c.c`
-{% endhighlight c %}
+{% highlight c %}
 i#include <stdio.h>
 
 int main(){
