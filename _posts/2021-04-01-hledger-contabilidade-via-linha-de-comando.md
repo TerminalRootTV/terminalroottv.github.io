@@ -3,7 +3,7 @@ layout: post
 title: "hledger - Contabilidade via Linha de Comando"
 date: 2021-04-01 13:44:52
 image: '/assets/img/contabeis/hledger.png'
-description: 'Contabilidade em modo texto simples e facil!'
+description: 'Contabilidade em modo texto simples e fácil!'
 icon: 'ion:terminal-sharp'
 iconname: 'contabilidade'
 tags:
