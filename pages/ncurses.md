@@ -577,7 +577,7 @@ int main( int argc, char ** argv ){
     // imprime a mensagem no centro da tela
     mvprintw(row/2,(col-strlen(mesg))/2,"%s",mesg);
     getstr(str);
-    mvprintw(LINES - 2, 0, "You Entered: %s", str);
+    mvprintw(LINES - 2, 0, "Você digitou: %s", str);
     getch();
     endwin();
 
@@ -618,7 +618,7 @@ int main(int argc, char ** argv ){
   }
   fp = fopen(argv[1], "r");
   if(fp == NULL)  {
-    perror("Cannot open input file");
+    perror("Não foi possível abrir o arquivo.");
     exit(1);
   }
   initscr();				
@@ -626,7 +626,7 @@ int main(int argc, char ** argv ){
   while((ch = fgetc(fp)) != EOF)  {
     getyx(stdscr, y, x);		
     if(y == (row - 1)){
-      printw("<-Pressione qualuqer tecla->");	
+      printw("<-Pressione qualquer tecla->");	
       getch();
       clear();				
       move(0, 0);			
@@ -651,6 +651,7 @@ int main(int argc, char ** argv ){
   fclose(fp);
   return 0;
 }
+// Use: ./a.out file.md
 ```
 
 Não se preocupe com toda a inicialização e outras parafernalhas. Concentre-se no loop `while`. Ele lê cada caractere no arquivo e procura o padrão `/*`. Depois de localizar o padrão, ele alterna o atributo **BOLD** com `attron()` . Quando obtemos o padrão `*/`, ele é desativado por `attroff()` .
