@@ -3,7 +3,7 @@ layout: post
 title: "cpp::daily Loop for ranged-based"
 date: 2021-04-07 11:15:46
 image: '/assets/img/cppdaily/cpp-daily-episode3.jpg'
-description:
+description: 'Episódio 003'
 icon: 'ion:terminal-sharp'
 iconname: 'cpp::daily'
 tags:
