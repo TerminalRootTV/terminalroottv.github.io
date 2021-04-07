@@ -651,7 +651,9 @@ int main(int argc, char ** argv ){
   fclose(fp);
   return 0;
 }
-// Use: ./a.out file.md
+// Use example: 
+// wget -q https://git.io/file.md
+// ./a.out file.md
 ```
 
 Não se preocupe com toda a inicialização e outras parafernalhas. Concentre-se no loop `while`. Ele lê cada caractere no arquivo e procura o padrão `/*`. Depois de localizar o padrão, ele alterna o atributo **BOLD** com `attron()` . Quando obtemos o padrão `*/`, ele é desativado por `attroff()` .
@@ -662,6 +664,9 @@ O programa acima também nos apresenta duas funções úteis `getyx()` e `move()
 Vamos entrar em mais detalhes sobre os atributos. As funções `attron()`, `attroff()`, `attrset()` e suas funções irmãs `attr_get()` etc. podem ser usadas para ligar/desligar atributos, obter atributos e produzir uma exibição colorida.
 
 As funções `attron` e `attroff` pegam uma máscara de bits de atributos e os ativam ou desativam, respectivamente. Os seguintes atributos de vídeo, que são definidos em `<ncurses.h>`, podem ser passados para essas funções.
+
+
+
 
 | Atributo | Explicação |
 |----------|------------|
