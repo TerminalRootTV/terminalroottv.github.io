@@ -3,8 +3,8 @@ layout: post
 title: "C++ Diário Loop for ranged-based"
 date: 2021-04-07 11:15:46
 image: '/assets/img/cppdaily/cpp-daily-episode3.jpg'
-description: 'Episódio 003 .'
-icon: 'ion:terminal-sharp'
+description: 'Episódio 003'
+icon: 'terminal-sharp'
 iconname: 'C++'
 tags:
 - cppdaily
@@ -17,21 +17,21 @@ O loop `for` *ranged-based* foi introduzido a partir do **C++11** e tem um desem
 Nesse [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje vamos mostrar **5 exemplos** que facilitarão sua compreensão para poder utilizá-los sempre que necessário!
 
 # 01. Foreach style
-{% highlight cpp %}
+```cpp
 for( int i : { 11, 2, 9, 17, 89, 12, 13, 52, 8, 4 } ){
   std::cout << i << '\n';
 }
-{% endhighlight %}
+```
 
 ***
 
 # 02. Com vectores e tipos automáticos
-{% highlight cpp %}
+```cpp
 std::vector<int> vec = { 11, 2, 9, 17, 89, 12, 13, 52, 8, 4 };
 for( auto &elem : vec ){
   std::cout << elem << '\n';
 }
-{% endhighlight %}
+```
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -46,7 +46,7 @@ data-ad-slot="5351066970"></ins>
 ***
 
 # 03. Quando passado para templates de função
-{% highlight cpp %}
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -63,22 +63,22 @@ int main(){
   print( vec );
   return 0;
 }
-{% endhighlight %}
+```
 
 ***
 
 # 04. Range baseada em declarações de vectores
-{% highlight cpp %}
+```cpp
 std::vector<int> vec = { 11, 2, 9, 17, 89, 12, 13, 52, 8, 4 };
 for ( auto pos = vec.begin(); pos != vec.end(); ++pos) {
  std::cout << *pos << '\n'; 
 }
-{% endhighlight %}
+```
 
 ***
 
 # 05. Somando elementos em estilo *foreach*
-{% highlight cpp %}
+```cpp
 int array[] = { 1, 2, 3 };
 long sum = 0;
 for ( int x : array ) {
@@ -88,7 +88,7 @@ for ( int x : array ) {
 for ( auto elem : { sum, sum * 2, sum * 4 } ) {
   std::cout << elem << '\n';
 }
-{% endhighlight %}
+```
 
 
 <!-- RETANGULO LARGO 2 -->
