@@ -23,7 +23,7 @@ for( int i : { 11, 2, 9, 17, 89, 12, 13, 52, 8, 4 } ){
 }
 {% endhighlight %}
 
----
+***
 
 # 02. Com vectores e tipos automáticos
 {% highlight cpp %}
@@ -43,7 +43,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
----
+***
 
 # 03. Quando passado para templates de função
 {% highlight cpp %}
@@ -65,7 +65,7 @@ int main(){
 }
 {% endhighlight %}
 
----
+***
 
 # 04. Range baseada em declarações de vectores
 {% highlight cpp %}
@@ -75,7 +75,7 @@ for ( auto pos = vec.begin(); pos != vec.end(); ++pos) {
 }
 {% endhighlight %}
 
----
+***
 
 # 05. Somando elementos em estilo *foreach*
 {% highlight cpp %}
@@ -104,7 +104,7 @@ data-ad-slot="8549252987"></ins>
 </script>
 
 
----
+***
 
 Por hoje é só, são pequenas doses diárias que farão sempre nos manter antenado com o [C++](https://terminalroot.com.br/cpp/) !
 
