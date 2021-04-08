@@ -45,7 +45,7 @@ data-ad-slot="5351066970"></ins>
 
 ## 1º Usando `std::endl`
 
-{% endhighlight %}cpp
+{% highlight cpp %}
 #include <iostream>
 #include <fstream>
 
@@ -71,7 +71,7 @@ sys	0m2,749s
 {% endhighlight %}
 
 ## 2º O mesmo programa utilizando `'\n'`
-{% endhighlight %}cpp
+{% highlight cpp %}
 #include <iostream>
 #include <fstream>
 
