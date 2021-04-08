@@ -58,7 +58,6 @@ int main( int argc, char ** argv ){
   for (int i = 0; i < 1000000; ++i ) {
    writeln( outfile, "Hello World!" ); 
   }
-  std::cout << "Ok" << '\n' << std::flush;
   return 0;
 }
 {% endhighlight %}
@@ -84,7 +83,6 @@ int main( int argc, char ** argv ){
   for (int i = 0; i < 1000000; ++i ) {
    writeln( outfile, "Hello World!" ); 
   }
-  std::cout << "Ok" << '\n' << std::flush;
   return 0;
 }
 {% endhighlight %}
