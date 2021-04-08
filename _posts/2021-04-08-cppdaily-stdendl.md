@@ -12,7 +12,7 @@ tags:
 
 ![cpp::daily std::endl](/assets/img/cppdaily/cpp-daily-episode4.jpg)
 
-> Não existe um único procedimento para https://terminalroot.com.br/ mais desempenho. Desempenho é um pouco de cada um dos detalhes!
+> Não existe um único procedimento para obter mais desempenho. Desempenho é um pouco de cada um dos detalhes!
 
 Geralmente quando você usa um [IDE](https://terminalroot.com.br/2020/08/anjuta-o-melhor-ide-para-c-com-gtkmm.html) eles costumam autocompletar seu `std::cout` com `std::endl` e isso não é uma boa ideia!
 
