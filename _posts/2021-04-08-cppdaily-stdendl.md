@@ -16,7 +16,7 @@ tags:
 
 Geralmente quando você usa um [IDE](https://terminalroot.com.br/2020/08/anjuta-o-melhor-ide-para-c-com-gtkmm.html) eles costumam autocompletar seu `std::cout` com `std::endl` e isso não é uma boa ideia!
 
-Usar `std::endl` pode ineficiente, pois na verdade ele faz duas tarefas: 
+Usar `std::endl` pode ser ineficiente, pois na verdade ele faz duas tarefas: 
 + **1º** move o cursor para a próxima linha: `'\n'`;
 + **2º** e "esvazia" a saída: `std::flush`.
 
