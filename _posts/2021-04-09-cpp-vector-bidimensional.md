@@ -102,9 +102,9 @@ Código final:
 
 int main( int argc, char ** argv ){
   std::vector<std::vector<int>> vec{  { 11, 2, 9, 27, 89 },
-    { 20, 13, 52 },
-    { 8, 4, 79, 4 }
-  };
+                                      { 20, 13, 52 },
+                                      { 8, 4, 79, 4 }
+                                   };
 
   vec.push_back( { 22, 33, 44 } );
   vec.pop_back();
