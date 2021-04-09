@@ -89,6 +89,40 @@ E se você quiser adicionar mais uma coordenada para esse vector? Basta usar o `
 vec.push_back( { 22, 33, 44 } );
 {% endhighlight %}
 
+E se quiser remover a última adicionada ou não, basta usar o `pop_back()`:
+{% highlight cpp %}
+vec.pop_back();
+{% endhighlight %}
+
+Código final:
+
+{% highlight cpp %}
+#include <iostream>
+#include <vector>
+
+int main( int argc, char ** argv ){
+  std::vector<std::vector<int>> vec{  { 11, 2, 9, 27, 89 },
+    { 20, 13, 52 },
+    { 8, 4, 79, 4 }
+  };
+
+  vec.push_back( { 22, 33, 44 } );
+  vec.pop_back();
+
+  for ( int i = 0; i < vec.size(); ++i ) {
+    for (int j = 0;  j < vec[i].size(); ++j) {
+      std::cout << "vec[" << i << "][" << j << "]: " << vec[i][j];
+      if( j != 3 ){
+        std::cout << ", ";
+      }
+    }
+    std::cout << '\n';
+  }
+
+  return 0;
+}
+{% endhighlight %}
+
 Simple, né?!
 
 Por hoje é só, são pequenas doses diárias que farão sempre nos manter antenado com o [C++](https://terminalroot.com.br/cpp/) !
