@@ -194,7 +194,7 @@ python3 install.py --clangd-completer # Somente C/C++
 + Salve esse arquivo: [.ycm_extra_conf.py](https://raw.githubusercontent.com/ycm-core/ycmd/66030cd94299114ae316796f3cad181cac8a007c/.ycm_extra_conf.py) em `~/.vim/.ycm_extra_conf.py`
 
 Adicione ao seu `~/.vim/.ycm_extra_conf.py` :
-{% endhighlight %}py
+{% highlight python %}
 '-I/usr/include/gtkmm-3.0',
 '-I./',
 '-I/usr/include',
