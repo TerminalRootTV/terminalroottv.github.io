@@ -43,7 +43,6 @@ data-ad-slot="5351066970"></ins>
 <iframe width="910" height="390" src="https://www.youtube.com/embed/W8bFxnpJjF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 # Todas as configurações utilizadas no vídeo
-# Como Configurar seu Vim para C/C++ (Ubuntu Cinnamon)
 > Muitas coisas servirão para quaisquer outras Linguagens de Programação
 
 # 01. Atualize seu sistema:
