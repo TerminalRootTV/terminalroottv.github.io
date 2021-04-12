@@ -3,7 +3,7 @@ layout: post
 title: "10 Exemplos do Comando Netcat (nc)"
 date: 2021-04-12 13:41:43
 image: '/assets/img/comandos/netcat.jpg'
-description: 'Uma ferramente de comando de rede, simples e poderosa!'
+description: 'Uma ferramenta de comando de rede, simples e poderosa!'
 icon: 'ion:terminal-sharp'
 iconname: 'netcat'
 tags:
