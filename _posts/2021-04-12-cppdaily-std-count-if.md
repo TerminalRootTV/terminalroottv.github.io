@@ -105,4 +105,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+# Referência
++ <https://en.cppreference.com/w/cpp/algorithm/count>
+
 
