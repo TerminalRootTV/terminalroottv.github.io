@@ -101,8 +101,9 @@ data-ad-slot="8549252987"></ins>
 
 
 {% highlight bash %}
-alias cp="${HOME}/.local/bin/cp --progress-bar
+alias cp="${HOME}/.local/bin/cp --progress-bar"
 {% endhighlight %}
+
 Feche, execute `source ~/.bashrc` e teste sem o parâmetro, o mesmo será incluso automaticamente:
 {% highlight bash %}
 cp Documentos/Fedora-Workstation-Live-x85_64-33-1.2.iso .
