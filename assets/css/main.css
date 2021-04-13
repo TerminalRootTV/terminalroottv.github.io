@@ -91,7 +91,7 @@ button.close {color: #fff; font-size: 60px;}
   max-width:100%;
   height:auto;
   padding:.25rem;
-  background-color:#fff;
+  background-color: transparent;
   border:1px solid #dee2e6;
   border-radius:.25rem;
   display: block;
@@ -229,7 +229,7 @@ pre {background: #282a36; padding: 15px; color: #fff; font-size: 18px; border: 1
   max-width:80%;
   height:80%;
   padding:.25rem;
-  background-color:#fff;
+  background-color: transparent;
   border:1px solid #dee2e6;
   border-radius:.25rem;
   display: block;
