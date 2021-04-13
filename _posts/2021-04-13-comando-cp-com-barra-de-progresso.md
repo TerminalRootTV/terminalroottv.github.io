@@ -80,6 +80,7 @@ E testar, exemplo:
 cp --progress-bar Documentos/Fedora-Workstation-Live-x86_64-33-1.2.iso .
 copying at 111,2 MiB/s (about 0h 0m 23s remaining)
 Documentos/Fedora-Workstation-Live-x86_64-33-1.2.iso                   340,9 MiB /   1,9 GiB
+[===============================>
 {% endhighlight %}
 
 Se quiser evitar de ficar usando esse parâmetro, já crie o alias com o parâmetro, exemplo:
@@ -107,6 +108,7 @@ Feche, execute `source ~/.bashrc` e teste sem o parâmetro, o mesmo será inclus
 cp Documentos/Fedora-Workstation-Live-x85_64-33-1.2.iso .
 copying at 111,2 MiB/s (about 0h 0m 23s remaining)
 Documentos/Fedora-Workstation-Live-x86_64-33-1.2.iso                   340,9 MiB /   1,9 GiB
+[===============================>
 {% endhighlight %}
 
 O mesmo pode ser usado para o comando `mv` que também ficará em `src`, no entanto, dê preferência para o parâmetro `-g` em vez do ~~`--progress-bar`~~, é mais simples! Mas sinceramente não vejo utilidade em usar isso no `mv` até porque as coisas são movidas de maneiras tão rápida que nem precisa disso.
