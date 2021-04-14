@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cpp::daily - Lógicas Boooleanas com STL"
+title: "cpp::daily - Lógicas Booleanas com STL"
 date: 2021-04-14 09:34:47
 image: '/assets/img/cppdaily/cpp-daily-episode8.jpg'
 description: 'Portas ou circuitos lógicos são dispositivos que operam e trabalham com um ou mais sinais lógicos de entrada para produzir uma e somente uma saída.'
