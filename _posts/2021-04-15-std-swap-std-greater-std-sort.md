@@ -294,5 +294,6 @@ Acesse o endereço:
 
 
 # Links Úteis
++ <https://en.cppreference.com/w/cpp/algorithm/swap>
 + <https://en.cppreference.com/w/cpp/algorithm/sort>
 + <https://en.cppreference.com/w/cpp/utility/functional/greater>
