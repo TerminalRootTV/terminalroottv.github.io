@@ -207,7 +207,7 @@ Por isso:
 {% highlight cpp %}
 if ( array[ current ] < array[ greater ] ){
 {% endhighlight %}
-E os valores serão impressos em ordem ascendente:
+E os valores serão impressos em ordem crescente:
 > Saída:
 {% highlight bash %}
 2 4 8 9 11 12 13 17 52 79 89
@@ -229,7 +229,7 @@ Bom, apesar desse código ser bom, a verdade é que podemos melhorar usando o `s
 + `std::sort` é uma função que ordena os valor de um array.
 + `std::greater` é um objeto de função que retornar o maior valor em uma comparação. 
 
-Por padrão a função `sort()` ordena os valores em ordem ascendente. Então se quisermos transformar o código acima usando `std::sort` ficaria:
+Por padrão a função `sort()` ordena os valores em ordem crescente. Então se quisermos transformar o código acima usando `std::sort` ficaria:
 > Precisa incluir o `#include <algorithm>`
 
 {% highlight cpp %}
