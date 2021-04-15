@@ -10,7 +10,7 @@ tags:
 - cppdaily
 ---
 
-![Episódio 009: std::swap, std::sort e std::greater](/assets/img/cppdaily/cpp-daily-episode8.jpg)
+![Episódio 009: std::swap, std::sort e std::greater](/assets/img/cppdaily/cpp-daily-episode9.jpg)
 
 # Troca de valores
 Nós sabemos que se quisermos trocar o valor de duas variáveis, basta ter uma variável temporária para armazenar o valor de uma das duas e depois atribuir o valor da primeira para a temporária, da primeira para a segunda e da segunda para temporária, assim:
