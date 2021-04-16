@@ -53,7 +53,8 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-## `std::variant` e `std::visit`
+# `std::variant` e `std::visit`
+
 O `std::variant` é como o próprio nome supõe, o tipo pode variar, não é igual à usar `auto`(precisa inicializar e não é possível alterar o tipo). Ou seja, com `std::variant` você pode dizer que a variável `var` poder ser: `int`, `std::string`, `char *`,... 
 
 Já o `std::visit` é a forma que vamos manipular esse dado entregue pela `std::variant`, ou seja, quando você cria uma função ela tem um tipo de retorno, logo, o `std::visit` quase a mesma ideia diretamente ligada ao polimosfismo. Ela é geralmente usada em conjunto com [expressões lambda](https://terminalroot.com.br/cpp) .
