@@ -3,7 +3,7 @@ layout: post
 title: "10 exemplos do comando ip"
 date: 2021-04-16 11:27:30
 image: '/assets/img/rede/ip.png'
-description:
+description: 'Uma ferramenta de rede do Linux para administradores de sistema e rede.'
 icon: 'ion:terminal-sharp'
 iconname: 'Redes'
 tags:
