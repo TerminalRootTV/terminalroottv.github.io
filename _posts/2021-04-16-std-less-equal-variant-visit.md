@@ -3,7 +3,7 @@ layout: post
 title: "cpp::daily - Conceitos e Exemplos sobre: std::less_equal, std::variant e std::visit"
 date: 2021-04-16 12:58:51
 image: '/assets/img/cppdaily/cpp-daily-episode10.jpg'
-description:
+description: 'C++ Diário - Episódio 010 .'
 icon: 'ion:terminal-sharp'
 iconname: 'cpp::daily'
 tags:
