@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lista com mais de 10 Filmes para Hackers"
+title: "Lista com mais de 100 Filmes para Hackers"
 date: 2021-04-19 12:14:34
 image: '/assets/img/hacker/filmes-para-hackers.png'
 description: 'Uma lista com curadoria de filmes que todo hacker e cyberpunk deve assistir.'
