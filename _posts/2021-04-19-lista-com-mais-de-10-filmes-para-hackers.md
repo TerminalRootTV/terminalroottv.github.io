@@ -13,7 +13,7 @@ tags:
 
 ![Lista com mais de 10 Filmes para Hackers](/assets/img/hacker/filmes-para-hackers.png)
 
-Uma lista com curadoria de filmes que todo hacker e cyberpunk deve assistir. As classificações são da [IMDb] (https://www.imdb.com/) .
+Uma lista com curadoria de filmes que todo hacker e cyberpunk deve assistir. As classificações são da [IMDb](https://www.imdb.com/) .
 
 A lista foi retirada do site *Hacker Movies*, e a maioria está em inglês, mas muitos possuem legendas.
 
