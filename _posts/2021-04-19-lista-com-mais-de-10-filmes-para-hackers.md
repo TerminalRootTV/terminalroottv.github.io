@@ -64,7 +64,7 @@ data-ad-slot="5351066970"></ins>
 | [Listening](https://www.imdb.com/title/tt3153582/)                                         | Filme de ação/Drama            | 2014 | 5.6/10 |
 | [Live Free or Die Hard](https://www.imdb.com/title/tt0337978/)                             | Filme de ação/Ação             | 2007 | 7.2/10 |
 | [Office Space](https://www.imdb.com/title/tt0151804/)                                      | Comédia/Romance                | 1999 | 7.8/10 |
-| [Pi](https://www.imdb.com/title/tt0138704/)                                                | Drama/Mystério                 | 1998 | 7.5/10 |
+| [Pi](https://www.imdb.com/title/tt0138704/)                                                | Drama/Mistério                 | 1998 | 7.5/10 |
 | [Primer](https://www.imdb.com/title/tt0390384/)                                            | Filme de ação/Drama            | 2004 | 7.0/10 |
 | [Reboot](https://www.imdb.com/title/tt2090594/)                                            | Filme de ação/Drama            | 2012 | 4.1/10 |
 | [Snowden](https://www.imdb.com/title/tt3774114/)                                           | Filme de ação/Drama            | 2016 | 7.3/10 |
@@ -78,7 +78,7 @@ data-ad-slot="5351066970"></ins>
 | [The Net](https://www.imdb.com/title/tt0113957/)                                           | Filme de ação/Drama            | 1995 | 5.8/10 |
 | [The Signal](https://www.imdb.com/title/tt2910814/)                                        | Filme de ação                  | 2014 | 6.1/10 |
 | [The Social Network](https://www.imdb.com/title/tt1285016/)                                | Drama/História                 | 2010 | 7.7/10 |
-| [The Thirteenth Floor](https://www.imdb.com/title/tt0139809/)                              | Filme de ação/Mystério         | 1999 | 7.0/10 |
+| [The Thirteenth Floor](https://www.imdb.com/title/tt0139809/)                              | Filme de ação/Mistério         | 1999 | 7.0/10 |
 | [Underground: The Julian Assange Story](https://www.imdb.com/title/tt2357453/)             | Drama/Biografia                | 2012 | 6.8/10 |
 | [Untraceable](https://www.imdb.com/title/tt0880578/)                                       | Filme de ação/Slasher          | 2008 | 6.2/10 |
 | [WarGames](https://www.imdb.com/title/tt0086567/)                                          | Filme de ação/Drama            | 1983 | 7.1/10 |
@@ -111,15 +111,15 @@ data-ad-slot="8549252987"></ins>
 | [Blade Runner](https://www.imdb.com/title/tt0083658/)                                      | Ficção científica/Ação     | 1982 | 8.2/10 |
 | [Blade Runner 2049](https://www.imdb.com/title/tt1856101/)                                 | Ficção científica/Drama    | 2017 | 8.3/10 |
 | [Colossus: The Forbin Project](https://www.imdb.com/title/tt0064177/)                      | Ficção científica/Ação     | 1970 | 7.1/10 |
-| [Ex Machina](https://www.imdb.com/title/tt0470752/)                                        | Mystério                   | 2015 | 7.7/10 |
+| [Ex Machina](https://www.imdb.com/title/tt0470752/)                                        | Mistério                   | 2015 | 7.7/10 |
 | [eXistenZ](https://www.imdb.com/title/tt0120907/)                                          | Ficção científica/Ação     | 1999 | 6.8/10 |
 | [Ghost in the Shell](https://www.imdb.com/title/tt0113568/)                                | Animation                  | 1995 | 8.0/10 |
 | [Ghost in the Shell](https://www.imdb.com/title/tt1219827/)                                | Ficção científica/Ação     | 2017 | 6.9/10 |
 | [Her](https://www.imdb.com/title/tt1798709/)                                               | Ficção científica/Romance  | 2013 | 8.0/10 |
-| [Inception](https://www.imdb.com/title/tt1375666/)                                         | Ficção científica/Mystério | 2010 | 8.8/10 |
+| [Inception](https://www.imdb.com/title/tt1375666/)                                         | Ficção científica/Mistério | 2010 | 8.8/10 |
 | [Johnny Mnemonic](https://www.imdb.com/title/tt0113481/)                                   | Ficção científica/Ação     | 1995 | 5.6/10 |
 | [Morgan](https://www.imdb.com/title/tt4520364/)                                            | Ficção científica/Ação     | 2016 | 5.8/10 |
-| [One Point O](https://www.imdb.com/title/tt0317042/)                                       | Ficção científica/Mystério | 2004 | 6.2/10 |
+| [One Point O](https://www.imdb.com/title/tt0317042/)                                       | Ficção científica/Mistério | 2004 | 6.2/10 |
 | [Open Windows](https://www.imdb.com/title/tt2409818/)                                      | Crime                      | 2014 | 5.2/10 |
 | [The Lawnmower Man](https://www.imdb.com/title/tt0104692/)                                 | Ação                       | 1992 | 5.4/10 |
 | [The Matrix](https://www.imdb.com/title/tt0133093/)                                        | Ação                       | 1999 | 8.7/10 |
@@ -134,7 +134,7 @@ data-ad-slot="8549252987"></ins>
 | FILME                                                                                      | GÊNERO                     | ANO | ANÁLISE |
 |--------------------------------------------------------------------------------------------|----------------------------|------|--------|
 | [Eagle Eye](https://www.imdb.com/title/tt1059786/)                                         | Ação/Filme de ação         | 2008 | 6.6/10 |
-| [Echelon Conspiracy](https://www.imdb.com/title/tt1124039/)                                | Ação/Crime/Mystério        | 2009 | 5.8/10 |
+| [Echelon Conspiracy](https://www.imdb.com/title/tt1124039/)                                | Ação/Crime/Mistério        | 2009 | 5.8/10 |
 | [Firewall](https://www.imdb.com/title/tt0408345/)                                          | Ação/Filme de ação         | 2006 | 5.8/10 |
 | [Gamer](https://www.imdb.com/title/tt1034032/)                                             | Ação/Filme de ação         | 2009 | 5.8/10 |
 | [Kung Fury](https://www.imdb.com/title/tt3472226/)                                         | Ação/Comédia               | 2015 | 8.1/10 |
@@ -206,9 +206,9 @@ data-ad-slot="5351066970"></ins>
 | TÍTULO                                                                                     | GÊNERO                     | ANO  |ANÁLISE |
 |--------------------------------------------------------------------------------------------|----------------------------|------|--------|
 | [Black Mirror](https://www.imdb.com/title/tt2085059/)                                      | Drama/Ficção científica    | 2011 | 8.9/10 |
-| [CSI: Cyber](https://www.imdb.com/title/tt3560060/)                                        | Drama/Crime/Mystério       | 2015 | 5.4/10 |
+| [CSI: Cyber](https://www.imdb.com/title/tt3560060/)                                        | Drama/Crime/Mistério       | 2015 | 5.4/10 |
 | [Dark Net](https://www.imdb.com/title/tt5397520/)                                          | Documentário/Série         | 2016 | 7.3/10 |
-| [Devs](https://www.imdb.com/title/tt8134186/)                                              | Drama/Mystério/Sci-Fi      | 2020 | 7.9/10 |
+| [Devs](https://www.imdb.com/title/tt8134186/)                                              | Drama/Mistério/Sci-Fi      | 2020 | 7.9/10 |
 | [Halt and Catch Fire](https://www.imdb.com/title/tt2543312/)                               | Drama                      | 2014 | 8.3/10 |
 | [Mr. Robot](https://www.imdb.com/title/tt4158110/)                                         | Filme de ação/Drama        | 2015 | 8.7/10 |
 | [Person of Interest](https://www.imdb.com/title/tt1839578/)                                | Ação/Crime/Drama           | 2011 | 8.5/10 |
@@ -220,7 +220,7 @@ data-ad-slot="5351066970"></ins>
 | [The IT Crowd](https://www.imdb.com/title/tt0487831/)                                      | Comédia                    | 2006 | 8.6/10 |
 | [Travelers](https://www.imdb.com/title/tt5651844/)                                         | Ficção científica          | 2016 | 8.0/10 |
 | [Valley of the Boom](https://www.imdb.com/title/tt7768092/)                                | Documentário/Drama         | 2019 | 6.5/10 |
-| [Westworld](https://www.imdb.com/title/tt0475784/)                                         | Drama/Mystério             | 2016 | 9.0/10 |
+| [Westworld](https://www.imdb.com/title/tt0475784/)                                         | Drama/Mistério             | 2016 | 9.0/10 |
 | [You Are Wanted](https://www.imdb.com/title/tt5462886/)                                    | Filme de ação/Drama        | 2017 | 6.1/10 |
 
 Os filmes foram selecionados pelo site [Hacker Movies](https://hackermovie.club/) .
