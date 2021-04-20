@@ -19,6 +19,17 @@ Este software foi escrito em [C](https://terminalroot.com.br/tags#linguagemc) e 
 
 Ele pode ser usado em modo gráfico usando [GTK](https://terminalroot.com.br/tags#gtkmm) ou em modo baseado em texto usando [NCurses](https://terminalroot.com.br/ncurses). Um modo de despejo está presente na [linha de comando](https://terminalroot.com.br/tags#comandos).
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 # Instalação
 Há diversas formas de você obter o CPU-X no seu sistema, dentre elas:
 
@@ -55,9 +66,29 @@ Caso queira rodar a versão [Ncurses](), use assim:
 
 Outra alternativa, não tão completa quanto o CPU-X, mas interessante é o **CPUfetch**:
 
+---
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
+
+
 [![CPUfetch](/assets/img/hardware/cpufetch.jpg)](/assets/img/hardware/cpufetch.jpg)
 
 # Links Úteis
 + <https://x0rg.github.io/CPU-X/>
 + <https://github.com/X0rg/CPU-X/>
++ <https://terminalroot.com.br/assets/img/hardware/cpufetch.jpg>
+
+
 
