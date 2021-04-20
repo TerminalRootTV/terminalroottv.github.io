@@ -83,12 +83,12 @@ data-ad-slot="8549252987"></ins>
 ---
 
 
-[![CPUfetch](/assets/img/hardware/cpufetch.jpg)](/assets/img/hardware/cpufetch.jpg)
+[![CPUfetch](/assets/img/hardware/cpufetch.jpg)](https://github.com/Dr-Noob/cpufetch)
 
 # Links Úteis
 + <https://x0rg.github.io/CPU-X/>
 + <https://github.com/X0rg/CPU-X/>
-+ <https://terminalroot.com.br/assets/img/hardware/cpufetch.jpg>
++ <https://github.com/Dr-Noob/cpufetch>
 
 
 
