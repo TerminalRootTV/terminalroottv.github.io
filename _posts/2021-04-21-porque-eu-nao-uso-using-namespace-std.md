@@ -46,7 +46,7 @@ int main(){
 }
 ```
 
-Nesse exemplo percebemos uma: `string`, `abs`(da `cstdlib`) e `print`, `além do uso de: using namespace std;`, olha que bagunça infeliz!!! 😞  
+Nesse exemplo percebemos uma: `string`, `abs`(da `cstdlib`) e `print`, além do uso de: `using namespace std;`, olha que bagunça infeliz!!! 😞  
 
 Quando eu tentar compilar terei um belo erro de:
 ```sh
