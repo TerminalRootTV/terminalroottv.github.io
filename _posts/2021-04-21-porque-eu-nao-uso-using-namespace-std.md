@@ -96,7 +96,7 @@ int main(){
 
 Ahh!!! Mas quem vai criar nome de funções, classes, structs, ... com nomes que já existem na STL ? Isso é o que mais há.
 
-Nas bibliptecas da [Unreal Engine](https://www.unrealengine.com/en-US/), existe até `vector`, e não é o vector da std .
+Nas bibliotecas da [Unreal Engine](https://www.unrealengine.com/en-US/), existe até `vector`, e não é o vector da std .
 
 Sem dizer o exemplo alí do `abs`, já vi muita gente usando nomes de funções que já existem na STL e isso pode dar muita dor de cabeça se o cara sempre usar namespace sem resolução de escopo .
 
