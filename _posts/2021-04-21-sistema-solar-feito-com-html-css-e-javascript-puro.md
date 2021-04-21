@@ -5,7 +5,7 @@ date: 2021-04-21 08:38:19
 image: '/assets/img/dev-web/solarsystem.jpg'
 description: 'Código pronto para você rodar no seu navegador.'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'Desenvolvimento Web'
 tags:
 - html5
 - css
