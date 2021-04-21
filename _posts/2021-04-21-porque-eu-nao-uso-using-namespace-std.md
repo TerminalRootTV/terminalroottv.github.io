@@ -81,7 +81,7 @@ namespace terroo {
   }
 
   void print( const string &text ){
-    cout << text << '\n';
+    std::cout << text << '\n';
   }
 
 }
