@@ -234,7 +234,7 @@ for ps, you would use
 Consulte o [guia do autor do LDP](http://www.tldp.org/LDP/LDP-Author-Guide/) para obter mais detalhes. Se tudo mais falhar, envie-me um e-mail para <ppadala@gmail.com>
 
 ## 1.7. Créditos
-Agradecimentos a **Sharath**, **Emre Akbas**, **Anuradha Ratnaweera** e **Ravi Parimi**. Tradução em Português Brasileiro: **Marcos Oliveira**.
+Agradecimentos a **Sharath**, **Emre Akbas**, **Anuradha Ratnaweera** e **Ravi Parimi**. Tradução em Português Brasileiro: **Marcos Oliveira** e **Jovane Rocha**.
 
 ## 1.8. Lista de Desejos
 Esta é a lista de desejos, em ordem de prioridade. Se você tiver um desejo ou se quiser trabalhar para realizá-lo, envie-me um email.
@@ -665,9 +665,6 @@ Vamos entrar em mais detalhes sobre os atributos. As funções `attron()`, `attr
 
 As funções `attron` e `attroff` pegam uma máscara de bits de atributos e os ativam ou desativam, respectivamente. Os seguintes atributos de vídeo, que são definidos em `<ncurses.h>`, podem ser passados para essas funções.
 
-
-
-
 | Atributo | Explicação |
 |----------|------------|
 | A_NORMAL | Exibição normal (sem destaque) |
@@ -683,7 +680,908 @@ As funções `attron` e `attroff` pegam uma máscara de bits de atributos e os a
 | A_CHARTEXT | Bit-mask para extrair um caractere |
 | COLOR_PAIR | (n) Número do par de cores n  |
 
+O último é o mais colorido 😃 . As cores são explicadas nas próximas seções.
 
+Podemos usar `OR`(`|`) ou qualquer número dos atributos acima para obter um efeito combinado. Se você quisesse vídeo reverso com caracteres piscando, você pode usar
+```cpp
+attron(A_REVERSE | A_BLINK);
+```
+
+---
+
+## 7.2 `attron()` vs `attrset()`
+Então, qual é a diferença entre `attron()` e `attrset()`? attrset define os atributos de janela, enquanto attron apenas ativa o atributo fornecido a ele.
+
+Assim, `attrset()` sobrescreve totalmente quaisquer atributos que a janela tinha anteriormente e os define para o(s) nov (s) atributo(s). Similarmente, `attroff()` apenas desliga o(s) atributo(s) fornecido(s) a ele como um argumento.
+
+Isso nos dá a flexibilidade de gerenciar atributos facilmente. Mas se você usá-los sem cuidado, pode perder o controle de quais atributos a janela tem e distorcer a exibição.
+
+Isso é especialmente verdadeiro durante o gerenciamento de menus com cores e realces. Portanto, decida uma política consistente e cumpra-a. Você sempre pode usar `standend()`, que é equivalente a `attrset(A_NORMAL)`, que desativa todos os atributos e leva você ao modo normal.
+
+## 7.3. attr_get()
+A função `attr_get()` obtém os atributos atuais e o par de cores da janela. Embora possamos não usar isso tão freqüentemente quanto as funções acima, isso é útil para escanear áreas da tela.
+
+Digamos que queremos fazer alguma atualização complexa na tela e não temos certeza de qual atributo cada personagem está associado. Então, essa função pode ser usada com `attrset` ou `attron` para produzir o efeito desejado.
+
+## 7.4. attr_ functions
+Existem séries de funções como `attr_set()`, `attr_on`, etc. Estas são semelhantes às funções acima, exceto que tomam parâmetros do tipo `attr_t`.
+
+## 7.5. funções wattr
+Para cada uma das funções acima, temos uma função correspondente com 'w' que opera em uma janela específica. As funções acima operam em `stdscr`.
+
+## 7.6. funções chgat()
+A função `chgat()` está listada no final da página do manual `curs_attr`. Na verdade, é útil. Esta função pode ser usada para definir atributos para um grupo de personagens sem se mover. Quero dizer !!! sem mover o cursor 😃 . Ele muda os atributos de um determinado número de caracteres começando na posição atual do cursor.
+
+Podemos dar **-1** como a contagem de caracteres para atualizar até o final da linha. Se você quiser alterar os atributos dos caracteres da posição atual até o final da linha, basta usar isso.
+```cpp
+chgat(-1, A_REVERSE, 0, NULL);
+```
+
+Esta função é útil ao alterar atributos de caracteres que já estão na tela. Vá até o caractere do qual deseja alterar e altere o atributo.
+
+Outras funções `wchgat()`, `mvchgat()`, `wchgat()` se comportam de maneira semelhante, exceto que as funções `w` operam na janela específica. As funções `m`v primeiro movem o cursor e depois executam o trabalho que lhes foi atribuído. Na verdade, `chgat` é uma macro que é substituída por `wchgat()` com stdscr como janela. A maioria das funções "w-less" são macros.
+
+Exemplo 6. Usando `chgat`
+```cpp
+#include <ncurses.h>
+
+int main(int argc, char ** argv){
+  initscr();
+  start_color();
+
+  init_pair(1, COLOR_CYAN, COLOR_BLACK);
+  printw("Uma string grande que eu não me importei em digitar completamente ...");
+  mvchgat(0, 0, -1, A_BLINK, 1, NULL);	
+
+  refresh();
+  getch();
+  endwin();
+  return 0;
+}
+```
+
+Este exemplo também nos apresenta ao mundo das cores das Ncurses. As cores serão explicadas em detalhes posteriormente. Use 0 para nenhuma cor.
+
+---
+
+# 8. Janelas
+As janelas constituem o conceito mais importante em curses. Você viu a janela padrão stdscr acima, onde todas as funções operavam implicitamente nessa janela. Agora, para tornar o design ainda mais simples da GUI, você precisa recorrer a janelas.
+
+O principal motivo pelo qual você pode querer usar janelas é manipular partes da tela separadamente, para melhor eficiência, atualizando apenas as janelas que precisam ser alteradas e para um melhor design.
+Eu diria que o último motivo é o mais importante na escolha de janelas. Você deve sempre se esforçar para ter um design melhor e fácil de gerenciar em seus programas. Se você estiver escrevendo GUIs grandes e complexas, isso é de fundamental importância antes de começar a fazer qualquer coisa.
+
+## 8.1. O básico
+Uma janela pode ser criada chamando a função `newwin()`. Na verdade, isso não cria nada na tela. Ela aloca memória para uma estrutura para manipular a janela e atualiza a estrutura com dados relativos à janela como seu tamanho, `beginy`, `beginx`, etc.
+
+Portanto, em curses, uma janela é apenas uma abstração de uma janela imaginária, que pode ser manipulada independentemente de outras partes da tela. A função `newwin()` retorna um ponteiro para a estrutura **WINDOW**, que pode ser passado para funções relacionadas à janela como `wprintw()` etc.
+
+Finalmente, a janela pode ser destruída com `delwin()`. Isso irá desalocar a memória associada à estrutura da janela.
+
+## 8.2. Que haja uma janela!!!
+Qual a graça de criar uma janela  e não vê-la? Portanto, a parte divertida começa exibindo a janela. A função `box()` pode ser usada para desenhar uma borda ao redor da janela. Vamos explorar essas funções com mais detalhes neste exemplo.
+
+Exemplo 7. Exemplo de Borda da janela
+```cpp
+#include <ncurses.h>
+
+WINDOW *create_newwin(int height, int width, int starty, int startx);
+void destroy_win(WINDOW *local_win);
+
+int main(int argc, char *argv[]){
+  WINDOW *my_win;
+  int startx, starty, width, height;
+  int ch;
+
+  initscr();			/* Inicia o modo curses 		*/
+  cbreak();				/* Buffer de linha desativado, passe 
+                                         * tudo para mim 		*/
+  keypad(stdscr, TRUE);		/* Eu preciso daquele F1 bacana 	*/
+
+  height = 3;
+  width = 10;
+  starty = (LINES - height) / 2;	/* Calculando para um posicionamento central */
+  startx = (COLS - width) / 2;	/* da janela		*/
+  printw("Press F1 to exit");
+  refresh();
+  my_win = create_newwin(height, width, starty, startx);
+
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case KEY_LEFT:
+        destroy_win(my_win);
+        my_win = create_newwin(height, width, starty,--startx);
+        break;
+      case KEY_RIGHT:
+        destroy_win(my_win);
+        my_win = create_newwin(height, width, starty,++startx);
+        break;
+      case KEY_UP:
+        destroy_win(my_win);
+        my_win = create_newwin(height, width, --starty,startx);
+        break;
+      case KEY_DOWN:
+        destroy_win(my_win);
+        my_win = create_newwin(height, width, ++starty,startx);
+        break;	
+    }
+  }
+
+  endwin();			/* Termina o modo curses		  */
+  return 0;
+}
+
+WINDOW *create_newwin(int height, int width, int starty, int startx){
+  WINDOW *local_win;
+
+  local_win = newwin(height, width, starty, startx);
+  box(local_win, 0 , 0);		/* 0, 0 dá caracteres padrão 
+                                         * para as linhas verticais and horizontais	*/
+  wrefresh(local_win);		/* Mostra aquela caixa 		*/
+
+  return local_win;
+}
+
+void destroy_win(WINDOW *local_win){	
+  / * box (local_win, '', ''); : Isso não produzirá o resultado
+    *  desejado de apagar a janela. Vai deixar seus quatro cantos,
+    * e uma lembrança feia da janela.
+      * /
+      wborder (local_win, '', '', '', '', '', '', '', '');
+  / * Os parâmetros usados são
+    * 1. win: a janela na qual operar
+    * 2. ls: caractere a ser usado para o lado esquerdo da janela
+    * 3. rs: caractere a ser usado para o lado direito da janela
+    * 4. ts: caractere a ser usado na parte superior da janela
+    * 5. bs: caractere a ser usado na parte inferior da janela
+    * 6. tl: caractere a ser usado para o canto superior esquerdo da janela
+    * 7. tr: caractere a ser usado no canto superior direito da janela
+    * 8. bl: caractere a ser usado no canto inferior esquerdo da janela
+    * 9. br: caractere a ser usado no canto inferior direito da janela
+    * /
+    wrefresh(local_win);
+  delwin(local_win);
+}
+```
+
+## 8.3. Explicação
+Não grite. Eu sei que é um exemplo grande. Mas tenho que explicar algumas coisas importantes aqui 😃 . Este programa cria uma janela retangular que pode ser movida com as teclas de seta para a esquerda, para a direita, para cima e para baixo.
+
+Ele cria e destrói repetidamente janelas quando o usuário pressiona uma tecla. Não ultrapasse os limites da tela. Verificar esses limites fica como um exercício para o leitor. Vamos dissecar linha por linha.
+
+A função `create_newwin()` cria uma janela com `newwin()` e exibe uma borda ao redor com uma caixa. A função `destroy_win()` primeiro apaga a janela da tela pintando uma borda com o caractere `''` e, em seguida, chamando `delwin()` para desalocar a memória relacionada a ela. Dependendo da tecla que o usuário pressionar, `starty` ou `startx` é alterado e uma nova janela é criada.
+
+No `destroy_win`, como você pode ver, usei `wborder` em vez de `box`. O motivo está escrito nos comentários (Você pulou. Eu sei. Leia o código 😃 ). `wborder` desenha uma borda ao redor da janela com os caracteres atribuídos a ela como os 4 pontos de canto e as 4 linhas. Para ser mais claro, se você tiver chamado wborder conforme abaixo:
+
+`wborder(win, '|', '|', '-', '-', '+', '+', '+', '+')`;
+
+isso produz algo como
+```sh
+    +------------+
+    |            |
+    |            |
+    |            |
+    |            |
+    |            |
+    |            |
+    +------------+
+```
+
+## 8.4. As outras coisas no exemplo
+Você também pode ver nos exemplos acima, que usei as variáveis `COLS`, `LINES` que são inicializadas para os tamanhos de tela após `initscr()`. Elas podem ser úteis para encontrar as dimensões da tela e encontrar a coordenada central da tela como acima. A função `getch()`, como de costume, pega a tecla do teclado e de acordo com a tecla faz o trabalho correspondente.
+
+Este tipo de switch-case é muito comum em qualquer programa baseado em GUI.
+
+## 8.5. Outras funções de Borda
+O programa acima é extremamente ineficiente, pois a cada pressionamento de uma tecla, uma janela é destruída e outra é criada. Então, vamos escrever um programa mais eficiente que use outras funções relacionadas a bordas.
+
+O programa a seguir usa `mvhline()` e `mvvline()` para obter um efeito semelhante. Essas duas funções são simples. Elas criam uma linha horizontal ou vertical do comprimento especificado na posição especificada.
+
+Exemplo 8. Mais funções de bordas
+```cpp
+#include <ncurses.h>
+
+typedef struct _win_border_struct {
+  chtype 	ls, rs, ts, bs,
+                tl, tr, bl, br;
+}WIN_BORDER;
+
+typedef struct _WIN_struct {
+
+  int startx, starty;
+  int height, width;
+  WIN_BORDER border;
+}WIN;
+
+void init_win_params(WIN *p_win);
+void print_win_params(WIN *p_win);
+void create_box(WIN *win, bool flag);
+
+int main(int argc, char *argv[]){
+  WIN win;
+  int ch;
+
+  initscr();					/* Começa o modo curses 		*/
+  start_color();			/* Começa a funcionalidade das cores */
+  cbreak();						/* Buffer de linha desativado, passe 
+                                                         * tudo para mim * /
+                                                         keypad(stdscr, TRUE);		/* Preciso daquele F1 bacana 	*/
+  noecho();
+  init_pair(1, COLOR_CYAN, COLOR_BLACK);
+
+  /* Inicializa os parâmetros da janela */
+  init_win_params(&win);
+  print_win_params(&win);
+
+  attron(COLOR_PAIR(1));
+  printw("Press F1 to exit");
+  refresh();
+  attroff(COLOR_PAIR(1));
+
+  create_box(&win, TRUE);
+  while((ch = getch()) != KEY_F(1))
+  {	switch(ch)
+    {	case KEY_LEFT:
+      create_box(&win, FALSE);
+      --win.startx;
+      create_box(&win, TRUE);
+      break;
+      case KEY_RIGHT:
+      create_box(&win, FALSE);
+      ++win.startx;
+      create_box(&win, TRUE);
+      break;
+      case KEY_UP:
+      create_box(&win, FALSE);
+      --win.starty;
+      create_box(&win, TRUE);
+      break;
+      case KEY_DOWN:
+      create_box(&win, FALSE);
+      ++win.starty;
+      create_box(&win, TRUE);
+      break;
+    }
+  }
+  endwin();			/* Termina o modo curses		  */
+  return 0;
+}
+
+void init_win_params(WIN *p_win){
+
+  p_win->height = 3;
+  p_win->width = 10;
+  p_win->starty = (LINES - p_win->height)/2;
+  p_win->startx = (COLS - p_win->width)/2;
+
+  p_win->border.ls = '|';
+  p_win->border.rs = '|';
+  p_win->border.ts = '-';
+  p_win->border.bs = '-';
+  p_win->border.tl = '+';
+  p_win->border.tr = '+';
+  p_win->border.bl = '+';
+  p_win->border.br = '+';
+
+}
+void print_win_params(WIN *p_win){
+#ifdef _DEBUG
+  mvprintw(25, 0, "%d %d %d %d", p_win->startx, p_win->starty,
+      p_win->width, p_win->height);
+  refresh();
+#endif
+}
+
+void create_box(WIN *p_win, bool flag){
+  int i, j;
+  int x, y, w, h;
+
+  x = p_win->startx;
+  y = p_win->starty;
+  w = p_win->width;
+  h = p_win->height;
+
+  if(flag == TRUE){
+    mvaddch(y, x, p_win->border.tl);
+    mvaddch(y, x + w, p_win->border.tr);
+    mvaddch(y + h, x, p_win->border.bl);
+    mvaddch(y + h, x + w, p_win->border.br);
+    mvhline(y, x + 1, p_win->border.ts, w - 1);
+    mvhline(y + h, x + 1, p_win->border.bs, w - 1);
+    mvvline(y + 1, x, p_win->border.ls, h - 1);
+    mvvline(y + 1, x + w, p_win->border.rs, h - 1);
+
+  }else{
+    for(j = y; j <= y + h; ++j){
+      for(i = x; i <= x + w; ++i){
+        mvaddch(j, i, ' ');
+      }
+    }
+
+    refresh();
+  }
+}
+```
+
+---
+
+# 9. Cores
+## 9.1. O básico
+A vida parece monótona sem cores. Ncurses tem um bom mecanismo para lidar com cores. Vamos entrar no assunto com um pequeno programa.
+
+Exemplo 9. Um simples exemplo com  cores
+```cpp
+#include <ncurses.h>
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string);
+int main(int argc, char *argv[]){
+  initscr();                      /* Inicia o modo curses            */
+  if(has_colors() == FALSE){
+    endwin();
+    printf("Your terminal does not support color\n");
+    exit(1);
+  }
+  start_color();                  /* Inicia as cores                  */
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+
+  attron(COLOR_PAIR(1));
+  print_in_middle(stdscr, LINES / 2, 0, 0, "Viola !!! In color ...");
+  attroff(COLOR_PAIR(1));
+  getch();
+  endwin();
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL)
+    win = stdscr;
+  getyx(win, y, x);
+  if(startx != 0)
+    x = startx;
+  if(starty != 0)
+    y = starty;
+  if(width == 0)
+    width = 80;
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  mvwprintw(win, y, x, "%s", string);
+  refresh();
+}
+```
+
+Como você pode ver, para começar a usar cores, você deve primeiro chamar a função `start_color()`.
+Depois disso, você pode usar os recursos de cores de seus terminais usando várias funções. Para descobrir se um terminal tem cor capacidades ou não, você pode usar `has_colors()` função, que retorna *FALSE* se o terminal não suportar cores.
+
+Ncurses inicializa todas as cores suportadas pelo terminal quando `start_color()` é chamado. Elas podem ser acessados pelas constantes de definição, como *COLOR_BLACK* etc. Agora, para realmente começar a usar cores, você deve definir pares. As cores são sempre usadas em pares. 
+
+Isso significa que você tem que usar a função `init_pair()` para definir o primeiro plano e o fundo para o número do par que você fornecer. Depois disso, o número do par pode ser usado como um atributo normal com a função `COLOR_PAIR()`.
+
+Isso pode parecer complicado no início. Mas esta solução elegante nos permite gerenciar pares de cores muito facilmente. Para apreciá-lo, você tem que olhar para o código fonte de "diálogo", um utilitário para exibir caixas de diálogo a partir de scripts [shell](https://terminalroot.com.br/shell). Os desenvolvedores definiram combinações de primeiro e segundo plano para todas as cores de que podem precisar e inicializaram no início. Isso torna muito fácil definir atributos apenas acessando um par que já definimos como uma constante. 
+
+As seguintes cores são definidas em curses.h. Você pode usá-las como parâmetros para várias funções de cor.
+```sh
+COLOR_BLACK 	0
+COLOR_RED   	1
+COLOR_GREEN 	2
+COLOR_YELLOW 	3
+COLOR_BLUE	4
+COLOR_MAGENTA   5
+COLOR_CYAN	6
+COLOR_WHITE	7
+```
+
+## 9.2. Alterando definições de cores
+A função `init_color()`pode ser usada para alterar os valores rgb para as cores definidas por curses inicialmente. Digamos que você queira aumentar a intensidade da cor vermelha de uma forma ínfima. Então você pode usar esta função como
+```cpp
+ init_color(COLOR_RED, 700, 0, 0);
+    /* param 1     : color name
+     * param 2, 3, 4 : rgb content min = 0, max = 1000 */
+```
+
+Se o seu terminal não puder alterar as definições de cor, a função retornará *ERR*. A função `can_change_color()` pode ser usada para descobrir se o terminal tem a capacidade de alterar o conteúdo de cores ou não. O conteúdo **rgb** é dimensionado de 0 a 1000. Inicialmente a cor RED (VERMELHA) é definida com conteúdo 1000(r), 0(g), 0(b).
+
+## 9.3. Conteúdo de cores
+As funções `color_content()` e `pair_content()` podem ser usadas para encontrar o conteúdo de cores e a combinação de primeiro e segundo plano para o par.
+
+---
+
+# 10. Interface com o teclado
+## 10.1. Princípios Básicos
+Nenhuma GUI é completa sem uma interface de usuário forte para interagir com o usuário, um programa em curses deve ser sensível ao pressionar das teclas ou às ações do mouse feitas pelo usuário. Vamos lidar com as teclas primeiro.
+
+Como você já viu em quase todos os exemplos acima, é muito fácil obter entrada do usuário pelo teclado. Uma maneira simples de obter as teclas pressionadas é usar a função `getch()`.
+
+O modo `cbreak` deve ser habilitado para ler as teclas quando você estiver interessado em ler teclas individuais pressionadas em vez de linhas de texto completas (que geralmente terminam com um retorno de carro). `keypad` deve ser habilitado para obter as teclas Functions, teclas de seta etc. Consulte a seção de inicialização para obter detalhes.
+
+`getch()` retorna um inteiro correspondente à tecla pressionada. Se for um caractere normal, o valor inteiro será equivalente ao caractere. Caso contrário, ele retorna um número que pode ser combinado com as constantes definidas em `curses.h`. Por exemplo, se o usuário pressionar `F1`, o inteiro retornado é **265**. Isso pode ser verificado usando a macro `KEY_F()` definida em `curses.h`. 
+
+Isso torna as teclas de leitura portáteis e fáceis de gerenciar. 
+
+Por exemplo, se você chamar `getch()` assim
+```cpp
+int ch;
+ch = getch();
+```
+
+`getch()` aguardará que o usuário pressione uma tecla (a menos que você tenha especificado um tempo limite) e quando o usuário pressionar uma tecla, o inteiro correspondente é devolvido. Em seguida, você pode verificar o valor devolvido com as constantes definidas em curses.h para combinar com as teclas que você deseja.
+
+O código a seguir fará esse trabalho.
+
+```cpp
+if(ch == KEY_LEFT)
+printw ("Seta esquerda está pressionada\n");
+```
+
+Vamos escrever um pequeno programa que cria um menu que pode ser navegado por setas para cima e para baixo.
+
+## 10.2. Um exemplo de uso simples de teclas
+
+Example 10. Um exemplo de uso simples de teclas
+```cpp
+#include <iostream>
+#include <ncurses.h>
+
+#define WIDTH 30
+#define HEIGHT 10 
+
+int startx = 0;
+int starty = 0;
+
+char *choices[] = { 
+  "Choice 1",
+  "Choice 2",
+  "Choice 3",
+  "Choice 4",
+  "Exit",
+};
+int n_choices = sizeof(choices) / sizeof(char *);
+void print_menu(WINDOW *menu_win, int highlight);
+
+int main(){
+  WINDOW *menu_win;
+  int highlight = 1;
+  int choice = 0;
+  int c;
+
+  initscr();
+  clear();
+  noecho();
+  cbreak();       /* Buffer de linha desativado. passa tudo */
+  startx = (80 - WIDTH) / 2;
+  starty = (24 - HEIGHT) / 2;
+
+  menu_win = newwin(HEIGHT, WIDTH, starty, startx);
+  keypad(menu_win, TRUE);
+  mvprintw(0, 0, "Use as setas para subir e descer, pressione Enter para selecionar uma escolha");
+  refresh();
+  print_menu(menu_win, highlight);
+  while( 1 ){
+    c = wgetch(menu_win);
+    switch(c){
+      case KEY_UP:
+        if(highlight == 1)
+          highlight = n_choices;
+        else
+          --highlight;
+        break;
+      case KEY_DOWN:
+        if(highlight == n_choices)
+          highlight = 1;
+        else 
+          ++highlight;
+        break;
+      case 10:
+        choice = highlight;
+        break;
+      default:
+        mvprintw(24, 0, "O caractere pressionado é =% 3d Com fé, será impresso como '%c'", c, c);
+        refresh();
+        break;
+    }
+    print_menu(menu_win, highlight);
+    if(choice != 0) /* O usuário fez uma escolha que saiu do loop infinito */
+      break;
+  }
+
+  mvprintw(23, 0, "Você escolheu a escolha %d com escolha de string %s\n", choice, choices[choice - 1]);
+  clrtoeol();
+  refresh();
+  endwin();
+  return 0;
+}
+
+
+void print_menu(WINDOW *menu_win, int highlight){
+  int x, y, i;    
+
+  x = 2;
+  y = 2;
+  box(menu_win, 0, 0);
+  for(i = 0; i < n_choices; ++i){
+    if(highlight == i + 1){ /* Destaca a escolha atual */
+      wattron(menu_win, A_REVERSE); 
+      mvwprintw(menu_win, y, x, "%s", choices[i]);
+      wattroff(menu_win, A_REVERSE);
+    }else{
+      mvwprintw(menu_win, y, x, "%s", choices[i]);
+    }
+    ++y;
+  }
+  wrefresh(menu_win);
+}
+```
+
+---
+
+# 11. Interface com o mouse
+Agora que você viu como obter as teclas, vamos fazer a mesma coisa do mouse. Geralmente, cada UI (interface do usuário) permite que o usuário interaja tanto com o teclado quanto com o mouse.
+
+## 11.1. O Básico
+Antes de fazer qualquer outra coisa, os eventos que você deseja receber devem ser habilitados com  mousemask().
+```cpp
+mousemask  (mmask_t newmask,   /* Os eventos que você quer ouvir */
+mmask_t *oldmask)  /* A máscara de eventos antigos */
+```
+
+O primeiro parâmetro da função acima é uma máscara de bits de eventos que você gostaria de ouvir. Por padrão, todos os eventos estão desligados. A máscara de bits `ALL_MOUSE_EVENTS` pode ser usada para obter todos os eventos.
+
+A seguir, todas as máscaras de evento:
+```txt
+Nome  Descrição
+---------------------------------------------------------------------
+
+BUTTON1_PRESSED           botão do mouse 1 para baixo
+
+BUTTON1_RELEASED          botão do mouse 1 para cima
+
+BUTTON1_CLICKED           botão 1 do mouse clicado
+
+BUTTON1_DOUBLE_CLICKED    botão 1 do mouse clicado duas vezes
+
+BUTTON1_TRIPLE_CLICKED    botão 1 do mouse clicado três vezes
+
+BUTTON2_PRESSED           botão 2 do mouse para baixo
+
+BUTTON2_RELEASED          botão 2 do mouse para cima
+
+BUTTON2_CLICKED           botão 2 do mouse clicado
+
+BUTTON2_DOUBLE_CLICKED    botão 2 do mouse clicado duas vezes
+
+BUTTON2_TRIPLE_CLICKED    botão 2 do mouse clicado três vezes
+
+BUTTON3_PRESSED           botão 3 do mouse para baixo
+
+BUTTON3_RELEASED          botão 3 do mouse para cima
+
+BUTTON3_CLICKED           botão 3 do mouse clicado
+
+BUTTON3_DOUBLE_CLICKED    botão 3 do mouse clicado duas vezes
+
+BUTTON3_TRIPLE_CLICKED    botão 3 do mouse clicado três vezes
+
+BUTTON4_PRESSED           botão 4 do mouse para baixo
+
+BUTTON4_RELEASED          botão 4 do mouse para cima
+
+BUTTON4_CLICKED           botão 4 do mouse clicado
+
+BUTTON4_DOUBLE_CLICKED    botão 4 do mouse clicado duas vezes
+
+BUTTON4_TRIPLE_CLICKED    botão 4 do mouse clicado três vezes
+
+BUTTON_SHIFT              shift pressionado durante a mudança de estado do botão
+
+BUTTON_CTRL               ctrl pressionado durante a mudança de estado do botão
+
+BUTTON_ALT                alt pressionado urante a mudança de estado de botão
+
+ALL_MOUSE_EVENTS          relata todas as alterações do estado de botão
+
+REPORT_MOUSE_POSITION     relata movimento do mouse
+```
+
+## 11.2. Obtendo os eventos
+Uma vez que uma classe de eventos de mouse tenham sido habilitados, a classe getch() de funções retorna KEY_MOUSE cada vez que algum evento do mouse acontece. Em seguida, o evento do mouse pode ser recuperado com getmouse().
+
+O código fica assim aproximadamente:
+
+```cpp
+MEVENT event;
+
+ch = getch();
+if(ch == KEY_MOUSE){
+  if(getmouse(&event) == OK){
+    /* Faça algo com esse evento */
+  }
+}
+```
+`getmouse()` retorna o evento para o ponteiro dado a ele. É uma estrutura que contém 
+
+```cpp
+typedef struct{
+  short id;         /* ID para distinguir vários dispositivos */
+  int x, y, z;      /* coordenadas do evento */
+  mmask_t bstate;   /* bits de estado do botão */
+}
+```
+
+O `bstate` é a principal variável que nos interessa. Isso informa o estado do botão do mouse. Então, com um trecho de código como o seguinte, podemos descobrir o que aconteceu.
+
+## 11.3. Resumindo Tudo
+Isso é basicamente uma interface com o mouse. Vamos  criar o mesmo menu e permitir interação com o menu. Para fazer as coisas mais simples, o manuseio de tecla é removido.
+
+Exemplo 11. Acesse o menu com mouse!!!
+```sh
+#include <ncurses.h>
+
+#define WIDTH 30
+#define HEIGHT 10 
+
+int startx = 0;
+int starty = 0;
+
+char *choices[] = {
+  "Escolha 1",
+  "Escolha 2",
+  "Escolha 3",
+  "Escolha 4",
+  "Sair",
+};
+
+int n_choices = sizeof(choices) / sizeof(char *);
+
+void print_menu(WINDOW *menu_win, int highlight);
+void report_choice(int mouse_x, int mouse_y, int *p_choice);
+
+int main(){
+  int c, choice = 0;
+  WINDOW *menu_win;
+  MEVENT event;
+
+  /* Initialize curses */
+  initscr();
+  clear();
+  noecho();
+  cbreak();	// Buffer de linha desativado. passa tudo
+
+  /* Tenta colocar a janela no meio da tela */
+  startx = (80 - WIDTH) / 2;
+  starty = (24 - HEIGHT) / 2;
+
+  attron(A_REVERSE);
+  mvprintw(23, 1, "Clique em Sair para sair (funciona melhor em um console virtual)");
+  refresh();
+  attroff(A_REVERSE);
+
+  /* Imprime o menu pela primeira vez */
+  menu_win = newwin(HEIGHT, WIDTH, starty, startx);
+  print_menu(menu_win, 1);
+  /* Get all the mouse events */
+  mousemask(ALL_MOUSE_EVENTS, NULL);
+
+  while(1){
+    c = wgetch(menu_win);
+    switch(c){
+      case KEY_MOUSE:
+        if(getmouse(&event) == OK){
+          /* Quando o usuário clica com o botão esquerdo do mouse */
+          if(event.bstate & BUTTON1_PRESSED){
+            report_choice(event.x + 1, event.y + 1, &choice);
+            if(choice == -1) //Exit chosen
+              goto end;
+            mvprintw(22, 1, "A escolha feita é :% d String escolhida é\"%10s\"", choice, choices[choice - 1]);
+            refresh(); 
+          }
+        }
+        print_menu(menu_win, choice);
+        break;
+    }
+  }		
+end:
+  endwin();
+  return 0;
+}
+
+
+void print_menu(WINDOW *menu_win, int highlight){
+  int x, y, i;	
+
+  x = 2;
+  y = 2;
+  box(menu_win, 0, 0);
+  for(i = 0; i < n_choices; ++i){
+    if(highlight == i + 1){
+      wattron(menu_win, A_REVERSE); 
+      mvwprintw(menu_win, y, x, "%s", choices[i]);
+      wattroff(menu_win, A_REVERSE);
+    }else{
+      mvwprintw(menu_win, y, x, "%s", choices[i]);
+    }
+    ++y;
+  }
+  wrefresh(menu_win);
+}
+
+/* Relata a escolha de acordo com a posição do mouse */
+void report_choice(int mouse_x, int mouse_y, int *p_choice){
+  int i,j, choice;
+
+  i = startx + 2;
+  j = starty + 3;
+
+  for(choice = 0; choice < n_choices; ++choice){
+    if(mouse_y == j + choice && mouse_x >= i && mouse_x <= i + strlen(choices[choice])){
+      if(choice == n_choices - 1)
+        *p_choice = -1;		
+      else
+        *p_choice = choice + 1;	
+      break;
+    }
+  }
+}
+```
+
+## 11.4. Funções diversas
+As funções `mouse_trafo()` e `wmouse_trafo()` podem ser usadas para converter em coordenadas de mouse para coordenadas relativas à tela. 
+Consulte a página do manual `curs_mouse` (3X) para obter detalhes.
+
+A função `mouseinterval` define o tempo máximo (em milhares de segundo) que pode decorrer entre eventos de pressionamento e de liberação para que eles sejam reconhecidos como um clique. Esta função retorna o valor do intervalo anterior. O padrão é um quinto de segundo.
+
+---
+
+# 12. Manipulação de tela
+Nesta seção, vamos olhar para algumas funções, que nos permitem gerenciar a tela de forma eficiente e escrever alguns programas extravagantes. Isso é especialmente importante na escrita de jogos.
+
+## 12.1. funções `getyx()`
+A função `getyx()` pode ser usada para descobrir as coordenadas do cursor atual. Ela preencherá os valores das coordenadas **x** e **y** nos argumentos que lhe foram dados. Uma vez que `getyx()` é uma macro você não precisa passar o endereço das variáveis.
+
+Ela pode ser chamada assim
+```cpp
+getyx(win, y, x);
+/* win: ponteiro da janela
+*   y, x: as coordenadas y, x serão colocadas nestas variáveis
+*/
+```
+
+A função `getparyx()` recebe as coordenadas iniciais da subjanela em relação à janela principal. Isso é algumas vezes útil para atualizar uma subjanela. Ao projetar coisas extravagantes como escrever vários menus, torna-se difícil armazenar as posições do menu, sua primeira opção de coordenada, etc.
+
+Uma simples solução para esse problema é criar menus nas subjanelas e depois encontrar as coordenadas iniciais dos menus ao usar `getparyx()`.
+
+As funções `getbegyx()` e `getmaxyx()` armazenam as coordenadas de início e máximo da janela atual. Essas funções são úteis da mesma forma que as acima, para gerenciar as janelas e subjanelas de maneira eficaz.
+
+## 12.2. Dumping (Despejo) de tela
+Ao escrever jogos, às vezes se torna necessário armazenar o estado da tela e restaurá-lo ao mesmo estado. A função `scr_dump()` pode ser usada para despejar o conteúdo da tela em um arquivo fornecido como argumento.
+
+Depois, e ser re duas funções simples podem ser usadas de forma eficaz para manter um jogo em movimento rápido com cenários variáveis.
+
+## 12.3. Dumping (Despejo) de janelas
+Para armazenar e restaurar janelas, as funções `putwin()` e `getwin()` podem ser usadas. `putwin()` coloca o estado atual da janela em um arquivo, que pode ser restaurado posteriormente por `getwin()`.
+
+ A função `copywin()` pode ser usado para copiar uma janela inteira para outra janela. Ela toma as janelas de origem e destino como parâmetros e, de acordo com o retângulo especificado, copia a região retangular da janela de origem para a de destino.
+
+Seu último parâmetro especifica se se deve sobrescrever ou apenas se sobrepor o conteúdo na janela de destino. Se esse argumento for verdadeiro, a cópia não é destrutiva.
+
+---
+
+# 13. Recursos diversos
+Agora você conhece recursos suficientes para escrever um bom programa com curses, com todos esses enfeites. Existem algumas funções diversas que são úteis em vários casos. Vamos direto a alguns deles.
+
+## 13.1. `curs_set()`
+
+Esta função pode ser usada para tornar o cursor invisível. O parâmetro para esta função deve ser
+```sh
+0 : invisível ou
+1 : normal ou
+2 : muito visível.
+```
+
+## 13.2. Saindo temporariamente do modo Curses
+Algumas vezes você pode querer voltar ao modo cooked (modo de buffer de linha normal) temporariamente. Nesse caso, você primeiro precisa salvar os modos `tty` com uma chamada para `def_prog_mode()` e então chamar `endwin()` para encerrar o modo curses. Isso o deixará no modo `tty` original. Para voltar ao curses uma vez estiver pronto, chame `reset_prog_mode()`.
+
+Esta função retorna o `tty` ao estado armazenado por `def_prog_mode()`. Depois, chame `refreh()`, e você está de volta ao modo curses. Aqui está um exemplo mostrando a sequência de coisas a serem feitas.
+
+Exemplo 12. Saindo temporariamente do modo curses
+```cpp
+#include <ncurses.h>
+
+int main(){	
+
+  initscr();			/* Inicia o modo curses 		  */
+  printw("Hello World !!!\n");	/* Imprime Hello World		  */
+  refresh();			/* Imprime na tela real */
+  def_prog_mode();		/* Salva o modo tty 		  */
+  endwin();			/* Termina o modo curses temporariamente	  */
+  system("/bin/sh");		/* Faça o que quiser no modo cooked */
+  reset_prog_mode();		/* Retornar ao modo tty anterior */
+  /* armazenado por def_prog_mode() 	  */
+  refresh();			/* Faça refresh() para restaurar os	  */
+  /* conteúdos da tela		  */
+  printw("Another String\n");	/* De volta ao curses, use a capacidade    */
+  refresh();			/*  completa do curses */
+  endwin();			/* Termina o modo curses		  */
+
+  return 0;
+}
+```
+
+## 13.3. Variáveis `ACS`
+Se você já programou no **DOS**, você sabe sobre esses caracteres bacanas no conjunto de caracteres estendidos. Eles podem ser impressos apenas em alguns terminais. Funções NCURSES como `box()` usam esses caracteres.
+
+Todas essas variáveis começam com `ACS`, significando um conjunto de caracteres alternativos. Você deve ter me notado usando esses caracteres em alguns dos programas acima. Aqui está um exemplo mostrando todos os caracteres.
+
+Exemplo 13. Exemplo de variáveis ACS
+```sh
+#include <ncurses.h>
+
+int main(){
+  initscr ();
+
+  printw("Canto superior esquerdo"); addch(ACS_ULCORNER); printw("\n");
+  printw("Canto inferior esquerdo"); addch(ACS_LLCORNER); printw("\n");
+  printw("Canto inferior direito"); addch(ACS_LRCORNER); printw("\n");
+  printw("Tee apontando para a direita"); addch(ACS_LTEE); printw("\n");
+  printw("Tee apontando para a esquerda"); addch(ACS_RTEE); printw("\n");
+  printw("Tee apontando para cima"); addch(ACS_BTEE); printw("\n");
+  printw("Tee apontando para baixo"); addch(ACS_TTEE); printw("\n");
+  printw("Linha horizontal"); addch(ACS_HLINE); printw("\n");
+  printw("Linha vertical"); addch(ACS_VLINE); printw("\n");
+  printw("Large Plus ou cross over"); addch(ACS_PLUS); printw("\n");
+  printw("Scan Line 1"); addch(ACS_S1); printw("\n");
+  printw("Scan Line 3"); addch(ACS_S3); printw("\n");
+  printw("Scan Line 7"); addch(ACS_S7); printw("\n");
+  printw("Scan Line 9"); addch(ACS_S9); printw("\n");
+  printw("Diamante"); addch(ACS_DIAMOND); printw("\n");
+  printw("Tabuleiro de damas (pontilhado)"); addch(ACS_CKBOARD); printw("\n");
+  printw("Símbolo de grau"); addch(ACS_DEGREE); printw("\n");
+  printw("Símbolo de mais / menos"); addch(ACS_PLMINUS); printw("\n");
+  printw("Marca"); addch(ACS_BULLET); printw("\n");
+  printw("Seta apontando para a esquerda"); addch(ACS_LARROW); printw("\n");
+  printw("Seta apontando para a direita"); addch(ACS_RARROW); printw("\n");
+  printw("Seta apontando para baixo"); addch(ACS_DARROW); printw("\n");
+  printw("Seta apontando para cima"); addch(ACS_UARROW); printw("\n");
+  printw("Tabuleiro de quadrados"); addch(ACS_BOARD); printw("\n");
+  printw("Símbolo da Lanterna"); addch(ACS_LANTERN); printw("\n");
+  printw("Bloco Quadrado Sólido"); addch(ACS_BLOCK); printw("\n");
+  printw("Sinal de menos/igual"); addch(ACS_LEQUAL); printw("\n");
+  printw("Sinal maior/igual"); addch(ACS_GEQUAL); printw("\n");
+  printw("Pi"); addch(ACS_PI); printw("\n");
+  printw("Diferente"); addch(ACS_NEQUAL); printw("\n");
+  printw("Sinal de libra do Reino Unido"); addch(ACS_STERLING); printw("\n");
+
+  refresh();
+  getch ();
+  endwin ();
+
+  return 0;
+}
+```
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 # CHEAT SHEET NCURSES
 
@@ -903,40 +1801,6 @@ data-ad-slot="5351066970"></ins>
 # Essa página ainda está incompleta, demais ainda serão adicionados a partir [daqui]().
 ## TÓPICOS QUE AINDA FALTAM
 ```txt
-08. Janelas
-    8.1. O básico
-    8.2. Que haja uma janela !!!
-    8.3. Explicação
-    8.4. As outras coisas no exemplo
-    8.5. Outras funções de fronteira
-
-09. Cores
-    9.1. O básico
-    9.2. Alteração das definições de cores
-    9.3. Conteúdo de cor
-
-10. Interface com o teclado
-    10.1. O básico
-    10.2. Um exemplo de uso de chave simples
-
-11. Interface com o mouse
-    11.1. O básico
-    11.2. Obtendo os eventos
-    11.3. Juntando tudo
-    11.4. Funções Diversas
-
-12. Manipulação de tela
-    12.1. funções `getyx()`
-    12.2. Despejo de tela
-    12.3. Despejo de janela
-
-13. Recursos diversos
-    13.1. `curs_set()`
-    13.2. Saindo temporariamente do modo Curses
-    13.3. Variáveis `ACS_`
-
-14. Outras bibliotecas
-
 15. Biblioteca do painel
     15.1. O básico
     15.2. Compilando com a biblioteca de painéis
