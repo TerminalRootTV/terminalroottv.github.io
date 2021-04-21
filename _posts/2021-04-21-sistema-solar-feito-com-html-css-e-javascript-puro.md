@@ -31,7 +31,7 @@ Eu fiz e vou disponibilizar os arquivos por aqui mesmo, são 3 arquivos(código)
 + [main.css](#maincss)
 + [script.js](#scriptjs)
 
-As imagens(eu selecionei em vários sites da internet e não lembro os endereços) estão logo ao final do código, você pode salvar como no mesmo diretório onde irá criar/salvar ocódigo. Fiz desse jeito porque o autor lançou um "disclaimer" e eu não entendi muito bem. Então, para não desmerecer o trabalho **codeTonight** além de postar o vídeo dele, os arquivos serão disponibilizados separadamente.
+As imagens(eu selecionei em vários sites da internet e não lembro os endereços) estão logo ao final do código, você pode salvar como no mesmo diretório onde irá criar/salvar o código. Fiz desse jeito porque o autor lançou um "disclaimer" e eu não entendi muito bem. Então, para não desmerecer o trabalho **codeTonight** além de postar o vídeo dele, os arquivos serão disponibilizados separadamente.
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -269,7 +269,7 @@ function earthY(){
 ![Planet](/assets/img/dev-web/solarsystem/mars.png)
 ![Planet](/assets/img/dev-web/solarsystem/mercury.png)
 ![Planet](/assets/img/dev-web/solarsystem/neptune.png)
-![Planet](/assets/img/dev-web/solarsystem/aturn.png)
+![Planet](/assets/img/dev-web/solarsystem/saturn.png)
 ![Planet](/assets/img/dev-web/solarsystem/sun.png)
 ![Planet](/assets/img/dev-web/solarsystem/uranus.png)
 ![Planet](/assets/img/dev-web/solarsystem/venus.png)
