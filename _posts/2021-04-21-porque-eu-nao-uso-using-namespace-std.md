@@ -72,7 +72,6 @@ Se removermos o `using namespace std;` e declarar cada um no seu quadrado, o có
 ```cpp
 #include <iostream>
 
-using namespace std;
 namespace terroo {
 
   typedef const char * string;
