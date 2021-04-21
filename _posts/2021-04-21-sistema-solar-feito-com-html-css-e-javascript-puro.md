@@ -21,7 +21,7 @@ Salve, rapa! Dia desse eu vi um tutorial bacana no Youtube e guardei nos favorit
 
 Apesar do autor do vídeo não disponibilizar os arquivos e o código ele fez questão de frisar todo o procedimento no vídeo, exibindo a lógica dos cálculos por mensagens escritas.
 
-No final dessa postagem há o vídeo e você notará que precisa terum conhecimento avançado de [Matemática](https://terminalroot.com.br/2017/02/mathml-mathematical-markup-language.html) mais precisamente de [Geometria](https://pt.wikipedia.org/wiki/Geometria):
+No final dessa postagem há o vídeo e você notará que precisa ter um conhecimento avançado de [Matemática](https://terminalroot.com.br/2017/02/mathml-mathematical-markup-language.html) mais precisamente de [Geometria](https://pt.wikipedia.org/wiki/Geometria):
 - Seno
 - Cosseno
 - Radiano
