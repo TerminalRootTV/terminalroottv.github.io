@@ -118,7 +118,7 @@ data-ad-slot="8549252987"></ins>
 Por exemplo, dia desse tava criando um código com [OpenCV](https://opencv.org/) e tem um tipo/classe que é `VideoCapture` e na documentação deles eles utilizam `using namespace cv;`, demorou, mas descobri que o *VideoCapture* na verdade é `cv::VideoCapture` e isso já me aconteceu várias vezes principalmente com a própria `std::` .
 
 
-Por isso eu não gosto de usar e não recomendo, assim como muitos prograadores que conheço, mas vale ressaltar que isso é uma questão de gosto, ok?!
+Por isso eu não gosto de usar e não recomendo, assim como muitos programadores que conheço, mas vale ressaltar que isso é uma questão de gosto, ok?!
 
 ---
 
