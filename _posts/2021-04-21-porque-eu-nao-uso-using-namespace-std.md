@@ -92,7 +92,7 @@ int main(){
   return 0;
 }
 ```
-> Mas se `std::string` no lugar de `terroo::string` você nota que há um melhor trabalho do compilador em lhe ajudar.
+> Mas se tiver `std::string` no lugar de `terroo::string` você nota que há um melhor trabalho do compilador em lhe ajudar.
 
 Ahh!!! Mas quem vai criar nome de funções, classes, structs, ... com nomes que já existem na STL ? Isso é o que mais há.
 
