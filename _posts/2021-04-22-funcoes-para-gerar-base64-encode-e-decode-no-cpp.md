@@ -34,7 +34,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 #include <vector>
 #include <algorithm>
