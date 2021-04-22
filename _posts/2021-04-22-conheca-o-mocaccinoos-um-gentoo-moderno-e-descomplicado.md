@@ -16,7 +16,7 @@ tags:
 Em linhas gerais podemos utilizar o próprio slogan deles:
 > "MocaccinoOS é uma meta-distribuição Linux mínima para o século 21!"
 
-Mas em linhas gerais trata-se do novo nome do [Sabayon](https://www.youtube.com/watch?v=mkAa6lH0vHY) .
+Mas em linhas específicas trata-se do novo nome do [Sabayon](https://www.youtube.com/watch?v=mkAa6lH0vHY) .
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
