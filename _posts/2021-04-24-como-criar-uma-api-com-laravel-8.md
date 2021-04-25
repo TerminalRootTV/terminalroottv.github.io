@@ -242,7 +242,7 @@ Route::delete('artigo/{id}', [ArtigoController::class,'destroy']);
 
 ---
 
-# 5.Criar e definir resource
+# 6. Criar e definir resource
 {% highlight bash %}
 php artisan make:resource Artigo
 vim ./app/Http/Resources/Artigo.php
@@ -275,7 +275,7 @@ class Artigo extends JsonResource {
 
 ---
 
-# 6. Testar API
+# 7. Testar API
 Para testar a API vamos utilizar [Postman](https://terminalroot.com.br/2021/02/como-instalar-o-postman-no-ubuntu-e-em-qualquer-distro-linux.html). Veja esse artigo para saber como instalar o Postman:
 ### [Como instalar o Postman no Ubuntu e em qualquer Distro Linux](https://terminalroot.com.br/2021/02/como-instalar-o-postman-no-ubuntu-e-em-qualquer-distro-linux.html)
 
