@@ -55,7 +55,7 @@ data-ad-slot="5351066970"></ins>
 
 
 E você não quer isso, você quer o que o tipo correto seja passado, pois você quer saber se há *bug* nesse tipo. Então você usa a palavra-chave `explicit`, mas ao compilar há um erro ao compilar:
-{% highlight bash %}
+{% highlight cpp %}
 #include <iostream>
 
 class TerminalRoot {
