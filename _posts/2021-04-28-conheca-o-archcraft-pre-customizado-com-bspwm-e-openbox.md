@@ -14,7 +14,7 @@ tags:
 
 ![Conheça o ARCHCRAFT - Pré Customizado com BSPWM e OPENBOX](/assets/img/distros/archcraft.png)
 
-Nesse vídes vimos como instalar e também um REVIEW desse sistema com um visual bem bacana e com vários temas!
+Nesse vídeo vimos como instalar e também um REVIEW desse sistema com um visual bem bacana e com vários temas!
 
 Endereço do Archcraft: <https://archcraft-os.github.io/>
 
