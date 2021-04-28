@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o ARCHCRAFT - Pré Customizado com BSPWM e OPENBOX"
 date: 2021-04-28 09:33:58
 image: '/assets/img/distros/archcraft.png'
-description: 'Uma distribuição Linux, baseada no Arch Linux com configurações pré-configuradas e aplicativos leves.'
+description: 'Uma distribuição Linux, baseada no Arch Linux com um sistema pré-configurado e aplicativos leves.'
 icon: 'ion:terminal-sharp'
 iconname: 'Distros'
 tags:
