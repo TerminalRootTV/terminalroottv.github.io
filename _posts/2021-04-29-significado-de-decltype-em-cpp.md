@@ -3,7 +3,7 @@ layout: post
 title: "Significado de decltype em C++"
 date: 2021-04-29 10:22:01
 image: '/assets/img/cppdaily/decltype-cpp.png'
-description: 'Tipo automáticoi de acordo com o retorno da função usada.'
+description: 'Tipo automático de acordo com o retorno da função usada.'
 icon: 'ion:terminal-sharp'
 iconname: 'cpp::daily'
 tags:
