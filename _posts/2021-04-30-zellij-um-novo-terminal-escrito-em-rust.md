@@ -64,4 +64,7 @@ Veja um GIF do Zellij em ação:
 
 ![Zellij GIF](/assets/img/rust/zellij.gif)
 
+# Site oficial do Zellij
+### <https://zellij.dev/>
+
 
