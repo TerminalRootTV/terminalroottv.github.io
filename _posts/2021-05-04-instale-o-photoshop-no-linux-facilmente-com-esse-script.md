@@ -79,7 +79,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Análise
-Essas informações foram retiradas do repositório do script. Eu particularmente não testei e não pretendo, me sinto bem com o [GIMP](), mas como algumas me pedem essa dica, resolvi postar essa . Mas lembre-se de contribuir com o projeto relatando [issues](https://github.com/Gictorbit/photoshopCClinux/issues) ou até mesmo [melhorando o código](https://terminalroot.com.br/shell) .
+Essas informações foram retiradas do repositório do script. Eu particularmente não testei e não pretendo, me sinto bem com o [GIMP](https://terminalroot.com.br/2016/08/como-alterar-o-tema-do-gimp.html), mas como algumas me pedem essa dica, resolvi postar isso . Mas lembre-se de contribuir com o projeto relatando [issues](https://github.com/Gictorbit/photoshopCClinux/issues) ou até mesmo [melhorando o código](https://terminalroot.com.br/shell) .
 
 Link do projeto: <https://github.com/Gictorbit/photoshopCClinux> .
 
