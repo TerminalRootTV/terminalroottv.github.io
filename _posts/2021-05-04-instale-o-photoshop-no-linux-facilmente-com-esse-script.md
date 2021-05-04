@@ -46,17 +46,20 @@ data-ad-slot="5351066970"></ins>
 + `md5sum`
 
 Exemplo no [Arch Linux](https://terminalroot.com.br/tags#archlinux)
+{% highlight bash %}
+sudo pacman -S wine winetricks
+{% endhighlight %}
 
 ---
 
 ## Instalação
 Basta clonar/baixar, dá permissão de execução e rodar o script:
-```sh
+{% highlight bash %}
 git clone https://github.com/Gictorbit/photoshopCClinux.git
 cd photoshopCClinux
 chmod +x setup.sh
 ./setup.sh
-```
+{% endhighlight %}
 
 Durante a instalação, preste atenção às mensagens do script
 
