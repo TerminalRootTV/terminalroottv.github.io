@@ -52,7 +52,7 @@ data-ad-slot="5351066970"></ins>
 + `sin( double * pi / 180  )` - informa o [seno](https://pt.wikipedia.org/wiki/Seno) de um ângulo;
 + `cos( double * pi / 180 )` - informa o [cosseno](https://pt.wikipedia.org/wiki/Cosseno) de um ângulo;
 + `tan( double * pi / 180 )` - informa a [tangente](https://pt.wikipedia.org/wiki/Tangente) de um ângulo; 
-  - Nesse exemplo incluímos também a [iomanip]() para usar o `std::setprecision( int )`
+  - Nesse exemplo incluímos também a [iomanip](https://terminalroot.com.br/2021/05/utilizando-a-biblioteca-iomanip-cpp.html) para usar o `std::setprecision( int )`
   - Usamos também parametro via linha de comando para obtermos resultado em tempo de execução
   - Captamos o `argv[1]` como string e convertemos posteriormente em `long double` com `std::stold( std::string )`;
   - Lembrando que [PI](https://pt.wikipedia.org/wiki/Pi) é um número infinito, logo, atribuímos *13* [dígitos(algarismos) significativos](https://pt.wikipedia.org/wiki/Algarismo_significativo) para uma maior precisão do resultado, pois somente *3.14* pode haver resultados menos precisos.
