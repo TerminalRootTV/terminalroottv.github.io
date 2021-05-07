@@ -76,7 +76,7 @@ Caso queira que sua lista comece em um número diferente, basta usar o atributo 
 # 04. O elemento `meter`
 Você pode usar o elemento `<meter>` para exibir as quantidades de forma gráfica sem precisar de [Javascript]()/[CSS]().
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="marcoscpp" data-slug-hash="VwpYWag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwpYWag">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="marcoscpp" data-slug-hash="VwpYWag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwpYWag">
   <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/VwpYWag">
   VwpYWag</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -99,38 +99,59 @@ data-ad-slot="5351066970"></ins>
 # 05. Pesquisa nativa
 Outra dica é usar o autocomplete nativo do HTML para exibir as alternativas
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="denic" data-slug-hash="WNpbOOo" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Pesquisa nativa do HTML">
+<p class="codepen" data-height="383" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="WNpbOOo" style="height: 383px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WNpbOOo">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/WNpbOOo">
+  WNpbOOo</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
 # 06. Fieldset com input radio
 Se for fazer um questionário, fica mais bem formatado usando o `radio` dentro do `fieldse`t
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="denic" data-slug-hash="eYvmRvy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Fieldset com input radio">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="eYvmRvy" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="eYvmRvy">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/eYvmRvy">
+  eYvmRvy</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
 # 07. Habilitar a verificação ortográfica
 Use o atributo `spellcheck` para definir se o elemento pode ser verificado quanto a erros de ortografia.
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="denic" data-slug-hash="JjWoJba" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Atributo para verificação ortográfica">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="JjWoJba" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JjWoJba">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/JjWoJba">
+  JjWoJba</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
 # 08. Slide nativo
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="denic" data-slug-hash="wpYWag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Slide nativo do HTML">
+<p class="codepen" data-height="345" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="mdWywMd" style="height: 345px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="mdWywMd">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/mdWywMd">
+  mdWywMd</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
 # 09. HTML Accordion
 Você pode usar o elemento `details` para criar um accordion nativo do HTML.
 
-<p class="codepen" data-height="350" data-theme-id="dark" data-default-tab="html,result" data-user="denic" data-slug-hash="wvJBePW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Accordion nativo do HTML">
+<p class="codepen" data-height="334" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="wvJBePW" style="height: 334px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Accordion Nativo do HTML">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/wvJBePW">
+  Accordion Nativo do HTML</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
