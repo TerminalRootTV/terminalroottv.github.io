@@ -130,9 +130,9 @@ Use o atributo `spellcheck` para definir se o elemento pode ser verificado quant
 
 # 08. Slide nativo
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="WNpbOOo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WNpbOOo">
-  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/WNpbOOo">
-  WNpbOOo</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="marcoscpp" data-slug-hash="VwpYWag" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="VwpYWag">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/VwpYWag">
+  VwpYWag</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
