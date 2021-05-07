@@ -185,7 +185,7 @@ int main() {
 {% endhighlight %}
 
 # Instalando o `indicators` e compilando seu código
-Basta clonar e usar o [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html) [Make]()
+Basta clonar e usar o [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html) [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html)
 
 {% highlight bash %}
 igit clone https://github.com/p-ranav/indicators
