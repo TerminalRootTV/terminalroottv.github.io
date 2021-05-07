@@ -81,7 +81,6 @@ Você pode usar o elemento `<meter>` para exibir as quantidades de forma gráfic
   VwpYWag</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
@@ -104,7 +103,6 @@ Outra dica é usar o autocomplete nativo do HTML para exibir as alternativas
   WNpbOOo</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
@@ -116,7 +114,6 @@ Se for fazer um questionário, fica mais bem formatado usando o `radio` dentro d
   eYvmRvy</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
@@ -128,18 +125,16 @@ Use o atributo `spellcheck` para definir se o elemento pode ser verificado quant
   JjWoJba</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
 # 08. Slide nativo
 
-<p class="codepen" data-height="345" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="mdWywMd" style="height: 345px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="mdWywMd">
-  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/mdWywMd">
-  mdWywMd</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="marcoscpp" data-slug-hash="WNpbOOo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WNpbOOo">
+  <span>See the Pen <a href="https://codepen.io/marcoscpp/pen/WNpbOOo">
+  WNpbOOo</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
 
@@ -151,6 +146,7 @@ Você pode usar o elemento `details` para criar um accordion nativo do HTML.
   Accordion Nativo do HTML</a> by Marcos (<a href="https://codepen.io/marcoscpp">@marcoscpp</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ---
