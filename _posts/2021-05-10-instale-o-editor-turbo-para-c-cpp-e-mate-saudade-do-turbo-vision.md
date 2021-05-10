@@ -13,9 +13,9 @@ tags:
 
 ![Instale o editor Turbo para C/C++ e mate saudade do Turbo Vision](/assets/img/cppdaily/turbo.png)
 
-No [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje, vou dar uma dica de um editor de texto nostálgico!!!
+No [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje vou dar uma dica de um editor de texto nostálgico!!!
 
-Há muito tempo atrás eu tentei aprender [C++](https://terminalroot.com.br/cpp) e o editor me indicaram foi o [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision) e isso no [Windows XP](https://pt.wikipedia.org/wiki/Windows_XP) 😛 !!!
+Há muito tempo atrás eu tentei aprender [C++](https://terminalroot.com.br/cpp) e o editor que me indicaram foi o [Turbo Vision](https://en.wikipedia.org/wiki/Turbo_Vision) e isso no [Windows XP](https://pt.wikipedia.org/wiki/Windows_XP) 😛 !!!
 
 Eu não cheguei a obter sucesso nos estudos daquela época, mas notei que o Turbo Vision era o queridinho da época. Se você é dessa época ou se não é, mas é um estilo [hipster](https://pt.wikipedia.org/wiki/Hipster) ou um *retrô lover*, vai curtir o **Turbo** que é uma tentativa de recriar o visual do Turbo Vision.
 
