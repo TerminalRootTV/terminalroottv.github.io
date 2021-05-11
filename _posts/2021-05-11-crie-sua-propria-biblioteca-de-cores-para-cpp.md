@@ -126,7 +126,7 @@ Lembrando que se você alterou o tema de cores do seu terminal, pode ser que haj
 ![Cores C++](/assets/img/cppdaily/colors-lib-cpp-3.jpg)
 
 Resumindo o código final seria assim:
-> Usei `std::string` pode condiz mais com nosso caso.
+> Usei `std::string` pois condiz mais com nosso caso.
 
 Arquivo `vim colors.hpp`
 {% highlight cpp %}
