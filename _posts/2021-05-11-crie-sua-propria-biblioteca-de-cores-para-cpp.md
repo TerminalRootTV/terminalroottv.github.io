@@ -123,7 +123,7 @@ int main( int argc , char **argv ){
 
 Lembrando que se você alterou o tema de cores do seu terminal, pode ser que haja algumas alterações na exibição das cores, no meu exemplo:
 
-![Cores C++](/assets/img/cppdaily)
+![Cores C++](/assets/img/cppdaily/colors-lib-cpp-3.jpg)
 
 Resumindo o código final seria assim:
 > Usei `std::string` pode condiz mais com nosso caso.
