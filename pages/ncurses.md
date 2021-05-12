@@ -2400,25 +2400,26 @@ int main(){
   /* Cria itens */
     n_choices = ARRAY_SIZE(choices);
   my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i)
+  for(i = 0; i < n_choices; ++i){
     my_items[i] = new_item(choices[i], choices[i]);
+  }
 
   /* Menu da caixa */
-    my_menu = new_menu((ITEM **)my_items);
+  my_menu = new_menu((ITEM **)my_items);
 
   /* Cria a janela a ser associada ao menu */
-    my_menu_win = newwin(10, 40, 4, 4);
+  my_menu_win = newwin(10, 40, 4, 4);
   keypad(my_menu_win, TRUE);
 
   /* Define a janela principal e a subjanela */
-    set_menu_win(my_menu, my_menu_win);
+  set_menu_win(my_menu, my_menu_win);
   set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
 
   /* Define a marca de menu para a string "*" */
-    set_menu_mark(my_menu, " * ");
+  set_menu_mark(my_menu, " * ");
 
   /* Imprime uma borda ao redor da janela principal e imprime um título */
-    box(my_menu_win, 0, 0);
+  box(my_menu_win, 0, 0);
   print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
   mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
   mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
@@ -2427,7 +2428,7 @@ int main(){
   refresh();
 
   /* Posta o menu */
-    post_menu(my_menu);
+  post_menu(my_menu);
   wrefresh(my_menu_win);
 
   while((c = wgetch(my_menu_win)) != KEY_F(1)){
@@ -2443,7 +2444,7 @@ int main(){
   }       
 
   /* Desmarca e libera toda a memória ocupada */
-    unpost_menu(my_menu);
+  unpost_menu(my_menu);
   free_menu(my_menu);
 
   for(i = 0; i < n_choices; ++i){
@@ -2525,7 +2526,7 @@ int main(){
   int n_choices, i;
 
   /* Inicializa curses */
-    initscr();
+  initscr();
   start_color();
   cbreak();
   noecho();
@@ -2534,36 +2535,36 @@ int main(){
   init_pair(2, COLOR_CYAN, COLOR_BLACK);
 
   /* Cria itens */
-    n_choices = ARRAY_SIZE(choices);
+  n_choices = ARRAY_SIZE(choices);
   my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
   for(i = 0; i < n_choices; ++i){
     my_items[i] = new_item(choices[i], choices[i]);
   }
 
   /* Menu da caixa */
-    my_menu = new_menu((ITEM **)my_items);
+  my_menu = new_menu((ITEM **)my_items);
 
   /* Cria a janela a ser associada ao menu */
-    my_menu_win = newwin(10, 40, 4, 4);
+  my_menu_win = newwin(10, 40, 4, 4);
   keypad(my_menu_win, TRUE);
 
   /* Define a janela principal e a subjanela */
-    set_menu_win(my_menu, my_menu_win);
+  set_menu_win(my_menu, my_menu_win);
   set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
   set_menu_format(my_menu, 5, 1);
 
   /* Define a marca de menu para a string "*" */
-    set_menu_mark(my_menu, " * ");
+  set_menu_mark(my_menu, " * ");
 
   /* Imprime uma borda ao redor da janela principal e imprime um título */
-    box(my_menu_win, 0, 0);
+  box(my_menu_win, 0, 0);
   print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
   mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
   mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
   mvwaddch(my_menu_win, 2, 39, ACS_RTEE);
 
   /* Posta o menu */
-    post_menu(my_menu);
+  post_menu(my_menu);
   wrefresh(my_menu_win);
 
   attron(COLOR_PAIR(2));
@@ -2591,7 +2592,7 @@ int main(){
   }       
 
   /* Desmarca e libera toda a memória ocupada */
-    unpost_menu(my_menu);
+  unpost_menu(my_menu);
   free_menu(my_menu);
   for(i = 0; i < n_choices; ++i){
     free_item(my_items[i]);
