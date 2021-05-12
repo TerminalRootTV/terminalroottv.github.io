@@ -14,7 +14,11 @@ image: '/assets/img/cpp/ncurses.jpg'
 ---
 
 # 1. Introdução
-Nos velhos tempos dos terminais de teletipo, os terminais ficavam longe dos computadores e eram conectados a eles por meio de cabos seriais. Os terminais podem ser configurados enviando uma série de bytes. Todos os recursos (como mover o cursor para um novo local, apagar parte da tela, rolar a tela, alterar os modos, etc.) dos terminais podem ser acessados por meio dessas séries de bytes. Essas funções de controle são geralmente chamadas de sequências de escape, porque começam com um caractere de escape (0x1B). Ainda hoje, com a emulação adequada, podemos enviar sequências de escape para o emulador e obter o mesmo efeito em uma janela de terminal.
+Nos velhos tempos dos terminais de teletipo, os terminais ficavam longe dos computadores e eram conectados a eles por meio de cabos seriais. Os terminais podem ser configurados enviando uma série de bytes.
+
+Todos os recursos (como mover o cursor para um novo local, apagar parte da tela, rolar a tela, alterar os modos,etc.) dos terminais podem ser acessados por meio dessas séries de bytes.
+
+Essas funções de controle são geralmente chamadas de sequências de escape, porque começam com um caractere de escape (`0x1B`). Ainda hoje, com a emulação adequada, podemos enviar sequências de escape para o emulador e obter o mesmo efeito em uma janela de terminal.
 
 Suponha que você queira imprimir uma linha colorida. Tente digitar isso em seu console.
 ```sh
@@ -26,7 +30,11 @@ O primeiro caractere é um caractere de escape, que se parece com `\e[`. Todos o
 echo -e "\e[0;3740m"
 ```
 
-Agora, o que esses caracteres mágicos significam? Difícil de compreender? Eles podem até ser diferentes para terminais diferentes. Portanto, os designers do UNIX inventaram um mecanismo chamado termcap. É um arquivo que lista todos os recursos de um terminal específico, junto com as sequências de escape necessárias para atingir um determinado efeito. Nos últimos anos, foi substituído pelo terminfo. Sem se aprofundar muito em detalhes, este mecanismo permite que programas de aplicativos consultem o banco de dados terminfo e obtenham os caracteres de controle a serem enviados a um terminal ou emulador de terminal.
+Agora, o que esses caracteres mágicos significam? Difícil de compreender? Eles podem até ser diferentes para terminais diferentes. Portanto, os designers do UNIX inventaram um mecanismo chamado termcap.
+
+É um arquivo que lista todos os recursos de um terminal específico, junto com as sequências de escape necessárias para atingir um determinado efeito. Nos últimos anos, foi substituído pelo terminfo.
+
+Sem se aprofundar muito em detalhes, este mecanismo permite que programas de aplicativos consultem o banco de dados terminfo e obtenham os caracteres de controle a serem enviados a um terminal ou emulador de terminal.
 
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -39,14 +47,22 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 ## 1.1. O que é NCURSES ?
-Você deve estar se perguntando qual é a importância de todo esse jargão técnico. No cenário acima, todo programa de aplicação deve consultar o terminfo e realizar as coisas necessárias (enviar caracteres de controle, etc.). Logo se tornou difícil administrar essa complexidade e isso deu origem a 'CURSES'. Curses é um trocadilho com o nome "otimização do cursor". A biblioteca Curses forma um invólucro sobre o trabalho com códigos de terminal brutos e fornece API (Interface de Programação de Aplicativo) altamente flexível e eficiente. Ele fornece funções para mover o cursor, criar janelas, produzir cores, brincar com o mouse, etc. Os programas aplicativos não precisam se preocupar com as capacidades subjacentes do terminal.
+Você deve estar se perguntando qual é a importância de todo esse jargão técnico. No cenário acima, todo programa de aplicação deve consultar o terminfo e realizar as coisas necessárias (enviar caracteres de controle, etc.).
 
-Então, o que é NCURSES? NCURSES é um clone da `curses` originais do SystemV Release 4.0 (SVr4). É uma biblioteca de distribuição gratuita, totalmente compatível com versões anteriores de `curses`. Resumindo, é uma biblioteca de funções que gerencia a exibição de um aplicativo em terminais de células de caracteres. No restante do documento, os termos `curses` e ncurses são usados alternadamente.
+Logo se tornou difícil administrar essa complexidade e isso deu origem a 'CURSES'. Curses é um trocadilho com o nome "otimização do cursor". A biblioteca Curses forma um invólucro sobre o trabalho com códigos de terminal brutos e fornece API (Interface de Programação de Aplicativo) altamente flexível e eficiente.
+
+Ele fornece funções para mover o cursor, criar janelas, produzir cores, brincar com o mouse, etc. Os programas aplicativos não precisam se preocupar com as capacidades subjacentes do terminal.
+
+Então, o que é NCURSES? NCURSES é um clone da `curses` originais do SystemV Release 4.0 (SVr4). É uma biblioteca de distribuição gratuita, totalmente compatível com versões anteriores de `curses`.
+
+Resumindo, é uma biblioteca de funções que gerencia a exibição de um aplicativo em terminais de células de caracteres. No restante do documento, os termos `curses` e ncurses são usados alternadamente.
 
 Um histórico detalhado do NCURSES pode ser encontrado no arquivo NEWS da distribuição de origem. O pacote atual é mantido por Thomas Dickey. Você pode contactar os mantenedores em <bug-ncurses@gnu.org>.
 
 ## 1.2. O que podemos fazer com NCURSES
-NCURSES não apenas cria um invólucro sobre os recursos do terminal, mas também oferece uma estrutura robusta para criar UI (Interface de usuário) de boa aparência em modo de texto. Ele fornece funções para criar janelas, etc. Seu painel de bibliotecas irmãs, menu e formulário fornecem uma extensão para a biblioteca básica de `curses`. Essas bibliotecas geralmente vêm com `curses`. Pode-se criar aplicativos que contenham várias janelas, menus, painéis e formulários. O Windows pode ser gerenciado de forma independente, pode fornecer "capacidade de rolagem" e até mesmo pode ser escondido.
+NCURSES não apenas cria um invólucro sobre os recursos do terminal, mas também oferece uma estrutura robusta para criar UI (Interface de usuário) de boa aparência em modo de texto. Ele fornece funções para criar janelas, etc.
+
+Seu painel de bibliotecas irmãs, menu e formulário fornecem uma extensão para a biblioteca básica de `curses`. Essas bibliotecas geralmente vêm com `curses`. Pode-se criar aplicativos que contenham várias janelas, menus, painéis e formulários. O Windows pode ser gerenciado de forma independente, pode fornecer "capacidade de rolagem" e até mesmo pode ser escondido.
 
 Os menus fornecem ao usuário uma opção de seleção de comando fácil. Os formulários permitem a criação de janelas de entrada e exibição de dados fáceis de usar. Os painéis estendem os recursos de ncurses para lidar com janelas sobrepostas e empilhadas.
 
@@ -112,6 +128,7 @@ ncurses
    |----> README         -- the top level README file. contains instructions
    |----> COPYING        -- copyright notice
 ```
+
 Os diretórios individuais contêm os seguintes arquivos.
 ```sh
 Description of files in each directory
@@ -207,6 +224,7 @@ Este tutorial também está disponível em vários outros formatos no site <tldp
 
 ## 1.6.2. Construindo da fonte
 Se os links acima estiverem quebrados ou se você quiser experimentar o sgml, continue lendo.
+
 ```sh
 Get both the source and the tar,gzipped programs, available at
     http://cvsview.tldp.org/index.cgi/LDP/howto/docbook/
@@ -231,10 +249,13 @@ for ps, you would use
     htmldoc --size universal -t ps --firstpage p1 -f <output file name.ps>
     NCURSES-ONE-BIG-FILE.html
 ```
+
 Consulte o [guia do autor do LDP](http://www.tldp.org/LDP/LDP-Author-Guide/) para obter mais detalhes. Se tudo mais falhar, envie-me um e-mail para <ppadala@gmail.com>
 
 ## 1.7. Créditos
 Agradecimentos a **Sharath**, **Emre Akbas**, **Anuradha Ratnaweera** e **Ravi Parimi**. Tradução em Português Brasileiro: **Marcos Oliveira** e **Jovane Rocha**.
+
+> A Tradução dos capítulos: `3. The Gory Details(Os Detalhes Sangrentos)` e `15. Other libraries(Outras Bibliotecas)` não foram feitas por se tratar de capítulos sem tópicos e menos que uma linha, ou seja, só informativo. Logo esses números foram pulados e por esse motivo nesse documento você encontrará 2 capítulos a menos que a documentação original.
 
 ## 1.8. Lista de Desejos
 Esta é a lista de desejos, em ordem de prioridade. Se você tiver um desejo ou se quiser trabalhar para realizá-lo, envie-me um email.
@@ -260,6 +281,8 @@ data-full-width-responsive="true"></ins>
 
 
 ## 1.9. Direito autoral
+
+```txt
 Copyright Š 2001 by Pradeep Padala.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, distribute with modifications, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -269,6 +292,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE ABOVE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Except as contained in this notice, the name(s) of the above copyright holders shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization._
+```
 
 ---
 
@@ -321,7 +345,9 @@ Compile: `make`, rode: `./helloworld`
 O programa acima imprime "Hello World !!!" para a tela e sai. Este programa mostra como inicializar `curses` e fazer manipulação de tela e finalizar o modo `curses`. Vamos dissecar linha por linha.
 
 ### 2.2.1. Sobre o `initscr()`
-A função `initscr()` inicializa o terminal no modo `curses`. Em algumas implementações, ele limpa a tela e apresenta uma tela em branco. Para fazer qualquer manipulação de tela usando o pacote `curses`, isso deve ser chamado primeiro. Esta função inicializa o sistema `curses` e aloca memória para nossa janela atual (chamada `stdscr`) e algumas outras estruturas de dados. Em casos extremos, esta função pode falhar devido à memória insuficiente para alocar memória para as estruturas de dados da biblioteca de `curses`.
+A função `initscr()` inicializa o terminal no modo `curses`. Em algumas implementações, ele limpa a tela e apresenta uma tela em branco. Para fazer qualquer manipulação de tela usando o pacote `curses`, isso deve ser chamado primeiro.
+
+Esta função inicializa o sistema `curses` e aloca memória para nossa janela atual (chamada `stdscr`) e algumas outras estruturas de dados. Em casos extremos, esta função pode falhar devido à memória insuficiente para alocar memória para as estruturas de dados da biblioteca de `curses`.
 
 Depois que isso for feito, podemos fazer uma variedade de inicializações para personalizar nossas configurações de `curses`. Esses detalhes serão explicados posteriormente.
 
@@ -341,7 +367,9 @@ E, finalmente, não se esqueça de encerrar o modo de `curses`. Caso contrário,
 ---
 
 # 3. Inicialização
-Agora sabemos que para inicializar o sistema `curses`, a função `initscr()` deve ser chamada. Existem funções que podem ser chamadas após esta inicialização para personalizar nossa sessão de `curses`. Podemos pedir ao sistema `curses` para definir o terminal em modo bruto ou inicializar a cor ou inicializar o mouse, etc. Vamos discutir algumas das funções que normalmente são chamadas imediatamente após `initscr()`;
+Agora sabemos que para inicializar o sistema `curses`, a função `initscr()` deve ser chamada. Existem funções que podem ser chamadas após esta inicialização para personalizar nossa sessão de `curses`.
+
+Podemos pedir ao sistema `curses` para definir o terminal em modo bruto ou inicializar a cor ou inicializar o mouse, etc. Vamos discutir algumas das funções que normalmente são chamadas imediatamente após `initscr()`;
 
 ## 3.1. `raw()` e `cbreak()`
 Normalmente, o driver do terminal armazena os caracteres que um usuário digita até que uma nova linha ou retorno de carro seja encontrado. Mas a maioria dos programas exige que os caracteres estejam disponíveis assim que o usuário os digitar. As duas funções acima são usadas para desativar o buffer de linha. 
@@ -357,17 +385,27 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-A diferença entre essas duas funções está na maneira como os caracteres de controle como suspender (CTRL-Z), interromper e sair (CTRL-C) são passados para o programa. No modo `raw()`, esses caracteres são passados diretamente para o programa sem gerar um sinal. No modo `cbreak()`, esses caracteres de controle são interpretados como qualquer outro caractere pelo driver do terminal. Eu pessoalmente prefiro usar `raw()` porque posso exercer maior controle sobre o que o usuário faz.
+A diferença entre essas duas funções está na maneira como os caracteres de controle como suspender (CTRL-Z), interromper e sair (CTRL-C) são passados para o programa. No modo `raw()`, esses caracteres são passados diretamente para o programa sem gerar um sinal.
+
+No modo `cbreak()`, esses caracteres de controle são interpretados como qualquer outro caractere pelo driver do terminal. Eu pessoalmente prefiro usar `raw()` porque posso exercer maior controle sobre o que o usuário faz.
 
 ## 3.2. `echo()` e `noecho()`
-Essas funções exibem caracteres digitados pelo usuário no terminal. `noecho()` desativa a exibição. O motivo pelo qual você pode querer fazer isso é para obter mais controle sobre imprimir ou suprimir a exibição desnecessária enquanto recebe a entrada do usuário por meio das funções `getch()` etc. A maioria dos programas interativos chama `noecho()` na inicialização e faz a impressão de caracteres de uma maneira controlada. Dá ao programador a flexibilidade de imprimir caracteres em qualquer lugar da janela sem atualizar as coordenadas atuais (y, x).
+Essas funções exibem caracteres digitados pelo usuário no terminal. `noecho()` desativa a exibição. O motivo pelo qual você pode querer fazer isso é para obter mais controle sobre imprimir ou suprimir a exibição desnecessária enquanto recebe a entrada do usuário por meio das funções `getch()` etc.
+
+A maioria dos programas interativos chama `noecho()` na inicialização e faz a impressão de caracteres de uma maneira controlada. Dá ao programador a flexibilidade de imprimir caracteres em qualquer lugar da janela sem atualizar as coordenadas atuais (y, x).
 
 
 ## 3.3. `keypad()`
-Esta é minha função de inicialização favorita. Ele permite a leitura de teclas de função como `F1`, `F2`, teclas de seta(← ↓ →), etc. Quase todo programa interativo permite isso, já que as teclas de seta são uma parte importante de qualquer interface de usuário. Faça o teclado (`stdscr`, `TRUE`) para habilitar este recurso para a tela normal (`stdscr`). Você aprenderá mais sobre gerenciamento de teclas em seções posteriores deste documento.
+Esta é minha função de inicialização favorita. Ele permite a leitura de teclas de função como `F1`, `F2`, teclas de seta(← ↓ →), etc. Quase todo programa interativo permite isso, já que as teclas de seta são uma parte importante de qualquer interface de usuário.
+
+Faça o teclado (`stdscr`, `TRUE`) para habilitar este recurso para a tela normal (`stdscr`). Você aprenderá mais sobre gerenciamento de teclas em seções posteriores deste documento.
 
 ## 3.4. `halfdelay()`
-Esta função, embora não seja usada com muita freqüência, é útil às vezes. `halfdelay()` é chamado para habilitar o *modo com atraso*(half-delay), que é semelhante ao modo `cbreak()` em que os caracteres digitados estão imediatamente disponíveis para programação. No entanto, ele espera por 'X' décimos de segundo pela entrada e retorna ERR, se nenhuma entrada estiver disponível. 'X' é o valor de tempo limite passado para a função `halfdelay()`. Esta função é útil quando você deseja solicitar uma entrada do usuário, e se ele não responder em um determinado tempo, podemos fazer outra coisa. Um exemplo possível é um tempo limite no prompt de senha.
+Esta função, embora não seja usada com muita freqüência, é útil às vezes. `halfdelay()` é chamado para habilitar o *modo com atraso*(half-delay), que é semelhante ao modo `cbreak()` em que os caracteres digitados estão imediatamente disponíveis para programação.
+
+No entanto, ele espera por 'X' décimos de segundo pela entrada e retorna ERR, se nenhuma entrada estiver disponível. 'X' é o valor de tempo limite passado para a função `halfdelay()`. Esta função é útil quando você deseja solicitar uma entrada do usuário, e se ele não responder em um determinado tempo, podemos fazer outra coisa.
+
+Um exemplo possível é um tempo limite no prompt de senha.
 
 ## 3.5. Funções diversas de inicialização
 Existem mais algumas funções que são chamadas na inicialização para personalizar o comportamento dos `curses`. Elas não são usadas tão extensivamente quanto os mencionados acima. Alguns deles são explicados quando apropriado.
@@ -408,7 +446,9 @@ int main(){
 Este programa é autoexplicativo. Mas forma usadas funções que ainda não foram explicadas. As funções `attron` e` attroff` são usadas para ativar e desativar alguns atributos, respectivamente. No exemplo, foram usadas para imprimir o caractere em negrito. Essas funções são explicadas em detalhes posteriormente.
 
 # 4. Sobre janelas
-Uma janela é uma tela imaginária definida pelo sistema de `curses`. Quando `curses` é inicializado, ele cria uma janela padrão chamada `stdscr` que representa sua tela. Se estiver realizando tarefas simples, como imprimir algumas strings, ler dados de entrada, etc., você pode usar com segurança esta única janela para todos os seus propósitos. Você também pode criar janelas e chamar funções que funcionam explicitamente na janela especificada.
+Uma janela é uma tela imaginária definida pelo sistema de `curses`. Quando `curses` é inicializado, ele cria uma janela padrão chamada `stdscr` que representa sua tela. Se estiver realizando tarefas simples, como imprimir algumas strings, ler dados de entrada, etc., você pode usar com segurança esta única janela para todos os seus propósitos.
+
+Você também pode criar janelas e chamar funções que funcionam explicitamente na janela especificada.
 
 Por exemplo, se você chamar:
 ```cpp
@@ -449,7 +489,9 @@ Existem três classes de funções que você pode usar para fazer a saída na te
 Essas funções podem ser usadas alternadamente e é uma questão de estilo de qual classe é usada. Vamos ver cada um em detalhes.
 
 ## 5.1. classe de funções `addch()`
-Essas funções colocam um único caractere na localização atual do cursor e avançam a posição do cursor. Você pode fornecer o caractere a ser impresso, mas eles geralmente são usados para imprimir um caractere com alguns atributos. Os atributos são explicados em detalhes nas seções posteriores do documento. Se um caractere estiver associado a um atributo (negrito, vídeo reverso etc.), quando `curses` imprime o caractere, ele é impresso naquele atributo.
+Essas funções colocam um único caractere na localização atual do cursor e avançam a posição do cursor. Você pode fornecer o caractere a ser impresso, mas eles geralmente são usados para imprimir um caractere com alguns atributos.
+
+Os atributos são explicados em detalhes nas seções posteriores do documento. Se um caractere estiver associado a um atributo (negrito, vídeo reverso etc.), quando `curses` imprime o caractere, ele é impresso naquele atributo.
 
 Para combinar um caractere com alguns atributos, você tem duas opções:
 
@@ -536,7 +578,11 @@ Classes:
 + `getstr()`: Obtenha *strings*
 
 ## 6.1. classe de funções `getch()`
-Essas funções lêem um único caractere do terminal. Mas existem vários fatos sutis a serem considerados. Por exemplo, se você não usar a função `cbreak()`, ncurses não irá ler seus caracteres de entrada de forma contígua, mas começarão a lê-los somente depois que uma nova linha ou um **EOF** for encontrado. Para evitar isso, a função `cbreak()` deve ser usada para que os caracteres estejam imediatamente disponíveis para seu programa. Outra função amplamente usada é `noecho()`. Como o nome sugere, quando esta função é configurada (utilizada), os caracteres que são digitados pelo usuário não aparecem na tela. As duas funções `cbreak()` e `noecho()` são exemplos típicos de gerenciamento de chaves.
+Essas funções lêem um único caractere do terminal. Mas existem vários fatos sutis a serem considerados. Por exemplo, se você não usar a função `cbreak()`, ncurses não irá ler seus caracteres de entrada de forma contígua, mas começarão a lê-los somente depois que uma nova linha ou um **EOF** for encontrado.
+
+Para evitar isso, a função `cbreak()` deve ser usada para que os caracteres estejam imediatamente disponíveis para seu programa. Outra função amplamente usada é `noecho()`. Como o nome sugere, quando esta função é configurada (utilizada), os caracteres que são digitados pelo usuário não aparecem na tela.
+
+As duas funções `cbreak()` e `noecho()` são exemplos típicos de gerenciamento de chaves.
 
 6.2. classe de funções `scanw()`
 Essas funções são semelhantes a `scanf()` com a capacidade adicional de obter a entrada de qualquer local da tela.
@@ -721,7 +767,8 @@ Esta função é útil ao alterar atributos de caracteres que já estão na tela
 
 Outras funções `wchgat()`, `mvchgat()`, `wchgat()` se comportam de maneira semelhante, exceto que as funções `w` operam na janela específica. As funções `m`v primeiro movem o cursor e depois executam o trabalho que lhes foi atribuído. Na verdade, `chgat` é uma macro que é substituída por `wchgat()` com stdscr como janela. A maioria das funções "w-less" são macros.
 
-Exemplo 6. Usando `chgat`
+*Exemplo 6. Usando `chgat`*
+
 ```cpp
 #include <ncurses.h>
 
@@ -748,6 +795,7 @@ Este exemplo também nos apresenta ao mundo das cores das Ncurses. As cores ser�
 As janelas constituem o conceito mais importante em curses. Você viu a janela padrão stdscr acima, onde todas as funções operavam implicitamente nessa janela. Agora, para tornar o design ainda mais simples da GUI, você precisa recorrer a janelas.
 
 O principal motivo pelo qual você pode querer usar janelas é manipular partes da tela separadamente, para melhor eficiência, atualizando apenas as janelas que precisam ser alteradas e para um melhor design.
+
 Eu diria que o último motivo é o mais importante na escolha de janelas. Você deve sempre se esforçar para ter um design melhor e fácil de gerenciar em seus programas. Se você estiver escrevendo GUIs grandes e complexas, isso é de fundamental importância antes de começar a fazer qualquer coisa.
 
 ## 8.1. O básico
@@ -760,7 +808,8 @@ Finalmente, a janela pode ser destruída com `delwin()`. Isso irá desalocar a m
 ## 8.2. Que haja uma janela!!!
 Qual a graça de criar uma janela  e não vê-la? Portanto, a parte divertida começa exibindo a janela. A função `box()` pode ser usada para desenhar uma borda ao redor da janela. Vamos explorar essas funções com mais detalhes neste exemplo.
 
-Exemplo 7. Exemplo de Borda da janela
+*Exemplo 7. Exemplo de Borda da janela*
+
 ```cpp
 #include <ncurses.h>
 
@@ -876,7 +925,8 @@ O programa acima é extremamente ineficiente, pois a cada pressionamento de uma 
 
 O programa a seguir usa `mvhline()` e `mvvline()` para obter um efeito semelhante. Essas duas funções são simples. Elas criam uma linha horizontal ou vertical do comprimento especificado na posição especificada.
 
-Exemplo 8. Mais funções de bordas
+*Exemplo 8. Mais funções de bordas*
+
 ```cpp
 #include <ncurses.h>
 
@@ -1008,7 +1058,8 @@ void create_box(WIN *p_win, bool flag){
 ## 9.1. O básico
 A vida parece monótona sem cores. Ncurses tem um bom mecanismo para lidar com cores. Vamos entrar no assunto com um pequeno programa.
 
-Exemplo 9. Um simples exemplo com  cores
+*Exemplo 9. Um simples exemplo com cores*
+
 ```cpp
 #include <ncurses.h>
 
@@ -1053,13 +1104,16 @@ void print_in_middle(WINDOW *win, int starty, int startx, int width, char *strin
 ```
 
 Como você pode ver, para começar a usar cores, você deve primeiro chamar a função `start_color()`.
+
 Depois disso, você pode usar os recursos de cores de seus terminais usando várias funções. Para descobrir se um terminal tem cor capacidades ou não, você pode usar `has_colors()` função, que retorna *FALSE* se o terminal não suportar cores.
 
 Ncurses inicializa todas as cores suportadas pelo terminal quando `start_color()` é chamado. Elas podem ser acessados pelas constantes de definição, como *COLOR_BLACK* etc. Agora, para realmente começar a usar cores, você deve definir pares. As cores são sempre usadas em pares. 
 
 Isso significa que você tem que usar a função `init_pair()` para definir o primeiro plano e o fundo para o número do par que você fornecer. Depois disso, o número do par pode ser usado como um atributo normal com a função `COLOR_PAIR()`.
 
-Isso pode parecer complicado no início. Mas esta solução elegante nos permite gerenciar pares de cores muito facilmente. Para apreciá-lo, você tem que olhar para o código fonte de "diálogo", um utilitário para exibir caixas de diálogo a partir de scripts [shell](https://terminalroot.com.br/shell). Os desenvolvedores definiram combinações de primeiro e segundo plano para todas as cores de que podem precisar e inicializaram no início. Isso torna muito fácil definir atributos apenas acessando um par que já definimos como uma constante. 
+Isso pode parecer complicado no início. Mas esta solução elegante nos permite gerenciar pares de cores muito facilmente. Para apreciá-lo, você tem que olhar para o código fonte de "diálogo", um utilitário para exibir caixas de diálogo a partir de scripts [shell](https://terminalroot.com.br/shell).
+
+Os desenvolvedores definiram combinações de primeiro e segundo plano para todas as cores de que podem precisar e inicializaram no início. Isso torna muito fácil definir atributos apenas acessando um par que já definimos como uma constante. 
 
 As seguintes cores são definidas em curses.h. Você pode usá-las como parâmetros para várias funções de cor.
 ```sh
@@ -1074,7 +1128,9 @@ COLOR_WHITE	7
 ```
 
 ## 9.2. Alterando definições de cores
-A função `init_color()`pode ser usada para alterar os valores rgb para as cores definidas por curses inicialmente. Digamos que você queira aumentar a intensidade da cor vermelha de uma forma ínfima. Então você pode usar esta função como
+A função `init_color()`pode ser usada para alterar os valores rgb para as cores definidas por curses inicialmente.
+
+Digamos que você queira aumentar a intensidade da cor vermelha de uma forma ínfima. Então você pode usar esta função como
 ```cpp
  init_color(COLOR_RED, 700, 0, 0);
     /* param 1     : color name
@@ -1314,7 +1370,8 @@ O `bstate` é a principal variável que nos interessa. Isso informa o estado do 
 ## 11.3. Resumindo Tudo
 Isso é basicamente uma interface com o mouse. Vamos  criar o mesmo menu e permitir interação com o menu. Para fazer as coisas mais simples, o manuseio de tecla é removido.
 
-Exemplo 11. Acesse o menu com mouse!!!
+*Exemplo 11. Acesse o menu com mouse!!!*
+
 ```sh
 #include <ncurses.h>
 
@@ -1480,11 +1537,14 @@ Esta função pode ser usada para tornar o cursor invisível. O parâmetro para 
 ```
 
 ## 13.2. Saindo temporariamente do modo Curses
-Algumas vezes você pode querer voltar ao modo cooked (modo de buffer de linha normal) temporariamente. Nesse caso, você primeiro precisa salvar os modos `tty` com uma chamada para `def_prog_mode()` e então chamar `endwin()` para encerrar o modo curses. Isso o deixará no modo `tty` original. Para voltar ao curses uma vez estiver pronto, chame `reset_prog_mode()`.
+Algumas vezes você pode querer voltar ao modo cooked (modo de buffer de linha normal) temporariamente. Nesse caso, você primeiro precisa salvar os modos `tty` com uma chamada para `def_prog_mode()` e então chamar `endwin()` para encerrar o modo curses.
+
+Isso o deixará no modo `tty` original. Para voltar ao curses uma vez estiver pronto, chame `reset_prog_mode()`.
 
 Esta função retorna o `tty` ao estado armazenado por `def_prog_mode()`. Depois, chame `refreh()`, e você está de volta ao modo curses. Aqui está um exemplo mostrando a sequência de coisas a serem feitas.
 
-Exemplo 12. Saindo temporariamente do modo curses
+*Exemplo 12. Saindo temporariamente do modo curses*
+
 ```cpp
 #include <ncurses.h>
 
@@ -1513,7 +1573,8 @@ Se você já programou no **DOS**, você sabe sobre esses caracteres bacanas no 
 
 Todas essas variáveis começam com `ACS`, significando um conjunto de caracteres alternativos. Você deve ter me notado usando esses caracteres em alguns dos programas acima. Aqui está um exemplo mostrando todos os caracteres.
 
-Exemplo 13. Exemplo de variáveis ACS
+*Exemplo 13. Exemplo de variáveis ACS*
+
 ```sh
 #include <ncurses.h>
 
@@ -1562,6 +1623,1447 @@ int main(){
 
 ---
 
+# 14. Biblioteca do painel
+Agora que você é perito em curses, talvez você queira fazer algo grande. Você criou muitas janelas sobrepostas para dar uma aparência profissional do tipo janela. Infelizmente, logo se torna difícil gerenciá-las. As múltiplas atualizações, mergulham você em um pesadelo.
+
+As janelas sobrepostas criam manchas, sempre que você se esquece de atualizar as janelas na ordem adequada.
+
+Não se desespere. Existe uma solução elegante fornecida na biblioteca de painéis. Nas palavras de desenvolvedores do ncurses.
+
+Quando o design de sua interface é tal que as janelas podem mergulhar mais fundo na pilha de visibilidade ou aparecer no topo no tempo de execução, a contabilidade resultante pode ser entediante e difícil de acertar. Daí a biblioteca de painéis.
+
+Se você tiver muitas janelas sobrepostas, a biblioteca de painéis é o caminho a seguir. Isso elimina a necessidade de fazer uma série de `wnoutrefresh()`, `doupdate()` e alivia o fardo de fazer isso corretamente (de baixo para cima).
+
+A biblioteca mantém informações sobre a ordem das janelas, sua sobreposição e atualiza a tela de forma adequada. Então, por que esperar? Vamos dar uma olhada de perto nos painéis.
+
+## 14.1 O Básico
+O objeto de painel é uma janela implicitamente tratada como parte de um deck, incluindo todos os outros objetos de painel. O deck é tratado como uma pilha com o painel superior totalmente visível, podendo os outros painéis serem ou não obscurecidos de acordo com suas posições.
+
+Portanto, a ideia básica é criar uma pilha de painéis sobrepostos e usar a biblioteca de painéis para exibi-los corretamente. Existe uma função semelhante a `refresh()` que, quando chamada, exibe os painéis na ordem correta.
+
+São fornecidas funções para ocultar ou mostrar painéis, mover painéis, alterar seu tamanho etc. O problema de sobreposição é gerenciado pela biblioteca de painéis durante todas as chamadas para essas funções.
+
+O fluxo geral de um programa de painel é assim:
+
++ **1.** Criar as janelas (com `newwin()`) a serem anexadas aos painéis.
++ **2.** Criar painéis com a ordem de visibilidade escolhida. Empilhá-los de acordo com a visibilidade desejada. A função `new_panel()` é usada para criar painéis.
++ **3.** Chame `update_panels()` para gravar os painéis na tela virtual na ordem de visibilidade correta. Faça um `doupdate()` para mostrá-lo na tela.
++ **4.** Manipular os painéis com `show_panel()`, `hide_panel()`, `move_panel()` etc. Use funções auxiliares como `panel_hidden()` e `panel_window()`. Use o ponteiro do usuário para armazenar dados personalizados para um painel. Use as funções `set_panel_userptr()` e `panel_userptr()` para definir e obter o ponteiro do usuário para um painel.
++ **5.** Quando terminar de usar o painel, use `del_panel()` para excluí-lo.
+
+Vamos deixar os conceitos claros com alguns programas. O seguinte é um simples programa que cria 3 painéis sobrepostos e os mostra na tela.
+
+## 14.2. Compilando com a biblioteca de painéis
+Para usar as funções da biblioteca de painéis, você deve incluir `panel.h` e vincular o programa à biblioteca de painéis, o sinalizador `-lpanel` deve ser adicionado junto com `-lncurses` nessa ordem.
+```cpp
+#include <panel.h>
+  .
+  .
+  .
+```
+> Compilar e vincular: `g++ arquivo.cpp -lpanel -lncurses -ltinfo`
+
+*Exemplo 14. O básico de painéis*
+
+```cpp
+#include <panel.h>
+
+int main(){
+  WINDOW *my_wins[3];
+  PANEL  *my_panels[3];
+  int lines = 10, cols = 40, y = 2, x = 4, i;
+
+  initscr();
+  cbreak();
+  noecho();
+
+  / * Cria janelas para os painéis * /
+    my_wins[0] = newwin(lines, cols, y, x);
+  my_wins[1] = newwin(lines, cols, y + 1, x + 5);
+  my_wins[2] = newwin(lines, cols, y + 2, x + 10);
+
+  /* 
+   * Cria bordas ao redor das janelas para que você possa ver o efeito
+   dos painéis
+   */
+  for(i = 0; i < 3; ++i){
+    box(my_wins[i], 0, 0);
+  }
+
+  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
+    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
+    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
+    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+
+    / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
+    update_panels();
+
+  / * Mostra-o na tela * /
+    doupdate();
+
+  getch();
+  endwin();
+}
+```
+
+Como você pode ver, o programa acima segue um fluxo simples conforme explicado. As janelas são criadas com `newwin()` e, em seguida, são anexadas aos painéis com `new_panel()`. Conforme anexamos um painel após o outro, a pilha de painéis é atualizada. Para colocá-los na tela, `update_panels()` e `doupdate()` são chamados.
+
+
+## 14.3. Navegação na janela do painel
+Um exemplo ligeiramente complicado é fornecido abaixo. Este programa cria 3 janelas que podem ser alternadas usando a guia. Dê uma olhada no código.
+
+*Exemplo 15. Exemplo de navegação na janela do painel*
+
+```cpp
+#include <panel.h>
+
+#define NLINES 10
+#define NCOLS 40
+
+void init_wins(WINDOW **wins, int n);
+void win_show(WINDOW *win, char *label, int label_color);
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+
+int main(){
+  WINDOW *my_wins[3];
+  PANEL  *my_panels[3];
+  PANEL  *top;
+  int ch;
+
+  / * Inicializa curses * /
+    initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  / * Inicializa todas as cores * /
+    init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_GREEN, COLOR_BLACK);
+  init_pair(3, COLOR_BLUE, COLOR_BLACK);
+  init_pair(4, COLOR_CYAN, COLOR_BLACK);
+
+  init_wins(my_wins, 3);
+
+  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
+    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
+    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
+    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+
+    / * Configura os ponteiros do usuário para o próximo painel * /
+    set_panel_userptr(my_panels[0], my_panels[1]);
+  set_panel_userptr(my_panels[1], my_panels[2]);
+  set_panel_userptr(my_panels[2], my_panels[0]);
+
+  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
+    update_panels();
+
+  / * Mostra-o na tela * /
+    attron(COLOR_PAIR(4));
+  mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+  attroff(COLOR_PAIR(4));
+  doupdate();
+
+  top = my_panels[2];
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case 9:
+        top = (PANEL *)panel_userptr(top);
+        top_panel(top);
+        break;
+    }
+    update_panels();
+    doupdate();
+  }
+  endwin();
+  return 0;
+}
+
+/ * Coloca todas as janelas * /
+void init_wins(WINDOW **wins, int n){
+  int x, y, i;
+  char label[80];
+
+  y = 2;
+  x = 10;
+  for(i = 0; i < n; ++i){
+    wins[i] = newwin(NLINES, NCOLS, y, x);
+    sprintf(label, "Window Number %d", i + 1);
+    win_show(wins[i], label, i + 1);
+    y += 3;
+    x += 7;
+  }
+}
+
+/ * Mostra a janela com uma borda e um rótulo * /
+void win_show(WINDOW *win, char *label, int label_color){
+  int startx, starty, height, width;
+
+  getbegyx(win, starty, startx);
+  getmaxyx(win, height, width);
+
+  box(win, 0, 0);
+  mvwaddch(win, 2, 0, ACS_LTEE); 
+  mvwhline(win, 2, 1, ACS_HLINE, width - 2); 
+  mvwaddch(win, 2, width - 1, ACS_RTEE); 
+
+  print_in_middle(win, 1, 0, width, label, COLOR_PAIR(label_color));
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL){
+    win = stdscr;
+  }
+
+  getyx(win, y, x);
+  if(startx != 0){
+    x = startx;
+  }
+
+  if(starty != 0){
+    y = starty;
+  }
+
+  if(width == 0){
+    width = 80;
+  }
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  wattron(win, color);
+  mvwprintw(win, y, x, "%s", string);
+  wattroff(win, color);
+  refresh();
+}
+```
+
+
+## 14.4. Usando ponteiros do usuário
+No exemplo acima, usei ponteiros de usuário para descobrir a próxima janela do ciclo. Podemos anexar informações personalizadas ao painel especificando um ponteiro do usuário, que pode apontar para qualquer informação que você deseja armazenar.
+
+Neste caso, armazenei o ponteiro para o próximo painel do ciclo. O ponteiro do usuário para um painel pode ser definido com a função `set_panel_userptr()` . Ele pode ser acessado usando a função `panel_userptr()` que retornará o ponteiro do usuário para o painel fornecido como argumento.
+
+Depois de encontrar o próximo painel no ciclo, ele é levado ao topo pela função `top_panel()`. Essa função traz o painel fornecido como argumento para o topo da pilha de painéis.
+
+## 14.5. Movendo e redimensionando painéis
+A função `move_panel()` pode ser usada para mover um painel para o local desejado. Ela não altera a posição do painel na pilha. Certifique-se de usar `move_panel()` em vez de `mvwin()` na janela associada ao painel.
+
+O redimensionamento de um painel é um pouco complexo. Não existe uma função direta apenas para redimensionar a janela associada a um painel. Uma solução para redimensionar um painel é criar uma nova janela com os tamanhos desejados, alterar a janela associada ao painel usando `replace_panel()`.
+
+Não se esqueça de excluir a janela antiga. A janela associada a um painel pode ser encontrada usando a função `panel_window()`.
+
+O programa a seguir mostra esses conceitos, em um programa supostamente simples. Você pode alternar a janela com `<TAB>` como de costume.`</TAB>` Para redimensionar ou mover o painel ativo, pressione 'r' para redimensionar 'm' para movimentação.
+
+Depois, use as teclas de seta para redimensionar ou movê-la para a maneira desejada e pressione Enter para terminar sua redimensionamento ou movimento. Este exemplo faz uso de dados do usuário para obter os dados necessários para fazer as operações.
+
+*Exemplo 16. Exemplo de movimentação e redimensionamento do painel*
+
+```cpp
+#include <panel.h>
+
+typedef struct _PANEL_DATA {
+  int x, y, w, h;
+  char label[80]; 
+  int label_color;
+  PANEL *next;
+}PANEL_DATA;
+
+#define NLINES 10
+#define NCOLS 40
+
+void init_wins(WINDOW ** wins, int n);
+void win_show(WINDOW * win, char * label, int label_color);
+void print_in_middle(WINDOW * win, int starty, int startx, int width, char * string, chtype color);
+void set_user_ptrs(PANEL ** panels, int n);
+
+int main(){
+  WINDOW * my_wins[3];
+  PANEL  * my_panels[3];
+  PANEL_DATA  * top;
+  PANEL * stack_top;
+  WINDOW * temp_win, * old_win;
+  int ch;
+  int newx, newy, neww, newh;
+  int size = FALSE, move = FALSE;
+
+  / * Inicializa curses * /
+    initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  / * Inicializa todas as cores * /
+    init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_GREEN, COLOR_BLACK);
+  init_pair(3, COLOR_BLUE, COLOR_BLACK);
+  init_pair(4, COLOR_CYAN, COLOR_BLACK);
+
+  init_wins(my_wins, 3);
+
+  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
+    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
+    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
+    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+
+    set_user_ptrs(my_panels, 3);
+  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
+    update_panels();
+
+  / * Mostra-o na tela * /
+    attron(COLOR_PAIR(4));
+  mvprintw (LINHAS - 3, 0, "Use 'm' para mover, 'r' para redimensionar");
+  mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+  attroff(COLOR_PAIR(4));
+  doupdate();
+
+  stack_top = my_panels[2];
+  top = (PANEL_DATA *)panel_userptr(stack_top);
+  newx = top->x;
+  newy = top->y;
+  neww = top->w;
+  newh = top->h;
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case 9:         /* Tab */
+        top = (PANEL_DATA *)panel_userptr(stack_top);
+        top_panel(top->next);
+        stack_top = top->next;
+        top = (PANEL_DATA *)panel_userptr(stack_top);
+        newx = top->x;
+        newy = top->y;
+        neww = top->w;
+        newh = top->h;
+        break;
+      case 'r':       /* Redimensionar*/
+        size = TRUE;
+        attron(COLOR_PAIR(4));
+        mvprintw (LINES - 4, 0, "Redimensionamento inserido: Use as setas para redimensionar e pressione <ENTER> para encerrar o redimensionamento ");
+        refresh();
+        attroff(COLOR_PAIR(4));
+        break;
+      case 'm':       /* Move */
+        attron(COLOR_PAIR(4));
+        mvprintw (LINES - 4, 0, "Movimento inserido: Use as setas para mover e pressione <ENTER> para parar de se mover ");
+        refresh();
+        attroff(COLOR_PAIR(4));
+        move = TRUE;
+        break;
+      case KEY_LEFT:
+        if(size == TRUE){
+          --newx;
+          ++neww;
+        }
+        if(move == TRUE)
+          --newx;
+        break;
+      case KEY_RIGHT:
+        if(size == TRUE){
+          ++newx;
+          --neww;
+        }
+        if(move == TRUE){
+          ++newx;
+        }
+        break;
+      case KEY_UP:
+        if(size == TRUE){
+          --newy;
+          ++newh;
+        }
+        if(move == TRUE){
+          --newy;
+        }
+        break;
+      case KEY_DOWN:
+        if(size == TRUE){
+          ++newy;
+          --newh;
+        }
+        if(move == TRUE){
+          ++newy;
+        }
+        break;
+      case 10:        /* Enter */
+        move(LINES - 4, 0);
+        clrtoeol();
+        refresh();
+        if(size == TRUE){
+          old_win = panel_window(stack_top);
+          temp_win = newwin(newh, neww, newy, newx);
+          replace_panel(stack_top, temp_win);
+          win_show(temp_win, top->label, top->label_color); 
+          delwin(old_win);
+          size = FALSE;
+        }
+        if(move == TRUE){
+          move_panel(stack_top, newy, newx);
+          move = FALSE;
+        }
+        break;
+
+    }
+    attron(COLOR_PAIR(4));
+    mvprintw (LINHAS - 3, 0, "Use 'm' para mover, 'r' para redimensionar");
+    mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+    attroff(COLOR_PAIR(4));
+    refresh();      
+    update_panels();
+    doupdate();
+  }
+  endwin();
+  return 0;
+}
+
+/ * Coloca todas as janelas * /
+void init_wins(WINDOW **wins, int n){
+  int x, y, i;
+  char label[80];
+
+  y = 2;
+  x = 10;
+  for(i = 0; i < n; ++i){
+    wins[i] = newwin(NLINES, NCOLS, y, x);
+    sprintf(label, "Window Number %d", i + 1);
+    win_show(wins[i], label, i + 1);
+    y += 3;
+    x += 7;
+  }
+}
+
+/ * Define as estruturas PANEL_DATA para painéis individuais * /
+void set_user_ptrs(PANEL **panels, int n){
+  PANEL_DATA *ptrs;
+  WINDOW *win;
+  int x, y, w, h, i;
+  char temp[80];
+
+  ptrs = (PANEL_DATA *)calloc(n, sizeof(PANEL_DATA));
+
+  for(i = 0;i < n; ++i){
+    win = panel_window(panels[i]);
+    getbegyx(win, y, x);
+    getmaxyx(win, h, w);
+    ptrs[i].x = x;
+    ptrs[i].y = y;
+    ptrs[i].w = w;
+    ptrs[i].h = h;
+    sprintf(temp, "Window Number %d", i + 1);
+    strcpy(ptrs[i].label, temp);
+    ptrs[i].label_color = i + 1;
+    if(i + 1 == n)
+      ptrs[i].next = panels[0];
+    else
+      ptrs[i].next = panels[i + 1];
+    set_panel_userptr(panels[i], &ptrs[i]);
+  }
+}
+
+/ * Mostra a janela com uma borda e um rótulo * /
+void win_show(WINDOW *win, char *label, int label_color){
+  int startx, starty, height, width;
+
+  getbegyx(win, starty, startx);
+  getmaxyx(win, height, width);
+
+  box(win, 0, 0);
+  mvwaddch(win, 2, 0, ACS_LTEE); 
+  mvwhline(win, 2, 1, ACS_HLINE, width - 2); 
+  mvwaddch(win, 2, width - 1, ACS_RTEE); 
+
+  print_in_middle(win, 1, 0, width, label, COLOR_PAIR(label_color));
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL)
+    win = stdscr;
+  getyx(win, y, x);
+  if(startx != 0)
+    x = startx;
+  if(starty != 0)
+    y = starty;
+  if(width == 0)
+    width = 80;
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  wattron(win, color);
+  mvwprintw(win, y, x, "%s", string);
+  wattroff(win, color);
+  refresh();
+}
+```
+
+Concentre-se no loop `while` principal. Depois de descobrir o tipo de tecla pressionada, ele executa as ações apropriadas.Se 'r' for pressionado, o modo de redimensionamento é iniciado.
+
+Depois disso, os novos tamanhos são atualizados conforme o usuário pressiona as teclas de seta. Quando o usuário pressiona `<ENTER>`, a seleção atual termina e o painel é redimensionado usando o conceito explicado.
+
+No modo de redimensionamento, o programa não mostra como a janela está sendo redimensionada. Fica como exercício para o leitor imprimir uma borda pontilhada enquanto ela é redimensionada para uma nova posição.
+
+Quando o usuário pressiona 'm', o modo de movimentação é iniciado. Isso é um pouco mais simples do que redimensionar. Conforme as teclas de seta são pressionadas, a nova posição é atualizada e o pressionamento de `<ENTER>` faz com que o painel seja movido chamando a função `move_panel()`.
+
+Neste programa, os dados do usuário, representados como `PANEL_DATA`, desempenham um papel muito importante na localização das informações associadas a um painel. Conforme escrito nos comentários, o `PANEL_DATA` armazena os tamanhos do painel, rótulo, cor do rótulo e um ponteiro para o próximo painel no ciclo.
+
+## 14.6. Escondendo e mostrando painéis
+Um painel pode ser escondido usando a função `hide_panel()`. Esta função apenas o remove da pilha de painéis, ocultando-o, assim, na tela uma vez que você fizer `update_panels()` e `doupdate()`. Não destrói a estrutura `PANEL` associada ao painel oculto. Ele pode ser mostrado novamente usando a função `show_panel()`.
+
+O programa a seguir mostra a ocultação de painéis. Pressione 'a' ou 'b' ou 'c' para mostrar ou ocultar a primeira, segunda e terceira janelas, respectivamente. Ele usa dados do usuário com uma pequena variável oculta, que controla se a janela está oculta ou não. Por algum motivo, a função `panel_hidden()` que informa se um painel está oculto ou não, não está funcionando. 
+
+*Exemplo 17. Exemplo de ocultar e mostrar painel*
+
+```cpp
+#include <panel.h>
+
+typedef struct _PANEL_DATA {
+  ocultar int;       / * TRUE se o painel estiver oculto * /
+}PANEL_DATA;
+
+#define NLINES 10
+#define NCOLS 40
+
+void init_wins(WINDOW **wins, int n);
+void win_show(WINDOW *win, char *label, int label_color);
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+
+int main(){
+  WINDOW * my_wins[3];
+  PANEL  * my_panels[3];
+  PANEL_DATA panel_datas[3];
+  PANEL_DATA *temp;
+  int ch;
+
+  / * Inicializa curses * /
+    initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  / * Inicializa todas as cores * /
+    init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_GREEN, COLOR_BLACK);
+  init_pair(3, COLOR_BLUE, COLOR_BLACK);
+  init_pair(4, COLOR_CYAN, COLOR_BLACK);
+
+  init_wins(my_wins, 3);
+
+  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
+    my_panels [0] = new_panel (my_wins [0]);   / * Move 0, ordem: stdscr-0 * /
+    my_panels [1] = new_panel (my_wins [1]);   / * Move 1, ordem: stdscr-0-1 * /
+    my_panels [2] = new_panel (my_wins [2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+
+    / * Inicializa dados do painel informando que nada está oculto * /
+    panel_datas[0].hide = FALSE;
+  panel_datas[1].hide = FALSE;
+  panel_datas[2].hide = FALSE;
+
+  set_panel_userptr(my_panels[0], &panel_datas[0]);
+  set_panel_userptr(my_panels[1], &panel_datas[1]);
+  set_panel_userptr(my_panels[2], &panel_datas[2]);
+
+  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
+    update_panels();
+
+  / * Mostra-o na tela * /
+    attron(COLOR_PAIR(4));
+  mvprintw (LINHAS - 3, 0, "Mostrar ou ocultar uma janela com 'a' (primeira janela)  'b' (segunda janela)  'c' (Terceira janela) ");
+  mvprintw(LINES - 2, 0, "F1 to Exit");
+
+  attroff(COLOR_PAIR(4));
+  doupdate();
+
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case 'a':                       
+        temp = (PANEL_DATA *)panel_userptr(my_panels[0]);
+
+        if(temp->hide == FALSE){
+          hide_panel(my_panels[0]);
+          temp->hide = TRUE;
+        }else{
+          show_panel(my_panels[0]);
+          temp->hide = FALSE;
+        }
+
+        break;
+      case 'b':
+        temp = (PANEL_DATA *)panel_userptr(my_panels[1]);
+        if(temp->hide == FALSE){
+          hide_panel(my_panels[1]);
+          temp->hide = TRUE;
+        }else{
+          show_panel(my_panels[1]);
+          temp->hide = FALSE;
+        }
+
+        break;
+      case 'c':
+        temp = (PANEL_DATA *)panel_userptr(my_panels[2]);
+        if(temp->hide == FALSE){
+          hide_panel(my_panels[2]);
+          temp->hide = TRUE;
+        }else{
+          show_panel(my_panels[2]);
+          temp->hide = FALSE;
+        }
+        break;
+    }
+    update_panels();
+    doupdate();
+  }
+  endwin();
+  return 0;
+}
+
+/ * Coloca todas as janelas * /
+void init_wins(WINDOW **wins, int n){
+  int x, y, i;
+  char label[80];
+
+  y = 2;
+  x = 10;
+  for(i = 0; i < n; ++i){
+    wins[i] = newwin(NLINES, NCOLS, y, x);
+    sprintf(label, "Window Number %d", i + 1);
+    win_show(wins[i], label, i + 1);
+    y += 3;
+    x += 7;
+  }
+}
+
+/ * Mostra a janela com uma borda e um rótulo * /
+void win_show(WINDOW *win, char *label, int label_color){
+  int startx, starty, height, width;
+
+  getbegyx(win, starty, startx);
+  getmaxyx(win, height, width);
+
+  box(win, 0, 0);
+  mvwaddch(win, 2, 0, ACS_LTEE); 
+  mvwhline(win, 2, 1, ACS_HLINE, width - 2); 
+  mvwaddch(win, 2, width - 1, ACS_RTEE); 
+
+  print_in_middle(win, 1, 0, width, label, COLOR_PAIR(label_color));
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL)
+    win = stdscr;
+  getyx(win, y, x);
+  if(startx != 0){
+    x = startx;
+  }
+
+  if(starty != 0){
+    y = starty;
+  }
+
+  if(width == 0){
+    width = 80;
+  }
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  wattron(win, color);
+  mvwprintw(win, y, x, "%s", string);
+  wattroff(win, color);
+  refresh();
+}
+```
+
+## 14.7. Funções `panel_above()` e `panel_below()`
+As funções `panel_above()` e `panel_below()` podem ser usadas para descobrir o painel acima e abaixo de um painel. Se o argumento para essas funções for `NULL`, elas retornarão um ponteiro para o painel inferior e o painel superior, respectivamente.
+
+---
+
+# 15. Biblioteca de Menus
+A biblioteca de menus fornece uma boa extensão para o básico de curses, por meio do qual você pode criar menus. Ela fornece um conjunto de funções para criar menus. Mas eles precisam ser personalizados para dar uma aparência mais bonita, com cores etc. Vamos entrar em detalhes.
+
+Um menu é uma exibição de tela que auxilia o usuário a escolher algum subconjunto de um determinado conjunto de itens. Para simplificar, um menu é uma coleção de itens dos quais um ou mais itens podem ser escolhidos.
+
+Alguns leitores podem não estar cientes da capacidade de seleção de vários itens. A biblioteca de menus fornece funcionalidade para escrever menus a partir dos quais o usuário pode escolher mais de um item como sua escolha preferida. Isso é tratado em uma seção posterior. Agora é hora para as primeiras noções.
+
+## 15.1. O Básico
+Para criar menus, primeiro você cria itens e, em seguida, publica o menu no display. Depois disso, todo o processamento das respostas do usuário é feito em uma elegante função `menu_driver()` que é o burro de carga de qualquer programa de menu.
+
+O fluxo geral de controle de um programa de menu é semelhante a este.
++ **1.** Inicialize curses
++ **2.** Crie itens usando `new_item()`. Você pode especificar um nome e uma descrição para os itens.
++ **3.** Crie o menu com `new_menu()` especificando os itens a serem anexados.
++ **4.** Poste o menu com `menu_post()` e atualize a tela.
++ **5.** Processe as solicitações do usuário com um loop e faça as atualizações necessárias no menu com `menu_driver`.
++ **6.** Desfaça o post do menu com `menu_unpost()`
++ **7.** Libere a memória alocada ao menu por `free_menu()`
++ **8.** Libere a memória alocada para os itens com `free_item()`
++ **9.** Finalize curses
+
+Vamos ver um programa que imprime um menu simples e atualiza a seleção atual com setas para cima e para baixo.
+
+## 15.2. Compilando com a Biblioteca do Menu
+Para usar as funções da biblioteca de menus, você deve incluir menu.h e vincular o programa à biblioteca de menus, o sinalizador `-lmenu` deve ser adicionado junto com `-lncurses` nessa ordem.
+
+*Exemplo 18. O Básico de Menu*
+
+Este programa demonstra os conceitos básicos envolvidos na criação de um menu usando a biblioteca de menus. Primeiro criamos os itens usando `new_item()` e depois os anexamos ao menu com a função `new_menu()`.
+
+Depois de postar o menu e atualizar a tela, o ciclo de processamento principal é iniciado. Ele lê a entrada do usuário e executa a ação correspondente. A função `menu_driver()` é o principal instrumento de trabalho do sistema de menus.
+
+O segundo parâmetro para esta função informa o que deve ser feito com o menu. De acordo com o parâmetro, `menu_driver()` faz a tarefa correspondente. O valor pode ser uma solicitação de navegação de menu, um caractere ascii ou uma tecla especial `KEY_MOUSE` associada a um evento de mouse.
+
+O `menu_driver` aceita as seguintes solicitações de navegação.
+
+Não fique sobrecarregado com o número de opções. Vamos vê-los lentamente, um após o outro. As opções de interesse neste exemplo são `REQ_UP_ITEM` e `REQ_DOWN_ITEM`. Essas duas opções, quando passadas para `menu_driver`, o driver de menu atualiza o item atual para um item acima ou abaixo, respectivamente.
+
+## 15.3. Menu Driver: O burro de carga do sistema de menu
+Como você viu no exemplo acima, `menu_driver` desempenha um papel importante na atualização do menu. É muito importante entender as várias opções necessárias e o que elas fazem.
+
+Como explicado acima, o segundo parâmetro para `menu_driver()` pode ser uma solicitação de navegação, um caractere imprimível ou uma chave `KEY_MOUSE`. Vamos dissecar as diferentes solicitações de navegação.
++ `REQ_LEFT_ITEM` e `REQ_RIGHT_ITEM`
++ Um menu pode ser exibido com várias colunas para mais de um item. Isso pode ser feito usando o `menu_format()` função. Quando um menu com várias colunas é exibido, essas solicitações fazem com que o driver do menu mova a seleção atual para a esquerda ou direita.
++ `REQ_UP_ITEM` e `REQ_DOWN_ITEM`
++ Essas duas opções você viu no exemplo acima. Essas opções, quando fornecidas, fazem com que o menu_driver mova a seleção atual para um item para cima ou para baixo.
++ `REQ_SCR_*` options
++ As quatro opções `REQ_SCR_ULINE`, `REQ_SCR_DLINE`, `REQ_SCR_DPAGE`, `REQ_SCR_UPAGE` estão relacionadas à rolagem. Se todos os itens do menu não puderem ser exibidos na subjanela do menu, o menu poderá ser rolado. Essas solicitações podem ser fornecidas ao `menu_driver` para fazer a rolagem de uma linha para cima, para baixo ou uma página para baixo ou para cima, respectivamente.
++ `REQ_FIRST_ITEM`, `REQ_LAST_ITEM`, `REQ_NEXT_ITEM` e `REQ_PREV_ITEM` Essas solicitações são autoexplicativas.
++ `REQ_TOGGLE_ITEM` Esta solicitação, quando fornecida, alterna a seleção atual. Esta opção deve ser usada apenas em um menu de vários valores. Portanto, para usar esta solicitação, a opção `O_ONEVALUE` deve estar desligada. Esta opção pode ser ativada ou desativada com `set_menu_opts()`.
+
+#### Solicitações Padrão
+Cada menu tem um buffer de padrão associado, que é usado para encontrar a correspondência mais próxima aos caracteres [ASCII](https://pt.wikipedia.org/wiki/ASCII) inseridos pelo usuário.
+
+Sempre que caracteres `ascii` são fornecidos a `menu_driver`, ele é colocado no buffer de padrão. Ele também tenta encontrar a correspondência mais próxima ao padrão na lista de itens e move a seleção atual para esse item.
+
+A solicitação `REQ_CLEAR_PATTERN` limpa o buffer de padrão. A solicitação `REQ_BACK_PATTERN` exclui o caractere anterior no buffer de padrão. No caso de o padrão corresponder a mais de um item, os itens combinados podem ser alternados entre `REQ_NEXT_MATCH e REQ_PREV_MATCH`, que movem a seleção atual para a próxima correspondência e a anterior, respectivamente.
+
+#### Solicitações de mouse
+No caso de solicitações `KEY_MOUSE`, de acordo com a posição do mouse, uma ação é realizada em conformidade. A ação a ser executada é explicada na página de manual como, se o segundo argumento é a chave especial `KEY_MOUSE`, o evento de mouse associado é traduzido em uma das solicitações acima predefinidas.
+
+Atualmente, apenas clicks na janela do usuário (por exemplo, dentro da área de exibição do menu ou  da janela de  decoração ) são manuseados. Se você clicar acima da região de exibição do menu, um `REQ_SCR_ULINE` é gerado.
+
+E se  você der um duplo click um `REQ_SCR_UPAGE` é gerado e E se você der um clique triplo, um `REQ_FIRST_ITEM` é gerado. Se você der um clique abaixo da região de exibição do menu, um `REQ_SCR_DLINE` é gerado, se você clicar duas vezes, um `REQ_SCR_DPAGE` é gerado e  se  você  der um clique triplo, um `REQ_LAST_ITEM` é gerado.
+
+Se você clicar em um item dentro da área de exibição do menu, o cursor do menu é posicionado nesse item.
+
+Cada uma das solicitações acima será explicada nas linhas a seguir com vários exemplos, sempre que apropriado.
+
+## 15.4. Janelas de menu
+Cada menu criado está associado a uma janela e a uma subjanela. A janela do menu exibe qualquer título ou borda associada ao menu. A subjanela do menu exibe os itens do menu atualmente disponíveis para seleção.
+
+Mas não especificamos nenhuma janela ou subjanela no exemplo simples. Quando uma janela não é especificada, stdscr é considerado a janela principal e, em seguida, o sistema de menus calcula o tamanho da subjanela necessário para a exibição de itens.
+
+Em seguida, os itens são exibidos na subjanela calculada. Então, vamos brincar com essas janelas e exibir um menu com uma borda e um título.
+
+*Exemplo 19. Exemplo de uso do menu de Janelas*
+
+```cpp
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+  "Escolha 1",
+  "Escolha 2",
+  "Escolha 3",
+  "Escolha 4",
+  "Sair",
+  (char *)NULL,
+};
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  WINDOW *my_menu_win;
+  int n_choices, i;
+
+  /* Inicializa curses */
+    initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+
+  /* Cria itens */
+    n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i)
+    my_items[i] = new_item(choices[i], choices[i]);
+
+  /* Menu da caixa */
+    my_menu = new_menu((ITEM **)my_items);
+
+  /* Cria a janela a ser associada ao menu */
+    my_menu_win = newwin(10, 40, 4, 4);
+  keypad(my_menu_win, TRUE);
+
+  /* Define a janela principal e a subjanela */
+    set_menu_win(my_menu, my_menu_win);
+  set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
+
+  /* Define a marca de menu para a string "*" */
+    set_menu_mark(my_menu, " * ");
+
+  /* Imprime uma borda ao redor da janela principal e imprime um título */
+    box(my_menu_win, 0, 0);
+  print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
+  mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
+  mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
+  mvwaddch(my_menu_win, 2, 39, ACS_RTEE);
+  mvprintw(LINES - 2, 0, "F1 to exit");
+  refresh();
+
+  /* Posta o menu */
+    post_menu(my_menu);
+  wrefresh(my_menu_win);
+
+  while((c = wgetch(my_menu_win)) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+    }
+    wrefresh(my_menu_win);
+  }       
+
+  /* Desmarca e libera toda a memória ocupada */
+    unpost_menu(my_menu);
+  free_menu(my_menu);
+
+  for(i = 0; i < n_choices; ++i){
+    free_item(my_items[i]);
+  }
+
+  endwin();
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL){
+    win = stdscr;
+  }
+
+  getyx(win, y, x);
+  if(startx != 0){
+    x = startx;
+  }
+
+  if(starty != 0){
+    y = starty;
+  }
+
+  if(width == 0){
+    width = 80;
+  }
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  wattron(win, color);
+  mvwprintw(win, y, x, "%s", string);
+  wattroff(win, color);
+  refresh();
+}
+```
+
+Este exemplo cria um menu com um título, uma borda, uma linha elegante que separa o título e os itens. Como você pode ver, para anexar uma janela a um menu, a função `set_menu_win()` deve ser usada. Em seguida, anexamos a subjanela também.
+
+Isso exibe os itens na subjanela. Você também pode definir a string de marca que é exibida à esquerda do item selecionado com `set_menu_mark()`.
+
+## 15.5. Menus de rolagem
+Se a subjanela fornecida para uma janela não for grande o suficiente para mostrar todos os itens, o menu será rolável. Quando você está no último item na lista presente, se você enviar `REQ_DOWN_ITEM`, ele é traduzido para `REQ_SCR_DLINE` e o menu rola por um item.
+
+Você pode fornecer manualmente operações `REQ_SCR_` para fazer a rolagem. Vamos ver como isso pode ser feito.
+
+*Exemplo 20. Exemplo de menus de rolagem*
+```cpp
+#include <curses.h>
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+  "Escolha 1",
+  "Escolha 2",
+  "Escolha 3",
+  "Escolha 4",
+  "Escolha 5",
+  "Escolha 6",
+  "Escolha 7",
+  "Choice 8",
+  "Choice 9",
+  "Choice 10",
+  "Sair",
+  (char *)NULL,
+};
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  WINDOW *my_menu_win;
+  int n_choices, i;
+
+  /* Inicializa curses */
+    initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_CYAN, COLOR_BLACK);
+
+  /* Cria itens */
+    n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i){
+    my_items[i] = new_item(choices[i], choices[i]);
+  }
+
+  /* Menu da caixa */
+    my_menu = new_menu((ITEM **)my_items);
+
+  /* Cria a janela a ser associada ao menu */
+    my_menu_win = newwin(10, 40, 4, 4);
+  keypad(my_menu_win, TRUE);
+
+  /* Define a janela principal e a subjanela */
+    set_menu_win(my_menu, my_menu_win);
+  set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
+  set_menu_format(my_menu, 5, 1);
+
+  /* Define a marca de menu para a string "*" */
+    set_menu_mark(my_menu, " * ");
+
+  /* Imprime uma borda ao redor da janela principal e imprime um título */
+    box(my_menu_win, 0, 0);
+  print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
+  mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
+  mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
+  mvwaddch(my_menu_win, 2, 39, ACS_RTEE);
+
+  /* Posta o menu */
+    post_menu(my_menu);
+  wrefresh(my_menu_win);
+
+  attron(COLOR_PAIR(2));
+  mvprintw (LINHAS - 2, 0, "Use PageUp e PageDown para subir ou descer uma página de itens");
+  mvprintw (LINHAS - 1, 0, "Teclas de seta para navegar (F1 para sair)");
+  attroff(COLOR_PAIR(2));
+  refresh();
+
+  while((c = wgetch(my_menu_win)) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+      case KEY_NPAGE:
+        menu_driver(my_menu, REQ_SCR_DPAGE);
+        break;
+      case KEY_PPAGE:
+        menu_driver(my_menu, REQ_SCR_UPAGE);
+        break;
+    }
+    wrefresh(my_menu_win);
+  }       
+
+  /* Desmarca e libera toda a memória ocupada */
+    unpost_menu(my_menu);
+  free_menu(my_menu);
+  for(i = 0; i < n_choices; ++i){
+    free_item(my_items[i]);
+  }
+
+  endwin();
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+  int length, x, y;
+  float temp;
+
+  if(win == NULL){
+    win = stdscr;
+  }
+
+  getyx(win, y, x);
+  if(startx != 0){
+    x = startx;
+  }
+
+  if(starty != 0){
+    y = starty;
+  }
+
+  if(width == 0){
+    width = 80;
+  }
+
+  length = strlen(string);
+  temp = (width - length)/ 2;
+  x = startx + (int)temp;
+  wattron(win, color);
+  mvwprintw(win, y, x, "%s", string);
+  wattroff(win, color);
+  refresh();
+}
+```
+
+Este programa é autoexplicativo. Neste exemplo, o número de opções foi aumentado para dez, que é maior do que o tamanho da nossa subjanela, que pode conter 6 itens. Esta mensagem deve ser explicitamente transmitida ao sistema de menu com a função `set_menu_format()`.
+
+Aqui, especificamos o número de linhas e colunas que desejamos exibir em uma única página. Podemos especificar qualquer número de itens a serem mostrados, nas variáveis de linhas, se for menor que a altura da subjanela.
+
+Se a tecla pressionada pelo usuário for `PAGE UP` ou `PAGE DOWN`, o menu é rolado uma página devido às solicitações (`REQ_SCR_DPAGE` e `REQ_SCR_UPAGE`) fornecidas para `menu_driver()`.
+
+## 15.6. Menus Multi Colunares
+No exemplo acima, você viu como usar a função `set_menu_format()`. Não mencionei o que a variável cols (terceiro parâmetro) faz. Bem, se sua subjanela for grande o suficiente, você pode optar por exibir mais de um item por linha.
+
+Isso pode ser especificado na variável cols. Para tornar as coisas mais simples, o exemplo a seguir não mostra as descrições dos itens.
+
+*Exemplo 21. Exemplo de menus colunares de Milt*
+
+```cpp
+#include <curses.h>
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+  "Escolha 1", "Escolha 2", "Escolha 3", "Escolha 4", "Escolha 5",
+  "Escolha 6", "Escolha 7", "Escolha 8", "Escolha 9", "Escolha 10",
+  "Escolha 11", "Escolha 12", "Escolha 13", "Escolha 14", "Escolha 15",
+  "Escolha 16", "Escolha 17", "Escolha 18", "Escolha 19", "Escolha 20",
+  "Sair",
+  (char *)NULL,
+};
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  WINDOW *my_menu_win;
+  int n_choices, i;
+
+  /* Inicializa curses */
+  initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_CYAN, COLOR_BLACK);
+
+  /* Cria itens */
+  n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i){
+    my_items[i] = new_item(choices[i], choices[i]);
+  }
+
+  /* Menu da caixa */
+  my_menu = new_menu((ITEM **)my_items);
+
+  /* Define opção de menu para não mostrar a descrição */
+  menu_opts_off(my_menu, O_SHOWDESC);
+
+  /* Cria a janela a ser associada ao menu */
+  my_menu_win = newwin(10, 70, 4, 4);
+  keypad(my_menu_win, TRUE);
+
+  /* Define a janela principal e a subjanela */
+  set_menu_win(my_menu, my_menu_win);
+  set_menu_sub(my_menu, derwin(my_menu_win, 6, 68, 3, 1));
+  set_menu_format(my_menu, 5, 3);
+  set_menu_mark(my_menu, " * ");
+
+  /* Imprime uma borda ao redor da janela principal e imprime um título */
+  box(my_menu_win, 0, 0);
+
+  attron(COLOR_PAIR(2));
+  mvprintw (LINHAS - 3, 0, "Usa PageUp e PageDown para rolar");
+  mvprintw(LINES - 2, 0, "Use Arrow Keys to navigate (F1 to Exit)");
+  attroff(COLOR_PAIR(2));
+  refresh();
+
+  /* Posta o menu */
+  post_menu(my_menu);
+  wrefresh(my_menu_win);
+
+  while((c = wgetch(my_menu_win)) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+      case KEY_LEFT:
+        menu_driver(my_menu, REQ_LEFT_ITEM);
+        break;
+      case KEY_RIGHT:
+        menu_driver(my_menu, REQ_RIGHT_ITEM);
+        break;
+      case KEY_NPAGE:
+        menu_driver(my_menu, REQ_SCR_DPAGE);
+        break;
+      case KEY_PPAGE:
+        menu_driver(my_menu, REQ_SCR_UPAGE);
+        break;
+    }
+    wrefresh(my_menu_win);
+  }       
+
+  /* Desmarca e libera toda a memória ocupada */
+  unpost_menu(my_menu);
+  free_menu(my_menu);
+  for(i = 0; i < n_choices; ++i){
+    free_item(my_items[i]);
+  }
+
+  endwin();
+}
+```
+
+Observe a chamada de função para `set_menu_format()`. Ela especifica o número de colunas como 3, exibindo, portanto, 3 itens por linha. Também desativamos as descrições de exibição com a função `menu_opts_off()`.
+
+Existem algumas funções `set_menu_opts()`, `menu_opts_on()` e `menu_opts()` que podem ser usadas para manipular as opções do menu. As seguintes opções de menu podem ser especificadas.
++ `O_ONEVALUE` Apenas um item pode ser selecionado para este menu.
++ `O_SHOWDESC` Exibeasdescriçõesdos itensquandoomenué postado.
++ `O_ROWMAJOR` Exibe o menu em ordem de linha principal.
++ `O_IGNORECASE` Ignora o caso ao fazer a correspondência de padrões.
++ `O_SHOWMATCH` Move o cursor para dentro do itemnomeenquantofaz a correspondência de padrões
++ `O_NONCYCLIC` Não envolve em tornodo próximo itemedo item anterior, pedidos para a outra extremidade do menu.
+
+Todas as opções estão ativadas por padrão. Você pode ativar ou desativar atributos específicos com as funções `menu_opts_on()` e `menu_opts_off()`. Você também pode usar set_menu_opts() para especificar as opções diretamente.
+
+O argumento para esta função deve ser um valor OR ed de algumas das constantes acima. A função `menu_opts()` pode ser usada para descobrir as opções presentes de um menu.
+
+## 15.7. Menus de vários valores
+Você pode estar se perguntando o que aconteceria se desativar a opção `O_ONEVALUE`. Então, o menu passa a ter vários valores. Isso significa que você pode selecionar mais de um item. Isso nos leva à solicitação `REQ_TOGGLE_ITEM`. Vamos vê-la em ação.
+
+*Exemplo 22. Exemplo de menus com vários valores*
+
+```cpp
+#include <curses.h>
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+  "Escolha 1",
+  "Escolha 2",
+  "Escolha 3",
+  "Escolha 4",
+  "Escolha 5",
+  "Escolha 6",
+  "Escolha 7",
+  "Sair",
+};
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  int n_choices, i;
+  ITEM *cur_item;
+
+  /* Inicializa curses */
+  initscr();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  /* Inicializa os itens */
+  n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i){
+    my_items[i] = new_item(choices[i], choices[i]);
+  }
+
+  my_items[n_choices] = (ITEM *)NULL;
+
+  my_menu = new_menu((ITEM **)my_items);
+
+  /* Torna o menu com vários valores */
+  menu_opts_off(my_menu, O_ONEVALUE);
+
+  mvprintw(LINES - 3, 0, "Use <SPACE> to select or unselect an item.");
+  mvprintw(LINES - 2, 0, "<ENTER> to see presently selected items(F1 to Exit)");
+  post_menu(my_menu);
+  refresh();
+
+  while((c = getch()) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+      case ' ':
+        menu_driver(my_menu, REQ_TOGGLE_ITEM);
+        break;
+      case 10:        /* Enter */
+        {       char temp[200];
+          ITEM **items;
+
+          items = menu_items(my_menu);
+          temp[0] = '\0';
+          for(i = 0; i < item_count(my_menu); ++i){
+            if(item_value(items[i]) == TRUE){
+              strcat(temp, item_name(items[i]));
+              strcat(temp, " ");
+            }
+          }
+
+          move(20, 0);
+          clrtoeol();
+          mvprintw(20, 0, temp);
+          refresh();
+        }
+        break;
+    }
+  }       
+
+  free_item(my_items[0]);
+  free_item(my_items[1]);
+  free_menu(my_menu);
+  endwin();
+}
+```
+ 
+Ufa, muitas funções novas. Vamos examiná-las uma a uma. Em primeiro lugar, o `REQ_TOGGLE_ITEM`. Em um menu com vários valores, o usuário deve ter permissão para selecionar ou desmarcar mais de um item.
+
+A solicitação `REQ_TOGGLE_ITEM` alterna a seleção atual. Nesse caso, quando o espaço é pressionado, a solicitação `REQ_TOGGLE_ITEM` é enviada para `menu_driver` para obter o resultado.
+
+Agora, quando o usuário pressionar `<ENTER>`, mostramos os itens que ele selecionou atualmente. Primeiro, descobrimos os itens associados ao menu usando a função `menu_items()`. Em seguida, percorremos os itens para descobrir se o item está selecionado ou não.
+
+A função `item_value()` retorna `TRUE` se um item for selecionado. A função `item_count()` retorna o número de itens no menu. O nome do item pode ser encontrado com `item_name()`. Você também pode encontrar a descrição associada a um item usando `item_description()`.
+
+## 15.8. Opções do menu
+Bem, a esta altura você deve estar ansioso por alguma diferença em seu menu, com muitas funcionalidades. Eu sei. Você quer cores!!!. Você deseja criar menus legais semelhantes aos do modo de texto dos jogos do dos .
+
+As funções `set_menu_fore()` e `set_menu_back()` podem ser usadas para alterar o atributo do item selecionado e do item não selecionado. Os nomes são enganosos. Eles não mudam o primeiro plano ou o fundo do menu, o que seria inútil.
+
+A função `set_menu_grey()` pode ser usada para definir o atributo display para os itens não selecionáveis no menu. Isso nos leva à opção interessante para um item, o primeiro e único: `O_SELECTABLE`.
+
+Podemos desligá-lo pela função `item_opts_off()` e depois disso esse item não é selecionável. É como um item acinzentado nos menus sofisticados do Windows. Vamos colocar esses conceitos em prática com este exemplo.
+
+*Exemplo 23. Exemplo de opções de menu*
+
+```cpp
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+  "Escolha 1",
+  "Escolha 2",
+  "Escolha 3",
+  "Escolha 4",
+  "Escolha 5",
+  "Escolha 6",
+  "Escolha 7",
+  "Sair",
+};
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  int n_choices, i;
+  ITEM *cur_item;
+
+  /* Inicializa curses */
+  initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_GREEN, COLOR_BLACK);
+  init_pair(3, COLOR_MAGENTA, COLOR_BLACK);
+
+  /* Inicializa os itens */
+  n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i){
+    my_items[i] = new_item(choices[i], choices[i]);
+  }
+
+  my_items[n_choices] = (ITEM *)NULL;
+  item_opts_off(my_items[3], O_SELECTABLE);
+  item_opts_off(my_items[6], O_SELECTABLE);
+
+  /* Cria o menu */
+  my_menu = new_menu((ITEM **)my_items);
+
+  /* Define primeiro e segundo plano do menu */
+  set_menu_fore(my_menu, COLOR_PAIR(1) | A_REVERSE);
+  set_menu_back(my_menu, COLOR_PAIR(2));
+  set_menu_grey(my_menu, COLOR_PAIR(3));
+
+  /* Posta o menu */
+  mvprintw (LINHAS - 3, 0, "Pressione <ENTER> para ver a opção selecionada ");
+  mvprintw (LINHAS - 2, 0, "Teclas de seta para cima e para baixo para navegar (F1 para sair)");
+  post_menu(my_menu);
+  refresh();
+
+  while((c = getch()) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+      case 10: /* Enter */
+        move(20, 0);
+        clrtoeol();
+        mvprintw(20, 0, "Item selected is : %s", 
+            item_name(current_item(my_menu)));
+        pos_menu_cursor(my_menu);
+        break;
+    }
+  }       
+  unpost_menu(my_menu);
+  for(i = 0; i < n_choices; ++i){
+    free_item(my_items[i]);
+  }
+
+  free_menu(my_menu);
+  endwin();
+}
+``` 
+
+## 15.9. O útil ponteiro do usuário
+Podemos associar um ponteiro do usuário a cada item do menu. Funciona da mesma forma que o ponteiro do usuário nos painéis. Não é tocado pelo sistema de menu. Você pode armazenar qualquer coisa que quiser nele.
+
+Eu costumo usá-lo para armazenar a função a ser executada quando a opção do menu é escolhida (está selecionada e pode ser o usuário pressionado `<ENTER>` 😃 .
+
+*Exemplo 24. Uso do ponteiro do usuário do menu*
+
+```cpp
+#include <curses.h>
+#include <menu.h>
+
+#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+#define CTRLD   4
+
+char *choices[] = {
+    "Escolha 1",
+    "Escolha 2",
+    "Escolha 3",
+    "Escolha 4",
+    "Escolha 5",
+    "Escolha 6",
+    "Escolha 7",
+    "Sair",
+};
+
+void func(char *name);
+
+int main(){
+  ITEM **my_items;
+  int c;                          
+  MENU *my_menu;
+  int n_choices, i;
+  ITEM *cur_item;
+
+  /* Inicializa curses */
+  initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+  init_pair(1, COLOR_RED, COLOR_BLACK);
+  init_pair(2, COLOR_GREEN, COLOR_BLACK);
+  init_pair(3, COLOR_MAGENTA, COLOR_BLACK);
+
+  /* Inicializa os itens */
+  n_choices = ARRAY_SIZE(choices);
+  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
+  for(i = 0; i < n_choices; ++i){
+    my_items[i] = new_item(choices[i], choices[i]);
+    /* Define o ponteiro do usuário */
+    set_item_userptr(my_items[i], func);
+  }
+
+  my_items[n_choices] = (ITEM *)NULL;
+
+  /* Cria o menu */
+  my_menu = new_menu((ITEM **)my_items);
+
+  /* Posta o menu */
+  mvprintw (LINHAS - 3, 0, "Pressione <ENTER> para ver a opção selecionada ");
+  mvprintw (LINHAS - 2, 0, "Teclas de seta para cima e para baixo para navegar (F1 para sair)");
+  post_menu(my_menu);
+  refresh();
+
+  while((c = getch()) != KEY_F(1)){
+    switch(c){
+      case KEY_DOWN:
+        menu_driver(my_menu, REQ_DOWN_ITEM);
+        break;
+      case KEY_UP:
+        menu_driver(my_menu, REQ_UP_ITEM);
+        break;
+      case 10: /* Enter */
+        {       ITEM *cur;
+          void (*p)(char *);
+
+          cur = current_item(my_menu);
+          p = item_userptr(cur);
+          p((char *)item_name(cur));
+          pos_menu_cursor(my_menu);
+          break;
+        }
+        break;
+    }
+  }
+
+  unpost_menu(my_menu);
+  for(i = 0; i < n_choices; ++i){
+    free_item(my_items[i]);
+  }
+
+  free_menu(my_menu);
+  endwin();
+}
+
+void func(char *name){
+  move(20, 0);
+  clrtoeol();
+  mvprintw (20, 0, "O item selecionado é:% s", nome);
+}       
+```
+
+---
 
 
 
@@ -1800,28 +3302,9 @@ data-ad-slot="5351066970"></ins>
 ---
 # Essa página ainda está incompleta, demais ainda serão adicionados a partir [daqui]().
 ## TÓPICOS QUE AINDA FALTAM
+
 ```txt
-15. Biblioteca do painel
-    15.1. O básico
-    15.2. Compilando com a biblioteca de painéis
-    15.3. Navegação na janela do painel
-    15.4. Usando ponteiros do usuário
-    15.5. Movendo e redimensionando painéis
-    15.6. Escondendo e mostrando painéis
-    15.7. Funções `panel_above()` e `panel_below()`
-
-16. Biblioteca de Menus
-    16.1. O básico
-    16.2. Compilando com a Biblioteca do Menu
-    16.3. Menu Driver: O cavalo de trabalho do sistema de menu
-    16.4. Janelas de menu
-    16.5. Menus de rolagem
-    16.6. Menus multi-colunas
-    16.7. Menus de vários valores
-    16.8. Opções do menu
-    16.8. O útil ponteiro do usuário
-
-17. Biblioteca de formulários
+16. Biblioteca de formulários
     17.1. O básico
     17.2. Compilando com a Biblioteca de Formulários
     17.3. Brincando com Campos
@@ -1829,20 +3312,21 @@ data-ad-slot="5351066970"></ins>
     17.5. Validação de Campo
     17.6. Driver de formulário: O cavalo de trabalho do sistema de formulários
 
-18. Ferramentas e bibliotecas de widgets
+17. Ferramentas e bibliotecas de widgets
     18.1. CDK (kit de desenvolvimento de ncurses)
     18.2. O diálogo
     18.3. Módulos Perl Curses `CURSES::FORM` e `CURSES::WIDGETS`
 
-19. Just For Fun !!!
+18. Just For Fun !!!
     20.1. O jogo da vida
     20.2. Quadrado mágico
     20.3. Torres de Hanói
     20.4. Queens Puzzle
     20.5. Shuffle
     20.6. Tutor de Digitação
-20. Referências
+19. Referências
 ```
+
 ---
 
 
