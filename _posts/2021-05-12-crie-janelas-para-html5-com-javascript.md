@@ -32,7 +32,7 @@ npm install winbox
 Importando o módulo via CDN:
 {% highlight html %}
 <script type="module">
-  import WinBox from "./src/js/winbox.js";
+  import WinBox from "https://unpkg.com/winbox@0.1.8/src/js/winbox.js";
 </script>
 {% endhighlight %}
 
