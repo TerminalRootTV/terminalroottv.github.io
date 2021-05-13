@@ -46,7 +46,7 @@ sudo apt install libncurses5 libncurses5-dev
 
 Então criar seu binário:
 {% highlight bash %}
-g++ racha-cuca.cpp -o racha-cuca
+g++ racha-cuca.cpp -o racha-cuca -lncurses -ltinfo
 {% endhighlight %}
 
 Ao executá-lo você precisará informar o número de "casas", pois ele vai além de 15 pastilhas. É possível começar com 3,4,5,6... e assim por diante!
