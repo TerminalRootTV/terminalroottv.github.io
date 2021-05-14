@@ -10,7 +10,7 @@ tags:
 - cppdaily
 ---
 
-![5 Dicas rápidas para C++](/assets/img/cpp/cpp-five-tips.jpgpp
+![5 Dicas rápidas para C++](/assets/img/cpp/cpp-five-tips.jpg)
 
 No [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje vamos falar de assuntos corriqueiros que nos tomam tempo pesquisando na internet e muitas vezes encontramos soluções não tão boas para o que desejamos!
 
