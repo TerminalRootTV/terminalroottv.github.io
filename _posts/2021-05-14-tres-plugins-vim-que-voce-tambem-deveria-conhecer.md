@@ -97,7 +97,7 @@ Acesse o GitHub do Minimap para mais detalhes: <https://github.com/severin-lemai
 
 Se quiser saber como instalar e customizar seus plugin sugiro o nosso [Curso de Vim Moderno e Vimscript](https://terminalroot.com.br/vim) com diversas dicas excelentes e se quiser um conteúdo mais específico, sugiro o vídeo abaixo:
 
-<iframe width="910" height="390" src="https://www.youtube.com/embed/W8bFxnpJjF3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="910" height="390" src="https://www.youtube.com/embed/W8bFxnpJjF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 # Valeu!
 
