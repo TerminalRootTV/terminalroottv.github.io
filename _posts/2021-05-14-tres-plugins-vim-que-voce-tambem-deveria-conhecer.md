@@ -36,7 +36,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # 01. Exibir cores no Vim
-Uma das coisas que as pessoas sentem falta no Vim que utilizam em [outros editores]() é o fato de digitar o código hexadecimal de uma cor e já mostrar qual a cor.
+Uma das coisas que as pessoas sentem falta no Vim que utilizam em [outros editores](https://terminalroot.com.br/tags#editores) é o fato de digitar o código hexadecimal de uma cor e já mostrar qual a cor.
 
 E para isso existe o [Coloresque](https://github.com/ObserverOfTime/coloresque.vim) .
 
