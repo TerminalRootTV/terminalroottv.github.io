@@ -106,7 +106,7 @@ int main() {
 ---
 
 # 05. Removendo espaços em branco de uma string
-A gente sabe quem muitas [linguagens de programação]() possuem as funções `ltrim()`(remove espaços em branco da esquerda/início), `rtrim()`(remove espaços em branco da direita/fim) e `trim()`(remove espaços em branco da esquerda/início e da direita/fim) .
+A gente sabe quem muitas [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) possuem as funções `ltrim()`(remove espaços em branco da esquerda/início), `rtrim()`(remove espaços em branco da direita/fim) e `trim()`(remove espaços em branco da esquerda/início e da direita/fim) .
 
 <!-- RETANGULO LARGO 2 -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
