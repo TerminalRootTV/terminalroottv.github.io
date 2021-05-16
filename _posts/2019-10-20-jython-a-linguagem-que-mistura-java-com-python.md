@@ -16,9 +16,7 @@ tags:
 
 Essa linguagem une duas boas ferramentas numa só. 🐍
 
-# Assista ao Vídeo
 
-<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx3Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introdução
 
@@ -149,6 +147,10 @@ data-ad-slot="5351066970"></ins>
 
 Eu particularmente curti o Jython 🙌️ e vou me aprofundar mais sobre ele e provavelmente haverá mais tutoriais aqui sobre o mesmo. E você ?! Curtiu ?! Conte-nos usando o campo de comentários .
 Abraços!
+
+# Assista ao Vídeo
+
+<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx3Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Links úteis
 
