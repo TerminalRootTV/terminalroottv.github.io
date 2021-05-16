@@ -16,6 +16,10 @@ tags:
 
 Essa linguagem une duas boas ferramentas numa só. 🐍
 
+# Assista ao Vídeo
+
+<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx3Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introdução
 
 [Jython](https://www.jython.org/) é uma implementação da linguagem [Python](https://terminalroot.com.br/2019/10/script-basico-de-python-para-aprendizado.html) que gera bytecode para máquinas Java (JVM - Java Virtual Machine). Com ela é possível fazer o desenvolvimento de aplicações híbridas que unem código em Java e Python. 
