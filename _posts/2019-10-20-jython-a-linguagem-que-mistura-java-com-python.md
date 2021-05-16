@@ -2,7 +2,7 @@
 layout: post
 title: "Jython - A linguagem que mistura Java com Python"
 date: 2019-10-20 12:37:39
-image: '/assets/img/python/jython.jpg'
+image: '/assets/img/dev/jython/jython.jpg'
 description: 'Essa linguagem une duas boas ferramentas numa só. 🐍'
 tags:
 - jython
@@ -15,8 +15,6 @@ tags:
 ![Jython - A linguagem que mistura Java com Python](/assets/img/dev/jython/jython.jpg)
 
 Essa linguagem une duas boas ferramentas numa só. 🐍
-
-
 
 ## Introdução
 
@@ -147,10 +145,6 @@ data-ad-slot="5351066970"></ins>
 
 Eu particularmente curti o Jython 🙌️ e vou me aprofundar mais sobre ele e provavelmente haverá mais tutoriais aqui sobre o mesmo. E você ?! Curtiu ?! Conte-nos usando o campo de comentários .
 Abraços!
-
-# Assista ao Vídeo
-
-<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx3Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Links úteis
 
