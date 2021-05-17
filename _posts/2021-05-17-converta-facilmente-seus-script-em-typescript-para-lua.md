@@ -29,6 +29,17 @@ Os tipos estáticos podem aliviar a carga mental de escrever programas, rastrean
 
 Os tipos permitem que os desenvolvedores Lua usem ferramentas e práticas de desenvolvimento altamente produtivas, como verificação estática e refatoração de código ao desenvolver aplicativos Lua. As extensões TypeScript estão disponíveis para muitos editores de texto.
 
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 # Como funciona?
 Primeiramente você precisa possuir o [Node.js](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html) e o [NPM](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html) instalados no seu sistema. Depois basta usar o `npm` para instalar o TypeScriptToLua:
 {% highlight bash %}
@@ -101,6 +112,18 @@ do
     end
 end
 {% endhighlight %}
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Agora basta rodar com Lua e ver a mesma saída:
 {% highlight bash %}
