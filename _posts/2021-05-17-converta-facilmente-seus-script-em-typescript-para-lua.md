@@ -11,11 +11,7 @@ tags:
 - lua
 ---
 
-<style>
-img { border; none; }
-</style>
-
-![Converta facilmente seus script em TypeScript para Lua](/assets/img/dev/typescript2lua.png)
+<img src="/assets/img/dev/typescript2lua.png" alt="Converta facilmente seus script em TypeScript para Lua" title="Converta facilmente seus script em TypeScript para Lua" style="border: none;">
 
 Esse é o sonho de muitos programadores, teruma ferramenta que traduz uma [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) em outra!
 
