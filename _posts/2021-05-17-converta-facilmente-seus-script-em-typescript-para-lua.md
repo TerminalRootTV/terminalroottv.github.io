@@ -13,7 +13,7 @@ tags:
 
 <img src="/assets/img/dev/typescript2lua.png" alt="Converta facilmente seus script em TypeScript para Lua" title="Converta facilmente seus script em TypeScript para Lua" style="border: none;">
 
-Esse é o sonho de muitos programadores, teruma ferramenta que traduz uma [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) em outra!
+Esse é o sonho de muitos programadores, ter uma ferramenta que traduz uma [linguagens de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) em outra!
 
 Logo de início vou logo dizendo que nem tudo são flores, inclusive há uma análise no final.
 
