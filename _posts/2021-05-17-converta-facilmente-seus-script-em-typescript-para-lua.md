@@ -3,7 +3,7 @@ layout: post
 title: "Converta facilmente seus script em TypeScript para Lua"
 date: 2021-05-17 11:21:36
 image: '/assets/img/dev/typescript2lua.png'
-description: ''Este projeto é útil em qualquer ambiente onde o código Lua é aceito, com a opção de simplesmente declarar qualquer API existente usando arquivos TypeScript.
+description: 'Este projeto é útil em qualquer ambiente onde o código Lua é aceito, com a opção de simplesmente declarar qualquer API existente usando arquivos TypeScript.'
 icon: 'ion:terminal-sharp'
 iconname: 'TypeScript/Lua'
 tags:
