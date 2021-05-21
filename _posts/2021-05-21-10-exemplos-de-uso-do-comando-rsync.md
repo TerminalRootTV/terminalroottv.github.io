@@ -10,6 +10,10 @@ tags:
 - comandos
 ---
 
+<style>
+.artigo img { border:none; }
+</style>
+
 ![10 exemplos de uso do comando rsync](/assets/img/comandos/rsync.png)
 
 [rsync](https://rsync.samba.org/) é um utilitário amplamente usado para manter cópias de um arquivo em dois sistemas de computadores ao mesmo tempo.
