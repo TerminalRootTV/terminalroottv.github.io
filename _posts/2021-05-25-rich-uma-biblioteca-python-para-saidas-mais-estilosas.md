@@ -61,7 +61,7 @@ Rode: `python hello.py`, saída:
 
 ![Rich 2](/assets/img/python/hello-rich.png)
 
-É possível até usar tags [HTML](https://terminalroot.com.br/2020/01/desenvolvimento-web.html), exemplo:
+É possível até usar tags estilo [HTML](https://terminalroot.com.br/2020/01/desenvolvimento-web.html), mas com colchetes, exemplo:
 {% highlight python %}
 from rich.console import Console
 
