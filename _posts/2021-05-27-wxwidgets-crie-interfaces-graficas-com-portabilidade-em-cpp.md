@@ -150,7 +150,7 @@ Pra compilar, rode o comando:
 g++ wx.cpp $(wx-config --cxxflags --libs)
 {% endhighlight %}
 
-E aparecerá:
+Após rodar: `./a.out` aparecerá:
 > Nesse exemplo, cliquei em **File** > **Hello** e apareceu o *messageBox*
 
 ![wxWidgets Running](/assets/img/gui/wxwidgets-example.jpg)
