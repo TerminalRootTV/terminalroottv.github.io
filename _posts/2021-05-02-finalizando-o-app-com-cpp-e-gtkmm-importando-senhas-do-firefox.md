@@ -9,6 +9,7 @@ iconname: 'gtkmm'
 tags:
 - gtkmm
 - cpp
+- gui
 ---
 
 ![Finalizando o App com C++ e Gtkmm (Importando senhas do Firefox)](/assets/img/gtkmm/import-pass-fox.jpg)

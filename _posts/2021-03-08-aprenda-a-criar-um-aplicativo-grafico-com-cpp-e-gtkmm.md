@@ -11,6 +11,7 @@ tags:
 - gnome
 - gtkmm
 - firefox
+- gui
 ---
 
 ![Aprenda a Criar um Aplicativo Gráfico com C++ e GTKmm #01](/assets/img/gtkmm/gtkmm-cpp.jpg)
