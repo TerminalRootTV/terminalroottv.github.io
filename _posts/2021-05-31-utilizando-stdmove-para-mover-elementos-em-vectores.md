@@ -53,8 +53,19 @@ for (size_t i = 0; i < v1.size(); ++i) {
 }
 
 for (size_t i = 0; i < v1.size(); ++i) {
-  std::cout << v1[i].x << ',' << v1[i].y << ' '; 
+ std::cout << v1[i].x << ',' << v1[i].y << ' '; 
 }
+std::cout << '\n';
+
+for (size_t i = 0; i < v2.size(); ++i) {
+ std::cout << v2[i].x << ',' << v2[i].y << ' '; 
+}
+std::cout << '\n';
+
+for (size_t i = 0; i < v3.size(); ++i) {
+ std::cout << v3[i].x << ',' << v3[i].y << ' '; 
+}
+std::cout << '\n';
 {% endhighlight %}
 
 A saída será:
