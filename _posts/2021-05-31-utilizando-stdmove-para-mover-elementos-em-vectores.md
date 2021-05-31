@@ -66,7 +66,7 @@ A saída será:
 
 Agora vamos supor que um jogador venceu marcando a diagonal da esquerda para a direita.
 
-Utilizando `std::move` para a gente mover o `0,0` para o `1,1` e para o `2,3` usaríamos esse código:
+Utilizando `std::move` para a gente mover o `0,0` para o `1,1` e para o `2,2` usaríamos esse código:
 {% highlight cpp %}
 std::move(v1.begin(), v1.begin() + 1, v2.begin() + 1); // move 0,0 para 1,1
 std::move(v1.begin(), v1.begin() + 1, v3.begin() + 2); // move 0,0 para 2,2
