@@ -22,7 +22,7 @@ Em particular, `std::move` produz uma expressão *xvalue* que identifica seu arg
 Sua sintaxe é: `std::move(first,last,result)`.
 
 # Exemplos de uso
-Vamos supor que estamos criando um [jogo da velha]() e possuímos um `namespace` com a seguinte `struct` que armazena as coordenadas do nosso [game](https://terminalroot.com.br/tags#games):
+Vamos supor que estamos criando um [jogo da velha](https://pt.wikipedia.org/wiki/Jogo_da_velha) e possuímos um `namespace` com a seguinte `struct` que armazena as coordenadas do nosso [game](https://terminalroot.com.br/tags#games):
 {% highlight cpp %}
 namespace terroo {
   struct Coordenadas {
