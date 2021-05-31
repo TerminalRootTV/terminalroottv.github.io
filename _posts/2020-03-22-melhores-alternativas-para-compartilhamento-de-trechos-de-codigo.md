@@ -2,7 +2,7 @@
 layout: post
 title: "10 Melhores Alternativas para Compartilhamento de Trechos de Código"
 date: 2020-03-22 16:09:34
-image: '/assets/img/code/instacode.png'
+image: '/assets/img/code/carbon.png'
 description: 'Simples e muito necessário! ♨️'
 icon: 'fa-regular:file-code'
 iconname: 'desenvolvimento'
@@ -12,7 +12,8 @@ tags:
 - dicas
 ---
 
-![10 Melhores Alternativas para Compartilhamento de Trechos de Código](/assets/img/code/instacode.png)
+![10 Melhores Alternativas para Compartilhamento de Trechos de Código](/assets/img/code/carbon.png)
+
 Um utilitário simples, mas que ajuda muito para quem precisa disponibilizar constantemente trechos de código, eu por exemplo! 😀️ . Separei alguns pra vocês, vamos à lista!
 > Para alguns dos nossos exemplos de uso vamos utilizar o seguinte arquivo:
 
@@ -228,6 +229,12 @@ Esse é completo, não se trata somente de um code snippet e sim de um compartil
 {% highlight bash %}
 curl -F'file=@mycode.sh' http://0x0.st
 {% endhighlight %}
+
+# Bônus
+E como dica bônus, talvez a alternativa mais queridinha da galera é o [Carbon](https://carbon.now.sh/). Você pode escolher esquema de cores, cor de fundo e ainda salvar a imagem gerada em 3 resoluções diferentes, incluindo 4k.
+
+![Carbon](/assets/img/code/carbon.png)
+
 
 ---
 
