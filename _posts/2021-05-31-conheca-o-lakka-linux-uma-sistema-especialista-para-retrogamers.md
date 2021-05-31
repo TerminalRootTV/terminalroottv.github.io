@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o Lakka Linux - Uma Sistema especialista para RetroGamers"
 date: 2021-05-31 12:46:56
 image: '/assets/img/games/lakka.jpg'
-description:
+description: 'Para seu Raspberry, Amlogic e entre muitos outros.'
 icon: 'ion:terminal-sharp'
 iconname: 'Games'
 tags:
