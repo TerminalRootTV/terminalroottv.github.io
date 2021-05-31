@@ -22,7 +22,7 @@ Também é um projeto voltado para a comunidade. Programadores, designers e game
 # Instalação
 O Lakka pode ser instalado a partir do [Linux](https://terminalroot.com.br/linux), [Windows](https://terminalroot.com.br/tags#windows) ou [macOS](https://terminalroot.com.br/tags#macos).
 
-![Lakka para Sistemas](/assets/img/games/lakka-systems.)
+![Lakka para Sistemas](/assets/img/games/lakka-systems.png)
 
 Faça o download de acordo com o seu hardware(Raspberry, Generic, Amlogic,...)
 
