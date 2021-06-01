@@ -13,7 +13,7 @@ tags:
 
 ![Customize sua página com visual do Windows 98 com esse CSS](/assets/img/css/98css.jpg)
 
-Dia desse nós postamos esse [javascript](https://terminalroot.com.br/2021/05/crie-janelas-para-html5-com-javascript.html) que cria janelas para o documento [HTML4](https://terminalroot.com.br/2020/01/desenvolvimento-web.html).
+Dia desse nós postamos esse [javascript](https://terminalroot.com.br/2021/05/crie-janelas-para-html5-com-javascript.html) que cria janelas para o documento [HTML5](https://terminalroot.com.br/2020/01/desenvolvimento-web.html).
 
 Agora imagine unir ao **98.css** e fazer um [Windows 98](https://terminalroot.com.br/2020/05/utilize-online-o-windows-93-o-sistema-que-a-microsoft-nao-lancou.html) online ? Seria um bom exercício!
 
