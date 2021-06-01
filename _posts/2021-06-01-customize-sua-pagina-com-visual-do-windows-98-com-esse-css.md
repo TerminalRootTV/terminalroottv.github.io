@@ -52,7 +52,7 @@ Ou instalar via [npm](https://terminalroot.com.br/2019/11/como-instalar-nodejs-n
 npm install 98.css
 {% endhighlight %}
 
-Existem para implementá-la basta seguir [esses exemplo](https://jdan.github.io/98.css/). Mas se quiser um exemplo já prontinho, eu mesmo elaborei um e você pode copiar o código abaixo, salvar em um arquivo de qualquer nome, exemplo: `exemplo.css` e abrir com seu navegador.
+Para implementá-la basta seguir [esses exemplo](https://jdan.github.io/98.css/). Mas se quiser um exemplo já prontinho, eu mesmo elaborei um e você pode copiar o código abaixo, salvar em um arquivo de qualquer nome, exemplo: `exemplo.css` e abrir com seu navegador.
 > Código do `exemplo.html`
 
 Ahhh! Quase ia esquecendo...
