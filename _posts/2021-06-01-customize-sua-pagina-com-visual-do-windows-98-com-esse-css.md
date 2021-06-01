@@ -3,7 +3,7 @@ layout: post
 title: "Customize sua página com visual do Windows 98 com esse CSS"
 date: 2021-06-01 17:19:37
 image: '/assets/img/css/98css.jpg'
-description: 'Curta a nostalgia e criar um Windows 98 online!'
+description: 'Curta a nostalgia e crie um Windows 98 online!'
 icon: 'ion:terminal-sharp'
 iconname: 'Desenvolvimento Web'
 tags:
