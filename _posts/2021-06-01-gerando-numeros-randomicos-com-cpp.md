@@ -2,7 +2,7 @@
 layout: post
 title: "Gerando números randômicos com C++"
 date: 2021-06-01 18:23:11
-image: '/assets/img/'
+image: '/assets/img/cppdaily/cpp-daily-episode31.jpg'
 description: 'Existem formas mais complexas e mais simples.'
 icon: 'ion:terminal-sharp'
 iconname: 'cpp::daily'
@@ -10,7 +10,7 @@ tags:
 - cppdaily
 ---
 
-![Gerando números randômicos com C++](/assets/img/)
+![Gerando números randômicos com C++](/assets/img/cppdaily/cpp-daily-episode31.jpg)
 
 No [Curso de C++](https://terminalroot.com.br/cpp) nós utilizamos outras técnicas mais complexas, mas que funciona desde o **C++11**, no entanto, hoje nesse [cpp::daily](https://terminalroot.com.br/tags#cppdaily) vamos mostrar casos mais simples, mais específicos e mais atuais.
 
