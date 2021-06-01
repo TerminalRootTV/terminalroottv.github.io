@@ -93,7 +93,7 @@ Quando abrir no navegador, não esqueça de clicar em **Clique aqui para abrir u
          margin-right:800px;
          } 
          #bsod {
-         background: url('TerminalRoot/terminalroottv.github.io/assets/img/windows/bsod.jpg');
+         background: url('https://terminalroot.com.br/assets/img/windows/bsod.jpg');
          width: 400px;
          height: 222px;
          float: right;
