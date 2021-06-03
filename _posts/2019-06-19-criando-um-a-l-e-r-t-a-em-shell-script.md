@@ -31,12 +31,16 @@ done
 
 ## Veja o vídeo
 
-<div  class="text-center">
+<!--
+<div class="text-center">
     <video  controls>
       <source src="/assets/img/video/alerta.mp4" type="video/mp4">
       Seu navegador não suporta vídeos em HTML5.
     </video>
 </div>
+-->
+
+<iframe width="910" height="390" src="/assets/img/video/alerta.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
