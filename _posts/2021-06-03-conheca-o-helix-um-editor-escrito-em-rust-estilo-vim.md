@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o Helix, um editor escrito em Rust estilo Vim"
 date: 2021-06-03 12:20:34
-image: '/assets/img/'
+image: '/assets/img/rust/helix.jpg'
 description: 'Mais pra conta do Rust!'
 icon: 'ion:terminal-sharp'
 iconname: 'Rust'
