@@ -15,7 +15,7 @@ tags:
 
 Nesse [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje vamos mostrar uma forma mais moderna e profissional de fazer isso com [C++](https://terminalroot.com.br/cpp).
 
-Nós já fizemos isso em outras situações com: [C](https://terminalroot.com.br/2012/12/gerando-numeros-para-mega-sena-em.html) e também com [Shell Script](https://terminalroot.com.br/2015/01/gerando-numeros-para-mega-sena-com.html), mas além daqueles códigos estarem defasados, vamos atualizar isso com [C++](https://terminalroot.com.br/cpp), e se você jogar e ganhar, lembre-se de me dar pelo 1% do seu ganho! 😃 
+Nós já fizemos isso em outras situações com: [C](https://terminalroot.com.br/2012/12/gerando-numeros-para-mega-sena-em.html) e também com [Shell Script](https://terminalroot.com.br/2015/01/gerando-numeros-para-mega-sena-com.html), mas além daqueles códigos estarem defasados, vamos atualizar isso com [C++](https://terminalroot.com.br/cpp), e se você jogar e ganhar, lembre-se de me dar pelo menos 1% do seu ganho! 😃 
 
 O processo é bem simples quando usamos as ferramentas certas e elas são:
 + [std::sort](https://terminalroot.com.br/2021/04/std-swap-std-greater-std-sort.html)
