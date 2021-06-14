@@ -697,9 +697,6 @@ int main(int argc, char ** argv ){
   fclose(fp);
   return 0;
 }
-// Use example: 
-// wget -q https://git.io/file.md
-// ./a.out file.md
 ```
 
 Não se preocupe com toda a inicialização e outras parafernalhas. Concentre-se no loop `while`. Ele lê cada caractere no arquivo e procura o padrão `/*`. Depois de localizar o padrão, ele alterna o atributo **BOLD** com `attron()` . Quando obtemos o padrão `*/`, ele é desativado por `attroff()` .
@@ -821,16 +818,17 @@ int main(int argc, char *argv[]){
   int startx, starty, width, height;
   int ch;
 
-  initscr();			/* Inicia o modo curses 		*/
-  cbreak();				/* Buffer de linha desativado, passe 
-                                         * tudo para mim 		*/
-  keypad(stdscr, TRUE);		/* Eu preciso daquele F1 bacana 	*/
+  initscr();			/* Inicia o modo curses */
+  cbreak();		    	/* Buffer de linha desativado, passe tudo para mim  */
+  keypad(stdscr, TRUE);		/* Eu preciso daquele F1 bacana	*/
+  noecho();
+  curs_set( false );
 
   height = 3;
   width = 10;
-  starty = (LINES - height) / 2;	/* Calculando para um posicionamento central */
-  startx = (COLS - width) / 2;	/* da janela		*/
-  printw("Press F1 to exit");
+  starty = (LINES - height) / 2;  /* Calculando para um posicionamento central */
+  startx = (COLS - width) / 2;	  /* da janela */
+  printw("Pressione F1 para sair");
   refresh();
   my_win = create_newwin(height, width, starty, startx);
 
@@ -855,7 +853,7 @@ int main(int argc, char *argv[]){
     }
   }
 
-  endwin();			/* Termina o modo curses		  */
+  endwin();			/* Termina o modo curses */
   return 0;
 }
 
@@ -863,20 +861,19 @@ WINDOW *create_newwin(int height, int width, int starty, int startx){
   WINDOW *local_win;
 
   local_win = newwin(height, width, starty, startx);
-  box(local_win, 0 , 0);		/* 0, 0 dá caracteres padrão 
-                                         * para as linhas verticais and horizontais	*/
-  wrefresh(local_win);		/* Mostra aquela caixa 		*/
+  box(local_win, 0 , 0);		/* 0, 0 dá caracteres padrão para as linhas verticais and horizontais	*/
+  wrefresh(local_win);		/* Mostra aquela caixa 	*/
 
   return local_win;
 }
 
 void destroy_win(WINDOW *local_win){	
-  / * box (local_win, '', ''); : Isso não produzirá o resultado
+  /* box (local_win, '', ''); : Isso não produzirá o resultado
     *  desejado de apagar a janela. Vai deixar seus quatro cantos,
     * e uma lembrança feia da janela.
-      * /
-      wborder (local_win, '', '', '', '', '', '', '', '');
-  / * Os parâmetros usados são
+  */
+      wborder (local_win, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
+  /* Os parâmetros usados são
     * 1. win: a janela na qual operar
     * 2. ls: caractere a ser usado para o lado esquerdo da janela
     * 3. rs: caractere a ser usado para o lado direito da janela
@@ -886,9 +883,9 @@ void destroy_win(WINDOW *local_win){
     * 7. tr: caractere a ser usado no canto superior direito da janela
     * 8. bl: caractere a ser usado no canto inferior esquerdo da janela
     * 9. br: caractere a ser usado no canto inferior direito da janela
-    * /
+    */
     wrefresh(local_win);
-  delwin(local_win);
+    delwin(local_win);
 }
 ```
 
@@ -950,12 +947,12 @@ int main(int argc, char *argv[]){
   WIN win;
   int ch;
 
-  initscr();					/* Começa o modo curses 		*/
-  start_color();			/* Começa a funcionalidade das cores */
-  cbreak();						/* Buffer de linha desativado, passe 
-                                                         * tudo para mim * /
-                                                         keypad(stdscr, TRUE);		/* Preciso daquele F1 bacana 	*/
+  initscr();
+  start_color(); /* Começa a funcionalidade das cores */
+  cbreak();      /* Buffer de linha desativado, passe tudo para mim */
+  keypad(stdscr, TRUE);		/* Preciso daquele F1 bacana */
   noecho();
+  curs_set( false );
   init_pair(1, COLOR_CYAN, COLOR_BLACK);
 
   /* Inicializa os parâmetros da janela */
@@ -963,14 +960,14 @@ int main(int argc, char *argv[]){
   print_win_params(&win);
 
   attron(COLOR_PAIR(1));
-  printw("Press F1 to exit");
+  printw("Pressione F1 para sair");
   refresh();
   attroff(COLOR_PAIR(1));
 
   create_box(&win, TRUE);
-  while((ch = getch()) != KEY_F(1))
-  {	switch(ch)
-    {	case KEY_LEFT:
+  while( (ch = getch()) != KEY_F(1) ){
+    switch(ch){
+      case KEY_LEFT:
       create_box(&win, FALSE);
       --win.startx;
       create_box(&win, TRUE);
@@ -992,7 +989,7 @@ int main(int argc, char *argv[]){
       break;
     }
   }
-  endwin();			/* Termina o modo curses		  */
+  endwin();
   return 0;
 }
 
@@ -1062,20 +1059,22 @@ A vida parece monótona sem cores. Ncurses tem um bom mecanismo para lidar com c
 
 ```cpp
 #include <ncurses.h>
+#include <cstring>
 
 void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string);
-int main(int argc, char *argv[]){
-  initscr();                      /* Inicia o modo curses            */
+int main(int argc, char ** argv ){
+  initscr();
   if(has_colors() == FALSE){
     endwin();
-    printf("Your terminal does not support color\n");
-    exit(1);
+    printf("Seu terminal não suporta cores.\n");
+    return 1;
   }
-  start_color();                  /* Inicia as cores                  */
+  start_color(); // Inicia as cores
   init_pair(1, COLOR_RED, COLOR_BLACK);
 
+  char str[] = "Se liga nessa, mermão!";
   attron(COLOR_PAIR(1));
-  print_in_middle(stdscr, LINES / 2, 0, 0, "Viola !!! In color ...");
+  print_in_middle(stdscr, LINES / 2, 0, 0, str);
   attroff(COLOR_PAIR(1));
   getch();
   endwin();
@@ -1179,21 +1178,26 @@ Example 10. Um exemplo de uso simples de teclas
 ```cpp
 #include <iostream>
 #include <ncurses.h>
+#include <vector>
 
 #define WIDTH 30
-#define HEIGHT 10 
+#define HEIGHT 10
 
 int startx = 0;
 int starty = 0;
 
-char *choices[] = { 
-  "Choice 1",
-  "Choice 2",
-  "Choice 3",
-  "Choice 4",
-  "Exit",
-};
-int n_choices = sizeof(choices) / sizeof(char *);
+//char * choices[] = {
+//  "Escolha 1",
+//  "Escolha 2",
+//  "Escolha 3",
+//  "Escolha 4",
+//  "Sair"
+//};
+
+std::vector<std::string> choices = {"Uma", "Duas", "Três", "Quatro", "Sair"};
+
+//int n_choices = sizeof(choices) / sizeof(char *);
+int n_choices = choices.size();
 void print_menu(WINDOW *menu_win, int highlight);
 
 int main(){
@@ -1214,35 +1218,49 @@ int main(){
   mvprintw(0, 0, "Use as setas para subir e descer, pressione Enter para selecionar uma escolha");
   refresh();
   print_menu(menu_win, highlight);
-  while( 1 ){
+  while( true ){
     c = wgetch(menu_win);
     switch(c){
       case KEY_UP:
-        if(highlight == 1)
+        if(highlight == 1){
           highlight = n_choices;
-        else
+        }else{
           --highlight;
+        }
+
         break;
       case KEY_DOWN:
         if(highlight == n_choices)
           highlight = 1;
-        else 
+        else
           ++highlight;
         break;
       case 10:
         choice = highlight;
         break;
       default:
-        mvprintw(24, 0, "O caractere pressionado é =% 3d Com fé, será impresso como '%c'", c, c);
+        mvprintw(24, 0, "                                                                       ");
+        refresh();
+        mvprintw(24, 0, "O número do caractere que você digitou é = %3d e corresponde à: '%c'", c, c);
         refresh();
         break;
     }
+
     print_menu(menu_win, highlight);
-    if(choice != 0) /* O usuário fez uma escolha que saiu do loop infinito */
+
+    if( choice != 0 ){
+      mvprintw(23, 0, "                            ");
+      refresh();
+      mvprintw(23, 0, "Você escolheu o número: %d", choice);
+      refresh();
+    }
+
+    if(choice == 5){ /* O usuário fez uma escolha que saiu do loop infinito */
       break;
+    }
   }
 
-  mvprintw(23, 0, "Você escolheu a escolha %d com escolha de string %s\n", choice, choices[choice - 1]);
+
   clrtoeol();
   refresh();
   endwin();
@@ -1251,18 +1269,18 @@ int main(){
 
 
 void print_menu(WINDOW *menu_win, int highlight){
-  int x, y, i;    
+  int x, y, i;
 
   x = 2;
   y = 2;
   box(menu_win, 0, 0);
   for(i = 0; i < n_choices; ++i){
     if(highlight == i + 1){ /* Destaca a escolha atual */
-      wattron(menu_win, A_REVERSE); 
-      mvwprintw(menu_win, y, x, "%s", choices[i]);
+      wattron(menu_win, A_REVERSE);
+      mvwprintw(menu_win, y, x, "%s", &choices[i][0]);
       wattroff(menu_win, A_REVERSE);
     }else{
-      mvwprintw(menu_win, y, x, "%s", choices[i]);
+      mvwprintw(menu_win, y, x, "%s", &choices[i][0]);
     }
     ++y;
   }
