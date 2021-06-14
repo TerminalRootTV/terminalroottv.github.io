@@ -98,7 +98,7 @@ Download para Android: <https://bit.ly/35gxMcu>
 
 ---
 
-## 07. [Grand Stickman Auto V](https://grand-stickman-auto-v.br.uptodown.com/android)
+## 05. [Grand Stickman Auto V](https://grand-stickman-auto-v.br.uptodown.com/android)
 ![Grand Stickman Auto V](/assets/img/games/grand-stickman-auto-v.jpg)
 
 Grand Stickman Auto V oferece um mundo aberto grande, dinâmico e diversificado. O jogo tem tudo que você gosta. Este jogo é executado com uma atenção incrível aos detalhes e uma sátira cáustica ao mundo moderno.
@@ -120,7 +120,7 @@ Site do APB Reloaded: <https://www.gamersfirst.com/apb/>
 ---
 
 # Pagas e Código fechado
-## 05. [Cruze](https://v0lt.itch.io/cruze)
+## 07. [Cruze](https://v0lt.itch.io/cruze)
 ![Cruze](/assets/img/games/cruze.png)
 
 Cruze, um jogo onde você não tem um objetivo específico, apenas para fazer o que quiser! Você pode conseguir um emprego como entregador de cargas, construir computadores, se tornar um criminoso ou simplesmente dirigir por aí como um cidadão normal!
