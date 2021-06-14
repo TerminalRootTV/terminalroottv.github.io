@@ -164,7 +164,7 @@ Site do Sleeping Dogs: <https://square-enix-games.com/pt_BR/news/sleeping-dogs>
 
 ---
 
-## 10. Mafia <https://alternativeto.net/software/mafia-ii/about/>
+## 10. [Mafia]() 
 ![Mafia](/assets/img/games/mafia-ii.jpg)
 
 Mafia é uma série de videogames de ação e aventura desenvolvidos pela 2K Czech (anteriormente Illusion Softworks) com a terceira parcela do Hangar 13 e publicada pela 2K Games.
