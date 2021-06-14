@@ -164,7 +164,7 @@ Site do Sleeping Dogs: <https://square-enix-games.com/pt_BR/news/sleeping-dogs>
 
 ---
 
-## 10. [Mafia]() 
+## 10. [Mafia](https://mafiagame.com/pt-BR/) 
 ![Mafia](/assets/img/games/mafia-ii.jpg)
 
 Mafia é uma série de videogames de ação e aventura desenvolvidos pela 2K Czech (anteriormente Illusion Softworks) com a terceira parcela do Hangar 13 e publicada pela 2K Games.
@@ -174,6 +174,8 @@ Os jogos da série Mafia são ambientados em locais fictícios modelados a parti
 A jogabilidade se concentra em um ambiente de mundo aberto onde o jogador pode escolher missões para progredir em uma história geral, bem como se envolver em atividades paralelas, embora de uma maneira mais linear.
 
 O modo de jogo Freeride Extreme em The City of Lost Heaven e os pacotes de expansão para Mafia II, no entanto, permitem que os jogadores acionem missões do mundo aberto.
+
+Site do Mafia: <https://mafiagame.com/pt-BR/>
 
 ---
 
