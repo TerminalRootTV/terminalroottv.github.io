@@ -9,7 +9,7 @@ tags:
 - lpi
 ---
 
-![A Certificação LPI](/assets/img/cursos/lpi.jpg "A Certificação LPI")
+![A Certificação LPI](/assets/img/lpi/lpi.jpg "A Certificação LPI")
 
 # Linux Professional Institute - LPI
  
