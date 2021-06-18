@@ -1688,32 +1688,33 @@ Para usar as funções da biblioteca de painéis, você deve incluir `panel.h` e
 int main(){
   WINDOW *my_wins[3];
   PANEL  *my_panels[3];
-  int lines = 10, cols = 40, y = 2, x = 4, i;
+  int lines = 10, cols = 40, y = 2, x = 4;
 
   initscr();
   cbreak();
   noecho();
+  curs_set( false );
 
-  // Cria janelas para os painéis
+  // Cria janelas para os painéis 
   my_wins[0] = newwin(lines, cols, y, x);
   my_wins[1] = newwin(lines, cols, y + 1, x + 5);
   my_wins[2] = newwin(lines, cols, y + 2, x + 10);
 
   // Cria bordas ao redor das janelas para que você possa ver o efeito dos painéis
-  for(i = 0; i < 3; ++i){
+  for(int i = 0; i < 3; ++i){
     box(my_wins[i], 0, 0);
   }
 
   // Anexa um painel a cada janela
-  // A ordem é de baixo para cima
-  my_panels[0] = new_panel (my_wins[0]);   // Move 0, ordem: stdscr-0
-  my_panels[1] = new_panel (my_wins[1]);   // Move 1, ordem: stdscr-0-1
-  my_panels[2] = new_panel (my_wins[2]);   // Move 2, ordem: stdscr-0-1-2
+  // A ordem é de baixo para cima 
+  for (int i = 0; i < 3; ++i) {
+    my_panels[i] = new_panel (my_wins[i]);   // Move 0, ordem: stdscr-i-[i]-[i] 
+  }
 
-  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo
+  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo 
   update_panels();
 
-  // Mostra-o na tela
+  // Mostra-o na tela 
   doupdate();
 
   getch();
@@ -1731,6 +1732,7 @@ Um exemplo ligeiramente complicado é fornecido abaixo. Este programa cria 3 jan
 
 ```cpp
 #include <panel.h>
+#include <cstring>
 
 #define NLINES 10
 #define NCOLS 40
@@ -1745,37 +1747,37 @@ int main(){
   PANEL  *top;
   int ch;
 
-  / * Inicializa curses * /
-    initscr();
+  // Inicializa curses
+  initscr();
   start_color();
   cbreak();
   noecho();
   keypad(stdscr, TRUE);
 
-  / * Inicializa todas as cores * /
-    init_pair(1, COLOR_RED, COLOR_BLACK);
-  init_pair(2, COLOR_GREEN, COLOR_BLACK);
-  init_pair(3, COLOR_BLUE, COLOR_BLACK);
-  init_pair(4, COLOR_CYAN, COLOR_BLACK);
+  // Inicializa todas as cores
+  for (int i = 1; i <= 4; ++i) {
+    init_pair(i, COLOR_RED, COLOR_BLACK);
+  }
 
   init_wins(my_wins, 3);
 
-  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
-    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
-    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
-    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+  // Anexa um painel a cada janela
+  // A ordem é de baixo para cima
+  for (int i = 0; i <= 2; ++i) {
+    my_panels[i] = new_panel (my_wins[i]);   // Move 0, ordem: stdscr-0-[i]-[i]
+  }
 
-    / * Configura os ponteiros do usuário para o próximo painel * /
-    set_panel_userptr(my_panels[0], my_panels[1]);
-  set_panel_userptr(my_panels[1], my_panels[2]);
-  set_panel_userptr(my_panels[2], my_panels[0]);
+  // Configura os ponteiros do usuário para o próximo painel
+  for (size_t i = 0; i <= 2; ++i) {
+   i < 2 ? set_panel_userptr(my_panels[i], my_panels[i + 1]) : set_panel_userptr(my_panels[i], my_panels[i - 2]);
+  }
 
-  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
-    update_panels();
+  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo
+  update_panels();
 
-  / * Mostra-o na tela * /
-    attron(COLOR_PAIR(4));
-  mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+  // Mostra-o na tela
+  attron(COLOR_PAIR(4));
+  mvprintw (0, 0, "Use tab para navegar pelas janelas (F1 para sair)");
   attroff(COLOR_PAIR(4));
   doupdate();
 
@@ -1794,7 +1796,7 @@ int main(){
   return 0;
 }
 
-/ * Coloca todas as janelas * /
+// Coloca todas as janelas
 void init_wins(WINDOW **wins, int n){
   int x, y, i;
   char label[80];
@@ -1810,7 +1812,7 @@ void init_wins(WINDOW **wins, int n){
   }
 }
 
-/ * Mostra a janela com uma borda e um rótulo * /
+// Mostra a janela com uma borda e um rótulo
 void win_show(WINDOW *win, char *label, int label_color){
   int startx, starty, height, width;
 
@@ -1818,9 +1820,9 @@ void win_show(WINDOW *win, char *label, int label_color){
   getmaxyx(win, height, width);
 
   box(win, 0, 0);
-  mvwaddch(win, 2, 0, ACS_LTEE); 
-  mvwhline(win, 2, 1, ACS_HLINE, width - 2); 
-  mvwaddch(win, 2, width - 1, ACS_RTEE); 
+  mvwaddch(win, 2, 0, ACS_LTEE);
+  mvwhline(win, 2, 1, ACS_HLINE, width - 2);
+  mvwaddch(win, 2, width - 1, ACS_RTEE);
 
   print_in_middle(win, 1, 0, width, label, COLOR_PAIR(label_color));
 }
@@ -1879,6 +1881,8 @@ Depois, use as teclas de seta para redimensionar ou movê-la para a maneira dese
 
 ```cpp
 #include <panel.h>
+#include <cstring>
+#include <cstdlib>
 
 typedef struct _PANEL_DATA {
   int x, y, w, h;
@@ -1903,37 +1907,38 @@ int main(){
   WINDOW * temp_win, * old_win;
   int ch;
   int newx, newy, neww, newh;
-  int size = FALSE, move = FALSE;
+  int size = FALSE, ismove = FALSE;
 
-  / * Inicializa curses * /
-    initscr();
+  // Inicializa curses
+  initscr();
   start_color();
   cbreak();
   noecho();
   keypad(stdscr, TRUE);
 
-  / * Inicializa todas as cores * /
-    init_pair(1, COLOR_RED, COLOR_BLACK);
+  // Inicializa todas as cores
+  init_pair(1, COLOR_RED, COLOR_BLACK);
   init_pair(2, COLOR_GREEN, COLOR_BLACK);
   init_pair(3, COLOR_BLUE, COLOR_BLACK);
   init_pair(4, COLOR_CYAN, COLOR_BLACK);
 
   init_wins(my_wins, 3);
 
-  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
-    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
-    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
-    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+  // Anexa um painel a cada janela
+  // A ordem é de baixo para cima
+  my_panels[0] = new_panel (my_wins[0]);   // Move 0, ordem: stdscr-0
+  my_panels[1] = new_panel (my_wins[1]);   // Move 1, ordem: stdscr-0-1
+  my_panels[2] = new_panel (my_wins[2]);   // Move 2, ordem: stdscr-0-1-2
 
-    set_user_ptrs(my_panels, 3);
-  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
-    update_panels();
+  set_user_ptrs(my_panels, 3);
+  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo
+  update_panels();
 
-  / * Mostra-o na tela * /
-    attron(COLOR_PAIR(4));
-  mvprintw (LINHAS - 3, 0, "Use 'm' para mover, 'r' para redimensionar");
-  mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
-  attroff(COLOR_PAIR(4));
+  // Mostra-o na tela
+  //attron(COLOR_PAIR(4));
+  //mvprintw (NLINES - 3, 0, "Use 'm' para mover, 'r' para redimensionar");
+  //mvprintw (NLINES - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+  //attroff(COLOR_PAIR(4));
   doupdate();
 
   stack_top = my_panels[2];
@@ -1944,7 +1949,7 @@ int main(){
   newh = top->h;
   while((ch = getch()) != KEY_F(1)){
     switch(ch){
-      case 9:         /* Tab */
+      case 9:         // Tab 
         top = (PANEL_DATA *)panel_userptr(stack_top);
         top_panel(top->next);
         stack_top = top->next;
@@ -1954,26 +1959,26 @@ int main(){
         neww = top->w;
         newh = top->h;
         break;
-      case 'r':       /* Redimensionar*/
+      case 'r':       // Redimensionar
         size = TRUE;
-        attron(COLOR_PAIR(4));
-        mvprintw (LINES - 4, 0, "Redimensionamento inserido: Use as setas para redimensionar e pressione <ENTER> para encerrar o redimensionamento ");
+        //attron(COLOR_PAIR(4));
+        mvprintw (20, 0, "Redimensionamento inserido: Use as setas para redimensionar e pressione <ENTER> para encerrar o redimensionamento ");
         refresh();
-        attroff(COLOR_PAIR(4));
+        //attroff(COLOR_PAIR(4));
         break;
-      case 'm':       /* Move */
-        attron(COLOR_PAIR(4));
-        mvprintw (LINES - 4, 0, "Movimento inserido: Use as setas para mover e pressione <ENTER> para parar de se mover ");
+      case 'm':       // Move 
+        //attron(COLOR_PAIR(4));
+        mvprintw (21, 0, "Movimento inserido: Use as setas para mover e pressione <ENTER> para parar de se mover ");
         refresh();
-        attroff(COLOR_PAIR(4));
-        move = TRUE;
+        //attroff(COLOR_PAIR(4));
+        ismove = TRUE;
         break;
       case KEY_LEFT:
         if(size == TRUE){
           --newx;
           ++neww;
         }
-        if(move == TRUE)
+        if(ismove == TRUE)
           --newx;
         break;
       case KEY_RIGHT:
@@ -1981,7 +1986,7 @@ int main(){
           ++newx;
           --neww;
         }
-        if(move == TRUE){
+        if(ismove == TRUE){
           ++newx;
         }
         break;
@@ -1990,7 +1995,7 @@ int main(){
           --newy;
           ++newh;
         }
-        if(move == TRUE){
+        if(ismove == TRUE){
           --newy;
         }
         break;
@@ -1999,12 +2004,12 @@ int main(){
           ++newy;
           --newh;
         }
-        if(move == TRUE){
+        if(ismove == TRUE){
           ++newy;
         }
         break;
-      case 10:        /* Enter */
-        move(LINES - 4, 0);
+      case 10: // ENTER
+        //move(NLINES - 4, 0);
         clrtoeol();
         refresh();
         if(size == TRUE){
@@ -2015,17 +2020,17 @@ int main(){
           delwin(old_win);
           size = FALSE;
         }
-        if(move == TRUE){
+        if(ismove == TRUE){
           move_panel(stack_top, newy, newx);
-          move = FALSE;
+          ismove = FALSE;
         }
         break;
 
     }
-    attron(COLOR_PAIR(4));
-    mvprintw (LINHAS - 3, 0, "Use 'm' para mover, 'r' para redimensionar");
-    mvprintw (LINHAS - 2, 0, "Use tab para navegar pelas janelas (F1 para sair)");
-    attroff(COLOR_PAIR(4));
+    //attron(COLOR_PAIR(4));
+    mvprintw (22, 0, "Use 'm' para mover, 'r' para redimensionar");
+    mvprintw (23, 0, "Use tab para navegar pelas janelas (F1 para sair)");
+    //attroff(COLOR_PAIR(4));
     refresh();      
     update_panels();
     doupdate();
@@ -2034,7 +2039,7 @@ int main(){
   return 0;
 }
 
-/ * Coloca todas as janelas * /
+// Coloca todas as janelas
 void init_wins(WINDOW **wins, int n){
   int x, y, i;
   char label[80];
@@ -2043,14 +2048,14 @@ void init_wins(WINDOW **wins, int n){
   x = 10;
   for(i = 0; i < n; ++i){
     wins[i] = newwin(NLINES, NCOLS, y, x);
-    sprintf(label, "Window Number %d", i + 1);
+    sprintf(label, "Janela %d", i + 1);
     win_show(wins[i], label, i + 1);
     y += 3;
     x += 7;
   }
 }
 
-/ * Define as estruturas PANEL_DATA para painéis individuais * /
+// Define as estruturas PANEL_DATA para painéis individuais
 void set_user_ptrs(PANEL **panels, int n){
   PANEL_DATA *ptrs;
   WINDOW *win;
@@ -2067,7 +2072,7 @@ void set_user_ptrs(PANEL **panels, int n){
     ptrs[i].y = y;
     ptrs[i].w = w;
     ptrs[i].h = h;
-    sprintf(temp, "Window Number %d", i + 1);
+    sprintf(temp, "JANELA %d", i + 1);
     strcpy(ptrs[i].label, temp);
     ptrs[i].label_color = i + 1;
     if(i + 1 == n)
@@ -2078,7 +2083,7 @@ void set_user_ptrs(PANEL **panels, int n){
   }
 }
 
-/ * Mostra a janela com uma borda e um rótulo * /
+// Mostra a janela com uma borda e um rótulo
 void win_show(WINDOW *win, char *label, int label_color){
   int startx, starty, height, width;
 
@@ -2136,9 +2141,10 @@ O programa a seguir mostra a ocultação de painéis. Pressione 'a' ou 'b' ou 'c
 
 ```cpp
 #include <panel.h>
+#include <cstring>
 
 typedef struct _PANEL_DATA {
-  ocultar int;       / * TRUE se o painel estiver oculto * /
+  int hide;       // TRUE se o painel estiver oculto
 }PANEL_DATA;
 
 #define NLINES 10
@@ -2153,30 +2159,32 @@ int main(){
   PANEL  * my_panels[3];
   PANEL_DATA panel_datas[3];
   PANEL_DATA *temp;
-  int ch;
+  int ch, row, col;
 
-  / * Inicializa curses * /
-    initscr();
+  // Inicializa curses
+  initscr();
   start_color();
   cbreak();
   noecho();
   keypad(stdscr, TRUE);
+  getmaxyx( stdscr, row, col );
 
-  / * Inicializa todas as cores * /
-    init_pair(1, COLOR_RED, COLOR_BLACK);
+  // Inicializa todas as cores
+  init_pair(1, COLOR_RED, COLOR_BLACK);
   init_pair(2, COLOR_GREEN, COLOR_BLACK);
   init_pair(3, COLOR_BLUE, COLOR_BLACK);
   init_pair(4, COLOR_CYAN, COLOR_BLACK);
 
   init_wins(my_wins, 3);
 
-  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
-    my_panels [0] = new_panel (my_wins [0]);   / * Move 0, ordem: stdscr-0 * /
-    my_panels [1] = new_panel (my_wins [1]);   / * Move 1, ordem: stdscr-0-1 * /
-    my_panels [2] = new_panel (my_wins [2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+  // Anexa um painel a cada janela
+  // A ordem é de baixo para cima
+  my_panels [0] = new_panel (my_wins [0]);   // Move 0, ordem: stdscr-0
+  my_panels [1] = new_panel (my_wins [1]);   // Move 1, ordem: stdscr-0-1
+  my_panels [2] = new_panel (my_wins [2]);   // Move 2, ordem: stdscr-0-1-2
 
-    / * Inicializa dados do painel informando que nada está oculto * /
-    panel_datas[0].hide = FALSE;
+  // Inicializa dados do painel informando que nada está oculto
+  panel_datas[0].hide = FALSE;
   panel_datas[1].hide = FALSE;
   panel_datas[2].hide = FALSE;
 
@@ -2184,20 +2192,20 @@ int main(){
   set_panel_userptr(my_panels[1], &panel_datas[1]);
   set_panel_userptr(my_panels[2], &panel_datas[2]);
 
-  / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
-    update_panels();
+  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo
+  update_panels();
 
-  / * Mostra-o na tela * /
-    attron(COLOR_PAIR(4));
-  mvprintw (LINHAS - 3, 0, "Mostrar ou ocultar uma janela com 'a' (primeira janela)  'b' (segunda janela)  'c' (Terceira janela) ");
-  mvprintw(LINES - 2, 0, "F1 to Exit");
+  // Mostra-o na tela
+  attron(COLOR_PAIR(4));
+  mvprintw (row - 2, 0, "Mostrar ou ocultar uma janela com 'a' (primeira janela)  'b' (segunda janela)  'c' (Terceira janela) ");
+  mvprintw( row - 1, 0, "F1 to Exit");
 
   attroff(COLOR_PAIR(4));
   doupdate();
 
   while((ch = getch()) != KEY_F(1)){
     switch(ch){
-      case 'a':                       
+      case 'a':
         temp = (PANEL_DATA *)panel_userptr(my_panels[0]);
 
         if(temp->hide == FALSE){
@@ -2238,7 +2246,7 @@ int main(){
   return 0;
 }
 
-/ * Coloca todas as janelas * /
+// Coloca todas as janelas
 void init_wins(WINDOW **wins, int n){
   int x, y, i;
   char label[80];
@@ -2247,14 +2255,14 @@ void init_wins(WINDOW **wins, int n){
   x = 10;
   for(i = 0; i < n; ++i){
     wins[i] = newwin(NLINES, NCOLS, y, x);
-    sprintf(label, "Window Number %d", i + 1);
+    sprintf(label, "JANELA %d", i + 1);
     win_show(wins[i], label, i + 1);
     y += 3;
     x += 7;
   }
 }
 
-/ * Mostra a janela com uma borda e um rótulo * /
+// Mostra a janela com uma borda e um rótulo
 void win_show(WINDOW *win, char *label, int label_color){
   int startx, starty, height, width;
 
@@ -2262,9 +2270,9 @@ void win_show(WINDOW *win, char *label, int label_color){
   getmaxyx(win, height, width);
 
   box(win, 0, 0);
-  mvwaddch(win, 2, 0, ACS_LTEE); 
-  mvwhline(win, 2, 1, ACS_HLINE, width - 2); 
-  mvwaddch(win, 2, width - 1, ACS_RTEE); 
+  mvwaddch(win, 2, 0, ACS_LTEE);
+  mvwhline(win, 2, 1, ACS_HLINE, width - 2);
+  mvwaddch(win, 2, width - 1, ACS_RTEE);
 
   print_in_middle(win, 1, 0, width, label, COLOR_PAIR(label_color));
 }
@@ -2329,18 +2337,6 @@ Vamos ver um programa que imprime um menu simples e atualiza a seleção atual c
 ## 15.2. Compilando com a Biblioteca do Menu
 Para usar as funções da biblioteca de menus, você deve incluir menu.h e vincular o programa à biblioteca de menus, o sinalizador `-lmenu` deve ser adicionado junto com `-lncurses` nessa ordem.
 
-*Exemplo 18. O Básico de Menu*
-
-Este programa demonstra os conceitos básicos envolvidos na criação de um menu usando a biblioteca de menus. Primeiro criamos os itens usando `new_item()` e depois os anexamos ao menu com a função `new_menu()`.
-
-Depois de postar o menu e atualizar a tela, o ciclo de processamento principal é iniciado. Ele lê a entrada do usuário e executa a ação correspondente. A função `menu_driver()` é o principal instrumento de trabalho do sistema de menus.
-
-O segundo parâmetro para esta função informa o que deve ser feito com o menu. De acordo com o parâmetro, `menu_driver()` faz a tarefa correspondente. O valor pode ser uma solicitação de navegação de menu, um caractere ascii ou uma tecla especial `KEY_MOUSE` associada a um evento de mouse.
-
-O `menu_driver` aceita as seguintes solicitações de navegação.
-
-Não fique sobrecarregado com o número de opções. Vamos vê-los lentamente, um após o outro. As opções de interesse neste exemplo são `REQ_UP_ITEM` e `REQ_DOWN_ITEM`. Essas duas opções, quando passadas para `menu_driver`, o driver de menu atualiza o item atual para um item acima ou abaixo, respectivamente.
-
 ## 15.3. Menu Driver: O burro de carga do sistema de menu
 Como você viu no exemplo acima, `menu_driver` desempenha um papel importante na atualização do menu. É muito importante entender as várias opções necessárias e o que elas fazem.
 
@@ -2379,70 +2375,78 @@ Mas não especificamos nenhuma janela ou subjanela no exemplo simples. Quando um
 
 Em seguida, os itens são exibidos na subjanela calculada. Então, vamos brincar com essas janelas e exibir um menu com uma borda e um título.
 
-*Exemplo 19. Exemplo de uso do menu de Janelas*
+*Exemplo 18. Exemplo de uso do menu de Janelas*
 
 ```cpp
 #include <menu.h>
+#include <cstdlib>
+#include <cstring>
+#include <vector>
+#include <iostream>
 
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
+//#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
+//#define CTRLD 4
 
-char *choices[] = {
-  "Escolha 1",
-  "Escolha 2",
-  "Escolha 3",
-  "Escolha 4",
-  "Sair",
-  (char *)NULL,
-};
-void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+//char * choices[] = {
+//  "Escolha 1",
+//  "Escolha 2",
+//  "Escolha 3",
+//  "Escolha 4",
+//  "Sair",
+//};
+
+std::vector<const char *> choices = {"Item 1", "Item 2", "Item 3", "Item 4", (const char *)NULL};
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, const char *string, chtype color);
 
 int main(){
   ITEM **my_items;
-  int c;                          
+  int c;
   MENU *my_menu;
   WINDOW *my_menu_win;
   int n_choices, i;
 
-  /* Inicializa curses */
-    initscr();
+  // Inicializa curses
+  initscr();
   start_color();
   cbreak();
   noecho();
   keypad(stdscr, TRUE);
   init_pair(1, COLOR_RED, COLOR_BLACK);
 
-  /* Cria itens */
-    n_choices = ARRAY_SIZE(choices);
+  // Cria itens
+  //n_choices = ARRAY_SIZE(choices);
+  n_choices =choices.size();
   my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
   for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
+    my_items[i] = new_item( choices[i], choices[i] );
   }
 
-  /* Menu da caixa */
+  // Menu da caixa
   my_menu = new_menu((ITEM **)my_items);
 
-  /* Cria a janela a ser associada ao menu */
+  // Cria a janela a ser associada ao menu
   my_menu_win = newwin(10, 40, 4, 4);
   keypad(my_menu_win, TRUE);
 
-  /* Define a janela principal e a subjanela */
+  // Define a janela principal e a subjanela
   set_menu_win(my_menu, my_menu_win);
   set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
 
-  /* Define a marca de menu para a string "*" */
+  // Define a marca de menu para a string "*"
   set_menu_mark(my_menu, " * ");
 
-  /* Imprime uma borda ao redor da janela principal e imprime um título */
+  // Imprime uma borda ao redor da janela principal e imprime um título
   box(my_menu_win, 0, 0);
-  print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
+  const char * meu_menu = "Meu Menu";
+  print_in_middle (my_menu_win, 1, 0, 40, meu_menu, COLOR_PAIR (1));
   mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
   mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
   mvwaddch(my_menu_win, 2, 39, ACS_RTEE);
-  mvprintw(LINES - 2, 0, "F1 to exit");
+  mvprintw(LINES - 2, 0, "Tecle F1 para sair");
   refresh();
 
-  /* Posta o menu */
+  // Posta o menu
   post_menu(my_menu);
   wrefresh(my_menu_win);
 
@@ -2456,9 +2460,9 @@ int main(){
         break;
     }
     wrefresh(my_menu_win);
-  }       
+  }
 
-  /* Desmarca e libera toda a memória ocupada */
+  // Desmarca e libera toda a memória ocupada
   unpost_menu(my_menu);
   free_menu(my_menu);
 
@@ -2469,7 +2473,7 @@ int main(){
   endwin();
 }
 
-void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
+void print_in_middle(WINDOW *win, int starty, int startx, int width, const char *string, chtype color){
   int length, x, y;
   float temp;
 
@@ -2509,376 +2513,11 @@ Se a subjanela fornecida para uma janela não for grande o suficiente para mostr
 
 Você pode fornecer manualmente operações `REQ_SCR_` para fazer a rolagem. Vamos ver como isso pode ser feito.
 
-*Exemplo 20. Exemplo de menus de rolagem*
-```cpp
-#include <curses.h>
-#include <menu.h>
-
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
-
-char *choices[] = {
-  "Escolha 1",
-  "Escolha 2",
-  "Escolha 3",
-  "Escolha 4",
-  "Escolha 5",
-  "Escolha 6",
-  "Escolha 7",
-  "Choice 8",
-  "Choice 9",
-  "Choice 10",
-  "Sair",
-  (char *)NULL,
-};
-void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
-
-int main(){
-  ITEM **my_items;
-  int c;                          
-  MENU *my_menu;
-  WINDOW *my_menu_win;
-  int n_choices, i;
-
-  /* Inicializa curses */
-  initscr();
-  start_color();
-  cbreak();
-  noecho();
-  keypad(stdscr, TRUE);
-  init_pair(1, COLOR_RED, COLOR_BLACK);
-  init_pair(2, COLOR_CYAN, COLOR_BLACK);
-
-  /* Cria itens */
-  n_choices = ARRAY_SIZE(choices);
-  my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
-  }
-
-  /* Menu da caixa */
-  my_menu = new_menu((ITEM **)my_items);
-
-  /* Cria a janela a ser associada ao menu */
-  my_menu_win = newwin(10, 40, 4, 4);
-  keypad(my_menu_win, TRUE);
-
-  /* Define a janela principal e a subjanela */
-  set_menu_win(my_menu, my_menu_win);
-  set_menu_sub(my_menu, derwin(my_menu_win, 6, 38, 3, 1));
-  set_menu_format(my_menu, 5, 1);
-
-  /* Define a marca de menu para a string "*" */
-  set_menu_mark(my_menu, " * ");
-
-  /* Imprime uma borda ao redor da janela principal e imprime um título */
-  box(my_menu_win, 0, 0);
-  print_in_middle (my_menu_win, 1, 0, 40, "Meu Menu", COLOR_PAIR (1));
-  mvwaddch(my_menu_win, 2, 0, ACS_LTEE);
-  mvwhline(my_menu_win, 2, 1, ACS_HLINE, 38);
-  mvwaddch(my_menu_win, 2, 39, ACS_RTEE);
-
-  /* Posta o menu */
-  post_menu(my_menu);
-  wrefresh(my_menu_win);
-
-  attron(COLOR_PAIR(2));
-  mvprintw (LINHAS - 2, 0, "Use PageUp e PageDown para subir ou descer uma página de itens");
-  mvprintw (LINHAS - 1, 0, "Teclas de seta para navegar (F1 para sair)");
-  attroff(COLOR_PAIR(2));
-  refresh();
-
-  while((c = wgetch(my_menu_win)) != KEY_F(1)){
-    switch(c){
-      case KEY_DOWN:
-        menu_driver(my_menu, REQ_DOWN_ITEM);
-        break;
-      case KEY_UP:
-        menu_driver(my_menu, REQ_UP_ITEM);
-        break;
-      case KEY_NPAGE:
-        menu_driver(my_menu, REQ_SCR_DPAGE);
-        break;
-      case KEY_PPAGE:
-        menu_driver(my_menu, REQ_SCR_UPAGE);
-        break;
-    }
-    wrefresh(my_menu_win);
-  }       
-
-  /* Desmarca e libera toda a memória ocupada */
-  unpost_menu(my_menu);
-  free_menu(my_menu);
-  for(i = 0; i < n_choices; ++i){
-    free_item(my_items[i]);
-  }
-
-  endwin();
-}
-
-void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color){
-  int length, x, y;
-  float temp;
-
-  if(win == NULL){
-    win = stdscr;
-  }
-
-  getyx(win, y, x);
-  if(startx != 0){
-    x = startx;
-  }
-
-  if(starty != 0){
-    y = starty;
-  }
-
-  if(width == 0){
-    width = 80;
-  }
-
-  length = strlen(string);
-  temp = (width - length)/ 2;
-  x = startx + (int)temp;
-  wattron(win, color);
-  mvwprintw(win, y, x, "%s", string);
-  wattroff(win, color);
-  refresh();
-}
-```
-
-Este programa é autoexplicativo. Neste exemplo, o número de opções foi aumentado para dez, que é maior do que o tamanho da nossa subjanela, que pode conter 6 itens. Esta mensagem deve ser explicitamente transmitida ao sistema de menu com a função `set_menu_format()`.
-
-Aqui, especificamos o número de linhas e colunas que desejamos exibir em uma única página. Podemos especificar qualquer número de itens a serem mostrados, nas variáveis de linhas, se for menor que a altura da subjanela.
-
-Se a tecla pressionada pelo usuário for `PAGE UP` ou `PAGE DOWN`, o menu é rolado uma página devido às solicitações (`REQ_SCR_DPAGE` e `REQ_SCR_UPAGE`) fornecidas para `menu_driver()`.
-
 ## 15.6. Menus Multi Colunares
 No exemplo acima, você viu como usar a função `set_menu_format()`. Não mencionei o que a variável cols (terceiro parâmetro) faz. Bem, se sua subjanela for grande o suficiente, você pode optar por exibir mais de um item por linha.
 
-Isso pode ser especificado na variável cols. Para tornar as coisas mais simples, o exemplo a seguir não mostra as descrições dos itens.
-
-*Exemplo 21. Exemplo de menus colunares de Milt*
-
-```cpp
-#include <curses.h>
-#include <menu.h>
-
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
-
-char *choices[] = {
-  "Escolha 1", "Escolha 2", "Escolha 3", "Escolha 4", "Escolha 5",
-  "Escolha 6", "Escolha 7", "Escolha 8", "Escolha 9", "Escolha 10",
-  "Escolha 11", "Escolha 12", "Escolha 13", "Escolha 14", "Escolha 15",
-  "Escolha 16", "Escolha 17", "Escolha 18", "Escolha 19", "Escolha 20",
-  "Sair",
-  (char *)NULL,
-};
-
-int main(){
-  ITEM **my_items;
-  int c;                          
-  MENU *my_menu;
-  WINDOW *my_menu_win;
-  int n_choices, i;
-
-  /* Inicializa curses */
-  initscr();
-  start_color();
-  cbreak();
-  noecho();
-  keypad(stdscr, TRUE);
-  init_pair(1, COLOR_RED, COLOR_BLACK);
-  init_pair(2, COLOR_CYAN, COLOR_BLACK);
-
-  /* Cria itens */
-  n_choices = ARRAY_SIZE(choices);
-  my_items = (ITEM **)calloc(n_choices, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
-  }
-
-  /* Menu da caixa */
-  my_menu = new_menu((ITEM **)my_items);
-
-  /* Define opção de menu para não mostrar a descrição */
-  menu_opts_off(my_menu, O_SHOWDESC);
-
-  /* Cria a janela a ser associada ao menu */
-  my_menu_win = newwin(10, 70, 4, 4);
-  keypad(my_menu_win, TRUE);
-
-  /* Define a janela principal e a subjanela */
-  set_menu_win(my_menu, my_menu_win);
-  set_menu_sub(my_menu, derwin(my_menu_win, 6, 68, 3, 1));
-  set_menu_format(my_menu, 5, 3);
-  set_menu_mark(my_menu, " * ");
-
-  /* Imprime uma borda ao redor da janela principal e imprime um título */
-  box(my_menu_win, 0, 0);
-
-  attron(COLOR_PAIR(2));
-  mvprintw (LINHAS - 3, 0, "Usa PageUp e PageDown para rolar");
-  mvprintw(LINES - 2, 0, "Use Arrow Keys to navigate (F1 to Exit)");
-  attroff(COLOR_PAIR(2));
-  refresh();
-
-  /* Posta o menu */
-  post_menu(my_menu);
-  wrefresh(my_menu_win);
-
-  while((c = wgetch(my_menu_win)) != KEY_F(1)){
-    switch(c){
-      case KEY_DOWN:
-        menu_driver(my_menu, REQ_DOWN_ITEM);
-        break;
-      case KEY_UP:
-        menu_driver(my_menu, REQ_UP_ITEM);
-        break;
-      case KEY_LEFT:
-        menu_driver(my_menu, REQ_LEFT_ITEM);
-        break;
-      case KEY_RIGHT:
-        menu_driver(my_menu, REQ_RIGHT_ITEM);
-        break;
-      case KEY_NPAGE:
-        menu_driver(my_menu, REQ_SCR_DPAGE);
-        break;
-      case KEY_PPAGE:
-        menu_driver(my_menu, REQ_SCR_UPAGE);
-        break;
-    }
-    wrefresh(my_menu_win);
-  }       
-
-  /* Desmarca e libera toda a memória ocupada */
-  unpost_menu(my_menu);
-  free_menu(my_menu);
-  for(i = 0; i < n_choices; ++i){
-    free_item(my_items[i]);
-  }
-
-  endwin();
-}
-```
-
-Observe a chamada de função para `set_menu_format()`. Ela especifica o número de colunas como 3, exibindo, portanto, 3 itens por linha. Também desativamos as descrições de exibição com a função `menu_opts_off()`.
-
-Existem algumas funções `set_menu_opts()`, `menu_opts_on()` e `menu_opts()` que podem ser usadas para manipular as opções do menu. As seguintes opções de menu podem ser especificadas.
-+ `O_ONEVALUE` Apenas um item pode ser selecionado para este menu.
-+ `O_SHOWDESC` Exibeasdescriçõesdos itensquandoomenué postado.
-+ `O_ROWMAJOR` Exibe o menu em ordem de linha principal.
-+ `O_IGNORECASE` Ignora o caso ao fazer a correspondência de padrões.
-+ `O_SHOWMATCH` Move o cursor para dentro do itemnomeenquantofaz a correspondência de padrões
-+ `O_NONCYCLIC` Não envolve em tornodo próximo itemedo item anterior, pedidos para a outra extremidade do menu.
-
-Todas as opções estão ativadas por padrão. Você pode ativar ou desativar atributos específicos com as funções `menu_opts_on()` e `menu_opts_off()`. Você também pode usar set_menu_opts() para especificar as opções diretamente.
-
-O argumento para esta função deve ser um valor OR ed de algumas das constantes acima. A função `menu_opts()` pode ser usada para descobrir as opções presentes de um menu.
-
 ## 15.7. Menus de vários valores
-Você pode estar se perguntando o que aconteceria se desativar a opção `O_ONEVALUE`. Então, o menu passa a ter vários valores. Isso significa que você pode selecionar mais de um item. Isso nos leva à solicitação `REQ_TOGGLE_ITEM`. Vamos vê-la em ação.
-
-*Exemplo 22. Exemplo de menus com vários valores*
-
-```cpp
-#include <curses.h>
-#include <menu.h>
-
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
-
-char *choices[] = {
-  "Escolha 1",
-  "Escolha 2",
-  "Escolha 3",
-  "Escolha 4",
-  "Escolha 5",
-  "Escolha 6",
-  "Escolha 7",
-  "Sair",
-};
-
-int main(){
-  ITEM **my_items;
-  int c;                          
-  MENU *my_menu;
-  int n_choices, i;
-  ITEM *cur_item;
-
-  /* Inicializa curses */
-  initscr();
-  cbreak();
-  noecho();
-  keypad(stdscr, TRUE);
-
-  /* Inicializa os itens */
-  n_choices = ARRAY_SIZE(choices);
-  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
-  }
-
-  my_items[n_choices] = (ITEM *)NULL;
-
-  my_menu = new_menu((ITEM **)my_items);
-
-  /* Torna o menu com vários valores */
-  menu_opts_off(my_menu, O_ONEVALUE);
-
-  mvprintw(LINES - 3, 0, "Use <SPACE> to select or unselect an item.");
-  mvprintw(LINES - 2, 0, "<ENTER> to see presently selected items(F1 to Exit)");
-  post_menu(my_menu);
-  refresh();
-
-  while((c = getch()) != KEY_F(1)){
-    switch(c){
-      case KEY_DOWN:
-        menu_driver(my_menu, REQ_DOWN_ITEM);
-        break;
-      case KEY_UP:
-        menu_driver(my_menu, REQ_UP_ITEM);
-        break;
-      case ' ':
-        menu_driver(my_menu, REQ_TOGGLE_ITEM);
-        break;
-      case 10:        /* Enter */
-        {       char temp[200];
-          ITEM **items;
-
-          items = menu_items(my_menu);
-          temp[0] = '\0';
-          for(i = 0; i < item_count(my_menu); ++i){
-            if(item_value(items[i]) == TRUE){
-              strcat(temp, item_name(items[i]));
-              strcat(temp, " ");
-            }
-          }
-
-          move(20, 0);
-          clrtoeol();
-          mvprintw(20, 0, temp);
-          refresh();
-        }
-        break;
-    }
-  }       
-
-  free_item(my_items[0]);
-  free_item(my_items[1]);
-  free_menu(my_menu);
-  endwin();
-}
-```
- 
-Ufa, muitas funções novas. Vamos examiná-las uma a uma. Em primeiro lugar, o `REQ_TOGGLE_ITEM`. Em um menu com vários valores, o usuário deve ter permissão para selecionar ou desmarcar mais de um item.
-
-A solicitação `REQ_TOGGLE_ITEM` alterna a seleção atual. Nesse caso, quando o espaço é pressionado, a solicitação `REQ_TOGGLE_ITEM` é enviada para `menu_driver` para obter o resultado.
-
-Agora, quando o usuário pressionar `<ENTER>`, mostramos os itens que ele selecionou atualmente. Primeiro, descobrimos os itens associados ao menu usando a função `menu_items()`. Em seguida, percorremos os itens para descobrir se o item está selecionado ou não.
-
-A função `item_value()` retorna `TRUE` se um item for selecionado. A função `item_count()` retorna o número de itens no menu. O nome do item pode ser encontrado com `item_name()`. Você também pode encontrar a descrição associada a um item usando `item_description()`.
+Você pode estar se perguntando o que aconteceria se desativar a opção `O_ONEVALUE`. Então, o menu passa a ter vários valores. Isso significa que você pode selecionar mais de um item. Isso nos leva à solicitação `REQ_TOGGLE_ITEM`. 
 
 ## 15.8. Opções do menu
 Bem, a esta altura você deve estar ansioso por alguma diferença em seu menu, com muitas funcionalidades. Eu sei. Você quer cores!!!. Você deseja criar menus legais semelhantes aos do modo de texto dos jogos do dos .
@@ -2887,217 +2526,16 @@ As funções `set_menu_fore()` e `set_menu_back()` podem ser usadas para alterar
 
 A função `set_menu_grey()` pode ser usada para definir o atributo display para os itens não selecionáveis no menu. Isso nos leva à opção interessante para um item, o primeiro e único: `O_SELECTABLE`.
 
-Podemos desligá-lo pela função `item_opts_off()` e depois disso esse item não é selecionável. É como um item acinzentado nos menus sofisticados do Windows. Vamos colocar esses conceitos em prática com este exemplo.
-
-*Exemplo 23. Exemplo de opções de menu*
-
-```cpp
-#include <menu.h>
-
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
-
-char *choices[] = {
-  "Escolha 1",
-  "Escolha 2",
-  "Escolha 3",
-  "Escolha 4",
-  "Escolha 5",
-  "Escolha 6",
-  "Escolha 7",
-  "Sair",
-};
-
-int main(){
-  ITEM **my_items;
-  int c;                          
-  MENU *my_menu;
-  int n_choices, i;
-  ITEM *cur_item;
-
-  /* Inicializa curses */
-  initscr();
-  start_color();
-  cbreak();
-  noecho();
-  keypad(stdscr, TRUE);
-  init_pair(1, COLOR_RED, COLOR_BLACK);
-  init_pair(2, COLOR_GREEN, COLOR_BLACK);
-  init_pair(3, COLOR_MAGENTA, COLOR_BLACK);
-
-  /* Inicializa os itens */
-  n_choices = ARRAY_SIZE(choices);
-  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
-  }
-
-  my_items[n_choices] = (ITEM *)NULL;
-  item_opts_off(my_items[3], O_SELECTABLE);
-  item_opts_off(my_items[6], O_SELECTABLE);
-
-  /* Cria o menu */
-  my_menu = new_menu((ITEM **)my_items);
-
-  /* Define primeiro e segundo plano do menu */
-  set_menu_fore(my_menu, COLOR_PAIR(1) | A_REVERSE);
-  set_menu_back(my_menu, COLOR_PAIR(2));
-  set_menu_grey(my_menu, COLOR_PAIR(3));
-
-  /* Posta o menu */
-  mvprintw (LINHAS - 3, 0, "Pressione <ENTER> para ver a opção selecionada ");
-  mvprintw (LINHAS - 2, 0, "Teclas de seta para cima e para baixo para navegar (F1 para sair)");
-  post_menu(my_menu);
-  refresh();
-
-  while((c = getch()) != KEY_F(1)){
-    switch(c){
-      case KEY_DOWN:
-        menu_driver(my_menu, REQ_DOWN_ITEM);
-        break;
-      case KEY_UP:
-        menu_driver(my_menu, REQ_UP_ITEM);
-        break;
-      case 10: /* Enter */
-        move(20, 0);
-        clrtoeol();
-        mvprintw(20, 0, "Item selected is : %s", 
-            item_name(current_item(my_menu)));
-        pos_menu_cursor(my_menu);
-        break;
-    }
-  }       
-  unpost_menu(my_menu);
-  for(i = 0; i < n_choices; ++i){
-    free_item(my_items[i]);
-  }
-
-  free_menu(my_menu);
-  endwin();
-}
-``` 
+Podemos desligá-lo pela função `item_opts_off()` e depois disso esse item não é selecionável. É como um item acinzentado nos menus sofisticados do Windows.
 
 ## 15.9. O útil ponteiro do usuário
 Podemos associar um ponteiro do usuário a cada item do menu. Funciona da mesma forma que o ponteiro do usuário nos painéis. Não é tocado pelo sistema de menu. Você pode armazenar qualquer coisa que quiser nele.
 
 Eu costumo usá-lo para armazenar a função a ser executada quando a opção do menu é escolhida (está selecionada e pode ser o usuário pressionado `<ENTER>` 😃 .
 
-*Exemplo 24. Uso do ponteiro do usuário do menu*
-
-```cpp
-#include <curses.h>
-#include <menu.h>
-
-#define ARRAY_SIZE(a) (sizeof(a) / sizeof(a[0]))
-#define CTRLD   4
-
-char *choices[] = {
-    "Escolha 1",
-    "Escolha 2",
-    "Escolha 3",
-    "Escolha 4",
-    "Escolha 5",
-    "Escolha 6",
-    "Escolha 7",
-    "Sair",
-};
-
-void func(char *name);
-
-int main(){
-  ITEM **my_items;
-  int c;                          
-  MENU *my_menu;
-  int n_choices, i;
-  ITEM *cur_item;
-
-  /* Inicializa curses */
-  initscr();
-  start_color();
-  cbreak();
-  noecho();
-  keypad(stdscr, TRUE);
-  init_pair(1, COLOR_RED, COLOR_BLACK);
-  init_pair(2, COLOR_GREEN, COLOR_BLACK);
-  init_pair(3, COLOR_MAGENTA, COLOR_BLACK);
-
-  /* Inicializa os itens */
-  n_choices = ARRAY_SIZE(choices);
-  my_items = (ITEM **)calloc(n_choices + 1, sizeof(ITEM *));
-  for(i = 0; i < n_choices; ++i){
-    my_items[i] = new_item(choices[i], choices[i]);
-    /* Define o ponteiro do usuário */
-    set_item_userptr(my_items[i], func);
-  }
-
-  my_items[n_choices] = (ITEM *)NULL;
-
-  /* Cria o menu */
-  my_menu = new_menu((ITEM **)my_items);
-
-  /* Posta o menu */
-  mvprintw (LINHAS - 3, 0, "Pressione <ENTER> para ver a opção selecionada ");
-  mvprintw (LINHAS - 2, 0, "Teclas de seta para cima e para baixo para navegar (F1 para sair)");
-  post_menu(my_menu);
-  refresh();
-
-  while((c = getch()) != KEY_F(1)){
-    switch(c){
-      case KEY_DOWN:
-        menu_driver(my_menu, REQ_DOWN_ITEM);
-        break;
-      case KEY_UP:
-        menu_driver(my_menu, REQ_UP_ITEM);
-        break;
-      case 10: /* Enter */
-        {       ITEM *cur;
-          void (*p)(char *);
-
-          cur = current_item(my_menu);
-          p = item_userptr(cur);
-          p((char *)item_name(cur));
-          pos_menu_cursor(my_menu);
-          break;
-        }
-        break;
-    }
-  }
-
-  unpost_menu(my_menu);
-  for(i = 0; i < n_choices; ++i){
-    free_item(my_items[i]);
-  }
-
-  free_menu(my_menu);
-  endwin();
-}
-
-void func(char *name){
-  move(20, 0);
-  clrtoeol();
-  mvprintw (20, 0, "O item selecionado é:% s", nome);
-}       
-```
-
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# ...
 
 ---
 
