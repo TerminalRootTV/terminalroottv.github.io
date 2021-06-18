@@ -1531,7 +1531,7 @@ As funções `getbegyx()` e `getmaxyx()` armazenam as coordenadas de início e m
 ## 12.2. Dumping (Despejo) de tela
 Ao escrever jogos, às vezes se torna necessário armazenar o estado da tela e restaurá-lo ao mesmo estado. A função `scr_dump()` pode ser usada para despejar o conteúdo da tela em um arquivo fornecido como argumento.
 
-Depois, e ser re duas funções simples podem ser usadas de forma eficaz para manter um jogo em movimento rápido com cenários variáveis.
+Depois, escrever duas funções simples podem ser usadas de forma eficaz para manter um jogo em movimento rápido com cenários variáveis.
 
 ## 12.3. Dumping (Despejo) de janelas
 Para armazenar e restaurar janelas, as funções `putwin()` e `getwin()` podem ser usadas. `putwin()` coloca o estado atual da janela em um arquivo, que pode ser restaurado posteriormente por `getwin()`.
@@ -1565,22 +1565,21 @@ Esta função retorna o `tty` ao estado armazenado por `def_prog_mode()`. Depois
 
 ```cpp
 #include <ncurses.h>
+#include <cstdlib>
 
 int main(){	
 
-  initscr();			/* Inicia o modo curses 		  */
-  printw("Hello World !!!\n");	/* Imprime Hello World		  */
-  refresh();			/* Imprime na tela real */
-  def_prog_mode();		/* Salva o modo tty 		  */
-  endwin();			/* Termina o modo curses temporariamente	  */
-  system("/bin/sh");		/* Faça o que quiser no modo cooked */
-  reset_prog_mode();		/* Retornar ao modo tty anterior */
-  /* armazenado por def_prog_mode() 	  */
-  refresh();			/* Faça refresh() para restaurar os	  */
-  /* conteúdos da tela		  */
-  printw("Another String\n");	/* De volta ao curses, use a capacidade    */
-  refresh();			/*  completa do curses */
-  endwin();			/* Termina o modo curses		  */
+  initscr();			// Inicia o modo curses 		  
+  printw("Hello World !!!\n");	// Imprime Hello World		  
+  refresh();			// Imprime na tela real 
+  def_prog_mode();		// Salva o modo tty 		  
+  endwin();			// Termina o modo curses temporariamente	  
+  system("/bin/sh");		// Faça o que quiser no modo cooked 
+  reset_prog_mode();		// Retornar ao modo tty anterior armazenado por def_prog_mode() 	  
+  refresh();			// Faça refresh() para restaurar os conteúdos da tela		  
+  printw("Another String\n");	// De volta ao curses, use a capacidade    
+  refresh();			//  completa do curses 
+  endwin();			// Termina o modo curses		  
 
   return 0;
 }
@@ -1695,29 +1694,27 @@ int main(){
   cbreak();
   noecho();
 
-  / * Cria janelas para os painéis * /
-    my_wins[0] = newwin(lines, cols, y, x);
+  // Cria janelas para os painéis
+  my_wins[0] = newwin(lines, cols, y, x);
   my_wins[1] = newwin(lines, cols, y + 1, x + 5);
   my_wins[2] = newwin(lines, cols, y + 2, x + 10);
 
-  /* 
-   * Cria bordas ao redor das janelas para que você possa ver o efeito
-   dos painéis
-   */
+  // Cria bordas ao redor das janelas para que você possa ver o efeito dos painéis
   for(i = 0; i < 3; ++i){
     box(my_wins[i], 0, 0);
   }
 
-  / * Anexa um painel a cada janela * /     / * A ordem é de baixo para cima * /
-    my_panels[0] = new_panel (my_wins[0]);   / * Move 0, ordem: stdscr-0 * /
-    my_panels[1] = new_panel (my_wins[1]);   / * Move 1, ordem: stdscr-0-1 * /
-    my_panels[2] = new_panel (my_wins[2]);   / * Move 2, ordem: stdscr-0-1-2 * /
+  // Anexa um painel a cada janela
+  // A ordem é de baixo para cima
+  my_panels[0] = new_panel (my_wins[0]);   // Move 0, ordem: stdscr-0
+  my_panels[1] = new_panel (my_wins[1]);   // Move 1, ordem: stdscr-0-1
+  my_panels[2] = new_panel (my_wins[2]);   // Move 2, ordem: stdscr-0-1-2
 
-    / * Atualiza a ordem de empilhamento. O 2º painel ficará no topo * /
-    update_panels();
+  // Atualiza a ordem de empilhamento. O 2º painel ficará no topo
+  update_panels();
 
-  / * Mostra-o na tela * /
-    doupdate();
+  // Mostra-o na tela
+  doupdate();
 
   getch();
   endwin();
