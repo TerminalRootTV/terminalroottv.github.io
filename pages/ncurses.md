@@ -2535,14 +2535,15 @@ Eu costumo usá-lo para armazenar a função a ser executada quando a opção do
 
 ---
 
-# ...
+# CAPÍTULOS NÃO TRADUZIDOS:
++ 16/18 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/forms.html>
++ 17/19 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/tools.html>
++ 18/20 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/justforfun.html>
++ 19/21 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/ref.html>
 
 ---
 
 # CHEAT SHEET NCURSES
-
----
-
 ## Funções de inicialização
 
 <!-- MINI ANÚNCIO -->
@@ -2754,35 +2755,6 @@ data-ad-slot="5351066970"></ins>
 | **`wborder()`** | Desenha uma borda ao redor da janela pelos caracteres fornecidos a ela. |
 
 ---
-# Essa página ainda está incompleta, demais ainda serão adicionados a partir [daqui]().
-## TÓPICOS QUE AINDA FALTAM
-
-```txt
-16. Biblioteca de formulários
-    17.1. O básico
-    17.2. Compilando com a Biblioteca de Formulários
-    17.3. Brincando com Campos
-    17.4. Form Windows
-    17.5. Validação de Campo
-    17.6. Driver de formulário: O cavalo de trabalho do sistema de formulários
-
-17. Ferramentas e bibliotecas de widgets
-    18.1. CDK (kit de desenvolvimento de ncurses)
-    18.2. O diálogo
-    18.3. Módulos Perl Curses `CURSES::FORM` e `CURSES::WIDGETS`
-
-18. Just For Fun !!!
-    20.1. O jogo da vida
-    20.2. Quadrado mágico
-    20.3. Torres de Hanói
-    20.4. Queens Puzzle
-    20.5. Shuffle
-    20.6. Tutor de Digitação
-19. Referências
-```
-
----
-
 
 <style>
 div.pagina p { text-align: left; }
