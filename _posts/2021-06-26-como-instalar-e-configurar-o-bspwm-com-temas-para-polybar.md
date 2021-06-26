@@ -16,7 +16,7 @@ tags:
 
 🔊 Nesse vídeo instalamos e configuramos o BSPWM com um COLEÇÃO DE TEMAS para a POLYBAR . Além de aplicativos como: FEH, ROFI, COMPON, NUMLOCKX com configuração DARK do ema para GTK e RESOLVEMOS PROBLEMAS de TEARING e mais outras dicas. Vale muito à pena assistir!
 
-<iframe width="910" height="390" src="https://www.youtube.com/embed/VIDEO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="910" height="390" src="https://www.youtube.com/embed/CivY-yfRBeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
