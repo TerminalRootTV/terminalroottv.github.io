@@ -20,7 +20,7 @@ tags:
 
 Antes de qualquer coisa precisamos habilitar o [cgi](https://terminalroot.com.br/2015/09/habilitando-cgi-e-sh-no-apache-do.html) no Apache para ler arquivos binários compilados em [C++](https://terminalroot.com.br/cpp) .
 
-Nós mostramos como fazer isso de forma detalhada no [Curso de C++ Moderno Avançado](https://terminalroot.com.br/cpp), se você não adquiriu e não sabe, sugiro você ver [esse artigo](https://terminalroot.com.br/2015/09/habilitando-cgi-e-sh-no-apache-do.html) que apesar de https://terminalroot.com.br/ feito para [Shell Script](https://terminalroot.com.br/shell), você pode seguir e alterar o `.sh` por `.cpp`.
+Nós mostramos como fazer isso de forma detalhada no [Curso de C++ Moderno Avançado](https://terminalroot.com.br/cpp), se você não adquiriu e não sabe, sugiro você ver [esse artigo](https://terminalroot.com.br/2015/09/habilitando-cgi-e-sh-no-apache-do.html) que apesar de ter feito para [Shell Script](https://terminalroot.com.br/shell), você pode seguir e alterar o `.sh` por `.cpp`.
 
 Após isso basta criar o nosso código em C++ que irá ler o arquivo [Markdown](https://terminalroot.com.br/2019/12/habilitando-renderizacao-de-markdown-no-apache-web-server.html), da seguinte forma:
 
