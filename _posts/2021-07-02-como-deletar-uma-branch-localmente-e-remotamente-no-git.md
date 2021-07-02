@@ -3,7 +3,7 @@ layout: post
 title: "Como deletar uma branch localmente e remotamente no Git"
 date: 2021-07-02 00:41:38
 image: '/assets/img/git/branch-git.jpg'
-description:
+description: 'Resolvendo problemas de conversão.'
 icon: 'ion:terminal-sharp'
 iconname: 'git e github'
 tags:
