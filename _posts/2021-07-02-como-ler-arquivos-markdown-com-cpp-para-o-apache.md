@@ -76,7 +76,7 @@ int main( int argc , char ** argv ){
 
 Perceba que o nome do arquivo que iremos ler é `file.md`(estou usando esse [exemplo de arquivo markdown](https://gist.github.com/rt2zz/e0a1d6ab2682d2c47746950b84c0b6ee) ), mas você pode fazer isso dinamicamente, esse é só um exemplo.
 
-Agora é só compilar, exemplo: `g++ readfile.cpp -o readfile`. Pronto, agora temos um arquivo binário com mime-type ** de nome `readfile` somente.
+Agora é só compilar, exemplo: `g++ readfile.cpp -o readfile`. Pronto, agora temos um arquivo binário com mime-type *plain/text* de nome `readfile` somente.
 
 ---
 
