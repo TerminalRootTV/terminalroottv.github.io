@@ -207,7 +207,7 @@ int main() {
 
   std::random_shuffle(mylist.begin(), mylist.end(), myrandom);
 
-  std::cout << "mylist contains:";
+  std::cout << "mylist contém:";
   for (auto i = mylist.begin(); i != mylist.end(); ++i){
     std::cout << ' ' << *i;
   }
