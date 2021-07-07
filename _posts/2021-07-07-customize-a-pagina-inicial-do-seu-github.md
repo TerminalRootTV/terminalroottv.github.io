@@ -38,19 +38,27 @@ data-ad-slot="5351066970"></ins>
 # Exemplos de alguns README prontos
 
 #### AnhellO
+> Link do readme: <>https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/AnhellO.md
+
 ![AnhellO](/assets/img/github/readmes/01-AnhellO.png)
 
 #### Reeveng
+> Link do readme: <https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/Reeveng.md>
+
 ![Reeveng](/assets/img/github/readmes/02-Reeveng.png)
 
 #### Thaiane
+> Link do readme: <https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/Thaiane.md>
+
 ![Thaiane](/assets/img/github/readmes/03-Thaiane.png)
 
 #### anandmainali
+> Link do readme: <https://github.com/kautukkundan/Awesome-Profile-README-templates/blob/master/code-styled/anandmainali.md>
+
 ![anandmainali](/assets/img/github/readmes/04-anandmainali.png)
 
 
-Para mais exemplos acesse [esse repositório](https://github.com/kautukkundan/Awesome-Profile-README-templates).
+Para mais exemplos acesse [esse repositório](https://github.com/kautukkundan/Awesome-Profile-README-templates/tree/master/code-styled).
 
 # Ferramentas para seu README
 Para obter uma lista completa visite [esse repositório](https://github.com/matiassingers/awesome-readme).
