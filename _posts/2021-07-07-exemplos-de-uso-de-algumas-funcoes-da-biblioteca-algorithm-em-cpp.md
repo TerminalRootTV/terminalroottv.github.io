@@ -21,7 +21,7 @@ São quase 100 funções disponíveis entre elas há essa lista:
 
 <div class="wrapper">
  <details>
-  <summary>Clique aqui para ver a lista</summary>
+  <summary><strong><u>Clique aqui para ver a lista</u></strong></summary>
  <ol>
    <li><kbd>accumulate</kbd></li>
    <li><kbd>adjacent_difference</kbd></li>
