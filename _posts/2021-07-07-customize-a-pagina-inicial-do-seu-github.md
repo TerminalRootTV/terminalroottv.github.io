@@ -20,7 +20,7 @@ Para que seu perfil exiba os dados que você acredita ser relevantes, basta voc�
 
 O próprio [GitHub](https://github.com/) oferece à você para criar esse repositório de forma automática somente clicando em um botão bem destacado na home do seu perfil assim que você inicia a sessão.
 
-Você pode até criar um [currículo]() para que seja exibido bem no início. Mas se preferir você ainda pode deixar mais bacana ainda.
+Você pode até criar um [currículo](https://terminalroot.com.br/2020/10/crie-seu-curriculo-com-gitconnected.html) para que seja exibido bem no início. Mas se preferir você ainda pode deixar mais bacana ainda.
 
 Existem alguns repositório que já disponibilizam modelos prontos para você utilizar e/ou customizar à sua maneira, bem como ferramentas para você utilizar para uma melhor personalização.
 
