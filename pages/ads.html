@@ -2,19 +2,27 @@
 layout: page
 title: "Check AdBlocker"
 permalink: "/ads/"
-description: 'Teste se seu ADBlocker está funfando'
+description: 'Desative seu AdBlocker.'
 ---
 
 <script>
   window.onload = function() {
     setTimeout(function() {
       if ( typeof(window.google_jobrunner) === "undefined" ) {
-        console.log("ad blocker installed");
-        alert("ad blocker installed");
+        //console.log("ad blocker installed");
+        document.getElementById("sim").style.display = "block";
       } else {
-        console.log("no ad blocking found.");
-        alert("no ad blocking found.");
+        //console.log("no ad blocking found.");
+        document.getElementById("nao").style.display = "block";
       }
-    }, 10000);
+    }, 1000);
   };
 </script>
+
+<div class="alert alert-success nao" role="alert" style="display:none;">
+  <strong><i class="fas fa-check"></i></strong> Obrigado por me ajudar, você não possui AdBlocker!
+</div>
+
+<div class="alert alert-danger sim" role="alert" style="display:none;">
+  <strong><i class="far fa-times-circle"></i></strong> AdBlocker DETECTADO!
+</div>
