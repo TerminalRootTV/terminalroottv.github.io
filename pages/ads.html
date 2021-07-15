@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Check AdBlocker"
+permalink: "/ads/"
+description: 'Teste se seu ADBlocker está funfando'
+---
+
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      if ( typeof(window.google_jobrunner) === "undefined" ) {
+        console.log("ad blocker installed");
+      } else {
+        console.log("no ad blocking found.");
+      }
+    }, 10000);
+  };
+</script>
