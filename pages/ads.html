@@ -10,8 +10,10 @@ description: 'Teste se seu ADBlocker está funfando'
     setTimeout(function() {
       if ( typeof(window.google_jobrunner) === "undefined" ) {
         console.log("ad blocker installed");
+        alert("ad blocker installed");
       } else {
         console.log("no ad blocking found.");
+        alert("no ad blocking found.");
       }
     }, 10000);
   };
