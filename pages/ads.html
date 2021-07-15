@@ -2,7 +2,6 @@
 layout: page
 title: "Check AdBlocker"
 permalink: "/ads/"
-description: 'Checando AdBlocker...'
 ---
 
 <noscript>
@@ -14,9 +13,11 @@ description: 'Checando AdBlocker...'
     setTimeout(function() {
       if ( typeof(window.google_jobrunner) === "undefined" ) {
         //console.log("ad blocker installed");
+        document.getElementById("ad").style.display = "none";
         document.getElementById("sim").style.display = "block";
       } else {
         //console.log("no ad blocking found.");
+        document.getElementById("ad").style.display = "none";
         document.getElementById("nao").style.display = "block";
       }
     }, 1000);
@@ -29,4 +30,8 @@ description: 'Checando AdBlocker...'
 
 <div class="alert alert-danger" id="sim" role="alert" style="display:none;">
   <strong><i class="far fa-times-circle"></i></strong> AdBlocker DETECTADO!
+</div>
+
+<div class="alert alert-primary" id="ad" role="alert" style="display:block;">
+  <strong><i class="fas fa-hourglass-half"></i></strong> Checando ...
 </div>
