@@ -130,7 +130,7 @@ Exemplo:
 {% highlight toml %}
 baseURL = "https://SUA_URL/"
 languageCode = "en-us"
-title = "My new blog made with Hugo: The Pinguim"
+ title = "My new blog made with Hugo: The Pinguim"
 theme = "contrast-hugo"
 [permalinks]
   posts = "/:filename/"
@@ -156,7 +156,7 @@ hugo new posts/primeiro-post-exemplo.md
 
 {% highlight markdown %}
 ---
-title: "Primeiro Post Exemplo"
+ title: "Primeiro Post Exemplo"
 date: 2021-07-07T00:01:00-03:00
 ---
 
