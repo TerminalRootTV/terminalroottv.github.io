@@ -10,7 +10,7 @@ tags:
 - comandos
 ---
 
-![Blog Linux](/assets/img/bash/arrays.jpg "Arrays Bash")
+![45 Exemplos de Variáveis e Arrays em Shell Script](/assets/img/bash/arrays.jpg "Arrays Bash")
 
 1 - Criar uma variável, ${var} é o mesmo que $var, porém não ambíguo.
 {% highlight bash %}
