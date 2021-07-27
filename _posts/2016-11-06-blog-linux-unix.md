@@ -9,7 +9,7 @@ tags:
 - unix
 ---
 
-![Blog Linux Unix](/assets/img/unix/unix.jpg)
+![Unix: o pai de todos os sistemas operacionais](/assets/img/unix/unix.jpg)
 
 
 > A década de 1960 não foi marcante apenas por lutas populares que  sacudiram o mundo, mas também para o mundo dos computadores, mais  especificamente dos sistemas operacionais (SO). É nos anos 60 que surge o  embrião do Unix, o pai de praticamente todos os SOs existentes hoje em  dia.
@@ -25,6 +25,17 @@ Além disso, o Unix  suporta tanto alterações por linhas de comando, que dão 
 Sua história remonta aos anos de 1960, quando Thompson,  Dennis Ritchie e outros desenvolvedores se juntaram para desenvolver o  sistema operacional Multics nos Laboratórios Bell da AT&T. A ideia  era criar um sistema capaz de comportar centenas de usuários, mas  diferenças entre os grandes grupos envolvidos na pesquisa (AT&T,  General Eletronic e Instituto de Tecnologia de Massachusetts) levaram o  Multics ao fracasso. Contudo, em 1969, Thompson começou a reescrever o  sistema com pretensões não tão grandes, e aí surge o Unics.
 
 O  passo seguinte foi um retoque no nome e ele passa a se chamar Unix. Em  1973, com ajuda de Dennis Ritchie, a linguagem empregada no sistema  passa a ser a C, algo apontado como um dos principais fatores de sucesso  do sistema. Atualmente, uma série de SOs são baseados no Unix, entre  eles, nomes consagrados como Gnu/Linux, Mac OS X, Solaris e BSD.
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 
 ### Por que o Unix é a base dos sistemas operacionais?
@@ -50,6 +61,18 @@ MS-DOS, também conhecido apenas por DOS, é um acrônimo  para “sistema opera
 
 Então, a resposta à pergunta desta seção pode ser:  por falta de interesse. Além das diferenças básicas entre o Q-DOS/MS-DOS  (que tinha como características ser monotarefa e monousuário) e o Unix,  o DOS foi a escolha de Bill Gates para entrar no mercado de PCs. Ele  preferiu agregar um produto “menor” à sua empresa para vendê-lo à IBM.
 
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ### Sistemas Unix e tipo Unix
 
@@ -67,21 +90,6 @@ Isso, somado à esmagadora  popularidade do Windows entre os usuários, acaba po
 
 Vários  movimentos no sentido de descomplicar o uso das dezenas de  distribuições de Linux têm tornado o uso do sistema cada vez mais  convencional, o que pode acarretar em problemas semelhantes aos do  Windows. De qualquer modo, a estrutura dos sistemas tipo Unix talvez  torne mais difícil a infecção por malwares.
 
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Informat -->
-<ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 
