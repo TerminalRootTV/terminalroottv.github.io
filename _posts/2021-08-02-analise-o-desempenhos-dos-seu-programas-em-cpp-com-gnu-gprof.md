@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Analise o desempenhos dos seu programas em C++ com GNU Gprof"
+title: "Analise o desempenhos dos seus programas em C++ com GNU Gprof"
 date: 2021-08-02 10:12:03
 image: '/assets/img/cpp/gnu-gprof.jpg'
 description: 'O legal desse utilitário é que ele faz parte do GNU Binutils e provavelmente já está no seu sistema.'
@@ -12,7 +12,7 @@ tags:
 - gnu
 ---
 
-![Analise o desempenhos dos seu programas em C++ com GNU Gprof](/assets/img/cpp/gnu-gprof.jpg)
+![Analise o desempenhos dos seus programas em C++ com GNU Gprof](/assets/img/cpp/gnu-gprof.jpg)
 
 Existem diversos softwares para fazer análise de desempenho, no entanto, nesse [cpp::daily](https://terminalroot.com.br/tags#cppdaily) de hoje vamos ver como utilizar o [GNU Gprof](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html) que faz parte do [GNU Binutils](https://www.gnu.org/software/binutils/) um pacote com diversas ferramentas úteis e que muito provavelmente já está instalado no seu sistema.
 
