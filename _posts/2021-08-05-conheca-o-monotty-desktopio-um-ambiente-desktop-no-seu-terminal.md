@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o Monotty Desktopio - Um ambiente desktop no seu Terminal"
 date: 2021-08-05 10:00:23
-image: '/assets/img/terminal/monotty-desktopio.webp'
+image: '/assets/img/terminal/monotty-desktopio.jpg'
 description: 'Multiplexador de terminal com gerenciador de janela TUI e compartilhamento de sessão.'
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal'
@@ -10,7 +10,7 @@ tags:
 - terminal
 ---
 
-![Conheça o Monotty Desktopio - Um ambiente desktop no seu Terminal](/assets/img/terminal/monotty-desktopio.webp)
+![Conheça o Monotty Desktopio - Um ambiente desktop no seu Terminal](/assets/img/terminal/monotty-desktopio.jpg)
 
 [Monotty Desktopio](https://vtm.netxs.online/) é um Ambiente de trabalho baseado em texto dentro do seu terminal.
 
