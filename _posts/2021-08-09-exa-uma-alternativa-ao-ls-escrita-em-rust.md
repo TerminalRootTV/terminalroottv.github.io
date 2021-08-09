@@ -41,7 +41,7 @@ Verifique a forma de instalação clicando no seu sistema/distro abaixo:
                 "xbps-install -S exa", "zypper install exa", "cargo install exa"]
     const btn = ["primary", "secondary", "danger", "info", "dark", "warning", "link"]
     //document.getElementsByClassName("language-bash").innerHTML = com[num]
-    document.getElementById("code").innerHTML = com[num]
+    document.getElementById("code").innerHTML = "sudo " + com[num]
     //alert( com[num] )
     for( var i = 0; i <= 6; i++ ){
       if( i == num ){
