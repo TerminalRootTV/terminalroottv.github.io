@@ -66,9 +66,9 @@ data-ad-slot="5351066970"></ins>
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'Feed',
       icon: 'rss',
-      link: 'https://feedly.com',
+      link: 'https://terminalroot.com.br/feed',
     },
     {
       id: '4',
