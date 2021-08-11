@@ -177,7 +177,7 @@ Consulte páginas do manual via linha de comando.
 # 20. [`bottom`](https://github.com/ClementTsang/bottom)
 Mais um monitor de sistema/processo gráfico de plataforma cruzada.
 
-![bottom](https://github.com/ClementTsang/bottom/blob/master/assets/demo.gif)
+![bottom](https://github.com/ClementTsang/bottom/blob/master/assets/demo.gif?raw=true)
 
 ---
 
