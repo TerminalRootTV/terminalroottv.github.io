@@ -123,7 +123,7 @@ Esqueça o <kbd>Ctrl + r</kbd> no terminal para fazer pesquisas, use o `fzf`.
 # 12. [`mcfly`](https://github.com/cantino/mcfly)
 Voe através do seu [history](https://terminalroot.com.br/2018/10/6-dicas-bem-interessantes-para-seu-shell-linux.html) do shell.
 
-![mcfly](https://github.com/cantino/mcfly/blob/master/docs/screenshot.png)
+![mcfly](https://raw.githubusercontent.com/cantino/mcfly/master/docs/screenshot.png)
 
 ---
 
