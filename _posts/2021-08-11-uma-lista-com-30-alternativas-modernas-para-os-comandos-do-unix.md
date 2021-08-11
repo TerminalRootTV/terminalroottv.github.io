@@ -75,7 +75,7 @@ Uma alternativa melhorada do comando `df`.
 # 07. [`broot`](https://github.com/Canop/broot)
 Uma alternativa moderna ao comando `tree`
 
-![broot](https://github.com/Canop/broot/blob/master/website/docs/img/20200629-overview.png)
+![broot](https://raw.githubusercontent.com/Canop/broot/master/website/docs/img/20200629-overview.png)
 
 ---
 
