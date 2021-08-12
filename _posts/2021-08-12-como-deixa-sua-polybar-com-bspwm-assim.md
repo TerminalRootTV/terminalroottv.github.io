@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como Deixa sua Polybar com BSPWM Assim!"
+title: "Como Deixar sua Polybar com BSPWM Assim!"
 date: 2021-08-12 12:21:08
 image: '/assets/img/tv/dotfiles.jpg'
 description: 'Minha Polybar e outras configurações para BSPWM no Linux'
