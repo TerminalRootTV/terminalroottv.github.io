@@ -5,7 +5,7 @@ date: 2021-08-12 12:21:08
 image: '/assets/img/tv/dotfiles.jpg'
 description: 'Minha Polybar e outras configurações para BSPWM no Linux'
 icon: 'ion:terminal-sharp'
-iconname: 'terminalroot'
+iconname: 'TerminalRootTV'
 tags:
 - polybar
 - bspwm
