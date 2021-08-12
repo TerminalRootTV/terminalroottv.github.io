@@ -80,7 +80,6 @@ Uma alternativa moderna ao comando `tree`
 ---
 
 # 08. [`fd`](https://github.com/sharkdp/fd)
-A simple, fast and user-friendly alternative to `find`.
 Um [find](https://terminalroot.com.br/2015/07/20-exemplos-do-comando-find.html) mais rápido e mais amigável!
 
 ![fd](https://raw.githubusercontent.com/sharkdp/fd/master/doc/screencast.svg)
@@ -114,7 +113,6 @@ Uma ferramenta de busca de código semelhante ao `ack`, mas mais rápida.
 ---
 
 # 11. [`fzf`](https://github.com/junegunn/fzf)
-A general purpose command-line fuzzy finder.
 Esqueça o <kbd>Ctrl + r</kbd> no terminal para fazer pesquisas, use o `fzf`.
 ![fzf](https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png)
 
