@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Terminal Root - Linux e Desenvolvimento</ShortName>
+  <ShortName>Terminal Root - GNU/Linux e Desenvolvimento</ShortName>
   <Description>Search www.terminalroot.com.br (via Google).</Description>
   <Image height="16" width="16" type="image/x-icon">https://terminalroot.com.br/assets/img/site/favicon.png</Image>
   <Url type="text/html" template="https://www.google.com/search?q={searchTerms}+site%3Aterminalroot.com.br"/>
