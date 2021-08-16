@@ -13,7 +13,7 @@ tags:
 ![Conheça o JS++ uma alternativa ao TypeScript](/assets/img/js/jspp.jpg)
 
 # O que é o JS++?
-JS ++ é uma linguagem de programação para desenvolvimento web que estende o JavaScript com [Type System](https://en.wikipedia.org/wiki/Type_system). Inclui recursos de programação imperativos, orientados a objetos, funcionais e genéricos.
+**JS++** é uma linguagem de programação para desenvolvimento web que estende o JavaScript com [Type System](https://en.wikipedia.org/wiki/Type_system). Inclui recursos de programação imperativos, orientados a objetos, funcionais e genéricos.
 
 JS++ apareceu pela primeira vez em 8 de outubro de 2011. A implementação moderna foi anunciada na DeveloperWeek 2016 e lançada em 31 de maio de 2016. A linguagem foi desenvolvida por Roger Poon e Anton Rapetov.
 
