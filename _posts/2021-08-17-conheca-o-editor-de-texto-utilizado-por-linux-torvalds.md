@@ -12,9 +12,9 @@ tags:
 
 ![Conheça o Editor de Texto utilizado por Linux Torvalds](/assets/img/editores/em.jpg)
 
-A maioria das pessoas gostam de saber o que os gênios utilizam para tentar ficar mais próximo dos mestres. Nós já publicamos um artigo no <https:news.terminalroot.com.br/> sobre o hardware do Linus Torvalds, caso você tenha interesse dá uma olhada nessa postagem: [Conheça todos os componentes do PC de Linus Torvalds](https://news.terminalroot.com.br/conheca-todos-os-componentes-do-pc-de-linus-torvalds.html).
+A maioria das pessoas gostam de saber o que os gênios utilizam para tentar ficar mais próximo dos mestres. Nós já publicamos um artigo no "News Terminal Root" sobre o hardware do Linus Torvalds, caso você tenha interesse dá uma olhada nessa postagem: [Conheça todos os componentes do PC de Linus Torvalds](https://news.terminalroot.com.br/conheca-todos-os-componentes-do-pc-de-linus-torvalds.html).
 
-Mas se tratando de [editor de texto](https://terminalroot.com.br/tags/#editores) Linus Torvalds utiliza algo do meio da famíla [Emacs]() mais precisamente uma versão modificada com linhas específicas(e privadas) do seu gosto. Uma versão modificada do [MicroEmacs](https://www.emacswiki.org/emacs/MicroEmacs) que ele demonimou de **uEmacs** .
+Mas se tratando de [editor de texto](https://terminalroot.com.br/tags/#editores) Linus Torvalds utiliza algo do meio da famíla [Emacs](https://terminalroot.com.br/2018/07/spacemacs-um-editor-para-desenvolvimento-profissional.html) mais precisamente uma versão modificada com linhas específicas(e privadas) do seu gosto. Uma versão modificada do [MicroEmacs](https://www.emacswiki.org/emacs/MicroEmacs) que ele demonimou de **uEmacs** .
 
 # Introdução
 A licença do uEmacs é **free-noncomm**, ou seja, gratuita, mas não pode utilizar para fins comerciais. Ele é chamado de uEmacs/PK , eu não sei o porque desse PK no nome, mas eu li que foi incorporado por Petri H. Kutvonen, Universidade de Helsinque, Finlândia. Talvez essa sigla PK seja as iniciais dos nomes desse cara que foi citado.
