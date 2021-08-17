@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça o Editor de Texto utilizado por Linux Torvalds"
+title: "Conheça o Editor de Texto utilizado por Linus Torvalds"
 date: 2021-08-17 10:39:39
 image: '/assets/img/editores/em.jpg'
 description: 'Disponível no GitHub e em kernel.org'
