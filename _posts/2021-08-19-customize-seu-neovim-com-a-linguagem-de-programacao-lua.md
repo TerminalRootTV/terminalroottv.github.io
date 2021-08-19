@@ -35,14 +35,14 @@ data-ad-slot="5351066970"></ins>
 ## Dependências
 {% highlight bash %}
 sudo apt install build-essential cmake make gcc curl git
-``` 
+{% endhighlight %}
 
 ## Instalação
 
 + 1. Remova seu NEOVIM se você tiver instalado
 {% highlight bash %}
 sudo apt remove neovim --purge
-``` 
+{% endhighlight %}
 
 + 2. Clone o Neovim
 {% highlight bash %}
@@ -99,6 +99,7 @@ nvim main.cpp
 Exemplo, mapear a letra 'q' sair no modo de comando
 
 Edite o arquivo: `nvim ~/.config/nvim/lua/mappings.lua`
+
 {% highlight lua %}
 -- Meus mapeamentos
 map("n", "q", ":quit <CR>", opt)
@@ -108,6 +109,7 @@ map("n", "q", ":quit <CR>", opt)
 Por exemplo, quando entramos em modo normal o cursor fica do tipo **Block** e se você gosta do **I-Beam**, ele modifica até o do terminal.
 
 Para alterar para sempre ser I-Beam utilizando VimScript dentro de arquivos `.lua` edite o arquivo: `~/.config/nvim/lua/options.lua` e adicione essa linha:
+
 {% highlight lua %}
 vim.cmd [[ set guicursor= ]]
 {% endhighlight %}
