@@ -11,7 +11,7 @@ tags:
 - cppdaily
 ---
 
-![Entendendo como utilizar async em C++](/assets/img/async.png)
+![Entendendo como utilizar async em C++](/assets/img/cpp/async.png)
 
 ---
 
