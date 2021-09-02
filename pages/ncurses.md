@@ -2535,15 +2535,882 @@ Eu costumo usá-lo para armazenar a função a ser executada quando a opção do
 
 ---
 
-# CAPÍTULOS NÃO TRADUZIDOS:
-+ 16/18 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/forms.html>
-+ 17/19 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/tools.html>
-+ 18/20 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/justforfun.html>
-+ 19/21 - <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/ref.html>
+# 16. Biblioteca de Formulários
+Bem. Se você viu esses formulários em páginas da web que recebem informações dos usuários e fazem vários tipos de coisas, pode estar se perguntando como alguém criaria esses formulários na exibição em modo de texto. É muito difícil escrever essas formas bacanas no ncurses cru.
+
+A biblioteca de formulários tenta fornecer uma estrutura básica para construir e manter formulários com facilidade. ela possui muitos recursos (funções) que gerenciam a validação, expansão dinâmica de campos etc. Vamos ver em pleno fluxo.
+
+Um formulário é uma coleção de campos; cada campo pode ser um rótulo (texto estático) ou um local de entrada de dados. A biblioteca de formulários também fornece funções para dividir os formulários em várias páginas.
+
+## 16.1. O Básico
+Os formulários são criados praticamente da mesma maneira que os menus. Primeiro, os campos relacionados ao formulário são criados com `new_field()`. Você pode definir opções para os campos, de modo que eles possam ser exibidos com alguns atributos sofisticados, validados antes que o campo perca o foco etc.
+
+Em seguida, os campos são anexados ao formulário. Depois disso, o formulário pode ser postado para exibição e está pronto para receber entradas. Nas linhas semelhantes a `menu_driver()`, o formulário é manipulado com `form_driver()`.
+
+Podemos enviar solicitações para form_driver para mover o foco para um determinado campo, mover o cursor para o final do campo etc. Depois que o usuário insere os valores nos campos e a validação é feita, o formulário pode ser não postado e a memória alocada pode ser liberada.
+
+O fluxo geral de controle de um programa de formulários se parece com isto.
+
+1. Inicializar curses
+1. Criar campos usando `new_field()`. Você pode especificar a altura e largura do campo e sua posição no formulário.
+1. Criar os formulários com `new_form()` especificando os campos a serem anexados.
+1. Publicar o formulário com `form_post()` e atualizar a tela.
+1. Processar as solicitações do usuário com um loop e fazer as atualizações necessárias para o formulário com `form_driver`.
+1. Desfazer o menu com `form_unpost()`
+1. Liberar a memória alocada ao menu por `free_form()`
+1. Liberar a memória alocada para os itens com `free_field()`
+1. Finalizar curses
+
+Como você pode ver, trabalhar com a biblioteca de formulários é muito semelhante a lidar com a biblioteca de menus. Os exemplos a seguir explorarão vários aspectos do processamento de formulários. Vamos começar a jornada com um exemplo simples.
+
+## 16.2. Compilando com a Biblioteca de Formulários
+Para usar as funções da biblioteca de formulários, você deve incluir form.h e vincular o programa à biblioteca de formulários, o sinalizador `-lfor`m deve ser adicionado junto com `-lncurses` nessa ordem.
+```cpp
+#include <form.h>
+.
+.
+.
+```
+> Compile e link: `g++ <program file> -lform -lncurses`
+
+Exemplo 25. O básico de formulários
+```cpp
+#include <form.h>
+
+int main(){
+  FIELD *field[3];
+  FORM  *my_form;
+  int ch;
+
+  // Inicializa curses 
+  initscr();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  // Initialize the fields 
+  field[0] = new_field(1, 10, 4, 18, 0, 0);
+  field[1] = new_field(1, 10, 6, 18, 0, 0);
+  field[2] = NULL;
+
+  // Define opções de campo 
+  set_field_back(field[0], A_UNDERLINE);  // Imprima a linha para a opção
+  field_opts_off (campo [0], O_AUTOSKIP);   // Não vá para o próximo campo quando este 
+  // campo estiver preenchido           
+  set_field_back(field[1], A_UNDERLINE); 
+  field_opts_off(field[1], O_AUTOSKIP);
+
+  // Cria o formulário e o publica 
+  my_form = new_form(field);
+  post_form(my_form);
+  refresh();
+
+  mvprintw (4, 10, "Valor 1:");
+  mvprintw (6, 10, "Valor 2:");
+  refresh();
+
+  // Loop para obter as solicitações do usuário 
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case KEY_DOWN:
+      // Vai para o próximo campo 
+      form_driver(my_form, REQ_NEXT_FIELD);
+      // Vai para o final do buffer presente 
+      // Sai bem no último caractere 
+      form_driver(my_form, REQ_END_LINE);
+      break;
+      case KEY_UP:
+      // Vai para o campo anterior 
+      form_driver(my_form, REQ_PREV_FIELD);
+      form_driver(my_form, REQ_END_LINE);
+      break;
+      default:
+      // Se este for um caractere normal, ele é 
+      // Impresso                                   
+      form_driver(my_form, ch);
+      break;
+    }
+  }
+
+  // Retire o formulário de postagem e libere a memória 
+  unpost_form(my_form);
+  free_form(my_form);
+  free_field(field[0]);
+  free_field(field[1]); 
+
+  endwin();
+  return 0;
+}
+```
+
+O exemplo acima é bastante direto. Ele cria dois campos com `new_field()` . `new_field()` leva `altura`, `largura`, `starty`, `startx`, número de linhas fora da tela e número de buffers de trabalho adicionais.
+
+O quinto argumento o número de linhas fora da tela especifica quanto do campo deve ser mostrado. Se for zero, todo o campo será sempre exibido, caso contrário o formulário será rolável quando o usuário acessar partes não exibidas do campo.
+
+A biblioteca de formulários aloca um buffer por campo para armazenar os dados inseridos pelo usuário. Usando o último parâmetro para `new_field()`, podemos especificá-lo para alocar alguns buffers adicionais. Eles podem ser usados para qualquer finalidade que você desejar.
+
+Depois de criar os campos, o atributo de fundo de ambos é definido como um sublinhado com `set_field_back()`. A opção `AUTOSKIP` é desligada usando `field_opts_off()`. Se essa opção estiver ativada, o foco passará para o próximo campo do formulário assim que o campo ativo for totalmente preenchido.
+
+Após anexar os campos ao formulário, ele é postado. Daqui em diante, as entradas do usuário serão processadas no loop while, fazendo solicitações correspondentes para `form_driver`. Os detalhes de todas as solicitações ao `form_driver()` serão explicados posteriormente.
+
+## 16.3. Brincando com Campos
+Cada campo de formulário está associado a vários atributos. Eles podem ser manipulados para obter o efeito desejado e se divertir!!!. Então, por que esperar?
+
+### 18.3.1. Buscando tamanho e localização do campo
+Os parâmetros que fornecemos no momento da criação de um campo podem ser recuperados com `field_info()`. Ela retorna `altura`, `largura`, `starty`, `startx`, número de linhas fora da tela e número de buffers adicionais nos parâmetros fornecidos a ela. É uma espécie de inverso de `new_field()`.
+
+```cpp
+int field_info (     FIELD *field,              // campo do qual buscar 
+    int *height, *int width,   // tamanho do campo 
+    int *top, int *left,       // canto superior esquerdo
+    int *offscreen,            // número de linhas fora da tela
+    int *nbuf);                // número de buffers de trabalho 
+```
+
+### 18.3.2. Movendo o campo
+A localização do campo pode ser movida para uma posição diferente com `move_field()`.
+```cpp
+int move_field (    FIELD *field,              // campo para alterar 
+    int top, int left);        // novo canto superior esquerdo
+```
+
+Como de costume, a posição alterada pode ser consultada com `field_infor()`.
+
+## 16.3.3. Justificativa de campo
+A justificativa a ser feita para o campo pode ser corrigida usando a função `set_field_just(`).
+
+```cpp
+int set_field_just(FIELD *field,          // campo para alterar
+    int justmode);         // modo para definir 
+int field_just (FIELD *field);          // buscar modo justificar do campo 
+```
+
+O modo de justificação com valor aceito e retornado por essas funções são `NO_JUSTIFICATION`, `JUSTIFY_RIGHT`, `JUSTIFY_LEFT` ou `JUSTIFY_CENTER`.
+
+### 18.3.4. Atributos de exibição de campo
+Como você viu, no exemplo acima, o atributo display para os campos pode ser definido com `set_field_fore()` e `setfield_back()`. Essas funções definem os atributos de primeiro e segundo plano dos campos.
+
+Você também pode especificar um caractere de teclado que será preenchido na parte não preenchida do campo. O caractere pad é definido com uma chamada para `set_field_pad()`. O valor padrão do teclado é um espaço.
+
+As funções `field_fore()`, `field_back`, `field_pad()` podem ser usadas para consultar o primeiro plano atual, os atributos de fundo e o caractere de teclado do campo. A lista a seguir fornece o uso de funções.
+```cpp
+
+int set_field_fore (FIELD *field,        // campo para alterar 
+    chtype attr);        // atributo para definir 
+
+chtype field_fore(FIELD *field);        // campo para consultar 
+// retorna o atributo de primeiro plano 
+
+int set_field_back (FIELD field*,        // campo para alterar 
+    chtype attr);        // atributo para definir 
+
+chtype field_back (FIELD *field);        // campo para consultar 
+// retorna o atributo de fundo 
+
+int set_field_pad(FIELD *field,         // campo para alterar 
+    int pad);             // pad caractere para definir 
+
+chtype field_pad(FIELD *field);         // campo para consultar  
+// retorna o caractere do teclado atual 
+```
+
+Embora as funções acima pareçam bastante simples, usar cores com `set_field_fore()` pode ser frustrante no início. Deixe-me primeiro explicar sobre os atributos de primeiro e segundo plano de um campo. O atributo foreground está associado ao caractere.
+
+Isso significa que um caractere no campo é impresso com o atributo que você configurou com `set_field_fore(`). Atributo de fundo é o atributo usado para preencher o fundo do campo, esteja algum caractere lá ou não.
+
+E quanto às cores? Como as cores são sempre definidas em pares, qual é a maneira correta de exibir os campos coloridos? Aqui está um exemplo que esclarece os atributos de cores.
+
+Exemplo 26. Exemplo de atributos de formulário
+```cpp
+#include <form.h>
+
+int main(){
+  FIELD *field[3];
+  FORM  *my_form;
+  int ch;
+
+  // Inicializa curses 
+  initscr();
+  start_color();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  // Inicializa alguns pares de cores 
+  init_pair(1, COLOR_WHITE, COLOR_BLUE);
+  init_pair(2, COLOR_WHITE, COLOR_BLUE);
+
+  // Initialize the fields 
+  field[0] = new_field(1, 10, 4, 18, 0, 0);
+  field[1] = new_field(1, 10, 6, 18, 0, 0);
+  field[2] = NULL;
+
+  // Define opções de campo 
+  set_field_fore (field [0], COLOR_PAIR (1)); // Coloca o campo com fundo azul 
+  set_field_back (field [0], COLOR_PAIR (2)); // e primeiro plano branco (caracteres 
+  // são impressos em branco         
+  field_opts_off (campo [0], O_AUTOSKIP);   // Não vá para o próximo campo quando este 
+  // campo estiver preenchido           
+  set_field_back(field[1], A_UNDERLINE); 
+  field_opts_off(field[1], O_AUTOSKIP);
+
+  // Cria o formulário e o publica 
+  my_form = new_form(field);
+  post_form(my_form);
+  refresh();
+
+  set_current_field (my_form, field [0]); // Define o foco para o campo colorido 
+  mvprintw (4, 10, "Valor 1:");
+  mvprintw (6, 10, "Valor 2:");
+  mvprintw (LINHAS - 2, 0, "Use as teclas de seta PARA CIMA e PARA BAIXO para alternar entre os campos");
+  refresh();
+
+  // Loop para obter as solicitações do usuário 
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case KEY_DOWN:
+        // Vai para o próximo campo 
+        form_driver(my_form, REQ_NEXT_FIELD);
+        // Vai para o final do buffer presente 
+        // Sai bem no último caractere 
+        form_driver(my_form, REQ_END_LINE);
+        break;
+      case KEY_UP:
+        // Vai para o campo anterior 
+        form_driver(my_form, REQ_PREV_FIELD);
+        form_driver(my_form, REQ_END_LINE);
+        break;
+      default:
+        // Se este for um caractere normal, ele é 
+        // Impresso                                   
+        form_driver(my_form, ch);
+        break;
+    }
+  }
+
+  // Retire o formulário de postagem e libere a memória 
+  unpost_form(my_form);
+  free_form(my_form);
+  free_field(field[0]);
+  free_field(field[1]); 
+
+  endwin();
+  return 0;
+}
+```
+
+Brinque com os pares de cores e tente entender os atributos de primeiro e segundo plano. Em meus programas que usam atributos de cor, geralmente defino apenas o plano de fundo com `set_field_back()`. Curses simplesmente não permite definir atributos de cores individuais.
+
+### 18.3.5. Bits de opção de campo
+Há também uma grande coleção de bits de opção de campo que você pode definir para controlar vários aspectos do processamento de formulários. Você pode manipulá-los com estas funções:
+```cpp
+int set_field_opts(FIELD *field,          // campo a alterar 
+    int attr);             // atributo para definir 
+
+int field_opts_on(FIELD *field,           // campo a alterar 
+    int attr);              // atributos para ligar 
+
+int field_opts_off(FIELD *field,          // campo a alterar 
+    int attr);              // atributos para desligar 
+
+int field_opts(FIELD *field);             // campo a alterar 
+```
+
+A função `set_field_opts(`) pode ser usada para definir diretamente os atributos de um campo ou você pode escolher ativar e desativar alguns atributos com `field_opts_on()` e `field_opts_off()` seletivamente. A qualquer tempo, você pode consultar os atributos de um campo com `field_opts()`. A seguir está a lista de opções disponíveis. Por padrão, todas as opções estão ativadas.
+
++ `O_VISIBLE` - Controla se o campo está visível na tela. Pode ser usado durante o processamento do formulário para ocultar ou exibir campos dependendo do valor dos campos pais.
++ `O_ACTIVE` - Controla se o campo está ativo durante o processamento de formulários (ou seja, visitado por teclas de navegação de formulário). Pode ser usado para fazer rótulos ou campos derivados com valores de buffer alteráveis pelo aplicativo de formulários, não pelo usuário.
++ `O_PUBLIC` - Controla se os dados são exibidos durante a entrada no campo. Se esta opção estiver desativada em um campo, a biblioteca aceitará e editará os dados naquele campo, mas não será exibido e o cursor do campo visível não se moverá. Você pode desligar o bit `O_PUBLIC` para definir os campos de senha.
++ `O_EDIT` - Controla se os dados do campo podem ser modificados. Quando esta opção está desligada, todas as solicitações de edição, exceto `REQ_PREV_CHOICE` e `REQ_NEXT_CHOICE` vai falhar. Esses campos somente leitura podem ser úteis para mensagens de ajuda.
++ `O_WRAP` - Controla a quebra de linha em campos com várias linhas. Normalmente, quando qualquer caractere de uma palavra (separada por espaços em branco) atinge o final da linha atual, a palavra inteira é quebrada para a próxima linha (assumindo que haja uma). Quando esta opção está desativada, a palavra será dividida na quebra de linha.
++ `O_BLANK` - Controla a supressão de campo. Quando esta opção está ativada, inserir um caractere na primeira posição do campo apaga todo o campo (exceto para o caractere recém-inserido).
++ `O_AUTOSKIP` - Controla o salto automático para o próximo campo quando este for preenchido. Normalmente, quando o usuário de formulários tenta digitar mais dados em um campo do que cabem, o local de edição pula para o próximo campo. Quando esta opção está desligada, o cursor do usuário ficará pendurado no final do campo. Esta opção é ignorada em campos dinâmicos que não atingiram seu limite de tamanho.
++ `O_NULLOK` - Controla se a validação é aplicada a campos em branco. Normalmente, não é; o usuário pode deixar um campo em branco sem invocar a verificação de validação usual na saída. Se esta opção estiver desativada em um campo, sair dele invocará uma verificação de validação.
++ `O_PASSOK` - Controla se a validação ocorre em cada saída ou somente após o campo ser modificado. Normalmente, o último é verdadeiro. A configuração de O_PASSOK pode ser útil se a função de validação do seu campo pode mudar durante o processamento de formulários.
++ `O_STATIC` - Controla se o campo é fixo em suas dimensões iniciais. Se você desligar isso, o campo se tornará dinâmico e se expandirá para caber nos dados inseridos.
+
+As opções de um campo não podem ser alteradas enquanto o campo estiver selecionado no momento. No entanto, as opções podem ser alteradas em campos postados que não são atuais.
+Os valores das opções são máscaras de bits e podem ser compostos de forma lógica ou óbvia.
+
+Você viu o uso de desligar a opção `O_AUTOSKIP`. O exemplo a seguir esclarece o uso de mais algumas opções. Outras opções são explicadas quando apropriado.
+Exemplo 27. Exemplo de uso de opções de campo
+```cpp
+#include <form.h>
+
+#define STARTX 15
+#define STARTY 4
+#define WIDTH 25
+
+#define N_FIELDS 3
+
+int main(){
+  FIELD *field[N_FIELDS];
+  FORM  *my_form;
+  int ch, i;
+
+  // Inicializa curses 
+  initscr();
+  cbreak();
+  noecho();
+  keypad(stdscr, TRUE);
+
+  // Initialize the fields 
+  for(i = 0; i < N_FIELDS - 1; ++i)
+    field[i] = new_field(1, WIDTH, STARTY + i * 2, STARTX, 0, 0);
+  field[N_FIELDS - 1] = NULL;
+
+  // Define opções de campo 
+  set_field_back (campo [1], A_UNDERLINE);  // Imprime uma linha para a opção  
+
+  field_opts_off (campo [0], O_ACTIVE); // Este campo é um rótulo estático 
+  field_opts_off (campo [1], O_PUBLIC); // Este campo é como um campo de senha 
+  field_opts_off (campo [1], O_AUTOSKIP); // Para evitar inserir o mesmo campo 
+  // após o último caractere ser inserido 
+
+  // Cria o formulário e o publica 
+  my_form = new_form(field);
+  post_form(my_form);
+  refresh();
+
+  set_field_just (campo [0], JUSTIFY_CENTER); // Justificado ao centro 
+  set_field_buffer (field [0], 0, "Este é um campo estático");
+  // Inicializa o campo  
+  mvprintw(STARTY, STARTX - 10, "Field 1:");
+  mvprintw(STARTY + 2, STARTX - 10, "Field 2:");
+  refresh();
+
+  // Loop para obter as solicitações do usuário 
+  while((ch = getch()) != KEY_F(1)){
+    switch(ch){
+      case KEY_DOWN:
+      // Vai para o próximo campo 
+      form_driver(my_form, REQ_NEXT_FIELD);
+      // Vai para o final do buffer presente 
+      // Sai bem no último caractere 
+      form_driver(my_form, REQ_END_LINE);
+      break;
+      case KEY_UP:
+      // Vai para o campo anterior 
+      form_driver(my_form, REQ_PREV_FIELD);
+      form_driver(my_form, REQ_END_LINE);
+      break;
+      default:
+      // Se este for um caractere normal, ele é 
+      // Impresso                                   
+      form_driver(my_form, ch);
+      break;
+    }
+  }
+
+  // Retire o formulário de postagem e libere a memória 
+  unpost_form(my_form);
+  free_form(my_form);
+  free_field(field[0]);
+  free_field(field[1]); 
+
+  endwin();
+  return 0;
+}
+```
+
+Este exemplo, embora inútil, mostra o uso de opções. Se usados corretamente, eles podem apresentar informações de forma muito eficaz em um formulário. O segundo campo não sendo `O_PUBLIC`, não mostra os caracteres que você está digitando.
+
+### 18.3.6. Campo Status
+O status do campo especifica se o campo foi editado ou não. É inicialmente definido como `FALSE` e quando o usuário insere algo e o buffer de dados é modificado, ele se torna `TRUE`. Assim, o status de um campo pode ser consultado para descobrir se ele foi modificado ou não. As funções a seguir podem ajudar nessas operações.
+
+```cpp
+int set_field_status(FIELD *field,      // campo para alterar 
+    status int);         // status para definir 
+
+int field_status (FIELD *field);         // buscar status do campo 
+```
+
+É melhor verificar o status do campo somente após sair do campo, pois o buffer de dados pode não ter sido atualizado ainda porque a validação ainda está vencida. Para garantir que o status correto seja retornado, chame `field_status` `()` ou `(1)` na rotina de verificação de validação de saída do campo, `(2)` nos ganchos de inicialização ou finalização do campo ou formulário, ou `(3)` logo após uma solicitação` REQ_VALIDATION` ter sido processada por o driver de formulários.
+### 18.3.7. Ponteiro de usuário de campo
+Cada estrutura de campo contém um ponteiro que pode ser usado pelo usuário para vários fins. Não é tocado pela biblioteca de formulários e pode ser usado para qualquer finalidade pelo usuário. As funções a seguir definem e buscam o ponteiro do usuário.
+```cpp
+int set_field_userptr(FIELD *field,   
+    char * userptr);      // o ponteiro do usuário que você deseja associar 
+// com o campo    
+
+char * field_userptr (FIELD *field);      // busca o ponteiro do usuário do campo 
+```
+
+### 18.3.8. Campos de tamanho variável
+Se você quer um campo que muda dinamicamente com largura variável, este é o recurso que você quer colocar em uso total. Isso permitirá que o usuário insira mais dados do que o tamanho original do campo e deixe o campo crescer.
+
+De acordo com a orientação do campo, ele rolará horizontalmente ou verticalmente para incorporar os novos dados.
+
+Para fazer um campo crescer dinamicamente, a opção O_STATIC deve ser desligada. Isso pode ser feito com um: `field_opts_off(field_pointer, O_STATIC);`
+
+Mas geralmente não é aconselhável permitir que um campo cresça infinitamente. Você pode definir um limite máximo para o crescimento do campo com:
+```cpp
+int set_max_field(FIELD *field,    // Campo no qual operar 
+    int max_growth); // crescimento máximo permitido para o campo 
+```
+
+As informações de campo para um campo que pode crescer dinamicamente podem ser recuperadas por
+```cpp
+int dynamic_field_info( FIELD *field,     // Campo no qual operar 
+    int   * proa,     // o número de linhas será preenchido neste 
+    int <s0></s0> *pcols, <s1></s1> // número de colunas será preenchido neste
+    int   * pmax)      // o crescimento máximo permitido será preenchido 
+```
+
+Embora `field_info` funcione normalmente, é aconselhável usar esta função para obter os atributos apropriados de um campo que pode crescer dinamicamente.
+
+Relembre a rotina da biblioteca `new_field`; um novo campo criado com altura definida para um será definido como um campo de uma linha. Um novo campo criado com altura maior que um será definido como um campo multilinha.
+
+Um campo de uma linha com `O_STATIC` desligado (campo dinamicamente crescevel) conterá uma única linha fixa, mas o número de colunas pode aumentar se o usuário digitar mais dados do que o campo inicial irá conter. O número de colunas exibidas permanecerá fixo e os dados adicionais irão rolar horizontalmente.
+
+Um campo multilinha com `O_STATIC` desativado (campo que pode ser ampliado dinamicamente) conterá um número fixo de colunas, mas o número de linhas pode aumentar se o usuário inserir mais dados do que o campo inicial pode conter. O número de linhas exibidas permanecerá fixo e os dados adicionais rolarão verticalmente.
+
+Os dois parágrafos acima descrevem muito bem o comportamento de um campo que pode crescer dinamicamente. A forma como outras partes da biblioteca de formulários se comportam é descrita abaixo:
+1. A opção de campo `O_AUTOSKIP` será ignorada se a opção `O_STATIC` estiver desligada e não houver crescimento máximo especificado para o campo. Atualmente, `O_AUTOSKI`P gera uma solicitação automática de driver de formulário `REQ_NEXT_FIELD` quando o usuário digita a última posição de caractere de um campo. Em um campo que pode ser ampliado sem nenhum crescimento máximo especificado, não há posição do último caractere. Se um crescimento máximo for especificado, a opção `O_AUTOSKIP` funcionará normalmente se o campo tiver crescido ao seu tamanho máximo.
+1. A justificativa de campo será ignorada se a opção `O_STATIC` estiver desligada. Atualmente, `set_field_just` pode ser usado para `JUSTIFY_LEFT`, `JUSTIFY_RIGHT`, `JUSTIFY_CENTER` o conteúdo de um campo de linha única. Um campo de uma linha que pode crescer, por definição, vai crescer e rolar horizontalmente e pode conter mais dados do que pode ser justificado. O retorno de `field_just` será inalterado. CONTINUACAO
+1. A solicitação de driver de formulário sobrecarregado `REQ_NEW_LINE` operará da mesma maneira, independentemente da opção de formulário `O_NL_OVERLOAD`, se a opção de campo `O_STATIC` estiver desativada e não houver crescimento máximo especificado para o campo. Atualmente, se a opção de formulário `O_NL_OVERLOAD` estiver ligado, `REQ_NEW_LINE` gera implicitamente uma `REQ_NEXT_FIELD` se chamada da última linha de um campo. Se um campo pode crescer sem limites, não há última linha, então `REQ_NEW_LINE` nunca gerará implicitamente um `REQ_NEXT_FIELD`. Se um limite máximo de crescimento for especificado e a opção de formulário `O_NL_OVERLOAD` estiver, `REQ_NEW_LINE` só gerará implicitamente `REQ_NEXT_FIELD` se o campo tiver crescido ao seu tamanho máximo e o usuário estiver na última linha.
+1. A chamada da biblioteca `dup_field` funcionará normalmente; ele duplicará o campo, incluindo o tamanho do buffer atual e o conteúdo do campo que está sendo duplicado. Qualquer crescimento máximo especificado também será duplicado.
+1. A chamada da biblioteca `link_field` funcionará normalmente; duplicará todos os atributos de campo e compartilhará buffers com o campo sendo vinculado. Se a opção de campo `O_STATIC` for posteriormente alterada por um buffer de compartilhamento de campo, como o sistema reage a uma tentativa de inserir mais dados no campo do que o buffer será atualmente conter dependerá da definição da opção no campo atual.
+1. A chamada da biblioteca `field_info` funcionará normalmente; a variável nrow conterá o valor da chamada original para `new_field`. O usuário deve usar `dynamic_field_info`, descrita acima, para consultar o tamanho atual do buffer.
+Alguns dos pontos acima só fazem sentido depois de explicar o driver de formulário. Vamos investigar isso nas próximas seções.
+
+## 16.4. Formulário de Janelas
+O conceito de formulário de janelas é praticamente semelhante às janelas do menu. Cada forma está associada a uma janela principal e uma subjanela. A janela principal do formulário exibe qualquer título ou borda associada ou o que o usuário desejar. Em seguida, a subjanela contém todos os campos e os exibe de acordo com sua posição. Isso dá a flexibilidade de manipular a exibição de formas sofisticadas com muita facilidade.
+Uma vez que isso é muito semelhante às janelas do menu, estou fornecendo um exemplo com muita explicação. As funções são semelhantes e funcionam da mesma maneira.
+
+> Exemplo 28. Exemplo de Formulário de Janelas
+```cpp
+#include <form.h>
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+
+int main()
+{
+        FIELD *field[3];
+        FORM  *my_form;
+        WINDOW *my_form_win;
+        int ch, rows, cols;
+        
+        // Inicializa curses 
+        initscr();
+        start_color();
+        cbreak();
+        noecho();
+        keypad(stdscr, TRUE);
+
+        // Inicializa alguns pares de cores 
+        init_pair(1, COLOR_RED, COLOR_BLACK);
+
+        // Initialize the fields 
+        field[0] = new_field(1, 10, 6, 1, 0, 0);
+        field[1] = new_field(1, 10, 8, 1, 0, 0);
+        field[2] = NULL;
+
+        // Define opções de campo 
+        set_field_back(field[0], A_UNDERLINE);
+        field_opts_off(campo[0], O_AUTOSKIP); Não vá para o próximo campo quando esse 
+                                              // campo estiver preenchido             
+        set_field_back(field[1], A_UNDERLINE); 
+        field_opts_off(field[1], O_AUTOSKIP);
+        
+        // Cria o formulário e o publica 
+        my_form = new_form(field);
+        
+        // Calcula a área necessária para o formulário 
+        scale_form(my_form, &rows, &cols);
+
+        // Cria a janela a ser associada ao formulário 
+        my_form_win = newwin(rows + 4, cols + 4, 4, 4);
+        keypad(my_form_win, TRUE);
+
+        // Define a janela principal e a subjanela 
+        set_form_win(my_form, my_form_win);
+        set_form_sub(my_form, derwin(my_form_win, rows, cols, 2, 2));
+
+        // Imprime uma borda ao redor da janela principal e imprime um título 
+        box(my_form_win, 0, 0);
+        print_in_middle(my_form_win, 1, 0, cols + 4, "My Form", COLOR_PAIR(1));
+        
+        post_form(my_form);
+        wrefresh(my_form_win);
+
+        mvprintw (LINHAS - 2, 0, "Use as teclas de seta PARA CIMA e PARA BAIXO para alternar entre os campos");
+        refresh();
+
+        // Loop para obter as solicitações do usuário 
+        while((ch = wgetch(my_form_win)) != KEY_F(1))
+        {       switch(ch)
+                {       case KEY_DOWN:
+                                // Vai para o próximo campo 
+                                form_driver(my_form, REQ_NEXT_FIELD);
+                                // Vai para o final do buffer presente 
+                                // Sai bem no último caractere 
+                                form_driver(my_form, REQ_END_LINE);
+                                break;
+                        case KEY_UP:
+                                // Vai para o campo anterior 
+                                form_driver(my_form, REQ_PREV_FIELD);
+                                form_driver(my_form, REQ_END_LINE);
+                                break;
+                        default:
+                                // Se este for um caractere normal, ele é 
+                                // Impresso                                   
+                                form_driver(my_form, ch);
+                                break;
+                }
+        }
+
+        // Retire o formulário de postagem e libere a memória 
+        unpost_form(my_form);
+        free_form(my_form);
+        free_field(field[0]);
+        free_field(field[1]); 
+
+        endwin();
+        return 0;
+}
+
+void print_in_middle(WINDOW *win, int starty, int startx, int width, char *string, chtype color)
+{       int length, x, y;
+        float temp;
+
+        if(win == NULL)
+                win = stdscr;
+        getyx(win, y, x);
+        if(startx != 0)
+                x = startx;
+        if(starty != 0)
+                y = starty;
+        if(width == 0)
+                width = 80;
+
+        length = strlen(string);
+        temp = (width - length)/ 2;
+        x = startx + (int)temp;
+        wattron(win, color);
+        mvwprintw(win, y, x, "%s", string);
+        wattroff(win, color);
+        refresh();
+}
+```
+
+
+## 16.5. Validação de Campo
+Por padrão, um campo aceitará qualquer entrada de dados pelo usuário. É possível anexar validação ao campo. Então, qualquer tentativa do usuário de deixar o campo, enquanto ele contém dados que não correspondem ao tipo de validação falhará. Alguns tipos de validação também têm uma verificação de validade de caractere para cada vez que um caractere é inserido no campo.
+A validação pode ser anexada a um campo com a seguinte função.
+
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   FIELDTYPE *ftype, <s0></s0> // tipo para associar 
+                   ...); <s0></s0>// argumentos adicionais
+```
+
+Uma vez definido, o tipo de validação de um campo pode ser consultado com
+
+`FIELDTYPE *field_type(FIELD *field);      // campo para consultar` 
+
+O driver de formulário valida os dados em um campo somente quando os dados são inseridos pelo usuário final. A validação não ocorre quando
++ • o programa de aplicação altera o valor do campo chamando set_field_buffer.
++ • valores de campo ligados são alterados indiretamente - mudando o campo ao qual eles estão ligados
+
+A seguir, os tipos de validação pré-definidos. Você também pode especificar validação personalizada, embora seja um pouco complicado e complicado.
+
++ `TYPE_ALPHA`
+Este tipo de campo aceita dados alfabéticos; sem espaços em branco, sem dígitos, sem caracteres especiais (isso é verificado na hora da entrada do personagem). Ele é configurado com:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_ALPHA,            // tipo para associar 
+                   largura interna);            // largura máxima do campo 
+```
+
+O argumento de largura define uma largura mínima de dados. O usuário deve inserir pelo menos um número de largura de caracteres antes de poder deixar o campo. Normalmente você deseja definir isso para a largura do campo; se for maior que a largura do campo, a verificação de validação sempre falhará. Uma largura mínima de zero torna o preenchimento do campo opcional.
+
++ `TYPE_ALNUM`
+Este tipo de campo aceita dados alfabéticos e dígitos; sem espaços em branco, sem caracteres especiais (isso é verificado no momento da entrada do caractere). Ele é configurado com:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_ALNUM,            // tipo para associar 
+                   largura interna);            // largura máxima do campo 
+```
+
+O argumento de largura define uma largura mínima de dados. Tal como acontece com `TYPE_ALPHA`, normalmente você deseja definir isso para a largura do campo; se for maior que a largura do campo, a verificação de validação sempre falhará. Uma largura mínima de zero torna o preenchimento do campo opcional.
+
++ `TYPE_ENUM`
+Este tipo permite que você restrinja os valores de um campo a um conjunto especificado de valores de string (por exemplo, os códigos postais de duas letras para os EUA ) Ele é configurado com:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_ENUM,             // tipo para associar 
+                   char ** valuelist;      // lista de valores possíveis 
+                   int checkcase;         // maiúsculas e minúsculas? 
+                   int checkunique);      // deve especificar exclusivamente? 
+```
+
+O parâmetro valuelist deve apontar para uma lista terminada em `NULL` de strings válidas. O argumento checkcase, se true, faz a comparação com a string com distinção entre maiúsculas e minúsculas.
+
+Quando o usuário sai de um campo `TYPE_ENUM`, o procedimento de validação tenta completar os dados no buffer para uma entrada válida. Se uma string de escolha completa foi inserida, é claro que é válida. Mas também é possível inserir um prefixo de uma string válida e preenchê-la para você.
+
+Por padrão, se você inserir esse prefixo e ele corresponder a mais de um valor na lista de strings, o prefixo será completado com o primeiro valor correspondente. Mas o argumento checkunique, se verdadeiro, requer que as correspondências de prefixo sejam exclusivas para serem válidas.
+
+As solicitações de entrada REQ_NEXT_CHOICE e REQ_PREV_CHOICE podem ser particularmente úteis com esses campos.
+
++ `TYPE_INTEGER`
+Este tipo de campo aceita um número inteiro. É configurado da seguinte forma:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_INTEGER,          // tipo para associar 
+                   int padding,           // # coloca para zero 
+                   int vmin, int vmax);   // intervalo válido 
+```
+
+Os caracteres válidos consistem em um sinal de menos e dígitos iniciais opcionais. A verificação de alcance é realizada na saída. Se o intervalo máximo for menor ou igual ao mínimo, o intervalo será ignorado.
+
+Se o valor passar na verificação de intervalo, ele será preenchido com tantos dígitos de zero à esquerda quantos forem necessários para atender ao argumento de preenchimento.
+Um buffer de valor` TYPE_INTEGER` pode ser convenientemente interpretado com a função de biblioteca C `atoi` .
+
++ `TYPE_NUMERIC`
+Este tipo de campo aceita um número decimal. É configurado da seguinte forma:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_NUMERIC,          // tipo para associar 
+                   int padding,           // # locais de precisão 
+                   int vmin, int vmax);   // intervalo válido 
+```
+
+Os caracteres válidos consistem em um sinal de menos e dígitos iniciais opcionais. possivelmente incluindo um ponto decimal. A verificação de alcance é realizada na saída. Se o intervalo máximo for menor ou igual ao mínimo, o intervalo será ignorado.
+
+Se o valor passar na verificação de intervalo, ele será preenchido com tantos dígitos de zero à direita quantos forem necessários para atender ao argumento de preenchimento.
+Um buffer de valor `TYPE_NUMERIC` pode ser convenientemente interpretado com a função de biblioteca C .
+
++ `TYPE_REGEXP`
+Este tipo de campo aceita dados que correspondem a uma expressão regular. É configurado da seguinte forma:
+```cpp
+int set_field_type(FIELD *field,          // campo para alterar 
+                   TYPE_REGEXP,           // tipo para associar 
+                   char * regexp);         // expressão para corresponder 
+```
+
+A sintaxe para expressões regulares é a de `regcomp`. A verificação de correspondência de expressão regular é executada na saída.
+
+## 16.6. Driver de formulário: o cavalo de trabalho do sistema de formulários
+Como no sistema de menu, `form_driver()` desempenha um papel muito importante no sistema de formulários. Todos os tipos de solicitações ao sistema de formulários devem ser canalizados por `form_driver()`.
+```cpp
+int form_driver (FORM *form,     // formulário no qual operar     
+                int request)    // código de pedido do formulário         
+```
+
+Como você viu alguns dos exemplos acima, você deve estar em um loop procurando a entrada do usuário e então decidir se é um campo de dados ou uma solicitação de formulário. Os pedidos de formulário são então passados para `form_driver()` para fazer o trabalho.
+
+As solicitações podem ser divididas aproximadamente nas seguintes categorias. Os diferentes pedidos e seu uso são explicados abaixo:
+
+## 16.6.1. Solicitações de navegação de página
+Essas solicitações causam movimentações no nível da página pelo formulário, disparando a exibição de uma nova tela do formulário. Um formulário pode ter várias páginas. Se você tiver um formulário grande com muitos campos e seções lógicas, poderá dividir o formulário em páginas. A função `set_new_page()` para definir uma nova página no campo especificado.
+```cpp
+int set_new_page (FIELD *field, // Campo no qual a quebra de página deve ser definida ou removida 
+         bool new_page_flag); // deve ser TRUE para colocar uma pausa 
+```
+
+As seguintes solicitações permitem que você vá para páginas diferentes
++ `REQ_NEXT_PAGE` Vai para a próxima página do formulário.
++ `REQ_PREV_PAGE` Vai para a página anterior do formulário.
++ `REQ_FIRST_PAGE` Vai para a primeira página do formulário.
++ `REQ_LAST_PAGE` Vai para a última página do formulário.
+Essas solicitações tratam a lista como cíclica; ou seja, `REQ_NEXT_PAGE` da última página vai para a primeira e `REQ_PREV_PAGE` da primeira página vai para a última.
+
+## 16.6.2. Solicitações de navegação entre campos
+Essas solicitações lidam com a navegação entre campos na mesma página.
++ `REQ_NEXT_FIELD` Vai para o próximo campo.
++ `REQ_PREV_FIELD` Vai para o campo anterior.
++ `REQ_FIRST_FIELD` Vai para o primeiro campo.
++ `REQ_LAST_FIELD` Vai para o último campo.
++ `REQ_SNEXT_FIELD` Vai para o próximo campo selecionado.
++ `REQ_SPREV_FIELD` Vai para o campo anterior selecionado.
++ `REQ_SFIRST_FIELD` Vai para o primeiro campo selecionado.
++ `REQ_SLAST_FIELD` Vai para o último campo selecionado.
++ `REQ_LEFT_FIELD` Vai para o campo à esquerda .
++ `REQ_RIGHT_FIELD` Vai para o campo à direita. 
++ `REQ_UP_FIELD` Vai para o campo acima.
++ `REQ_DOWN_FIELD` Vai para o campo abaixo.
+
+Essas solicitações tratam a lista de campos em uma página como cíclica; isto é,`REQ_NEXT_FIELD` do último campo vai para o primeiro e`REQ_PREV_FIELD` do primeiro campo vai para o último. A ordem dos campos para estes (e as solicitações`REQ_FIRST_FIELD` e`REQ_LAST_FIELD`) é simplesmente a ordem dos ponteiros de campo na matriz do formulário (conforme configurado por `new_form()` ou `set_form_fields()`
+
+Também é possível percorrer os campos como se eles tivessem sido classificados na ordem da posição da tela, de modo que a sequência vai da esquerda para a direita e de cima para baixo. Para fazer isso, use o segundo grupo de quatro solicitações de movimento ordenado.
+
+Finalmente, é possível mover-se entre os campos usando direções visuais para cima, para baixo, para a direita e para a esquerda. Para fazer isso, use o terceiro grupo de quatro solicitações. Observe, no entanto, que a posição de um formulário para fins dessas solicitações é seu canto superior esquerdo.
+
+Por exemplo, suponha que você tenha um campo B de várias linhas e dois campos A e C de uma linha na mesma linha de B, com A à esquerda de B e C à direita de B. A`REQ_MOVE_RIGHT` de A irá para B apenas se A, B e C compartilham a mesma primeira linha; caso contrário, ele irá pular de B para C.
+
+## 16.6.3. Solicitações de navegação intracampo
+Essas solicitações conduzem ao movimento do cursor de edição dentro do campo atualmente selecionado.
++ `REQ_NEXT_CHAR` Vai para o próximo caractere.
++ `REQ_PREV_CHAR` Vai para o caractere anterior.
++ `REQ_NEXT_LINE` Vai para a próxima linha.
++ `REQ_PREV_LINE` Vai para a linha anterior.
++ `REQ_NEXT_WORD` Vai para a próxima palavra.
++ `REQ_PREV_WORD` Vai para a palavra anterior.
++ `REQ_BEG_FIELD` Vai para o início do campo.
++ `REQ_END_FIELD` Vai para o final do campo.
++ `REQ_BEG_LINE` Vai para o início da linha.
++ `REQ_END_LINE` Vai para o final da linha.
++ `REQ_LEFT_CHAR` Vai para a esquerda no campo.
++ `REQ_RIGHT_CHAR` Vai para a direita no campo.
++ `REQ_UP_CHAR` Vai para cima no campo.
++ `REQ_DOWN_CHAR` Vai para baixo no campo.
+
+Cada palavra é separada dos caracteres anteriores e posteriores por um espaço em branco. Os comandos para mover para o início e o fim da linha ou campo procuram o primeiro ou o último caractere que não seja de teclado em seus intervalos.
+
+## 16.6.4. Solicitações de rolagem
+Os campos que são dinâmicos e cresceram e os campos explicitamente criados com linhas fora da tela podem ser rolados. Os campos de uma linha rolam horizontalmente; campos multilinhas rolam verticalmente. A maior parte da rolagem é acionada pela edição e pelo movimento dentro do campo (a biblioteca rola o campo para manter o cursor visível).
+
+É possível solicitar explicitamente a rolagem com as seguintes solicitações:
+
++ `REQ_SCR_FLINE` Rola verticalmente para frente uma linha.
++ `REQ_SCR_BLINE` Rola uma linha verticalmente para trás.
++ `REQ_SCR_FPAGE` Rola verticalmente para a frente uma página.
++ `REQ_SCR_BPAGE` Rola uma página verticalmente para trás.
++ `REQ_SCR_FHPAGE` Rola verticalmente para frente meia página.
++ `REQ_SCR_BHPAGE` Rola meia página verticalmente para trás.
++ `REQ_SCR_FCHAR` Rola horizontalmente para frente um caractere.
++ `REQ_SCR_BCHAR` Rola um caractere horizontalmente para trás.
++ `REQ_SCR_HFLINE` Rola horizontalmente uma largura de campo para a frente.
++ `REQ_SCR_HBLINE` Rola horizontalmente uma largura de campo para trás.
++ `REQ_SCR_HFHALF` Rola horizontalmente metade da largura do campo para frente.
++ `REQ_SCR_HBHALF` Rola horizontalmente metade da largura do campo para trás.
+Para fins de rolagem, a página de um campo tem a altura de sua parte visível.
+
+## 16.6.5. Solicitações de Edição
+Quando você passa um caractere ASCII ao driver de formulários, ele é tratado como uma solicitação para adicionar o caractere ao buffer de dados do campo. Se esta é uma inserção ou substituição depende do modo de edição do campo (a inserção é o padrão.
+
+As seguintes solicitações suportam a edição do campo e a alteração do modo de edição:
++ `REQ_INS_MODE` Define o modo de inserção.
++ `REQ_OVL_MODE` Define o modo de sobreposição.
++ `REQ_NEW_LINE` Solicitação de nova linha (veja a explicação abaixo).
++ `REQ_INS_CHAR` Insere um espaço no local do caractere.
++ `REQ_INS_LINE` Insere uma linha em branco no local do caractere.
++ `REQ_DEL_CHAR` Exclui o caractere no cursor.
++ `REQ_DEL_PREV` Exclui a palavra anterior no cursor.
++ `REQ_DEL_LINE` Exclui a linha no cursor.
++ `REQ_DEL_WORD` Exclui a palavra no cursor.
++ `REQ_CLR_EOL` Apaga até o fim da linha.
++ `REQ_CLR_EOF` Apaga até o final do campo.
++ `REQ_CLR_FIELD` Apaga o campo inteiro.
+O comportamento das solicitações`REQ_NEW_LINE` e`REQ_DEL_PREV` é complicado e parcialmente controlado por um par de opções de formulários. Os casos especiais são acionados quando o cursor está no início de um campo, ou na última linha do campo.
+
+Primeiro, vamos considerar`REQ_NEW_LINE`:
++ O comportamento normal de`REQ_NEW_LINE` no modo de inserção é quebrar a linha atual na posição do cursor de edição, inserindo a parte da linha atual após o cursor como uma nova linha seguindo a atual e movendo o cursor para o início dessa nova linha (você pode pensar nisso como inserir uma nova linha no buffer de campo).
++ O comportamento normal de`REQ_NEW_LINE` no modo de sobreposição é limpar a linha atual da posição do cursor de edição até o final da linha. O cursor é então movido para o início da próxima linha.
+
+No entanto,`REQ_NEW_LINE` no início de um campo, ou na última linha de um campo, em vez disso, faz um`REQ_NEXT_FIELD`. A opção `O_NL_OVERLOAD` está desativada, esta ação especial está desativada.
+
+Agora, vamos considerar`REQ_DEL_PREV`:
++ O comportamento normal de`REQ_DEL_PREV` é excluir o caractere anterior. Se o modo de inserção estiver ativado e o cursor estiver no início de uma linha, e o texto nessa linha couber na anterior, em vez disso, ele anexa o conteúdo da linha atual à anterior e exclui a linha atual (você pode pensar nisso como excluir uma nova linha do buffer de campo).
+
+No entanto,`REQ_DEL_PREV` no início de um campo é tratado como`REQ_PREV_FIELD`.
+
+Se a opção `O_BS_OVERLOAD` estiver desligada, esta ação especial é desabilitada e o driver de formulários apenas retorna `E_REQUEST_DENIED`.
+
+## 16.6.6. Solicitações de Pedido
+Se o tipo do seu campo for ordenado e tiver funções associadas para obter os valores próximos e anteriores do tipo de um determinado valor, há solicitações que podem buscar esse valor no buffer do campo:
++ `REQ_NEXT_CHOICE` Coloque o valor sucessor do valor atual no buffer.
++ `REQ_PREV_CHOICE` Coloque o valor predecessor do valor atual no buffer.
+
+Dos tipos de campo integrados, apenas `TYPE_ENUM` possui funções de sucessor e predecessor integradas. Ao definir um tipo de campo próprio (consulte Tipos de validação personalizados), você pode associar nossas próprias funções de pedido.
+
+## 16.6.7. Comandos de aplicativos
+As solicitações de formulário são representadas como inteiros acima do valor do curses maior que `KEY_MAX` e menor ou igual à constante `MAX_COMMAND`. Um valor dentro deste intervalo é ignorado por `form_driver()`. Portanto, isso pode ser usado para qualquer finalidade pelo aplicativo. Ela pode ser tratada como uma ação específica do aplicativo e executar a ação correspondente.
 
 ---
 
-# CHEAT SHEET NCURSES
+# 17. Ferramentas e bibliotecas de widgets
+Agora que você viu os recursos do ncurses e de suas bibliotecas irmãs, você está arregaçando as mangas e se preparando para um projeto que manipula fortemente a tela. Mas espere. Pode ser muito difícil escrever e manter widgets GUI complexos em ncurses puro ou mesmo com as bibliotecas adicionais.
+
+Existem algumas ferramentas e bibliotecas de widgets prontas para usar que podem ser usadas em vez de escrever seus próprios widgets. Você pode usar alguns deles, obter ideias do código ou até mesmo estendê-los.
+
+## 17.1. CDK (Kit de Desenvolvimento do Curses)
+Nas palavras do autor
+CDK significa 'Curses Development Kit' e atualmente contém 21 widgets prontos para usar que facilitam o desenvolvimento rápido de programas de curses em tela cheia.
+O kit fornece alguns widgets úteis, que podem ser usados diretamente em seus programas. Está muito bem escrito e a documentação é muito boa. Os exemplos no diretório de exemplos podem ser um bom ponto de partida para iniciantes. O CDK pode ser baixado de http://invisible-island.net/cdk/ . Siga as instruções no arquivo README para instalá-lo.
+
+## 17.1.1. Lista de Widget
+A seguir está a lista de widgets fornecidos com cdk e suas descrições.
+
+| Tipo de widget | Descrição Rápida |
+|---|---|
+| Buttonbox       | Isso cria um widget de vários botões. |
+| Calendar        | Cria um pequeno widget de calendário simples. |
+| Dialog          | Avisa o usuário com uma mensagem e o usuário |
+| Entry           | Permite que o usuário insira vários tipos de informações. |
+| File Selector   | Um seletor de arquivo criado a partir de widgets de base |
+| Graph           | Desenha um gráfico. |
+| Histogram       | Desenha um histograma. |
+| Item List       | Cria um campo pop-up que permite ao usuário selecionar |
+| Label           | Exibe mensagens em uma caixa pop-up ou o marcador pode ser |
+| Marquee         | Exibe uma mensagem em uma marca de rolagem. |
+| Matrix          | Cria uma matriz complexa com muitas opções. |
+| Menu            | Cria uma interface de menu suspenso. |
+| Multiple Line Entry  | Um campo de entrada de várias linhas. Muito úteis |
+| Radio List      | Cria uma lista de botões de opção. |
+| Scale           | Cria uma escala numérica. Usado para permitir que um usuário |
+| Scrolling List  | Cria uma lista de rolagem/lista de menus. |
+| Scrolling Window  | Cria um visualizador de arquivo de log de rolagem. Pode adicionar |
+| Selection List  | Cria uma lista de seleção de várias opções. |
+| Slider List     | Semelhante ao widget de escala, este widget fornece um |
+| Template        | Cria um campo de entrada com caracteres sensíveis |
+| Viewer          | Este é um visualizador de arquivos/informações. Muito úteis! |
+
+
+Alguns dos widgets foram modificados por Thomas Dickey em versões recentes.
+
+## 17.1.2. Alguns recursos atraentes
+Além de tornar nossa vida mais fácil com widgets prontamente utilizáveis, o cdk resolve um problema frustrante com a impressão de strings multicoloridas, strings justificadas com elegância. Tags de formatação especial podem ser embutidas nas strings que são passadas para funções CDK. Por exemplo
+Se a string:
+```sh
+"</B/1> Esta linha deve ter um primeiro plano amarelo e um plano de fundo
+azul.<!1>"
+```
+
+fornecido como parâmetro para `newCDKLabel()`, ele imprime a linha com o primeiro plano amarelo e o fundo azul. Existem outras tags disponíveis para justificar string, incorporar caracteres especiais de desenho etc. Por favor, consulte ao manual página `cdk_display` (3X) para detalhes. A página do manual explica o uso com bons exemplos.
+
+## 17.1.3. Conclusão
+Resumindo, o CDK é um pacote bem escrito de widgets que, se usado corretamente, pode formar uma estrutura robusta para o desenvolvimento de interfaces gráficas complexas.
+
+## 17.2. O `dialog`
+Muito tempo atrás, em setembro de 1994, quando poucas pessoas conheciam o [Linux](https://terminalroot.com.br/linux), Jeff Tranter escreveu um artigo na caixa de diálogo do Linux Journal. Ele começa o artigo com estas palavras...
+
+> "O Linux é baseado no sistema operacional [Unix](https://terminalroot.com.br/tags#unix), mas também apresenta uma série de recursos de kernel exclusivos e úteis e programas de aplicativos que geralmente vão além do que está disponível no Unix. Uma joia pouco conhecida é o "dialog", um utilitário para criar caixas de diálogo com aparência profissional a partir de scripts de shell. Este artigo apresenta um tutorial de introdução ao utilitário dialog e mostra exemplos de como e onde ele pode ser usado"
+
+Como ele explica, dialog é uma verdadeira joia na criação de caixas de diálogo com aparência profissional com facilidade. Ele cria uma variedade de caixas de diálogo, menus, listas de verificação etc. Geralmente é instalado por padrão. Se não, você pode baixá-lo no site de Thomas Dickey .
+
+O artigo mencionado acima oferece uma visão geral muito boa de seus usos e capacidades. A página do manual tem mais detalhes. Pode ser usado em várias situações. Um bom exemplo é a construção do kernel do Linux em modo texto. O kernel Linux usa uma versão modificada do diálogo feito sob medida para suas necessidades.
+
+dialog foi inicialmente projetado para ser usado com scripts de [shell](https://terminalroot.com.br/shell). Se você deseja usar sua funcionalidade em um programa em [C](https://terminalroot.com.br/tags#linguagemc), então você pode usar libdialog.
+
+A documentação a respeito disso é esparsa. A referência definitiva é o arquivo de cabeçalho dialog.h que vem com a biblioteca. Você pode precisar hackear aqui e ali para obter a saída necessária. A fonte é facilmente personalizável.
+
+## 17.3. Módulos Perl Curses `CURSES::FORM` e `CURSES::WIDGETS`
+Os módulos perl Curses, `Curses::Form` e `Curses::Widgets` dão acesso aos curses do perl. Se você tiver curses e o perl básico estiver instalado, você pode obter esses módulos em Página de todos os módulos do `CPAN` .
+
+Obtenha os três módulos compactados na categoria Curses. Uma vez instalado, você pode usar esses módulos de scripts perl como qualquer outro módulo. Para obter mais informações sobre os módulos perl, consulte a página de manual do perlmod.
+
+Os módulos acima vêm com uma boa documentação e alguns scripts de demonstração para testar a funcionalidade. Embora os widgets fornecidos sejam muito rudimentares, esses módulos fornecem um bom acesso à biblioteca de curses do perl.
+
+Alguns dos meus exemplos de código foram convertidos para perl por Anuradha Ratnaweera e estão disponíveis no perl diretório.
+
+Para obter mais informações, consulte as páginas de manual `Curses (3)`, `Curses::Form (3)` e `Curses::Widgets (3)`. Essas páginas são instaladas apenas quando os módulos acima são adquiridos e instalados.
+
+---
+
+# 18. Apenas por diversão!!!
+Esta seção contém alguns programas feitos com NCURSES e podem ser acessados nessa página no capítulo e secção: [3. Onde Conseguir](https://terminalroot.com.br/ncurses#3-onde-conseguir)
+
+---
+
+# 19. Referências
++ <https://tldp.org/HOWTO/NCURSES-Programming-HOWTO/>
++ Traduzido por **Jovane Rocha** e **Marcos Oliveira**
+
+---
+
+# 20. CHEAT SHEET NCURSES
 ## Funções de inicialização
 
 <!-- MINI ANÚNCIO -->
