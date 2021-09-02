@@ -19,7 +19,7 @@ image: '/assets/img/cpp/ncurses.jpg'
 + [3. Inicialização](#3-inicialização)
 + [4. Sobre janelas](#4-sobre-janelas)
 + [5. Funções de saída](#5-funções-de-saída)
-+ [6. Funções de entrada-](#6-funções-de-entrada-)
++ [6. Funções de entrada](#6-funções-de-entrada)
 + [7. Atributos](#7-atributos)
 + [8. Janelas](#8-janelas)
 + [9. Cores](#9-cores)
@@ -31,7 +31,7 @@ image: '/assets/img/cpp/ncurses.jpg'
 + [15. Biblioteca de Menus](#15-biblioteca-de-menus)
 + [16. Biblioteca de Formulários](#16-biblioteca-de-formulários)
 + [17. Ferramentas e bibliotecas de widgets](#17-ferramentas-e-bibliotecas-de-widgets)
-+ [18. Apenas por diversão!!!](#18-apenas-por-diversão-)
++ [18. Apenas por diversão!!!](#18-apenas-por-diversão)
 + [19. Referências](#19-referências)
 + [20. Cheat Sheet Ncurses](#20-cheat-sheet-ncurses)
 
