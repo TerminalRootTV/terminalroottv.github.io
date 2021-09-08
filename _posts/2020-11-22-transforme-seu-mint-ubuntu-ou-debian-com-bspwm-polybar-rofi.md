@@ -42,7 +42,7 @@ data-ad-slot="5351066970"></ins>
 > Precisa ter o [git](https://terminalroot.com.br/git/) instalado.
 
 ```sh
-git clone https://github/terroo/aptporn
+git clone https://github.com/terroo/aptporn
 cd aptporn/
 sh aptporn --install
 ```
