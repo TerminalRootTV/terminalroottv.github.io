@@ -50,7 +50,7 @@ Instale o [subversion](https://terminalroot.com.br/2019/09/como-clonar-somente-u
 > Exemplos para cada distro:
 {% highlight sh %}
 sudo emerge subversion # Gentoo, Funtoo e Portage baseds
-sudo apt-get install subversion # Debian, Ubuntu, Linux Mint APT baseds
+sudo apt install subversion # Debian, Ubuntu, Linux Mint APT baseds
 sudo pacman -S subversion # Arch Linux, Manjaro e PacMan baseds
 sudo yum install subversion # Fedora, Red Hat, CentOS e YUM baseds
 {% endhighlight %}
