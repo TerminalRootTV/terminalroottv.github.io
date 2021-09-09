@@ -140,6 +140,12 @@ data-ad-slot="5351066970"></ins>
 + `soma = int(pnumero) + int(snumero)` - Converte os valores de pnumero e snumero para inteiros e soma os dois armazenando o resultado na variável soma.
 + `libswing.JOptionPane.showMessageDialog(None, "A soma eh %d " % soma)` - Mostra na tela o resultado da soma, simples não é?
 
+# Assista ao Vídeo
+
+<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx2Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+---
+
 ## Conclusão
 
 Eu particularmente curti o Jython 🙌️ e vou me aprofundar mais sobre ele e provavelmente haverá mais tutoriais aqui sobre o mesmo. E você ?! Curtiu ?! Conte-nos usando o campo de comentários .
