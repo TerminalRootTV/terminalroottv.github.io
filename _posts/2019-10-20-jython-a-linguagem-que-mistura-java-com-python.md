@@ -142,7 +142,9 @@ data-ad-slot="5351066970"></ins>
 
 # Assista ao Vídeo
 
-<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx2Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<!--<iframe width="910" height="390" src="https://www.youtube.com/embed/IOx2Hynwzh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/IOx3Hynwzh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
