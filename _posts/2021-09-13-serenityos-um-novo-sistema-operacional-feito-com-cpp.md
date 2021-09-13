@@ -97,5 +97,9 @@ E depois rode esse comando de novo:
 Meta/serenity.sh run
 {% endhighlight %}
 
+# Assista ao vídeo
+
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/DS4_Vkvqwtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
