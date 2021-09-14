@@ -3,7 +3,7 @@ layout: post
 title: "16 Métodos de array JavaScript que todo bom Desenvolvedor Web deve saber"
 date: 2021-09-14 11:44:57
 image: '/assets/img/js/arrays-javascript.jpg'
-description:
+description: 'Fundamental para evitar de reinventar soluções.'
 icon: 'ion:terminal-sharp'
 iconname: 'JavaScript'
 tags:
