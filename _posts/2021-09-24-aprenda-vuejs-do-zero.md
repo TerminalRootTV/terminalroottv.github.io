@@ -16,6 +16,9 @@ tags:
 
 🔊  Nesse vídeo veremos conceitos fundamentais de Vue.js. Vamos consumir algumas APIs . Também vamos consumir a API do Laravel que fizemos com CRUD . E na continuação tem deploy no Apache, Heroku e conceitos mais avançados de Vue.js.
 
+# Link do Curso:
+## <https://cutt.ly/vuejs>
+
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/Uo7iciQYYTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
