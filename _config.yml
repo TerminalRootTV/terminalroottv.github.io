@@ -57,6 +57,8 @@ links:
     url: /linux
   - title: Vim
     url: /vim
+  - title: Vue.js
+    url: /vue
   - title: Awk
     url: /awk
   - title: Git
