@@ -3,7 +3,7 @@ layout: post
 title: "Os 7 Melhores Frameworks C++ para criar Interfaces Gráfica"
 date: 2021-09-30 08:13:32
 image: '/assets/img/cpp/cpp-gui.jpg'
-description: 'Os mais utilizadas e os mais recomendados!'
+description: 'Os mais utilizados e os mais recomendados!'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
