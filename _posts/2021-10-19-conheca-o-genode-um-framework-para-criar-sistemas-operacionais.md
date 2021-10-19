@@ -22,6 +22,17 @@ Genode é baseado em uma estrutura de sistema recursiva. Cada programa é execut
 
 Os programas podem criar e gerenciar sub-sandboxes com seus próprios recursos, formando hierarquias onde as políticas podem ser aplicadas em cada nível. A estrutura fornece mecanismos para permitir que os programas se comuniquem entre si e negociem seus recursos, mas apenas de maneiras estritamente definidas.
 
+
+<!-- QUADRADO -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Graças a esse regime rígido, a superfície de ataque das funções críticas de segurança pode ser reduzida em ordens de magnitude em comparação com os sistemas operacionais contemporâneos.
 
 A estrutura alinha os princípios de construção de L4 com a filosofia [Unix](https://terminalroot.com.br/tags#unix). Em linha com a filosofia Unix, Genode é uma coleção de pequenos blocos de construção, dos quais sistemas sofisticados podem ser compostos.
@@ -39,6 +50,19 @@ Mais de 100 [componentes](https://genode.org/documentation/components) prontos p
 Para baixar o Genode, basta acessar [esse link](https://genode.org/download/index) haverá 4 opções, sendo que **Sculpt OS** é um sistema operacional de uso geral baseado em Genode, imagens de sistema prontas para uso permitem que você use Genode sem a necessidade de compilar o sistema do zero.
 
 Você pode baixar a imagem rapidamente com [wget](https://terminalroot.com.br/2019/05/aprenda-a-explorar-o-comando-wget.html):
+
+
+<!-- RETANGULO LARGO 2 -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {% highlight sh %}
 wget https://genode.org/files/sculpt/sculpt-21-10.img
