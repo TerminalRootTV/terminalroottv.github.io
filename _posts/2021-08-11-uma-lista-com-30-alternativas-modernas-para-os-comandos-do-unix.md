@@ -217,7 +217,7 @@ Um substituto moderno para `ps` escrito em [Rust](https://terminalroot.com.br/ta
 # 26. [`httpie`](https://github.com/httpie/httpie)
 Um cliente HTTP de [linha de comando](https://terminalroot.com.br/tags#comandos) moderno e amigável para a era da [API](https://terminalroot.com.br/2021/04/como-criar-uma-api-com-laravel-8.html).
 
-![httpie](https://raw.githubusercontent.com/httpie/httpie/master/httpie.gif)
+![httpie](https://raw.githubusercontent.com/httpie/httpie/master/docs/httpie-animation.gif)
 
 ---
 
