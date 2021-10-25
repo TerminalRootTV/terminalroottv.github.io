@@ -41,6 +41,8 @@ links:
     url: /c++
   - title: Linguagem C++
     url: /cpp
+  - title: OpenCV com C++
+    url: /opencv
   - title: Shell Script
     url: /shell
   - title: Bash
