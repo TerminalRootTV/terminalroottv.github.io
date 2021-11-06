@@ -341,12 +341,15 @@ Além desse também existem os tipos: `userdata` e `thread` .
 # Operadores
 Lua utiliza quase todos os operadores que outras linguagens de programação utilizam, exemplos:
 
+
 | operador | operador | operador | operador |
 |---|---|---|---|
 | `+` | `-` | `*` | `/` |
 | `%` | `^` | `==` | `~=` |
 | `>` | `<` | `>=` | `<=` |
 | `and` | `or` | `not` | `#` |
+
+
 > Além do `..` que nós já vimos que serve para concatenação.
 
 Exemplos:
