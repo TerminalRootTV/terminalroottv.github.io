@@ -47,7 +47,7 @@ data-ad-slot="5351066970"></ins>
 
 Agora, toda vez que você abrir seu Neovim aparecerá essa mensagem no rodapé:
 
-![Lua Here String Neovim](./neovim-lua-here-string.png)
+![Lua Here String Neovim](/assets/img/neovim/neovim-lua-here-string.png)
 
 Dá pra fazer isso com o Vim também ? Se você tiver compilado seu vim com suporte a Lua ou adicionado o pacote *vim-lua* para sistemas que oferencem binários, sim é possível! Mas o Vim faz uma *ponte* já o Neovim é de forma nativa, ou seja, já há uma boa diferença e no Vim você deverá usar assim(como comando): `:lua <<EOF` com dois pontos na frente.
 
