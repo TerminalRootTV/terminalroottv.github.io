@@ -87,8 +87,8 @@ Vou tentar detalhar o máximo cada passo e publicar, pelo menos, 1 artigo dessa 
 
 Então, por hoje é só e não se esqueça de se inscrever no nosso [newsletter](https://terminalroot.com.br/newsletter) para não perder nenhum artigo da série.
 
-Nos vemos nossos próximos artigos!
+Novo artigo da série(**PARTE II**):
+# [Do init.vim para o init.lua - Tudo sobre Neovim com Lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
 
-Até lá!
 
 
