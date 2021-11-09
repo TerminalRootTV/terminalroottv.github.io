@@ -150,7 +150,7 @@ end
 
 local ext = get_extension("extension") -- dizemos qual o nome da variável que queremos
 
-print("A extensão desse arquivo é: " .. ext) -- usamos a extensão como quisermos porque agora ela é uma variável em Lua .
+print("A extensão desse arquivo é: " .. ext) -- usamos a extensão como quisermos
 ```
 
 Agora abra seu `init.lua` e importe o `tools.lua` assim somente:
