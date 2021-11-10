@@ -233,7 +233,7 @@ Será aberta uma "*janela*" no combo de baixo você pode digitar o nome do arqui
 
 Veja abaixo a saída do Telescope:
 
-[![Telescope.nvim](./telescope.jpg)](./telescope.jpg)
+[![Telescope.nvim](/assets/img/neovim/telescope.jpg)](/assets/img/neovim/telescope.jpg)
 
 
 <!-- RETANGULO LARGO 2 -->
