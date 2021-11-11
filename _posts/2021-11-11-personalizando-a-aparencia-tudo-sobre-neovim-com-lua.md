@@ -13,14 +13,13 @@ tags:
 
 ![Personalizando a Aparência - Tudo sobre Neovim com Lua](/assets/img/neovim/parte-3-neovim-lua.jpg)
 
-Nesse artigo vamos instalar 7 novos plugins incluindo:
+Nesse artigo vamos instalar 6 novos plugins incluindo:
 + Barra de status
 + Ícones
 + Linhas de indentação
 + Verificação de cores
 + Autopairs versão Neovim escrito em Lua que não cria par quando há caractere na frente.
 + Troca de caracteres
-+ e Tela inicial
 
 Se você não viu os epsisódios anteriores, segue os links:
 + [Tudo sobre Neovim com Lua - Como Customizar do Zero](https://terminalroot.com.br/2021/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
