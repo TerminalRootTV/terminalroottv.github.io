@@ -250,7 +250,7 @@ Agora as cores digitados no seu Neovim aparecerão assim:
 # Plugins extras
 Para terminarmos esse episódio recomendo dois plugins que falamos sobre eles [nesse vídeo](https://www.youtube.com/watch?v=PmKJT6SlN-Q) .
 
-Que é o [Vun Surround](), para criar ou substituir caracteres em torno de uma palavra, muito útil para quem escreve frequentemente em [Markdown](https://terminalroot.com.br/tags#markdown) e o [Nvim Autopairs]() , ele é superior ao *Vim Autopairs*, pois se houver caracterer na frente ele não adiciona. 
+Que é o [Vim Surround](https://github.com/tpope/vim-surround), para criar ou substituir caracteres em torno de uma palavra, muito útil para quem escreve frequentemente em [Markdown](https://terminalroot.com.br/tags#markdown) e o [Nvim Autopairs](https://github.com/windwp/nvim-autopairs) , ele é superior ao *Vim Autopairs*, pois se houver caracterer na frente ele não adiciona. 
 
 Basta instalá-los.
 ```lua
