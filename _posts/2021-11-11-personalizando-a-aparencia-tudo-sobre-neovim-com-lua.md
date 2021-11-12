@@ -97,6 +97,12 @@ else
   --branch = '-  '
 end
 
+local function get_var(my_var_name)
+  return vim.api.nvim_get_var(my_var_name)
+end
+
+extension = get_var("extension")
+
 if extension == "cpp" or extension == "hpp" or extension == "h" then
   this_lsp = '-lsp_name'
 else
