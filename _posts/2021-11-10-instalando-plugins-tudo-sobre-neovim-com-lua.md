@@ -295,6 +295,10 @@ require("configs.mappings")
 
 ---
 
-Até o próximo episódio!
-
+# Outros artigos da série
+1. [Como Customizar do Zero](https://terminalroot.com.br/2020/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
+2. [Do init.vim para o init.lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
+3. Instalando Plugins
+4. [Personalizando a Aparência](https://terminalroot.com.br/2021/11/personalizando-a-aparencia-tudo-sobre-neovim-com-lua.html) ← Próximo
+5. [LSP, Autocomplete e Machine Learning](https://terminalroot.com.br/2021/11/lsp-autocomplete-e-machine-learning-neovim-com-lua.html)
 

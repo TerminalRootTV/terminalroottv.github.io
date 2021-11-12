@@ -403,6 +403,17 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
+# Outros artigos da série
+1. [Como Customizar do Zero](https://terminalroot.com.br/2020/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
+2. [Do init.vim para o init.lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
+3. [Instalando Plugins](https://terminalroot.com.br/2021/11/instalando-plugins-tudo-sobre-neovim-com-lua.html)
+4. [Personalizando a Aparência](https://terminalroot.com.br/2021/11/personalizando-a-aparencia-tudo-sobre-neovim-com-lua.html)
+5. LSP, Autocomplete e Machine Learning
+
+No próximo será o vídeo!!!
+
+---
+
 Valeu e até mais!
 
 

@@ -87,8 +87,13 @@ Vou tentar detalhar o máximo cada passo e publicar, pelo menos, 1 artigo dessa 
 
 Então, por hoje é só e não se esqueça de se inscrever no nosso [newsletter](https://terminalroot.com.br/newsletter) para não perder nenhum artigo da série.
 
-Novo artigo da série(**PARTE II**):
-# [Do init.vim para o init.lua - Tudo sobre Neovim com Lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
+---
 
+# Outros artigos da série
+1. Como Customizar do Zero
+2. [Do init.vim para o init.lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html) ← Próximo
+3. [Instalando Plugins](https://terminalroot.com.br/2021/11/instalando-plugins-tudo-sobre-neovim-com-lua.html)
+4. [Personalizando a Aparência](https://terminalroot.com.br/2021/11/personalizando-a-aparencia-tudo-sobre-neovim-com-lua.html)
+5. [LSP, Autocomplete e Machine Learning](https://terminalroot.com.br/2021/11/lsp-autocomplete-e-machine-learning-neovim-com-lua.html)
 
 
