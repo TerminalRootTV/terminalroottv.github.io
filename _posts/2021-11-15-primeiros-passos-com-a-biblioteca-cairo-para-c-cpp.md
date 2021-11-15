@@ -50,7 +50,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Instalação
-Existe abiblioteca `cairo` para desenvolvimento em **C** e a `cairomm` que pode ser usado com POO para [C++](https://terminalroot.com.br/cpp), apesar de que ambas funcionam com **C++** .
+Existe a biblioteca `cairo` para desenvolvimento em **C** e a `cairomm` que pode ser usado com POO para [C++](https://terminalroot.com.br/cpp), apesar de que ambas funcionam com **C++** .
 
 Para instalar ambos pacotes na sua [distro](https://terminalroot.com.br/tagsddistro)/sistema veja de acordo com seu gerenciador de pacotes correspondente:
 {% highlight sh %}
