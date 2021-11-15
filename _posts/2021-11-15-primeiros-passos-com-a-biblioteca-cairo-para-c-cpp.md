@@ -66,7 +66,7 @@ Você também pode compilar o código fonte direto do [GitLab](https://gitlab.fr
 
 ---
 
-# Criando seus primeiroscódigos com Cairo
+# Criando seu primeiro códigos com Cairo
 
 Criando uma imagem com cairo.
 > `nvim main.cpp` . Leia oscomentários no código para uma maior entendimento.
