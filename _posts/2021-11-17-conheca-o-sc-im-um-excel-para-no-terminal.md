@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça o sc-im, um 'Excel' para no terminal"
+title: "Conheça o sc-im, um 'Excel' para o terminal"
 date: 2021-11-17 08:21:20
 image: '/assets/img/terminal/sc-im.jpg'
 description: 'Leve, rápido e intuitivo.'
