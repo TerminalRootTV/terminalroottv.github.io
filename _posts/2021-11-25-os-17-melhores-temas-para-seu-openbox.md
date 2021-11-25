@@ -22,7 +22,7 @@ Nesse artigo vamos conhecer 17 temas minuciosamente selecionados por mim desse e
 ---
 
 # 01. Afterpiece
-Esse talvez seja o mais simples dessa lista, ideal para quem gosta de um minimalismo mas com o *lado negro da força*!
+Esse talvez seja o mais simples dessa lista, ideal para quem gosta de um minimalismo, mas com o *lado negro da força*!
 
 ![Afterpiece](/assets/img/openbox/afterpiece-min.jpg)
 
