@@ -165,7 +165,7 @@ Versão do Yaru, padrão do [GNOME](https://terminalroot.com.br/tags#gnome) no [
 
 # Como instalar os temas ?
 Eu separei todos eles em um único repositório para facilitar, então você pode fazer assim:
-> No repositório só não há o *Cosmic-Travel*
+> No repositório só não há o [Cosmic-Travel](https://github.com/Alexdaz/Cosmic-Travel)
 
 {% highlight sh %}
 mkdir -p ~/.themes
