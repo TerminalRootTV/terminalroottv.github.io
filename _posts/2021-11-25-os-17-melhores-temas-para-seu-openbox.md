@@ -17,7 +17,7 @@ Além de ser minimalista e leve, o [Openbox](https://terminalroot.com.br/2020/01
 
 Para quem deseja fugir do "*peso*" de um [Desktop Environment](https://terminalroot.com.br/tags#gnome), no entanto, ter um ambiente simples e com facilidades de fechar, expandir e minimizar janelas não há ainda nada melhor que o Openbox.
 
-Nesse artigo vamos conhecer 10 temas minuciosamente selecionados por mim desse excelente [gerenciadoires de janelas](https://terminalroot.com.br/2020/08/os-25-melhores-tiling-window-manager-para-seu-linux.html) . 
+Nesse artigo vamos conhecer 17 temas minuciosamente selecionados por mim desse excelente [gerenciador de janelas](https://terminalroot.com.br/2020/08/os-25-melhores-tiling-window-manager-para-seu-linux.html) . 
 
 ---
 
