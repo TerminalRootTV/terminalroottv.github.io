@@ -89,7 +89,7 @@ O mesmo que o anterior, mas sem bordas.
 ---
 
 # 09. Joy
-Ative esse ele pode desenhar os controles de uma forma diferente no seu sistema, é legalzão!
+Ele pode desenhar os controles de uma forma diferente no seu sistema, é legalzão!
 
 ![Joy](/assets/img/openbox/joy-min.jpg)
 
