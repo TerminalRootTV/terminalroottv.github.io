@@ -3,7 +3,7 @@ layout: post
 title: "Primeiros Passos com a Linguagem de Programação Zig"
 date: 2021-11-26 11:45:54
 image: '/assets/img/programacao/zig.jpg'
-description:
+description: 'Um dos principais objetivos do Zig é melhorar a Linguagem C'
 icon: 'ion:terminal-sharp'
 iconname: 'Zig'
 tags:
