@@ -2,7 +2,7 @@
 layout: post
 title: "NixOS, um Sistema Operacional para Programadores"
 date: 2021-12-06 13:02:00
-image: '/assets/imdistros/nixos.jpg'
+image: '/assets/img/distros/nixos.jpg'
 description: '🔊 Nesse vídeo fizemos a instalação do zero do NixOS, sem interface gráfica, e posteriormente configuramos o configuration.nix e instalamos o Xorg e XFCE.'
 icon: 'ion:terminal-sharp'
 iconname: 'NixOS'
