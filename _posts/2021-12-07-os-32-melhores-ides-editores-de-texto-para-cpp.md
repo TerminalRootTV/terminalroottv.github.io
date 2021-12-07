@@ -356,7 +356,7 @@ O VS Code agora também possui uma versão online que pode ser acessada pelo end
 # 22. Xcode
 ![Xcode](/assets/img/cpp/editors/xcode.jpg) 
 
-Xcode é o ambiente de desenvolvimento integrado (IDE) da Apple para macOS. Ou seja, só fuciona no [macOS](https://terminalroot.com.br/macos).
+Xcode é o ambiente de desenvolvimento integrado (IDE) da Apple para macOS. Ou seja, só funciona no [macOS](https://terminalroot.com.br/macos).
 
 [Página Oficial do Xcode](https://developer.apple.com/xcode/)
 
@@ -377,7 +377,7 @@ Nós usamos ele e mostramos como instalar as bibliotecas do [OpenCV](https://ter
 
 # 24. Gedit
 
-gedit é um editor de texto do GNOME. Se assemelha ao Bloco de Notas do Windows, mas com recursos para desenvolvedores, como:[1]
+gedit é um editor de texto do GNOME. Se assemelha ao Bloco de Notas do Windows, mas com recursos para desenvolvedores, como:
 + Numeração de linhas
 + Indentação automática
 + Realce de sintaxe
