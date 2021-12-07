@@ -278,7 +278,7 @@ O GNAT Studio usa [GTK+](https://terminalroot.com.br/2021/03/aprenda-a-criar-um-
 ---
 
 # 16. SlickEdit
-![SlickEdit](/assets/img/cpp/editors/slickEdit.jpg) 
+![SlickEdit](/assets/img/cpp/editors/slickedit.jpg) 
 
 SlickEdit , anteriormente conhecido como Visual SlickEdit , é um IDE de plataforma cruzada editor de código fonte , editor de texto , desenvolvido pela SlickEdit, Inc. SlickEdit suporta depuradores Integradas para o GNU [C/C++](https://terminalroot.com.br/tags#cpp) , [Java](https://terminalroot.com.br/tags#java) , WinDbg , Clang C/C++ LLDB, Groovy , Google Go , Python , Perl , Ruby , PHP , Xcodee Android JVM / NDK.
 
