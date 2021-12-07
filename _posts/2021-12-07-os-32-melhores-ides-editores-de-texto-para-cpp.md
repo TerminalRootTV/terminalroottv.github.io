@@ -3,7 +3,7 @@ layout: post
 title: "Os 32 Melhores IDEs/Editores de Texto para C++"
 date: 2021-12-07 11:43:46
 image: '/assets/img/cpp/cpp-editors-ides.jpg'
-description: 'Uma lista definitiva para Linux, macOS e Windows e que também serve para outras linguagem de programação!'
+description: 'Uma lista definitiva para Linux, macOS e Windows e que também serve para outras linguagens de programação!'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
