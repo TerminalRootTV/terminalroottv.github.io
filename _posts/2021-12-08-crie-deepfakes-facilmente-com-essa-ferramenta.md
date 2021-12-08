@@ -89,7 +89,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![Faceswap](/assets/img/faceswap.jpg) 
+![Faceswap](/assets/img/ai/faceswap.jpg) 
 
 O programa é bem intuitivo, mas aconselho você ler [essas instruções](https://github.com/deepfakes/faceswap/blob/master/USAGE.md) para se familiarizar melhor com o Faceswap.
 
