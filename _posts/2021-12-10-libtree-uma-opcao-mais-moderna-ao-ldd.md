@@ -13,7 +13,7 @@ tags:
 
 ![libtree - Uma opção mais moderna ao ldd](/assets/img/comandos/libtree.png)
 
-e você precisa saber quais bibliotecas um binário utiliza para posteriormente utilizá-las de alguma forma, nós sabemos que o o comando `ldd` é uma das alternativas mais utilizadas, no entanto possui algumas limitações, ou seja, há bibliotecas que não são encontradas e ele não informa.
+Se você precisa saber quais bibliotecas um binário utiliza para posteriormente utilizá-las de alguma forma, nós sabemos que o o comando `ldd` é uma das alternativas mais utilizadas, no entanto possui algumas limitações, ou seja, há bibliotecas que não são encontradas e ele não informa.
 
 Para isso você pode substituí-lo pelo **libtree**
 
