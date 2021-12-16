@@ -78,7 +78,7 @@ std::cout << sv.rfind("o") << '\n'; // 11
 
 # 07. Verificar se existe o caractere `'X'`
 {% highlight cpp %}
-std::cout << sv.find("X") << '\n'; // 11
+std::cout << sv.find("X") << '\n'; // garbage
 {% endhighlight %}
 
 # 08. Imprimir do 9º ao 13º caractere
