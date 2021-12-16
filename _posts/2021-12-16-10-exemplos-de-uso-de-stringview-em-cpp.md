@@ -15,7 +15,7 @@ tags:
 
 ---
 
-`std::string_view` é uma classe de nome `basic_string_view` que utiliza char e `std::char_traits` , ambos como template.
+`std::string_view` é uma classe de nome `basic_string_view` que utiliza `char` e `std::char_traits` , ambos como template.
 
 Ela está disponível somente a partir do C++17 e precisa incluir o cabeçalho `string_view` . Pode ser implementada também para letras acentudas(`std::wstring_view`), unicode 8(`std::u8string_view`), 16(`std::u16string_view`, C++20) e 32(`std::u32string_view`) .  
 
