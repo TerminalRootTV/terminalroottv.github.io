@@ -27,7 +27,7 @@ Ela praticamente cria um vector de caracteres para uma string .
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 
 
-É muito utilizada para código que fazem parser. 
+É muito utilizada em códigos que fazem parser. 
 
 Vamos ver 10 exemplos de utilizá-la!
 
@@ -55,7 +55,7 @@ std::cout << sv << '\n';
 std::cout << sv[3] << '\n'; // m
 {% endhighlight %}
 
-# 03. Obter o tamanho da string_view
+# 03. Obter o tamanho da `string_view`
 {% highlight cpp %}
 std::cout << sv.size() << '\n'; // 13
 {% endhighlight %}
@@ -65,7 +65,7 @@ std::cout << sv.size() << '\n'; // 13
 std::cout << sv.back() << '\n'; // t
 {% endhighlight %}
 
-# 05. Saber a posição do caractere 'a'
+# 05. Saber a posição do caractere `'a'`
 {% highlight cpp %}
 std::cout << sv.find("i") << '\n'; // 4
 {% endhighlight %}
@@ -76,7 +76,7 @@ std::cout << sv.rfind("o") << '\n'; // 11
 {% endhighlight %}
 > Seria o 1º 'o' de trás para frente, o `find()` daria 10 . Outra observação é se você informar um caractere que não existe, dará *garbage*(`string::npos`, um número *esquisito*).
 
-# 07. Verificar se existe o caractere 'X'
+# 07. Verificar se existe o caractere `'X'`
 {% highlight cpp %}
 std::cout << sv.find("X") << '\n'; // 11
 {% endhighlight %}
