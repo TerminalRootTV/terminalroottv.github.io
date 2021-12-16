@@ -50,7 +50,7 @@ std::string_view sv {"Terminal Root"};
 std::cout << sv << '\n';
 {% endhighlight %}
 
-# 02. Imprimir somente o 3º(terceiro caractere)
+# 02. Imprimir somente o 4º(quarto caractere)
 {% highlight cpp %}
 std::cout << sv[3] << '\n'; // m
 {% endhighlight %}
