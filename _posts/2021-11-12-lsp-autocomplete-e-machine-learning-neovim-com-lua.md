@@ -16,7 +16,7 @@ tags:
 Hoje vamos finalizar nossa série aqui no blog, mas ainda teremos um vídeo(somente para instalarmos alguns plugins adicionais e revisar conceitos) para completar essa série e o vídeo postarei aqui e no primeiro artigo dessa série assim que ficar pronto.
 
 Se você não viu os capítulos anteriores, segue os links:
-+ [Como Customizar do Zero](https://terminalroot.com.br/2020/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
++ [Como Customizar do Zero](https://terminalroot.com.br/2021/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
 + [Do init.vim para o init.lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
 + [Instalando Plugins](https://terminalroot.com.br/2021/11/instalando-plugins-tudo-sobre-neovim-com-lua.html)
 + [Personalizando a Aparência](https://terminalroot.com.br/2021/11/personalizando-a-aparencia-tudo-sobre-neovim-com-lua.html)
@@ -404,7 +404,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Outros artigos da série
-1. [Como Customizar do Zero](https://terminalroot.com.br/2020/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
+1. [Como Customizar do Zero](https://terminalroot.com.br/2021/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html)
 2. [Do init.vim para o init.lua](https://terminalroot.com.br/2021/11/do-initvim-para-o-initlua-tudo-sobre-neovim-com-lua.html)
 3. [Instalando Plugins](https://terminalroot.com.br/2021/11/instalando-plugins-tudo-sobre-neovim-com-lua.html)
 4. [Personalizando a Aparência](https://terminalroot.com.br/2021/11/personalizando-a-aparencia-tudo-sobre-neovim-com-lua.html)
