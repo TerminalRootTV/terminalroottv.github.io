@@ -65,7 +65,7 @@ std::cout << sv.size() << '\n'; // 13
 std::cout << sv.back() << '\n'; // t
 {% endhighlight %}
 
-# 05. Saber a posição do caractere `'a'`
+# 05. Saber a posição do caractere `'i'`
 {% highlight cpp %}
 std::cout << sv.find("i") << '\n'; // 4
 {% endhighlight %}
