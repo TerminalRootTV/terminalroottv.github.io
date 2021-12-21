@@ -14,7 +14,7 @@ tags:
 
 ---
 
-**LibreSprite** é indicado para os amantes da Pixel Art que curtem o Aseprite, mas não gostaria de uma versão GRATUITA com uma licença de [Software Livre](https://terminalroot.com.br/tags#freesoftware): [GNU GPLv2](https://github.com/LibreSprite/LibreSprite/blob/master/LICENSE.txt)!
+**LibreSprite** é indicado para os amantes da Pixel Art que curtem o Aseprite, mas gostariam de uma versão GRATUITA com uma licença de [Software Livre](https://terminalroot.com.br/tags#freesoftware): [GNU GPLv2](https://github.com/LibreSprite/LibreSprite/blob/master/LICENSE.txt)!
 
 
 LibreSprite está disponível para [Linux](https://terminalroot.com.br/linux), [Windows](https://terminalroot.com.br/tags#windows) e [macOS](https://terminalroot.com.br/tags#macos).
