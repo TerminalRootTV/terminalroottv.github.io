@@ -44,5 +44,7 @@ chmod +x libresprite-Linux--x86_64.AppImage
 
 No Windows também há as versões Portable para 32 e 64-bit . Para baixar a versão 1.0 para 64-bit arquivo *zipado* [clique aqui](https://github.com/LibreSprite/LibreSprite/releases/download/v1.0/LibreSprite-Windows-x86_64.zip) .
 
+O [LibreSprite](https://libresprite.github.io/), assim como o [Aseprite](https://www.aseprite.org/) são softwares específicos de utilização. Apesar da **Pixel Art** ser fácil, para fazer bons trabalhos você precisa ter conhecimento nessa área.
 
+Para mais informações acesse o [repositório oficial](https://github.com/LibreSprite/LibreSprite) .
 
