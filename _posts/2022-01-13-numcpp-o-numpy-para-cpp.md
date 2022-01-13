@@ -15,12 +15,12 @@ tags:
 
 ---
 
-**NumCpp** é uma implementação para [C++](https://terminalroot.com/tags#cpp) da biblioteca Numpy do [Python](https://terminalroot.com/tags#python) que é para trabalhar com arrays multidimensionais largamente utilizado em [Machine Learning](https://terminalroot.com/tags#machinelearning) .
+**NumCpp** é uma implementação para [C++](https://terminalroot.com.br/cpp) da biblioteca Numpy do [Python](https://terminalroot.com.br/tags#python) que é para trabalhar com arrays multidimensionais largamente utilizado em [Machine Learning](https://terminalroot.com.br/tags#machinelearning) .
 
 ---
 
 # Instalação
-Para poder usar o NumCpp no seu sistema é necessário clonar e compilar(As dependências [CMake](https://terminalroot.com/how-to-compile-your-programs-with-cmake/), [Make](https://terminalroot.com/how-to-create-a-makefile/) e [g++](https://terminalroot.com/gcc-vs-llvm-which-is-the-best-compiler/) são necessárias):
+Para poder usar o NumCpp no seu sistema é necessário clonar e compilar(As dependências [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html), [Make](https://terminalroot.com.br/2019/12/como-criar-um-makefile.html) e [g++](https://terminalroot.com.br/2019/12/gcc-vs-llvm-qual-e-o-melhor-compilador.html) são necessárias):
 {% highlight sh %}
 git clone https://github.com/dpilger26/NumCpp
 cd NumCpp
