@@ -86,7 +86,7 @@ import subprocess
 subprocess.call(["g++", "main.cpp"]) 
 {% endhighlight %}
 
-+ Agora vamos rodar o binário `runtime`:
++ Agora vamos rodar o binário:
 {% highlight python %}
 subprocess.call("./a.out") 
 {% endhighlight %}
