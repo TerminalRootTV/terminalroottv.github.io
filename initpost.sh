@@ -30,6 +30,8 @@ _skell(){
     echo "date: ${_DATE} ${_TIME}"
     echo "image: '/assets/img/'"
     echo "description:"
+    echo "icon: 'ion:terminal-sharp'"
+    echo "iconname: 'Terminal Root'"
     echo "tags:"
     echo "---"
     echo

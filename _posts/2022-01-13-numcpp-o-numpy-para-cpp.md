@@ -4,6 +4,7 @@ title: "NumCpp, o Numpy para C++"
 date: 2022-01-13 13:16:26
 image: '/assets/img/cpp/numcpp.png'
 description: 'Indicado para programadores Python que querem usar C++, mas manter a forma como fazem seus projetos.'
+icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
 - cpp

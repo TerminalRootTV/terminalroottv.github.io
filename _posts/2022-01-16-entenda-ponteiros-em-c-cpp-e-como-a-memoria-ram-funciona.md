@@ -4,6 +4,8 @@ title: "Entenda Ponteiros em C/C++ e como a Memória RAM funciona"
 date: 2022-01-16 15:35:21
 image: '/assets/img/cpp/ponteiros.jpg'
 description: 'Em Computação mais precisamente em Linguagens de Programação, ponteiro é um objeto que armazena endereço de memória.'
+icon: 'ion:terminal-sharp'
+iconname: 'C++'
 tags:
 - cpp
 - cppdaily
