@@ -5,7 +5,7 @@ date: 2022-01-17 18:40:55
 image: '/assets/img/python/python-cpp.jpg'
 description: 'Aprenda a usar sub processos em Python'
 icon: 'ion:terminal-sharp'
-iconname: 'C++'
+iconname: 'Python'
 tags:
 - python
 - cpp
