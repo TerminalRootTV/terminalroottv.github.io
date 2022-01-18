@@ -50,7 +50,7 @@ cd v
 make
 rm -rf .git*
 cd ..
-mv v/ /opt
+sudo mv v/ /opt
 cd /opt/v/
 sudo ./v symlink
 {% endhighlight %}
