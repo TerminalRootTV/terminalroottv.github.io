@@ -2,7 +2,7 @@
 layout: post
 title: "10 Melhores Games para Linux - Parte III"
 date: 2022-01-19 11:42:44
-image: '/assets/img/games/unvanquished.jpg'
+image: '/assets/img/games/games-open/unvanquished.jpg'
 description: 'Somente games gratuitos e de código aberto!'
 icon: 'ion:terminal-sharp'
 iconname: 'Games'
@@ -16,7 +16,7 @@ tags:
 # 10 Melhores Games para Linux - Parte III
 > 
 
-![10 Melhores Games para Linux - Parte III](/assets/img/games/unvanquished.jpg)
+![10 Melhores Games para Linux - Parte III](/assets/img/games/games-open/unvanquished.jpg)
 
 Essa é a terceira parte da série: 10 Melhores Games para Linux, caso você não tenha visto a [Parte I]() e a [Parte II]().
 
@@ -27,7 +27,7 @@ Vamos lá, então!
 ---
 
 # 01. [Oolite](http://www.oolite.org/)
-![Oolite](/assets/img/games/oolite.jpg) 
+![Oolite](/assets/img/games/games-open/oolite.jpg) 
 
 Anunciado como uma ópera espacial de palavras abertas, **Oolite** é inspirado no clássico jogo Elite de David Braben .
 
@@ -53,7 +53,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # 02. [Cataclysm: Dark Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA)
-![Cataclysm](/assets/img/games/ccdda.jpg)
+![Cataclysm](/assets/img/games/games-open/ccdda.jpg)
 
 **Cataclysm: DDA** é um jogo roguelike ambientado em um mundo pós-apocalíptico gerado proceduralmente. Pense em zumbis, lixo nuclear, esse tipo de coisa. Como a maioria dos jogos roguelikes, é principalmente baseado em texto, mas existem tilesets disponíveis.
 
@@ -65,7 +65,7 @@ O jogo tem mais de 1300 colaboradores que estão introduzindo novas mecânicas d
 ---
 
 # 03. [The Battle for Wesnoth](https://github.com/wesnoth/wesnoth)
-![The Battle for Wesnoth](/assets/img/games/battle-for-wesnoth.jpg)
+![The Battle for Wesnoth](/assets/img/games/games-open/battle-for-wesnoth.jpg)
 
 **Battle for Wesnoth** é um jogo de estratégia baseado em turnos com uma variedade de campanhas envolvendo elfos, anões, orcs, trolls, humanos e muito mais. Falando em humanos, centenas deles contribuíram com mapas, campanhas, recursos e correções de bugs para o projeto.
 
@@ -79,7 +79,7 @@ Se você está procurando uma desculpa para obter alguns quadrados verdes extras
 ---
 
 # 04. [Warzone 2100](https://github.com/Warzone2100/warzone2100) 
-![Warzone 2100](/assets/img/games/warzone-2100.jpg)
+![Warzone 2100](/assets/img/games/games-open/warzone-2100.jpg)
 
 Um mau funcionamento no novo sistema de defesa estratégico da Terra causa uma série de ataques nucleares que matam quase todos os habitantes da Terra. Seu trabalho é ajudar a reconstruir a civilização, mas como você pode imaginar, há algumas barreiras a serem superadas primeiro.
 
@@ -109,7 +109,7 @@ data-ad-slot="8549252987"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-![Yorg](/assets/img/games/yorg.jpg)
+![Yorg](/assets/img/games/games-open/yorg.jpg)
 
 Yorg (não é [esse](https://yorg.io/) ) é um jogo de corrida estilo arcade com muitos carros, pistas, power-ups e armas.
 
@@ -122,7 +122,7 @@ O Yorg foi criado pela Ya2, uma pequena equipe de desenvolvimento de jogos indie
 ---
 
 # 06. [OpenTTD](https://www.openttd.org/)
-![OpenTTD](/assets/img/games/openttd.jpg)
+![OpenTTD](/assets/img/games/games-open/openttd.jpg)
 
 Você já jogou **Transport Tycoon Deluxe** no passado? **OpenTTD**, como o nome sugere, é um jogo de código aberto baseado nele. Além de imitar o jogo original, ele oferece novos recursos significativos, como modo multiplayer para até 255 jogadores, mapas muuuuito maiores e a capacidade de construir em encostas e costas!
 
@@ -138,7 +138,7 @@ Confira o [CONTRIBUTING.md](https://github.com/OpenTTD/OpenTTD/blob/master/CONTR
 ---
 
 # 07. [Teeworlds](https://www.teeworlds.com/)
-![Teeworlds](/assets/img/games/tw.jpg)
+![Teeworlds](/assets/img/games/games-open/tw.jpg)
 
 Fácil de aprender, mas difícil de dominar, Teeworlds é um pequeno MMO agradável que é um mashup de plataforma retrô e jogos de tiro. Personalize seu personagem, lute com até 16 jogadores, crie seus próprios mapas ou confira alguns dos incríveis mapas criados pela comunidade.
 
@@ -150,7 +150,7 @@ Originalmente criado por Magnus Auvinen, agora é de código aberto e mantido pe
 ---
 
 # 08. [Unvanquished](https://github.com/Unvanquished/Unvanquished) 
-![Unvanquished](/assets/img/games/unvanquished.jpg)
+![Unvanquished](/assets/img/games/games-open/unvanquished.jpg)
 
 Unvanquished é um jogo de estratégia FPS que coloca soldados sobre-humanos contra alienígenas desonestos. Tire fotos destruindo as bases inimigas - seja como um humano com poder de fogo de longo alcance ou como um alienígena em combate corpo a corpo que prefere furtividade.
 
@@ -164,7 +164,7 @@ Unvanquished está em desenvolvimento há 10 anos, com o primeiro lançamento em
 ---
 
 # 09. [AstroMenace](https://viewizard.com/) 
-![AstroMenace](/assets/img/games/astro-menace.jpg)
+![AstroMenace](/assets/img/games/games-open/astro-menace.jpg)
 
 Se você cresceu em jogos como Gallaga ou 1942 R-Type, ou se você gosta de explodir coisas no espaço, então este jogo é para você. AstroMenace é um jogo de tiro desenvolvido e publicado pela desenvolvedora de jogos indie russa [@viewizard](https://github.com/viewizard).
 
@@ -179,7 +179,7 @@ Nota do editor: Não tenho certeza se Lee está apenas nos dando os 10 primeiros
 ---
 
 # 10. [FreeOrion](https://www.freeorion.org/index.php/Main_Page)
-![FreeOrion](/assets/img/games/freeorion.jpg)
+![FreeOrion](/assets/img/games/games-open/freeorion.jpg)
 
 FreeOrion é um jogo de estratégia 4X (que é Xplore, eXpand, eXploit e eXterminate) baseado em turnos, império espacial e conquista galáctica.
 
