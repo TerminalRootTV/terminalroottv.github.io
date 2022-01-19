@@ -48,7 +48,6 @@ Para instalar utilize os comandos abaixo na ordem:
 git clone --depth=1 https://github.com/vlang/v
 cd v
 make
-rm -rf .git*
 cd ..
 sudo mv v/ /opt
 cd /opt/v/
