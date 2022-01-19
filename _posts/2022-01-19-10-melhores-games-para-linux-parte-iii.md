@@ -13,10 +13,7 @@ tags:
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
 
-# 10 Melhores Games para Linux - Parte III
-> 
-
-![10 Melhores Games para Linux - Parte III](/assets/img/games/games-open/unvanquished.jpg)
+---
 
 Essa é a terceira parte da série: 10 Melhores Games para Linux, caso você não tenha visto a [Parte I]() e a [Parte II]().
 
