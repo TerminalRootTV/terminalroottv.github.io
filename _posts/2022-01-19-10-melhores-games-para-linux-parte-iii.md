@@ -15,7 +15,7 @@ tags:
 
 ---
 
-Essa é a terceira parte da série: 10 Melhores Games para Linux, caso você não tenha visto a [Parte I]() e a [Parte II]().
+Essa é a terceira parte da série: 10 Melhores Games para Linux, caso você não tenha visto a [Parte I](https://terminalroot.com.br/2020/04/10-melhores-games-para-linux-parte-i.html) e a [Parte II](https://terminalroot.com.br/2020/10/10-melhores-games-para-linux-parte-ii.html).
 
 A diferença dessa parte é que todos os games citados além de gratuitos também são [Open Source](https://terminalroot.com.br/tags#opensource)!
 
