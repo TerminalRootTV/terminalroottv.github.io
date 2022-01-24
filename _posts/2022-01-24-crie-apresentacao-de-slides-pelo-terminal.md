@@ -49,14 +49,14 @@ git clone https://github.com/visit1985/mdp
 cd mdp
 {% endhighlight %}
 
-Eu havia tentado compilar, mas deu erro e percebi que o problema está na compilação da biblioteca [Ncurses](https://terminalroot.com.br/ncurses), mas consegui reslver .
+Eu havia tentado compilar, mas deu erro e percebi que o problema está na compilação da biblioteca [Ncurses](https://terminalroot.com.br/ncurses), mas consegui resolver .
 
 Não enviei um [PR](https://terminalroot.com.br/2017/12/como-criar-um-pull-request-no-github.html) porque iria demorar muito para o cara aceitar, então antes de compilar rode esse comando abaixo dentro do diretório *mdp/*
 
 {% highlight sh %}
 sed -i 's/\-l\$(CURSES)/-l$(CURSES) -ltinfow/g' Makefile
 {% endhighlight %}
-> Esse comando irá substituir a linha que compila somente o Ncurses do tipo *strings longas* e adicionar também para o [terminfo](https://terminalroot.com.br/shell), lembrando que aquele **w** do `-ltinfo` é de extrema importância, se você remover até compila, mas haverá [falha de segmentação](https://terminalroot.com.br/2020/06/gdb-a-melhor-ferramenta-para-encontrar-suas-falha-de-segmentacao.html) .
+> Esse comando irá substituir a linha que compila somente o Ncurses para Unicode e adicionar também para o [terminfo](https://terminalroot.com.br/shell), lembrando que aquele **w** do `-ltinfo` é de extrema importância, se você remover até compila, mas haverá [falha de segmentação](https://terminalroot.com.br/2020/06/gdb-a-melhor-ferramenta-para-encontrar-suas-falha-de-segmentacao.html) .
 
 E agora é só compilar:
 {% highlight sh %}
