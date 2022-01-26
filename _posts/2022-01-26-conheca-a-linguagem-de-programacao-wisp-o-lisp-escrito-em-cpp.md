@@ -137,7 +137,7 @@ wisp -c '(print "Olá, Mundo!")'
 {% endhighlight %}
 
 ### 2º. Rodando via arquivo
-Crie um arquivo de extensão `.list`, exemplo: `nvim hello.lisp` e insira o conteúdo abaixo:
+Crie um arquivo de extensão `.lisp`, exemplo: `nvim hello.lisp` e insira o conteúdo abaixo:
 {% highlight clojure %}
 (print "Olá, Mundo!")
 {% endhighlight %}
