@@ -17,7 +17,7 @@ tags:
 
 E a saga dos sistemas operacionais online continua! Depois do [Windows 93](https://terminalroot.com.br/2020/05/utilize-online-o-windows-93-o-sistema-que-a-microsoft-nao-lancou.html) e do [Mikesoft Windows 96](https://windows96.net/) agora chegou a vez do **daedalOS** .
 
-DaedalOS é um ambiente desktop que roda diretamente no seu navegador(prefira o [Google Chrome]() por questões de compatibilidade) .
+DaedalOS é um ambiente desktop que roda diretamente no seu navegador(prefira o [Google Chrome](https://terminalroot.com.br/tags#chrome) por questões de compatibilidade) .
 
 Para instalar você precisará do [Git](https://terminalroot.com.br/tags#git), [Node.js](https://terminalroot.com.br/tags#nodejs) e do [Yarn](https://yarnpkg.com/).
 
