@@ -62,7 +62,7 @@ O **C++ Insights** está disponível online, mas se você quiser construir e ins
 + [CMake](https://terminalroot.com.br/tags#cmake)
 + [LLVM](https://terminalroot.com.br/tags#llvm)/[clang++](https://terminalroot.com.br/tags#clang), só compila com ele.
 + [Ninja](https://terminalroot.com.br/tags#ninja)
-+ [lld]() , essa é a mais importante de todas, o C++ Insights informa parâmetros para o linker que o [GNU ld](https://linux.die.net/man/1/ld) não é compatível. 😞 
++ [lld](https://lld.llvm.org/) , essa é a mais importante de todas, o C++ Insights informa parâmetros para o linker que o [GNU ld](https://linux.die.net/man/1/ld) não é compatível. 😞 
 
 Exemplo no [Ubuntu](https://terminalroot.com.br/tags#ubuntu):
 {% highlight sh %}
