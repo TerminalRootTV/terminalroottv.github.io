@@ -116,6 +116,10 @@ Se você está acostumado com [C++](https://terminalroot.com.br/cpp) essa mini t
 
 Você pode notar que Vlang é muito parecida com [Go/Golang](https://terminalroot.com.br/tags#go) . Veja [essa tabela](https://github.com/vlang/v/wiki/V-for-Go-developers) comparativa.
 
+# Assista ao Vídeo
+
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/mlY3-QfagBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 Para mais informações e documentação consulte os links abaixo:
