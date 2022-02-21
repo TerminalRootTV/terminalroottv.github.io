@@ -152,6 +152,9 @@ Caso queira um código completo para você testar e notar mais facilmente tudo d
 
 ### Compartilhe esse artigo, mas use essa URL: <https://terminalroot.com.br/2022/02/original-url.html> 😃 !
 
+# Aprenda [Vue.js](https://terminalroot.com.br/vue)
+## <https://terminalroot.com.br/vue>
+
 <script>
 //alert(window.location.href);
 history.pushState({}, null, 'essa-url-nao-eh-a-original-foi-alterada-durante-carregamento-da-pagina');
