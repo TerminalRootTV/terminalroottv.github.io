@@ -150,7 +150,7 @@ Caso queira um código completo para você testar e notar mais facilmente tudo d
 </html>
 ```
 
-### Compartilhe esse artigo, mas use essa URL: <https://terminalroot.com.br/2022/02/url-original.html> 😃 !
+### Compartilhe esse artigo, mas use essa URL: <https://terminalroot.com.br/2022/02/original-url.html> 😃 !
 
 <script>
 //alert(window.location.href);
