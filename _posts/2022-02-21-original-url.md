@@ -47,7 +47,6 @@ Crie um arquivo no seu servidor web de nome: `pagina.html`, insira o código aba
   <script>
     function alterar_url(nova){
           history.pushState({}, null, nova);
-          document.getElementById("url").innerHTML = window.location;
     }
   </script>
   <body>
