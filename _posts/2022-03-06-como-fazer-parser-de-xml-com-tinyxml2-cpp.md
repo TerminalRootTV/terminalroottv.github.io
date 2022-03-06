@@ -323,6 +323,8 @@ Imagine se houvesse mais um elemento `<data>` após o root para fazer uma hierar
 
 No código teríamos dois loop `while` e `*p_artigo` agora obteria o `FirstChildElement()` de `*p_data` :
 
+> `vim quarto.cpp`
+
 {% highlight cpp %}
 #include <iostream>
 #include <vector>
