@@ -238,7 +238,7 @@ E o código:
 
 int main(){
   tinyxml2::XMLDocument doc;
-  doc.LoadFile("segundo.xml");
+  doc.LoadFile("terceiro.xml");
 
   std::vector<const char*> elems = {"title", "description", "date", "time", "tag"};
 
@@ -278,6 +278,8 @@ tag: codigo
 
 ### 4. Filtrando os dados dentro de um elemento sub root
 Imagine se houvesse mais um elemento `<data>` após o root para fazer uma hierarquia mais expressiva, exemplo:
+
+> `vim quarto.xml`
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 <blog>
@@ -328,7 +330,7 @@ No código teríamos dois loop `while` e `*p_artigo` agora obteria o `FirstChild
 
 int main(){
   tinyxml2::XMLDocument doc;
-  doc.LoadFile("segundo.xml");
+  doc.LoadFile("quarto.xml");
 
   std::vector<const char*> elems = {"title", "description", "date", "time", "tag"};
 
