@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Como fazer parser de XML com TinyXML2 C++"
+title: 'Como fazer parser de XML com TinyXML2 C++'
 date: 2022-03-06 13:04:09
 image: '/assets/img/cppdaily/tinyxml2.png'
-description: "Uma ferramenta simples e funcional para ler os tilemaps dos seus games."
+description: 'Uma ferramenta simples e funcional para ler os tilemaps dos seus games.'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
