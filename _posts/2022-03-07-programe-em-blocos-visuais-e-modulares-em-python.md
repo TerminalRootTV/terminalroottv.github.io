@@ -48,7 +48,7 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-Em seguida clique com o botão direito do mouse sobre o plano e escolha o tipo de bloco: [Markdown](https://terminalroot.com.br/tags#markdown) ou `Code` .
+Em seguida clique com o botão direito do mouse sob o plano e escolha o tipo de bloco: [Markdown](https://terminalroot.com.br/tags#markdown) ou `Code` .
 
 ![PyFlow Code ou Markdown](/assets/img/python/pyflow-code.jpg) 
 
