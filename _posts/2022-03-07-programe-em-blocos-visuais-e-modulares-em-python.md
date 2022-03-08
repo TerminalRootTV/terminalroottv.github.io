@@ -73,7 +73,7 @@ Clicando no triângulo ou quadrado é possível criar um nó e unir à outro blo
 ---
 
 Nesse outro exemplo criei uma função que imprime uma mensagem e no outro nó uma variável com uma URL e no terceiro nó imprimo a mensagem e já abro a URL no navegador padrão assim que clico em `>>` para executar o código:
-> Clique na imagem para ampliar e visualizar o código melhor(será aberta em um novo guia do seu navegador).
+> Clique na imagem para ampliar e visualizar o código melhor(será aberta em uma nova guia do seu navegador).
 
 [![PyFlow Nós](/assets/img/python/pyflow.jpg)](/assets/img/python/pyflow.jpg) 
 
