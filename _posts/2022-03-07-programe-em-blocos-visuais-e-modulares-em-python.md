@@ -14,9 +14,9 @@ tags:
 
 ---
 
-**PyFlow** é uma ferramenta de desenvolvimento [Python](https://terminalroot.com.br/tags#python) interativa estruturada em grafos de [código aberto](https://terminalroot.com.br/tags#opensource).
+**PyFlow** é uma ferramenta de desenvolvimento [Python](https://terminalroot.com.br/tags#python) interativa estruturada em nodes de [código aberto](https://terminalroot.com.br/tags#opensource).
 
-Com o **PyFlow** é possível criar blocos de código nos quais você pode editar e executar código Python, é possível mover e redimensione blocos em um plano 2D infinito. Basta vincular os blocos para destacar dependências, o Pyflow executará automaticamente seus blocos na ordem correta .
+Com o **PyFlow** é possível criar blocos de código nos quais você pode editar e executar código Python, é possível mover e redimensionar blocos em um plano 2D infinito. Basta vincular os blocos para destacar dependências e o Pyflow executará automaticamente seus blocos na ordem correta .
 
 ---
 
