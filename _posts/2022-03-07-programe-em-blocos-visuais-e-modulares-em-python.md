@@ -21,7 +21,7 @@ Com o **PyFlow** é possível criar blocos de código nos quais você pode edita
 ---
 
 # Instalação
-Para obter o PyFlow no seu sistema é necessŕio utilizar o [pip](https://pypi.org/project/pip/) e rodar o seguinte comando:
+Para obter o PyFlow no seu sistema é necessário utilizar o [pip](https://pypi.org/project/pip/) e rodar o seguinte comando:
 ```sh
 pip install --user byc-pyflow
 ```
