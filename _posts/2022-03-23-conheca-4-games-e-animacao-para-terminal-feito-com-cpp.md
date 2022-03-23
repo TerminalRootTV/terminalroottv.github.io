@@ -12,9 +12,6 @@ tags:
 - terminal
 ---
 
-![{{ page.title }}]({{ page.image }} '{{ page.description }}')
-
----
 
 Aqui no [blog](https://terminalroot.com.br/) o que mais tem é conteúdo sobre [gráficos para terminal](https://terminalroot.com.br/tags#terminal)(TUI, **T**erminal **U**ser **I**nterface) e [linha de comando](https://terminalroot.com.br/tags#comandos), esse blog faz jus ao nome 😎 . 
 
