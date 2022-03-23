@@ -5,7 +5,7 @@ date: 2022-03-16 13:27:36
 image: '/assets/img/rust/rustpython.jpg'
 description: 'É o Rust reinventando todas as rodas possíveis!'
 icon: 'ion:terminal-sharp'
-iconname: 'Terminal Root'
+iconname: 'Rust/Python'
 tags:
 - rust
 - python
