@@ -1,6 +1,6 @@
 # Site settings
 title: 'Terminal Root'
-subtitle: 'Um pouco de muito sobre C++, Sistemas Operacionais, Programação e Desenvolvimento Web.'
+subtitle: 'Um pouco de muito sobre C++, Programação e Desenvolvimento Web.'
 email: contato@terminalroot.com.br
 author: 'Marcos Oliveira'
 description: > # this means to ignore newlines until "baseurl:"
