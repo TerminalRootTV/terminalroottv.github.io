@@ -12,15 +12,15 @@ color: '#5c3566'
 <!--<main id="main">
 <section id="page-only">-->
 
-Comprar Pacote com os **5 Cursos de C++** com desconto de quase R$ 100,00 reais . Os cursos são:
+## Comprar Pacote com os **5 Cursos de C++** com desconto de quase R$ 100,00 reais . Os cursos são:
 
-+ Curso de C++ Moderno para Iniciantes (vamos atualizar com dicas para Windows)
-+ Curso de C++ Moderno Avançado (vamos atualizar com dicas para Windows)
-+ Curso de Qt Moderno com C++ (Windows e Linux)
-+ Curso de OpenCV com C++ (Windows e Linux)
-+ Curso de Criação de Games com SFML e C++ (Windows e Linux)
++ **❏ Curso de C++ Moderno para Iniciantes** (vamos atualizar com dicas para Windows)
++ **❏ Curso de C++ Moderno Avançado** (vamos atualizar com dicas para Windows)
++ **❏ Curso de Qt Moderno com C++** (Windows e Linux)
++ **❏ Curso de OpenCV com C++** (Windows e Linux)
++ **❏ Curso de Criação de Games com SFML e C++** (Windows e Linux)
 
-Aquisição somente por [e-mail](mailto:contato@terminalroot.com.br) e pagamento via PIX .
+### Aquisição somente por [e-mail](mailto:contato@terminalroot.com.br) e pagamento via PIX .
 
 <!--</section>
 </main>-->

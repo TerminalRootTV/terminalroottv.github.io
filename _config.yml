@@ -38,8 +38,6 @@ links:
   - title: Cursos
     url: /cursos
   - title: C++
-    url: /c++
-  - title: Linguagem C++
     url: /cpp
   - title: OpenCV com C++
     url: /opencv
