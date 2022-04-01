@@ -18,17 +18,7 @@ layout: page
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <script>
-    var url = window.location
-    var href = window.location.href
-    document.getElementById("url").innerHTML = "url: " + url;
-    document.getElementById("href").innerHTML = "href: " + href;
-
-  </script>
-
-  <p id="url"></p>
-  <p id="href"></p>
-
+  <h1 id="url"></h1>
+  <p>{{ site.url }}</p>
+  <script src="/assets/js/pages.js"></script>
 </div>
