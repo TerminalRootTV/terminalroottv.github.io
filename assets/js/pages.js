@@ -21,29 +21,27 @@ let phpR = text.match(phpP);
 let vimP = /vim/i;
 let vimR = text.match(vimP);
 
+let linuxP = /linux/i;
+let linuxR = text.match(linuxP);
+
 //const urls = ["regex", "sed", "bash", "shell", "vue", "php"];
 
 if( text.match(regexR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = "https://cutt.ly/regex"
 }else if(text.match(sedR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/sedsed'
 }else if(text.match(bashR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/bashbash'
 }else if(text.match(shellR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/shell'
 }else if(text.match(vueR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/vuevue'
 }else if(text.match(phpR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/phpphp'
 }else if(text.match(vimR)){
-  document.getElementById("url").innerHTML = "Aguarde, redirecionando ...";
   window.location = 'https://cutt.ly/neovim'
+}else if(text.match(linuxR)){
+  window.location = 'https://terminalroot.com.br/tags/#linux'
 }else{
-  document.getElementById("url").innerHTML = "Use o campo de pesquisa!";
+  window.location = 'https://terminalroot.com.br/'
 }
