@@ -45,7 +45,7 @@ Além de tutoriais embutidos, dicas adicionais de bibliotecas, conceitos explica
 Deseja adquirir esse curso em um **pacote promocional** com **5 Cursos de C++** ? Se sim, então clique no botão abaixo:
 
 <a href="https://terminalroot.com.br/promo" class="btn btn-lg btn-success btn-block my-2 py-3">
-  <i class="fas fa-graduation-cap"></i> Pacote Promocional
+  <i class="fa-solid fa-circle-dollar"></i> Pacote Promocional
 </a>
 
 ---
