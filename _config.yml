@@ -39,6 +39,8 @@ links:
     url: /cursos
   - title: C++
     url: /cpp
+  - title: Desenvolvimento de Games
+    url: /games
   - title: OpenCV com C++
     url: /opencv
   - title: Lua - Linguagem de Programação
