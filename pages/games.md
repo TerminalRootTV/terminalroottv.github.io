@@ -51,8 +51,8 @@ Deseja adquirir esse curso em um **pacote promocional** com **5 Cursos de C++** 
 ---
 
 # Veja e conheça a Grade do Curso
-+ **01.** <a href="https://www.youtube.com/watch?v=klgcdj_Lq5U" class="nav-link active">▶️  Assista a Apresentação</a>
-+ **02.** <a href="https://www.youtube.com/watch?v=GU6TG-QSVgk" class="nav-link active">▶️  Assista a Introdução</a>
++ **01. [▶️  Assista a Apresentação](https://www.youtube.com/watch?v=klgcdj_Lq5U)**
++ **02. [▶️  Assista a Introdução](https://www.youtube.com/watch?v=GU6TG-QSVgk)**
 + **03. Instalação no Linux e no Windows**
 + **04. Fundamentos Iniciais**
 + **05. Formas, Telas e outras informações**
