@@ -10,7 +10,7 @@ color: '#5c3566'
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}") 
 
 ## Comprar Pacote com os **5 Cursos de C++** . Os cursos são:
-+ **Mais de R$ 250,00 reais de desconto** .
++ **Mais de R$ 200,00 reais de desconto** .
 + **Mais de 25 horas** de conteúdo .
 + **Mais de 200 recursos** para download .
 

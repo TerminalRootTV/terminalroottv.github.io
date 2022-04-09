@@ -90,7 +90,7 @@ Aprenda a desenvolver diversos aplicativos como: **Gerenciador de tarefas pessoa
 > *Inclui o Curso de [Desenvolvimento de Games](https://terminalroot.com.br/games)* .
 
 <a href="https://cutt.ly/promocpp" class="btn btn-lg btn-success btn-block my-2 py-3">
-  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++ e desconto de mais de 250 reais
+  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++ e desconto de mais de 200 reais
 </a>
 
 
