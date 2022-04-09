@@ -19,9 +19,8 @@ color: '#5c3566'
 + **❏** [Curso de Qt Moderno com C++](https://terminalroot.com.br/cpp/#qt) *(Windows e Linux)*
 + **❏** [Curso de OpenCV com C++](https://terminalroot.com.br/opencv) *(Windows e Linux)*
 + **❏** [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/games) *(Windows e Linux)*
-> *Em desenvolvimento...*
 
-### Aquisição somente por [e-mail](mailto:contato@terminalroot.com.br) e pagamento via PIX .
+### Aquisição via [PayPal](https://cutt.ly/allcpp) .
 
 <!--</section>
 </main>-->
