@@ -8,10 +8,6 @@ description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windo
 
 ---
 
-# {{ page.title }}
-
----
-
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---

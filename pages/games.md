@@ -8,10 +8,6 @@ description: 'A forma mais eficiente de iniciar no área de Desenvolvimento de G
 
 ---
 
-# {{ page.title }}
-
----
-
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---

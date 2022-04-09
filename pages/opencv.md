@@ -8,10 +8,6 @@ description: 'Guia Definitivo de OpenCV com C++ para Iniciantes'
 
 ---
 
-# {{ page.title }}
-
----
-
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---
