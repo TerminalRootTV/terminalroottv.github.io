@@ -65,4 +65,5 @@ description: 'Guia Definitivo de OpenCV com C++ para Iniciantes'
 + **17. Exercícios OpenCV**
 + **18. cv::waitKey(0);**
 
+---
 
