@@ -12,7 +12,7 @@ description: 'Guia Definitivo de OpenCV com C++ para Iniciantes'
 
 ---
 
-![{{ page.title }}]({{ page.image }})
+![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---
 
@@ -46,101 +46,23 @@ description: 'Guia Definitivo de OpenCV com C++ para Iniciantes'
 ---
 
 # Veja e conheça a Grade do Curso
-+ 01. Apresentação
-+ 02. Introdução
-+ 03. Instalação no Linux
-+ 04. Instalação no Windows 10
-+ 05. Capturando vídeo
-+ 06. Alterando Cores de uma Imagem
-+ 07. Redimensionando e Recortando Imagens com OpenCV
-+ 08. Desenhando Formas e Inserindo Textos em uma Imagem
-+ 09. Trabalhando com Perspectiva
-+ 10. Detecção de Cores
-+ 11. Detecção de Formas
-+ 12. Detecção de rostos e Dicas de Compilação
-+ 13. Detectar Placas de Carros
-+ 14. Extrair Texto de uma Imagem
-+ 15. Detectar via Parâmetros do Vídeo ou da Webcam
-+ 16. Trabalhando com CMake e OpenCV
-+ 17. Exercícios OpenCV
-+ 18. cv::waitKey(0);
++ **01. Apresentação**
++ **02. Introdução**
++ **03. Instalação no Linux**
++ **04. Instalação no Windows 10**
++ **05. Capturando vídeo**
++ **06. Alterando Cores de uma Imagem**
++ **07. Redimensionando e Recortando Imagens com OpenCV**
++ **08. Desenhando Formas e Inserindo Textos em uma Imagem**
++ **09. Trabalhando com Perspectiva**
++ **10. Detecção de Cores**
++ **11. Detecção de Formas**
++ **12. Detecção de rostos e Dicas de Compilação**
++ **13. Detectar Placas de Carros**
++ **14. Extrair Texto de uma Imagem**
++ **15. Detectar via Parâmetros do Vídeo ou da Webcam**
++ **16. Trabalhando com CMake e OpenCV**
++ **17. Exercícios OpenCV**
++ **18. cv::waitKey(0);**
 
 
-<!--
-<main id="main">
-
-<section id="page-only">
-
-	<div class="thumbnail text-center">
-		<img class="img" src="/assets/img/cursos/opencv-cpp.jpg" alt="Terminal Root New Site Purple" title="Guia Definitivo de OpenCV com C++ para Iniciantes">
-		<div class="caption">{{ page.title }}</div>
-	</div>
-
-	<h1 id="howto" class="under-line text-center">O que você vai aprender ?</h1>
-        
-        <ul>
-          <li>✔️  Detecção de rostos, formas, cores e entre outros em imagens e vídeos</li>
-          <li>✔️  Extração de textos em imagens</li>
-          <li>✔️  Teoria e prática de utilização do OpenCV com C++</li>
-          <li>✔️  Saber utilizar o OpenCV de forma padronizada</li>
-        </ul>
-
-
-
-
-	<br>
-
-	<h1 id="howto" class="under-line text-center">Conteúdo do Curso</h1>
-
-	<br>
-
-	<h1 id="howto" class="under-line text-center">Quanto custa ?</h1>
-
-	<p>O curso possui o valor de investimento de R$ 69,90</p>
-
-	<br>
-
-	<h1 id="howto" class="under-line text-center">Como você pode comprar ?</h1>
-
-	<p>Na verdade, de forma muito simples, só clicar no botão abaixo. Depois disso é só aguardar o recebimento do e-mail com os dados de acesso ao nosso <a href="{{ site.baseurl }}/cursos">Portal de Cursos .</a> Geralmente o envio do e-mail é automático logo após confirmação da aquisição.</p>
-
-	<div class="text-center">
-		<p>
-                <a href="https://bit.ly/OpenCVplus" class="btn btn-lg btn-danger btn-block my-2 py-3">
-				<i class="fas fa-graduation-cap"></i> Comprar na Udemy
-                </a>
-			<a href="https://bit.ly/OpenCVplusplus" class="btn btn-lg btn-info btn-block my-2 py-3">
-				 <i class="fab fa-paypal"></i> Comprar com PayPal
-			</a>
-		</p>
-	</div>
-
-	<br>
-
-	<h1 id="howto" class="under-line text-center">Qual a grade do curso ?</h1>
-
-	<ul class="list-group">
-          <li class="list-group-item">01. Apresentação</li>
-          <li class="list-group-item">02. Introdução</li>
-          <li class="list-group-item">03. Instalação no Linux</li>
-          <li class="list-group-item">04. Instalação no Windows 10</li>
-          <li class="list-group-item">05. Capturando vídeo</li>
-          <li class="list-group-item">06. Alterando Cores de uma Imagem</li>
-          <li class="list-group-item">07. Redimensionando e Recortando Imagens com OpenCV</li>
-          <li class="list-group-item">08. Desenhando Formas e Inserindo Textos em uma Imagem</li>
-          <li class="list-group-item">09. Trabalhando com Perspectiva</li>
-          <li class="list-group-item">10. Detecção de Cores</li>
-          <li class="list-group-item">11. Detecção de Formas</li>
-          <li class="list-group-item">12. Detecção de rostos e Dicas de Compilação</li>
-          <li class="list-group-item">13. Detectar Placas de Carros</li>
-          <li class="list-group-item">14. Extrair Texto de uma Imagem</li>
-          <li class="list-group-item">15. Detectar via Parâmetros do Vídeo ou da Webcam</li>
-          <li class="list-group-item">16. Trabalhando com CMake e OpenCV</li>
-          <li class="list-group-item">17. Exercícios OpenCV</li>
-          <li class="list-group-item">18. cv::waitKey(0);</li>
-	</ul>
-
-	<br>
-
-</section>
--->
