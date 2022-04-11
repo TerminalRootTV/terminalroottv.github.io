@@ -22,7 +22,7 @@ color: '#5c3566'
 + **❏ [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)**
 + **❏ [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/games)**
 
-Você pode parcelar em até **10x de 49,90** !!!
+Você pode parcelar em até **10x de 39,90** !!!
 > *Essa é uma promoção por tempo determinado, não salve esse link porque futuramente os valores poderão ser alterados. Adquira agora.*
 
 <a href="https://cutt.ly/allcpp" class="btn btn-lg btn-success btn-block my-2 py-3">

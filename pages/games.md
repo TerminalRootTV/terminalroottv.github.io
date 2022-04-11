@@ -25,7 +25,7 @@ Além de tutoriais embutidos, dicas adicionais de bibliotecas, conceitos explica
 ---
 
 ## Valor do Curso
-**R$ 199,99**
+**R$ 149,90**
 > Escolha uma das formas abaixo para comprar o curso.
 
 <a href="https://cutt.ly/devsfml" class="btn btn-lg btn-info btn-block my-2 py-3">
