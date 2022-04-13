@@ -84,7 +84,7 @@ Deseja adquirir esse curso em um **pacote promocional** com **5 Cursos de C++** 
 + **35. Entity Component System**
 + **36. Mini game com ECS**
 + **37. Como Compilar nossos Games com CMake**
-+ **38. Deploy no Windows 10**
++ **38. [▶️  Como fazer Deploy no Windows 10](https://www.youtube.com/watch?v=e4JsbbeS1YU)
 + **39. Deploy no Linux com AppImage**
 + **40. Como Divulgar, Vender e Dicas de Bibliotecas**
 + **41. You Win!**
