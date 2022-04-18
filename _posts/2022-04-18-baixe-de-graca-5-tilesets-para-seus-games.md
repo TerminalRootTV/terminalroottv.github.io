@@ -42,6 +42,17 @@ Nesse tileset há duplo background para animação de fundo e os blocos são de 
 
 <a href="/downs/tilesets/2-freetileset.zip" class="btn btn-success btn-lg">Clique aqui para fazer o Download do Green Zone</a>
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # 3. Industrial Zone
