@@ -9,6 +9,7 @@ iconname: 'Desenvolvimento de Games'
 tags:
 - devgames
 - cpp
+- gamedev
 - sfml
 - cppdaily
 ---
