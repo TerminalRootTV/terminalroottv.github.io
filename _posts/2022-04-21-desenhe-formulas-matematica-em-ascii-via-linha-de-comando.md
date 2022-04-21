@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Desenhe fórmulas matemática em ASCII via linha de comando"
+title: "Desenhe fórmulas matemáticas em ASCII via linha de comando"
 date: 2022-04-21 10:47:43
 image: '/assets/img/cppdaily/diagon.jpg'
 description: 'Criado com C++ e WebAssembly para Web.'
