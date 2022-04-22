@@ -40,6 +40,16 @@ _skell(){
     echo 
 }
 
+#<a class="btn btn-primary btn-lg btn-block" id="btn-read-more" onclick="showPost()"><i class="fa-solid fa-chevron-down"></i> LER POSTAGEM COMPLETA</a>
+#<div id="read-more" style="display: none;">
+#<script>
+#function showPost(){
+#  document.getElementById("read-more").style.display = "block";
+#  document.getElementById("btn-read-more").style.display = "none";
+#}
+#</script>
+
+
 _initpost(){
 
     _PADRAO=$(date +%Y-%m-%d)
