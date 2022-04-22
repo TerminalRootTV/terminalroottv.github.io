@@ -38,6 +38,17 @@ Uma bela interface gráfica para seus jogos para celular e PC. Interface muito l
 
 <a href="/downs/menus/2-WenrexaUIMobileN4_OnlyPng.zip" class="btn btn-warning btn-lg">Clique aqui para baixar</a>
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 # 3. Menu Buttons
