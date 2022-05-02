@@ -19,7 +19,7 @@ tags:
 
 **WMDerland** é um gerenciador de janelas lado a lado(Tiling Window Manager) para o servidor X11 e usa árvores de particionamento de espaço. 
 
-Foi escrito em [C++](https://terminalroot.com.br/tags#cpp), possui *gaps*(espaços) entre as janelas e pode ser configurado facilmente por um arquivo com sintaxe`INI` . 
+Foi escrito em [C++](https://terminalroot.com.br/tags#cpp), possui *gaps*(espaços) entre as janelas e pode ser configurado facilmente por um arquivo com sintaxe `INI` . 
 
 ---
 
