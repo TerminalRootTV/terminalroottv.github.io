@@ -18,9 +18,6 @@ let vueR = text.match(vueP);
 let phpP = /php/i;
 let phpR = text.match(phpP);
 
-let vimP = /vim/i;
-let vimR = text.match(vimP);
-
 let linuxP = /linux/i;
 let linuxR = text.match(linuxP);
 
@@ -38,8 +35,6 @@ if( text.match(regexR)){
   window.location = 'https://cutt.ly/vuevue'
 }else if(text.match(phpR)){
   window.location = 'https://cutt.ly/phpphp'
-}else if(text.match(vimR)){
-  window.location = 'https://cutt.ly/neovim'
 }else if(text.match(linuxR)){
   window.location = 'https://terminalroot.com.br/tags/#linux'
 }else{
