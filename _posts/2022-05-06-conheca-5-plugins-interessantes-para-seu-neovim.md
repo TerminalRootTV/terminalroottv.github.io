@@ -21,7 +21,6 @@ Todos os plugins foram citados no vídeo abaixo bem como o link para a página d
 ---
 
 # Assista ao Vídeo
-> https://youtu.be/
 
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/F8sVDXvT9vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
