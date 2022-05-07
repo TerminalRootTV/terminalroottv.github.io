@@ -185,7 +185,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-Futuramente vou gravar uns *gameplays* e postar no [meu canal da Twitch](https://www.twitch.tv/TerminalRootTV), segue lá se quiser acompanhar.
+Futuramente vou gravar uns *gameplays* e postar no [meu canal da Twitch](https://www.twitch.tv/marcosplusplus), segue lá se quiser acompanhar.
 
 Ah! Quase ia esquecendo, **Alt + Enter** altera para tela cheia! 😃 Espero ter ajudado!
 
