@@ -72,7 +72,7 @@ PS2=" ";alias vim="cat <<:wq >> $1"
 
 Após rodar o comando acima, basta criar seu arquivo com o comando `vim meu-arquivo.txt`, exemplo:
 
-![Mini Vim Command](./minivim.png) 
+![Mini Vim Command](/assets/img/minivim.png) 
 
 ---
 
