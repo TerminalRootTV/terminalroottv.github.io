@@ -45,3 +45,11 @@ links:
     url: /opencv
   - title: Lua - Linguagem de Programação
     url: /lua
+  - title: Shell Script
+    url: /shell
+  - title: BASH
+    url: /bash
+  - title: Expressões Regulares
+    url: /regex
+  - title: Sed - Editor de Fluxo
+    url: /sed
