@@ -82,6 +82,11 @@ A maioria dessas configurações para quem utiliza [Vim](https://terminalroot.co
 ---
 
 # Instalando o packer.nvim
+
+> **ATUALIZAÇÃO - LEIA ISSO**: Quando algum plugin deseja a versão mais recente e o repositório do seu sistema operacional ainda não possui. Para isso, instale veja o artigo abaixo de COMO COMPILAR O NEOVIM DO ZERO:
+
+# [Como Compilar o NEOVIM do Zero](https://terminalroot.com.br/2022/05/como-compilar-o-neovim-do-zero.html)
+
 O [packer.nvim](https://github.com/wbthomason/packer.nvim/) é um plugin que instala plugins! Ele é similar a plugins como o [vim-plug](https://github.com/junegunn/vim-plug) e o [Vundle](https://github.com/VundleVim/Vundle.vim) que são usados no Vim.
 
 O diferencial dele é que foi totalmente escrito em [Lua](https://terminalroot.com.br/lua) além de utilizar recursos do [LuaJIT](https://terminalroot.com.br/lua/#luajit) para compilar e possui recursos de atualização de plugins, remoção, interfaces UI mais precisas e bem detalhadas. Para todos os recursos dele veja o [repositório](https://github.com/wbthomason/packer.nvim/) .
