@@ -35,8 +35,8 @@ O GNOME utliza por padrão o [Meson](https://terminalroot.com.br/tags#meson), ma
 > É bom também possuir o [gtkmm-3.0](https://terminalroot.com.br/tags#gtkmm) para já resolver outras dependências. Além do [Gtk4](https://www.gtk.org/) .
 
 {% highlight sh %}
-sudo apt build-essential git g++ autotools-dev libgtkmm-3.0-dev \
-         libgtkmm-3.0-doc install mm-common libgtk-4-bin \
+sudo apt install build-essential git g++ autotools-dev libgtkmm-3.0-dev \
+         libgtkmm-3.0-doc mm-common libgtk-4-bin \
          libgtk-4-common libgtk-4-dev libgtk-4-doc pkg-config
 {% endhighlight %}
 
