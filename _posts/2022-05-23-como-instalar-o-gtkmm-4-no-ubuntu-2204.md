@@ -2,7 +2,7 @@
 layout: post
 title: "Como instalar o GTKMM 4 no Ubuntu 22.04"
 date: 2022-05-23 12:51:04
-image: '/assets/img/synfig-gtkmm.png'
+image: '/assets/img/gtkmm/synfig-gtkmm.png'
 description: 'Até o momento desse artigo a única versão disponível no repositório é 3.0 .'
 icon: 'ion:terminal-sharp'
 iconname: 'gtkmm'
@@ -169,7 +169,7 @@ g++ main.cpp $(pkg-config gtkmm-4.0 --cflags --libs)
 
 Se todas as etapas foram seguidas corretamente, aparecerá essa janela:
 
-![gtkmm-4.0 running](/assets/img/gtkmm-4-running.png) 
+![gtkmm-4.0 running](/assets/img/gtkmm/gtkmm-4-running.png) 
 
 <!-- MINI ADS -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
