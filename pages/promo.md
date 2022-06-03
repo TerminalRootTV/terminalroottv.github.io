@@ -10,7 +10,7 @@ color: '#5c3566'
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}") 
 
 ## Comprar Pacote com os **5 Cursos de C++** . Os cursos são:
-+ **Mais de R$ 200,00 reais de desconto** .
++ **Mais de R$ 300,00 reais de desconto** .
 + **Mais de 25 horas** de conteúdo .
 + **Mais de 200 recursos** para download .
 
@@ -22,8 +22,11 @@ color: '#5c3566'
 + **❏ [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)**
 + **❏ [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/games)**
 
-Você pode parcelar em até **10x de 39,90** !!!
-> *Essa é uma promoção por tempo determinado, não salve esse link porque futuramente os valores poderão ser alterados. Adquira agora.*
+### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90` e o resultado seria `609.50`.
+
+### Mas com descontos dessa promoção fica tudo por somente `$RS 299,90` . Um baita de um desconto, você economiza mais de *300 reais* !!! 
+E você pode parcelar em até **10x de 39,90** !!!
+> *Essa é uma promoção por tempo limitado*
 
 <a href="https://cutt.ly/allcpp" class="btn btn-lg btn-success btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
