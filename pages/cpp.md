@@ -6,8 +6,6 @@ image: '/assets/img/cpp/cpp-terminalroot.jpg'
 description: 'Aprendar a criar games CLI, programas gráficos para Linux e Windows, AppImages e entre muitas outras coisas.'
 ---
 
----
-
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---
@@ -25,14 +23,18 @@ Para quem deseja aprender a criar programas de **alta performance** e do jeito c
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
 
+<!--
 <a href="https://cutt.ly/CppIniciante" class="btn btn-lg btn-danger btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
+-->
 
 ## Assista alguns vídeos desse curso
 + [▶️  Apresentação](https://www.youtube.com/watch?v=C4HPF6vwZS4)
 + [▶️  Introdução](https://www.youtube.com/watch?v=a-WTdgb9mFc)
 + [▶️  Funções Recursivas](https://www.youtube.com/watch?v=QSqOJ7YAlBM)
+
+> *Esse curso também está disponível na [Udemy](https://cutt.ly/CppIniciante)*
 
 ---
 
@@ -48,14 +50,18 @@ Além de diversos tutoriais inclusos como: obter informações de data e hora de
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
 
+<!--
 <a href="https://cutt.ly/CppAvancado" class="btn btn-lg btn-danger btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
+-->
 
 ## Assista alguns vídeos desse curso
 + [▶️  Apresentação](https://www.youtube.com/watch?v=7cLGQUxDQKU)
 + [▶️  Introdução](https://www.youtube.com/watch?v=v0pn-FC0s64)
 + [▶️  Classe Enum, Functors e Aritmética com Ponteiros](https://www.youtube.com/watch?v=PBD4mdyYOkU)
+
+> *Esse curso também está disponível na [Udemy](https://cutt.ly/CppAvancado)*
 
 ---
 
@@ -71,18 +77,22 @@ Aprenda a desenvolver diversos aplicativos como: **Gerenciador de tarefas pessoa
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
 
+<!--
 <a href="https://cutt.ly/CppQt" class="btn btn-lg btn-danger btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
+-->
 
 ## Assista alguns vídeos do curso
 + [▶️  Apresentação](https://www.youtube.com/watch?v=y-Lvlp2YWhA)
 + [▶️  Introdução](https://www.youtube.com/watch?v=gi4Htu-W-HE)
 + [▶️  Criando Barras de Menus e Barras de Ferramentas](https://www.youtube.com/watch?v=4fObtgAE2-s)
 
+> *Esse curso também está disponível na [Udemy](https://cutt.ly/CppQt)*
+
 ---
 
-# Deseja adquirir todos os cursos em um pacote promocional ? Sim, sim, clique no botão abaixo:
+# Deseja adquirir todos os cursos em um pacote promocional ? Aproveite clicando no botão abaixo:
 > *Inclui o Curso de [Desenvolvimento de Games](https://terminalroot.com.br/games)* .
 
 <a href="https://cutt.ly/promocpp" class="btn btn-lg btn-success btn-block my-2 py-3">
