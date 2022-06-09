@@ -32,7 +32,7 @@ Veja abaixo um vídeo exemplo do Hyprland funcionando:
 
 <link rel="stylesheet" href="/assets/css/plyr.css" />
 <style>
-#plyr-main { width: 800px;}
+#plyr-main { width:100%;}
 </style>
 
 <div id="plyr-main">
