@@ -55,7 +55,7 @@ mkdir -p ~/.config/lsp
 cd ~/.config/lsp
 {% endhighlight %}
 
-### 2º - Agora clone e compile o binário `lua-lanaguage-server` 
+### 2º - Agora clone e compile o binário `lua-language-server` 
 Com os seguintes comandos na ordem:
 
 {% highlight bash %}
