@@ -30,7 +30,7 @@ Primeiramente você precisa ter o **typescript-language-server** instalado no se
 {% highlight bash %}
 sudo apt install nodejs npm
 {% endhighlight %}
-> Use o `search` do gerenciador de pacotes do seu sistema para encontrar o nome correto, mas geralmente eles são referenciados por esses mesmo nomes.
+> Use o `search` do gerenciador de pacotes do seu sistema para encontrar o nome correto, mas geralmente eles são referenciados por esses mesmos nomes.
 
 Agora use o `npm` para instalar o `typescript` e o `typescript-language-server`, com o seguinte comando:
 
