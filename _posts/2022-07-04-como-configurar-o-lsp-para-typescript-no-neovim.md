@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Como Configurar o LSP para Typescript no Neovim"
+title: "Como Configurar o LSP para TypeScript no Neovim"
 date: 2022-07-04 11:09:42
 image: '/assets/img/neovim/ts/typescript-neovim.jpg'
 description: 'Segunda postagem da série: Como configurar o LSP para sua linguagem de Programação no Neovim.'
 icon: 'ion:terminal-sharp'
-iconname: 'Neovim/Typescript'
+iconname: 'Neovim/TypeScript'
 tags:
 - neovim
 - typescript
@@ -16,7 +16,7 @@ tags:
 
 ---
 
-Na [postagem anterior](https://terminalroot.com.br/2022/06/como-instalar-lua-lsp-no-neovim.html) nós mostramos o quão fácil é configurar o LSP para a linguagem de programação [Lua](https://terminalroot.com.br/tags#lua) e nesse artigo vamos ver como configurar o LSP para uma das linguagens mais utilizadas por desenvolvedores web que é a famosa: [Typescript](https://www.typescriptlang.org/) .
+Na [postagem anterior](https://terminalroot.com.br/2022/06/como-instalar-lua-lsp-no-neovim.html) nós mostramos o quão fácil é configurar o LSP para a linguagem de programação [Lua](https://terminalroot.com.br/tags#lua) e nesse artigo vamos ver como configurar o LSP para uma das linguagens mais utilizadas por desenvolvedores web que é a famosa: [TypeScript](https://www.typescriptlang.org/) .
 
 Se você leu o artigo anterior verá que não há segredo, no entanto, ter as configurações do [Neovim](https://terminalroot.com.br/vim) conforme [essa outra](https://terminalroot.com.br/2021/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html) série, é fundamental! 
 
@@ -24,7 +24,7 @@ Ou ainda se quiser dicas mais modernas veja [esse link](https://terminalroot.com
 
 ---
 
-# Instale o LSP para Typescript
+# Instale o LSP para TypeScript
 Primeiramente você precisa ter o **typescript-language-server** instalado no seu sistema. Para isso você pode(e deve) usar o [NPM](https://terminalroot.com.br/2019/11/como-instalar-nodejs-no-linux-e-primeiros-passos.html), se estiver em sistemas que usam o gerenciador de pacotes APT, para instalar, basta:
 
 {% highlight bash %}
@@ -52,7 +52,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Configure o Neovim
-Após instalado o LSP para Typescript agora é você "chamar" nas suas configurações do Neovim. No meu caso eu uso as configurações que mostrei no curso e na série citados acima que é o arquivo `~/.config/nvim/lua/plugins/lsp.lua` , mas se quiser testar pode tentar no `~/.config/nvim/init.lua` , no entanto, o ideal é o primeiro caso.
+Após instalado o LSP para TypeScript agora é você "chamar" nas suas configurações do Neovim. No meu caso eu uso as configurações que mostrei no curso e na série citados acima que é o arquivo `~/.config/nvim/lua/plugins/lsp.lua` , mas se quiser testar pode tentar no `~/.config/nvim/init.lua` , no entanto, o ideal é o primeiro caso.
 
 Insira a linha abaixo:
 
@@ -64,7 +64,7 @@ require'lspconfig'.tsserver.setup {}
 
 # Testando
 Após tudo instalado e adicionado conforme citados acima, basta testar!
-> Lembre-se que o LSP para Typescript só vai funcionar se você tiver um `package.json` no diretório que você escrevendo o código Typescript.
+> Lembre-se que o LSP para TypeScript só vai funcionar se você tiver um `package.json` no diretório que você escrevendo o código TypeScript.
 
 Crie um projeto:
 
@@ -77,11 +77,11 @@ vim index.ts
 
 Escreva seu código e se estiver tudo certo, você terá: detalhes de funções, informações de erros e warnings, autocomplete e entre outros. Exemplos:
 
-![Typescript LSP 1](/assets/img/neovim/ts/typescript-nvim-1.png) 
-![Typescript LSP 2](/assets/img/neovim/ts/typescript-nvim-2.png)
-![Typescript LSP 3](/assets/img/neovim/ts/typescript-nvim-3.png)
-![Typescript LSP 4](/assets/img/neovim/ts/typescript-nvim-4.png)
-![Typescript LSP 5](/assets/img/neovim/ts/typescript-nvim-5.png)
+![TypeScript LSP 1](/assets/img/neovim/ts/typescript-nvim-1.png) 
+![TypeScript LSP 2](/assets/img/neovim/ts/typescript-nvim-2.png)
+![TypeScript LSP 3](/assets/img/neovim/ts/typescript-nvim-3.png)
+![TypeScript LSP 4](/assets/img/neovim/ts/typescript-nvim-4.png)
+![TypeScript LSP 5](/assets/img/neovim/ts/typescript-nvim-5.png)
 
 
 
