@@ -2,7 +2,7 @@
 layout: post
 title: "Como Instalar o LSP para Bash e Python no Neovim"
 date: 2022-07-18 18:56:55
-image: '/assets/img/'
+image: '/assets/img/neovim/bash-python/lsp-bash-python-nvim.jpg'
 description: 'Essa é a terceira postagem da série.'
 icon: 'ion:terminal-sharp'
 iconname: 'Neovim'
