@@ -77,7 +77,7 @@ sudo npm i -g bash-language-server
 E basta adicionar essa linha ao seu `lsp.lua`
 
 {% highlight bash %}
-require'lspconfig'.bashls.setup{} -- sudo npm i -g bash-language-server
+require'lspconfig'.bashls.setup{}
 {% endhighlight %}
 
 *Infos*, auto-complete, ...
