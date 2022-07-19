@@ -16,7 +16,7 @@ tags:
 
 ---
 
-Nesse terceiro artigo dessa série de **COMO INSTALAR O LSP PARA SUA LINGUAGEM DE PROGRAMÇÃO** vamos ver o quão simples é para [Bash](https://terminalroot.com.br/tags#bash) e [Python](https://terminalroot.com.br/tags#python) .
+Nesse terceiro artigo dessa série de **COMO INSTALAR O LSP PARA SUA LINGUAGEM DE PROGRAMAÇÃO** vamos ver o quão simples é para [Bash](https://terminalroot.com.br/tags#bash) e [Python](https://terminalroot.com.br/tags#python) .
 
 Outros artigos dessa série:
 + [Como Instalar Lua LSP no Neovim](https://terminalroot.com.br/2022/06/como-instalar-lua-lsp-no-neovim.html)
@@ -83,7 +83,7 @@ require'lspconfig'.bashls.setup{} -- sudo npm i -g bash-language-server
 *Infos*, auto-complete, ...
 
 ![Bash Image 1](/assets/img/neovim/bash-python/sh1.png "Bash Image 1") 
-![Bash Image 2](/assets/img/neovim/bash-python/py2.png "Bash Image 2") 
+![Bash Image 2](/assets/img/neovim/bash-python/sh2.png "Bash Image 2") 
 
 ---
 
