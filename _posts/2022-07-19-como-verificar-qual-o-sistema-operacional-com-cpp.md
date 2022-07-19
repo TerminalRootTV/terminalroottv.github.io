@@ -28,7 +28,7 @@ Nesse caso existem `MACROS` específicas para cada sistema operacional, por exem
 # Verificando se é Linux ou Windows
 Abaixo um exemplo de um código C++ que roda em ambos sistemas operacionais e emite um "[Hello, World!](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html)" conforme o sistema operacional:
 
-{% highlight bash %}
+{% highlight cpp %}
 #include <iostream>
 
 int main(){
