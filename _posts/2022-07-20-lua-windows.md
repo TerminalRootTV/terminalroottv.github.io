@@ -63,6 +63,7 @@ E renomei o arquivo `lua54` para `lua` somente
 
 ### 05. Copie o caminho da pasta: `C:\Program Files\lua-5.4.2_Win64_bin`
 > Observação: O caminho é em inglês mesmo.
+
 ![Lua no Windows](/assets/img/windows/lua-win/12-lua.png) 
 
 ---
