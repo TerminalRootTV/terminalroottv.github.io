@@ -5,7 +5,7 @@ date: 2022-07-20 13:32:11
 image: '/assets/img/windows/lua-win/lua-windows10.jpg'
 description: 'Para usar com o Power Shell ou CMD .'
 icon: 'ion:terminal-sharp'
-iconname: 'Lua/Window'
+iconname: 'Lua/Windows'
 tags:
 - lua
 - windows
