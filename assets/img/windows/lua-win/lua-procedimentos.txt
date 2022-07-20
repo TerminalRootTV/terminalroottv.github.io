@@ -1,0 +1,8 @@
+Acesse: https://www.lua.org/download.html
+Super + Shit + S :  get a binary , ou acesse diretamente o link: https://github.com/rjpcomputing/luaforwindows/releases
+Baixe aqui: http://luabinaries.sourceforge.net/#installation
+Ou: https://sourceforge.net/projects/luabinaries/files/5.4.2/Tools%20Executables/
+Baixe o arquivo de nome: lua-5.4.2_Win64_bin.zip para 64-bit, Windows 10 só existe 64-bit!
+
+Vim:
+https://www.freecodecamp.org/portuguese/news/guia-de-instalacao-do-vim-no-windows-como-executar-o-editor-de-texto-vim-no-powershell-do-seu-pc/
