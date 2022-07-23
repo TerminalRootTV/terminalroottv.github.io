@@ -92,12 +92,12 @@ Você ainda pode detectar todos os sistema operacionais. Abaixo um outro exemplo
 
 int main(){
 
-#if defined(__linux__) // Ou #if __linux__
-  std::cout << "Olá, GNU/Linux!" << '\n';
+#if defined(__ANDROID__)
+  std::cout << "Olá, Android!" << '\n';
 #elif __FreeBSD__
   std::cout << "Olá, FreeBSD!" << '\n';
-#elif __ANDROID__
-  std::cout << "Olá, Android!" << '\n';
+#elif __linux__
+  std::cout << "Olá, GNU/Linux!" << '\n';
 #elif __APPLE__
   std::cout << "Olá, macOS!" << '\n';
 #elif _WIN32

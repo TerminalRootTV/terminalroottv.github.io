@@ -3,7 +3,7 @@ layout: post
 title: "Carbon, nova linguagem de programação do Google, pretende ser sucessora do C++"
 date: 2022-07-21 18:14:40
 image: '/assets/img/news/carbon.jpg'
-description: 'Esse é o primeiro vídeo da playlist/quadro News * news;(um ponteiro para as notícias)'
+description: 'Esse é o primeiro vídeo da playlist/quadro: um ponteiro para as notícias'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
