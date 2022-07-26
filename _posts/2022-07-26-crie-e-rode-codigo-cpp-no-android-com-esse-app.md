@@ -3,7 +3,7 @@ layout: post
 title: "Crie e Rode Código C++ no Android com esse App"
 date: 2022-07-26 18:02:04
 image: '/assets/img/cpp/android.jpg'
-description: 'Serve para: testar seu: game, app e outros, além de ser um forma de distração e treinamento .'
+description: 'Serve para testar seu: game, app e outros, além de ser um forma de distração e treinamento .'
 icon: 'ion:terminal-sharp'
 iconname: 'C++/Android'
 tags:
