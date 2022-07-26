@@ -30,7 +30,7 @@ Nesse vídeo vamos ver alguns recursos do CXX Droid, tais como:
 
 # Código e links citados no vídeo
 
-Código do `sdl-mail.cpp` :
+Código do `sdl-main.cpp` :
 > Que foi o exemplo para mostrar o SDL2 funcionando no Android!
 
 {% highlight cpp %}
