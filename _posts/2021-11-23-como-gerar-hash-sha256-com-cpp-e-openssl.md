@@ -7,8 +7,9 @@ description: 'Existem outras bibliotecas que podem fazer a mesma coisa, mas a Op
 icon: 'ion:terminal-sharp'
 iconname: 'OpenSSL'
 tags:
+- openssl
+- criptografia
 - cpp
-- cppdaily
 ---
 
 ![Como Gerar Hash SHA256 com C++ e OpenSSL](/assets/img/cpp/crypto-cpp.jpg)
