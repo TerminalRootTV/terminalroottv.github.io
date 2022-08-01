@@ -60,13 +60,13 @@ std::cout << pilha.top() << '\n';
 {% endhighlight %}
 
 Para deletar o último elemento(o do topo)
-{% highlight bash %}
+{% highlight cpp %}
 pilha.pop();
 std::cout << pilha.top() << '\n';
 {% endhighlight %}
 
 Verificar se está vazia, remover e imprimir:
-{% highlight bash %}
+{% highlight cpp %}
 while( true ){
   if( !pilha.empty() ){
     std::cout << pilha.top() << '\n';
