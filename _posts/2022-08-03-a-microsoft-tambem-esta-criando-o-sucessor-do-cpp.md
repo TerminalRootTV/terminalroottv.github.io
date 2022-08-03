@@ -81,6 +81,7 @@ git clone --recursive https://github.com/microsoft/verona
 mkdir build
 cd build
 cmake -DVERONA_DOWNLOAD_LLVM=ON ..
+make
 {% endhighlight %}
 
 Esse é o procedimento em linhas gerais, mas já existe detalhamento para compilação tanto no [Windows](https://terminalroot.com.br/tags#windows) para o Visual Studio quanto também para o [Ubuntu](https://terminalroot.com.br/tags#ubuntu). Veja [aqui](https://github.com/microsoft/verona/blob/master/docs/building.md) todas as dependências necessárias e entre outros .
