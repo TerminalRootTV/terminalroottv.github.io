@@ -26,7 +26,7 @@ A Microsoft revelou recentemente que a grande maioria dos bugs descobertos atual
 ---
 
 # O que é Memória Segura ?
-Quando o [C++](https://terminalroot.com.br/tags#cpp) foi lançado, muitas empresas gostaram do forma de abstração dos dados, principalmente o **RAII**(construtores e destrutores), que era justamente o que diferenciava o [C++](https://terminalroot.com.br/cpp) da linguagem [C](https://terminalroot.com.br/tags#linguagemc) que não possui RAII .
+Quando o [C++](https://terminalroot.com.br/tags#cpp) foi lançado, muitas empresas gostaram da forma de abstração dos dados, principalmente o **RAII**(construtores e destrutores), que era justamente o que diferenciava o [C++](https://terminalroot.com.br/cpp) da linguagem [C](https://terminalroot.com.br/tags#linguagemc) que não possui RAII .
 
 Com todo o sucesso do C++, apareceram também diversas críticas, a mais relacionada era o fato do C++ não possuir Garbage Collector(em português: **coleta de lixo**), que é uma forma de recuperar regiões da memória que foram previamente alocadas, mas não foram devolvidas para o sistema operacional poder reutilizar .
 
