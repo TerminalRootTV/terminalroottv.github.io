@@ -91,7 +91,7 @@ Esse é o procedimento em linhas gerais, mas já existe detalhamento para compil
 ## Para mais informações, acesse o repositório oficial do Projeto Verona no GitHub:
 ## <https://github.com/microsoft/verona>
 
---
+---
 
 Veja também: 
 ## [Carbon, nova linguagem de programação do Google, pretende ser sucessora do C++](https://terminalroot.com.br/2022/07/carbon-nova-linguagem-de-programacao-do-google-pretende-ser-sucessora-do-cpp.html) .
