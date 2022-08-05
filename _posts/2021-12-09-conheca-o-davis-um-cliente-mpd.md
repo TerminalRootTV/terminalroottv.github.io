@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Conheça o Davis, um cliente MPD escrito em Rust"
+title: "Conheça o Davis, um cliente MPD"
 date: 2021-12-09 12:25:35
 image: '/assets/img/multimidia/davis.jpg'
-description: 'Para você que curte Rust e Música, esse é o software perfeito!'
+description: 'Para você que curte Música, esse é o software até que é legalzinho.'
 icon: 'ion:terminal-sharp'
 iconname: 'MPD'
 tags:
 - multimidia
-- rust
 ---
 
 ![Conheça o Davis, um cliente MPD escrito em Rust](/assets/img/multimidia/davis.jpg)

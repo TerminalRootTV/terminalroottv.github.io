@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "gping, o ping com gráficos, escrito em Rust"
+title: "gping, o ping com gráficos"
 date: 2021-12-14 10:31:27
 image: '/assets/img/comandos/gping.jpg'
-description: 'Mais um comando moderno e estiloso!'
+description: 'Mais um comando'
 icon: 'ion:terminal-sharp'
 iconname: 'Comandos'
 tags:
@@ -12,7 +12,7 @@ tags:
 - terminal
 ---
 
-![gping, o ping com gráficos, escrito em Rust](/assets/img/comandos/gping.jpg)
+![gping, o ping com gráficos](/assets/img/comandos/gping.jpg)
 
 ---
 

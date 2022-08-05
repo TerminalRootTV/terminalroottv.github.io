@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Customize seu prompt com Starship escrito em Rust"
+title: "Customize seu prompt com Starship"
 date: 2021-05-27 00:53:41
 image: '/assets/img/rust/startship.jpg'
-description: 'Minimalismo e velocidade!'
+description: 'Minimalismo.'
 icon: 'ion:terminal-sharp'
-iconname: 'Shell/Rust'
+iconname: 'Shell'
 tags:
-- rust
 - shellscript
 ---
 

@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "RhaiScript, Uma linguagem de script escrita em Rust"
+title: "RhaiScript, Uma linguagem de script"
 date: 2022-02-25 13:32:37
 image: '/assets/img/rust/rhai.jpg'
 description: 'Oferece uma maneira segura e fácil de adicionar scripts a qualquer aplicativo.'
 icon: 'ion:terminal-sharp'
-iconname: 'Rust'
+iconname: 'Script'
 tags:
-- rust
 - programacao
 ---
 

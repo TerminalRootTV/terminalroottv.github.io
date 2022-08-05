@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exa - Uma alternativa ao ls escrita em Rust"
+title: "Exa - Uma alternativa ao ls"
 date: 2021-08-09 10:23:10
 image: '/assets/img/rust/exa.jpg'
 description: 'Mais amigável, simples e rápido.'
@@ -8,7 +8,6 @@ icon: 'ion:terminal-sharp'
 iconname: 'Comandos'
 tags:
 - comandos
-- rust
 ---
 
 ![Exa - Uma alternativa ao ls escrita em Rust](/assets/img/rust/exa.jpg)

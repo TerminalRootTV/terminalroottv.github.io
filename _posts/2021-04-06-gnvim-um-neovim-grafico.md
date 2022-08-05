@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "GNvim: Um NeoVim Gráfico escrito em Rust"
+title: "GNvim: Um NeoVim Gráfico"
 date: 2021-04-06 09:25:19
 image: '/assets/img/neovim/gnvim.jpg'
-description: 'NeoVim e Rust, combinação perfeita!'
+description: 'NeoVim meio estranho, mas funcional.'
 icon: 'ion:terminal-sharp'
 iconname: 'Neovim'
 tags:
-- rust
 - neovim
 - vim
 ---

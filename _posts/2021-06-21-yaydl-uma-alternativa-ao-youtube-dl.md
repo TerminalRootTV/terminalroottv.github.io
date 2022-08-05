@@ -5,12 +5,12 @@ date: 2021-06-21 13:28:25
 image: '/assets/img/rust/yaydl.jpg'
 description: 'Fiz um teste baixando um vídeo e foi ultraveloz!'
 icon: 'ion:terminal-sharp'
-iconname: 'Rust'
+iconname: 'Dicas'
 tags:
-- rust
+- dicas
 ---
 
-![Yaydl - Uma alternativa ao Youtube-dl escrita em Rust](/assets/img/rust/yaydl.jpg)
+![Yaydl - Uma alternativa ao Youtube-dl](/assets/img/rust/yaydl.jpg)
 
 Pra quem é fã de [Rust](https://terminalroot.com.br/tags#rust) e de velocidade, o Yaydl é outro software via linha de comando para fazer downloads de vídeos do [Youtube](https://youtube.com/TerminalRootTV) .
 

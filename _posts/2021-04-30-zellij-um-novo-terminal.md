@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Zellij um novo terminal escrito em Rust"
+title: "Zellij um novo terminal"
 date: 2021-04-30 10:33:59
 image: '/assets/img/rust/zellij.jpg'
 description: 'Um multiplexador de terminal estilo TMUX e GNU Screen .'
 icon: 'ion:terminal-sharp'
-iconname: 'Rust'
+iconname: 'Terminal'
 tags:
-- rust
 - terminal
 ---
 

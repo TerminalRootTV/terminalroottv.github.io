@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "Verifique se um e-mail existe sem enviar e-mail, escrito em Rust."
+title: "Verifique se um e-mail existe sem enviar e-mail"
 date: 2021-09-29 08:36:52
 image: '/assets/img/rust/check-if-email-exists.jpg'
 description: 'Além da validação de expressões regulares!'
 icon: 'ion:terminal-sharp'
 iconname: 'Rust'
 tags:
-- rust
+- inutil
 ---
 
 ![Verifique se um e-mail existe sem enviar e-mail, escrito em Rust.](/assets/img/rust/check-if-email-exists.jpg)
 
 Agora além de usar aquela sua [RegEx](https://terminalroot.com.br/regex) para verificar se o e-mail foi digitado dentro do padrão, agora você pode o **check-if-email-exists** para verificar se o mesmo existe, sem enviar nenhum e-mail!
 
-É uma ferramenta muito interessante e fácil de usar que foi escrita em [Rust](https://terminalroot.com.br/tags#rust).
+É uma ferramenta muito interessante e fácil de usar .
 
 ---
 
