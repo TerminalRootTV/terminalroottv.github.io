@@ -53,3 +53,7 @@ links:
     url: /regex
   - title: Sed - Editor de Fluxo
     url: /sed
+  - title: PHP e MySQL
+    url: /php
+  - title: Vue.js
+    url: /vue
