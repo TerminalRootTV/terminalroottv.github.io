@@ -31,7 +31,7 @@ use {
 }
 {% endhighlight %}
 
-Pode ser que após instalação apreça um *warning*, mas é pelo fato da atualização rodar mesmo antes de você definir as configurações, então descarte isso ser considerado um problema .
+Pode ser que após instalação apareça um *warning*, mas é pelo fato da atualização rodar mesmo antes de você definir as configurações, então descarte isso ser considerado um problema .
 
 Após instalado, basta você definir as configurações em um arquivo , exemplo:
 
@@ -80,7 +80,7 @@ Por exemplo, atualmente estou usando o tema **sobrio** que no início eu não ha
 
 ![Sobrio e Treesitter](/assets/img/neovim/sobrio.png) 
 
-Para instalar o Sobrio, use seu instalador, exemplo com o Packer.nvim :
+Para instalar o Sobrio, use seu instalador, exemplo com o **Packer.nvim** :
 
 {% highlight lua %}
 use 'elvessousa/sobrio'
