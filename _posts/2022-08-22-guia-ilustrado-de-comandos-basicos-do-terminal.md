@@ -6,7 +6,7 @@ image: '/assets/img/terminal/guia-ilustrado/0.jpg'
 description: 'Criado e publicado por Eduarda Velasco'
 author: 'Maria Eduarda'
 image_author: '/assets/img/terminal/guia-ilustrado/eduarda.jpg'
-url_author: 'www.linkedin.com/in/maria-eduarda-cassol-velasco-da-silva-catanho-07666722b/'
+url_author: 'https://cutt.ly/eduarda'
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal'
 tags:
