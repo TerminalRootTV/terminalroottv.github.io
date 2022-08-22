@@ -7,6 +7,7 @@ description: 'Criado e publicado por Eduarda Velasco'
 author: 'Maria Eduarda'
 image_author: '/assets/img/terminal/guia-ilustrado/eduarda.jpg'
 url_author: 'https://cutt.ly/eduarda'
+jobauthor: 'Desenvolvedora de Software'
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal'
 tags:

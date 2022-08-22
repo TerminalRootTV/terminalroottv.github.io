@@ -4,7 +4,7 @@
       <img src="{{ page.image_author | escape }}" alt="{{ page.author | escape }}" class="img-fluid rounded-circle">
       <h3>{{ page.author | escape }}</h3>
       <address>
-        <h6 class="oblique">Desenvolvedor de software</h6>
+        <h6 class="oblique">{{ page.jobauthor | escape }}</h6>
       </address>
       <h5>
         <a href="{{ page.url_author | escape }}"><i class="fab fa-github"></i> {{ page.url_author | escape }}</a>
