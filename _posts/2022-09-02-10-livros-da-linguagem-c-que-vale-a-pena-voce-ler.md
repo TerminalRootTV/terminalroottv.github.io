@@ -72,6 +72,19 @@ C é o melhor lugar para começar a programar, e Dan Gookin está aqui para most
 
 ---
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
+
 # 04. [Linguagem C - Completa e Descomplicada](https://www.amazon.com.br/Linguagem-Completa-descomplicada-Andr%25C3%25A9-Backes-ebook/dp/B07K27L496/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=b1131645a4a7951a9467670dc7ba2753&camp=1789&creative=9325)
 
 ![Linguagem C - Completa e Descomplicada](/assets/img/livros/c/04-c-livros.jpg) 
@@ -136,6 +149,20 @@ O escopo do livro abrange desde o início, com o entendimento sobre o que são a
 Este livro foi criado para proporcionar aos leitores uma visão geral de como programar utilizando as linguagens C e C++. Muitos livros ensinam apenas C ou somente C++, neste procuramos contemplar as duas linguagens. Para quem não tem experiência em programação este livro tem o necessário para inserir a pessoa na arte de programar.
 
 <a href="https://www.amazon.com.br/Programando-Linguagem-Microsoft-Visual-Studio/dp/8537104337/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=4f8489fd82fa6dbca8952697eaee4641&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+
+---
+
+
+<!-- MINI ADS -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
