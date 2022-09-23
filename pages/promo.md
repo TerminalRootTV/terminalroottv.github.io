@@ -28,7 +28,7 @@ color: '#5c3566'
 E você pode parcelar em até **10x de 39,90** !!!
 > *Essa é uma promoção por tempo limitado*
 
-<!--<a href="https://cutt.ly/allcpp" class="btn btn-lg btn-success btn-block my-2 py-3">
+<!--<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
 </a>-->
 
