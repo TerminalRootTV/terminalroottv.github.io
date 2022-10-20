@@ -25,7 +25,7 @@ tags:
 
 Após muitas pessoas me perguntarem quando haveria promoção dos Cursos, decidi criar logo um MEGA PROMOÇÃO de todos os cursos!
 
-Dessa vez decidi criar proomções para valer, com valores que realmente faz toda a diferença, além de opções: GRATUITA!
+Dessa vez decidi criar promoções para valer, com valores que realmente faz toda a diferença, além de opções: GRATUITA!
 
 Alguém também havia me perguntado se existia promoção com todos os Cursos de uma única vez, então também decidi criar, mas para compras diretas aqui no [site](https://terminalroot.com.br/promo) .
 
