@@ -42,7 +42,7 @@ Adquira essa promoção:
 #### de ~~R$ 179,90~~ 
 ## por R$ 49,99
 
-<a href="https://www.udemy.com/course/curso-de-criacao-de-games-com-cpp-e-sfml-windows-e-linux/?couponCode=F2F340DD78E71107403C" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a> 
+<a href="https://www.udemy.com/course/curso-de-criacao-de-games-com-cpp-e-sfml-windows-e-linux/?couponCode=F2F340DD78E71107403C" class="btn btn-success btn-lg">Clique aqui para obter esse CUPOM</a> 
 
 
 ---
@@ -52,7 +52,7 @@ Adquira essa promoção:
 #### de ~~R$ 159,90~~
 ## por R$ 59,90
 
-<a href="https://www.udemy.com/course/curso-de-qt-moderno-com-cpp-para-linux-e-windows/?couponCode=1B1B9265AD8844EFFC0A" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-qt-moderno-com-cpp-para-linux-e-windows/?couponCode=1B1B9265AD8844EFFC0A" class="btn btn-primary btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -81,7 +81,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/curso-de-opencv-com-cpp-para-iniciantes/?couponCode=FC8159865A8A9FAD10AF" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-opencv-com-cpp-para-iniciantes/?couponCode=FC8159865A8A9FAD10AF" class="btn btn-warning btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -91,7 +91,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/aprenda-vuejs-do-zero/?couponCode=EEDE55D8484680E220D8" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/aprenda-vuejs-do-zero/?couponCode=EEDE55D8484680E220D8" class="btn btn-success btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -100,7 +100,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/curso-de-desenvolvimento-web-do-zero-php-mysql-no-linux/?couponCode=0187316C53C683F677D5" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-desenvolvimento-web-do-zero-php-mysql-no-linux/?couponCode=0187316C53C683F677D5" class="btn btn-custom btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -108,7 +108,7 @@ Adquira essa promoção:
 #### de ~~R$ 84,90~~
 ## por R$ 34,90
 
-<a href="https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/?couponCode=BC32BBE8479948F41C9A" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-vim-moderno-e-vimscript/?couponCode=BC32BBE8479948F41C9A" class="btn btn-success btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -125,7 +125,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/curso-completo-de-sed-editor-de-fluxo/?couponCode=03D54BDC5CDF53D2704B" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-completo-de-sed-editor-de-fluxo/?couponCode=03D54BDC5CDF53D2704B" class="btn btn-primary btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -134,7 +134,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/curso-completo-de-expressoes-regulares/?couponCode=01A02C7C3FC8B3AC1DAC" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-completo-de-expressoes-regulares/?couponCode=01A02C7C3FC8B3AC1DAC" class="btn btn-warning btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -145,7 +145,7 @@ Adquira essa promoção:
 
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="https://www.udemy.com/course/curso-de-shell-script-do-iniciante-ao-avancado/?couponCode=2F2F324644E60BC0AC99" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-shell-script-do-iniciante-ao-avancado/?couponCode=2F2F324644E60BC0AC99" class="btn btn-info btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
@@ -153,7 +153,7 @@ Adquira essa promoção:
 Para aqueles que desejam adquirir todos os Cursos de C++, há um pacote especial pelo preço de **R$ 178,97**, clique no botão abaixo:
 > Em ambos os casos pode ser dividido em até 12x!
 
-<a href="https://terminalroot.com.br/promo" class="btn btn-danger btn-lg">Adquirir TODOS OS CURSOS DE C++</a>
+<a href="https://terminalroot.com.br/promo" class="btn btn-custom btn-lg">Adquirir TODOS OS CURSOS DE C++</a>
 
 E para aqueles que desejam adquirir TODOS OS CURSOS em um mega pacote, tudo fica por apenas: **R$ 397,89**, adquira pelo botão abaixo:
 
