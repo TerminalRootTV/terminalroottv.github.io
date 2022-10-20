@@ -10,7 +10,6 @@ color: '#5c3566'
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}") 
 
 ## Comprar Pacote com os **5 Cursos de C++** . Os cursos são:
-+ **Mais de R$ 300,00 reais de desconto** .
 + **Mais de 25 horas** de conteúdo .
 + **Mais de 200 recursos** para download .
 
@@ -24,8 +23,7 @@ color: '#5c3566'
 
 ### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90` e o resultado seria `609.50`.
 
-### Mas com descontos dessa promoção fica tudo por somente `$RS 299,90` . Um baita de um desconto, você economiza mais de *300 reais* !!! 
-E você pode parcelar em até **10x de 39,90** !!!
+### Mas com descontos dessa promoção fica tudo por somente `$RS 178,97` . Um baita de um desconto, você economiza mais de *400 reais* !!! 
 > *Essa é uma promoção por tempo limitado*
 
 <!--<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
@@ -43,15 +41,15 @@ E você pode parcelar em até **10x de 39,90** !!!
       paypal.Buttons({
         style: {
           shape: 'rect',
-          color: 'blue',
-          layout: 'vertical',
-          label: 'buynow',
-          
+          color: 'gold',
+          layout: 'horizontal',
+          label: 'pay',
+          tagline: true
         },
 
         createOrder: function(data, actions) {
           return actions.order.create({
-            purchase_units: [{"description":"Pacote com os 5 Cursos de C++","amount":{"currency_code":"BRL","value":299.9}}]
+            purchase_units: [{"description":"Todos os Cursos de C++","amount":{"currency_code":"BRL","value":178.97}}]
           });
         },
 
