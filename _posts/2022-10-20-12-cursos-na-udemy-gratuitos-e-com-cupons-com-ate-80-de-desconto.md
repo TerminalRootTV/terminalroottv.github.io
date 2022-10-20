@@ -71,7 +71,7 @@ Adquira essa promoção:
 ## por R$ 22,90
 > Promoção válida por apenas 5 dias a contar da data de publicação desse artigo.
 
-<a href="" class="btn btn-danger btn-lg">Clique aqui para obter esse CUPOM</a>
+<a href="https://www.udemy.com/course/curso-de-cpp-moderno-para-iniciantes/?couponCode=6FF11EBCF91551F5144F" class="btn btn-info btn-lg">Clique aqui para obter esse CUPOM</a>
 
 ---
 
