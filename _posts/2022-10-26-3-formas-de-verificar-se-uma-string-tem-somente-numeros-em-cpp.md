@@ -7,7 +7,7 @@ description: 'Na verdade, há diversas formas, no entanto, essas são as mais in
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
-+ cpp
+- cpp
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
