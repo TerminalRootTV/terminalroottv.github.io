@@ -92,7 +92,7 @@ Vamos analisar cada um dos softwares:
 
 + [bash](https://terminalroot.com.br/bash) , apesar de você possuir o [Shell](https://terminalroot.com.br/shell) escolhido durante a instalação, acho que o bash é interessantes possuir instalado, caso haja alguma necessidade, pela fácil sintaxe, e também para que está acostumado.
 + [bash-completion](https://github.com/scop/bash-completion) , muito importante para ao começar a digitar um comando, basta pressionar [TAB] e o bash-completion irá auto-completar o nome do comando pra você.
-+ [bat](https://www.diolinux.com.br/2019/01/bat-clone-cat-comando-linux.html) , é similar ao comando `cat`, mas como formatação e syntax highlight!
++ [bat](https://terminalroot.com.br/2021/08/uma-lista-com-30-alternativas-modernas-para-os-comandos-do-unix.html#01-bat) , é similar ao comando `cat`, mas como formatação e syntax highlight!
 + [feh](https://feh.finalrewind.org/) , para definir o papel de parede e visualizar imagens;
 + [fish](https://terminalroot.com.br/2018/01/fish-shell-mais-produtividade-no-seu-shell-script.html) , outra alternativa de Shell, mais amigável;
 + [font-awesome](https://fontawesome.com/), um pacotes de fonts e glyphicons;
@@ -337,7 +337,6 @@ Abraços!
 + <https://git-scm.com>
 + <https://pt.wikipedia.org/wiki/Sudo>
 + <https://pt.wikipedia.org/wiki/Texinfo>
-+ <https://www.diolinux.com.br/2019/01/bat-clone-cat-comando-linux.html>
 + <https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mirrors-ftp.html#mirrors-br-ftp>
 + <https://www.freebsd.org/doc/pt_BR/books/handbook/pkgng-intro.html>
 + <https://www.freebsd.org/doc/pt_BR/books/handbook/x-config.html#x-config-manual-configuration>

@@ -48,7 +48,6 @@ sed -n '/github\|Author\|Maintainer/p'; done
 
 # Veja também:
 - [10 DICAS para Você Usar o VIM como um NINJA](https://www.youtube.com/watch?v=nFWQJiLvjnk)
-- [7 dicas para você usar o VIM como um PRO](http://bit.ly/VimDiolinux)
 - [Por que o Vim é tão difícil e tão amado por programadores?](http://bit.ly/2yjqTX9)
 - [Conheça o Kakoune, um Vim fácil de usar](http://bit.ly/2RUAUWe)
 - [Conheça o Bat, um clone do cat com Asas](http://bit.ly/2Tv8uiR)
