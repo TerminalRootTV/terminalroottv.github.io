@@ -3,7 +3,7 @@ layout: post
 title: "Startfetch - Um fetch que mostra as Constelações do Zodíaco"
 date: 2022-11-11 11:45:28
 image: '/assets/img/terminal/starfetch.jpg'
-description: 'Um ferramenta escrita em C++ para linha de comando.'
+description: 'Uma ferramenta escrita em C++ para linha de comando.'
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal'
 tags:
@@ -13,10 +13,6 @@ tags:
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
-
----
-
-![Startfetch](./starfetch.jpg) 
 
 ---
 
