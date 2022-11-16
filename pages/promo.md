@@ -30,6 +30,11 @@ color: '#5c3566'
   <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
 </a>-->
 
+<a href="https://cutt.ly/NewPromoCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
+  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
+</a>
+
+<!--
 <p>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
    <input type="hidden" name="cmd" value="_s-xclick">
@@ -38,6 +43,7 @@ color: '#5c3566'
    <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
   </form>
 </p>
+-->
 
 ---
 

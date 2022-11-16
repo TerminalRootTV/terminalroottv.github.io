@@ -161,6 +161,10 @@ E para aqueles que desejam adquirir TODOS OS CURSOS em um mega pacote, tudo fica
 
 <p>Adquira a promoção clicando no botão abaixo:</p>
 
+<a href="https://cutt.ly/NewPromoCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
+  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
+</a>
+<!--
 <p>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
    <input type="hidden" name="cmd" value="_s-xclick">
@@ -168,7 +172,7 @@ E para aqueles que desejam adquirir TODOS OS CURSOS em um mega pacote, tudo fica
    <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
    <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
   </form>
-</p>
+</p>-->
 
 
 ---
