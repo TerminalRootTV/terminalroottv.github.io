@@ -35,7 +35,7 @@ color: '#5c3566'
 </a>
 
 <blockquote>
-  </strong>Caso prefira pagar com <u>PIX</u> o pacote completa fica por apenas: <u>R$ 160,00 !!!</u></strong>
+  <strong>Caso prefira pagar com <u>PIX</u> o pacote completa fica por apenas: <u>R$ 160,00 !!!</u></strong>
 </blockquote>
 
 <!--
