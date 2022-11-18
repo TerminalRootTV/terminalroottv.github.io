@@ -22,7 +22,7 @@ pip install remove --user
 > O parâmetro `--user` deixará esse pacote/módulo/biblioteca disponível somente para seu usuário: `${HOME}` é necessário possuir o diretório `~/.local/bin` incluido na sua variável de ambiente `${PATH}`, se não estiver, rode o comando: 
 
 {% highlight bash %}
-cho 'export PATH="${PATH}:${HOME}/.local/bin"' >> ~/.bashrc
+echo 'export PATH="${PATH}:${HOME}/.local/bin"' >> ~/.bashrc
 {% endhighlight %}
 > Se quiser para todos usuários do sistema, rode: `sudo pip install remove`.
 
