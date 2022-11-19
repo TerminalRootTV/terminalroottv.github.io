@@ -14,7 +14,7 @@ tags:
 
 Eu gostaria de fazer um texto bem detalhado, mas essa ferramenta em [Python](https://terminalroot.com.br/tags#python) é muito simples e direta ao ponto!
 
-Basta instalar o [pip](https://pypi.org/project/pip/) e com o `pip` instalar o pacote `remove`:
+Basta instalar o [pip](https://pypi.org/project/pip/) e com o `pip` instalar o pacote `rembg`:
 
 {% highlight bash %}
 pip install rembg --user
