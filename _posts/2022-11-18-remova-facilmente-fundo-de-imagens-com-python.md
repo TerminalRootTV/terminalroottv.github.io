@@ -17,14 +17,14 @@ Eu gostaria de fazer um texto bem detalhado, mas essa ferramenta em [Python](htt
 Basta instalar o [pip](https://pypi.org/project/pip/) e com o `pip` instalar o pacote `remove`:
 
 {% highlight bash %}
-pip install remove --user
+pip install rembg --user
 {% endhighlight %}
 > O parâmetro `--user` deixará esse pacote/módulo/biblioteca disponível somente para seu usuário: `${HOME}` é necessário possuir o diretório `~/.local/bin` incluido na sua variável de ambiente `${PATH}`, se não estiver, rode o comando: 
 
 {% highlight bash %}
 echo 'export PATH="${PATH}:${HOME}/.local/bin"' >> ~/.bashrc
 {% endhighlight %}
-> Se quiser para todos usuários do sistema, rode: `sudo pip install remove`.
+> Se quiser para todos usuários do sistema, rode: `sudo pip install rembg`.
 
 
 Agora é só criar um código básico, exemplo:
