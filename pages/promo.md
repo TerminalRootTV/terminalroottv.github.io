@@ -23,35 +23,12 @@ color: '#5c3566'
 
 ### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90` e o resultado seria `609.50`.
 
-### Mas com descontos dessa promoção fica tudo por somente `$RS 178,97` . Um baita de um desconto, você economiza mais de *400 reais* !!! 
+### Mas com descontos dessa promoção fica tudo por somente `$RS 299,99` . Um baita de um desconto, você economiza mais de *300 reais* !!! 
 > *Essa é uma promoção por tempo limitado*
 
-<!--<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
-  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
-</a>-->
-
-<a href="https://cutt.ly/Cpp5promo" class="btn btn-lg btn-success btn-block my-2 py-3">
+<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
 </a>
-
-<blockquote>
-  <strong>Caso prefira pagar com <u>PIX</u> o pacote completa fica por apenas: <u>R$ 160,00 !!!</u></strong>
-</blockquote>
-
-<!--
-<a href="https://cutt.ly/NewPromoCpp?milla" class="btn btn-lg btn-success btn-block my-2 py-3">
-  <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
-</a>
-
-<p>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-   <input type="hidden" name="cmd" value="_s-xclick">
-   <input type="hidden" name="hosted_button_id" value="N7H67VMYRVNUQ">
-   <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-   <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-  </form>
-</p>
--->
 
 ---
 
