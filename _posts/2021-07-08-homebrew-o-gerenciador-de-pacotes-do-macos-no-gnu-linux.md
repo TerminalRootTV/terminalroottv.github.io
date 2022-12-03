@@ -25,7 +25,7 @@ O Homebrew pode instalar suas próprias versões atuais do glibc e gcc para dist
 Antes de qualquer coisa instale as dependências se você não possuir, exemplos:
 + [Debian](https://terminalroot.com.br/tags#debian), [Ubuntu](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=ubuntu), [Linux Mint](https://terminalroot.com.br/tags#mint) e derivados:
 {% highlight bash %}
-sudo apt-get install build-essential procps curl file git
+sudo apt install build-essential procps curl file git
 {% endhighlight %}
 
 + [Fedora](https://terminalroot.com.br/2019/09/ambiente-de-desenvolvimento-fedora-30.html) e derivados:
@@ -48,7 +48,7 @@ data-ad-slot="5351066970"></ins>
 
 Próximo passo é só instalar:
 {% highlight bash %}
-sudo bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 {% endhighlight %}
 
 # Utilização

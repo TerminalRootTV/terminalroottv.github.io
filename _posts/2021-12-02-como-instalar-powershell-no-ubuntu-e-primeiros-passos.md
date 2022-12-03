@@ -7,8 +7,9 @@ description: 'Além de dica de como proceder em qualquer outra distribuição Li
 icon: 'ion:terminal-sharp'
 iconname: 'PowerShell'
 tags:
-- shellscript
+- powershell
 - terminal
+- ubuntu
 ---
 
 ![Como Instalar PowerShell no Ubuntu e Primeiros Passos](/assets/img/terminal/powershell.jpg)
