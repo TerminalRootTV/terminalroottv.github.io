@@ -144,7 +144,7 @@ Ou até mesmo também adicionar o caminho `C:\Program Files\Neovim\bin` à vari�
 
 Lembrando que você pode também usar o `winget` para instalar o Vim, caso deseje, pesquise e instale:
 ![neovim-winget-07.png](/assets/img/windows/vim-neovim/neovim-winget-07.png)
-{% highlight ps %}1
+{% highlight ps1 %}
 winget install vim.vim
 {% endhighlight %}
 
