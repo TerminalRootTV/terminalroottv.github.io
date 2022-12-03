@@ -51,7 +51,7 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-# 3. Crie variáveis de Ambiente 
+# 3. Crie Variáveis de Ambiente 
 Pesquise na **Barra de Início** a palavra **Variáveis de Ambiente** , clique na primeira opção e depois no botão: **Variáveis de Ambiente**, abrirá uma nova janela:
 ![gcc/g++ MinGW Windows 5](/assets/img/windows/mingw/5.png)
 
