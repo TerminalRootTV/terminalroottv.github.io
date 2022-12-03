@@ -63,6 +63,10 @@ Abra o PowerShell ou o CMD, entre na pasta onde houver um arquivo C/C++, compile
 ![gcc/g++ MinGW Windows 7](/assets/img/windows/mingw/7.png)
 ![gcc/g++ MinGW Windows 8](/assets/img/windows/mingw/8.png)
 
+No [VS Code](https://terminalroot.com.br/tags#code) fica mais fácil de usar:
+![VS Code](/assets/img/windows/mingw/9.png)
+> Para facilitar a abertura do PowerShell no VS Code você pode instalar [essa extensão](https://learn.microsoft.com/pt-br/powershell/scripting/dev-cross-plat/vscode/using-vscode?view=powershell-7.3#install-vs-code-and-the-powershell-extension).
+
 ---
 
 Caso deseje, você pode optar em seguir [esse tutorial](https://code.visualstudio.com/docs/cpp/config-mingw) para instalar com [MSYS2](https://www.mingw-w64.org/downloads/#msys2), no entanto, acho mais bagunçado, o MSYS2 cria um monte de atalhos.
