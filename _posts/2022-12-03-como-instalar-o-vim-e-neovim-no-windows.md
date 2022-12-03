@@ -36,8 +36,7 @@ Antes de mais nada precisamos baixar o Vim, para isso acesse o endereço: <https
 ### 1. Abra o Windows Explorer e dê um duplo clique no arquivo baixado: `gvim90.exe``:
 ![1.png](/assets/img/windows/vim-neovim/1.png)
 
-### 2. Dê permissão de execução:
-![2.png](/assets/img/windows/vim-neovim/2.png)
+### 2. Dê permissão de execução!
 
 ### 3. Escolha o Idioma, não há opção para Português, das opções abaixo, escolha o idioma desejado, exemplo: **English** e pressione **OK**.
 ![3.png](/assets/img/windows/vim-neovim/3.png)
