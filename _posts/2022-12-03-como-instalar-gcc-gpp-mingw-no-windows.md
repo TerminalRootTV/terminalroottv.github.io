@@ -76,3 +76,9 @@ Caso deseje, você pode optar em seguir [esse tutorial](https://code.visualstudi
 
 ---
 
+# Veja também:
+## [Como Instalar o Vim e Neovim no Windows](https://terminalroot.com.br/2022/12/como-instalar-o-vim-e-neovim-no-windows.html)
+## [Crie Jogos para Windows, Linux e Web com Raylib C/C++](https://terminalroot.com.br/2022/11/crie-jogos-para-windows-linux-e-web-com-raylib-c-cpp.html)
+## [Como instalar Lua no Windows 10](https://terminalroot.com.br/2022/07/lua-windows.html)
+## [Como Implementar Dear ImGUi com SFML no Windows 10](https://terminalroot.com.br/2022/07/como-implementar-dear-imgui-com-sfml-no-windows-10.html)
+## [Como Instalar o Qt Creator 6 com QtWebEngine no Windows e Linux](https://terminalroot.com.br/2022/06/como-instalar-o-qt-creator-6-com-qtwebengine-no-windows-e-linux.html)
