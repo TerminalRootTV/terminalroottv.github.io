@@ -36,7 +36,7 @@ Acesse o endereço: <https://sourceforge.net/projects/mingw-w64/> na aba: **File
 ![gcc/g++ MinGW Windows 2](/assets/img/windows/mingw/2.png)
 ![gcc/g++ MinGW Windows 3](/assets/img/windows/mingw/3.png)
 
-# 2. Descompacte e "instale" 
+# 2. Instalação
 Mova a pasta descompactada para a unidade `C:\` e copie o endereço da subpasta `bin` o caminho completo é: `C:\mingw64\bin`
 ![gcc/g++ MinGW Windows 4](/assets/img/windows/mingw/4.png)
 
