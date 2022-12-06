@@ -52,8 +52,8 @@ Se estiver no [Windows]() veja [nesse artigo: Como instalar Lua no Windows 10]()
 A extensão das bibliotecas compartilhadas è `.dll`, logo o comando para compilar seria mais ou menos:
 > Informe o caminho onde está instalado os arquivo da API do Lua.
 
-{% highlight ps %}1
-g++ lua-bind.cpp -shared -fpic -L C:\caminho\para\lua.h -L -L C:\caminho\para\lauxlib.h -o terroo.dll
+{% highlight bash %}
+g++ lua-bind.cpp -shared -fpic -L C:\caminho\para\lua.h -L C:\caminho\para\lauxlib.h -o terroo.dll
 {% endhighlight %}
 
 Para mais informações acesse os links:
