@@ -141,7 +141,7 @@ int main (){
 ---
 
 ## Image Sprite do Dragão
-![Dragon Allegro Example](/downs/allegro/sprite.png) 
+![Dragon Allegro Example](/downs/allegro/dragon.png) 
 
 
 <!-- SQUARE - GAMES ROOT -->
