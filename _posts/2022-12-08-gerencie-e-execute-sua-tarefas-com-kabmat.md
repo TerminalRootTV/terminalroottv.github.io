@@ -3,7 +3,7 @@ layout: post
 title: "Gerencie e execute sua Tarefas com Kabmat"
 date: 2022-12-08 10:36:13
 image: '/assets/img/tui/kabmat.jpg'
-description: 'Programa gráfico que roda no terminal(TUI) para gerenciar quadros kanban com combinações de teclas estilo Vim.'
+description: 'Programa gráfico escrito em C++ que roda no terminal(TUI) para gerenciar quadros kanban com combinações de teclas estilo Vim.'
 icon: 'ion:terminal-sharp'
 iconname: 'TUI'
 tags:
