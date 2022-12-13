@@ -58,6 +58,17 @@ data-ad-slot="5351066970"></ins>
 
 # Utilização
 Suponhamos que você possua esse código [Python](https://terminalroot.com.br/tags#python) que é uma função *Fibonacci*, você pode interpretar o código com o próprio Codon:
+{% highlight python %}
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+fib(1000)
+{% endhighlight %}
+
+Para rodar sem compilar:
 {% highlight bash %}
 codon run fib.py
 {% endhighlight %}
