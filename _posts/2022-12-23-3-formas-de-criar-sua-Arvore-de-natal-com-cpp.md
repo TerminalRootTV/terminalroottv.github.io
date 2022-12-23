@@ -56,7 +56,7 @@ g++ 01-christmas-tree.cpp && ./a.out
 ****
 {% endhighlight %}
 
-Ou seja, somente 4 básicas linhas! Se quiser um pouco maior, basta alterar a função `drawTree()` para `1,10` ou qualquer número que você queira:
+Ou seja, somente algums básicas linhas! Se quiser um pouco maior, basta alterar a função `drawTree()` para `1,10` ou qualquer número que você queira:
 
 {% highlight cpp %}
 ...
@@ -107,6 +107,19 @@ int main(){
 
 Agora ficou legal! Podemos ainda customizar o tamanho via `argc` e `argv`, mas isso aí fica com você! 😃 
 
+{% highlight bash %}
+                    *
+                   ***
+                  *****
+                 *******
+                *********
+               ***********
+              *************
+             ***************
+            *****************
+           *******************
+{% endhighlight %}
+
 ---
 
 # 2º Forma - Uma Árvore de Natal mais estilosa e com animação!
@@ -114,7 +127,7 @@ Nessa outra forma vamos incrementar mais alguns caracteres **ASCII** para ficar 
 
 Além também de adicioarmos CORES! Para isso vamos usar uma *biblioteca* que criamos aqui mesmo no blog, para mais detalhes veja o artigo: [Crie sua própria biblioteca de cores para C++](https://terminalroot.com.br/2021/05/crie-sua-propria-biblioteca-de-cores-para-cpp.html) . O legal dessa biblioteca é que ela é simples e funciona legal no LSP, veja o gif abaixo ele informando cada `string`, note que ele informa: **sublinhado**, **itálico**, **normal**, **background** e entre outros:
 
-![LSP Color Lib](./gif-color-lsp.webp) 
+![LSP Color Lib](/assets/img/pixelart/gif-color-lsp.webp) 
 
 
 <!-- SQUARE - GAMES ROOT -->
@@ -177,7 +190,7 @@ int main(){
 
 A árvore possívelmente aparecerá assim:
 
-![02-christmas-tree.cpp running...](./gif-tree-cpp.webp) 
+![02-christmas-tree.cpp running...](/assets/img/pixelart/gif-tree-cpp.webp) 
 
 ---
 
@@ -345,7 +358,7 @@ make
 
 Saída:
 
-![Christmas Tree C++ SFML OpenGL](./cmas-cpp-sfml-opengl.png) 
+![Christmas Tree C++ SFML OpenGL](/assets/img/pixelart/cmas-cpp-sfml-opengl.png) 
 
 Show de bola, né?!
 
