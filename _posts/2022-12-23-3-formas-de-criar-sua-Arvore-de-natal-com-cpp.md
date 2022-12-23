@@ -12,7 +12,7 @@ tags:
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
-> Não julgue a imagem! =) Essa foi uma das primeiras Pixel Art que eu fiz com [LibreSprite]() ! 😃 
+> Não julgue a imagem! =) Essa foi uma das primeiras Pixel Art que eu fiz com [LibreSprite](https://terminalroot.com.br/2021/12/instale-o-libresprite-uma-alternativa-ao-aseprite.html) ! 😃 
 
 ---
 
@@ -110,7 +110,7 @@ Agora ficou legal! Podemos ainda customizar o tamanho via `argc` e `argv`, mas i
 ---
 
 # 2º Forma - Uma Árvore de Natal mais estilosa e com animação!
-Nessa outra forma vamos incrementar mais alguns caracteres **ASCII** para ficar mais legal, também vamos usar a biblioteca [unistd.h]() para obtermos um *lag*(`sleep`) de 1 segundo na troca da aniimação, para mais detalhes veja o artigo: [4 Formas diferentes de usar sleep() em C++](https://terminalroot.com.br/2021/08/quatro-formas-diferentes-de-usar-sleep-em-cpp.html) .
+Nessa outra forma vamos incrementar mais alguns caracteres **ASCII** para ficar mais legal, também vamos usar a biblioteca [unistd.h](https://terminalroot.com.br/2021/08/quatro-formas-diferentes-de-usar-sleep-em-cpp.html) para obtermos um *lag*(`sleep`) de 1 segundo na troca da aniimação, para mais detalhes veja o artigo: [4 Formas diferentes de usar sleep() em C++](https://terminalroot.com.br/2021/08/quatro-formas-diferentes-de-usar-sleep-em-cpp.html) .
 
 Além também de adicioarmos CORES! Para isso vamos usar uma *biblioteca* que criamos aqui mesmo no blog, para mais detalhes veja o artigo: [Crie sua própria biblioteca de cores para C++](https://terminalroot.com.br/2021/05/crie-sua-propria-biblioteca-de-cores-para-cpp.html) . O legal dessa biblioteca é que ela é simples e funciona legal no LSP, veja o gif abaixo ele informando cada `string`, note que ele informa: **sublinhado**, **itálico**, **normal**, **background** e entre outros:
 
