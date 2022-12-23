@@ -79,7 +79,7 @@ E então, teremos um tamanho ligeiramente maior:
 **********
 {% endhighlight %}
 
-Mas, queremos mesmo ter um triâgulo equilátero, logo, adicionaremos mais dois *loops* dentro do *loop principal* com cálculos que crie a parte esquerda do triângulo e dê espaço à esquerda, além de remover o parâmetro `min` para que possamos mostrar todo o triângulo, veja o código para notar a diferença:
+Mas, queremos mesmo ter um triâgulo equilátero(bom, não é tão equilátero assim, mas tá valendo! :) ), logo, adicionaremos mais dois *loops* dentro do *loop principal* com cálculos que crie a parte esquerda do triângulo e dê espaço à esquerda, além de remover o parâmetro `min` para que possamos mostrar todo o triângulo, veja o código para notar a diferença:
 
 {% highlight cpp %}
 #include <iostream>
