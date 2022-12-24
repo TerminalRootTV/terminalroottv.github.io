@@ -106,6 +106,11 @@ dotnet run
 
 ---
 
+# Veja também 
+## [Como Instalar PowerShell no Ubuntu e Primeiros Passos](https://terminalroot.com.br/2021/12/como-instalar-powershell-no-ubuntu-e-primeiros-passos.html)
+
+---
+
 # Links Úteis
 + <https://terminalroot.com/how-to-install-csharp-on-ubuntu-and-getting-started/>
 + <https://github.com/terroo/langs-test-loop/blob/main/round2/main.cs>
