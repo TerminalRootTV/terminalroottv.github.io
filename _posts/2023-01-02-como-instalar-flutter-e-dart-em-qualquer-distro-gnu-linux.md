@@ -91,7 +91,7 @@ dart --version
 
 ---
 
-# Criando um [Hello, World!]() em Dart
+# Criando um [Hello, World!](https://terminalroot.com.br/tags#programacao) em Dart
 Crie um arquivo com o nome que você desejar e extensão: `.dart`, exemplo: `vim main.dart` e insira o conteúdo abaixo:
 
 {% highlight dart %}
@@ -127,7 +127,7 @@ data-full-width-responsive="true"></ins>
 
 ---
 
-# Criando um [Hello, World!]() com Flutter
+# Criando um [Hello, World!](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) com Flutter
 > <https://docs.flutter.dev/reference/flutter-cli>
 
 {% highlight bash %}
@@ -136,8 +136,8 @@ cd my_app
 flutter run
 {% endhighlight %}
 
-Existem várias formas de exibir, leia as saídas, no entanto, a mais simples é usando [Google Chrome](). Se o `flutter run` não listar essa opção, faça assim:
-> Exemplo do caminho do binário do Google Chrome no [Gentoo]().
+Existem várias formas de exibir, leia as saídas, no entanto, a mais simples é usando [Google Chrome](https://terminalroot.com.br/tags#chrome). Se o `flutter run` não listar essa opção, faça assim:
+> Exemplo do caminho do binário do Google Chrome no [Gentoo](https://terminalroot.com.br/tags#gentoo).
 
 {% highlight bash %}
 CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
@@ -169,7 +169,7 @@ Alternativamente você pode usar o [snapd](http://snapcraft.io/) para instalar:
 {% highlight bash %}
 sudo snap install flutter --classic
 {% endhighlight %}
-> Apesar de nativo para o [Ubuntu](), está disponível para diversas distros! 
+> Apesar de nativo para o [Ubuntu](https://terminalroot.com.br/tags#ubuntu), está disponível para diversas distros! 
 > 
 > Por exemplo no Gentoo: `emerge snapd`.
 
