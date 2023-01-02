@@ -42,7 +42,7 @@ Os aplicativos Flutter são escritos na linguagem de programação Dart e fazem 
 
 Dart (originalmente denominada Dash) é uma linguagem de script voltada à web desenvolvida pela Google. O objetivo da linguagem Dart foi inicialmente a de substituir a JavaScript como a linguagem principal embutida nos navegadores. Programas nesta linguagem podem tanto serem executados em uma máquina virtual quanto compilados para JavaScript.
 
-Em novembro de 2013, foi lançada a primeira versão estável, Dart 1.0.[5] Em agosto de 2018 foi lançado o Dart 2.0, um reboot da linguagem, otimizado para o desenvolvimento client-side para Web e dispositivos móveis.
+Em novembro de 2013, foi lançada a primeira versão estável, Dart 1.0. Em agosto de 2018 foi lançado o Dart 2.0, um reboot da linguagem, otimizado para o desenvolvimento client-side para Web e dispositivos móveis.
 
 
 <!-- SQUARE - GAMES ROOT -->
