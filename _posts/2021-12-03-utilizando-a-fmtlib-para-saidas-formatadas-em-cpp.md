@@ -44,9 +44,10 @@ Dependências:
 
 Depois basta clonar, compilar e instalar com os comandos abaixo:
 {% highlight sh %}
-git clone --recursive https://github.com/fmtlib/format-benchmark.git
-cd format-benchmark
-cmake .
+git clone https://github.com/fmtlib/fmt
+cd fmt
+cmake -B build .
+cd build
 make
 sudo make install
 {% endhighlight %}
