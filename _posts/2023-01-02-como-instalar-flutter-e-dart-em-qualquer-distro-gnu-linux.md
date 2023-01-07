@@ -157,7 +157,7 @@ source /etc/profile
 ![Flutter App Count Hello World](/assets/img/dart/fluuter-app.png) 
 
 
-O arquivo para editar é: `./my_app/vim lib/main.dart`
+O arquivo para editar é: `vim ./my_app/lib/main.dart`
 
 Se você escolher a opção 1(precisa ter o `clang` e `gtk` instalado), abrirá em uma nova janela, como no exemplo abaixo:
 
