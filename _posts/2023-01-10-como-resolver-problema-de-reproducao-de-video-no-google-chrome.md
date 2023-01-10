@@ -2,7 +2,7 @@
 layout: post
 title: "Como Resolver Problema de Reprodução de Vídeo no Google Chrome"
 date: 2023-01-10 17:57:08
-image: '/assets/img/steps-chrome/fix-video-google-chrome.jpg'
+image: '/assets/img/web/steps-chrome/fix-video-google-chrome.jpg'
 description: 'Na maioria dos casos essa é a forma de resolver!'
 icon: 'ion:terminal-sharp'
 iconname: 'Google Chrome'
