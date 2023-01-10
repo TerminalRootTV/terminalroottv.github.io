@@ -6,8 +6,6 @@ image: '/assets/img/cursos/curso-gentoo.jpg'
 description: 'Indicado para Programadores C/C++, Desenvolvedores em Geral e Amantes do GNU/Linux!'
 ---
 
----
-
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}")
 
 ---
