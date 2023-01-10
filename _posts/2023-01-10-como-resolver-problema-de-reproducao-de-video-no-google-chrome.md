@@ -43,7 +43,7 @@ Abrirá a *Página de configurações do Chrome*: <chrome://settings/> .
 
 ---
 
-# 05. Marque a opção: *Mostrar todos os cookie*
+# 05. Marque a opção: *Mostrar todos os cookies*
 ![05. Marque a opção: Mostrar todos os cookies](/assets/img/web/steps-chrome/05.png) 
 
 ---
