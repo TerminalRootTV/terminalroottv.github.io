@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Curso Completo de Gentoo Linux"
-permalink: "/opencv/"
+permalink: "/gentoo/"
 image: '/assets/img/cursos/curso-gentoo.jpg'
 description: 'Indicado para Programadores C/C++, Desenvolvedores em Geral e Amantes do GNU/Linux!'
 ---
