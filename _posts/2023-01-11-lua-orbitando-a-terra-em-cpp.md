@@ -2,7 +2,7 @@
 layout: post
 title: "Lua Orbitando a Terra em C++ 🌘 🌎 🎶"
 date: 2023-01-11 18:14:40
-image: '/assets/img/assets/sfml/moon-orbiting-earth-cpp.jpg'
+image: '/assets/img/sfml/moon-orbiting-earth-cpp.jpg'
 description: '🔊 Nesse vídeo fizemos uma animação da Lua orbitando a Terra com C+e+ e SFML, também fizemos um "merge" no sistema de partícula de que também desenvolvemos no canal!'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
