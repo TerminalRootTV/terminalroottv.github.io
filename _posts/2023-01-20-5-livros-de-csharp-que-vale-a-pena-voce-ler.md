@@ -29,7 +29,7 @@ Nesse artigos vamos indicar **5 Livros de C# que vale à pena você ler**.
 
 O Use a Cabeça! C# – 2ª Edição é uma experiência completa de aprendizagem para a programação com C#, .NET Framework e IDE Visual Studio. Construído para ser assimilado rapidamente pela sua mente, este livro cobre o C# & .NET 4.0 e o Visual Studio 2010, e ensina tudo, desde a herança até a serialização. Você consultará seus dados com o LINQ, desenhará gráficos e animação e aprenderá as classes e a programação orientada a objetos, tudo através do desenvolvimento de jogos, fazendo projetos práticos e resolvendo quebra-cabeças.
 
-<a target="_blank" href="https://www.amazon.com.br/Use-Cabe%25C3%25A7a-C-Andrew-Stellman/dp/8576085593?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=8918e8c2103b69fde699fdfecb8e3204&camp=1789&creative=9325">C#</a>
+<a target="_blank" href="https://www.amazon.com.br/Use-Cabe%25C3%25A7a-C-Andrew-Stellman/dp/8576085593?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=8918e8c2103b69fde699fdfecb8e3204&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
 
 ---
 
