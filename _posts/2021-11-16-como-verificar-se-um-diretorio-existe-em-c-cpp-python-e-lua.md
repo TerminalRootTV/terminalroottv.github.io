@@ -7,6 +7,7 @@ description: 'E de bônus vamos ver o quão fácil é em outra linguagem de prog
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
 tags:
+- langs
 - linguagemc
 - cpp
 - lua

@@ -7,6 +7,8 @@ description: 'Em: C++, C, Lua, Java, Bash, JavaScript, Python, PHP, Golang e Rub
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
 tags:
+- programacao
+- langs
 - cpp
 - linguagemc
 - lua
