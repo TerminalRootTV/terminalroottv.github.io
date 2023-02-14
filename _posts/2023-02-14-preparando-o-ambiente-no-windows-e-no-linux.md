@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Preparando o Ambiente no Windows e no Linux"
+title: "Preparando o Ambiente para C++ no Windows e no Linux"
 date: 2023-02-14 07:47:44
 image: '/assets/img/windows/cpp-windows-gnu-linux.jpg'
 description: 'Duas formas no Windows e também como preparar em diversas distros GNU/Linux.'
