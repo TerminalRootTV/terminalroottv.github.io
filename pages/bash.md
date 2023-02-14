@@ -6,6 +6,12 @@ description: 'O Poder da Linha de Comando no Linux.'
 image: '/assets/img/cursos/bash.jpg'
 ---
 
+<script>
+  window.location = 'https://terminalroot.com.br/shell';
+</script>
+
+<!--
+
 ![{{page.title}}]({{page.image}} "{{page.description}}") 
 
 ## O que você vai aprender ? 
@@ -60,7 +66,7 @@ Ou [Comprar na Udemy](https://cutt.ly/bashbash)
 + Questionário
 + Certificado 
 
----
+-->
 
 # [Conteúdos sobre Shell Script nesse site](https://terminalroot.com.br/tags#shellscript)
 # [Conteúdos sobre BASH nesse site](https://terminalroot.com.br/tags#bash)

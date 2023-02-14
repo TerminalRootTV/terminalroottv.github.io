@@ -16,14 +16,6 @@ Após o término do curso você será capaz de ler essa expressão:
 
 ---
 
-# Pacote Promocional
-No momento esse Curso e mais outros 3 estão sendo atualizados, então decidimos fazer uma promoção que inclui os 4 por um preço promocional. O pacote contém:
-
-+ **{{page.title}}** :: **R$ 24,90**
-+ [Curso Intensivo de Shell Script Avançado](https://terminalroot.com.br/shell) :: **R$ 49,90**
-+ [Curso Completo de Expressões Regulares](https://terminalroot.com.br/regex) :: **R$ 24,90**
-+ [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed) :: **R$ 24,90**
-
 ## Valor do Pacote Completo
 **R$ 74,90**
 > Mais de 50 reais de desconto!

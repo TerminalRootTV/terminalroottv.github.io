@@ -16,14 +16,6 @@ sed -E ':a;$!N;s/\n\s+/ /;ta;P;D' file
 
 ---
 
-# Pacote Promocional
-No momento esse Curso e mais outros 3 estão sendo atualizado, então decidimos fazer uma promoção que inclui os 4 por um preço promocional. O pacote contém:
-
-+ **{{page.title}}** :: **R$ 24,90**
-+ [Curso de Shell Script do Iniciante ao Avançado](https://terminalroot.com.br/bash) :: **R$ 24,90**
-+ [Curso Intensivo de Shell Script Avançado](https://terminalroot.com.br/shell) :: **R$ 49,90**
-+ [Curso Completo de Expressões Regulares](https://terminalroot.com.br/regex) :: **R$ 24,90**
-
 ## Valor do Pacote Completo
 **R$ 74,90**
 > Mais de 50 reais de desconto!
