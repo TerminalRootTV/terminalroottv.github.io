@@ -109,7 +109,7 @@ Uma opção moderna e com um bom desempenho, suas definições incluem:
 + Sistema Operacional: [Chrome OS](https://terminalroot.com.br/tags#chrome)
 + Resolução de 1920x1080 - Full HD
 
-<a href="https://www.amazon.com.br/ASUS-Chromebook-Touchsceen-Backlight-Convertible/dp/B0BMDZ3621/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=807debd928b1680ed5e0dbd705a3d9cf&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
+<a href="https://www.amazon.com.br/ASUS-Chromebook-Touchsceen-Backlight-Convertible/dp/B0BMDZ3621/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=807debd928b1680ed5e0dbd705a3d9cf&camp=1789&creative=9325" class="btn btn-custom btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
 
 ---
 
@@ -124,7 +124,7 @@ Ideal para [desenvolvimento de games](https://terminalroot.com.br/tags#gamedev) 
 + Sistema Operacional: [Linux](https://terminalroot.com.br/tags#linux)
 + Resolução de 1920x1080 - Full HD
 
-<a href="https://www.amazon.com.br/Notebook-Lenovo-Ultrafino-R5-5500U-82MFS00300/dp/B0BFTFV1JC/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=e1ac4fad374d43c649f2f5edf60b9824&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
+<a href="https://www.amazon.com.br/Notebook-Lenovo-Ultrafino-R5-5500U-82MFS00300/dp/B0BFTFV1JC/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=e1ac4fad374d43c649f2f5edf60b9824&camp=1789&creative=9325" class="btn btn-warning btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
 
 ---
 
@@ -139,7 +139,7 @@ Totalmente completo, ideal para Desenvolvimento para Mobile e Games 3D, suas def
 + Sistema Operacional: [Windows 11](https://terminalroot.com.br/tags#windows)
 + Resolução de 1920x1080 - Full HD
 
-<a href="https://www.amazon.com.br/Notebook-Dell-Inspiron-Intel-Pentium/dp/B0BQCSYGCP/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=49fc6600a0226ac1613c7f1f55c20c17&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
+<a href="https://www.amazon.com.br/Notebook-Dell-Inspiron-Intel-Pentium/dp/B0BQCSYGCP/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=49fc6600a0226ac1613c7f1f55c20c17&camp=1789&creative=9325" class="btn btn-primary btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
 
 ---
 
@@ -154,7 +154,7 @@ Um Notebook genérico, mas com desempenho muito útil também para Desenvolvimen
 + Sistema Operacional: [Windows 11](https://terminalroot.com.br/tags#windows)
 + Resolução de 1920x1080 - Full HD
 
-<a href="https://www.amazon.com.br/Notebook-Samsung-Core-I3-1115g4-512ssd/dp/B0BLJ35CRW/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=08e93da90aacd112396c5ca5647c2cbc&camp=1789&creative=9325" class="btn btn-danger btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
+<a href="https://www.amazon.com.br/Notebook-Samsung-Core-I3-1115g4-512ssd/dp/B0BLJ35CRW/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=08e93da90aacd112396c5ca5647c2cbc&camp=1789&creative=9325" class="btn btn-success btn-lg">Clique aqui para mais informações sobre esse Notebook</a>
 
 ---
 
