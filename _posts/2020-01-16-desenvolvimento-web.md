@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Curso de Desenvolvimento Web do Zero no Linux"
+title: "Curso de Desenvolvimento Web do Zero"
 date: 2020-01-16 13:08:08
 image: '/assets/img/dev-web/desenvolvimento-web.jpg'
 description: 'HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekyll e Shell Web.'
@@ -17,10 +17,10 @@ tags:
 - shellscript
 ---
 
-![Curso de Desenvolvimento Web do Zero no Linux - HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekkyl e Shell Web.](/assets/img/dev-web/desenvolvimento-web.jpg "Curso de Desenvolvimento Web do Zero no Linux - HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekkyl e Shell Web.")
+![Curso de Desenvolvimento Web do Zero no Linux - HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekkyl e Shell Web.](/assets/img/dev-web/desenvolvimento-web.jpg "Curso de Desenvolvimento Web do Zero - HTML5, CSS, Javascript, jQuery, Git, GitHub e Jekkyl e Shell Web.")
 
 
-Já faz tempo que me pedem para eu explicar como eu crio o site do [Terminal Root](https://terminalroot.com.br/), bem como quais tecnologias eu uso. Então para não restar dúvidas, decidi criar um [Curso do Zero de Desenvolvimento Web no Linux](https://youtu.be/SGA6nQqYH7A) . Onde vamos abordar as tecnologias:
+Já faz tempo que me pedem para eu explicar como eu crio o site do [Terminal Root](https://terminalroot.com.br/), bem como quais tecnologias eu uso. Então para não restar dúvidas, decidi criar um [Curso do Zero de Desenvolvimento Web](https://youtu.be/SGA6nQqYH7A) . Onde vamos abordar as tecnologias:
 
 - HTML5
 - CSS
