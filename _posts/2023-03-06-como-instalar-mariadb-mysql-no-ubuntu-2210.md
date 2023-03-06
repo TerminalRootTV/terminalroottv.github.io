@@ -210,8 +210,4 @@ sudo apt install libsqlite3-dev sqlite3
 
 ---
 
-# Links úteis
-+ <https://wiki.crowncloud.net/?How_to_Install_MariaDB_10_on_Ubuntu_22_10>
-+ <https://www.ibm.com/docs/en/spectrum-lsf-rtm/10.2.0?topic=ssl-configuring-default-root-password-mysqlmariadb>
-+ <https://github.com/drogonframework/drogon/issues/342#issuecomment-581478208>
 
