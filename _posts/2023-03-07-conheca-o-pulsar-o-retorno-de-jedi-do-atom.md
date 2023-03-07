@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o PULSAR, o Retorno de Jedi do Atom"
 date: 2023-03-07 19:35:41
 image: '/assets/img/editores/pulsar.jpg'
-description: 'Da unidade de matéria à dimensões atronômicas!'
+description: 'Da unidade de matéria à dimensões astronômicas!'
 icon: 'ion:terminal-sharp'
 iconname: 'Editores de Códigos/IDE'
 tags:
@@ -57,7 +57,7 @@ No [macOS](https://terminalroot.com.br/tags#macos) há as versões:
 - DMG Installer ou um arquivo compactado, para ambas formas há suporte tanto para **Apple Sillicon**, aqueles com **M1/M2**: [dmg](https://download.pulsar-edit.dev/?os=silicon_mac&type=mac_dmg) e [zip](https://download.pulsar-edit.dev/?os=silicon_mac&type=mac_zip).
 - e também para versões antigas de hardware **Intel**: [dmg](https://download.pulsar-edit.dev/?os=intel_mac&type=mac_dmg) e [zip](https://download.pulsar-edit.dev/?os=intel_mac&type=mac_zip).
 
-Em sistemas baseados em [Linux](https://terminalroot.com.br/tags#linux), lógico que precisa ser sistemas que possui camadas de suporte do [GNU](https://terminalroot.com.br/tags#gnu), ou seja, aqueles que utilizam [GNU GlibC](https://www.gnu.org/software/libc/), basta usar um [AppImage](https://terminalroot.com.br/2020/05/conheca-o-app-get-um-gerenciador-de-appimages-via-linha-de-comando.html). E para isso basta rodar os comandos:
+Em sistemas baseados em [Linux](https://terminalroot.com.br/tags#linux), lógico que precisa ser sistemas que possui camadas de suporte do [GNU](https://terminalroot.com.br/tags#gnu), ou seja, aqueles que utilizam [GNU GlibC](https://www.gnu.org/software/libc/)(que são quase todos, na verdade!), basta usar um [AppImage](https://terminalroot.com.br/2020/05/conheca-o-app-get-um-gerenciador-de-appimages-via-linha-de-comando.html). E para isso basta rodar os comandos:
 {% highlight bash %}
 wget "https://download.pulsar-edit.dev/?os=linux&type=linux_appimage" -O Pulsar.AppImage
 chmod +x Pulsar.AppImage
