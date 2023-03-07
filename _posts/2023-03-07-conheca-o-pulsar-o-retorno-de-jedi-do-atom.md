@@ -59,9 +59,9 @@ No [macOS](https://terminalroot.com.br/tags#macos) há as versões:
 
 Em sistemas baseados em [Linux](https://terminalroot.com.br/tags#linux), lógico que precisa ser sistemas que possui camadas de suporte do [GNU](https://terminalroot.com.br/tags#gnu), ou seja, aqueles que utilizam [GNU GlibC](https://www.gnu.org/software/libc/), basta usar um [AppImage](https://terminalroot.com.br/2020/05/conheca-o-app-get-um-gerenciador-de-appimages-via-linha-de-comando.html). E para isso basta rodar os comandos:
 {% highlight bash %}
-wget https://download.pulsar-edit.dev/?os=linux&type=linux_appimage
-chmod +x Pulsar*.AppImage
-./Pulsar*.AppImage
+wget "https://download.pulsar-edit.dev/?os=linux&type=linux_appimage" -O Pulsar.AppImage
+chmod +x Pulsar.AppImage
+./Pulsar.AppImage
 {% endhighlight %}
 > Além de AppImage há também pacotes especificos para algumas distribuições, aquelas que usam: `.deb` e `.rpm` além de um `tar.gz`. 
 
