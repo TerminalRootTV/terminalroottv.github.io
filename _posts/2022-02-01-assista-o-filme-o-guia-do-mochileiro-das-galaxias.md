@@ -2,7 +2,7 @@
 layout: post
 title: "Assista o filme O Guia do Mochileiro das Galáxias"
 date: 2022-02-01 11:58:44
-image: '/assets/img/filmes/o-guia-do-mochileiro-da-galáxias-filme-2005.jpg'
+image: '/assets/img/filmes/mochileiro.jpg'
 description: 'E descubra porque os programadores adoram tanto o número 42 .'
 icon: 'ion:terminal-sharp'
 iconname: 'Filmes'
