@@ -125,10 +125,6 @@ g++ main.cpp -lwthttp -lwt
 
 E para rodar, rode:
 {% highlight bash %}
-
-
-E para rodar, rode:
-{% highlight bash %}
 ./a.out --docroot . --http-address 0.0.0.0 --http-port 9090
 {% endhighlight %}
 
