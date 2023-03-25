@@ -66,8 +66,8 @@ Descompacte o arquivo baixado(botão direito do mouse: **Extrair aqui**), entre 
 ### O caminho dela seria: `SDL2_image\x86_64-w64-mingw32\include\SDL2\SDL2_image.h` e cole em `SDL2\x86_64-w64-mingw32\include\SDL2\`, onde haverão outros arquivos.
 
 Faça o mesmo, mas dessa vez para TODOS OS ARQUIVOS da pasta `bin` e `lib` em `SDL2_image` e cole nos caminhos correspondentes em `SDL2`, exemplo:
-### Todos os arquivos dentro da pasta `bin`: `SDL2_image\x86_64-w64-mingw32\bin` para ``SDL2\x86_64-w64-mingw32\bin` 
-### Todos os arquivos dentro da pasta `lib`: `SDL2_image\x86_64-w64-mingw32\lib` para ``SDL2\x86_64-w64-mingw32\lib` 
+### Todos os arquivos dentro da pasta `bin`: `SDL2_image\x86_64-w64-mingw32\bin` para `SDL2\x86_64-w64-mingw32\bin` 
+### Todos os arquivos dentro da pasta `lib`: `SDL2_image\x86_64-w64-mingw32\lib` para `SDL2\x86_64-w64-mingw32\lib` 
 
 Para finalizar essa etapa das cópias, copie também o arquivo: `SDL2_image.dll` que está em `SDL2_image\x86_64-w64-mingw32\bin\SDL2_image.dll` para a "raiz" do seu projeto.
 
