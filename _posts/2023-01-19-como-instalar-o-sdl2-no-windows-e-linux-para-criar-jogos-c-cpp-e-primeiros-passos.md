@@ -7,6 +7,7 @@ description: '🔊 SDL2 é uma biblioteca para criação de jogos 2D em C e C++,
 icon: 'ion:terminal-sharp'
 iconname: 'GameDev'
 tags:
+- sdl2
 - gamedev
 - cpp
 - linguagemc
