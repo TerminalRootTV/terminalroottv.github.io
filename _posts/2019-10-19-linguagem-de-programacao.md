@@ -353,8 +353,6 @@ class OlaMundo {
 }
 {% endhighlight %}
 
-> *Precisa possuir um compilador e um linker: [nasm](https://www.nasm.us/) e [ld](https://www.gnu.org/software/binutils/).*
-
 Rodar: `javac hello-world.java && java OlaMundo` , o **javac** cria um arquivo com o nome da *classe*(dentro do mesmo diretório onde você o rodou), nesse caso **OlaMundo** com a extensão **.class**(`OlaMundo.class`) , mas pra rodar não informa o *.class* .
 
 > OpenJDK: <https://openjdk.java.net/>
