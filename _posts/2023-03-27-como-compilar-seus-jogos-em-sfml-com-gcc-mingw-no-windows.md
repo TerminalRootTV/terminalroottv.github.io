@@ -19,7 +19,7 @@ tags:
 
 [SFML](https://terminalroot.com.br/games) é uma ótima alternativa para desenvolver jogos 2D, além de outros recursos multimidia.
 
-No [Windows]() é muito fácil de usá-lo com o [Visual Studio](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html#23-visual-studio), no entanto, há quem prefira usar o SFML no seu [Editor de Código/IDE](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html) preferido e também utilizar um outro compilador em vez do [MSVC](https://learn.microsoft.com/en-us/cpp/build/creating-and-managing-visual-cpp-projects?view=msvc-170).
+No [Windows](https://terminalroot.com.br/tags#windows) é muito fácil de usá-lo com o [Visual Studio](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html#23-visual-studio), no entanto, há quem prefira usar o SFML no seu [Editor de Código/IDE](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html) preferido e também utilizar um outro compilador em vez do [MSVC](https://learn.microsoft.com/en-us/cpp/build/creating-and-managing-visual-cpp-projects?view=msvc-170).
 
 Nesse artigo veremos como compilar seus projetos em [SFML](https://terminalroot.com.br/tags#sfml) com [GCC com MinGW no Windows](https://terminalroot.com.br/2022/12/como-instalar-gcc-gpp-mingw-no-windows.html).
 
@@ -33,7 +33,7 @@ Antes de mais nada é necessário possuir o [GCC/G++ com MinGW](https://terminal
 ---
 
 ## 01. Fazer o Download do SFML para MinGW
-Após devidamente instalado e funcionando o **GCC/G++ com MinGW** próximo passo é fazer o download de um **pacote diferente do SFML**(diferente da versão Visual Studio)**.
+Após devidamente instalado e funcionando o **GCC/G++ com MinGW** próximo passo é fazer o download de um **pacote diferente do SFML**(diferente da versão Visual Studio).
 
 E para isso acesse a página de downloads do site do SFML no link: <https://www.sfml-dev.org/download/sfml/2.5.1/> e faça o download da versão: `GCC 7.3.0 MinGW (SEH) - 64-bit` conforme imagem abaixo:
 
@@ -67,7 +67,7 @@ data-ad-slot="5351066970"></ins>
 ## 03. Copiando arquivos para seu projeto
 Agora entre nessa pasta(`SFML`) e copie todos os arquivos que estão dentro da subpasta: `bin` para a "raiz" do seu projeto e depois copie também toda a pasta `SFML` também para dentro da "raiz" do seu projeto, os arquivos são:
 
-![Files SFML MinGW Project](./files-sfml-mingw-project.jpg) 
+![Files SFML MinGW Project](/assets/img/sfml/files-sfml-mingw-project.jpg) 
 > Após listar os arquivos com o comando `ls` do [PowerShell](https://terminalroot.com.br/tags#powershell) dentro da pasta do meu projeto: `MyProjectSFML`.
 
 No que além da pasta `SFML` e dos arquivos copiados da subpasta `SFML\bin` há também o arquivo `main.cpp` que há o código que iremos compilar, se quiser usá-lo como teste, use o código abaixo:
@@ -80,13 +80,12 @@ int main(){
   sf::CircleShape shape(100.f);
   shape.setFillColor(sf::Color::Green);
 
-  while (window.isOpen())
-  {
+  while (window.isOpen()){
     sf::Event event;
-    while (window.pollEvent(event))
-    {
-      if (event.type == sf::Event::Closed)
+    while (window.pollEvent(event)){
+      if (event.type == sf::Event::Closed){
         window.close();
+      }
     }
 
     window.clear();
