@@ -32,7 +32,7 @@ O mercado de games é o que mais cresce na área de tecnologia e as vagas deseja
 Um jogo com efeitos de som e música, estilo games de celular, que nos dará toda a base para desenvolvermos os demais.
 > Assista um trecho do game
 
-<iframe width="1253" height="705" src="/assets/img/devgames/games/minecrap.mp4" title="C++ SFML Terminal Root" frameborder="0" allowfullscreen></iframe>
+<iframe width="1211" height="701" src="https://www.youtube.com/embed/fqy0e7GETsk" title="Minecrap - C++ SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -40,7 +40,7 @@ Um jogo com efeitos de som e música, estilo games de celular, que nos dará tod
 Outro game de lógica e raciocínio, e notaremos que com **SFML** fica muito fácil de entendermos como tudo funciona.
 > Assista um trecho do game
 
-<iframe width="1253" height="705" src="/assets/img/devgames/games/snakegame.mp4" title="C++ SFML Terminal Root" frameborder="0" allowfullscreen></iframe>
+<iframe width="1052" height="701" src="https://www.youtube.com/embed/dOEEUYprWGI" title="Snake Game - C++ SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -48,7 +48,7 @@ Outro game de lógica e raciocínio, e notaremos que com **SFML** fica muito fá
 Um game de nave, onde iremos aprender a criar animação de explosão e diversos outros conceitos lógicos.
 > Assista um trecho do game
 
-<iframe width="1253" height="705" src="/assets/img/devgames/games/spacewar.mp4" title="C++ SFML Terminal Root" frameborder="0" allowfullscreen></iframe>
+<iframe width="1211" height="701" src="https://www.youtube.com/embed/OQX-OOV1MKo" title="Space War - C++ SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -56,7 +56,7 @@ Um game de nave, onde iremos aprender a criar animação de explosão e diversos
 Um game estilo Mario Bros, de plataforma 2D. Ele será a base para entenderemos: uso de gravidade, frames, tilemap, câmera e outras técnicas.
 > Assista um trecho do game
 
-<iframe width="1253" height="705" src="/assets/img/devgames/games/plataforma-2d.mp4" title="C++ SFML Terminal Root" frameborder="0" allowfullscreen></iframe>
+<iframe width="1186" height="701" src="https://www.youtube.com/embed/ld8yxeNH3sw" title="Metroidvania - C++ SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -64,7 +64,7 @@ Um game estilo Mario Bros, de plataforma 2D. Ele será a base para entenderemos:
 E mais um protótipo de um mini game com a estrutura ECS.
 > Assista um trecho do game e compilando com [CMake](https://terminalroot.com.br/tags#cmake)
 
-<iframe width="1253" height="705" src="/assets/img/devgames/games/ecs.mp4" title="C++ SFML Terminal Root" frameborder="0" allowfullscreen></iframe>
+<iframe width="1211" height="701" src="https://www.youtube.com/embed/kFd8kDV5W2Y" title="ECS - C++ SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
