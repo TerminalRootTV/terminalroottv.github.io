@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "NuShell - O Shell Nutella"
+title: "NuShell, mais um shell"
 date: 2021-09-15 13:09:26
 image: '/assets/img/rust/nushell.jpg'
-description: 'Seu ambiente SHELL mais nutella'
+description: 'Seu ambiente SHELL'
 icon: 'ion:terminal-sharp'
 iconname: 'Rust'
 tags:
@@ -12,7 +12,7 @@ tags:
 
 ![NuShell - O Shell Nutella](/assets/img/rust/nushell.jpg)
 
-O **NuShell** é um novo tipo de [shell](http://terminalroot.com.br/shell) com saídas **TUI**. Escrito com a linguagem de programação [Rust](https://terminalroot.com.br/tags#rust) é mais uma opção moderna e veloz para seu ambiente no [terminal](http://terminalroot.com.br/tags/#terminal) .
+O **NuShell** é um novo tipo de [shell](http://terminalroot.com.br/shell) com saídas **TUI**. Escrito com a linguagem de programação Rust é mais uma opção moderna e veloz para seu ambiente no [terminal](http://terminalroot.com.br/tags/#terminal) .
 
 **Nu** possui um conjunto de comandos integrados. Se um comando for desconhecido, o comando irá utilizar o shell-out e executá-lo passando corretamente por `stdin`, `stdout` e `stderr`, Ferramentas como seus fluxos de trabalho diários do [git](https://terminalroot.com.br/git) e do [vim](https://terminalroot.com.br/vim) funcionarão bem.
 
