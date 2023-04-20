@@ -16,11 +16,13 @@ Após o término do curso você será capaz de ler essa expressão:
 
 ---
 
+<!--
 ## Valor do Pacote Completo
 **R$ 74,90**
 > Mais de 50 reais de desconto!
 
-<a href="https://cutt.ly/temppromo" class="btn btn-success btn-lg btn-block">ADQUIRA AGORA</a>  
+<a href="https://cutt.ly/temppromoDISABLED" class="btn btn-success btn-lg btn-block">ADQUIRA AGORA</a> 
+-->
 
 ## Valor somente desse curso do Curso
 **R$ 29,90**
