@@ -16,11 +16,11 @@ tags:
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
 
-O **olcPixelGameEngine** é uma biblioteca de arquivo único para [desenvolvimento de jogos](https://terminalroot.com.br/games) criada em C++. 
+O **olcPixelGameEngine** é uma biblioteca de arquivo único para [desenvolvimento de jogos](https://terminalroot.com.br/games) criada em [C++](https://terminalroot.com.br/cpp). 
 
 É multiplataforma, compilando no [Windows](https://terminalroot.com.br/tags#windows) via [Visual Studio](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html#23-visual-studio), [MinGW](https://terminalroot.com.br/2022/12/como-instalar-gcc-gpp-mingw-no-windows.html) e [Code::Blocks](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html#09-codeblocks), e no [GNU/Linux](https://terminalroot.com.br/tags#gnu) com um [g++ moderno](https://terminalroot.com.br/tags#gcc).
 
-O `olcPixelGameEngine` foi desenvolvimento pelo lendário programador [C++](https://terminalroot.com.br/tags#cpp) e youtuber: [javidx9](http://youtube.com/javidx9).
+O `olcPixelGameEngine` foi desenvolvido pelo lendário programador [C++](https://terminalroot.com.br/tags#cpp) e youtuber: [javidx9](http://youtube.com/javidx9).
 
 
 <!-- SQUARE - GAMES ROOT -->
