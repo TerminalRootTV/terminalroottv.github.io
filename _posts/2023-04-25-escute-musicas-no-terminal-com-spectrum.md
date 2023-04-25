@@ -82,7 +82,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 Nós fizemos um vídeo sobre a biblioteca [FTXUI](https://youtu.be/OWJhDj-qgDk) que pode ser visto no endereço abaixo:
-## https://youtu.be/OWJhDj-qgDk
+## <https://youtu.be/OWJhDj-qgDk>
 
 Para mais informações sobre o Spectrum acesse o [repositório no GitHub](https://github.com/v1nns/spectrum).
 
