@@ -56,8 +56,8 @@ Caso você tecle essa combinação novamente ele repartirá agora na horizontal 
 
 + `Ctrl + Shift + w` - Fecha a "janela" que possui o foco;
 
-+ `Alt + tecla direcional`(^v-><-) move o foco;
-+ `Alt + Shift + tecla direcional` - Redimensiona a "janela" que possui o foco;
++ `Alt + tecla direcional`( ← ↑ → ↓ ) move o foco;
++ `Alt + Shift + tecla direcional`( ← ↑ → ↓ ) - Redimensiona a "janela" que possui o foco;
 
 + Segurando a tecla `Ctrl` e movendo a "roda" do mouse aumentará ou diminuirá o ZOOM;
 
