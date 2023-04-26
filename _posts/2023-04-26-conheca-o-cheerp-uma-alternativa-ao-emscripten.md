@@ -65,7 +65,7 @@ Para construir do zero basta seguir as instruções [nesse link](https://docs.le
 # Utilização
 Um `Hello, World!` básico seria:
 
-#### Criar um arquivo básico em [C++](https://terminalroot.com.br/tags#cpp), por exemploi, com ao seguinte código:
+#### Criar um arquivo básico em [C++](https://terminalroot.com.br/tags#cpp), por exemplo, com ao seguinte código:
 {% highlight cpp %}
 #include <cheerp/clientlib.h>
 
