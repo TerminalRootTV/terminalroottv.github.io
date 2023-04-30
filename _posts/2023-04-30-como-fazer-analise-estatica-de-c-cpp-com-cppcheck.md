@@ -121,7 +121,7 @@ cppcheck --enable=all main.cpp
 
 Veja a imagem abaixo os erros que ele listou:
 
-![cppcheck --enable=all main.cpp](./cppcheck-enable-all.png) 
+![cppcheck --enable=all main.cpp](/assets/img/cpp/cppcheck-enable-all.png) 
 
 Que loucura, né?! 😃 
 
