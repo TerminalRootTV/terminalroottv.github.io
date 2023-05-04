@@ -88,7 +88,7 @@ std::cout << "O array está vazio? " <<
 
 > Entre outros conforme imagem abaixo:
 
-![std::array LSP](./std-array.png) 
+![std::array LSP](/assets/img/cppdaily/std-array.png) 
 
 ---
 
