@@ -401,11 +401,68 @@ Toda vez que você reiniciar o Windows o WorkBench já estará disponivel, basta
 
 <img src="/assets/img/windows/php/open-workbench.jpg" loading="lazy" alt="{{ page.title }}">
 
----
-
 Bem como o Apache, se não estiver, entre na pasta(`C:/Apache24/bin`) e inicie com `httpd -k start` manualmente. Mas, muito provavelmente estará! 
 
 Se quiser tentar o [MariaDB](https://terminalroot.com.br/tags#mariadb) em vez do MySQL, fique a vontade em tentar seguindo [esses passos](https://www.mariadbtutorial.com/getting-started/install-mariadb/).
+
+---
+
+# Usando PHP e MySQL no CMD, PowerShell ou Windows Terminal
+Assim como no Ubuntu é possível você usar o PHP e o MySQL rodando comandos, seja no `CMD`, [PowerShell](https://terminalroot.com.br/tags#powershell) ou através do [Windows Terminal](https://terminalroot.com.br/2023/04/melhore-seu-desempenho-utilizando-o-windows-terminal.html).
+
+Para isso basta você criar VARIÁVEIS DE AMBIENTE para o Windows. faça o seguinte:
+
+## Para usar o comando `php`:
+
+#### 1º - Pesquise a frase: `Variáveis de Ambiente` na Barra de pesquisa do Menu Iniciar do Windows:
+<img src="/assets/img/windows/php/varenv/php-var-01.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+#### 2º - Clique no botão `Variáveis de Ambiente`:
+<img src="/assets/img/windows/php/varenv/php-var-02.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+### 3º - Selecione a linha com o nome `Path` e em seguida clique em `Editar`:
+<img src="/assets/img/windows/php/varenv/php-var-03.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+#### 4º - Agora clique no botão `Novo` no canto superior direito:
+<img src="/assets/img/windows/php/varenv/php-var-04.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+#### 5º - Escreva o caminho do PHP: `C:\php` na linha que surgiu:
+<img src="/assets/img/windows/php/varenv/php-var-05.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+#### 6º - Clique em `OK` em todas as janelas para salvar e depois abra o `CMD` ou `PowerShell` ou o Windows Terminal e use o comando `php`:
+> Nos exemplos abaixo rodei o comando `php --version` e também rodei um arquivo com código PHP(que eu criei) que está no mesmo diretório em que rodei o comando `php .\teste.php`:
+
+<img src="/assets/img/windows/php/varenv/php-var-06.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+## Para usar o comando `mysql`:
+#### 1º - Faça os mesmos passos em PHP, mas quando for inserir o caminho use o caminho do MySQL que é essa pasta:
+<img src="/assets/img/windows/php/varenv/mysql-var-01.jpg" loading="lazy" alt="{{ page.title }}">
+
+Ou seja, o caminho que deve ser incluído é: `C:\Program Files\MySQL\MySQL Server 8.0\bin`, note a versão(altere se a sua for diferente) e que termina com a pasta `bin`, veja também a imagem abaixo:
+
+<img src="/assets/img/windows/php/varenv/mysql-var-02.jpg" loading="lazy" alt="{{ page.title }}">
+
+---
+
+#### 2º - Teste com os comandos `mysql --version` e para logar use o comando `mysql -u root -p` e depois insira a senha que você criou durante o processo de instalação do MySQL.
+Veja abaixo esses comandos, além dos comando do MySQL após logar com sucesso!
+
+<img src="/assets/img/windows/php/varenv/mysql-var-03.jpg" loading="lazy" alt="{{ page.title }}">
+
+<img src="/assets/img/windows/php/varenv/mysql-var-04.jpg" loading="lazy" alt="{{ page.title }}">
+
 
 ---
 
