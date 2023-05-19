@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Nesse vídeo finalizamos a série: [Aprenda Java Criando um Mini Jogo 2D](https://cutty.ly/javagdx). Criamos a **colisão** do Missel e da Nave com os inimigos, além de algumas outras coisas relacionadas a jogabilidade!
+Nesse vídeo finalizamos a série: [Aprenda Java Criando um Mini Jogo 2D](https://cutty.ly/javagdx). Criamos a **colisão** do Missil e da Nave com os inimigos, além de algumas outras coisas relacionadas a jogabilidade!
 
 ---
 
