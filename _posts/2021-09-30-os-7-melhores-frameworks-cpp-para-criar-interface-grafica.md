@@ -20,6 +20,9 @@ A [linguagem de programação](https://terminalroot.com.br/2021/03/testei-o-dese
 
 Nesse artigo vamos conhecer as 7 bibliotecas C++, mais utilizadas  e mais recomendadas, para criação de interfaces gráficas. Cada uma com sua especificação e recomendação.
 
+> Após esse artigo, recomendo também ver mais 15 bibliotecas para criar interfaces gráficas:
+### [Conheça 15 alternativas para criar Interfaces Gráficas com C++](https://terminalroot.com.br/2023/05/conheca-15-alternativas-para-criar-interfaces-graficas-com-cpp.html)
+
 ---
 
 # 01. [Gtkmm](https://cutt.ly/gtkmm)
@@ -126,7 +129,9 @@ data-ad-slot="8549252987"></ins>
 + projetos para ligações de linguagem adicionais ( C#/.NET, D, Go, Haskell, Java , ...)
 + portas para outras linguagens (como Java, por exemplo )
 
-Futuramente teremos conteúdos sobre o **Dear ImGUI** .
+Veja um vídeo abaixo sobre Dear ImGUI e [SFML](https://terminalroot.com.br/tags#sfml)
+
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/XmiEkoqodcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -171,6 +176,11 @@ Usando seu próprio widget, sistemas de desenho e eventos abstraídos do código
 ---
 
 Por hoje é só, são pequenas doses diárias que farão sempre nos manter antenado com o [C++](https://terminalroot.com.br/cpp/) !
+
+# Veja também:
+## [Conheça 15 alternativas para criar Interfaces Gráficas com C++](https://terminalroot.com.br/2023/05/conheca-15-alternativas-para-criar-interfaces-graficas-com-cpp.html)
+
+--
 
 ## Acompanhe o [cpp::daily](https://terminalroot.com.br/tags#cppdaily)
 
