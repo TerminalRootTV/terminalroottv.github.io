@@ -61,6 +61,13 @@ Para mais informações acesse o [site oficial](https://www.beekeeperstudio.io/)
 
 E desfrute dessa maravilha!
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
+
 # [Aprenda Vue.js do ZERO](https://terminalroot.com.br/vue)
 
 

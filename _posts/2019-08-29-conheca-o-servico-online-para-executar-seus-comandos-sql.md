@@ -68,4 +68,9 @@ e para completar a lista o
 
 São diversas alternativas e você pode criar uma confusão na hora de escolher, não quero influenciar sua escolha, mas recomendo você testar cada um deles e escolher o que melhor se adapta a sua necessidade. No entanto, se quiser saber qual que eu mais utilizo e recomendo, com certeza é o [SQLFiddle](http://sqlfiddle.com/) , me adaptei bem a ele. Até um breve artigo sobre SGBD que faremos aqui no blog! Abraços!!!
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
 

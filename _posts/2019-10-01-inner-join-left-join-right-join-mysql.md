@@ -137,6 +137,13 @@ E na importação, se tiver problemas com codifição(uso de letras com acentos 
 mysql -h HOST -u NOME_DO_USUÁRIO -p --default_character_set utf8 NOME_DA_BASE < examples_joins.sql
 {% endhighlight %}
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
+
 ## Links úteis
 
 + <https://dev.mysql.com/doc/refman/8.0/en/join.html>

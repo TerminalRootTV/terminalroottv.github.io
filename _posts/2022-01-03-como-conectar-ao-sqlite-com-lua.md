@@ -150,6 +150,13 @@ A saída deverá retornar os dados dos campos da tabela informada.
 + Em `db:execute` você deverá informar o comando do SQLite que deseja, pode ser: `CREATE`, `UPDATE`, `DELETE`...
 + As variáveis possuem quase os mesmos nomes das colunas, mas isso não é uma regra.
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
+
 # Links úteis
 + <http://lua.sqlite.org/index.cgi/doc/tip/doc/lsqlite3.wiki>
 + <https://keplerproject.github.io/luasql/manual.html>

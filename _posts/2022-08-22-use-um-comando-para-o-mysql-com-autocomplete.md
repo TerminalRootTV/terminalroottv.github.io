@@ -51,5 +51,10 @@ Se você digitar os comando SQL em maiúsculas ou minúsculas ele irá autocompl
 
 Para mais informações use o argumento/parâmetro `--help` e consulte o [repositório no GitHub](https://github.com/dbcli/mycli) .
 
+---
 
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
 

@@ -203,6 +203,12 @@ IDENTIFICAÇÃO : 2
 
 Para mais informações acesse: <https://github.com/xerial/sqlite-jdbc> .
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
 
 
 

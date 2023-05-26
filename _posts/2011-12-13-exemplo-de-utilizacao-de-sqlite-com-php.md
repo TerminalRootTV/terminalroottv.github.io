@@ -55,6 +55,11 @@ A última linha para utilização em aplicações em __PHP__, onde se usa muito 
 
 Simples e rápido, espero que gostem e comentem!
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- Informat -->

@@ -463,6 +463,12 @@ Veja abaixo esses comandos, além dos comando do MySQL após logar com sucesso!
 
 <img src="/assets/img/windows/php/varenv/mysql-var-04.jpg" loading="lazy" alt="{{ page.title }}">
 
+---
+
+# Veja também 
+## [20 Livros sobre Linguagem SQL que você deveria ler](https://terminalroot.com.br/2023/05/20-livros-sobre-linguagem-sql-que-voce-deveria-ler.html)
+
+---
 
 ---
 
