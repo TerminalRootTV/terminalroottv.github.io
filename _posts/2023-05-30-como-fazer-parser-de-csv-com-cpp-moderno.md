@@ -3,7 +3,7 @@ layout: post
 title: "Como Fazer Parser de CSV com C++ Moderno"
 date: 2023-05-30 18:56:43
 image: '/assets/img/cpp/cppsv.jpg'
-description: 'sse vídeo também mostra como funciona o desenvolvimento Moderno de C++ com recursos e ferramentas Modernas.'
+description: 'Esse vídeo também mostra como funciona o desenvolvimento Moderno de C++ com recursos e ferramentas Modernas.'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
