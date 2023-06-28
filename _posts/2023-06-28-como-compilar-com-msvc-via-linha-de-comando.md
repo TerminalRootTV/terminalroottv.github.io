@@ -76,7 +76,7 @@ cl main.cpp -o program
 {% endhighlight %}
 ![MSVC](/assets/img/windows/msvc/MSVC-01-04.jpg) 
 
-Também a outros parâmetros, no entanto, o modelo utilizado pelo MSCV não é sempre o uso de traço`-` e sim barra, exemplo para `Wall`, `O2` e outros:
+Também há outros parâmetros, no entanto, o modelo utilizado pelo MSCV não é sempre o uso de traço`-` e sim barra, exemplo para `Wall`, `O2` e outros:
 {% highlight bash %}
 cl /Wall /O2 main.cpp -o output
 .\output.exe
