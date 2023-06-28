@@ -2,7 +2,7 @@
 layout: post
 title: "Como Compilar com MSVC via linha de comando"
 date: 2023-06-28 17:13:01
-image: '/assets/img/msvc/msvc.jpg'
+image: '/assets/img/windows/msvc/msvc.jpg'
 description: 'Nem sempre é necessário usar o depurador do Visual Studio no Windows.'
 icon: 'ion:terminal-sharp'
 iconname: 'MSVC'
