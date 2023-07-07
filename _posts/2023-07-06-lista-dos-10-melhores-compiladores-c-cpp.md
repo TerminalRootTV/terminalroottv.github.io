@@ -2,7 +2,7 @@
 layout: post
 title: "Lista dos 10 Melhores Compiladores C/C++"
 date: 2023-07-06 22:24:52
-image: '/assets/img/cpp/compilers/run-c-cpp.jpg'
+image: '/assets/img/cpp/compilers/1.jpg'
 description: 'Aqueles que estão atualizados!'
 icon: 'ion:terminal-sharp'
 iconname: 'C/C++'
