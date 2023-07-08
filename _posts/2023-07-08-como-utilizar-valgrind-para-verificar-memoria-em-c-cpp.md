@@ -46,7 +46,7 @@ data-ad-slot="5351066970"></ins>
 
 # Instalação
 
-No [Windows](https://terminalroot.com.br/tags#windows) você vai precisar ter o [MinGW]() instalado([veja aqui como]()) e depois fazer o download(ou compilar) de acordo com [esse procedimento](https://sourceforge.net/p/valgrind4win/wiki/DevelopmentEnvironment/).
+No [Windows](https://terminalroot.com.br/tags#windows) você vai precisar ter o [MinGW](https://terminalroot.com.br/2022/12/como-instalar-gcc-gpp-mingw-no-windows.html) instalado([veja aqui como](https://terminalroot.com.br/2022/12/como-instalar-gcc-gpp-mingw-no-windows.html)) e depois fazer o download(ou compilar) de acordo com [esse procedimento](https://sourceforge.net/p/valgrind4win/wiki/DevelopmentEnvironment/).
 
 
 Em distribuições [GNU](https://terminalroot.com.br/tags#gnu)/[Linux](https://terminalroot.com.br/tags#linux)
