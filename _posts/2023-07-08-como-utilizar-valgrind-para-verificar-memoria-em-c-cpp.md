@@ -129,7 +129,7 @@ valgrind -s --leak-check=yes ./a.out 1 2
 {% endhighlight %}
 
 O Valgrind não detecta nenhuma falha e retorna ao final da saída abaixo: `ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)`, ou seja, nenhum erro!
-{% highlight valgrind %}
+{% highlight bash %}
 ==5659== Memcheck, a memory error detector
 ==5659== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==5659== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
@@ -204,7 +204,7 @@ valgrind -s --leak-check=yes ./a.out 1 2
 
 No entanto, dessa vez aparece o erro detectado conforme listado na saída abaixo:
 
-{% highlight valgrind %}
+{% highlight bash %}
 ==5857== Memcheck, a memory error detector
 ==5857== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
 ==5857== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
