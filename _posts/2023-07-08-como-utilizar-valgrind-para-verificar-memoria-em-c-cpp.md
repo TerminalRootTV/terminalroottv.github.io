@@ -242,7 +242,7 @@ Para mais informações use o `help` e o manual:
 {% highlight bash %}
 valgrind --help
 man valgrind
-``` 
+{% endhighlight %}
 
 <!-- Links úteis:
 
