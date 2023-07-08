@@ -7,6 +7,7 @@ description: 'Enxerga falhas que nem você e nem seu compilador conseguem encont
 icon: 'ion:terminal-sharp'
 iconname: 'C/C++'
 tags:
+- memtool
 - cpp
 - linguagemc
 - cppdaily

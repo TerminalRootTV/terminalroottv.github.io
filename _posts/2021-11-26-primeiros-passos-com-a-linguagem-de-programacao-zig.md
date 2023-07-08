@@ -7,6 +7,7 @@ description: 'Um dos principais objetivos do Zig é melhorar a Linguagem C'
 icon: 'ion:terminal-sharp'
 iconname: 'Zig'
 tags:
+- zig
 - programacao
 ---
 

@@ -8,6 +8,7 @@ icon: 'cib:gnu'
 iconname: 'gnu'
 tags:
 - gnu
+- memtool
 - cpp
 - linguagemc
 - programacao
