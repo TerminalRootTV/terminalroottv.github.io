@@ -120,7 +120,7 @@ int main(int argc, char **argv){
   }
   return 0;
 }
-``` 
+{% endhighlight %}
 
 Após compilar você roda seu código e resolve testar com Valgrind com o comando e parâmetros: 
 
@@ -200,7 +200,7 @@ g++ -Wall -Werror -Wextra -Wpedantic main.cpp
 Então, você recolve rodar novamente o Valgrind:
 {% highlight bash %}
 valgrind -s --leak-check=yes ./a.out 1 2
-``` 
+{% endhighlight %}
 
 No entanto, dessa vez aparece o erro detectado conforme listado na saída abaixo:
 
