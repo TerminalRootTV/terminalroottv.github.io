@@ -54,7 +54,7 @@ int main(){
   }
 
   // exibimos os números
-  for( auto y : nums ){
+  for( auto &y : nums ){
     std::cout << y << ' ';
   }
 
@@ -86,7 +86,7 @@ int main(){
     }
   }
 
-  for( auto y : nums ){
+  for( auto &y : nums ){
     std::cout << y << ' ';
   }
 
@@ -133,7 +133,7 @@ int main(){
 
   std::sort( nums.begin(), nums.end() );
 
-  for( auto y : nums ){
+  for( auto &y : nums ){
     std::cout << y << ' ';
   }
 
