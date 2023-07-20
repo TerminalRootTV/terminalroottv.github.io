@@ -37,7 +37,7 @@ Ela já está disponível no repositório da maioria dos sistemas operacionais, 
 + build2: depends: `spdlog ^1.8.2`
 
 Mas, se quiser compilar e instalar manualmente, rode os comandos abaixo:
-> Lembrando que você precisa ter a [libfmt]() instalada, pois a SpdLog usa ela como dependência!
+> Lembrando que você precisa ter a [libfmt](https://terminalroot.com.br/2021/12/utilizando-a-fmtlib-para-saidas-formatadas-em-cpp.html) instalada, pois a SpdLog usa ela como dependência!
 
 {% highlight bash %}
 git clone https://github.com/gabime/spdlog
