@@ -35,7 +35,7 @@ Instalação no Ubuntu:
 sudo apt install imagemagick libmagick++-dev graphicsmagick-libmagick-dev-compat
 {% endhighlight %}
 
-Para Instalar no [Windows]() ou outras distros e sistemas operacionais, veja os links abaixo:
+Para Instalar no [Windows](https://terminalroot.com.br/tags#windows) ou outras distros e sistemas operacionais, veja os links abaixo:
 + <https://imagemagick.org/script/advanced-windows-installation.php>
 + <https://imagemagick.org/script/download.php>
 
@@ -62,7 +62,7 @@ int main(){
 
 Para compilar e rodar:
 {% highlight bash %}
-g++ `Magick++-config --cxxflags --cppflags` -O2 -o 01 main.cpp `Magick++-config --ldflags --libs`")
+g++ `Magick++-config --cxxflags --cppflags` -O2 -o 01 main.cpp `Magick++-config --ldflags --libs`)
 ./01
 {% endhighlight %}
 
