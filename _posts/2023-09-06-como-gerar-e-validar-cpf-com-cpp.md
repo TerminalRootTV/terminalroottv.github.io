@@ -28,7 +28,7 @@ Outro exercício também bacana para iniciantes é gerar números para a loteria
 ---
 
 # Links úteis
-🔗 [Código do vídeo no GitHub](https://github.com/terroo/cpf)
-🔗 [Como gerar números para as Loterias com C++](https://github.com/terroo/lotto)
-🔗 [Algoritmo do CPF](https://www.geradorcpf.com/algoritmo_do_cpf.htm)
-🔗 [Testar e Gerar CPF online](https://www.geradordecpf.org/)
++ 🔗 [Código do vídeo no GitHub](https://github.com/terroo/cpf)
++ 🔗 [Como gerar números para as Loterias com C++](https://github.com/terroo/lotto)
++ 🔗 [Algoritmo do CPF](https://www.geradorcpf.com/algoritmo_do_cpf.htm)
++ 🔗 [Testar e Gerar CPF online](https://www.geradordecpf.org/)
