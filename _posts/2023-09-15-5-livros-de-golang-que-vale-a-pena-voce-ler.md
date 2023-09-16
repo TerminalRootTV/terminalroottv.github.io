@@ -32,7 +32,7 @@ O primeiro capítulo contém um tutorial com os conceitos básicos de Go, aprese
 
 Os primeiros capítulos discutem os elementos estruturais de programas Go: sintaxe, controle de fluxo, tipos de dados e a organização de um programa em pacotes, arquivos e funções. Os exemplos apresentam muitos pacotes da biblioteca-padrão e mostram como criar seus próprios pacotes. Capítulos mais adiante explicam o sistema de pacotes com mais detalhes, além de mostrar como compilar, testar e manter projetos usando a ferramenta go.
 
-<a class="btn btn-info" href="https://www.amazon.com.br/Linguagem-Programa%25C3%25A7%25C3%25A3o-Go-Alan-Donovan/dp/8575225464/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=753251bb930327134c84e76486830ad6&camp=1789&creative=9325">Clique aqui para adquirir esse livro</a>
+<a class="btn btn-info btl-lg" href="https://www.amazon.com.br/Linguagem-Programa%25C3%25A7%25C3%25A3o-Go-Alan-Donovan/dp/8575225464/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=753251bb930327134c84e76486830ad6&camp=1789&creative=9325">Clique aqui para adquirir esse livro</a>
 
 ---
 
