@@ -19,7 +19,7 @@ Uma das formas mais recomendadas quando decidimos aprender é começar da forma 
 
 [Golang](https://terminalroot.com.br/tags#go) ou simplesmente **Go** é uma das linguagens de programação fundamental para desenvolver aplicações de alto desempenho e com segurança, principalmente para [Web](https://terminalroot.com.br/tags#web), no entanto, é necessário saber realmente como ele funciona.
 
-Nesse artigos vamos indicar **5 Livros de Go que vale à pena você ler**.
+Nesse artigo vamos indicar **5 Livros de Go que vale à pena você ler**.
 
 ---
 
