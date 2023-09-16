@@ -7,6 +7,7 @@ description: 'Para bancos de dados como: MySQL, MariaDB, Oracle, Microsoft SQL S
 icon: 'ion:terminal-sharp'
 iconname: 'Livros'
 tags:
+- livros
 - sql
 - mysql
 - mariadb
