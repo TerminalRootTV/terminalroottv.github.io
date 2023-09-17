@@ -9,6 +9,7 @@ iconname: 'JSON'
 tags:
 - terminal
 - cpp
+- json
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

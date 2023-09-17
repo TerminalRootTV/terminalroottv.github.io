@@ -9,6 +9,7 @@ iconname: 'C++'
 tags:
 - cpp
 - cppdaily
+- json
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
