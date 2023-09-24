@@ -193,7 +193,9 @@ int main(int argc, char **argv){
 > Use a música que quiser como exemplo, faça o download da música.
 
 <a class="btn btn-lg btn-danger" href="/downs/music.mp3" download>music.mp3</a>
-> Música: **SAINt JHN - "Trap" ft. Lil Baby** (*Música disponível em <https://en.mygomp3.com/>*): `wget -q https://cutt.ly/musicmp3 -O music.mp3`.
+> Música: **SAINt JHN - "Trap" ft. Lil Baby** (*Música disponível em <https://en.mygomp3.com/>*): 
+> 
+> `wget -q https://cutt.ly/musicmp3 -O music.mp3`.
 
 {% highlight bash %}
 g++ main.cpp playmp3.cpp -o playmp3 -lmpg123 -lao
