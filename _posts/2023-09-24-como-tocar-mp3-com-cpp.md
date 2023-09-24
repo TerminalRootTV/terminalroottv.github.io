@@ -190,9 +190,9 @@ int main(int argc, char **argv){
 
 
 ### Compilando e tocando um MP3
-> Use a música que quiser como exemplo, faça o download da música [clicando aqui]().
+> Use a música que quiser como exemplo, faça o download da música.
 
-<a class="btn btn-custom" href="/downs/music.mp3" download>music.mp3</a>
+<a class="btn btn-lg btn-danger" href="/downs/music.mp3" download>music.mp3</a>
 > Música: **SAINt JHN - "Trap" ft. Lil Baby** (*Música disponível em <https://en.mygomp3.com/>*): `wget -q https://cutt.ly/musicmp3 -O music.mp3`.
 
 {% highlight bash %}
