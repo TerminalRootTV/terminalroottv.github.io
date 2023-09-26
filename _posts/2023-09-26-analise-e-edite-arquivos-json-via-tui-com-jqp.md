@@ -25,9 +25,9 @@ Antes de qualquer coisa você precisará do [Go](https://go.dev/) instalado no s
 
 Você pode instalar usando alguns gerenciadores de pacotes para alguns sistemas operacionais, tais como:
 {% highlight bash %}
-brew install noahgorstein/tap/jqp // Homebrew
-sudo port install jqp // Ports
-yay -S jqp-bin // AUR
+brew install noahgorstein/tap/jqp # Homebrew
+sudo port install jqp # Ports
+yay -S jqp-bin # AUR
 {% endhighlight %}
 
 Mas, independente do sistema operacional você pode clonar, construir e instalar, para isso rode os comandos abaixo:
