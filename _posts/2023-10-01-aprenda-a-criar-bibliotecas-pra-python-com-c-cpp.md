@@ -223,7 +223,7 @@ python player.py
 > Se quiser utilizar a biblioteca diretamente no seu sistema:
 {% highlight bash %}
 sudo mv playmp3.so /usr/local/lib
-echo 'export PYTHONPATH="${PYTHONPATH}:${HOME}/.local/lib"' >> ~/.bashrc
+echo 'export PYTHONPATH="${PYTHONPATH}:/usr/local/lib"' >> ~/.bashrc
 {% endhighlight %}
 
 > Se quiser usar um *plugin* de saída diferente para o `libao`, como o plugin "oss" ([Open Sound System](https://pt.wikipedia.org/wiki/Open_Sound_System)), use:
