@@ -142,17 +142,17 @@ data-full-width-responsive="true"></ins>
 ---
 
 ## Compilando a `playmp3`:
-1. Certifique-se antes de possuir as dependências:
+#### 1. Certifique-se antes de possuir as dependências:
 > Exemplo no [Ubuntu](https://terminalroot.com.br/tags#ubuntu)
 
 {% highlight bash %}
 sudo apt install libmpg123-dev libao-dev libasound2
 {% endhighlight %}
 
-2. Copie e crie os arquivos(`playmp3.hpp` e `playmp3.cpp`) da postagem do vídeo da *playmp3* disponível no endereço:
+#### 2. Copie e crie os arquivos(`playmp3.hpp` e `playmp3.cpp`) da postagem do vídeo da *playmp3* disponível no endereço:
 ### [🎶 Como Tocar MP3 com C++ 🎻 🎼 Code Music](https://terminalroot.com.br/2023/09/como-tocar-mp3-com-cpp.html)
 
-3. Crie o `main.cpp` e adicione o código abaixo:
+#### 3. Crie o `main.cpp` e adicione o código abaixo:
 {% highlight cpp %}
 #include <Python.h>
 #include "playmp3.hpp"
@@ -191,31 +191,31 @@ PyMODINIT_FUNC PyInit_playmp3(void) {
 }
 {% endhighlight %}
 
-4. Adicione o caminho da `libalsa.so` à variável de ambiente: `LD_LIBRARY_PATH`:
+#### 4. Adicione o caminho da `libalsa.so` à variável de ambiente: `LD_LIBRARY_PATH`:
 {% highlight bash %}
 echo export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(dirname "$(find /usr/lib* -name "libalsa.so" 2>/dev/null)") >> ~/.bashrc
 {% endhighlight %}
 
-5. Feche e abra o terminal ou rode o comando abaixo:
+#### 5. Feche e abra o terminal ou rode o comando abaixo:
 {% highlight bash %}
 source ~/.bashrc
 {% endhighlight %}
 
-6. Compile:
+#### 6. Compile:
 {% highlight bash %}
 g++ -shared -o playmp3.so -fpic main.cpp playmp3.cpp \
   -I /usr/include/python* \ # Altere para o caminho que há no seu sistema
   -lmpg123 -lao $(find /usr/lib* -name "libalsa.so")
 {% endhighlight %}
 
-7. Crie um arquivo Python: `player.py`
+#### 7. Crie um arquivo Python: `player.py`
 {% highlight python %}
 import playmp3 as play 
 play.mp3("music.mp3")
 {% endhighlight %}
 > Em `music.mp3` substitua pela música que deseja escutar!
 
-8. Depois é só rodar:
+#### 8. Depois é só rodar:
 {% highlight bash %}
 python player.py
 {% endhighlight %}
