@@ -19,7 +19,7 @@ No vídeo [Como Incorporar Funções C/C++ em Lua](https://terminalroot.com.br/2
 
 # Assista ao Vídeo
 
-<iframe width="1253" height="705" src="https://www.youtube.com/embed/VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/y69Z6VO9APY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
