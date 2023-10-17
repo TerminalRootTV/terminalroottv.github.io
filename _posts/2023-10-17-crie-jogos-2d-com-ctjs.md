@@ -52,7 +52,7 @@ data-ad-slot="5351066970"></ins>
 Assim que você abre pela primeira vez, ele irá criar um diretório de nome `ct.js/` na sua pasta pessoal e lá você pode gravar seus novos projetos de forma mais organizada.
 
 Você também pode escolher a linguagem de programação que irá desenvolver seus jogos. Dentre as opções há: [JavaScript](https://terminalroot.com.br/tags#javascript) e **CoffeeScript**:
-[![JavaScript ou CoffeeScript?](/assets/img/gamedev/ctjs-01.jpg)(/assets/img/gamedev/ctjs-01.jpg)
+[![JavaScript ou CoffeeScript?](/assets/img/gamedev/ctjs-01.jpg)](/assets/img/gamedev/ctjs-01.jpg)
 > Clique na imagem para vê-la em uma maior resolução em uma nova guia!
 
 Dentre diversas opções você também já deifinir a autoria dos seus jogos, exemplo:
