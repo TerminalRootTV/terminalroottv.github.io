@@ -55,7 +55,7 @@ Você também pode escolher a linguagem de programação que irá desenvolver se
 [![JavaScript ou CoffeeScript?](/assets/img/gamedev/ctjs-01.jpg)](/assets/img/gamedev/ctjs-01.jpg)
 > Clique na imagem para vê-la em uma maior resolução em uma nova guia!
 
-Dentre diversas opções você também já deifinir a autoria dos seus jogos, exemplo:
+Dentre diversas opções você também já definir a autoria dos seus jogos, exemplo:
 [![Athoring Ctjs](/assets/img/gamedev/ctjs-02.jpg)](/assets/img/gamedev/ctjs-02.jpg)
 > Clique na imagem para vê-la em uma maior resolução em uma nova guia!
 
