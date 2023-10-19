@@ -7,6 +7,9 @@ description: 'A facilidade de uso e o fato de não precisar de dependências ext
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
+- cpp
+- tdd
+- benchmark
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
