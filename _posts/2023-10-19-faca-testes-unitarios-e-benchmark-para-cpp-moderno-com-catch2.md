@@ -33,6 +33,7 @@ cd Catch2
 cmake -B build .
 cd build
 make
+sudo make install
 {% endhighlight %}
 
 <details>
