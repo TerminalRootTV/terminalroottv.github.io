@@ -38,7 +38,7 @@ tags:
 # Arquivos para Download
 
 ## Arquivo para Teste Inicial: `main.cpp`
-Ser ve tanto para [Windows](https://terminalroot.com.br/tags#windows) quanto para [Linux](https://terminalroot.com.br/tags#linux).
+Serve tanto para [Windows](https://terminalroot.com.br/tags#windows) quanto para [Linux](https://terminalroot.com.br/tags#linux).
 
 {% highlight cpp %}
 #include <SDL2/SDL.h>
@@ -69,6 +69,11 @@ int main(int argc, char** argv) {
   return 0;
 }
 {% endhighlight %}
+
+Compilar em distros [GNU](https://terminalroot.com.br/tags#gnu)/[Linux](https://terminalroot.com.br/tags#linux):
+```bash
+g++ main.cpp $(pkg-config --cflags --libs sdl2)
+```
 
 ---
 
@@ -136,6 +141,11 @@ int main(int argc, char** argv) {
   return 0;
 }
 {% endhighlight %}
+
+Compilar em distros [GNU](https://terminalroot.com.br/tags#gnu)/[Linux](https://terminalroot.com.br/tags#linux):
+```bash
+g++ main.cpp $(pkg-config --cflags --libs sdl2)
+```
 
 ---
 
