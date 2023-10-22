@@ -135,7 +135,7 @@ git checkout 2968648
 {% endhighlight %}
 > Esse *commit* refere-se a linha: `Initial Support for RayLib 4.0 Fonts need testing`, caso queira vê-lo rode: `git log --oneline`.
 
-Prepare a extensão, rode o [CMake](https://terminalroot.com.br/tags#cmake), entre no `build`, construa e instale:
+Prepare a extensão, rode o [Make](https://terminalroot.com.br/tags#make), entre no `build`, construa e instale:
 {% highlight bash %}
 phpize # Prepara a extensão
 ./configure 
@@ -187,6 +187,9 @@ Para rodar use o comando:
 {% highlight bash %}
 php -dextension=raylib.so main.php
 {% endhighlight %}
+
+![Raylib rodando com PHP](/assets/img/php/run-raylib-php.png) 
+> Resultado do teste!
 
 Para aprender **Raylib** e **PHP** veja os links:
 + <https://www.raylib.com/>
