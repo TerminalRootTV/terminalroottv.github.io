@@ -185,7 +185,7 @@ Window::close();
 
 Para rodar use o comando:
 {% highlight bash %}
-php -dextension=raylib.so main.php
+php -dextension=raylib main.php
 {% endhighlight %}
 
 ![Raylib rodando com PHP](/assets/img/php/run-raylib-php.png) 
