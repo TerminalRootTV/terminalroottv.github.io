@@ -57,6 +57,18 @@ data-ad-slot="5351066970"></ins>
 <b>Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!</b>
 </blockquote>
 
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      if ( typeof(window.google_jobrunner) === "undefined" ) {
+        console.log("ad blocker installed");
+      } else {
+        console.log("no ad blocking found.");
+      }
+    }, 10000);
+  };
+</script>
+
 </details>
 
 
