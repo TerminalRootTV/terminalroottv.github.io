@@ -23,7 +23,7 @@ Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers
 ---
 
 ## Assista ao Filme
-### Disponível em: [Apple TV+](https://tv.apple.com/br/movie/tetris/umc.cmc.4evmgcam356pzgxs2l7a18d7b)
+### Disponível em: [Adoro Cinema](https://www.adorocinema.com/filmes/filme-285354/)
 
 <!-- MINI ADS -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
