@@ -40,7 +40,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 <details>
- <summary>Clique aqui para assisit o filme</summary>
+ <summary>Clique aqui para assistir o filme</summary>
 
 <!-- SQUARE - GAMES ROOT -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
