@@ -23,6 +23,7 @@ Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers
 ---
 
 ## Assista ao Filme
+### Disponível em: [Apple TV+](https://tv.apple.com/br/movie/tetris/umc.cmc.4evmgcam356pzgxs2l7a18d7b)
 
 <!-- MINI ADS -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -35,8 +36,8 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
-> Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!
+<details>
+ <summary>Clique aqui para assisit o filme</summary>
 
 <!-- SQUARE - GAMES ROOT -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -47,6 +48,14 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
+<blockquote>
+<b>Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!</b>
+</blockquote>
+
+</details>
+
 
 # Veja também
 ### [Como Recriar o Jogo TETRIS com C++](https://terminalroot.com.br/2022/09/como-recriar-o-jogo-tetris-com-cpp.html)
