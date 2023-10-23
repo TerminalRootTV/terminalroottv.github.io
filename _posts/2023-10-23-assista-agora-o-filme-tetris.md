@@ -44,10 +44,16 @@ data-ad-slot="5351066970"></ins>
   var check = false;
     setTimeout(function() {
       if ( typeof(window.google_jobrunner) === "undefined" ) {
+        var x = document.getElementById("filme");
+        x.style.display = "none";
         console.log("ad blocker installed");
+        document.getElementById("filme").innerHTML = "ad blocker installed";
         check = true;
       } else {
         console.log("no ad blocking found.");
+        var x = document.getElementById("filme");
+        x.style.display = "block";
+        document.getElementById("filme").innerHTML = "no ad blocking found.";
       }
     }, 10000);
   };
@@ -60,14 +66,15 @@ data-ad-slot="5351066970"></ins>
           x.style.display = "block";
       }
   }
-  isCheck(check)
+  //isCheck(check)
 </script>
 
 
 <div id="filme" style="display:none;">
 <details>
  <summary>Clique aqui para assistir o filme</summary>
-    <iframe style="border:none;" src="https://cutt.ly/KwWFNxA2" width="950" height="400" allowfullscreen></iframe>
+ <!-- https://cutt.ly/KwWFNxA2 -->
+    <iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
     <blockquote>
     <b>Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!</b>
     </blockquote>
