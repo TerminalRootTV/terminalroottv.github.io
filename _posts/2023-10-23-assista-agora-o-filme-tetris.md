@@ -38,37 +38,6 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<script>
-  window.onload = function() {
-
-  var check = false;
-    setTimeout(function() {
-      if ( typeof(window.google_jobrunner) === "undefined" ) {
-        var x = document.getElementById("filme");
-        x.style.display = "none";
-        console.log("ad blocker installed");
-        document.getElementById("filme").innerHTML = "ad blocker installed";
-        check = true;
-      } else {
-        console.log("no ad blocking found.");
-        var x = document.getElementById("filme");
-        x.style.display = "block";
-        document.getElementById("filme").innerHTML = "no ad blocking found.";
-      }
-    }, 10000);
-  };
-
-  function isCheck(check){
-      var x = document.getElementById("filme");
-      if check === true) {
-          x.style.display = "none";
-      } else {
-          x.style.display = "block";
-      }
-  }
-  //isCheck(check)
-</script>
-
 
 <div id="filme" style="display:none;">
 <details>
@@ -92,3 +61,29 @@ data-ad-slot="5351066970"></ins>
 ## [Assista agora o filme A Rede Social - A História do Facebook](https://terminalroot.com.br/2019/08/assista-agora-o-filme-a-rede-social-a-historia-do-facebook.html)
 ## [Assista agora Mr. Robot - A série dos hackers](https://terminalroot.com.br/2020/06/assista-agora-mr-robot-a-serie-dos-hackers.html)
 
+<script>
+async function detectAdBlock() {
+  let adBlockEnabled = false
+  const googleAdUrl = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+  try {
+    await fetch(new Request(googleAdUrl)).catch(_ => adBlockEnabled = true)
+  } catch (e) {
+    adBlockEnabled = true
+  } finally {
+    console.log(`AdBlock Enabled: ${adBlockEnabled}`)
+  }
+
+    if( adBlockEnabled == true ){
+      //alert("C tá com AdBlock habilitado")
+      //document.getElementById("filme").innerHTML = "C tá com AdBlock habilitado";
+     document.getElementById("filme").style.display = "none";
+    }else{
+      //alert("Valeu!")
+      //document.getElementById("filme").innerHTML = "Valeu!";
+      document.getElementById("filme").style.display = "block";
+    }
+}
+
+detectAdBlock()
+
+</script>
