@@ -24,8 +24,29 @@ Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers
 
 ## Assista ao Filme
 
+<!-- MINI ADS -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Games Root -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:730px;height:95px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
 > Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Veja também
 ### [Como Recriar o Jogo TETRIS com C++](https://terminalroot.com.br/2022/09/como-recriar-o-jogo-tetris-com-cpp.html)
