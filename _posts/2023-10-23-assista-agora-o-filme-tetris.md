@@ -20,7 +20,7 @@ Antes de [Tetris](https://terminalroot.com.br/2022/09/como-recriar-o-jogo-tetris
 
 Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers adquire a licença do Tetris e se envolve em um turbilhão de mentiras e corrupção, de modo que precisa negociar até com o serviço secreto russo KGB.
 
-### Veja o traile
+### Veja o trailer
 <iframe width="1280" height="640" src="https://www.youtube.com/embed/cZ9j8KlB96M" title="TETRIS | Trailer (2023) Dublado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
