@@ -25,6 +25,7 @@ Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers
 ## Assista ao Filme
 
 <iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
+> Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!
 
 # Veja também
 ### [Como Recriar o Jogo TETRIS com C++](https://terminalroot.com.br/2022/09/como-recriar-o-jogo-tetris-com-cpp.html)
