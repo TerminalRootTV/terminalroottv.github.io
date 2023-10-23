@@ -28,20 +28,6 @@ Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers
 ## Assista ao Filme
 ### Disponível em: [Adoro Cinema](https://www.adorocinema.com/filmes/filme-285354/)
 
-<!-- MINI ADS -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Games Root -->
-<ins class="adsbygoogle"
-style="display:inline-block;width:730px;height:95px"
-data-ad-client="ca-pub-2838251107855362"
-data-ad-slot="5351066970"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<details>
- <summary>Clique aqui para assistir o filme</summary>
-
 <!-- SQUARE - GAMES ROOT -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
@@ -52,24 +38,41 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<iframe style="border:none;" src="https://drive.google.com/file/d/1nqqiso9Dlxqu7nDoV_miT7P-YzUTuAsu/preview" width="950" height="400" allowfullscreen></iframe>
-<blockquote>
-<b>Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!</b>
-</blockquote>
-
 <script>
   window.onload = function() {
+
+  var check = false;
     setTimeout(function() {
       if ( typeof(window.google_jobrunner) === "undefined" ) {
         console.log("ad blocker installed");
+        check = true;
       } else {
         console.log("no ad blocking found.");
       }
     }, 10000);
   };
+
+  function isCheck(check){
+      var x = document.getElementById("filme");
+      if check === true) {
+          x.style.display = "none";
+      } else {
+          x.style.display = "block";
+      }
+  }
+  isCheck(check)
 </script>
 
+
+<div id="filme" style="display:none;">
+<details>
+ <summary>Clique aqui para assistir o filme</summary>
+    <iframe style="border:none;" src="https://cutt.ly/KwWFNxA2" width="950" height="400" allowfullscreen></iframe>
+    <blockquote>
+    <b>Esse filme não faz parte do Blog Terminal Root, encontrei na internet e postei aqui. Logo, não me solicite o arquivo para download!</b>
+    </blockquote>
 </details>
+</div>
 
 
 # Veja também
