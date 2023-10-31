@@ -84,7 +84,7 @@ Documentos/Fedora-Workstation-Live-x86_64-33-1.2.iso                   340,9 MiB
 {% endhighlight %}
 
 Se quiser evitar de ficar usando esse parâmetro, já crie o alias com o parâmetro, exemplo:
-> `vim ~/.vimrc` e deixe o alias nesse arquivo assim:
+> `vim ~/.bashrc` e deixe o alias nesse arquivo assim:
 
 
 <!-- RETANGULO LARGO 2 -->
