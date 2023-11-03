@@ -25,7 +25,7 @@ Esta biblioteca oferece suporte a todos os recursos atuais do Moustache:
 + Escape de HTML
 + Seções
 + Seções Invertidas
-+ Verdadeiro | Falso
++ Verdadeiro ou Falso
 + Listas
 + Lambdas
 + Parciais
@@ -98,7 +98,7 @@ Para mais informações acesse: <https://github.com/kainjow/Mustache>.
 ---
 
 Alternativas a esse Mustache:
-+ <https://github.com/no1msd/mstch> | <https://mustache.github.io/>
++ <https://github.com/no1msd/mstch> ou <https://mustache.github.io/>
 + <https://pdimov.github.io/mustache/doc/html/mustache.html>
 + <https://crowcpp.org/master/guides/templating/>
 
