@@ -40,7 +40,7 @@ data-ad-slot="5351066970"></ins>
 # Códigos criados no vídeo
 
 Dependências:
-> Exemplo em Sistemas que usam o APT.
+> Exemplo em Sistemas que usam o APT. 
 
 {% highlight bash %}
 sudo apt-get install build-essential php php-dev \
@@ -49,6 +49,8 @@ sudo apt-get install build-essential php php-dev \
 {% endhighlight %}
 
 Arquivo `terminalroot.cpp`:
+> Diferentemente do vídeo em ~`ZEND_GET_MODULE(terminalroot_php)`~ tem de ser: `ZEND_GET_MODULE(terminalroot)`.
+
 {% highlight cpp %}
 extern "C"{
   #include <php.h>
@@ -80,7 +82,7 @@ zend_module_entry terminalroot_php_module_entry = {
     STANDARD_MODULE_PROPERTIES
 };
 
-ZEND_GET_MODULE(terminalroot_php)
+ZEND_GET_MODULE(terminalroot)
 
 PHP_FUNCTION(terminalroot_php){
     printf("Minha Primeira Extensão PHP com C++\n");
