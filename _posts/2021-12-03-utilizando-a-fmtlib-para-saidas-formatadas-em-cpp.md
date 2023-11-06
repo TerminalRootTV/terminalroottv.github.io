@@ -52,6 +52,35 @@ make
 sudo make install
 {% endhighlight %}
 
+<details>
+ <summary>Caminho da instalação dos arquivos</summary>
+
+```bash
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib64/libfmt.a
+-- Installing: /usr/local/include/fmt/args.h
+-- Installing: /usr/local/include/fmt/chrono.h
+-- Installing: /usr/local/include/fmt/color.h
+-- Installing: /usr/local/include/fmt/compile.h
+-- Installing: /usr/local/include/fmt/core.h
+-- Installing: /usr/local/include/fmt/format.h
+-- Installing: /usr/local/include/fmt/format-inl.h
+-- Installing: /usr/local/include/fmt/os.h
+-- Installing: /usr/local/include/fmt/ostream.h
+-- Installing: /usr/local/include/fmt/printf.h
+-- Installing: /usr/local/include/fmt/ranges.h
+-- Installing: /usr/local/include/fmt/std.h
+-- Installing: /usr/local/include/fmt/xchar.h
+-- Installing: /usr/local/lib64/cmake/fmt/fmt-config.cmake
+-- Installing: /usr/local/lib64/cmake/fmt/fmt-config-version.cmake
+-- Old export file "/usr/local/lib64/cmake/fmt/fmt-targets.cmake" will be replaced.  Removing files [/usr/local/lib64/cmake/fmt/fmt-targets-release.cmake].
+-- Installing: /usr/local/lib64/cmake/fmt/fmt-targets.cmake
+-- Installing: /usr/local/lib64/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /usr/local/lib64/pkgconfig/fmt.pc
+```
+</details>
+
 ---
 
 # Exemplos de uso
