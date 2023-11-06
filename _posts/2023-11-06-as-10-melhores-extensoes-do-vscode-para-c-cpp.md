@@ -27,7 +27,7 @@ Neste artigo, apresentaremos as **10 melhores extensões do VSCode para C/C++**,
 
 A extensão **C/C++ IntelliSense** é uma escolha essencial para qualquer desenvolvedor C/C++. Ela oferece recursos avançados de autocompletar, realce de sintaxe, navegação de código e depuração, tornando a escrita de código mais eficiente e precisa.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" class="btn btn-danger btn-lg">Clique aqui</a>
 
 ---
 
@@ -36,7 +36,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 Se você trabalha com projetos que utilizam o sistema de compilação CMake, a extensão **CMake Tools** é indispensável. Ela simplifica a configuração, geração e compilação de projetos C/C++ baseados em CMake.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools" class="btn btn-info btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools" class="btn btn-info btn-lg">Clique aqui</a>
 
 
 <!-- SQUARE - GAMES ROOT -->
@@ -56,7 +56,7 @@ data-ad-slot="5351066970"></ins>
 
 A extensão **C/C++ Clang Command Adapter** oferece suporte aprimorado para a compilação de código C/C++ com o Clang. Ela simplifica a configuração e fornece recursos de compilação mais avançados.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=mitaki28.vscode-clang" class="btn btn-primary btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=mitaki28.vscode-clang" class="btn btn-primary btn-lg">Clique aqui</a>
 
 ---
 
@@ -65,7 +65,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 Com a extensão **C/C++ Compile Run**, você pode compilar e executar código C/C++ diretamente do VSCode, economizando tempo e simplificando o processo de teste.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-compile-run" class="btn btn-warning btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=danielpinto8zz6.c-cpp-compile-run" class="btn btn-warning btn-lg">Clique aqui</a>
 
 ---
 
@@ -74,7 +74,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 A extensão **C/C++ Snippets** oferece um conjunto de snippets prontos para uso que agilizam a escrita de código C/C++. Economize tempo e reduza erros comuns ao usar esses snippets.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=hars.cppsnippets" class="btn btn-success btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=hars.cppsnippets" class="btn btn-success btn-lg">Clique aqui</a>
 
 ---
 
@@ -84,7 +84,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 O **C/C++ Extension Pack** é um conjunto de extensões essenciais para desenvolvedores C/C++. Ele inclui uma variedade de ferramentas úteis, como a extensão C/C++ IntelliSense, CMake Tools e outras.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack" class="btn btn-custom btn-lg">Clique aqui para adquirir esse livro</a> 
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack" class="btn btn-custom btn-lg">Clique aqui</a> 
 
 ---
 
@@ -93,7 +93,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 Para personalizar a aparência do seu ambiente de desenvolvimento, a extensão **C/C++ Themes** oferece uma variedade de temas e esquemas de cores projetados especificamente para C/C++.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=bbenoist.vcpp-themes" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>  
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=bbenoist.vcpp-themes" class="btn btn-danger btn-lg">Clique aqui</a>  
 
 
 <!-- RECTANGLE LARGE -->
@@ -116,7 +116,7 @@ data-full-width-responsive="true"></ins>
 
 Uma extensão do Visual Studio Code que oferece suporte a vários analisadores de código estático para código C e C++.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client" class="btn btn-warning btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client" class="btn btn-warning btn-lg">Clique aqui</a>
 
 --
 
@@ -125,7 +125,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 A extensão **Better C++ Syntax** aprimora a formatação e o realce de sintaxe para deixar seu código C/C++ mais legível e organizado.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax" class="btn btn-success btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax" class="btn btn-success btn-lg">Clique aqui</a>
 
 ---
 
@@ -134,7 +134,7 @@ Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemNam
 
 Embora não seja específica para C/C++, a extensão **Code Runner** é útil para todos os desenvolvedores. Ela permite que você execute facilmente trechos de código e visualize a saída diretamente no VSCode, agilizando o processo de depuração e testes.
 
-Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" class="btn btn-info btn-lg">Clique aqui para adquirir esse livro</a>
+Instale a extensão: <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" class="btn btn-info btn-lg">Clique aqui</a>
 
 ---
 
@@ -145,7 +145,7 @@ Muita gente me pergunta qual Tema de Cores eu uso no [Vim](https://terminalroot.
 
 Aqui está o link para você instalar o Sobrio no seu VSCode:
 
-<a href="https://vscodethemes.com/e/elvessousa.sobrio/sobrio" class="btn btn-warning btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://vscodethemes.com/e/elvessousa.sobrio/sobrio" class="btn btn-warning btn-lg">Clique aqui</a>
 
 ---
 
