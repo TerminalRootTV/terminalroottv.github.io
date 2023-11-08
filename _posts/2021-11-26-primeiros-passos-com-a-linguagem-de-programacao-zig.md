@@ -15,7 +15,7 @@ tags:
 
 [Zig](https://ziglang.org/) é uma linguagem de programação de sistema compilada, de uso geral , tipada, projetada por Andrew Kelley. A linguagem é projetada para "robustez, otimização e facilidade de manutenção", suportando genéricos em tempo de compilação e reflexão , compilação cruzada e gerenciamento de memória manual . 
 
-Um dos principais objetivos da linguagem é melhorar a [linguagem C](https://terminalroot.com.br/tags#linguagemc) , ao mesmo tempo que se inspira em [Rust](https://terminalroot.com.br/tags#rust) , entre outros. 
+Um dos principais objetivos da linguagem é melhorar a [linguagem C](https://terminalroot.com.br/tags#linguagemc).
 
 
 O compilador de estágio 1 é escrito em Zig e [C++](https://terminalroot.com.br/cpp) ,usando LLVM 11 como back-end, suportando muitos de seus alvos nativos. 
