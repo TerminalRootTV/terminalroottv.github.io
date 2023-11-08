@@ -38,7 +38,27 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Instalação 
-Zig está disponível para quase todos os sistemas operacionais e distribuições [Linux](https://terminalroot.com.br/tags#distros), veja abaixo como instalar com o seu gerenciador de pacotes.
+Zig está disponível para quase todos os sistemas operacionais e distribuições [Linux](https://terminalroot.com.br/tags#distros), veja abaixo como instalar com o seu gerenciador de pacotes ou Baixando direto do site e instalando.
+
+### Instalação Manual[RECOMENDADO]
+> Recomendo por se tratar de ter atualizações constantes, eu tive bastante problemas em usar gerenciadores de pacotes que não reconhecem as novas implementações.
+
+Faça o download direto da página: <https://ziglang.org/download/>.
+> Exemplo em distros GNU/Linux `x86_64`, o `*` é a versão/commit, copie o link que desejar:
+
+```bash
+wget -q https://ziglang.org/builds/zig-linux-x86_64-*.tar.xz
+tar Jxvf zig-linux-x86_64-*.tar.xz
+mkdir -p ~/.local/bin
+mv zig-linux-x86_64-*/ ~/.local/bin/zig
+echo 'export PATH="${PATH}:${HOME}/.local/bin/zig"' >> ~/.bashrc
+source ~/.bashrc
+zig version
+```
+
+---
+
+### Se quiser usar gerenciadores de pacotes [NÃO RECOMENDO]
 
 Para [GNU](https://terminalroot.com.br/tags#gnu)/[Linux](https://terminalroot.com.br/linux):
 {% highlight sh %}
@@ -68,16 +88,6 @@ port install zig # Utilizando o MacPorts
 Você também pode compilar o código fonte do [repositório](https://github.com/ziglang/zig/) ou instalar manualmente um binário somente para seu usuário sem usar `sudo` ou `root`:
 > Nesse exemplo vamos fazer o download [daqui](https://ziglang.org/download/) da versão *0.8.1* da branch master/main para arquitetura **x86_64**.
 
-{% highlight sh %}
-wget https://ziglang.org/builds/zig-linux-x86_64-0.9.0-dev.1678+7747bf07c.tar.xz
-tar Jxvf zig-linux-x86_64-0.9.0-dev.1678+7747bf07c.tar.xz
-rm zig-linux-x86_64-0.9.0-dev.1678+7747bf07c.tar.xz
-mkdir -p ~/.local/bin
-mv ~/zig-linux-x86_64-0.9.0-dev.1678+7747bf07c ~/.local/bin/zig
-echo 'alias zig="${HOME}/.local/bin/zig/zig"' >> ~/.bashrc
-source ~/.bashrc
-zig version
-{% endhighlight %}
 
 
 <!-- RETANGULO LARGO 2 -->
