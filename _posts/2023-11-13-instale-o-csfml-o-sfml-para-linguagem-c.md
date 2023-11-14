@@ -163,7 +163,7 @@ Para compilar:
 gcc main.c -lcsfml-window -lcsfml-system -lcsfml-graphics
 {% endhighlight %}
 
-**OBSERVAÇÃO**: Se você compilou do zero e encontrou erro ao rodar o binário que está procurando a biblioteca estática `.so`, então você precisará adicionar o caminho que foi instalado à sua variável `$LD_LIBRARY_PATH`:
+**OBSERVAÇÃO**: Se você compilou do zero e encontrou erro ao rodar o binário que está procurando o arquivo: `.so`, então você precisará adicionar o caminho que foi instalado à sua variável `$LD_LIBRARY_PATH`:
 
 {% highlight bash %}
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/lib"
