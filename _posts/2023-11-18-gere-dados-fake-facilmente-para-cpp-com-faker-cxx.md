@@ -136,7 +136,7 @@ created_at: 2023-05-05T11:39:05Z
 updated_at: 2023-11-16T13:07:05Z
 {% endhighlight %}
 
-Toda vez que você rodar o binários, novos dados serão gerados!
+Toda vez que você rodar o binário, novos dados serão gerados!
 
 ---
 
