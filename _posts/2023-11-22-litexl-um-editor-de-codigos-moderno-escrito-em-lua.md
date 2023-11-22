@@ -119,7 +119,7 @@ O arquivo de configuração fica no caminho:
 lite-xl ~/.config/lite-xl/init.lua
 {% endhighlight %}
 
-O arquivo possui diversos comentários que auxiliam de forma intuitiva como você auto-configurá-lo, por exemplo:
+O arquivo possui diversos comentários que auxiliam de forma intuitiva como você auto configurá-lo, por exemplo:
 
 Alterar a fonte e o tamanho da mesma:
 > Exemplo:
@@ -130,7 +130,7 @@ style.font = renderer.font.load("/home/[USUARIO]/.local/share/fonts/JetBrainsMon
 
 Existem diversos plugins que você pode adicionar que servem para: Auto-complete, LSP, Snnipets, ColorScheme,...
 
-E ele podem ser adquiridos nos endereços: 
+E eles podem ser adquiridos nos endereços: 
 + Plugins: <https://github.com/lite-xl/lite-xl-plugins>
 + Temas de Cores: <https://github.com/lite-xl/lite-xl-colors>
 
