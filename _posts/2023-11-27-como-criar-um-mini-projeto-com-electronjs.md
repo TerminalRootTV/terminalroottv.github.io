@@ -17,7 +17,7 @@ tags:
 
 **Electron** (anteriormente conhecido como **Atom Shell**) é uma estrutura de software gratuita e de código aberto desenvolvida e mantida pela [OpenJS Foundation](https://openjsf.org/). 
 
-O framework é projetado para criar aplicações desktop usando tecnologias web (principalmente [HTML](https://terminalroot.com.br/tags#html), [CSS](https://terminalroot.com.br/tags#css) e [JavaScript](https://terminalroot.com.br/tags#javascript) ,embora outras tecnologias como frameworks front-end e [WebAssembly](https://terminalroot.com.br/2023/02/como-transformar-seus-jogos-c-cpp-para-web-com-emscripten-sdl2.html) sejam possíveis) que são renderizadas usando uma versão do motor do navegador [Chromium](https://terminalroot.com.br/2023/09/top-10-extensoes-do-chrome-para-programadores.html) e um back terminar usando o ambiente de execução Node.js. 
+O framework é projetado para criar aplicações desktop usando tecnologias web (principalmente [HTML](https://terminalroot.com.br/tags#html), [CSS](https://terminalroot.com.br/tags#css) e [JavaScript](https://terminalroot.com.br/tags#javascript) ,embora outras tecnologias como frameworks front-end e [WebAssembly](https://terminalroot.com.br/2023/02/como-transformar-seus-jogos-c-cpp-para-web-com-emscripten-sdl2.html) sejam possíveis) que são renderizadas usando uma versão do motor do navegador [Chromium](https://terminalroot.com.br/2023/09/top-10-extensoes-do-chrome-para-programadores.html) e um back-end usando o ambiente de execução Node.js. 
 
 Ele também usa várias APIs para habilitar funcionalidades como integração nativa com serviços [Node.js](https://terminalroot.com.br/tags#nodejs) e um módulo de comunicação entre processos .
 
