@@ -36,7 +36,7 @@ data-ad-slot="5351066970"></ins>
 # Utilizando o `filesystem`
 A biblioteca `filesystem` fornece recursos para executar operações em sistemas de arquivos e seus componentes, como caminhos, arquivos regulares e diretórios.
 
-Ela foi originalmente desenvolvida pela [Boost](https://www.boost.org/) e na versão `C++` ela foi finalmente adotada pelo comitê para fazer parte da biblioteca padrão(STL).
+Ela foi originalmente desenvolvida pela [Boost](https://www.boost.org/) e na versão `C++ 17` ela foi finalmente adotada pelo comitê para fazer parte da biblioteca padrão(STL).
 
 Para usá-la incluiremos:
 {% highlight cpp %}
