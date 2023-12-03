@@ -10,6 +10,7 @@ tags:
 - macos
 - programacao
 - desenvolvimento
+- swift
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
