@@ -6,7 +6,7 @@ image: '/assets/img/terminal/terminal.jpg'
 description: 'Ranking baseado nas minha experiências.'
 tags:
 - terminal
-- linux
+- gnulinux
 - unix
 ---
 

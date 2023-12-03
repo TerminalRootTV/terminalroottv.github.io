@@ -7,7 +7,7 @@ description: "Se você é um administrador de rede, um profissional de seguranç
 color: '#009688'
 tags:
 - opensource
-- linux
+- gnulinux
 categories:
 ---
 

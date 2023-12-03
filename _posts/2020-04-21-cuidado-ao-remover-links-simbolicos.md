@@ -9,7 +9,7 @@ iconname: 'terminalroot'
 tags:
 - comandos
 - dicas
-- linux
+- gnulinux
 ---
 
 ![CUIDADO ao remover links simbólicos](/assets/img/dicas/remove-symbolic-link.jpg)

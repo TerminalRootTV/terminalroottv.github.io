@@ -5,7 +5,7 @@ date: '2014-09-21T09:58:00.001-07:00'
 image: '/assets/img/bash/comandos-linux.jpg'
 description: "Uma lista completa de comandos GNU/Linux"
 tags:
-- linux
+- gnulinux
 - gnu
 - terminal
 - comandos

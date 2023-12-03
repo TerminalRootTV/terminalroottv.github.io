@@ -5,7 +5,7 @@ date: '2015-07-18T15:37:00.000-07:00'
 image: '/assets/img/hacker/tcpdump.jpg'
 description: "Isso serve como conhecimento de proteção, ou seja, alguém que está usando sua rede WI-FI por exemplo"
 tags:
-- linux
+- gnulinux
 - servidores
 - gnu
 - hacker

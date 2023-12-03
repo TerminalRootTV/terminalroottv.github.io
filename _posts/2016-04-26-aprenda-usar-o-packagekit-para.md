@@ -5,7 +5,7 @@ date: '2016-04-26T07:18:00.002-07:00'
 image: '/assets/img/dev/package-kit.jpg'
 description: PackageKit é um sistema projetado para fazer a instalação e atualização de software no seu computador mais fácil.""
 tags:
-- linux
+- gnulinux
 - xwindow
 - desenvolvimento
 ---

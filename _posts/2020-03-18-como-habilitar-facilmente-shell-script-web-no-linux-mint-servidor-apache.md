@@ -9,7 +9,7 @@ iconname: 'apache'
 tags:
 - shellscript
 - desenvolvimentoweb
-- linuxmint
+- gnulinuxmint
 - apache
 ---
 

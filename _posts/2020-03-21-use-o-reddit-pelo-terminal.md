@@ -9,7 +9,7 @@ iconname: 'reddit'
 tags:
 - terminal
 - comandos
-- linux
+- gnulinux
 ---
 
 ![Use o Reddit pelo Terminal](/assets/img/terminal/rtv.png)

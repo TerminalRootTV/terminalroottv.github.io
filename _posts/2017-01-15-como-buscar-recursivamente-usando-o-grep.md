@@ -8,7 +8,7 @@ color: '#c2003a'
 tags:
 - dicas
 - gnu
-- linux
+- gnulinux
 categories:
 ---
 

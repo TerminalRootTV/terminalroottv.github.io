@@ -6,7 +6,7 @@ image: '/assets/img/grub/grub-theme.jpg'
 description: "Veja como adicionar o tema da sua preferência e deixar seu Grub mais estiloso."
 tags:
 - grub
-- linux
+- gnulinux
 ---
 
 A partir do Grub 2 que é a versão que possui as distribuições Linux, é possível você customizar o grub deixando-o mais intuitivo . Assista ao vídeo abaixo 

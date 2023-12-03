@@ -5,7 +5,7 @@ date: '2013-05-30T14:49:00.001-07:00'
 image: '/assets/img/linux/Screenshot.jpg'
 description: 'O comando split'
 tags:
-- linux
+- gnulinux
 - dicas
 ---
 

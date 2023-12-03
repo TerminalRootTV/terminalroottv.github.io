@@ -10,7 +10,7 @@ tags:
 - cpp
 - windows
 - gnu
-- linux
+- gnulinux
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

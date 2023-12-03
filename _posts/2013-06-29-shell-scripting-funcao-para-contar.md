@@ -5,7 +5,7 @@ date: '2013-06-29T19:07:00.002-07:00'
 image: '/assets/img/shell-script/terminal52.jpg'
 description: 'Contar quantas vezes uma determinada palavra aparece num texto (arquivo)'
 tags:
-- linux
+- gnulinux
 - shellscript
 - sed
 ---

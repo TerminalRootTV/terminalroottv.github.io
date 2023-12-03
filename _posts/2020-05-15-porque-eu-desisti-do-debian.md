@@ -9,7 +9,7 @@ iconname: 'debian'
 tags:
 - debian
 - gnu
-- linux
+- gnulinux
 ---
 
 ![Porque eu Desisti do Debian](/assets/img/debian/porque-desisti-do-debian.jpg)

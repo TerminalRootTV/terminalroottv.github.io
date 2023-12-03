@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'Ferramentas'
 tags:
 - macos
-- linux
+- gnulinux
 ---
 
 ![Homebrew - O gerenciador de pacotes do macOS no GNU/Linux](/assets/img/mac/brew.jpg)

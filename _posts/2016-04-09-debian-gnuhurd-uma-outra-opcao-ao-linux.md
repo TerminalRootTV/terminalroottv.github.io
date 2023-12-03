@@ -6,7 +6,7 @@ image: '/assets/img/tv/debian-gnu-hurd.jpg'
 description: "Debian GNU/Hurd é uma distribuição do sistema operacional GNU com o núcleo Hurd."
 tags:
 - debian
-- linux
+- gnulinux
 - gnu
 ---
 

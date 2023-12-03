@@ -5,7 +5,7 @@ date: '2014-11-11T17:39:00.003-08:00'
 image: '/assets/img/servidor/firewall.jpg'
 description: "Eu estava configurando meu Firewall hoje e decidi escrever um Post sobre Iptables pra documentar algumas informações."
 tags:
-- linux
+- gnulinux
 - servidores
 - redes
 ---

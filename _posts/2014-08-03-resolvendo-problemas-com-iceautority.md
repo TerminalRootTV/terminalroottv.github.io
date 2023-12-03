@@ -5,7 +5,7 @@ date: '2014-08-02T21:11:00.002-07:00'
 image: '/assets/img/linux/ICEautority.jpg'
 description: 'Caso você tenha problemas ao iniciar o sistema com a mensagem de problema com o ICEauthority.'
 tags:
-- linux
+- gnulinux
 - gnu
 - imagens
 ---

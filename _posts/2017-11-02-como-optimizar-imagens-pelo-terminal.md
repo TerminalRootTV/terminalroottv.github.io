@@ -6,7 +6,7 @@ image: '/assets/img/dicas/otimizar-imagens-pelo-terminal.jpg'
 description: "Otimizar múltiplas imagens via linha de comando sem perder a qualidade da mesma."
 tags:
 - dicas
-- linux
+- gnulinux
 ---
 
 > Otimizar múltiplas imagens via linha de comando sem perder a qualidade da mesma.

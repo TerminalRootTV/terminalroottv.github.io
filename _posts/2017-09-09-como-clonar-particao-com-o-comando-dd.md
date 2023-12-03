@@ -7,7 +7,7 @@ description: "dd é uma linha de comandos em sistemas operacionais unix-like. Se
 tags:
 - comandos
 - unix
-- linux
+- gnulinux
 ---
 
 > [dd](https://pt.wikipedia.org/wiki/Dd_(Unix)) é uma linha de comandos em sistemas operacionais __unix-like__. Seu objetivo principal é o de converter e copiar arquivos. Ele também pode criar imagens em discos flexíveis, discos rígidos, mídias ópticas, arquivos de swap.

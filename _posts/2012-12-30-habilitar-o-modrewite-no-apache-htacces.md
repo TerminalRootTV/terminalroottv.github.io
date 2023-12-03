@@ -6,7 +6,7 @@ image: '/assets/img/servidor/apache.jpg'
 description: "Pra quem vai trabalhar com MVC no PHP (por exemplo) precisa habilitar o mod_rewrite no Apache pra que funcione, segue os passos pra fazer isso"
 tags:
 - debian
-- linux
+- gnulinux
 - apache
 - php
 ---

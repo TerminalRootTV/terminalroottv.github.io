@@ -5,7 +5,7 @@ date: '2015-06-06T09:49:00.001-07:00'
 image: '/assets/img/linux/forkbomb.jpg'
 description: "A linha de comando no GNU/Linux é muito produtiva, útil e interessante, no entanto, às vezes pode ser muito perigoso."
 tags:
-- linux
+- gnulinux
 - gnu
 - terminal
 - comandos

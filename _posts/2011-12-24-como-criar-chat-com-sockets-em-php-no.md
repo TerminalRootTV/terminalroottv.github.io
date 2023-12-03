@@ -6,7 +6,7 @@ image: '/assets/img/php/socket.jpg'
 description: 'Demonstração de como criar Chat sem refresh de página e sem Ajax, somente com Sockets, o banco de dados somente como gravação de dados.'
 tags:
 - debian
-- linux
+- gnulinux
 - video
 - php
 - redes

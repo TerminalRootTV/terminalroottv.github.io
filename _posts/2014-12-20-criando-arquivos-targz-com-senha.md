@@ -5,7 +5,7 @@ date: '2014-12-20T04:05:00.002-08:00'
 image: '/assets/img/linux/gpg.jpg'
 description: "Aqui vai uma dica para deixar seus arquivos compactados em tar.gz com senha, na verdade o arquivo será transformado num .gpg"
 tags:
-- linux
+- gnulinux
 - dicas
 - gnu
 ---

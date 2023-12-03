@@ -5,7 +5,7 @@ date: '2011-12-14T06:46:00.000-08:00'
 image: '/assets/img/multimidia/multimidia.gif'
 description: 'Para executar estas façanhas você pode utilizar alguns aplicativos, como: FFmpeg, XvidCap, Mencoder entre outros.'
 tags:
-- linux
+- gnulinux
 - dicas
 ---
 

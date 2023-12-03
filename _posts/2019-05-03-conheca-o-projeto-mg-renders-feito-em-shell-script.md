@@ -6,7 +6,7 @@ image: '/assets/img/contrib/mg-renders.jpg'
 description: 'Projeto criado para automatizar o download de suas buscas no site mg-renders.net'
 tags:
 - mgrenders
-- linux
+- gnulinux
 - anime
 - jacob
 ---

@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'Windows'
 tags:
 - windows
-- linux
+- gnulinux
 ---
 
 ![Como acessar partições Linux pelo Windows 10](/assets/img/windows/linux-reader.png)

@@ -9,7 +9,7 @@ iconname: 'Genode'
 tags:
 - cpp
 - unix
-- linux
+- gnulinux
 ---
 
 ![Conheça o GENODE, um framework para criar Sistemas Operacionais](/assets/img/os/genode.jpg)

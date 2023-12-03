@@ -6,7 +6,7 @@ image: '/assets/img/dev/gambas.jpg'
 description: "Gambas é um ambiente de desenvolvimento integrado (IDE) para Linux uma alternativa Open Source ao Visual Basic ."
 tags:
 - gambas
-- linux
+- gnulinux
 - opensource
 - desenvolvimento
 ---

@@ -6,7 +6,7 @@ description: "Em informática o Secure Shell ou SSH é, simultaneamente, um prog
 color: '#3b5998'
 author: Marcos Oliveira
 tags:
-- linux
+- gnulinux
 - servidores
 - gnu
 - redes

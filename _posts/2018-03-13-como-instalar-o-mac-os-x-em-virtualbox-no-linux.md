@@ -11,7 +11,7 @@ tags:
 - apple
 - virtual
 - gentoo
-- linux
+- gnulinux
 ---
 
 Nesse vídeo instalamos o [Mac OS X - Sierra](https://www.apple.com/br/macos/high-sierra/) na [VirtualBox](https://www.virtualbox.org/) dentro do [Gentoo](http://terminalroot.com.br/tags#gentoo) . Existe toda uma configuração própria para essa façanha, além de um script em [Shell](http://terminalroot.com.br/shell) pelo comando <kbd>VBoxManage</kbd> .

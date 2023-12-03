@@ -6,7 +6,7 @@ image: '/assets/img/servidor/squid.jpg'
 description: "O Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros."
 color: '#3b5998'
 tags:
-- linux
+- gnulinux
 - servidores
 - gnu
 - redes

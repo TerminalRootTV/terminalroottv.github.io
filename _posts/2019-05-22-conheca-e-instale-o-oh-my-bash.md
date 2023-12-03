@@ -8,7 +8,7 @@ tags:
 - bash
 - shellscript
 - shell
-- linux
+- gnulinux
 ---
 
 ![Conheça e Instale o Oh My Bash!](/assets/img/bash/oh-my-bash-min.jpg "Conheça e Instale o Oh My Bash!")

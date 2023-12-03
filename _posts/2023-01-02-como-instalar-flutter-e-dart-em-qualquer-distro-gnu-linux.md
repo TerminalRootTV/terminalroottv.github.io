@@ -11,7 +11,7 @@ tags:
 - flutter
 - programacao
 - gnu
-- linux
+- gnulinux
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

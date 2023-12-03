@@ -5,7 +5,7 @@ date: 2020-03-19 10:11:44
 image: '/assets/img/dicas/autenticacao-montar-particao.jpg'
 description: 'Facilita o acesso à outros dispositivos.'
 tags:
-- linux
+- gnulinux
 - dicas
 - polkit
 ---

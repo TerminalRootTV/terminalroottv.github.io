@@ -8,7 +8,7 @@ icon: 'bx:bxs-edit'
 iconname: 'editor'
 tags:
 - editores
-- linux
+- gnulinux
 ---
 
 ![Conheça o novo editor de texto Gamma](/assets/img/editores/gama.jpg)

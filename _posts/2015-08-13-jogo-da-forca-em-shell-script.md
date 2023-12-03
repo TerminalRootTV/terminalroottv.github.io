@@ -6,7 +6,7 @@ image: 'jogo-da-forca-shell-script.jpg'
 description: "ESSE FOI O PRIMEIRO JOGO QUE EU CRIEI EM SHELL SCRIPT!"
 tags:
 - bash
-- linux
+- gnulinux
 - shellscript
 - freesoftware
 - opensource

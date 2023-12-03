@@ -5,7 +5,7 @@ date: '2015-08-02T17:41:00.000-07:00'
 image: '/assets/img/shell-script/tux.jpg'
 description: "O programa cacaview permite exibir imagens no terminal, através de arte textual com cores. Ele suporta vários formatos comuns, como PNG, JPEG, GIF e BMP."
 tags:
-- linux
+- gnulinux
 - gnu
 - imagens
 - terminal

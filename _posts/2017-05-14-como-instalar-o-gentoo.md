@@ -6,7 +6,7 @@ image: '/assets/img/gentoo/gentoo-install.jpg'
 description: "O Gentoo é uma distribuição veloz e moderna com um projeto limpo e flexível."
 tags:
 - gentoo
-- linux
+- gnulinux
 ---
 
 > O [Gentoo](https://www.gentoo.org/) é uma [distribuição](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux) veloz e moderna com um projeto limpo e flexível. O Gentoo é construído em torno de um ecossistema de [software livre](https://www.gnu.org/philosophy/free-sw.pt-br.html) e não esconde de seus usuários o que está "sob o capô do motor". O [Portage](https://pt.wikipedia.org/wiki/Portage), o sistema de gerenciamento de pacotes utilizado pelo Gentoo, é escrito em [Python](http://www.terminalroot.com.br/tags#python), o que significa que o usuário pode facilmente ver e modificar o código fonte. O sistema de pacotes do Gentoo usa código fonte (mas o suporte para pacotes pré-compilados também é incluído) e a configuração do Gentoo é feita através de arquivos texto comuns. Em outras palavras, __tudo acontece de forma muito clara e aberta__.

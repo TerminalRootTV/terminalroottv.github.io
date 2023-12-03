@@ -8,7 +8,7 @@ icon: 'heroicons-solid:chat-alt-2'
 iconname: 'weechat'
 tags:
 - terminal
-- linux
+- gnulinux
 - bsd
 ---
 

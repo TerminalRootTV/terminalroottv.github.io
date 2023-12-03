@@ -5,7 +5,7 @@ date: '2016-05-16T13:18:00.001-07:00'
 image: '/assets/img/multimidia/players-video.jpg'
 description: "Veja uma lista de Reprodutores de Vídeo pra Linux."
 tags:
-- linux
+- gnulinux
 - multimidia
 ---
 

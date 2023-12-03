@@ -5,7 +5,7 @@ date: '2015-03-18T18:15:00.000-07:00'
 image: '/assets/img/shell-script/bin-bash.jpg'
 description: "Você pode deixar seu Shell mais interessante e até mesmo deixar lembretes nele."
 tags:
-- linux
+- gnulinux
 - dicas
 - terminal
 ---

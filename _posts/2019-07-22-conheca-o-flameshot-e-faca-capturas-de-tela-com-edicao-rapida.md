@@ -6,7 +6,7 @@ image: '/assets/img/dicas/flameshot.png'
 description: 'Possui uma interface interativa com controles para selecionar a região de captura desejada.'
 tags:
 - flameshot
-- linux
+- gnulinux
 - scrot
 ---
 

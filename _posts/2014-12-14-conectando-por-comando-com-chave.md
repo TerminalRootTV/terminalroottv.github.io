@@ -6,7 +6,7 @@ image: '/assets/img/rede/wifi.jpg'
 description: "Bem, no outro post Conectando em Redes Wireless no Linux por comando mostrei como conectar por comando em chave WEP que é bem simples, nesse post aqui vou explicar para chaves WAP ou WAP2."
 tags:
 - debian
-- linux
+- gnulinux
 - redes
 ---
 

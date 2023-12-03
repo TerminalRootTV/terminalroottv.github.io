@@ -6,7 +6,7 @@ image: '/assets/img/gentoo/gentoo-install-04.jpg'
 description: "O Gentoo Linux pronto para uso!"
 tags:
 - gentoo
-- linux
+- gnulinux
 ---
 
 > Nesse vídeo mostra o estado depois de instalados alguns aplicativos. Caso você ainda não tenha visto a série inteira, assista os demais vídeos da série clicando na hashtag/link [#VamosUsarGentoo](https://goo.gl/7PyqZe) e veja os vídeos anteriores. Para conectar a internet via linha de comando [clique aqui e assista esse vídeo](https://www.youtube.com/watch?v=q3oaZ4SIbkA). 

@@ -5,7 +5,7 @@ date: '2011-12-20T19:52:00.000-08:00'
 description: 'Quando você abre uma porta no Iptables, não significa que existirá um Daemon(um programa rodando em background gerenciado pelo sistema) para aquela porta.'
 tags:
 - debian
-- linux
+- gnulinux
 - servidores
 - redes
 ---

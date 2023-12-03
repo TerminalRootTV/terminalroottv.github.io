@@ -9,7 +9,7 @@ iconname: 'vscode'
 tags:
 - vscode
 - editor
-- linux
+- gnulinux
 ---
 
 [![775 Temas para seu VS Code](/assets/img/vscode/775/Gruvbox-Dark-Medium.png)](/assets/img/vscode/775/Gruvbox-Dark-Medium.png)

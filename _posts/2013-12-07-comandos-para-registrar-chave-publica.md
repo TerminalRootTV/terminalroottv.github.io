@@ -6,7 +6,7 @@ image: '/assets/img/debian/chave.jpg'
 description: 'Aprenda a resolver isso!'
 tags:
 - debian
-- linux
+- gnulinux
 - dicas
 ---
 

@@ -9,7 +9,7 @@ iconname: 'docker'
 tags:
 - docker
 - gentoo
-- linux
+- gnulinux
 ---
 
 [![Como instalar o Docker no Gentoo](/assets/img/docker/docker-gentoo.jpg)](/assets/img/docker/docker-gentoo.jpg)

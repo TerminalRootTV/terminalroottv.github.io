@@ -5,7 +5,7 @@ date: '2013-12-08T14:37:00.002-08:00'
 image: '/assets/img/shell-script/prompt.jpg'
 description: "Acesse pastas de outros computadores com Linux via Rede"
 tags:
-- linux
+- gnulinux
 - shellscript
 - servidores
 - redes

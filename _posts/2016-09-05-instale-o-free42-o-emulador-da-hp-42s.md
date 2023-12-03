@@ -5,7 +5,7 @@ date: '2016-09-05T17:44:00.001-07:00'
 image: '/assets/img/linux/42ck.gif'
 description: "Free42 é uma re-implementação da calculadora HP-42S e a impressora HP-82240."
 tags:
-- linux
+- gnulinux
 - dicas
 ---
 ![Instale o Free42 - O Emulador Da Hp-42s no Linux](/assets/img/linux/42ck.gif "Instale o Free42 - O Emulador Da Hp-42s no Linux")

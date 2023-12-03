@@ -7,7 +7,7 @@ description: "Automatize criação de múltiplos Slides"
 color: '#3b5998'
 author: Terminal Root
 tags:
-- linux
+- gnulinux
 - multimidia
 - terminal
 ---

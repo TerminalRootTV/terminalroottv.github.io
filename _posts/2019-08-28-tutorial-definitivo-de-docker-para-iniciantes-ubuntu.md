@@ -7,7 +7,7 @@ description: 'Ele tem a capacidade de implantar instâncias de contêineres que 
 tags:
 - docker
 - virtualizacao
-- linux
+- gnulinux
 - ubuntu
 ---
 

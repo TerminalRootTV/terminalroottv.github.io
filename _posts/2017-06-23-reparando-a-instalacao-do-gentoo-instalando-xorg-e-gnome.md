@@ -6,7 +6,7 @@ image: '/assets/img/gentoo/reparando-instalacao-gentoo-com-xorg-gnome-eselect.jp
 description: "Alterando o tipo de instalação do Gentoo, instalando o sistema com Xorg e Interface Gráfica"
 tags:
 - feature
-- linux
+- gnulinux
 ---
 
 Esse vídeo serve somente pra informar que devido as possíveis complicações que poderiam ocorrer no screencast, eu alterei o tipo de instalação do Gentoo pra um sistema completo com Xorg e Interface Gráfica. Na parte do vídeo [Como Instalar o Gentoo](https://www.youtube.com/watch?v=BD1wIoX0E2c) onde precisa selecionar o tipo de profile, usei a opção __4__ com OpenRC (não é a opção que contém o ~~systemd~~), com o comando

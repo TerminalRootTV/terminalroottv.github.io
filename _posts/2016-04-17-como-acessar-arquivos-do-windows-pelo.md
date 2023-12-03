@@ -5,7 +5,7 @@ date: '2016-04-17T05:09:00.000-07:00'
 image: '/assets/img/servidor/como-acessar-windows-pelo-linux-video-youtube.jpg'
 description: "Vídeo e Arquivo MODELO do smb.conf"
 tags:
-- linux
+- gnulinux
 - servidores
 - terminalroottv
 - redes

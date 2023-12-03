@@ -6,7 +6,7 @@ image: '/assets/img/gentoo/gentoo-install-03.jpg'
 description: "Algumas dicas de como instalar Interface Gráfica e configurações do sistema, logo após ser instalado."
 tags:
 - gentoo
-- linux
+- gnulinux
 ---
 
 > A qualidade da gravação do vídeo que está logo apó aos comandos não ficou muito boa por conta justamente de alguns codecs de vídeo e áudio que precisam se instalados e configurados, no entanto, isso tem um lado positivo por se tratar de uma boa análise a ser feita também após instalação, que eu não me atentei a fazer, mas serão feitas nas etapas posteriores. Segue um resumo do que foi feito nesse capítulo da Série [#VamosUsarGentoo](https://goo.gl/7PyqZe)

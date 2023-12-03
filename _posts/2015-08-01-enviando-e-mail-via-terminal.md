@@ -5,7 +5,7 @@ date: '2015-08-01T16:31:00.000-07:00'
 image: '/assets/img/terminal/e-mail.jpg'
 description: "Utilizando o Mutt"
 tags:
-- linux
+- gnulinux
 - servidores
 - gnu
 - terminal

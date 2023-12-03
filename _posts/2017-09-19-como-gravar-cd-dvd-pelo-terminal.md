@@ -7,7 +7,7 @@ description: "Programa para gravações de CD/DVD via linha de comando."
 tags:
 - comandos
 - gnu
-- linux
+- gnulinux
 ---
 
 [growisofs](https://en.wikipedia.org/wiki/Dvd%2Brw-tools) é um programa para gravações de CD/DVD via linha de comando. Veja no vídeo abaixo como instalá-lo e como usá-lo!

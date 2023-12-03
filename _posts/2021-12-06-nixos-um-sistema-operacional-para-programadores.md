@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'NixOS'
 tags:
 - programacao
-- linux
+- gnulinux
 - distros
 ---
 

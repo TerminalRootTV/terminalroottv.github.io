@@ -4,7 +4,7 @@ title: 'Configurando a placa de rede'
 date: '2011-11-14T18:16:00.000-08:00'
 description: 'Então, minha conexão possui autenticação no roteador e meu modem em modo bridge, porém um dia precisei configurar a autenticação no computador para poder disponibilizar via meu servidor de DynDNS'
 tags:
-- linux
+- gnulinux
 - redes
 ---
 

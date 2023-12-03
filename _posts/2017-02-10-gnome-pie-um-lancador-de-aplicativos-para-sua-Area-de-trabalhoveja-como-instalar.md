@@ -7,7 +7,7 @@ description: "O Gnome-Pie é um Lançador de Aplicativos Circular para Linux."
 color: '#009688'
 tags:
 - dicas
-- linux
+- gnulinux
 categories:
 ---
 

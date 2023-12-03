@@ -7,7 +7,7 @@ description: "Instalamos o Slim Gerenciador de Login, deixamos o Firefox pt-BR e
 tags:
 - slackware
 - gnu
-- linux
+- gnulinux
 - firefox
 ---
 

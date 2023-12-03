@@ -9,7 +9,7 @@ iconname: 'gnome'
 tags:
 - gnome
 - dicas
-- linux
+- gnulinux
 ---
 
 ![As 15 Melhores Extensões para seu GNOME](/assets/img/gnome/gnome-extensions.jpg "Logo GNOME")

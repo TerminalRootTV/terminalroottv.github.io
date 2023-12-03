@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'gocker'
 tags:
 - docker
-- linux
+- gnulinux
 - servidores
 ---
 

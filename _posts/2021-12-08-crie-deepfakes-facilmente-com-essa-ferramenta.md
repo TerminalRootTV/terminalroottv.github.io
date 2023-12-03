@@ -10,7 +10,7 @@ tags:
 - python
 - windows
 - macos
-- linux
+- gnulinux
 ---
 
 ![Crie Deepfakes facilmente com essa ferramenta](/assets/img/ai/deepfake.jpg)

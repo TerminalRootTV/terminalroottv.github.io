@@ -12,7 +12,7 @@ iconname: 'python'
 tags:
 - python
 - desenvolvimento
-- linux
+- gnulinux
 - programacao
 ---
 

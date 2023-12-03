@@ -5,7 +5,7 @@ date: '2015-10-04T17:27:00.002-07:00'
 image: '/assets/img/editores/nano-editor.jpg'
 description: "Nano é um editor que deve ser executado a partir de um terminal, e se concentra em simplicidade."
 tags:
-- linux
+- gnulinux
 - dicas
 - gnu
 ---

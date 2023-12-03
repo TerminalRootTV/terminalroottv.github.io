@@ -5,7 +5,7 @@ date: '2014-10-19T14:04:00.001-07:00'
 image: '/assets/img/hardware/lshw.jpg'
 description: "Dicas de vários utilitários para ver seu hardware, sem falar dos mais conhecidos: lspci,..."
 tags:
-- linux
+- gnulinux
 - dicas
 - hardware
 ---

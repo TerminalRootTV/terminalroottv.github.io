@@ -5,7 +5,7 @@ date: '2016-05-17T13:31:00.001-07:00'
 image: '/assets/img/multimidia/producao.jpg'
 description: "LMMS, Rosegarden, Muse, Ardour,...entre outros"
 tags:
-- linux
+- gnulinux
 - multimidia
 ---
 
