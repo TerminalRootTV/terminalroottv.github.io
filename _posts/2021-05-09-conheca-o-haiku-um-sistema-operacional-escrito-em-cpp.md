@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
 - cpp
+- sistemasoperacionais
 ---
 
 ![Conheça o Haiku, um Sistema Operacional escrito em C++](/assets/img/cpp/haiku.jpg)

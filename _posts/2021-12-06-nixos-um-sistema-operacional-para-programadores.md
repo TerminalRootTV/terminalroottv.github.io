@@ -10,6 +10,7 @@ tags:
 - programacao
 - gnulinux
 - distros
+- sistemasoperacionais
 ---
 
 ![NixOS, um Sistema Operacional para Programadores](/assets/img/distros/nixos.jpg)

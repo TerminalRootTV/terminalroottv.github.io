@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'SerenityOS'
 tags:
 - cpp
-- sistemas
+- sistemasoperacionais
 ---
 
 ![SerenityOS - Um NOVO Sistema Operacional feito com C++](/assets/img/sistemas/serenityos.jpg)
