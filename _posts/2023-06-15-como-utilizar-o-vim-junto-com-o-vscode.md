@@ -2,7 +2,7 @@
 layout: post
 title: "Como Utilizar o VIM junto com o VS CODE"
 date: 2023-06-15 18:59:07
-image: '/assets/img/vscode/vscodevim.jpg'
+image: '/assets/img/vscode/vscode-exts/06.jpg'
 description: 'Utilize, comandos, mapeamentos e entre outros do Vim junto com o VS Code!'
 icon: 'ion:terminal-sharp'
 iconname: 'VS Code/Vim'
