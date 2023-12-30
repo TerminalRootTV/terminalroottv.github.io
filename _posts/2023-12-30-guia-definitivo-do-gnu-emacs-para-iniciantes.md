@@ -2,7 +2,7 @@
 layout: post
 title: "Guia Definitivo do GNU Emacs para Iniciantes"
 date: 2023-12-30 11:25:22
-image: '/assets/img/'
+image: '/assets/img/gnu/emacs.png'
 description: 'Comandos, Atalhos, Auto-complete, Syntax Highlight, Configurações prontas e entre outros!'
 icon: 'ion:terminal-sharp'
 iconname: 'GNU Emacs'
@@ -12,14 +12,6 @@ tags:
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
-
----
-
-
-# Guia Definitivo do GNU Emacs para Iniciantes
-> 
-
-![GNU Emacs](/assets/img/gnu/emacs.png)
 
 ---
 
