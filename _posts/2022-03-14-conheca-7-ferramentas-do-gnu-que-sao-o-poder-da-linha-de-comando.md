@@ -273,6 +273,6 @@ Existem, na verdade, diversas outras soluções do Projeto GNU, como por exemplo
 + <https://en.wikipedia.org/wiki/GNU_Compiler_Collection>
 + <https://cutt.ly/7A2Tnlt>
 
-> A *thumbnail* utilizada como chamada desse artigo foi criada e usada pela Red Hat [nesse link](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/7/html/user_guide/chap-gcc) . As outras imagens, com excessão do logo do GCC, foram encontradas no [Google Images](https://www.google.com.br/imghp) após pesquisa de termos relacionados aos utilizados nesse artigo .
+> A *thumbnail* utilizada como chamada desse artigo foi criada e usada pela Red Hat [nesse link](https://access.redhat.com/documentation/en-us/red_hat_developer_toolset/7/html/user_guide/chap-gcc) . As outras imagens, com exceção do logo do GCC, foram encontradas no [Google Images](https://www.google.com.br/imghp) após pesquisa de termos relacionados aos utilizados nesse artigo .
 
 
