@@ -169,6 +169,8 @@ button.close {color: #fff; font-size: 60px;}
 .author h5 a:hover {color:#fff;text-decoration: underline;}
 .oblique {font-style: oblique;}
 .youtube i:hover, .twitter i:hover, .github i:hover, .reddit i:hover, .facebook i:hover {color:#7289da;}
+#x {color: #abb2bf; fill: #abb2bf; }
+#x:hover {color: #fff; fill: #fff; }
 
 .page .img-main {width: 60%; height: 60%;}
 .page .h1 {margin-top: 5px; margin-bottom: 3px; text-align: center;}
