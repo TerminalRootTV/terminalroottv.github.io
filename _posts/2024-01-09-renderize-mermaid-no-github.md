@@ -59,8 +59,8 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-# Suporte nativo para o GitHub
-O GitHub possui suporte nativo para o GitHub. Isso significa que se você criar uma sintaxe Mermaid no seu [README.md](https://github.com/terroo/terroo) de algum repositório, será renderizado automaticamente, incluindo *controle* para manipular os diagramas, exemplo:
+# Suporte nativo para o Mermaid
+O GitHub possui suporte nativo para o Mermaid. Isso significa que se você criar uma sintaxe Mermaid no seu [README.md](https://github.com/terroo/terroo) de algum repositório, será renderizado automaticamente, incluindo *controle* para manipular os diagramas, exemplo:
 
 <pre>
 # Recursos
