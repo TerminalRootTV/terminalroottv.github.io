@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'As várias "faces" de const C++'
+title: "As várias 'faces' de const C++"
 date: 2024-01-12 18:27:11
 image: '/assets/img/cppdaily/const.jpg'
-description: '3 regrinhas básicas já dá pra "pegar" a lógica pra muita coisa!'
+description: "3 regrinhas básicas já dá pra 'pegar' a lógica pra muita coisa!"
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
