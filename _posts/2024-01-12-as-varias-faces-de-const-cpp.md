@@ -34,7 +34,7 @@ const int x;
 **Por padrão, não compila.** Obterá erro :
 > `■ Default initialization of an object of const type 'const int' (fix available)`. 
 
-Se você for muito teimoso, pode usar a flag [-fpermissive](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive) e conseguirá compiar. Não sei porque existe essa `flag`, mas eu aconselho a nunca usá-la.
+Se você for muito teimoso, pode usar a flag [-fpermissive](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive) e conseguirá compilar. Não sei porque existe essa `flag`, mas eu aconselho a nunca usá-la.
 
 Se quiser compilar, precisa inicializá-la:
 {% highlight cpp %}
