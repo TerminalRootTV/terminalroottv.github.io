@@ -94,7 +94,7 @@ const int * const z = &value1;
 ---
 
 # Regra 3
-Usar a palavra-chave `const` ao final da declaração de uma **FUNÇÃO-MEMBRO**(destaquei, pois isso não funciona em funções não-membros), você só não pode modifica algum outro membro de uma classe. Exemplo:
+Usar a palavra-chave `const` ao final da declaração de uma **FUNÇÃO-MEMBRO**(destaquei, pois isso não funciona em funções não-membros), você só não pode modificar algum outro membro de uma classe. Exemplo:
 
 {% highlight cpp %}
 class MyClass {
