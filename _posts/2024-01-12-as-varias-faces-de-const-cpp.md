@@ -81,7 +81,7 @@ No primeiro, você **NÃO** consegue modificar o ENDEREÇO que ponteiro está as
 {% highlight cpp %}
 *x = &value2;     ■ Read-only variable is not assignable
 {% endhighlight %}
-> Mas, consegue modificar o VALOR que o ponteiro está apontando: `x = &value2;`. E lembre-se que endereços são diferentes de valores, logo, isso: `x = value2;`, sem o sinal de (des)refrência(`&`), independente de `const`, é outro tipo de erro: **Erro de lógica!**
+> Mas, consegue modificar o VALOR que o ponteiro está apontando: `x = &value2;`. E lembre-se que endereços são diferentes de valores, logo, isso: `x = value2;`, sem o sinal de (des)referência(`&`), independente de `const`, é outro tipo de erro: **Erro de lógica!**
 
 Para o segundo caso, é o inverso das explicações do primeiro!
 
