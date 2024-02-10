@@ -188,25 +188,4 @@ echo "Esse aqui é meu teleprompter, ele digita um caractere de cada vez" | pv -
 
 ---
 
-# Quer ficar mais NINJA no terminal ?
-Eu decidi atualizar todos os cursos de Terminal: Bash, Shell, Sed e Regex. Sendo que o de BASH vou regravar todos os vídeos e incrementar novas ideias e dicas exclusivas.
-
-Então, criei uma promoção até os vídeos ficarem prontos, pois depois vou aumentar o valor. Se deseja, obter tudo por **R$ 79,90** ou cada um deles por preços abaixo do valor, corre lá!
-
-Veja os valores de cada curso:
-
-+ [Curso Intensivo de Shell Script Avançado](https://terminalroot.com.br/shell) :: **R$ 49,90**
-+ [Curso de Shell Script do Iniciante ao Avançado](https://terminalroot.com.br/bash) :: **R$ 24,90**
-+ [Curso Completo de Expressões Regulares](https://terminalroot.com.br/regex) :: **R$ 24,90**
-+ [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed) :: **R$ 24,90**
-
-## Valor do Pacote Completo
-**R$ 74,90**
-> Mais de 50 reais de desconto!
-
-<a href="https://cutt.ly/temppromo" class="btn btn-success btn-lg btn-block">ADQUIRA AGORA</a>  
-
-
----
-
 
