@@ -17,12 +17,12 @@ description: 'Essencial da Linguagem C, TUI, Banco de Dados, RegEx, Desenvolvime
 + ✔️  Exercícios, banco de dados, Regex, Desenvolvimento de Games e outros.
 + ✔️  Exercícios e muitas outras coisas!
 
-
+<!--
 ---
 
 ## Vídeo de apresentação
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+-->
 
 ---
 
