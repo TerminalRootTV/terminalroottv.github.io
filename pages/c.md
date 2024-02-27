@@ -34,11 +34,9 @@ description: 'Essencial da Linguagem C, TUI, Banco de Dados, RegEx, Desenvolvime
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
 
-<!--
-<a href="https://www.udemy.com/course/draft/5841290/?referralCode=D08C00FFF047951E3E69" class="btn btn-lg btn-danger btn-block my-2 py-3" aria-disabled="true">
+<a href="https://cutt.ly/ClangUD" class="btn btn-lg btn-danger btn-block my-2 py-3" aria-disabled="true">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
--->
 
 ---
 
