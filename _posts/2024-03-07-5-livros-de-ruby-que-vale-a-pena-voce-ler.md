@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Livros de Ruby que vale à pena você ler"
+title: "5 Livros de Ruby que vale a pena você ler"
 date: 2024-03-07 10:15:50
 image: '/assets/img/livros/ruby-livros/ruby-livros.jpg'
 description: 'Incluindo livro para aprender Ruby On Rails!'
