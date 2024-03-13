@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'SDL2/Dear ImGui'
 tags:
 - sdl2
-- dearimgui
+- imgui
 - cpp
 - gamedev
 ---

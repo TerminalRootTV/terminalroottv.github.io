@@ -11,6 +11,7 @@ tags:
 - sfml
 - gamedev
 - cpp
+- imgui
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
