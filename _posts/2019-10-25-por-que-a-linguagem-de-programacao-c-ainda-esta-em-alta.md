@@ -93,6 +93,13 @@ Por trás das aparências, porém, [Python](https://terminalroot.com.br/2019/10/
 
 Se a velocidade do desenvolvimento importa mais do que a velocidade da execução, e se a maioria das partes com desempenho do programa pode ser isolada em componentes independentes, o [Python](https://terminalroot.com.br/2019/10/script-basico-de-python-para-aprendizado.html) puro ou uma mistura de bibliotecas [Python](https://terminalroot.com.br/2019/10/script-basico-de-python-para-aprendizado.html) e [C](https://terminalroot.com.br/2017/01/codigo-de-linguagem-c-para-aprendizado.html) podem ser uma escolha melhor do que usar o [C](https://terminalroot.com.br/2017/01/codigo-de-linguagem-c-para-aprendizado.html) sozinho. Caso contrário, o [C](https://terminalroot.com.br/2017/01/codigo-de-linguagem-c-para-aprendizado.html) ainda prevalece.
 
+---
+
+# [Aprenda Linguagem C do zero e do jeito certo](https://terminalroot.com.br/c):
+## Acesse: <https://terminalroot.com.br/c>
+
+---
+
 <!-- MINI ANÚNCIO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Games Root -->
