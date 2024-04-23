@@ -46,7 +46,7 @@ data-ad-slot="5351066970"></ins>
 
 ### 1. Clone o repositório do [Dear ImGui](https://terminalroot.com.br/tags#imgui)
 {% highlight bash %}
-git clone https://github.com/ocornut/imgui/
+git clone https://github.com/ocornut/imgui/ --depth=1
 {% endhighlight %}
 
 ### 2. Crie um diretório e um sub-diretório para seu projeto 
