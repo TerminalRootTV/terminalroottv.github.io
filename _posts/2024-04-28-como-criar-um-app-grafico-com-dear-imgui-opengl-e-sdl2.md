@@ -27,7 +27,7 @@ Nesse vídeo vamos criar um simples gerador de senhas alfanuméricas com: [C++](
 
 # 👀 Links utilizados no vídeo:
 + 🔗 [Como Compilar Projetos com OpenGL, SDL2 e Dear ImGui](https://terminalroot.com.br/2024/03/como-compilar-projetos-com-opengl-sdl2-e-dear-imgui.html)
-+ 🔗 [Como Gerar Senhas com C++](https://terminalroot.com.br/2024/03/como-gerar-senhas-com-cpp.html
++ 🔗 [Como Gerar Senhas com C++](https://terminalroot.com.br/2024/03/como-gerar-senhas-com-cpp.html)
 + 🔗 [Como Copiar para área de transferência com C++](https://terminalroot.com.br/2023/12/como-copiar-para-area-de-transferencia-com-cpp.html)
 
 ---
