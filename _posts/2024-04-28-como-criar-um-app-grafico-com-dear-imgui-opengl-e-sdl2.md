@@ -42,13 +42,6 @@ make
 ./a.out
 ```
 
-Caso queria a versão sem a rotina de copiar(com X11), faça um checkout:
-```bash
-git checkout 447dd22
-make
-./a.out
-```
-
 Acesse o projeto no repositório: <https://github.com/terroo/genpass>.
 
 
