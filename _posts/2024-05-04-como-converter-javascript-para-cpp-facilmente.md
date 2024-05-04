@@ -37,7 +37,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## Converter JavaScript para C++
-Para isso basta acessar esse endereço que aparece na tela:
+Para isso basta acessar esse endereço:
 ### <https://products.codeporting.app/convert/ai/js-to-cpp/>
 > Link na descrição!
 
