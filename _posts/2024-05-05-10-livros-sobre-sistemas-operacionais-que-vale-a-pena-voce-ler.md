@@ -3,7 +3,7 @@ layout: post
 title: "10 Livros sobre Sistemas Operacionais que vale a pena você ler"
 date: 2024-05-05 20:38:27
 image: '/assets/img/livros/os-livros/os-livros.jpg'
-description:
+description: 'Os sistemas operacionais são a espinha dorsal de qualquer dispositivo computacional, desempenhando um papel fundamental na gestão de recursos e na execução de tarefas.'
 icon: 'ion:terminal-sharp'
 iconname: 'Livros'
 tags:
