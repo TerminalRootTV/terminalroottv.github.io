@@ -25,6 +25,7 @@ Ela dispõe das seguintes funções:
 + `put_money` - Insere o valor monetário
 + `get_time` - Obtém a hora e data
 + `put_time` - Obtém a hora e data
++ `std::quoted` - Adiciona aspas duplas em torna da string, ex.: `Oi` → `"Oi"`
 
 
 # Alguns exemplos
