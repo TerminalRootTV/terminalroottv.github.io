@@ -28,7 +28,7 @@ Ccache é licenciado sob a [Licença Pública Geral GNU](https://github.com/ccac
 # Instalação
 Para instalar o Ccache você pode construir do zero e instalar com as ferramentas [CMake](https://terminalroot.com.br/tags#cmake) e [GNU Make](https://terminalroot.com.br/tags#make) clonando o código fonte do repositório no [GitHub](https://terminalroot.com.br/tags#github):
 {% highlight bash %}
-https://github.com/ccache/ccache
+git clone https://github.com/ccache/ccache
 cd ccache
 cmake -B build -D CMAKE_BUILD_TYPE=Release .
 cd build && make
