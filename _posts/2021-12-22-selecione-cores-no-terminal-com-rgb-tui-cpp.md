@@ -7,6 +7,7 @@ description: 'Um seletor de cores no terminal.'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
+- ftxui
 - cpp
 - cppdaily
 - graficos

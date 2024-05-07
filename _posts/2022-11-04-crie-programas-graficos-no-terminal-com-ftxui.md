@@ -7,6 +7,7 @@ description: '🔊 Uma biblioteca C++ para criar aplicativos gráficos no termin
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
+- ftxui
 - cpp
 - tui
 ---

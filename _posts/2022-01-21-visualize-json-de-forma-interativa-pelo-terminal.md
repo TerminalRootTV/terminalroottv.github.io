@@ -7,6 +7,7 @@ description: 'Fechando e abrindo objetos com clique do mouse e animação.'
 icon: 'ion:terminal-sharp'
 iconname: 'JSON'
 tags:
+- ftxui
 - terminal
 - cpp
 - json

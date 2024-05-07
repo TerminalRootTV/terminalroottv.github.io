@@ -7,12 +7,12 @@ description: 'Feito por um brasileiro e escrito com C++ e a biblioteca FTXUI.'
 icon: 'ion:terminal-sharp'
 iconname: 'Música/TUI'
 tags:
+- ftxui
 - cpp
 - cppdaily
 - tui
 - multimidia
 - musica
-- ftxui
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

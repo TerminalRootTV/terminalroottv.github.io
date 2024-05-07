@@ -7,6 +7,7 @@ description: "Substitui o comando 'less' para paginação. E mais dicas de como 
 icon: 'ion:terminal-sharp'
 iconname: 'C++ App'
 tags:
+- ftxui
 - cpp
 - dicas
 - comandos
