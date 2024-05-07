@@ -87,7 +87,6 @@ Dentro desse arquivo(para esse exemplo básico, e que serve até para projetos m
 > (se houver mais de um arquivo, exemplo se fosse diretamente pelo g++: `g++ main.cpp outro.cpp -o binario`) , no CMakeLists seria: `add_executable(binario main.cpp outro.cpp)` , assim como diretamente pelo compilador não precisa informar as bibliotecas(.h. .hh) , pois já fazem parte do includes, a não ser que não esteja.
 
 {% highlight cmake %}
-// CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 project(MeuExemplo)
 add_executable(myexample main.cpp)
