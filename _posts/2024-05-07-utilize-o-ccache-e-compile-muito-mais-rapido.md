@@ -91,5 +91,6 @@ ccache --help
 
 Visite também o [repositório](https://github.com/ccache/ccache) e o site oficial: <https://ccache.dev/>.
 
+> Alternativas ao Ccache seria os softwares: [distcc](https://github.com/distcc/distcc), Icecream(SUSE) e Goma(Google).
 
 
