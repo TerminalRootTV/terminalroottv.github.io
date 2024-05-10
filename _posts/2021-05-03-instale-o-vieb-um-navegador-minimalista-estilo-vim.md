@@ -74,7 +74,7 @@ Instalar o Vieb é muito fácil e ele dispões de diversos tipos de pacotes para
 
 Eu fiz um teste rapidão via [AppImage](https://terminalroot.com.br/2020/05/conheca-o-app-get-um-gerenciador-de-appimages-via-linha-de-comando.html) da seguinte simples forma:
 {% highlight bash %}
-wget https://github.com/Jelmerro/Vieb/releases/download/4.5.1/Vieb-4.5.1.AppImage
+wget https://github.com/Jelmerro/Vieb/releases/download/11.0.0/Vieb-11.0.0.AppImage
 chmod +x ./Vieb-4.5.1.AppImage
 ./Vieb-4.5.1.AppImage
 {% endhighlight %}
