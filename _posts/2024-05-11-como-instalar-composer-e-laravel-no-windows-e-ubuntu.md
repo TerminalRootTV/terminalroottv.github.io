@@ -213,14 +213,6 @@ rm .\Composer-Setup.exe
 ```
 ![rm Composer-Setup.exe](/assets/img/laravel/install/09.jpg) 
 
-#### 11. Assim como no Ubuntu você pode usar somente o Composer para criar seus projetos em Laravel:
-> Se houver problema adicione o parâmetro ` --ignore-platform-req=ext-fileinfo` ao comando:
-```bash
-composer create-project laravel/laravel example-app --ignore-platform-req=ext-fileinfo
-```
-![Laravel create-project start](/assets/img/laravel/install/10-laravel-01.jpg) 
-![Laravel create-project final](/assets/img/laravel/install/10-laravel-02.jpg) 
-
 Após instalado, feche o Windows Terminal ou PowerShell e abra novamente e rode o comando abaixo para ver se está tudo funcionando normalmente:
 ```bash
 composer --version
@@ -233,6 +225,15 @@ Composer version 2.7.6 2024-05-04 23:03:15
 PHP version 8.0.28 (C:\php\php.exe)
 Run the "diagnose" command to get more detailed diagnostics output.
 ```
+
+#### 11. Assim como no Ubuntu você pode usar somente o Composer para criar seus projetos em Laravel:
+> Se houver problema adicione o parâmetro ` --ignore-platform-req=ext-fileinfo` ao comando:
+```bash
+composer create-project laravel/laravel example-app --ignore-platform-req=ext-fileinfo
+```
+![Laravel create-project start](/assets/img/laravel/install/10-laravel-01.jpg) 
+![Laravel create-project final](/assets/img/laravel/install/10-laravel-02.jpg) 
+
 
 #### 12. Agora entre na pasta que foi criada e rode o comando abaixo para seu projeto rodar na Web:
 ```bash
