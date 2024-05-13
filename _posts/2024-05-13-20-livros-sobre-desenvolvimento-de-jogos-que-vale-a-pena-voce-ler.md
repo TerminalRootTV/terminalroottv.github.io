@@ -2,7 +2,7 @@
 layout: post
 title: "20 Livros sobre Desenvolvimento de Jogos que vale a pena você ler"
 date: 2024-05-13 10:05:31
-image: '/assets/img/'
+image: '/assets/img/gamedev/livros-gamedev/game-books.jpg'
 description: '🎮 Aprenda sobre: Unreal Engine 5, Unity, OpenGL, Vulkan, SFML, SDL2, PyGame com Python e técnicas avançadas de GameDev com C++'
 icon: 'ion:terminal-sharp'
 iconname: 'Desenvolvimento de Jogos'
