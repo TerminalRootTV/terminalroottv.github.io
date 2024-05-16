@@ -503,4 +503,11 @@ data-full-width-responsive="true"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+
+# Assista ao vídeo
+
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/CKEbTMko0nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
