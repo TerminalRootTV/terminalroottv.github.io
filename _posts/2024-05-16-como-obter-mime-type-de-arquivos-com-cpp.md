@@ -5,8 +5,10 @@ date: 2024-05-16 10:07:12
 image: '/assets/img/cpp/mime-types-cpp.jpg'
 description: 'A forma correta para evitar insegurança de dados!'
 icon: 'ion:terminal-sharp'
-iconname: 'Terminal Root'
+iconname: 'C++'
 tags:
+- cpp
+- cppdaily
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
