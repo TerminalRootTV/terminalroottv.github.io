@@ -9,7 +9,7 @@ iconname: 'Desenvolvimento de Games'
 tags:
 - gamedev
 - cpp
-- cppdaily
+- mapeditor
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
