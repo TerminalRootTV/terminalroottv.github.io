@@ -31,6 +31,8 @@ tags:
 
 # TikTok
 
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@terminalroot/video/7370495717820960005" data-video-id="7370495717820960005" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@terminalroot" href="https://www.tiktok.com/@terminalroot?refer=embed">@terminalroot</a> Como Mapear o &#39;Ctrl + c&#39; com C++ <a title="cpp" target="_blank" href="https://www.tiktok.com/tag/cpp?refer=embed">#cpp</a> <a title="cplusplus" target="_blank" href="https://www.tiktok.com/tag/cplusplus?refer=embed">#cplusplus</a> <a title="programacao" target="_blank" href="https://www.tiktok.com/tag/programacao?refer=embed">#programacao</a> <a title="programming" target="_blank" href="https://www.tiktok.com/tag/programming?refer=embed">#programming</a> <a title="code" target="_blank" href="https://www.tiktok.com/tag/code?refer=embed">#code</a> <a target="_blank" title="♬ original sound  - terminalroot" href="https://www.tiktok.com/music/original-sound-terminalroot-7370496234436545286?refer=embed">♬ original sound  - terminalroot</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
 ---
 
 # Conteúdo escrito
