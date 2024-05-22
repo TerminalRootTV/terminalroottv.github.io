@@ -36,6 +36,14 @@ a.nav-link:hover {
   background-color: #637acf;
 }
 
+.btn-purple { 
+  background-color: #A333C8;
+  color: #fff;
+}
+
+.btn-purple:hover { 
+  background-color: #590d72;
+}
 
 .card-title a {color: #abb2bf; font-size: 30px;}
 .card-text a {color: #abb2bf;}
