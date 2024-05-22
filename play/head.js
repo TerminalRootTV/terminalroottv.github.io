@@ -9,7 +9,7 @@ function Sprite(x, y, largura, altura){
   }
 }
 
-var bg = new Sprite(0, 0, 600, 600),
+var bg = new Sprite(0, 0, 600, 700),
   gentoo = new Sprite(601, 0, 87, 87),
   oChao  = new Sprite(0, 601, 600, 50);
 Play  = new Sprite(601, 88, 300, 300);
