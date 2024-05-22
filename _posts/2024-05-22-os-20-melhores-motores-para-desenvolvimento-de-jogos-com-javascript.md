@@ -273,7 +273,7 @@ Jogue ele agora:
 
 > Se o navegador não dimensionou corretamente, [JOGUE AQUI](https://terminalroot.com.br/play/).
 
-<iframe src="https://gnu.terminalroot.com.br/play/" title="Gentoo Jump Game" style="border:none;height:650;width:650px;"></iframe>
+<iframe src="https://gnu.terminalroot.com.br/play/" title="Gentoo Jump Game" style="border:none;height:650px;width:650px;"></iframe>
 
 ---
 
