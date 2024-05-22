@@ -271,7 +271,7 @@ Eu já fiz alguns games com JavaScript, um deles foi o [Gentoo Jump Game](https:
 Jogue ele agora:
 > Use o **Clique do Mouse** para: **Iniciar** e **Pular**(Uma ou várias vezes)!
 
-<iframe src="https://gnu.terminalroot.com.br/play/" title="Gentoo Jump Game" style="border:none;height:650px;width:650px;"></iframe>
+<iframe src="https://gnu.terminalroot.com.br/play/" title="Gentoo Jump Game" style="border:none;height:850px;width:650px;"></iframe>
 
 
 <!-- RECTANGLE 2 - OnParagragraph -->
