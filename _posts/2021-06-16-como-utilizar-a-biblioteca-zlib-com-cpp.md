@@ -10,6 +10,7 @@ tags:
 - cpp
 - cppdaily
 - linguagemc
+- zlib
 ---
 
 ![Como Utilizar a Biblioteca Zlib com C++](/assets/img/cpp/zlib.png)

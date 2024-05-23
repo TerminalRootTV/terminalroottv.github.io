@@ -10,6 +10,7 @@ tags:
 - opengl
 - cpp
 - linguagemc
+- glfw
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

@@ -98,6 +98,8 @@ Com uma documentação robusta e uma comunidade ativa, é amplamente utilizado t
 ---
 
 # 06. [GDevelop](http://gdevelop.io/)
+![GDevelop](/assets/img/js/js-gamedev/06.jpg) 
+
 GDevelop é uma plataforma de código aberto, escrita com [C++](https://terminalroot.com.br/tags#cpp), que permite criar jogos 2D e 3D sem a necessidade de programação. 
 
 Utilizando uma interface visual intuitiva, GDevelop facilita o desenvolvimento de jogos com eventos e ações predefinidas. 
