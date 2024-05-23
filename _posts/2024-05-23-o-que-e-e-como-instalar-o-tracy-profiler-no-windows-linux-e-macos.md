@@ -227,7 +227,7 @@ Para utilizar o Tracy não é tão simples para iniciantes, mas há ajudas, manu
 tracy-profiler
 {% endhighlight %}
 
-[![Tracy Profiler running](./tracy-profile-run.png)](/assets/img/cpp/tracy-profile-run.png) 
+[![Tracy Profiler running](/assets/img/cpp/tracy-profile-run.png)](/assets/img/cpp/tracy-profile-run.png) 
 > Tracy Profiler rodando! Clique na imagem para abrir numa nova aba para ver melhor.
 
 #### Usando o `help`:
