@@ -23,6 +23,8 @@ QuickJS é compacto e projetado para ser incorporado a outros sistemas. O códig
 # Instalação
 Você pode construir o QuickJS do zero, ou simplesmente fazer o download do binário e instalar. Para isso, proceda sa seguinte forma:
 
+### Baixe a versão mais recente aqui: <https://bellard.org/quickjs/binary_releases/>
+
 > Para Linux 64-bit utilizando [GNU wget](https://terminalroot.com.br/2019/05/aprenda-a-explorar-o-comando-wget.html)
 {% highlight sh %}
 wget https://bellard.org/quickjs/binary_releases/quickjs-linux-x86_64-2021-03-27.zip
