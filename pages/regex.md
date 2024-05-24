@@ -13,7 +13,7 @@ image: '/assets/img/cursos/regex.jpg'
   <h3>Caso queira obter conteúdos relacionados a RegEx, clique no link abaixo!</h3>
 </div>
 
-# [Artigos sobre Sed Editor](https://terminalroot.com.br/tags#regex)
+# [Artigos sobre Expressões Regulares(RegEx)](https://terminalroot.com.br/tags#regex)
 
 ---
 
