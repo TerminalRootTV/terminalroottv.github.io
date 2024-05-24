@@ -8,6 +8,16 @@ image: '/assets/img/cursos/sed.jpg'
 
 ![{{page.title}}]({{page.image}} "{{page.description}}") 
 
+<div class="alert alert-primary" role="alert">
+  <h1>Esse Curso de Sed foi descontinuado!</h1>
+  <h3>Caso queira obter conteúdos relacionados ao Editor Sed, clique no link abaixo!</h3>
+</div>
+
+# [Artigos sobre Sed Editor](https://terminalroot.com.br/tags#sed)
+
+---
+
+<!--
 # O que você vai aprender ? 
 Ao final desse curso você será capaz de entender o que significa esse comando: 
 ```sh
@@ -16,12 +26,10 @@ sed -E ':a;$!N;s/\n\s+/ /;ta;P;D' file
 
 ---
 
-<!--
 ## Valor do Pacote Completo
 **R$ 74,90**
 > Mais de 50 reais de desconto!
 <a href="https://cutt.ly/temppromo" class="btn btn-success btn-lg btn-block">ADQUIRA AGORA</a>  
--->
 
 ## Valor somente desse curso do Curso
 **R$ 29,90**
@@ -57,4 +65,6 @@ Ou [Comprar na Udemy](https://cutt.ly/sedsed)
 ---
 
 # [Conteúdos sobre Sed nesse site](https://terminalroot.com.br/tags#sed)
+
+-->
 

@@ -8,6 +8,17 @@ image: '/assets/img/cursos/regex.jpg'
 
 ![{{page.title}}]({{page.image}} "{{page.description}}") 
 
+<div class="alert alert-primary" role="alert">
+  <h1>Esse Curso de Expressões Regulares foi descontinuado!</h1>
+  <h3>Caso queira obter conteúdos relacionados a RegEx, clique no link abaixo!</h3>
+</div>
+
+# [Artigos sobre Sed Editor](https://terminalroot.com.br/tags#regex)
+
+---
+
+<!--
+
 # O que você vai aprender ? 
 Após o término do curso você será capaz de ler essa expressão:
 ```sh
@@ -16,13 +27,11 @@ Após o término do curso você será capaz de ler essa expressão:
 
 ---
 
-<!--
 ## Valor do Pacote Completo
 **R$ 74,90**
 > Mais de 50 reais de desconto!
 
 <a href="https://cutt.ly/temppromoDISABLED" class="btn btn-success btn-lg btn-block">ADQUIRA AGORA</a> 
--->
 
 ## Valor somente desse curso do Curso
 **R$ 29,90**
@@ -58,4 +67,6 @@ Ou [Comprar na Udemy](https://cutt.ly/regex)
 
 # [Conteúdos sobre Expressões Regulares nesse site](https://terminalroot.com.br/tags#regex)
 
+
+-->
 
