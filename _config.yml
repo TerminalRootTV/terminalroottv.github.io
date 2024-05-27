@@ -43,16 +43,14 @@ links:
     url: /games
   - title: OpenCV com C++
     url: /opencv
+  - title: Curso Moderno na Linguagem C
+    url: /c
   - title: Lua - Linguagem de Programação
     url: /lua
   - title: Shell Script
     url: /shell
   - title: BASH
     url: /bash
-  - title: Expressões Regulares
-    url: /regex
-  - title: Sed - Editor de Fluxo
-    url: /sed
   - title: PHP e MySQL
     url: /php
   - title: Vue.js
