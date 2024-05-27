@@ -100,7 +100,7 @@ Os registradores possuem o mesmo conceito e funcionalidade básica tanto no NASM
 
 ### Registradores de Propósito Geral (32 bits)
 + **NASM**: `eax`, `ebx`, `ecx`, `edx`, `esi`, `edi`, `ebp`, `esp`, `r8d-r15d`
-+ **GAS**: `%eax`, `%ebx`, `%ecx`, `%edx`, `%esi`, `%edi`, `%ebp`, `%esp`, %r8d-%r15d
++ **GAS**: `%eax`, `%ebx`, `%ecx`, `%edx`, `%esi`, `%edi`, `%ebp`, `%esp`, `%r8d-%r15d`
 
 ### Registradores de Propósito Geral (16 bits)
 + **NASM**: `ax`, `bx`, `cx`, `dx`, `si`, `di`, `bp`, `sp`, `r8w-r15w`
