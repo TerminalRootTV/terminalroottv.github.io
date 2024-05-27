@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'Linker'
 tags:
 - cpp
-- c
+- linguagemc
 - nim
 - rust
 ---
