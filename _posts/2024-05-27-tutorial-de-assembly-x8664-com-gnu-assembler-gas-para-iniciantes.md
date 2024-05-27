@@ -87,7 +87,8 @@ Os registradores em assembly `x86_64` são utilizados para armazenar dados tempo
 + **RAX**: Guardar resultado de uma operação de multiplicação.
 + **RSI e RDI**: Usados em operações de copiar memória (movsb, movsw, movsd, movsq).
 + **RCX**: Usado como contador de loop (loop).
-+ **Esses são os principais registradores em NASM para x86_64. Eles são essenciais para manipulação de dados, controle de fluxo, e execução de operações em programas assembly.
+
+Esses são os principais registradores em GAS/NASM para `x86_64`. Eles são essenciais para manipulação de dados, controle de fluxo, e execução de operações em programas assembly.
 
 ---
 
@@ -306,8 +307,6 @@ Além do **GNU Assembler (GAS)** e do **NASM (Netwide Assembler)**, existem vár
 #### TASM (Turbo Assembler):
 + Desenvolvido pela Borland, é um assembler antigo que foi muito usado nos anos 80 e 90.
 + Esses assemblers são usados em diferentes contextos, desde desenvolvimento de sistemas embarcados até programação de aplicações de baixo nível em diversas plataformas. Cada um tem suas próprias características e sintaxes que podem ser mais adequadas para determinadas tarefas e ambientes de desenvolvimento.
-
-Esses assemblers são usados em diferentes contextos, desde desenvolvimento de sistemas embarcados até programação de aplicações de baixo nível em diversas plataformas. Cada um tem suas próprias características e sintaxes que podem ser mais adequadas para determinadas tarefas e ambientes de desenvolvimento.
 
 ---
 
