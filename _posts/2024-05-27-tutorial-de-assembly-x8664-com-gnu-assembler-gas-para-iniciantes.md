@@ -116,7 +116,7 @@ Os registradores possuem o mesmo conceito e funcionalidade básica tanto no NASM
 
 ### Registradores de Propósito Especial
 + **NASM**: `rip`, `rflags`
-+ **GAS**: `%rip`, %rflags
++ **GAS**: `%rip`, `%rflags`
 
 ### Registradores de Vetor/SIMD
 + **NASM**: `xmm0-xmm15`, `ymm0-ymm15`, `zmm0-zmm31`
