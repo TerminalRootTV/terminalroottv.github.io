@@ -29,7 +29,7 @@ _skell(){
     echo "title: \"${1}\""
     echo "date: ${_DATE} ${_TIME}"
     echo "image: '/assets/img/'"
-    echo "description:"
+    echo 'description: "🗞️ "'
     echo "icon: 'ion:terminal-sharp'"
     echo "iconname: 'Terminal Root'"
     echo "tags:"
@@ -37,7 +37,8 @@ _skell(){
     echo
     echo "![{{ page.title }}]({{ page.image }} '{{ page.description }}')"
     echo
-    echo 
+    echo '---'
+    echo
 }
 
 #<a class="btn btn-primary btn-lg btn-block" id="btn-read-more" onclick="showPost()"><i class="fa-solid fa-chevron-down"></i> LER POSTAGEM COMPLETA</a>
