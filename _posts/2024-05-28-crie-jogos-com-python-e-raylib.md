@@ -93,7 +93,7 @@ python main.py
 
 Se aparecer a janela similar a da imagem abaixo é porque está tudo certo!
 
-![Raylib-Py rodando](./raylib-py-running.png) 
+![Raylib-Py rodando](/assets/img/python/raylib-py-running.png) 
 
 Se estiver em um ambiente virtual, para sair rode:
 {% highlight bash %}
