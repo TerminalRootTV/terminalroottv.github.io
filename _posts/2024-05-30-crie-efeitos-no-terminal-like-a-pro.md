@@ -16,7 +16,7 @@ tags:
 
 ---
 
-Na postagem anterior: [Crie facilmente Letras estilosas para o Terminal], nós mostramos como gerar nomes com fontes renderizadas no terminal.
+Na postagem anterior: [Crie facilmente Letras estilosas para o Terminal](https://terminalroot.com.br/2024/05/crie-facilmente-letras-estilosas-para-o-terminal.html), nós mostramos como gerar nomes com fontes renderizadas no terminal.
 
 Nesse artigo mostraremos como você pode combinar a informação anterior e criar animações no terminal.
 
