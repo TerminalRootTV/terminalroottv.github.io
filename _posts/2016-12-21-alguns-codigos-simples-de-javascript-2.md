@@ -9,7 +9,14 @@ tags:
 - javascript
 ---
 
-![Javascript Linux](/assets/img/js-imgs/js.jpg "JavaScript Linux") 
+![Javascript Linux](/assets/img/js-imgs/js.jpg "JavaScript") 
+
+---
+
+Veja também a parte #3:
+## [14 códigos úteis de JavaScript #3](https://terminalroot.com.br/2024/06/14-codigos-uteis-de-javascript-3.html)
+
+---
 
 1 - Gerar um relógio em tempo real
 {% highlight js %}
