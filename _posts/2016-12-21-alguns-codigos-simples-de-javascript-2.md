@@ -77,6 +77,21 @@ if(str.match(/Root/)){
 
 {% endhighlight %}
 
+---
+
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
+
 5 - Retirar os 5 últimos caracteres e adicionar uma nova palavra
 
 {% highlight js %}
@@ -129,6 +144,24 @@ document.write(str);
 
 <a href="http://www.terminalroot.com.br/" onclick="NovaJanela(this.href,'nomeJanela','820','560','yes');return false">Abrir Pop-Up</a>
 {% endhighlight %}
+
+---
+
+
+<!-- RECTANGLE LARGE -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
 
 9 - Mostrar a Data
 

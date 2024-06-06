@@ -75,6 +75,21 @@ Clique no Botão abaixo para ir para o Site do Google:
 </form>
 {% endhighlight %}
 
+---
+
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
+
 
 <p>4.Alertas em sequencia em botão simples</p>
 
@@ -180,19 +195,6 @@ document.oncontextmenu = new Function("return false;")
 
 <p>Breve mais dicas e exemplos!</p>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- Informat -->
-<ins class="adsbygoogle"
- style="display:block"
- data-ad-client="ca-pub-2838251107855362"
- data-ad-slot="2327980059"
- data-ad-format="auto"
- data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 
