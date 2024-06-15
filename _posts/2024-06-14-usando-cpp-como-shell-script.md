@@ -506,6 +506,17 @@ Teste de novo para ver tudo que será ou não removido e depois rode definitivam
 limpeza
 {% endhighlight %}
 
+Saída:
+
+![Saída comando limpeza feito com C++](/assets/img/cpp/saida-cpp-bash.png) 
+
+Se quiser que o histórico do terminal fique limpo após rodar tudo, adicione o um alias assim:
+```bash
+echo 'alias limpeza="limpeza && history -c"' >> ~/.bashrc
+exec $SHELL
+```
+> Faça assim, pois rodar processos como esse com `std::system` além de não funcionar não é recomendado!
+
 ---
 
 Futuramente pretendo mostrar outros *scripts* que eu fiz com [C++](https://terminalroot.com.br/tags#cpp) e depois organizar todos e pôr em um único repositório no [GitHub](https://github.com/terroo).
