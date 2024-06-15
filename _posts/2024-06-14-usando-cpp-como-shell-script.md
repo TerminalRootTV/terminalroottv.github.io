@@ -479,6 +479,10 @@ add_executable(limpeza main.cpp limpeza.cpp)
 
 Note no `CMakeLists.txt` que podemos passar o parâmetro opcional: `-DCHECK_MEM=ON` para o usar a `libasan` que é a biblioteca: [sanitizers do Google](https://github.com/google/sanitizers/), para mais informações veja o vídeo: [10 Dicas de Flags e Parâmetros para GNU GCC](https://terminalroot.com.br/2023/08/10-dicas-de-flags-e-parametros-para-gnu-gcc.html).
 
+Se quiser fazer o download de todos aquivos clique no botão abaixo para fazer o download do `cleanup.zip`
+
+<a href="https://terminalroot.com.br/downs/cleanup.zip" class="btn btn-danger btn-lg">Baixar <code>cleanup.zip</code></a>
+
 Logo você pode usar o CMake assim(com libasan):
 {% highlight bash %}
 cmake -B build . -DCHECK_MEM=ON
