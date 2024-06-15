@@ -21,7 +21,7 @@ tags:
 Há um tempo atrás eu havia criado um *script* em [Bash](https://terminalroot.com.br/tags#bash)([Shell Script](https://terminalroot.com.br/tags#shellscript) que limpava algumas coisas no meu sistema, dentre elas:
 + O cache de imagens que foram visualizadas, incluindo as thumbnails;
 + O cache dos navegadores que eu tinha instalado na minha máquina: [Google Chrome](https://terminalroot.com.br/tags#chrome), [Firefox](https://terminalroot.com.br/tags#firefox) e Opera;
-+ O histório com Bash;
++ O histórico do Bash;
 + Os arquivos recentes;
 + E a lixeira!
 
@@ -114,7 +114,7 @@ const fs::path m_recent = ".local/share/recently-used.xbel";
 const fs::path m_bash_h = ".bash_history";
 {% endhighlight %}
 
-Essa funções-membro declarei como: `protected`:
+Essas funções-membro declarei como: `protected`:
 + Imprime com Unicode e cores:
 {% highlight cpp %}
 void print(bool, const std::string&);
