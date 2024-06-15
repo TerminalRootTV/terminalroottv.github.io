@@ -514,10 +514,19 @@ Saída:
 
 ![Saída comando limpeza feito com C++](/assets/img/cpp/saida-cpp-bash.png) 
 
-Se quiser que o histórico do terminal fique limpo após rodar tudo, adicione o um alias assim:
+Se quiser que o histórico do terminal fique limpo após rodar tudo, adicione o isso ao final do seu `~/.bashrc` assim:
 ```bash
-echo 'alias limpeza="limpeza && history -c"' >> ~/.bashrc
+limpeza(){
+  ${HOME}/.local/bin/limpeza $@
+  history -c
+}
+```
+
+E releia o `~/.bashrc`:
+```bash
 exec $SHELL
+# Ou
+source ~/.bashrc
 ```
 > Faça assim, pois rodar processos como esse com `std::system` além de não funcionar não é recomendado!
 
