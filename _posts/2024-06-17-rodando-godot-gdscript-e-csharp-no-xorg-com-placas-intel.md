@@ -102,7 +102,8 @@ Bastou eu encerrar a sessão(deslogar) e entrar novamente que as coisas funciona
 
 ![Godot C# rodando](/assets/img/godot/godot-csharp.jpeg) 
 
-Se você tiver com esses memsmo problema, tente essas configurações!
+Se você tiver com esses mesmo problema, tente essas configurações!
+> Lembrando que antes você precisa ter o [Vulkan](https://www.vulkan.org/) instalado no seu sistema!
 
 Você ainda pode substituir algumas linhas como o: `Driver` ou até mesmo adicionar também `Backlight` para funcionar com o `MESA Intel`:
 {% highlight bash %}
