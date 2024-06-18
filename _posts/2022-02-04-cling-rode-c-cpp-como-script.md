@@ -50,8 +50,8 @@ Existe binário para diversos sistemas operacionais incluindo o [Linux](https://
 
 > De acordo com a data de publicação desse artigo essa é a versão mais recente, para outras versões e binários [veja aqui](https://root.cern.ch/download/cling/) .
 {% highlight sh %}
-wget -q https://root.cern.ch/download/cling/cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
-tar xjf cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+wget https://root.cern.ch/download/cling/cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
+tar xvjf cling_2020-11-05_ROOT-ubuntu2004.tar.bz2
 sudo mv cling_2020-11-05_ROOT-ubuntu2004/ /opt/cling
 sudo ln -s /opt/cling/bin/cling /usr/local/bin/cling
 {% endhighlight %}
