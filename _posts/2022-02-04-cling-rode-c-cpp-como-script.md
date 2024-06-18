@@ -66,6 +66,11 @@ Se quiser omitir o `stderr`, rode:
 cling '#include <stdio.h>' 'printf("Hello World!\n")' 2>/dev/null
 {% endhighlight %}
 
+Ou ainda:
+{% highlight bash %}
+cling '#include <stdio.h>' 'printf("Hello World!\n")' 2>/dev/null | sed '$d'
+{% endhighlight %}
+
 Você também pode entrar num subshell rodando somente:
 {% highlight sh %}
 cling
