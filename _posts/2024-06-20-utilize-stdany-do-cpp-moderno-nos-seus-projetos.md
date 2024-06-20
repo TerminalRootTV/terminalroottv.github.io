@@ -22,7 +22,7 @@ Este componente pertence ao conjunto de classes de contêineres com segurança d
 Ele é especialmente útil quando você precisa lidar com situações em que o tipo da variável pode(pleonasmo): variar! 😃 
 
 Aí você diz:
-#### — Ah, cara! De boa. Para esses casos eu uso o `void *`.
+> **— Ah, cara! De boa. Para esses casos eu uso o `void *`.**
 
 Sim, realmente você tem razão, mas você já viu como a nova geração está em relação a *segurança de memória* ???
 > Lembrando que o termo *segurança* é usado em Português, pois não existe uma palavra que se adeque a tradução para `Safe`, ou seja: `Safe` **!=** `Seguro`)! 😛 
@@ -107,7 +107,7 @@ No código acima vimos que:
 E você pode usar pra absolutamente tudo: `std::vector`, [Lambda](https://terminalroot.com.br/2021/04/10-exemplos-de-uso-de-funcoes-lambda-em-cpp.html) e tudo que existir de tipo de dado!
 
 E o cara pergunta outra coisa:
-#### — Tá! E se eu quiser acabar o tempo de vida do `std::any` manualmente?
+> **— Tá! E se eu quiser acabar o tempo de vida do `std::any` manualmente?**
 
 Basta usar a estrutura de união `reset` ou até mesmo com o operador de incialização:
 
@@ -117,7 +117,7 @@ some_data.reset();
 some_data = {};
 {% endhighlight %}
 
-#### — E pra verificar se `std::any` está vazio?
+> **— E pra verificar se `std::any` está vazio?**
 Use `has_value()`:
 
 {% highlight cpp %}
