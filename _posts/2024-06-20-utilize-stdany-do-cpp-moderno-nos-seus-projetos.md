@@ -113,7 +113,7 @@ Basta usar a estrutura de união `reset` ou até mesmo com o operador de inciali
 
 {% highlight cpp %}
 some_data.reset();
-# Ou
+// Ou
 some_data = {};
 {% endhighlight %}
 
