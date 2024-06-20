@@ -25,7 +25,7 @@ Aí você diz:
 #### — Ah, cara! De boa. Para esses casos eu uso o `void *`.
 
 Sim, realmente você tem razão, mas você já viu como a nova geração está em relação a *segurança de memória* ???
-> Lembrando que o termo *segurança* é usado em Português, pois não existe uma palavra que se adeque a tradução para `Safe`, ou seja: `Safe` **≠** `Seguro`)! 😛 
+> Lembrando que o termo *segurança* é usado em Português, pois não existe uma palavra que se adeque a tradução para `Safe`, ou seja: `Safe` **!=** `Seguro`)! 😛 
 
 Sem dizer que `void *` é realmente perigoso!
 
