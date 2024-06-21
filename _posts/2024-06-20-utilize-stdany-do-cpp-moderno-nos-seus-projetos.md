@@ -148,12 +148,158 @@ Para verificar se realmente tudo está entre os conformes, nunca se esqueça de 
 
 ---
 
+## Exemplo na vida real
+Imagine você ter um código que precisa concatenar vários tipos e retornar uma string. No entanto, um dos tipos pode ser: int, double ou std::string.
+
+Se usar `std::any_cast<T>` no retorno assim:
+> Exemplo:
+
+{% highlight cpp %}
+#include <iostream>
+#include <any>
+#include <sstream>
+
+enum class Message {
+  SUCCESS,
+  WARNING,
+  ERROR,
+  UNKNOW
+};
+
+std::string add_info(Message, const std::string&, std::any, int);
+
+int main(){
+  std::any obj;
+
+  obj = std::string("Start");
+  std::cout << add_info(Message::SUCCESS, " do tipo string: ", obj, 3) << '\n';
+
+  obj = 6;
+  std::cout << add_info(Message::WARNING, " do tipo int: ", obj, 9) << '\n';
+
+  obj = 3.14;
+  std::cout << add_info(Message::ERROR, " do tipo double: ", obj, 0) << '\n';
+
+  obj.reset();
+  std::cout << add_info(Message::UNKNOW, " sem tipo: ", obj, 9) << '\n';
+
+  obj = "CONST_CHAR";
+  std::cout << add_info(Message::SUCCESS, " sem tipo: ", nullptr, 9) << '\n';
+
+  return 0;
+}
+
+std::string add_info(Message msg, const std::string& out, std::any object, int num){
+  return std::any_cast<std::string>(msg) + out + "'" + std::any_cast<std::string>(object) + "' " + std::to_string(num);
+}
+{% endhighlight %}
+> Compile: `g++ -Wall -Wextra -pedantic -g -fsanitize=address main.cpp`.
+
+Terá um `std::bad_any_cast` na saída:
+{% highlight bash %}
+terminate called after throwing an instance of 'std::bad_any_cast'
+  what():  bad any_cast
+Abortado
+{% endhighlight %}
+
+Ambas conversões(da `msg` e da `object`) estão incorretas:
+{% highlight cpp %}
+std::any_cast<std::string>(msg) + ...
+// Quanto
+std::any_cast<std::string>(object)
+{% endhighlight %}
+
+Você precisa fazer um `switch case` para o enumerador e no caso do parâmetro `object`: Precisará usar o `has_value()`, armazenar o `type()` em `std::type_info&` e usar um `std::stringstream` para atribuir o tipos de retorno com união ao: `str()`, assim:
+
+{% highlight cpp %}
+#include <iostream>
+#include <any>
+#include <sstream>
+
+enum class Message {
+  SUCCESS,
+  WARNING,
+  ERROR,
+  UNKNOW
+};
+
+std::string add_info(Message, const std::string&, std::any, int);
+
+int main(){
+  std::any obj;
+
+  obj = std::string("Start");
+  std::cout << add_info(Message::SUCCESS, " do tipo string: ", obj, 3) << '\n';
+
+  obj = 6;
+  std::cout << add_info(Message::WARNING, " do tipo int: ", obj, 9) << '\n';
+
+  obj = 3.14;
+  std::cout << add_info(Message::ERROR, " do tipo double: ", obj, 0) << '\n';
+
+  obj.reset();
+  std::cout << add_info(Message::UNKNOW, " sem tipo: ", obj, 9) << '\n';
+
+  obj = "CONST_CHAR";
+  std::cout << add_info(Message::SUCCESS, " sem tipo: ", nullptr, 9) << '\n';
+
+  return 0;
+}
+
+std::string add_info(Message msg, const std::string& out, std::any object, int num){
+  std::string local_msg {"NOTHING"};
+  std::stringstream ss;
+
+  switch (msg){
+    case Message::SUCCESS:
+      local_msg = "SUCCESS";
+      break;
+    case Message::WARNING:
+      local_msg = "WARNING";
+      break;
+    case Message::ERROR:
+      local_msg = "ERROR";
+      break;
+    case Message::UNKNOW:
+      local_msg = "UNKNOW";
+      break;
+  }
+
+  
+  if (object.has_value()) {
+    const std::type_info& type = object.type();
+    if (type == typeid(std::string)) {
+      ss << std::any_cast<std::string>(object);
+    } else if (type == typeid(int)) {
+      ss << std::any_cast<int>(object);
+    } else if (type == typeid(double)) {
+      ss << std::any_cast<double>(object);
+    } else {
+      ss << "null";
+    }
+  } else {
+    ss << "[no object]";
+  }
+
+  return local_msg + out + "'" + ss.str() + "' " + std::to_string(num);
+}
+{% endhighlight %}
+
+Que função!!! :O , mas assim seu código ficará safe! Compile: `g++ -Wall -Wextra -pedantic -g -fsanitize=address main.cpp` e após rodar `./a.out`, a saída será o esperado:
+
+{% highlight bash %}
+SUCCESS do tipo string: 'Start' 3
+WARNING do tipo int: '6' 9
+ERROR do tipo double: '3.14' 0
+UNKNOW sem tipo: '[no object]' 9
+SUCCESS sem tipo: 'null' 9
+{% endhighlight %}
+
+Parece trabalhoso, mas essa é a forma correta de você finalizar o tempo de vida de um tipo qualquer!
+
+---
+
 Além de totalmente **SAFE**, o `std::any` é muito prático e uma mão na roda! 
 
-Tinha um projeto da empresa que eu estava desenvolvendo, que passava um argumento de função e podia ser qualquer tipo, mas o retorno da função era `std::string` concatenada ao nome do objeto recebido.
-
-E alguém havia criado um baita de um `switch case` para converter para `std::string`(*bizarro!*), eu subsititui para recebimento de parâmetro para `std::any` e converti com `std::any_cast<std::string>` e resolvi de forma: Moderna, Safe e Like a Boss! Exatamente isso que `std::any` é!!! 😃 
-
 Para mais informações acesse: <https://en.cppreference.com/w/cpp/utility/any>
-
 
