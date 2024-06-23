@@ -301,5 +301,16 @@ Parece trabalhoso, mas essa é a forma correta de você finalizar o tempo de vid
 
 Além de totalmente **SAFE**, o `std::any` é muito prático e uma mão na roda! 
 
+Em alguns casos também é interessante usar [std::variant](https://terminalroot.com.br/2021/04/std-less-equal-variant-visit.html) e obter qual o tipo com `.index()`, ex.:
+```cpp
+//...
+std::variant <int, std::string, double> var;
+//...
+if(var.index() == 1){
+  std::cout << "var é uma std::string\n";
+  break;
+//...
+```
+
 Para mais informações acesse: <https://en.cppreference.com/w/cpp/utility/any>
 
