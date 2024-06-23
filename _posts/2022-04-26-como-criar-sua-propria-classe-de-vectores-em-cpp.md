@@ -21,9 +21,98 @@ tags:
 
 ### 🎁 Pacote Promocional C++: <https://terminalroot.com.br/promo>
 
-# Assista ao Vídeo
+## Assista ao Vídeo
 
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/NfymBdyGOss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## Código feito no vídeo
+```cpp
+#include <iostream>
+#include <fstream>
+
+template<class T>
+class Vector2 {
+  public:
+    T x, y;
+    Vector2(T xin, T yin) : x(xin), y(yin){}
+
+    Vector2 operator + (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator - (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator * (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator / (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator -= (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator *= (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    Vector2 operator /= (const Vector2& rhs){
+      return Vector2(x + rhs.x, y + rhs.y);
+    }
+
+    void print(){
+      std::cout << x << " " << y << '\n';
+    }
+
+    /*void increment(int number){
+      x += number;
+      y += number;
+    }*/
+
+    Vector2 & increment(int number){
+      x += number;
+      y += number;
+      return *this;
+    }
+
+    friend std::ostream & operator << (
+        std::ostream & stream, const Vector2 & v){
+      return stream << v.x << " " << v.y;
+    }
+};
+
+using Vector2f = Vector2<float>;
+using Vector2i = Vector2<int>;
+using Vector2u = Vector2<unsigned>;
+
+int main(){
+  Vector2 v1(1, 2), v2(3, 4);
+
+  Vector2f v1f(1.2f, 2.1f), v2f(3.4f, 4.3f);
+  Vector2i v1i(1, 2), v2i(3, 4);
+  Vector2u v1u(1, 2), v2u(3, 4);
+
+  Vector2 v3 = v1 + v2;
+
+  std::cout << "v3.x: " << v3.x << '\n';
+  std::cout << "v3.y: " << v3.y << '\n';
+  v3.print();
+
+  v3.increment(10)
+    .increment(5)
+    .increment(2);
+
+  std::cout << v1 << '\n';
+
+  return 0;
+}
+```
 
 ---
 
