@@ -151,14 +151,6 @@ Abaixo alguns vídeos com dicas Vim que podem lhe ajudar!
 
 <iframe width="1237" height="696" src="https://www.youtube.com/embed/LMKiTPMV4U4?list=PLUJBQEDDLNcnl-1CebtDi6tlt9TtsrkgP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="1237" height="696" src="https://www.youtube.com/embed/PmKJT6SlN-Q?list=PLUJBQEDDLNcnl-1CebtDi6tlt9TtsrkgP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="1237" height="696" src="https://www.youtube.com/embed/nfPubmjO5xw?list=PLUJBQEDDLNcnl-1CebtDi6tlt9TtsrkgP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="1237" height="696" src="https://www.youtube.com/embed/nFWQJiLvjnk?list=PLUJBQEDDLNcnl-1CebtDi6tlt9TtsrkgP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="1237" height="696" src="https://www.youtube.com/embed/XXGk3n1uzPg?list=PLUJBQEDDLNcnl-1CebtDi6tlt9TtsrkgP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <!-- RETANGULO LARGO -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Informat -->
