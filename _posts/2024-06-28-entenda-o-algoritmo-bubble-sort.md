@@ -28,23 +28,23 @@ No entanto, um dos mais simples é o Bubble Sort.
 
 O **Bubble Sort**, ou ordenação por flutuação (literalmente "por bolha"), compara elementos adjacentes e os troca se estiverem na ordem errada. Ele repete este processo até que toda a lista esteja ordenada, é um dos mais fáceis algoritmos para implementar.
 
-Ele possui complexidade `O(n²)`. O termo "`O(n²)`" refere-se à notação Big O(Big O Notation, em inglês), que é uma forma de descrever a complexidade de tempo de um algoritmo. 
+Ele possui complexidade `O(n^2)`. O termo "`O(n^2)`" refere-se à notação Big O(Big O Notation, em inglês), que é uma forma de descrever a complexidade de tempo de um algoritmo. 
 
 A notação Big O fornece uma estimativa do tempo de execução de um algoritmo em função do tamanho da entrada, denotado por "n".
-> O(n²) significa que o tempo de execução do algoritmo aumenta proporcionalmente ao quadrado do tamanho da entrada. Em outras palavras, se o tamanho da entrada (`n`) dobrar, o tempo de execução será aproximadamente quatro vezes maior.
+> O(n^2) significa que o tempo de execução do algoritmo aumenta proporcionalmente ao quadrado do tamanho da entrada. Em outras palavras, se o tamanho da entrada (`n`) dobrar, o tempo de execução será aproximadamente quatro vezes maior.
 
 O **Bubble Sort** compara cada par de elementos adjacentes e os troca se estiverem fora de ordem. Isso é feito repetidamente para todos os elementos na lista, resultando em muitas comparações e trocas.
 + No primeiro passe, ele faz `(n-1`) comparações.
 + No segundo passe, faz (`n-2`) comparações, e assim por diante.
 + No total, o número de comparações é aproximadamente `(n-1) + (n-2) + ... + 1 = n(n-1)/2`.
-> Isso se traduz em uma complexidade de tempo de O(n²), indicando que o tempo de execução cresce quadraticamente com o aumento do tamanho da entrada.
+> Isso se traduz em uma complexidade de tempo de O(n^2), indicando que o tempo de execução cresce quadraticamente com o aumento do tamanho da entrada.
 
 A notação Big O é útil porque permite comparar a eficiência de diferentes algoritmos sem se preocupar com detalhes específicos da implementação ou do hardware. Outros exemplos comuns de complexidade incluem:
 + O(1): Tempo constante, independente do tamanho da entrada.
 + O(log n): Tempo logarítmico, cresce lentamente em relação ao tamanho da entrada.
 + O(n): Tempo linear, cresce diretamente proporcional ao tamanho da entrada.
 + O(n log n): Tempo linearítmico, comum em algoritmos de ordenação eficientes como *Merge Sort* e *Quick Sort*.
-+ O(n³): Tempo cúbico, cresce proporcionalmente ao cubo do tamanho da entrada.
++ O(n^3): Tempo cúbico, cresce proporcionalmente ao cubo do tamanho da entrada.
 
 Essas expressões ajudam a entender como a performance de um algoritmo escala à medida que o tamanho dos dados de entrada aumenta.
 
