@@ -2,7 +2,7 @@
 layout: post
 title: "Entenda o Algoritmo Bubble Sort"
 date: 2024-06-28 23:07:11
-image: '/assets/img/bubble-sort.jpg'
+image: '/assets/img/programacao/bubble-sort.jpg'
 description: "🫧 O Bubble Sort compara cada par de elementos adjacentes e os troca se estiverem fora de ordem."
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
