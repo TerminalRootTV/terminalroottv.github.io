@@ -30,6 +30,7 @@ tags:
 + ✅ Conheça nossos Cursos: <https://bit.ly/CursosTerminalRoot>
 + 🎁 Todos os Cursos na Udemy: <https://bit.ly/UdemyTerminalRoot> 
 + 📊 Código Fonte no GitHub: <https://github.com/terroo/tetris>
++ Tetris no terminal: <https://github.com/k-vernooy/tetris>
 
 
 
