@@ -85,7 +85,6 @@ Existe um arquivo `.exe` de nome: `mingw32-make` no caminho: `C:\mingw64\bin\min
 
 Escolher esse nome `make` para esse arquivo, facilitará rodar de forma automática muitos scripts que já procuram ele no seu sistema. Além de diversos tutoriais que na sequência de comandos, pedem que você rode `make` e talvez você não lembre do nome antigo!
 
-
 ---
 
 Caso deseje, você pode optar em seguir [esse tutorial](https://code.visualstudio.com/docs/cpp/config-mingw) para instalar com [MSYS2](https://www.mingw-w64.org/downloads/#msys2), no entanto, acho mais bagunçado, o MSYS2 cria um monte de atalhos.
