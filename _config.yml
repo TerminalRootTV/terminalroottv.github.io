@@ -41,6 +41,8 @@ links:
     url: /cpp
   - title: Desenvolvimento de Games
     url: /games
+  - title: Desenvolvimento de Jogos com C++
+    url: /sfml
   - title: OpenCV com C++
     url: /opencv
   - title: Curso Moderno na Linguagem C
