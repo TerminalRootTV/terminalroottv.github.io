@@ -1,6 +1,0 @@
-xterm*background:   #333
-xterm*foreground:   #8ae234
-xterm*faceName:   "DejaVu Sans Mono"
-xterm*faceSize:	11
-xterm*vt100.allowTitleOps:   false
-xterm*title:   TerminalRoot
