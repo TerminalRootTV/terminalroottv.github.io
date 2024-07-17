@@ -22,7 +22,7 @@ Esse vídeo é uma atualização do [Curso de Criação de Games com C++ e SFML 
 
 ## 🎥 Assista ao Vídeo
 
-<iframe width="1253" height="705" src="https://www.youtube.com/embed/VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1253" height="705" src="https://www.youtube.com/embed/SEImvXJ88sE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
