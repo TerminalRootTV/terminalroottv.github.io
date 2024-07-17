@@ -3,7 +3,7 @@ layout: post
 title: "Como Recriar o Jogo do Dino do Chrome com C++"
 date: 2024-07-16 21:26:50
 image: '/assets/img/gamedev/chrome-dino-thumb.jpg'
-description: "🦖 Vídeo tutoria com passo a passo do zero!"
+description: "🦖 Vídeo tutorial com passo a passo do zero!"
 icon: 'ion:terminal-sharp'
 iconname: 'GameDev'
 tags:
