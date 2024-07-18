@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(int argc, char **argv){
-  std::cout << "Olá, Mundo!\n";
+  std::cout << "initpost.cpp!\n";
   return 0;
 }
 
