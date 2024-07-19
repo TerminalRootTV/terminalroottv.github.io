@@ -36,8 +36,6 @@ Além de tutoriais embutidos, dicas adicionais de bibliotecas, conceitos explica
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
 
-> *O valor na Udemy possui uma quantia adicional.*
-
 Deseja adquirir esse curso em um **pacote promocional** com **5 Cursos de C++** ? Se sim, então clique no botão abaixo:
 
 <a href="https://terminalroot.com.br/promo" class="btn btn-lg btn-success btn-block my-2 py-3">
