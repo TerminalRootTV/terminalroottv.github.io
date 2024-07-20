@@ -17,21 +17,32 @@ tags:
 
 Qual a diferença de usar assim?
 > Sem o `new`.
-```cpp
+{% highlight cpp %}
 Base * base;
-```
+{% endhighlight %}
 
 E assim?
 > Com o `new`, mas **SEM** parênteses em `Base`.
-```cpp
+{% highlight cpp %}
 Base * base = new Base;
-```
+{% endhighlight %}
 
 Ou assim?
 > Com o `new`, mas **COM** parênteses em `Base`.
-```cpp
+{% highlight cpp %}
 Base * base = new Base();
-```
+{% endhighlight %}
+
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -46,7 +57,7 @@ No entanto, dependendo das *habilidades* do programador, isso pode ser classific
 
 O ideal não é *deletar* somente no *destrutor*, mas sim logo após usar e saber que não irá mais usar membros ou funções-membro do objeto alocado.
 
-```bash
+{% highlight bash %}
 // Má ideia
 Base * base1 = new Base();
 base1->call();
@@ -56,9 +67,9 @@ base2->call();
 
 delete base1;
 delete base2;
-```
+{% endhighlight %}
 
-```bash
+{% highlight bash %}
 // Boa ideia
 Base * base1 = new Base();
 base1->call();
@@ -67,12 +78,12 @@ delete base1;
 Base * base2 = new Base();
 base2->call();
 delete base2;
-```
+{% endhighlight %}
 
 Não usar ponteiros, faz a alocação na *Stack*, exemplo:
-```bash
+{% highlight bash %}
 Base base;
-```
+{% endhighlight %}
 
 ---
 
@@ -80,9 +91,9 @@ Base base;
 Em [C++](https://terminalroot.com.br/tags#cpp), o uso de parênteses na expressão `new Base()` ou `new Base` ao alocar um objeto dinamicamente tem algumas sutilezas, especialmente em relação ao que é chamado de *value initialization* e *default initialization*.
 
 ### Sem parênteses
-```cpp
+{% highlight cpp %}
 Base* base = new Base;
-```
+{% endhighlight %}
 Esta expressão realiza a *default initialization* do objeto `Base`, ela se comporta de maneira diferente dependendo do contexto da classe `Base`. 
 
 Se `Base` é uma classe com um construtor definido pelo usuário, o construtor é chamado. Se Base é uma classe sem um construtor definido pelo usuário, os membros não triviais da classe não são inicializados.
@@ -90,9 +101,9 @@ Se `Base` é uma classe com um construtor definido pelo usuário, o construtor �
 ---
 
 ### Com parênteses
-```cpp
+{% highlight cpp %}
 Base* base = new Base();
-```
+{% endhighlight %}
 Esta expressão realiza a *value initialization* do objeto `Base`, ela também se comporta de maneira diferente dependendo do contexto da classe Base.
 
 Se `Base` tem um construtor definido pelo usuário, o construtor é chamado. Se Base não tem um construtor definido pelo usuário, todos os membros são inicializados para seus valores padrão (`0` para tipos fundamentais, `nullptr` para ponteiros, etc.). 
@@ -100,7 +111,7 @@ Se `Base` tem um construtor definido pelo usuário, o construtor é chamado. Se 
 ---
 
 ### Exemplos
-```cpp
+{% highlight cpp %}
 #include <iostream>
 
 class Base{
@@ -120,9 +131,20 @@ int main(){
   std::cout << "O valor de x é: " << base2->x << '\n';
   delete base2;
 }
-```
+{% endhighlight %}
 
 Dependendo do seu sistema operacional e/ou versão do seu compilador, em ambos os casos podem aparecer `0`(zero), mas em outros casos de usuários que usarão seu software, correm risco de dados errôneos.
+
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
