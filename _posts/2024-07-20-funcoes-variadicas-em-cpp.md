@@ -62,6 +62,17 @@ int main() {
     *   `printNumbers(3, 10, 20, 30);`: Chama a função com `3` como o número de argumentos adicionais, seguido pelos valores `10`, `20` e `30`.
     *   `printNumbers(5, 1, 2, 3, 4, 5);`: Chama a função com `5` como o número de argumentos adicionais, seguido pelos valores `1`, `2`, `3`, `4` e `5`.
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ## Considerações Importantes
