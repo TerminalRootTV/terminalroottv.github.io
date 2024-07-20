@@ -122,7 +122,7 @@ int main(){
 }
 ```
 
-Dependendo do seu sistema operacional e/ou versão do seu compilador, em ambos os casos podem aparecer `0`(zero), mas em ooutros casos de usuários que usarão seu software, correm risco de dados errôneos.
+Dependendo do seu sistema operacional e/ou versão do seu compilador, em ambos os casos podem aparecer `0`(zero), mas em outros casos de usuários que usarão seu software, correm risco de dados errôneos.
 
 ---
 

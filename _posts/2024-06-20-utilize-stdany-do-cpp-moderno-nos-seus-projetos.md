@@ -312,5 +312,7 @@ if(var.index() == 1){
 //...
 ```
 
+Escolha `std::any` para flexibilidade máxima e quando os tipos armazenados são desconhecidos até o tempo de execução. Escolha `std::variant` para maior segurança e desempenho quando você sabe todos os tipos possíveis em tempo de compilação.
+
 Para mais informações acesse: <https://en.cppreference.com/w/cpp/utility/any>
 
