@@ -26,21 +26,24 @@ Para declarar uma função variádica, você especifica pelo menos um parâmetro
 
 {% highlight cpp %}
 #include <iostream>
+#include <cstdarg>
 
-template<typename T>
-void print(T value) {
-    std::cout << value << " ";
-}
-
-template<typename T, typename... Args>
-void print(T first, Args... args) {
-    print(first);
-    print(args...);
+void printNumbers(int count, ...) {
+    va_list args;
+    va_start(args, count);
+    
+    for (int i = 0; i < count; ++i) {
+        int num = va_arg(args, int);
+        std::cout << num << " ";
+    }
+    
+    va_end(args);
+    std::cout << std::endl;
 }
 
 int main() {
-    print(10, 20, 30);
-    print(1, 2, 3, 4, 5);
+    printNumbers(3, 10, 20, 30);
+    printNumbers(5, 1, 2, 3, 4, 5);
     
     return 0;
 }
