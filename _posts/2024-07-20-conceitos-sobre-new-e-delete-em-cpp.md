@@ -152,6 +152,6 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## Conclusão
-O ideal mesmo é usar [smart pointeirs](https://terminalroot.com.br/2022/08/entenda-ponteiros-inteligentes-em-cpp-smart-pointers.html), mas casos esteja desenvolvendo uma aplicação de tempo real e o desempenho estiver comprometido, prefira usar **COM PARÊNTESES**: `Base * base = new Base();`.
+O ideal mesmo é usar [smart pointeirs](https://terminalroot.com.br/2022/08/entenda-ponteiros-inteligentes-em-cpp-smart-pointers.html), mas caso esteja desenvolvendo uma aplicação de tempo real e o desempenho estiver comprometido, prefira usar **COM PARÊNTESES**: `Base * base = new Base();`.
 
 
