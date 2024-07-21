@@ -136,6 +136,9 @@ int main(){
 Dependendo do seu sistema operacional e/ou versão do seu compilador, em ambos os casos podem aparecer `0`(zero), mas em outros casos de usuários que usarão seu software, correm risco de dados errôneos.
 
 
+Usar assim: `Base * base;`(sem `new`), logicamente haverá uma `Falha de segmentação` ao tentar imprimir o `x`.
+
+
 <!-- SQUARE - GAMES ROOT -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
