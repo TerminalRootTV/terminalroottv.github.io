@@ -57,7 +57,7 @@ enum Color {
 };
 {% endhighlight %}
 
-1. **Conversão de Enum para String**: Permite converter valores de enum para suas representações de string correspondentes.
+### 1. **Conversão de Enum para String**: Permite converter valores de enum para suas representações de string correspondentes.
 {% highlight cpp %}
 std::string str = magic_enum::enum_name(Color::GREEN).data();
 {% endhighlight %}
@@ -76,7 +76,7 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-2. **Conversão de String para Enum**: Permite converter strings para valores de enum, se a string corresponder a um nome de valor de enum.
+### 2. **Conversão de String para Enum**: Permite converter strings para valores de enum, se a string corresponder a um nome de valor de enum.
 {% highlight cpp %}
 auto color = magic_enum::enum_cast<Color>("GREEN"); 
 if(color.has_value()){
@@ -84,20 +84,20 @@ if(color.has_value()){
 }
 {% endhighlight %}
 
-3. **Iteração sobre Valores de Enum**: Permite iterar sobre todos os valores de um enum.
+### 3. **Iteração sobre Valores de Enum**: Permite iterar sobre todos os valores de um enum.
 {% highlight cpp %}
 for(auto color : magic_enum::enum_values<Color>()){
   std::cout << magic_enum::enum_name(color) << '\n';
 }
 {% endhighlight %}
 
-4. **Obter Informações sobre o Enum**: Fornece funcionalidades para obter o número de valores de um enum, verificar se um valor está dentro do intervalo válido, etc.
+### 4. **Obter Informações sobre o Enum**: Fornece funcionalidades para obter o número de valores de um enum, verificar se um valor está dentro do intervalo válido, etc.
 {% highlight cpp %}
 constexpr std::size_t color_count = magic_enum::enum_count<Color>(); // 3 
 bool is_valid = magic_enum::enum_contains<Color>(2); // true
 {% endhighlight %}
 
-5. **Enum Indexação**: Permite obter o índice de um valor de enum e vice-versa.
+### 5. **Enum Indexação**: Permite obter o índice de um valor de enum e vice-versa.
 {% highlight cpp %}
 auto index = magic_enum::enum_index(Color::BLUE); // 2 
 auto color = magic_enum::enum_value<Color>(index.value()); // Color::BLUE
