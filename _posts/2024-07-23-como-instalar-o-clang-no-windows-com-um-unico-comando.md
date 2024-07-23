@@ -2,7 +2,7 @@
 layout: post
 title: "Como Instalar o Clang no Windows com um único comando"
 date: 2024-07-23 17:29:02
-image: '/assets/img/img/windows/clang/clang-windows.jpg'
+image: '/assets/img/windows/clang/clang-windows.jpg'
 description: "🐉 Mais uma opção para compilar seus programas via linha de comando no Windows."
 icon: 'ion:terminal-sharp'
 iconname: 'Windows/LLVM'
