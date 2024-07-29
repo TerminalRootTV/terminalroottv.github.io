@@ -89,6 +89,7 @@ int main(){
 ---
 
 ## Links úteis
++ [Como Usar std::function em C++](https://terminalroot.com.br/2023/05/como-usar-stdfunction-em-cpp.html)
 + [Como usar e pra que serve a biblioteca magic_enum](https://terminalroot.com.br/2024/07/como-usar-e-pra-que-serve-a-biblioteca-magicenum.html)
 + [Conceitos sobre new e delete em C++](https://terminalroot.com.br/2024/07/conceitos-sobre-new-e-delete-em-cpp.html)
 + [Funções Variádicas em C++](https://terminalroot.com.br/2024/07/funcoes-variadicas-em-cpp.html)
