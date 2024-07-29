@@ -7,9 +7,11 @@ description: "🫧 O Bubble Sort compara cada par de elementos adjacentes e os t
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
 tags:
+- algoritmos
+- cpp
+- cppdaily
 - programacao
 - desenvolvimento
-- cpp
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
