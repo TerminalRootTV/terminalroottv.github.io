@@ -107,8 +107,6 @@ Explica como implementar a coleta de lixo, incluindo contagem de referências e 
 ## 06. [Crafting Interpreters](https://www.amazon.com.br/Crafting-Interpreters-Robert-Nystrom/dp/0990582930/?&_encoding=UTF8&tag=marcoscpp-20&linkCode=ur2&linkId=9e1a5f60e203aaddeebe2e6c0a380901&camp=1789&creative=9325)
 ![06](/assets/img/livros/lang-books/06.jpg) 
 
-> Foi justamente com esse livro que eu consegui terminar minha própria linguagem de programação!
-
 Apesar de usá-las todos os dias, a maioria dos engenheiros de software sabe pouco sobre como as linguagens de programação são projetadas e implementadas. 
 
 Para muitos, sua única experiência com esse ramo da ciência da computação foi uma terrível aula de "compiladores" que eles sofreram na graduação e tentaram apagar da memória assim que rabiscaram sua última conversão de NFA para DFA no exame final. 
