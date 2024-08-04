@@ -192,7 +192,7 @@ int main(){
 
 </details>
 
-<a href="/downs/font.tff" class="btn btn-danger btn-lg">Clique aqui para fazer download da fonte uttilizada</a>
+<a href="/downs/font.tff.zip" class="btn btn-danger btn-lg">Clique aqui para fazer download da fonte uttilizada</a>
 
 Compile rode:
 {% highlight bash %}
