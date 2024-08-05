@@ -102,6 +102,16 @@ Animation::Animation(){
     points[i].shape = sf::CircleShape(3);
     points[i].phase = i * 0.3;
   }
+
+  font.loadFromFile("./font.ttf");
+  h1.setFont(font);
+  h2 = h1;
+  h1.setString("Start Game");
+  h1.setCharacterSize(30);
+  h1.setPosition(window->getSize().x / 2.f - 150.f, window->getSize().y / 2.f);
+  h2.setString("Play");
+  h2.setCharacterSize(18);
+  h2.setPosition(window->getSize().x / 2.f - 50.f, window->getSize().y / 2.f + 50.f);
 }
 
 void Animation::background(){
@@ -121,16 +131,6 @@ void Animation::background(){
     float y = window->getSize().y / 2.f + sin(rad) * window->getSize().y;
     gradient.append(sf::Vertex(sf::Vector2f(x,y), sf::Color(252,70,107)));
   }
-
-  font.loadFromFile("./font.ttf");
-  h1.setFont(font);
-  h2 = h1;
-  h1.setString("Start Game");
-  h1.setCharacterSize(30);
-  h1.setPosition(window->getSize().x / 2.f - 150.f, window->getSize().y / 2.f);
-  h2.setString("Play");
-  h2.setCharacterSize(18);
-  h2.setPosition(window->getSize().x / 2.f - 50.f, window->getSize().y / 2.f + 50.f);
 }
 
 void Animation::events(){
@@ -192,7 +192,7 @@ int main(){
 
 </details>
 
-<a href="/downs/font.tff.zip" class="btn btn-danger btn-lg" download>Clique aqui para fazer download da fonte uttilizada</a>
+<a href="https://terminalroot.com.br/downs/font.ttf.zip" class="btn btn-danger btn-lg" download>Clique aqui para fazer download da fonte uttilizada</a>
 
 Compile rode:
 {% highlight bash %}
