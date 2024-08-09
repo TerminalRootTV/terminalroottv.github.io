@@ -237,4 +237,7 @@ Existe um outro tipo também muito usado que é o `sf::VertexArray` veremos mais
 
 Para mais informações acesse: <https://www.sfml-dev.org/tutorials/2.5/graphics-vertex-array.php>.
 
+## Aprenda [SFML](https://terminalroot.com.br/games) e crie 5 jogos para [Windows](https://terminalroot.com.br/tags#windows) e [Linux](https://terminalroot.com.br/tags#gnulinux)
+### <https://terminalroot.com.br/sfml>
+
 
