@@ -148,7 +148,7 @@ window.draw(vertex, 5, sf::TriangleFan);
 
 ## Exemplos
 
-### 01. Desenhando triângulo colorido estilo o exemplo básico do [OpenGL]()
+### 01. Desenhando triângulo colorido estilo o exemplo básico do [OpenGL](https://terminalroot.com.br/tags#opengl)
 {% highlight cpp %}
 ...
 sf::Vertex vertex[3] = {
