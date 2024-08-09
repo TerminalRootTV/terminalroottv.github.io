@@ -22,7 +22,7 @@ Aliás, [SFML](https://terminalroot.com.br/tags#sfml) também é interessante pa
 
 E uma das ferramentas interessantes do SFML, para usar, é a `sf::Vertex`.
 
-`sf::Vertex`é uma *classe* (ou mais precisamente, uma `struct`) do SFML que representa um único vértice no espaço 2D e armazena informações como: 
+`sf::Vertex` é uma *classe* (ou mais precisamente, uma `struct`) do SFML que representa um único vértice no espaço 2D e armazena informações como: 
 + posição; 
 + cor; 
 + e coordenadas de textura.
