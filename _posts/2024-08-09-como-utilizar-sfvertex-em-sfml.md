@@ -233,7 +233,20 @@ int main() {
 
 ---
 
-Existe um outro tipo também muito usado que é o `sf::VertexArray` veremos mais sobre ele no próximo artigo.
+Existe um outro tipo também muito usado que é o `sf::VertexArray`, ele facilita o uso e a implementação, sem dizer que é *drawable*, exemplo:
+{% highlight cpp %}
+...
+sf::VertexArray lines(sf::LinesStrip, 5);
+lines[0].position = sf::Vector2f(100.f, 100.f);
+lines[1].position = sf::Vector2f(200.f, 100.f);
+lines[2].position = sf::Vector2f(200.f, 200.f);
+lines[3].position = sf::Vector2f(100.f, 200.f);
+lines[4].position = sf::Vector2f(100.f, 100.f);
+...
+window.draw(lines);
+...
+{% endhighlight %}
+> Isso renderiza um quadrado de linhas sem *fill*. [Nesse vídeo](https://youtu.be/8RHAsIP51R8) criamos um fundo gradiente com `sf::VertexArray`.
 
 Para mais informações acesse: <https://www.sfml-dev.org/tutorials/2.5/graphics-vertex-array.php>.
 
