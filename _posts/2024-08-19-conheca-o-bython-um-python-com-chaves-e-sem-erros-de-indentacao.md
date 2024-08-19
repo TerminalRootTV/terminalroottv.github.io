@@ -52,12 +52,12 @@ cout("Olá, Bython")
 
 E rodar via linha de comando:
 {% highlight bash %}
-bython test-bython.py
+bython main.py
 {% endhighlight %}
 
 Ou se não estiver na `venv`, use o caminho completo:
 {% highlight bash %}
-~/.local/bin/venv/bin/bython test-bython.py
+~/.local/bin/venv/bin/bython main.py
 {% endhighlight %}
 
 Estranho e legal ao mesmo tempo, né?! 😃 
