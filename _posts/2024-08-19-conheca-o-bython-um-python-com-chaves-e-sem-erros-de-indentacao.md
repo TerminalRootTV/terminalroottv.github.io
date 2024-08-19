@@ -54,6 +54,7 @@ E rodar via linha de comando:
 {% highlight bash %}
 bython main.py
 {% endhighlight %}
+> Para sair do `venv` digite: `deactivate`.
 
 Ou se não estiver na `venv`, use o caminho completo:
 {% highlight bash %}
