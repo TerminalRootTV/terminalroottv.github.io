@@ -7,17 +7,17 @@
 
   <!-- METADADOS:  -->
   <meta name="keywords" content="c++, cpp, cplusplus, gnu, devgames">
-	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="author" content="{{ site.author }}">
-	<meta name="reply-to" content="{{ site.email }}">
-	<meta name="generator" content="VIM - Vi IMproved 8.1 (2020 Mar 18, compiled Dec  7 2019 00:09:36)">
-	<meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
-	<meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>
-	
-	<!-- Favicons -->
-	<link href="/assets/img/site/favicon.png" rel="icon">
-	<link rel="search" type="application/opensearchdescription+xml" href="https://terminalroot.com.br/www-terminalroot-com-br.xml" title="Terminal Root - Linux e Desenvolvimento">
-	<link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  <meta name="reply-to" content="{{ site.email }}">
+  <meta name="generator" content="VIM - Vi IMproved 8.1 (2020 Mar 18, compiled Dec  7 2019 00:09:36)">
+  <meta name="google-site-verification" content="zMxWGsmS5xlxc71KSaJx77T6CfB4bP3hdO_v5qfAsuY">
+  <meta name="p:domain_verify" content="2fedc285bd24f0b5808c51a4cbd58e86"/>
+
+  <!-- Favicons -->
+  <link href="/assets/img/site/favicon.png" rel="icon">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://terminalroot.com.br/www-terminalroot-com-br.xml" title="Terminal Root - Linux e Desenvolvimento">
+  <link href="/assets/img/site/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- BOOTSTRAP:  -->
   <!-- Bootstrap CSS -->
@@ -31,7 +31,7 @@
   <script src="/assets/js/bootstrap.min.js"></script>
 
   <script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
-  
+
   <!-- VUEJS -->
   <script src="/assets/js/vue.js"></script>
 
@@ -51,76 +51,65 @@
   <link rel="stylesheet" href="/assets/css/main-dark.css">
   <script src="/assets/js/toogle-theme.js"></script>
 
-  <!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-75725905-1', 'auto');
-	  ga('send', 'pageview');
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@terminalroottv">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.image %}
+  <meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
+  {% else %}
+  <meta property="twitter:image:src" content="{{ "/assets/img/terminalroot.jpg" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="twitter:image:src" content="https://raw.githubusercontent.com/TerminalRootTV/terminalroottv.github.io/master/assets/img/terminalroot.com.br.jpg">
+  {% endif %}
 
-	</script>
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.url }}{{page.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ "/assets/img/terminalroot.jpg" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:image" content="https://raw.githubusercontent.com/TerminalRootTV/terminalroottv.github.io/master/assets/img/terminalroot.com.br.jpg">
+  {% endif %}
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="fb:admins" content="439112053506193"/>
 
-	<!-- Social: Twitter -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@terminalroottv">
-	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	{% if page.image %}
-	<meta property="twitter:image:src" content="{{ site.url }}{{page.image }}">
-	{% else %}
-	<meta property="twitter:image:src" content="{{ "/assets/img/terminalroot.jpg" | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="twitter:image:src" content="https://raw.githubusercontent.com/TerminalRootTV/terminalroottv.github.io/master/assets/img/terminalroot.com.br.jpg">
-	{% endif %}
-
-	<!-- Social: Facebook / Open Graph -->
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	{% if page.image %}
-	<meta property="og:image" content="{{ site.url }}{{page.image }}">
-	{% else %}
-	<meta property="og:image" content="{{ "/assets/img/terminalroot.jpg" | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="og:image" content="https://raw.githubusercontent.com/TerminalRootTV/terminalroottv.github.io/master/assets/img/terminalroot.com.br.jpg">
-	{% endif %}
-	<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:site_name" content="{{ site.title }}">
-	<meta property="fb:admins" content="439112053506193"/>
-
-	<!-- My Main Stylesheet File -->
-	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- My Main Stylesheet File -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
 
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-2838251107855362",
-			enable_page_level_ads: true
-		});
-	</script>
-	
-	<script data-ad-client="ca-pub-2838251107855362" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	
-	<script async custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-2838251107855362",
+      enable_page_level_ads: true
+    });
+  </script>
 
-    </script>
+  <script data-ad-client="ca-pub-2838251107855362" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <script async custom-element="amp-auto-ads"
+                src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+
+  </script>
 
   <link rel="stylesheet" href="/assets/css/dracula.css">
   <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
   <style>
-    :root {
-       --plyr-color-main: #554477;
-    }
+:root {
+  --plyr-color-main: #554477;
+}
     .plyr {
-       border-radius: 3px;
-       /*border: 6px solid #554477;*/
-       width: 800px;
-       height: 468px;
-     }
+      border-radius: 3px;
+      /*border: 6px solid #554477;*/
+      width: 800px;
+      height: 468px;
+    }
   </style>
 
   <!-- REMOVE fbclid -->
@@ -131,5 +120,5 @@
       history.pushState({}, null, nova_url);
     }
   </script>
-   
+
 </head>
