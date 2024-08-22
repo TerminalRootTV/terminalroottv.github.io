@@ -35,7 +35,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## Instalação
-Você pode utilizar binário pré-comppilados para [Windows](https://terminalroot.com.br/tags#windows), [macOS](https://terminalroot.com.br/tags#macos), [GNU/Linux](https://terminalroot.com.br/tags#gnulinux) e [FreeBSD](https://terminalroot.com.br/tags#freebsd).
+Você pode utilizar binários pré-compilados para [Windows](https://terminalroot.com.br/tags#windows), [macOS](https://terminalroot.com.br/tags#macos), [GNU/Linux](https://terminalroot.com.br/tags#gnulinux) e [FreeBSD](https://terminalroot.com.br/tags#freebsd).
 
 Basta fazer o download na página de releases. Exemplo para [Ubuntu](https://terminalroot.com.br/tags#ubuntu)(funciona e serve em qualquer distro, mas precisa ter a lib [cURL](https://terminalroot.com.br/2021/05/utilizando-curl-com-cpp.html) instalada):
 > Exemplo para a versão de build: `3615`.
