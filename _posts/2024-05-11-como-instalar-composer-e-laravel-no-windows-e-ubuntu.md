@@ -29,7 +29,7 @@ Em ambos os casos, tanto para o Ubuntu quanto para o Windows é necessário poss
 + Veja como instalar o PHP no Ubuntu:
 ```bash
 sudo apt update
-sudo apt install php php-cli php-curl php-xml php-mbstring
+sudo apt install php php-cli php-curl php-xml php-mbstring php-sqlite3
 ```
 
 <!-- SQUARE - GAMES ROOT -->
@@ -45,7 +45,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 # Ubuntu
-No caso do Ubuntu além do PHP também é necessário possuir também o `php-curl` como citado no comando acima.
+No caso do Ubuntu além do PHP também é necessário possuir também os pacotes citados acima.
 
 ## Primeiro instale o [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
 #### 1. Baixe o instalador para o composer:
@@ -86,10 +86,10 @@ Você nem precisa instalar o Laravel para criar projetos com Laravel, apenas usa
 ```bash
 composer create-project laravel/laravel example-app
 ```
+> Selecione o Banco SQLite para teste, para outros instale o driver correspondente similar fizemos com o `php-sqlite3`, depois de criar o projeto rode: `cd example-app && php artisan migrate` dentro do projeto.
 
 E para ver seu projeto rodando no navegador, rode:
 ```bash
-cd example-app
 php artisan serve
 ```
 
