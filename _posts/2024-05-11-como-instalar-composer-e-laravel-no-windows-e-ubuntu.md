@@ -29,7 +29,7 @@ Em ambos os casos, tanto para o Ubuntu quanto para o Windows é necessário poss
 + Veja como instalar o PHP no Ubuntu:
 ```bash
 sudo apt update
-sudo apt install php php-cli php-curl
+sudo apt install php php-cli php-curl php-xml php-mbstring
 ```
 
 <!-- SQUARE - GAMES ROOT -->
