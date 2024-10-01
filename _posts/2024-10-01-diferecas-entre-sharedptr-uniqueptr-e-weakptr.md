@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Difereças entre shared_ptr, unique_ptr e weak_ptr"
+title: "Diferenças entre shared_ptr, unique_ptr e weak_ptr"
 date: 2024-10-01 15:35:47
 image: '/assets/img/cppdaily/smarts.jpg'
 description: "🏹 Utilizados para gerenciar a alocação e desalocação automática de memória."
