@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Qual a mais rápida: std::unordered_map OU std::map?"
+title: "Qual a mais rápida: std::unordered_map ou std::map?"
 date: 2024-10-25 10:31:32
 image: '/assets/img/cppdaily/unordered-vs-map.jpg'
 description: "🚀 A principal diferença entre elas está na forma como as chaves são armazenadas e acessadas."
