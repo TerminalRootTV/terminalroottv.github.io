@@ -49,7 +49,7 @@ NEW PROMO: https://cutt.ly/deHLQJw9
 ### Você é iniciante? Quer começar com C++ do zero e obter esse curso?
 Então, sugerimos adquirir nosso **Pacote Promocional** com mais de 500 reais de desconto! Clique no link abaixo e saiba mais:
 
-<a href="https://terminalroot.com.br/promo" class="btn btn-lg btn-info btn-block my-2 py-3">
+<a href="https://terminalroot.com.br/promo" class="btn btn-lg btn-success btn-block my-2 py-3">
   Comprar Pacote Promocional
 </a>
 
