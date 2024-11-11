@@ -38,13 +38,12 @@ NEW PROMO: https://cutt.ly/deHLQJw9
 
 ## Valor do Curso
 **R$ 799,90**
-> Escolha uma das formas abaixo para comprar o curso.
+> Se você já faz parte do **Club Terminal Root**, entre em contato, há um valor promocional para você!
 
 <a href="https://cutt.ly/2eHLxHd4" class="btn btn-lg btn-info btn-block my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
 
-> No momento, só está disponível através do PayPal, mas futuramente podemos adicionar novas formas de aquisição.
 
 ### Você é iniciante? Quer começar com C++ do zero e obter esse curso?
 Então, sugerimos adquirir nosso **Pacote Promocional** com mais de 500 reais de desconto! Clique no link abaixo e saiba mais:
