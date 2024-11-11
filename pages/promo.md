@@ -27,7 +27,8 @@ color: '#5c3566'
 
 ### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90 + 99.90 + 799.90` e o resultado seria `1.509,30`.
 
-### Mas com descontos dessa promoção fica tudo por somente `$RS 999,90` . Um baita de um desconto, você economiza mais de *500 reais* !!! 
+### Mas com descontos dessa promoção fica tudo por somente 10x de `R$ 99,90` ou à vista ou no PIX por `$RS 999,90`. 
+Um baita de um desconto, você economiza mais de *500 reais* !!! 
 > *Essa é uma promoção por tempo limitado*
 
 <a href="https://cutt.ly/deHLQJw9" class="btn btn-lg btn-success btn-block my-2 py-3">
