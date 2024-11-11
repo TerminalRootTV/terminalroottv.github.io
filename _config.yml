@@ -37,6 +37,8 @@ links:
     url: /
   - title: Cursos
     url: /cursos
+  - title: Curso de Criação de Linguagens de Programação
+    url: /mylang
   - title: C++
     url: /cpp
   - title: Desenvolvimento de Games
