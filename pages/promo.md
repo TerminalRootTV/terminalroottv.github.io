@@ -9,6 +9,8 @@ color: '#5c3566'
 
 ![{{ page.title }}]({{ page.image }} "{{ page.description }}") 
 
+---
+
 # 👑 Pacote PREMIUM
 ### Comprar Pacote com os **7 Cursos de C++ e Linguagem C**
 + **Mais de 50 horas** de conteúdo .
@@ -52,7 +54,7 @@ color: '#5c3566'
 ### Mas com descontos dessa promoção fica tudo por somente `$RS 299,99` . Um baita de um desconto, você economiza mais de *300 reais* !!! 
 > *Essa é uma promoção por tempo limitado*
 
-<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-success btn-block my-2 py-3">
+<a href="https://cutt.ly/CLCpp" class="btn btn-lg btn-warning btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Pacote Promocional com 5 Cursos C++
 </a>
 
