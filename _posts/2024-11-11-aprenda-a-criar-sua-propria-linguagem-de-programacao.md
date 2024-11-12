@@ -43,8 +43,7 @@ Esse curso contém tudo o que você precisa para implementar uma linguagem de sc
 ---
 
 ## Valor do Curso
-**R$ 799,90**
-> Se você já faz parte do **Club Terminal Root**, entre em contato, há um valor promocional para você!
+Adquira a partir de 10x de **R$ 79,90** ou à vista ou no PIX por R$ 799,90.
 
 <a href="https://cutt.ly/2eHLxHd4" class="btn btn-lg btn-info btn-block my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar com PayPal
