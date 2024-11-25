@@ -34,10 +34,10 @@ sudo apt install libasound2-dev mesa-common-dev libx11-dev libxrandr-dev \
    build-essential cmake make g++ \
    freeglut3-dev libglfw3 libglfw3-dev
 {% endhighlight %}
-> A sessão precisa ter sido iniciada pelo X11, se estiver no Wayland, encerre a sessão e logue novamente escolhendo o [Xorg]().
+> A sessão precisa ter sido iniciada pelo X11, se estiver no Wayland, encerre a sessão e logue novamente escolhendo o [Xorg](https://terminalroot.com.br/2021/05/5-dicas-rapidas-para-cpp.html).
 
-Depois, é importantantíssimo possuir o [Emscripten]() instalado, nós mostramos através de vídeo como fazer isso, mas em resumo, basta rodar esses comandos abaixo:
-> Lembre-se de possuir o [Git]() instalado e atualizado.
+Depois, é importantantíssimo possuir o [Emscripten](https://terminalroot.com.br/2023/02/como-transformar-seus-jogos-c-cpp-para-web-com-emscripten-sdl2.html) instalado, nós mostramos através de vídeo como fazer isso, mas em resumo, basta rodar esses comandos abaixo:
+> Lembre-se de possuir o [Git](https://terminalroot.com.br/tags#git) instalado e atualizado.
 
 {% highlight bash %}
 cd
@@ -95,7 +95,7 @@ Install the project...
 </details>
 
 
-O procedimento acima instala as dependências somente para Web, no entanto, ainda é necessário instalar também para Desktop, usando o [CMake]():
+O procedimento acima instala as dependências somente para Web, no entanto, ainda é necessário instalar também para Desktop, usando o [CMake](https://terminalroot.com.br/tags#cmake):
 > Note que não foi usado o argumento: ~~-DBUILD_SHARED_LIBS=ON~~.
 
 {% highlight bash %}
