@@ -103,7 +103,7 @@ cmake -B build -DPLATFORM=PLATFORM_DESKTOP -DPLATFORM=Desktop;Web .
 cmake --build build
 sudo cmake --install build/
 {% endhighlight %}
-> Note que não precisa compiar o `.so`, pois não há.
+> Note que não precisa copiar o `.so`, pois não há.
 
 <details>
  <summary>Aqui, outro resumo para onde são copiados os arquivos, inclusive o arquivo <code>libraylib.a</code>:</summary>
