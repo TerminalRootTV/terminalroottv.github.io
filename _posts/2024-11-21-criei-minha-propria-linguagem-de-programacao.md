@@ -7,6 +7,10 @@ description: "👑 Ter/Terlang é uma Linguagem de programação para scripts co
 icon: 'ion:terminal-sharp'
 iconname: 'Ter/Terlang'
 tags:
+- cpp
+- ter
+- terlang
+- programacao
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
