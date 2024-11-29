@@ -39,6 +39,9 @@ NEW PROMO: https://cutt.ly/deHLQJw9
 ## Valor do Curso
 Adquira a partir de 10x de **R$ 79,90** ou à vista ou no PIX por R$ 799,90.
 
+## PROMOÇÃO BLACK FRIDAY - 100 reais de desconto:
+Link válido por tempo limitado: <https://cutt.ly/ueHLbbA7>
+
 <a href="https://cutt.ly/2eHLxHd4" class="btn btn-lg btn-info btn-block my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar com PayPal
 </a>
