@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o CppFront(Cpp2): um C++ Safe, Funcional e Veloz"
 date: 2024-12-08 10:25:02
 image: '/assets/img/cppdaily/cppfront.jpg'
-description: "🚀 🔊 O Cpp2 pretende ser outra "pele" para o próprio C++, não é a intenção do CppFront ser um sucessor do C++"
+description: "🚀 🔊 O Cpp2 pretende ser outra 'pele' para o próprio C++, não é a intenção do CppFront ser um sucessor do C++"
 icon: 'ion:terminal-sharp'
 iconname: 'CppFront/Cpp2'
 tags:
