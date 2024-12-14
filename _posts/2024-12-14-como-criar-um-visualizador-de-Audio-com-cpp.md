@@ -5,8 +5,11 @@ date: 2024-12-14 17:01:37
 image: '/assets/img/multimidia/audio-visualizer.jpg'
 description: "📈 Nesse vídeo criamos um Áudio Espectro com C++ e as bibliotecas: SFML e FFT"
 icon: 'ion:terminal-sharp'
-iconname: 'Terminal Root'
+iconname: 'C++'
 tags:
+- cpp
+- sfml
+- multimidia
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
