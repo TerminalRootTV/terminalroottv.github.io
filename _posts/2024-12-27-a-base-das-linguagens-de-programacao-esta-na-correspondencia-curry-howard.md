@@ -129,8 +129,6 @@ disjuncao = Left valorA -- Ou Right valorB
 
 ---
 
-### Conclusão
-
 A correspondência Curry–Howard é um conceito poderoso que unifica a lógica e a programação, permitindo uma compreensão mais profunda de como projetamos e verificamos software. Usando exemplos concretos e ferramentas modernas, é possível aplicar esses princípios para escrever códigos mais seguros e confiáveis.
 
 Com essa visão, podemos apreciar como as [linguagens de programação modernas](https://terminalroot.com.br/mylang) são profundamente influenciadas pela teoria dos tipos e pela lógica matemática.
