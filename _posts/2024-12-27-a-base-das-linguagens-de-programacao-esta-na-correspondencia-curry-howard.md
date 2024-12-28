@@ -135,6 +135,9 @@ A correspondência Curry–Howard é um conceito poderoso que unifica a lógica 
 
 Com essa visão, podemos apreciar como as linguagens de programação modernas são profundamente influenciadas pela teoria dos tipos e pela lógica matemática.
 
+## Aprenda a Criar sua própria linguagem de programação:
+### <https://terminalroot.com.br/mylang>
+
 ---
 
 <!-- RECTANGLE 2 - OnParagragraph -->
