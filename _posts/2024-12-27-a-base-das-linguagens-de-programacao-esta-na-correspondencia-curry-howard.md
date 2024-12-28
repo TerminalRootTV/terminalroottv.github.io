@@ -37,7 +37,7 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-### Origem e Contexto
+## Origem e Contexto
 
 ![Haskell Curry](/assets/img/compiladores/curry.png) 
 ![William Howard](/assets/img/compiladores/howard.jpg) 
@@ -51,7 +51,7 @@ A ideia ganhou notoriedade quando foi aplicada à lógica intuicionista, especia
 
 ---
 
-### Intuição por Trás da Correspondência
+## Intuição por Trás da Correspondência
 
 ![Correspondência](https://i.gifer.com/origin/b1/b106c2c02471a031d2e9c5fc3c739ca1_w200.gif) 
 
@@ -78,7 +78,7 @@ data-full-width-responsive="true"></ins>
 
 ---
 
-### Exemplos na Prática
+## Exemplos na Prática
 
 ![Exemplos na Prática](https://media.tenor.com/trIRGeV6UUcAAAAM/allen-iverson-meme-iverson-meme.gif) 
 
@@ -120,7 +120,7 @@ disjuncao = Left valorA -- Ou Right valorB
 
 ---
 
-### Benefícios da Correspondência Curry–Howard
+## Benefícios da Correspondência Curry–Howard
 ![Benefícios da Correspondência curry-howard](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Coq_plus_comm_screenshot.jpg/300px-Coq_plus_comm_screenshot.jpg) 
 
 1. **Segurança de tipos**: Garantir que um programa está correto equivale a provar uma fórmula lógica.
