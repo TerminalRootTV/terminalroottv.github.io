@@ -17,7 +17,7 @@ tags:
 
 ---
 
-[A](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) correspondência Curry–Howard é uma observação profunda na ciência da computação e na lógica matemática que estabelece uma relação direta entre sistemas formais de prova e sistemas de programação. Em resumo, a correspondência afirma que:
+[A](https://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence) correspondência **Curry–Howard** é uma observação profunda na **ciência da computação** e na **lógica matemática** que estabelece uma relação direta entre **sistemas formais de prova** e **sistemas de programação**. Em resumo, a correspondência afirma que:
 
 - **Provas lógicas correspondem a programas computacionais.**
 - **Fórmulas lógicas correspondem a tipos.**
@@ -42,12 +42,12 @@ data-ad-slot="5351066970"></ins>
 ![Haskell Curry](/assets/img/compiladores/curry.png) 
 ![William Howard](/assets/img/compiladores/howard.jpg) 
 
-A correspondência recebeu esse nome em homenagem a Haskell Curry e William Howard, que trabalharam separadamente para estabelecer as relações entre a lógica proposicional e os sistemas de programação.
+A correspondência recebeu esse nome em homenagem a **Haskell Curry** e **William Howard**, que trabalharam separadamente para estabelecer as relações entre a **lógica proposicional** e os **sistemas de programação**.
 
 - **Haskell Curry**: Explorou a relação entre sistemas formais e funções.
 - **William Howard**: Formalizou a relação entre provas lógicas e tipos em sistemas de programação em seu artigo de 1969.
 
-A ideia ganhou notoriedade quando foi aplicada à lógica intuicionista, especialmente com o sistema de tipos no âmbito da programação funcional.
+A ideia ganhou notoriedade quando foi aplicada à lógica intuicionista, especialmente com o **sistema de tipos** no âmbito da **programação funcional**.
 
 ---
 
@@ -85,7 +85,7 @@ data-full-width-responsive="true"></ins>
 #### 1. Lógica Simples: Implicação
 Na lógica, a implicação `A → B` significa que, se `A` é verdadeiro, então `B` também é verdadeiro.
 
-No sistema de tipos, isso corresponde a um programa que recebe um valor do tipo `A` e retorna um valor do tipo `B`. Esse programa pode ser representado em uma linguagem funcional como Haskell:
+No sistema de tipos, isso corresponde a um programa que recebe um valor do tipo `A` e retorna um valor do tipo `B`. Esse programa pode ser representado em uma linguagem funcional como [Haskell](https://terminalroot.com.br/tags#haskell):
 
 ```haskell
 implicacao :: (A -> B) -> A -> B
@@ -129,9 +129,9 @@ disjuncao = Left valorA -- Ou Right valorB
 
 ---
 
-A correspondência Curry–Howard é um conceito poderoso que unifica a lógica e a programação, permitindo uma compreensão mais profunda de como projetamos e verificamos software. Usando exemplos concretos e ferramentas modernas, é possível aplicar esses princípios para escrever códigos mais seguros e confiáveis.
+**A correspondência Curry–Howard** é um conceito poderoso que unifica a **lógica e a programação**, permitindo uma compreensão mais profunda de como projetamos e verificamos software. **Usando exemplos concretos e ferramentas modernas, é possível aplicar esses princípios para escrever códigos mais seguros e confiáveis**.
 
-Com essa visão, podemos apreciar como as [linguagens de programação modernas](https://terminalroot.com.br/mylang) são profundamente influenciadas pela teoria dos tipos e pela lógica matemática.
+Com essa visão, podemos apreciar como as [linguagens de programação modernas](https://terminalroot.com.br/mylang) são profundamente influenciadas pela **teoria dos tipos** e pela **lógica matemática**.
 
 ## Aprenda a Criar sua própria linguagem de programação:
 ### <https://terminalroot.com.br/mylang>
