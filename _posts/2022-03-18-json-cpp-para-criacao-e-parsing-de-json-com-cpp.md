@@ -19,6 +19,14 @@ tags:
 **JSON C++** é um utilitário para [C++ Moderno](https://terminalroot.com.br/cpp) que serve para criar e ler arquivos [JSON](https://terminalroot.com.br/2022/01/visualize-json-de-forma-interativa-pelo-terminal.html).
 
 # Instalação
+Para instalar você pode procurar o `nlohmann/json` através da ferramenta de pesquisa do seu *gerenciador de pacotes* e após encontrar instalar, exemplo usando o *APT* no [Ubuntu](https://terminalroot.com.br/tags#ubuntu):
+
+```bash
+sudo apt install nlohmann-json3-dev
+```
+
+Outra forma também é clonar, compilar e instalar a a partir do [repositório do GitHub](https://github.com/nlohmann/json), seguindo os passos:
+
 Certifique-se de já possuir o [Git](https://terminalroot.com.br/tags#git), [GCC](https://terminalroot.com.br/tags#gcc) ou [Clang](https://terminalroot.com.br/tags#clang), [CMake](https://terminalroot.com.br/tags#cmake), [GNU Make](https://terminalroot.com.br/tags#make) instalados no seu sistema.
 
 Em seguida clone, construa e instale com os seguintes comandos:
