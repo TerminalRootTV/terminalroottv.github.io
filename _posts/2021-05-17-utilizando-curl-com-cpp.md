@@ -9,6 +9,7 @@ iconname: 'C++'
 tags:
 - cppdaily
 - cpp
+- curl
 ---
 
 ![Utilizando CURL com C++](/assets/img/cppdaily/curl-cpp.jpg)
