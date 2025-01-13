@@ -178,6 +178,4 @@ Nós possuímos diversos Cursos de C++, tais como:
 
 Lembrando que os códigos utilizados para os testes de desempenho podem ser encontrados no repositório: <https://github.com/terroo/langs-test-loop>.
 
-<style>
-img {border:none;}
-</style>
+
