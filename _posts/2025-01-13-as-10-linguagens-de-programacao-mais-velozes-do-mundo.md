@@ -2,7 +2,7 @@
 layout: post
 title: "As 10 Linguagens de Programação mais velozes do mundo"
 date: 2025-01-13 13:49:59
-image: '/assets/img/programacao/fast-langs.png'
+image: '/assets/img/programacao/fast-langs/fast-langs.png'
 description: "🚀 No mundo atual e futuro onde a quantidade de informação é muito grande é notável a necessidade de ferramentas que condizem com essa realidade."
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
@@ -127,7 +127,7 @@ Ada foi nomeada em homenagem a Ada Lovelace (1815–1852), que foi creditada com
 ---
 
 ## 04° POSIÇÃO: [Vala](https://vala.dev/)
-![Vala](/assets/img/programacao/fast-langs/ada.png) 
+![Vala](/assets/img/programacao/fast-langs/vala.png) 
 
 Vala é uma linguagem de programação orientada a objetos com um compilador auto-hospedado que gera código C e usa o sistema [GObject](https://terminalroot.com.br/2021/03/aprenda-a-criar-um-aplicativo-grafico-com-cpp-e-gtkmm.html).
 
