@@ -167,14 +167,17 @@ C++ é uma linguagem de programação que além de baseada na linguagem de progr
 Originalmente C++ foi chamada de "C com Classes", mas logo depois foi alterada para C++(um C incrementado: `++`, como loop for, por exemplo).
 
 Nós possuímos diversos Cursos de C++, tais como:
-+ 01. [Curso de Criação de Linguagem de Programação](https://terminalroot.com.br/mylang)
-+ 02. [Curso de C++ Moderno para Iniciantes](https://terminalroot.com.br/cpp)
-+ 03. [Curso de C++ Moderno Avançado](https://terminalroot.com.br/c++)
-+ 04. [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/sfml)
-+ 05. [Curso de Qt Moderno com C++](https://terminalroot.com.br/cpp)
-+ 06. [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)
++ [Curso de Criação de Linguagem de Programação](https://terminalroot.com.br/mylang)
++ [Curso de C++ Moderno para Iniciantes](https://terminalroot.com.br/cpp)
++ [Curso de C++ Moderno Avançado](https://terminalroot.com.br/c++)
++ [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/sfml)
++ [Curso de Qt Moderno com C++](https://terminalroot.com.br/cpp)
++ [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)
 
 ---
 
 Lembrando que os códigos utilizados para os testes de desempenho podem ser encontrados no repositório: <https://github.com/terroo/langs-test-loop>.
 
+<style>
+img {border:none;}
+</style>
