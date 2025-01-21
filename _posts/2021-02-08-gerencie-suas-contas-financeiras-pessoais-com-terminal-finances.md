@@ -9,7 +9,8 @@ iconname: 'terminalroot'
 tags:
 - cpp
 - qt
-- financas
+- finances
+- contabeis
 ---
 
 ![Gerencie suas contas financeiras pessoais com Terminal Finances](/assets/img/cpp/terminal-finances.jpg)
