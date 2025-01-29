@@ -124,10 +124,12 @@ target_link_libraries(bitcoin PRIVATE tabulate::tabulate)
 {% endhighlight %}
 > Não esqueça de modificar o `main.cpp` para Windows conforme há no vídeo!
 
-## 📦 Download do arquivo RAR
+## Download do arquivo RAR
 > Caso você queira rodar na sua máquina.
 
-<a class="btn btn-lg btn-danger" href="/downs/bitcoin-run.rar" download>bitcoin-run.rar</a>
+Clique no botão abaixo para fazer o download:
+
+<a class="btn btn-lg btn-danger" href="/downs/bitcoin-run.rar" download> 📦 bitcoin-run.rar </a>
 
 ---
 
