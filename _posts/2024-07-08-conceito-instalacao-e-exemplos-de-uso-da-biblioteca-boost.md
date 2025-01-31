@@ -9,6 +9,7 @@ iconname: 'C++'
 tags:
 - cpp
 - cppdaily
+- boost
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

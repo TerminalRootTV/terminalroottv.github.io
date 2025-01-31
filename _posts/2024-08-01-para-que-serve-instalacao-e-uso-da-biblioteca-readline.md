@@ -9,7 +9,7 @@ iconname: 'C/C++'
 tags:
 - linguagemc
 - cpp
-- dicas
+- repl
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
