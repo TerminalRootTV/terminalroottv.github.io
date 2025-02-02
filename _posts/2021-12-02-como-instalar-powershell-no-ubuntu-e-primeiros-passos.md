@@ -25,6 +25,12 @@ tags:
 # Instalação
 Rode os comandos abaixo nessa sequência:
 
+Usando o [snap](https://snapcraft.io/install/powershell/ubuntu):
+```bash
+sudo snap install powershell --classic
+```
+
+Ou usando APT:
 {% highlight sh %}
 sudo apt update
 sudo apt install -y wget apt-transport-https software-properties-common
