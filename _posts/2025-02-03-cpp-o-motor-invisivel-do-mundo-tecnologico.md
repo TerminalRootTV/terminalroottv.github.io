@@ -76,12 +76,12 @@ Se você quer trabalhar com **games, motores gráficos, sistemas críticos ou ap
 
 Abaixo todos os [Cursos](https://terminalroot.com.br/promo) de [C++](https://terminalroot.com.br/cpp) disponibilizado por Terminal Root:
 
-+ [Curso de Criação de Linguagem de Programação](https://terminalroot.com.br/mylang)
-+ [Curso de C++ Moderno para Iniciantes](https://terminalroot.com.br/cpp)
-+ [Curso de C++ Moderno Avançado](https://terminalroot.com.br/c++)
-+ [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/sfml)
-+ [Curso de Qt Moderno com C++](https://terminalroot.com.br/cpp)
-+ [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)
++ ✅ [Curso de Criação de Linguagem de Programação](https://terminalroot.com.br/mylang)
++ ✅ [Curso de C++ Moderno para Iniciantes](https://terminalroot.com.br/cpp)
++ ✅ [Curso de C++ Moderno Avançado](https://terminalroot.com.br/c++)
++ ✅ [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/sfml)
++ ✅ [Curso de Qt Moderno com C++](https://terminalroot.com.br/cpp)
++ ✅ [Curso de OpenCV com C++](https://terminalroot.com.br/opencv)
 
 E mais [Curso Completo da Linguagem C](https://terminalroot.com.br/c) e ainda uma promoção imperdível com desconto irrecusável:
 #### Clique aqui → <https://terminalroot.com.br/promo> e saiba mais!
