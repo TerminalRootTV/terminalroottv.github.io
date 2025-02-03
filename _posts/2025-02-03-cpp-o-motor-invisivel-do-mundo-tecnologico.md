@@ -3,7 +3,7 @@ layout: post
 title: "C++: O Motor Invisível do Mundo Tecnológico"
 date: 2025-02-03 11:28:27
 image: '/assets/img/cppdaily/cppwin.jpg'
-description: "🚀 "
+description: "🚀 Por que o C++ Ainda Move o Mundo? Como o C++ Molda o Mundo ao Nosso Redor."
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
