@@ -206,7 +206,7 @@ button.close {color: #fff; font-size: 60px;}
 .artigo iframe {
   max-width:100%;
   padding:.25rem;
-  background-color:#fff;
+  background-color: transparent;
   border:1px solid #dee2e6;
   border-radius:.10rem;
   max-height: 700px;
