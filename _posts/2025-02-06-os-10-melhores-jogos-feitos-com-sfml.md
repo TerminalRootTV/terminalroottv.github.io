@@ -30,10 +30,6 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-<style>
- iframe {border: none;}
-</style>
-
 ---
 
 ## 01. Break the Game
@@ -41,7 +37,7 @@ data-ad-slot="5351066970"></ins>
 
 Você controla um pequeno cubo, chamado Kevin, que quer escapar do jogo. Ao fazer isso, você conhece outros personagens e explora esse estranho mundo digital, que não parece muito estável.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/739540/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/739540/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -52,7 +48,7 @@ MoonQuest, anteriormente conhecido como Moonman, estava em desenvolvimento há o
 
 O jogo é totalmente destrutível, o que lhe dá recursos para criar itens, de armaduras a armas e vários itens especiais. Há também centenas de itens escondidos nos mundos do jogo, esperando para serem encontrados. Você pode escolher diferentes personagens para explorar as regiões abundantes, há vários NPCs, bons e maus, e, claro, você precisa se defender de mobs não tão amigáveis.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/511540/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/511540/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -65,7 +61,7 @@ As análises estão atualmente misturadas, com as divergências usuais sobre o q
 
 Se você quer saber como é um MMORPG 2D baseado em SFML.Net, então você pode pegar o jogo de graça!
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/1020780/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/1020780/" class="" frameborder="0"></iframe>
 
 
 <!-- RECTANGLE LARGE -->
@@ -90,7 +86,7 @@ SEQUENCE STORM é um jogo de ritmo com aparência futurista, o que significa que
 
 É muito bom ver um jogo de ritmo tão polido feito com SFML! 🙂
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/630640/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/630640/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -99,7 +95,7 @@ SEQUENCE STORM é um jogo de ritmo com aparência futurista, o que significa que
 
 Um bom jogo de plataforma pixel-art com RPG ou, mais especificamente, elementos roguelike. Selecione armas diferentes, aumente suas estatísticas, aumente o nível da sua arma e pegue magias ao longo do caminho. Gosto muito da atmosfera, mas até agora achei bem desafiador. Os inimigos têm um bom soco e se você cair no caminho errado, pode acabar cercado por eles. Há morte permanente e níveis gerados proceduralmente, dando a você uma alta rejogabilidade.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/323220/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/323220/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -108,7 +104,7 @@ Um bom jogo de plataforma pixel-art com RPG ou, mais especificamente, elementos 
 
 Cendric é um RPG, onde cada nível é uma plataforma. Você pode coletar armas, equipamentos, diferentes magias e melhorar suas estatísticas. No entanto, pular, lutar e lançar magias são apenas uma parte do jogo, o outro lado é explorar um mundo rico, conhecer todos os diferentes personagens, crescer como seu próprio personagem, cumprir missões e muito mais.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/681460/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/681460/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -117,7 +113,7 @@ Cendric é um RPG, onde cada nível é uma plataforma. Você pode coletar armas,
 
 Zeran’s Folly é a primeira parcela do "universo" Myroid-Type Comics. Ele pega emprestado de uma seleção de gêneros, mas principalmente sendo um jogo de plataforma old-school. Você tem uma equipe de pessoas para alternar e muitos inimigos irritantes.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/665030/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/665030/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -131,7 +127,7 @@ Este jogo foi projetado do zero para corredores de velocidade e amantes de ganch
 
 Este é o segundo jogo SFML que foi portado para o Nintendo Switch.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/590590/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/590590/" class="" frameborder="0"></iframe>
 
 
 <!-- RECTANGLE 2 - OnParagragraph -->
@@ -155,7 +151,7 @@ UnderRail é construído principalmente em cima do XNA, enquanto o SFML ou melho
 
 É um RPG isométrico com um sistema de combate baseado em turnos. Ele se passa no subsolo, pois a vida na superfície da Terra se tornou impossível. Como na maioria dos RPGs, você pode atribuir a si mesmo diferentes estatísticas e habilidades no início, o que quando você joga pela primeira vez, você realmente não sabe o que é útil e o que não é.
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/250520/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/250520/" class="" frameborder="0"></iframe>
 
 ---
 
@@ -164,7 +160,7 @@ UnderRail é construído principalmente em cima do XNA, enquanto o SFML ou melho
 
 É um jogo fortemente orientado pela história, mas você toma muitas decisões, que realmente influenciam o resultado do jogo. 
 
-<iframe style="width:100%;max-width:100%;height:200px" src="https://store.steampowered.com/widget/426290/" class="" frameborder="0"></iframe>
+<iframe style="width:100%;max-width:100%;height:200px;border:none;" src="https://store.steampowered.com/widget/426290/" class="" frameborder="0"></iframe>
 
 ---
 
