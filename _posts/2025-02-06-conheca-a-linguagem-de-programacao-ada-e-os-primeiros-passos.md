@@ -163,7 +163,5 @@ sudo apt install gprbuild gnat-gps
 
 ---
 
-Ada é uma linguagem de programação robusta e segura, projetada para criar sistemas críticos e de alta confiabilidade, especialmente em setores de **aeroespacial**, **defesa** e **automação industrial**. Sua principal característica é a ênfase em **segurança**, **controle de erros** e **verificação de tipo**, tornando-a a escolha ideal para software que exige máxima precisão e estabilidade.
-
 Para mais informações acesse o endereço oficial: <https://www.adacore.com/> e [Wikipédia](https://en.wikipedia.org/wiki/Ada_(programming_language)).
 
