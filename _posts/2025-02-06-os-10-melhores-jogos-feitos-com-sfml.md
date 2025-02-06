@@ -30,6 +30,10 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<style>
+ iframe {border: none;}
+</style>
+
 ---
 
 ## 01. Break the Game
@@ -168,7 +172,5 @@ SFML continua a ser uma ferramenta versátil para desenvolvedores que desejam cr
 
 Nós possuímos um [Curso Completo de Desenvolvimento de Jogos com SFML](https://terminalroot.com.br/sfml), saiba mais:
 ### <https://terminalroot.com.br/sfml>
-
-
 
 
