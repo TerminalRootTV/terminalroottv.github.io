@@ -33,7 +33,7 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## 01. Break the Game
-![Break The Game](/assets/sfml/sfml-games/breakthegame-1024x576.jpg) 
+![Break The Game](/assets/img/sfml/sfml-games/breakthegame-1024x576.jpg) 
 
 Você controla um pequeno cubo, chamado Kevin, que quer escapar do jogo. Ao fazer isso, você conhece outros personagens e explora esse estranho mundo digital, que não parece muito estável.
 
@@ -42,7 +42,7 @@ Você controla um pequeno cubo, chamado Kevin, que quer escapar do jogo. Ao faze
 ---
 
 ## 02. MoonQuest
-![MoonQuest](/assets/sfml/sfml-games/moonquest-1024x576.jpg)
+![MoonQuest](/assets/img/sfml/sfml-games/moonquest-1024x576.jpg)
 
 MoonQuest, anteriormente conhecido como Moonman, estava em desenvolvimento há oito anos, teve um Kickstarter de sucesso e algumas postagens técnicas interessantes no TIG Source. É uma mistura de aventura, roguelike e exploração. Os mapas são gerados proceduralmente, então há uma profundidade infinita, com muitas regiões diferentes para explorar.
 
@@ -53,7 +53,7 @@ O jogo é totalmente destrutível, o que lhe dá recursos para criar itens, de a
 ---
 
 ## 03. DarkStory Online
-![DarkStory Online](/assets/sfml/sfml-games/darkstoryonline-768x432.jpg) 
+![DarkStory Online](/assets/img/sfml/sfml-games/darkstoryonline-768x432.jpg) 
 
 DarkStory Online não foi escrito em [C++](https://terminalroot.com.br/tags#cpp), na verdade usa [SFML.Net](https://terminalroot.com.br/tags#csharp).
 
@@ -80,7 +80,7 @@ data-full-width-responsive="true"></ins>
 ---
 
 ## 04. SEQUENCE STORM
-![SEQUENCE STORM](/assets/sfml/sfml-games/sequencestorm-1024x576.jpg) 
+![SEQUENCE STORM](/assets/img/sfml/sfml-games/sequencestorm-1024x576.jpg) 
 
 SEQUENCE STORM é um jogo de ritmo com aparência futurista, o que significa que você tem que apertar as teclas corretas e no tempo correto para se alinhar com a música que está tocando. 
 
@@ -91,7 +91,7 @@ SEQUENCE STORM é um jogo de ritmo com aparência futurista, o que significa que
 ---
 
 ## 05. Vagante
-![Vagante](/assets/sfml/sfml-games/vagante-1024x576.jpg) 
+![Vagante](/assets/img/sfml/sfml-games/vagante-1024x576.jpg) 
 
 Um bom jogo de plataforma pixel-art com RPG ou, mais especificamente, elementos roguelike. Selecione armas diferentes, aumente suas estatísticas, aumente o nível da sua arma e pegue magias ao longo do caminho. Gosto muito da atmosfera, mas até agora achei bem desafiador. Os inimigos têm um bom soco e se você cair no caminho errado, pode acabar cercado por eles. Há morte permanente e níveis gerados proceduralmente, dando a você uma alta rejogabilidade.
 
@@ -100,7 +100,7 @@ Um bom jogo de plataforma pixel-art com RPG ou, mais especificamente, elementos 
 ---
 
 ## 06. Cendric
-![Cendric](/assets/sfml/sfml-games/cendric-1024x575.jpg) 
+![Cendric](/assets/img/sfml/sfml-games/cendric-1024x575.jpg) 
 
 Cendric é um RPG, onde cada nível é uma plataforma. Você pode coletar armas, equipamentos, diferentes magias e melhorar suas estatísticas. No entanto, pular, lutar e lançar magias são apenas uma parte do jogo, o outro lado é explorar um mundo rico, conhecer todos os diferentes personagens, crescer como seu próprio personagem, cumprir missões e muito mais.
 
@@ -109,7 +109,7 @@ Cendric é um RPG, onde cada nível é uma plataforma. Você pode coletar armas,
 ---
 
 ## 07. Zeran’s Folly
-![Zeran's Folly](/assets/sfml/sfml-games/zeransfolly-1024x576.jpg) 
+![Zeran's Folly](/assets/img/sfml/sfml-games/zeransfolly-1024x576.jpg) 
 
 Zeran’s Folly é a primeira parcela do "universo" Myroid-Type Comics. Ele pega emprestado de uma seleção de gêneros, mas principalmente sendo um jogo de plataforma old-school. Você tem uma equipe de pessoas para alternar e muitos inimigos irritantes.
 
@@ -145,7 +145,7 @@ data-ad-slot="8549252987"></ins>
 ---
 
 ## 09. UnderRail
-![UnderRail](/assets/sfml/sfml-games/underrail-1024x576.jpg) 
+![UnderRail](/assets/img/sfml/sfml-games/underrail-1024x576.jpg) 
 
 UnderRail é construído principalmente em cima do XNA, enquanto o SFML ou melhor, o SFML.Net pode ser usado apenas para criar a janela e reproduzir áudio, o jogo pelo menos envia a janela e as bibliotecas de áudio.
 
@@ -156,7 +156,7 @@ UnderRail é construído principalmente em cima do XNA, enquanto o SFML ou melho
 ---
 
 ## 10. The Away Team: Lost Exodus
-![The Away Team: Lost Exodus](/assets/sfml/sfml-games/awayteam.png) 
+![The Away Team: Lost Exodus](/assets/img/sfml/sfml-games/awayteam.png) 
 
 É um jogo fortemente orientado pela história, mas você toma muitas decisões, que realmente influenciam o resultado do jogo. 
 
