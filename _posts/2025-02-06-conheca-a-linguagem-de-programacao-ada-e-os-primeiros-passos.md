@@ -3,7 +3,7 @@ layout: post
 title: "Conheça a Linguagem de Programação Ada e os Primeiros Passos"
 date: 2025-02-06 20:15:32
 image: '/assets/img/programacao/ada.png'
-description: "🚀 Precisão, segurança e confiabilidade para sistemas críticos."
+description: "🛰 Precisão, segurança e confiabilidade para sistemas críticos."
 icon: 'ion:terminal-sharp'
 iconname: 'Ada'
 tags:
