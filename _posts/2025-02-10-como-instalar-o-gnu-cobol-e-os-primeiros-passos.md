@@ -70,9 +70,9 @@ No Windows, a instalação do GnuCOBOL pode ser manual ou via WSL2. Procedimento
 
 4. **Verifique a instalação:**
    - Abra o Prompt de Comando (CMD) e execute:
-     {% highlight bash %}
-     cobc --version
-     {% endhighlight %}
+{% highlight bash %}
+cobc --version
+{% endhighlight %}
    - Exibirá a versão do GnuCOBOL instalada.
 
 ## Primeiros passos com GnuCOBOL
