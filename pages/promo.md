@@ -25,9 +25,9 @@ color: '#5c3566'
 + **06. [Curso de Criação de Games com SFML e C++](https://terminalroot.com.br/games)**
 + **07. [Curso Moderno da Linguagem C](https://terminalroot.com.br/c)**
 
-### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90 + 99.90 + 799.90` e o resultado seria `1.509,30`.
+### Se você somar o valor de cada curso separado seria: `79.90 + 159.90 + 149.90 + 69.90 + 149.90 + 99.90 + 499.90` e o resultado seria `1.209,30`.
 
-### Mas com descontos dessa promoção fica tudo por somente 10x de `R$ 99,90` ou à vista ou no PIX por `$RS 999,90`. 
+### Mas com descontos dessa promoção fica tudo por somente 10x de `R$ 99,90` ou à vista ou no PIX por `$RS 699,90`. 
 Um baita de um desconto, você economiza mais de *500 reais* !!! 
 > *Essa é uma promoção por tempo limitado*
 

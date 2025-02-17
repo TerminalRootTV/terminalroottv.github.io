@@ -29,15 +29,10 @@ Esse curso contém tudo o que você precisa para implementar uma linguagem de sc
 ## Vídeo de apresentação
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/7Oxe3JYVguc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!--
-VIP: https://cutt.ly/ueHLbbA7
-NEW PROMO: https://cutt.ly/deHLQJw9
--->
-
 ---
 
 ## Valor do Curso
-Adquira a partir de 10x de **R$ 79,90** ou à vista ou no PIX por R$ 799,90.
+Adquira a partir de 10x de **R$ 49,90** ou à vista ou no PIX por R$ 499,90.
 
 <a href="https://cutt.ly/2eHLxHd4" class="btn btn-lg btn-info btn-block my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar com PayPal
@@ -52,11 +47,11 @@ Então, sugerimos adquirir nosso **Pacote Promocional** com mais de 500 reais de
 </a>
 
 
-<!--
-<a href="" class="btn btn-lg btn-danger btn-block my-2 py-3" aria-disabled="true">
+<a href="https://cutt.ly/Erwas95z" class="btn btn-lg btn-danger btn-block my-2 py-3" aria-disabled="true">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
--->
+
+> A diferença de comprar pela Udemy é que na Udemy não há disponível todas as atualizações do curso, no demais, é a mesma coisa.
 
 ---
 
