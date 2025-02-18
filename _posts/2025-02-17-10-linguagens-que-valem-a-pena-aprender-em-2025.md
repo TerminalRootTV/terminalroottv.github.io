@@ -24,15 +24,6 @@ tags:
 
 ---
 
-
-# 10 linguagens que valem a pena aprender em 2025
-> ...
-
-![alt text](../../langs-books.jpg) 
-> `/assets/img/livros/langs-books-2025.jpg`
-
----
-
 À medida que a tecnologia avança, a demanda por programadores qualificados cresce, e **a escolha da linguagem de programação** certa pode fazer toda a diferença na sua carreira. 
 
 Em 2025, o cenário da programação continua evoluindo, impulsionado por [inteligência artificial](https://terminalroot.com.br/tags#ia), [desenvolvimento web](https://terminalroot.com.br/tags#desenvolvimentoweb), computação em nuvem, [games](https://terminalroot.com.br/tags#games) e muitas outras áreas.  
