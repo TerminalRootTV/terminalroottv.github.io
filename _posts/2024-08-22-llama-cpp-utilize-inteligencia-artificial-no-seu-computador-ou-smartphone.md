@@ -7,7 +7,7 @@ description: "🚀 Um inferência LLM feita com C++"
 icon: 'ion:terminal-sharp'
 iconname: 'AI/C++'
 tags:
-- inteligenciaartificial
+- ia
 - cpp
 ---
 
