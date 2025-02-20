@@ -3,7 +3,7 @@ layout: post
 title: "Conheça o comando kat"
 date: 2025-02-20 08:05:59
 image: '/assets/img/comandos/kat-thumb-800.png'
-description: "🚀 Um cat com syntax highlight"
+description: ">_ Um cat com syntax highlight"
 icon: 'ion:terminal-sharp'
 iconname: 'Comando/Terminal'
 tags:
