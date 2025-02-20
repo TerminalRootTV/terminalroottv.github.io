@@ -34,6 +34,7 @@ Já faz tempo que eu criei, mas agora eu decidi disponbilizar para quem quiser u
 Os outros comandos similares faltavam alguma coisa, tais como: [source-highlight](https://www.gnu.org/software/src-highlite/)(*também feito com C++, mas visual não muito agradável*), `Theldus/kat`(feito em [C](https://terminalroot.com.br/tags#linguagemc), mas o visual também não me agradava), *bat*(no início feito com [Go/Golang](https://terminalroot.com.br/tags#go), antigamente ele era até veloz, mas depois foi reescrito em outra linguagem e ficou muito lento, além de ter recursos demais para um comando cat), [highlight](https://gitlab.com/saalen/highlight)(*feito com [Lua](https://terminalroot.com.br/tags#lua) e [C++](https://terminalroot.com.br/tags#cpp), também está além de um simples comando cat, tem muitos outros recursos*).
 
 O `Theldus/kat` também já fez uma comparação com o `bat`(muito lento) e `cat`. O `terroo/kat` está na mesma linha de desempenho, ou seja, como se trata de um utilitário imediato, precisa ser rápido:
+
 ![performance kat](https://camo.githubusercontent.com/9bc88617aaf09024725e6bd1c11858844d75508774fe3123d343b604c9281fc9/68747470733a2f2f692e696d6775722e636f6d2f484a48465250642e706e67) 
 
 Enfim, me restou criar minha própria solução!
