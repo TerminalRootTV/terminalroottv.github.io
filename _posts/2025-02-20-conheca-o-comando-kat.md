@@ -99,8 +99,8 @@ Como eu havia dito, não há muitos parâmetros disponíveis, quem usa todos os 
 Logo, para ver o `help` do `kat`, basta rodar:
 {% highlight bash %}
 kat --help
-> Você vai se impressionar com a quantidade de parâmetros!!! 🤣 
 {% endhighlight %}
+> Você vai se impressionar com a quantidade de parâmetros!!! 🤣 
 
 ---
 
