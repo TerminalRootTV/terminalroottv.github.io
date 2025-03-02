@@ -3,7 +3,7 @@ layout: post
 title: "Como 'Escovar Bits' com Bitwise - A Verdadeira Lógica de Programação"
 date: 2025-03-01 22:55:12
 image: '/assets/img/embarcados/bitwise.jpg'
-description: "🚀 "
+description: "🚀 É um conceito muito utilizado em Desenvolvimento de Sistemas Embarcados."
 icon: 'ion:terminal-sharp'
 iconname: 'Programação'
 tags:
