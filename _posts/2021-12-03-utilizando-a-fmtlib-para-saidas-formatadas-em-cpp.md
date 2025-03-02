@@ -35,9 +35,15 @@ data-ad-slot="5351066970"></ins>
 
 ---
 
-# Instalação 
+## Instalação 
+Se seu sistema já possuir o `fmtlib` disponível no gerenciador de pacotes, então, basta usá-lo. Exemplo no [Ubuntu](https://terminalroot.com.br/tags#ubuntu):
+```bash
+sudo apt install libfmt-dev
+```
 
-Dependências:
+Caso, contrário será necessário instalar as dependências, clonar e compilar:
+
+### Dependências:
 + [g++](https://terminalroot.com.br/2019/12/gcc-vs-llvm-qual-e-o-melhor-compilador.html) ou [clang](https://terminalroot.com.br/2019/12/gcc-vs-llvm-qual-e-o-melhor-compilador.html)
 + [Git](https://terminalroot.com.br/git)
 + [CMake](https://terminalroot.com.br/2019/12/como-compilar-seus-programas-com-cmake.html)
@@ -83,7 +89,7 @@ Install the project...
 
 ---
 
-# Exemplos de uso
+## Exemplos de uso
 
 Uso básico:
 {% highlight cpp %}
