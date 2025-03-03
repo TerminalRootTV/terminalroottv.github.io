@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como Criar um Simples Codificar de Decodificador com C++ da forma correta"
+title: "Como Criar um Simples Codificador e Decodificador com C++ da forma correta"
 date: 2025-03-03 13:29:40
 image: '/assets/img/cppdaily/encode-decode-cpp.jpg'
 description: "🚀 Melhorando o código mostrado nos vídeos curtos."
