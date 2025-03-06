@@ -74,7 +74,7 @@ Após a instalação, você pode verificar se o DuckDB está instalado corretame
 duckdb --version
 {% endhighlight %}
 
-### Instalação no Windows
+### Instalação no [Windows](https://terminalroot.com.br/tags#windows)
 #### 01. **Baixe o DuckDB:**
 - Acesse o [repositório oficial do DuckDB no GitHub](https://github.com/duckdb/duckdb/releases).
 - Baixe o arquivo `.zip` correspondente à versão mais recente para Windows.
@@ -178,8 +178,7 @@ D SHOW DATABASES;
 ├───────────────┤
 │ memory        │
 └───────────────┘
-D CREATE TABLE terminalroot (id INTEGER, name STRING)
-  ;
+D CREATE TABLE terminalroot (id INTEGER, name STRING);
 D INSERT INTO terminalroot VALUES(1, 'Marcos Oliveira');
 D INSERT INTO terminalroot VALUES(2, ' Mark Raasveldt');
 D INSERT INTO terminalroot VALUES(3, 'Hannes Mühleisen');
