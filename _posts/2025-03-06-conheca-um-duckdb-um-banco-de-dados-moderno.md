@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça um DuckDB, um banco de dados moderno"
+title: "Conheça o DuckDB, um banco de dados moderno"
 date: 2025-03-06 11:39:26
 image: '/assets/img/sql/duckdb.jpg'
 description: "🚀 E comparação de usabilidade a comandos do GNU/UNIX."
