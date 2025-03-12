@@ -36,15 +36,15 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## 01. O básico
-A flag `-fsanitize=address` e todas as outras do [sanitize](), do Google, que foi implementada nativamente pelo [Projeto GNU]() serve para verificar *memory leaks*, *violação de memória* e entre outras falhas relacionadas. 
+A flag `-fsanitize=address` e todas as outras do [sanitize](https://github.com/google/sanitizers)(`libasan`), do Google, que foi implementada nativamente pelo [Projeto GNU](https://terminalroot.com.br/tags#gnu) serve para verificar *memory leaks*, *violação de memória* e entre outras falhas relacionadas. 
 
-Mas, ela deve ser usada somente durante o desenvolvimento, quando você for disponibilizar para produção, ou seja, a versão *release* o ideal é criar o [Makefile](), ou [CMake]() ou qualquer outra ferramenta de compilação sem essa flag, aliás, é bom remover qualquer outra flag de *debug*, inclusive: `-g`, `-Wall`, `-Werror`, `-pedantic`, `-Wpedantic`,... 
+Mas, ela deve ser usada somente durante o desenvolvimento, quando você for disponibilizar para produção, ou seja, a versão *release* o ideal é criar o [Makefile](https://terminalroot.com.br/tags#make), ou [CMake](https://terminalroot.com.br/tags#cmake) ou qualquer outra ferramenta de compilação sem essa flag, aliás, é bom remover qualquer outra flag de *debug*, inclusive: `-g`, `-Wall`, `-Werror`, `-pedantic`, `-Wpedantic`,... 
 
 Pois, elas, principalmente a `-fsanitize=address` deixam a execução do binário muito lenta. Você pode substituir pelo otimizador, por exemplo, `-O1`, `-O2` ou `-O3`:
 
 + `-O1` **(Otimização básica)** - Ativa otimizações que melhoram a performance sem aumentar significativamente o tempo de compilação. Exemplos: eliminação de código morto, propagação de constantes, inlining limitado.
 
-+ `-O2` <b>(Otimização moderada)</b> - Inclui todas as otimizações de `-O1` e adiciona mais agressivas que ainda mantêm a confiabilidade do código. Exemplos: desdobramento de loops (loop unrolling), eliminação de subexpressões comuns, melhor agendamento de instruções.
++ `-O2` **(Otimização moderada)** - Inclui todas as otimizações de `-O1` e adiciona mais agressivas que ainda mantêm a confiabilidade do código. Exemplos: desdobramento de loops (loop unrolling), eliminação de subexpressões comuns, melhor agendamento de instruções.
 
 + `-O3` `(Otimização agressiva)` - Inclui todas as otimizações de `-O2` e adiciona novas ainda mais agressivas, como maior *inlining* e *vetorização de loops*. Pode aumentar o tamanho do código e, em alguns casos, reduzir a performance por over-otimização.
 
@@ -68,7 +68,7 @@ g++ -Ofast -march=native main.cpp
 {% endhighlight %}
 > Usar em combinação com `-Ofast` pode ser uma ótima ideia para o desempenho.
 
-Isso permite que o compilador use instruções avançadas do seu processador, como <b>SSE</b>, <b>AVX</b>, etc.
+Isso permite que o compilador use instruções avançadas do seu processador, como **SSE**, **AVX**, etc.
 
 Se precisar distribuir o binário para outras máquinas, escolha um valor específico em vez de native, como `-march=haswell`, `-march=znver3`, etc.
 
@@ -100,7 +100,7 @@ g++ -Ofast -march=native -funroll-loops -fprefetch-loop-arrays main.cpp
 {% endhighlight %}
 > Também com combinação com as flags citadas acima.
 
-Se usássemos elas no [vídeo sobre Ranking das Linguagens de Programação](), C++ e C deixaria as que ficaram atrás delas, ainda mais distantes! 😃 
+Se usássemos elas no [vídeo sobre Ranking das Linguagens de Programação](https://terminalroot.com.br/2021/03/testei-o-desempenho-de-10-linguagens-de-programacao-com-ranking.html), C++ e C deixaria as que ficaram atrás delas, ainda mais distantes! 😃 
 
 Lembrando, que um utilitário ainda melhor que essas flags é o `ccache` que publicamos no artigo: [Utilize o Ccache e compile muito mais rápido](https://terminalroot.com.br/2024/05/utilize-o-ccache-e-compile-muito-mais-rapido.html), no entanto, o foco dele é diminuir o "tempo de compilação" e não somente o desempenho do binário.
 
@@ -155,7 +155,7 @@ Execute o programa normalmente para gerar dados de perfil e depois recompile usa
 g++ -Ofast -march=native -fprofile-use main.cpp
 {% endhighlight %}
 
-A *otimização guiada por perfil*(<b>PGO</b>), também conhecida como <u>feedback direcionado por perfil</u>(PDF) ou <u>otimização direcionada por feedback</u>(FDO), é a técnica de otimização do compilador que usa análises anteriores de artefatos ou comportamentos de software(" criação de perfil ") para melhorar o desempenho esperado do tempo de execução do programa.
+A *otimização guiada por perfil*(**PGO**), também conhecida como <u>feedback direcionado por perfil</u>(PDF) ou <u>otimização direcionada por feedback</u>(FDO), é a técnica de otimização do compilador que usa análises anteriores de artefatos ou comportamentos de software(" criação de perfil ") para melhorar o desempenho esperado do tempo de execução do programa.
 
 ---
 
