@@ -278,6 +278,7 @@ g++ -Ofast decript.cpp
 Depois é só rodar: `./a.out`.
 
 Para extrair eu usei um script em [Terlang](https://github.com/terroo/terlang):
+> `vim unzip.ter`
 
 {% highlight cpp %}
 auto files = {"TheDir.tar.gz", "MyFolder.zip", "BigData.tar.gz"}
