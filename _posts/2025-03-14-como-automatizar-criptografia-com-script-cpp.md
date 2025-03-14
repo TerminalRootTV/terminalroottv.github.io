@@ -139,7 +139,7 @@ Agora é só rodar o comando para descriptografar os arquivos encontrados e list
   }
 {% endhighlight %}
 
-Eu ainda iria descompactar eles automaticamente adicionando ao `loop`, mas desisti, nesse caso usando o comando [extract]() porque os tipos poderiam se variados: `zip`, `rar`, `tar.gz`,...
+Eu ainda iria descompactar eles automaticamente adicionando ao `loop`, mas desisti, nesse caso usando o comando [extract](https://github.com/terroo/extract) porque os tipos poderiam se variados: `zip`, `rar`, `tar.gz`,...
 {% highlight cpp %}
 // filename se iguala a file para separar a lógica
 std::string filename = file;
