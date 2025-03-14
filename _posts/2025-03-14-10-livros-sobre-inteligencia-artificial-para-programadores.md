@@ -2,7 +2,7 @@
 layout: post
 title: "10 livros sobre Inteligência Artificial para Programadores"
 date: 2025-03-14 12:43:43
-image: '/assets/img/ia/ia-books.png'
+image: '/assets/img/ia/ia-livros/ia-books.png'
 description: "🚀 Para programadores que desejam aprofundar seus conhecimentos nesse domínio."
 icon: 'ion:terminal-sharp'
 iconname: 'Livros'
