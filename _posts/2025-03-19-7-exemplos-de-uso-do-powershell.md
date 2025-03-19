@@ -67,7 +67,7 @@ pwsh main.ps1
 ---
 
 ## 02. Fazer download de arquivo da Web:
-Exemplo downloado do arquivo [81by.txt](http://0x0.st/81by.txt) e salvar com o nome: `logo-ps.png`.
+Exemplo download do arquivo [81by.txt](http://0x0.st/81by.txt) e salvar com o nome: `logo-ps.png`.
 > Sempre é necessário direcionar para um arquivo local com `-OutFile`.
 
 {% highlight powershell %}
@@ -85,7 +85,7 @@ Write-Host "A url é: " + $url + " e o arquivo: " $file
 {% endhighlight %}
 > O operador de concatenação: `+`(mais) é opcional, poderia ser também:
 {% highlight powershell %}
-Write-Host "A url é: " + $url + " e o arquivo: " $file
+Write-Host "A url é: " $url " e o arquivo: " $file
 {% endhighlight %}
 
 ---
