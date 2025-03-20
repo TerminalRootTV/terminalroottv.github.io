@@ -7,6 +7,7 @@ description: "🚀 O boot foi realizado na máquina física e conseguimos printa
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
+- so
 - sistemasoperacionais
 - cpp
 - assembly

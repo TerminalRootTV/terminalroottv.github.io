@@ -9,6 +9,7 @@ iconname: 'C++'
 tags:
 - cpp
 - sistemasoperacionais
+- so
 ---
 
 ![Conheça o Haiku, um Sistema Operacional escrito em C++](/assets/img/cpp/haiku.jpg)

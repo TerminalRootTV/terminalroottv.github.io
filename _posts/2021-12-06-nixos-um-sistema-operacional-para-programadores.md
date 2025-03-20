@@ -11,6 +11,7 @@ tags:
 - gnulinux
 - distros
 - sistemasoperacionais
+- so
 ---
 
 ![NixOS, um Sistema Operacional para Programadores](/assets/img/distros/nixos.jpg)

@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'SerenityOS'
 tags:
 - cpp
+- so
 - sistemasoperacionais
 ---
 

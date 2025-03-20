@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
 - cpp
+- so
 - sistemasoperacionais
 - windows
 - gcc
