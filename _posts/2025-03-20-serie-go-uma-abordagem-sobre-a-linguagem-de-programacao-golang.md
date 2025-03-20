@@ -48,10 +48,10 @@ A única diferença é que o compilador original, assim como Swift, [Carbon](htt
 
 Nesses episódios da série vamos tentar abordar de 3 a 4 tópicos. Nesse **Episódio 01** de hoje vamos ver:
 
-+ 01. [Introdução](#01-introducao)
-+ 02. [Preparando o Ambiente](#02-preparando-o-ambiente)
-+ 03. [Olá, Mundo!](03-olá-mundo)
-+ e 04. [Comentários](#04-comentários)
++ **01**. [Introdução](#01-introducao)
++ **02**. [Preparando o Ambiente](#02-preparando-o-ambiente)
++ **03**. [Olá, Mundo!](03-olá-mundo)
++ e **04**. [Comentários](#04-comentários)
 
 
 <!-- SQUARE - GAMES ROOT -->
