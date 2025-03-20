@@ -92,7 +92,7 @@ Um guia extenso sobre construção de software e boas práticas para escrever c�
 ## 04. [Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos](https://amzn.to/41Jr4Zl)
 > Gang of Four - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 
-![[Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos](/assets/img/livros/classics-books/04.jpg) 
+![Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos](/assets/img/livros/classics-books/04.jpg) 
 
 Foi com esse livro que eu consegui entender e aplicar o **Padrão Visitor** quando desenvolvi [minha linguagem de programação](https://terminalroot.com.br/mylang): [Ter/Terlang](https://terminalroot.com.br/2024/11/criei-minha-propria-linguagem-de-programacao.html).
 
