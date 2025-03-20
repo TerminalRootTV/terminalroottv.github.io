@@ -166,7 +166,7 @@ data-ad-slot="8549252987"></ins>
 
 ---
 
-# Comentários
+## 04. Comentários
 Go usa estilo [C](https://terminalroot.com.br/tags#linguagemc)/[C++](https://terminalroot.com.br/tags#cpp) para escrever comentários(parte do código que não influenciará no resultado, somente para fins informativos de quem venha ler o código) `// comentário` ou `/* comentário */`(múltiplas linhas) , exemplos:
 
 {% highlight go %}
