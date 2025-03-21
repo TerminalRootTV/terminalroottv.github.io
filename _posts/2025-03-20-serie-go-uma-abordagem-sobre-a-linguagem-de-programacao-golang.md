@@ -39,7 +39,7 @@ Esse *port* do TypeScript para Go deu muito que falar nos últimos dias, pois a 
 
 Além de diversos outros menos conhecidos.
 
-Um dos diferenciais da linguagem de programação Go é que diferentemente de linguagens como: [Swift](https://terminalroot.com.br/tags#swift), [Rust](https://terminalroot.com.br/tags#rust), [Zig](https://terminalroot.com.br/tags#zig), e entre outras, **Go** NÃO DEPENDE DO [LLVM](https://terminalroot.com.br/tags#llvm) para compilar e criar seus arquivos binários, toda a estrutura da linguagem é original e própria.
+Um dos diferenciais da linguagem de programação Go é que diferentemente de linguagens como: [Swift](https://terminalroot.com.br/tags#swift), [Rust](https://terminalroot.com.br/tags#rust), [Zig](https://terminalroot.com.br/tags#zig), e entre outras, **Go** NÃO DEPENDE DO [LLVM](https://terminalroot.com.br/tags#llvm)/[C++](https://terminalroot.com.br/tags#cpp) para compilar e criar seus arquivos binários, toda a estrutura da linguagem é original e própria.
 
 Além também de não ter recorrido a invenção do [C++](https://terminalroot.com.br/tags#cpp) de deletar ponteiros e sim utilizar [Garbage Collector](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)), que há um pequeno impacto no desempenho, mas não corre o risco severo de *vazamento de memória*. Para quem ainda não entende bem como isso funciona, saiba que o Rust que é visto como *memory safety* possui uma [página em sua documentação](https://doc.rust-lang.org/book/ch15-06-reference-cycles.html) alertando que é possível sim haver *memory leaks*.
 
@@ -136,13 +136,6 @@ O correto mesmo é construir o binário(fica mais veloz) e executar posteriormen
 {% highlight sh %}
 go build hello.go
 ./hello
-{% endhighlight %}
-
-Outra forma de criar um códigos com Go é **criar** um projeto para Go:
-{% highlight sh %}
-go mod init example/hello
-cp ../hello.go .
-go run .
 {% endhighlight %}
 
 Explicando o código:
