@@ -42,7 +42,7 @@ data-ad-slot="5351066970"></ins>
 </script>
 
 <details>
- <summary><code>solarsystem.hpp</code></summary>
+ <summary><h3>solarsystem.hpp</h3></summary>
 
 {% highlight cpp %}
 #pragma once
@@ -78,7 +78,7 @@ class SolarSystem {
 
 
 <details>
- <summary><code>solarsystem.cpp</code></summary>
+ <summary><h3>solarsystem.cpp</h3></summary>
 
 {% highlight cpp %}
 #include "solarsystem.hpp"
@@ -183,7 +183,7 @@ data-ad-slot="8549252987"></ins>
 ---
 
 <details>
- <summary><code>main.cpp</code></summary>
+ <summary><h3>main.cpp</h3></summary>
 
 {% highlight cpp %}
 #include "solarsystem.hpp"
@@ -198,7 +198,7 @@ int main(){
 </details>
 
 <details>
- <summary><a href="https://github.com/terroo/terlang">build.ter</a></summary>
+ <summary><h3><a href="https://github.com/terroo/terlang">build.ter</a></h3></summary>
 
 {% highlight cpp %}
 auto flags = "-g -Wall -Werror -Wpedantic -fsanitize=address"
