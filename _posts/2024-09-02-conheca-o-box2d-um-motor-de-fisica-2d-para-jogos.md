@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'Gamedev'
 tags:
 - gamedev
-- box2d
+- fisica
 - sfml
 ---
 
