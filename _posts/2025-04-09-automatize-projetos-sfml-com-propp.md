@@ -3,7 +3,7 @@ layout: post
 title: "Automatize Projetos SFML com Pro++"
 date: 2025-04-09 13:02:13
 image: '/assets/img/terlang/pro++.jpg'
-description: "🚀 Da série C++ com Shell Script, um comando que economiza tempo."
+description: "🚀 Da série C++ como Shell Script, um comando que economiza tempo."
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
