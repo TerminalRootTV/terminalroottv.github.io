@@ -62,7 +62,7 @@ ter build.ter
 
 Nesse caso irá criar o diretório e arquivos:
 {% highlight bash %}
-MyProject
+MeuProjeto
 ├── build.ter
 ├── main.cpp
 ├── meu-projeto.cpp
