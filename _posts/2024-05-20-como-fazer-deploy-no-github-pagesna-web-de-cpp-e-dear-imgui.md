@@ -10,6 +10,7 @@ tags:
 - imgui
 - opengl
 - sdl2
+- sdl
 - cpp
 - emscripten
 ---

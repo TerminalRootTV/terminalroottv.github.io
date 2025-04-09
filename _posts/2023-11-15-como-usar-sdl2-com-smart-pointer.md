@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'SDL2/C++'
 tags:
 - sdl2
+- sdl
 - cpp
 ---
 

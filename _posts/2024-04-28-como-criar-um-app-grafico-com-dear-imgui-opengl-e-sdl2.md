@@ -9,6 +9,7 @@ iconname: 'Dear ImGui'
 tags:
 - imgui
 - sdl2
+- sdl
 - opengl
 - cpp
 ---

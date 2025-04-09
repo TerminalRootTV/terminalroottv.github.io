@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'SDL2/Windows'
 tags:
 - sdl2
+- sdl
 - windows
 - gamedev
 ---

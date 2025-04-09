@@ -8,6 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'GameDev'
 tags:
 - sdl2
+- sdl
 - gamedev
 - cpp
 - linguagemc

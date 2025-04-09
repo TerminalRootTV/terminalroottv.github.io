@@ -10,6 +10,7 @@ tags:
 - gamedev
 - cpp
 - sdl2
+- sdl
 - emscripten
 - web
 ---

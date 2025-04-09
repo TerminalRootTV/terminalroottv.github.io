@@ -18,6 +18,7 @@ tags:
 - sdl2
 - opengl
 - vulkan
+- sdl
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
