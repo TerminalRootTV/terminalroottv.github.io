@@ -65,8 +65,8 @@ Nesse caso irá criar o diretório e arquivos:
 MyProject
 ├── build.ter
 ├── main.cpp
-├── my-project.cpp
-└── my-project.hpp
+├── meu-projeto.cpp
+└── meu-projeto.hpp
 {% endhighlight %}
 > O projeto após compilado, rodará automáticamente o binário.
 
