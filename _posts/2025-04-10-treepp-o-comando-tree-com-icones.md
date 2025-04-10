@@ -2,7 +2,7 @@
 layout: post
 title: "Tree++, o comando tree com ícones"
 date: 2025-04-10 15:38:41
-image: '/assets/img/cpmandos/tree++.png'
+image: '/assets/img/comandos/tree++.png'
 description: "🌳 É outra opção de árvore de diretórios, mas com ícones =)"
 icon: 'ion:terminal-sharp'
 iconname: 'Cli/C++'
