@@ -53,4 +53,4 @@ sudo ln -s /usr/local/bin/árvore++ /usr/local/bin/árvore
 ---
 
 ## 📝 Nova tarefa
-- [ ] - Adicionar cores! =)
+- [ ]  Adicionar cores! =)
