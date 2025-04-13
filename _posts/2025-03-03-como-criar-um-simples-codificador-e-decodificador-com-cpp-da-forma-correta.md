@@ -9,6 +9,9 @@ iconname: 'C++'
 tags:
 - cpp
 - cppdaily
+- shorts
+- reels
+- tiktok
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

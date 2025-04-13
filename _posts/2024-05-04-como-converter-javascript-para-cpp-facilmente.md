@@ -9,6 +9,9 @@ iconname: 'JS/C++'
 tags:
 - javascript
 - cpp
+- shorts
+- reels
+- tiktok
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
