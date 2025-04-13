@@ -19,6 +19,12 @@ tags:
 
 ---
 
+## Youtube Shorts
+
+<iframe width="470" height="835" src="https://www.youtube.com/embed/QqY6sn8NXas" title="Gravidade de Partículas com C++ e SFML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Código
 {% highlight cpp %}
 #include <SFML/Graphics.hpp>
