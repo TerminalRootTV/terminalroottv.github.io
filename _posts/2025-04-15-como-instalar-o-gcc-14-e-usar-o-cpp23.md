@@ -156,7 +156,7 @@ Edite o `specs` e altere a linha relativa e abaixo do conteúdo: `*cpp:`, substi
 
 E depois adicione isso ao seu `~/.bashrc`:
 {% highlight bash %}
-export GCC_SPEC_FILE=/caminho/para/specs
+export GCC_SPEC_FILE="${HOME}/.config/specs"
 alias g++="g++ -specs=$GCC_SPEC_FILE"
 {% endhighlight %}
 
