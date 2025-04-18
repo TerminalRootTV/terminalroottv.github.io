@@ -7,6 +7,7 @@ description: "🚀 GLSL é uma linguagem para criar sombreamentos(ou shaders em 
 icon: 'ion:terminal-sharp'
 iconname: 'GLSL'
 tags:
+- animacao
 - opengl
 - cpp
 - sfml
