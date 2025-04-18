@@ -43,6 +43,55 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## 👀 Códigos criados no Vídeo
+> `main.cpp`
+{% highlight cpp %}
+#include <SFML/Graphics.hpp>
+#include <iostream>
+
+int main(){
+  sf::RenderWindow window(sf::VideoMode(1280,720), "SFML GLSL Shaders"); 
+
+  sf::Shader shader;
+  sf::Clock clock;
+  sf::RectangleShape rect(
+    sf::Vector2f(
+      static_cast<float>(window.getSize().x),
+      static_cast<float>(window.getSize().y)
+    )
+  );
+
+  if(!shader.loadFromFile("shader.frag", sf::Shader::Fragment)){
+    std::cerr << "Failed to load file.\n";
+    return EXIT_FAILURE;
+  }
+
+  while( window.isOpen() ){
+    sf::Event event;
+    while( window.pollEvent(event)){
+      if( event.type == sf::Event::Closed ){
+        window.close();
+      }
+    }
+
+    float time = clock.getElapsedTime().asSeconds();
+
+    shader.setUniform("iTime", time);
+
+    shader.setUniform("iResolution", sf::Glsl::Vec3(
+      window.getSize().x, 
+      window.getSize().y, 
+      1.0
+    ));
+
+    window.clear();
+    window.draw(rect, &shader);
+    window.display();
+  }
+
+  return EXIT_SUCCESS;
+}
+// g++ main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+{% endhighlight %}
 
 > `shader.frag`
 {% highlight glsl %}
@@ -107,6 +156,7 @@ void main(){
 + <https://thebookofshaders.com/>
 + Doc função `length`: <https://thebookofshaders.com/glossary/?search=length>
 + [Tutorial de OpenGL para Iniciantes](https://terminalroot.com.br/2024/02/tutorial-de-opengl-para-iniciantes.html)
++ [Plugin ShaderToy para Chrome](https://chromewebstore.google.com/detail/shadertoy-unofficial-plug/ohicbclhdmkhoabobgppffepcopomhgl?pli=1)
 
 Links para cursos:
 + [👑 Aprenda a criar sua própria linguagem de programação](https://terminalroot.com.br/mylang)
