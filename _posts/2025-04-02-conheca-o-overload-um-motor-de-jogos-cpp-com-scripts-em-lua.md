@@ -8,7 +8,7 @@ icon: 'ion:terminal-sharp'
 iconname: 'GameDev'
 tags:
 - gamedev
-- motores-de-jogos
+- motoresdejogos
 - 3d
 ---
 
