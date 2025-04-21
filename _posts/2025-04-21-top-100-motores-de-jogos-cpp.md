@@ -905,7 +905,7 @@ Apesar de não ser usada em títulos comerciais, **IOLITE** é uma ótima refer�
 
 **Evergine** é uma engine 3D voltada para aplicações industriais, realidade aumentada e virtual.
 
-- **Escrita em:** [C#](https://terminalroot.com.br/tags#csharp)
+- **Escrita em: [C++](https://terminalroot.com.br/tags#cpp)** e [C#](https://terminalroot.com.br/tags#csharp)
 - **Linguagens para desenvolvimento de jogos:** [C#](https://terminalroot.com.br/tags#csharp)
 
 **Jogos famosos feitos com Evergine:**
