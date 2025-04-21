@@ -79,7 +79,7 @@ Popular na comunidade indie por ser gratuito, leve e altamente customizável.
 ---
 
 ## 03. [Unity](https://unity.com/)
-![alt text](/assets/img/gamedev/games-engine-cpp/03.webp) 
+![Unity](/assets/img/gamedev/games-engine-cpp/03.webp) 
 
 **Unity** é uma engine multiplataforma amplamente usada para desenvolvimento de jogos 2D, 3D, VR e AR, com forte presença em jogos mobile e indie.
 
@@ -114,7 +114,7 @@ data-full-width-responsive="true"></ins>
 ---
 
 ## 04. [Cocos](https://www.cocos.com/)
-![alt text](/assets/img/gamedev/games-engine-cpp/04.webp) 
+![Cocos](/assets/img/gamedev/games-engine-cpp/04.webp) 
 
 **Cocos2d** e **Cocos3d** são engines de código aberto focadas em [desenvolvimento de jogos](https://terminalroot.com.br/tags#gamedev) 2D e 3D, populares em jogos mobile, especialmente na Ásia.
 
@@ -138,7 +138,7 @@ Usada principalmente para jogos mobile leves, com boa performance em dispositivo
 ---
 
 ## 05. [CryEngine](https://www.cryengine.com/)
-![alt text](/assets/img/gamedev/games-engine-cpp/05.webp) 
+![CryEngine](/assets/img/gamedev/games-engine-cpp/05.webp) 
 
 **CryEngine** é uma engine de alto desempenho desenvolvida pela Crytek, focada em gráficos realistas e ambientes vastos, muito usada em jogos AAA.
 
@@ -157,7 +157,7 @@ Destaca-se por sua fidelidade gráfica e sistema avançado de iluminação e fí
 ---
 
 ## 06. [Defold](https://defold.com/)
-![alt text](/assets/img/gamedev/games-engine-cpp/06.webp) 
+![Defold](/assets/img/gamedev/games-engine-cpp/06.webp) 
 
 [Defold Engine](https://www.youtube.com/watch?v=ofcgP3CBpVQ) é uma engine leve e multiplataforma voltada para desenvolvimento de jogos 2D, mantida pela Fundação Defold (com apoio da King, criadora de *Candy Crush*).
 
@@ -209,7 +209,7 @@ data-ad-slot="8549252987"></ins>
 ---
 
 ## 08. [Torque](https://torque3d.org/torque3d/)
-![alt text](/assets/img/gamedev/games-engine-cpp/08.webp) 
+![Torque](/assets/img/gamedev/games-engine-cpp/08.webp) 
 
 **Torque Engine** é uma engine de jogos multiplataforma desenvolvida originalmente pela GarageGames, popular nos anos 2000 por seu custo acessível e foco em desenvolvedores independentes.
 
@@ -227,7 +227,7 @@ A engine teve várias versões, como **Torque 2D**, **Torque 3D** e **Torque X**
 ---
 
 ## 09. [Ogre3D](https://github.com/OGRECave/ogre)
-![alt text](/assets/img/gamedev/games-engine-cpp/09.webp) 
+![Ogre3D](/assets/img/gamedev/games-engine-cpp/09.webp) 
 
 **Ogre3D (Object-Oriented Graphics Rendering Engine)** é uma engine de renderização 3D open source, focada em facilitar o desenvolvimento de gráficos em tempo real, com ênfase em flexibilidade e personalização.
 
@@ -245,7 +245,7 @@ Ogre3D é principalmente uma engine de renderização e, por isso, é comumente 
 ---
 
 ## 10. [Panda3D](https://github.com/panda3d/panda3d)
-![alt text](/assets/img/gamedev/games-engine-cpp/10.webp) 
+![Panda3D](/assets/img/gamedev/games-engine-cpp/10.webp) 
 
 **Panda3D** é uma engine open source para desenvolvimento de jogos 3D, conhecida por ser fácil de usar e altamente integrável, especialmente com Python.
 
@@ -772,7 +772,7 @@ Não há jogos comerciais notáveis ainda.
 ---
 
 ## 41. [Open 3D Engine (O3DE)](https://o3de.org/)
-![alt text](/assets/img/gamedev/games-engine-cpp/41.webp) 
+![O3DE](/assets/img/gamedev/games-engine-cpp/41.webp) 
 
 **Open 3D Engine (O3DE)** é uma engine 3D open source de alto desempenho, criada a partir da Amazon Lumberyard e mantida pela **Linux Foundation**. Focada em gráficos realistas, escalabilidade e modularidade para jogos, simulações e aplicações interativas.
 
