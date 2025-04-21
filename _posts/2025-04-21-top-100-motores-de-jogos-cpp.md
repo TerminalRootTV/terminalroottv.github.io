@@ -571,7 +571,7 @@ E mais uma playlist com diversos outros, acesse:
 **Raylib** é uma biblioteca para desenvolvimento de jogos 2D e 3D escrita em **C** e que visa simplificar o processo de criação de jogos. Ela é altamente modular e acessível para iniciantes, com uma sintaxe simples e direta.
 
 - **Escrita em:** **C**
-- **Linguagens para desenvolvimento de jogos:** **C**, com bindings para **Python**, **Lua**, **Go**, **Ruby**, **JavaScript**, e **Dart**.
+- **Linguagens para desenvolvimento de jogos:** **C++**, com bindings para **Python**, **Lua**, **Go**, **Ruby**, **JavaScript**, **Dart** e outras.
 
 **Jogos famosos feitos com Raylib:**
 - *Python Arcade Games*
@@ -1580,8 +1580,8 @@ data-ad-slot="5351066970"></ins>
 
 **Genesis3D** é uma engine 3D de código aberto lançada no final dos anos 90, focada em facilitar o desenvolvimento de jogos por pequenas equipes.
 
-- **Escrita em:** [C](https://terminalroot.com.br/tags#c)
-- **Linguagens para desenvolvimento de jogos:** [C](https://terminalroot.com.br/tags#c)
+- **Escrita em:** [C/C++](https://terminalroot.com.br/tags#c)
+- **Linguagens para desenvolvimento de jogos:** [C/C++](https://terminalroot.com.br/tags#c)
 
 **Jogos famosos feitos com Genesis3D:**
 - *Shadow of the Devil*
