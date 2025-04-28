@@ -174,3 +174,7 @@ Links adicionais:
 + <https://iquilezles.org/articles/>
 + <https://registry.khronos.org/OpenGL-Refpages/gl4/html/length.xhtml>
 + <https://iquilezles.org/articles/palettes/>
++ <https://lucidar.me/en/sfml/sfml-part-7-heat-effect-shader/>
++ <https://shader-learning.com/module-view/built-in-functions>
++ <https://shader-learning.com/module-training/built-in-functions/task/ceil>
+
