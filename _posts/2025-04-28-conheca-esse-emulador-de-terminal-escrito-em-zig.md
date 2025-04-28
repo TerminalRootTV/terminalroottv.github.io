@@ -72,8 +72,8 @@ dnf install ghostty
 > Mais aqui: <https://ghostty.org/docs/install/binary>
 
 ### Construir do Zero
-Instale o [Zig](https://terminalroot.com.br/tags#zig) via [essa postagem](https://terminalroot.com.br/2021/11/primeiros-passos-com-a-linguagem-de-programacao-zig.html>
-+ <https://ziglang.org/download/) utilize a versão estável mais recente(não a *branch* de desenvolvimento) que de acordo com essa postagem até a data atuall é a versão: `0.14.0`.
+Instale o [Zig](https://terminalroot.com.br/tags#zig) via [essa postagem](https://terminalroot.com.br/2021/11/primeiros-passos-com-a-linguagem-de-programacao-zig.html)
+> Utilize a versão estável mais recente(não a *branch* de desenvolvimento) que de acordo com essa postagem até a data atuall é a versão: `0.14.0`.
 
 Para compilar o Ghostty:
 
