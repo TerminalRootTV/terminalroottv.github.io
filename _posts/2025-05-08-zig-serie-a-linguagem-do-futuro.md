@@ -3,7 +3,7 @@ layout: post
 title: "Zig Série: A linguagem do futuro"
 date: 2025-05-08 18:34:37
 image: '/assets/img/zig/zig-series-01.jpg'
-description: "🚀 Introdução, Preparando o Ambiente e Olá, Zig!"
+description: "⚡ Introdução, Preparando o Ambiente e Olá, Zig!"
 icon: 'ion:terminal-sharp'
 iconname: 'Zig'
 tags:
