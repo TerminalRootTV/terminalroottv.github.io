@@ -46,6 +46,32 @@ sudo cmake --install build
 {% endhighlight %}
 > Após isso, já pode sair do repositório e removê-lo: `cd .. && rm -rf scnlib`.
 
+
+<details>
+ <summary>Caminho da instação dos arquivos</summary>
+
+```bash
+$ sudo cmake --install build/
+[sudo]: 
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib/libscn.a
+-- Up-to-date: /usr/local/include
+-- Installing: /usr/local/include/scn
+-- Installing: /usr/local/include/scn/xchar.h
+-- Installing: /usr/local/include/scn/regex.h
+-- Installing: /usr/local/include/scn/chrono.h
+-- Installing: /usr/local/include/scn/istream.h
+-- Installing: /usr/local/include/scn/fwd.h
+-- Installing: /usr/local/include/scn/ranges.h
+-- Installing: /usr/local/include/scn/scan.h
+-- Installing: /usr/local/lib/cmake/scn/scn-targets.cmake
+-- Installing: /usr/local/lib/cmake/scn/scn-targets-release.cmake
+-- Installing: /usr/local/lib/cmake/scn/scn-config.cmake
+-- Installing: /usr/local/lib/cmake/scn/scn-config-version.cmake
+```
+
+</details>
+
 ---
 
 ## Exemplo básico
