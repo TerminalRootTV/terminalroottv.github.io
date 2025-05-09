@@ -50,7 +50,7 @@ sudo cmake --install build
 <details>
  <summary>Caminho da instação dos arquivos</summary>
 
-```bash
+{% highlight bash %}
 $ sudo cmake --install build/
 [sudo]: 
 -- Install configuration: "Release"
@@ -68,7 +68,7 @@ $ sudo cmake --install build/
 -- Installing: /usr/local/lib/cmake/scn/scn-targets-release.cmake
 -- Installing: /usr/local/lib/cmake/scn/scn-config.cmake
 -- Installing: /usr/local/lib/cmake/scn/scn-config-version.cmake
-```
+{% endhighlight %}
 
 </details>
 
