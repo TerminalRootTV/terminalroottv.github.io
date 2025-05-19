@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows Subsystem for Linux agora open source!"
+title: "Windows Subsystem for Linux agora é open source!"
 date: 2025-05-19 17:25:13
 image: '/assets/img/windows/WSLOpenSourceBlogImage.jpg'
 description: "🐧 Revelada qual a linguagem de programação que o WSL foi escrito..."
