@@ -18,6 +18,17 @@ A Microsoft acabou de anunciar o lançamento de código aberto do [Windows](http
 
 Isso significa que o código que alimenta o WSL agora está disponível no GitHub e open source para a comunidade! Você pode baixar o **WSL** e construí-lo a partir do código-fonte, adicionar novas correções e recursos e participar do desenvolvimento ativo do *WSLilits*.
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ## Visão geral do componente WSL
@@ -34,6 +45,19 @@ O código WSLilits pode ser dividido nessas áreas principais:
 + Processos `init` e `daemon` do Kernel Linux, binários que são executados no Linux para fornecer funcionalidade WSL
 + E entre outros componentes!
 Acesse: <https://wsl.dev> para saber mais sobre cada componente.
+
+
+<!-- RECTANGLE 2 - OnParagragraph -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:block; text-align:center;"
+data-ad-layout="in-article"
+data-ad-format="fluid"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="8549252987"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -57,6 +81,20 @@ A partir daí, continuaram a melhorar a WSL, com o objetivo de fazer a transiç�
 À medida que continuaram melhorando a WSL, acabaram atingindo outro marco: *WSL 2.0.0* (Quais são os três problemas mais difíceis em ciência da computação? Fora por um erro e nomeando coisas!).
 
 > O WSL 2.0.0 introduziu grandes melhorias, como rede espelhada, tunelamento de DNS, suporte a sessão 0, suporte a proxy, suporte a firewall e muito mais.
+
+
+<!-- RECTANGLE LARGE -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Informat -->
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="2327980059"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
