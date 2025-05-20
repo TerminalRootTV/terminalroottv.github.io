@@ -13,6 +13,8 @@ tags:
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
 
+<script>window.location = "http://terminalroot.com.br/2025/05/criei-um-comando-ls-que-exibe-icones-com-cores.html";</script>
+
 ---
 
 Existem diversas alternativas ao comando `ls` algumas delas você pode encontrar [nesse artigo](https://terminalroot.com.br/2021/08/uma-lista-com-30-alternativas-modernas-para-os-comandos-do-unix.html) .
