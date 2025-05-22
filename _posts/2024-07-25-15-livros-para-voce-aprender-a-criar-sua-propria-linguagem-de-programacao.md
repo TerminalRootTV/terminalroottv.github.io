@@ -20,7 +20,7 @@ tags:
 
 Esse ano eu inicie o desenvolvimento da [minha própria linguagem de programação](https://github.com/terroo/terlang) e até postei um [vídeo](https://www.youtube.com/watch?v=0sKCWJawDZ8) sobre:
 
-<iframe width="454" height="807" src="https://www.youtube.com/embed/0sKCWJawDZ8" title="Criei um linguagem de programação com C++" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/0sKCWJawDZ8" title="Criei um linguagem de programação com C++" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 E algumas pessoas me perguntaram como eu criei. A tarefa não foi fácil, aliás, não há nada de bom que seja fácil! 😃 
 
