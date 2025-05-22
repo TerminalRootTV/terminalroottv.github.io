@@ -18,13 +18,17 @@ tags:
 
 ---
 
-Esse ano eu inicie o desenvolvimento da minha própria linguagem de programação e até postei um vídeo mostrando ela sendo compilada e funcionando no [Windows](https://terminalroot.com.br/tags#windows) e no [GNU/Linux](https://terminalroot.com.br/tags#gnulinux):
+Esse ano eu inicie o desenvolvimento da [minha própria linguagem de programação](https://github.com/terroo/terlang) e até postei um [vídeo](https://www.youtube.com/watch?v=0sKCWJawDZ8) sobre:
 
-<iframe width="454" height="807" src="https://www.youtube.com/embed/wUNLfX0p9k4" title="Criei um linguagem de programação com C++" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="454" height="807" src="https://www.youtube.com/embed/0sKCWJawDZ8" title="Criei um linguagem de programação com C++" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 E algumas pessoas me perguntaram como eu criei. A tarefa não foi fácil, aliás, não há nada de bom que seja fácil! 😃 
 
-Mas, eu aprendi lendo livros que comprei na internet. Muitos me perguntaram quais foram esses livros, 4 dos que eu li estão nessa lista e ainda incrementei com mais livros que eu gostaria de ter comprado e/ou obtido tempo para ler.
+Para mais detalhes criei até um [iCurso de Criação de Linguagem de Programação](https://terminalroot.com.br/mylang/) que mostra do zero o passo a passo:
+
+<iframe width="1100" height="490" src="https://www.youtube.com/embed/7Oxe3JYVguc" title="Curso de Criação de Linguagens de Programação com C++ - 01. Apresentação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Mas, eu aprendi lendo [livros](https://terminalroot.com.br/tags#livros) que comprei na internet. Muitos me perguntaram quais foram esses livros, 4 dos que eu li estão nessa lista e ainda incrementei com mais livros que eu gostaria de ter comprado e/ou obtido tempo para ler.
 
 Então, nesse artigo veremos: **15 Livros para você Aprender a Criar Sua Própria Linguagem de Programação**.
 
