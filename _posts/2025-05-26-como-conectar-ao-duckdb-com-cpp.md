@@ -44,7 +44,7 @@ A [API do DuckDB para C++](https://duckdb.org/docs/stable/clients/cpp) ainda nã
 </figure>
 
 Por isso eles recomendam que você use a [API](https://duckdb.org/docs/stable/clients/c/connect) do [C](https://terminalroot.com.br/tags#linguagemc) que funciona perfeitamente. Para isso basta acessa a página: <https://duckdb.org/docs/installation/> e escolher os dados conforme seu sistema. No meu caso, escolhi:
-+ [Stable Release|C/C++|Linux|Direct download|x86\_64](https://duckdb.org/docs/installation/?version=stable&environment=cplusplus&platform=linux&download_method=direct&architecture=x86_64)
++ [Stable Release:C/C++:Linux:Direct download:x86\_64](https://duckdb.org/docs/installation/?version=stable&environment=cplusplus&platform=linux&download_method=direct&architecture=x86_64)
 
 Depois é só clicar no `.zip` que será displonibilizado e fazer o download, ou fazer download com [wget](https://terminalroot.com.br/2019/05/aprenda-a-explorar-o-comando-wget.html):
 
