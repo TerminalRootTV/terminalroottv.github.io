@@ -177,4 +177,5 @@ Links adicionais:
 + <https://lucidar.me/en/sfml/sfml-part-7-heat-effect-shader/>
 + <https://shader-learning.com/module-view/built-in-functions>
 + <https://shader-learning.com/module-training/built-in-functions/task/ceil>
++ <https://github.com/satellitecomponent/Neurite>
 
