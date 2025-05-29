@@ -68,6 +68,20 @@ Abrirá um menu suspenso informando o andamento do download e todo processo de i
 
 ![clang install](/assets/img/windows/clang/clang-install.jpg) 
 
+Pode ser que o *Windows Defender* bloquei o download do *script*, então, abra o link: <https://tinyurl.com/llvm-mingw> e copie todo o código que aparecerá diretamente na página da Web, crie um arquivo, com extensão `.ps1`, exemplo: `InstallClang.ps1` e cole o código dentro e salve o arquivo e depois execute com o [PowerShell](https://terminalroot.com.br/2025/05/personalize-seu-powershell-like-a-pro.html) com argumentos que permitem a execução:
+
+```powershell
+# Windows PowerShell
+powershell -ExecutionPolicy Bypass -File InstallClang.ps1
+
+# Ou com o PowerShell, se tiver instalado(é mais rápido)
+pwsh -ExecutionPolicy Bypass -File InstallClang.ps1
+```
+> Com ou sem o `.exe` no final do comando não faz diferença, bem como o `.\InstallClang.ps1`(ponto barra invertida) para informar o nome do arquivo.
+
+Depois adicione a variável `PATH` **do sistema** como no passo abaixo.
+
+
 ### 02. Copie o caminho da instalação até a pasta `\bin`
 O local de instalação será similar ao caminho abaixo, mas no seu caso onde tem `[SEU USUÁRIO]` deve ser o nome do seu usuário no Windows:
 {% highlight bash %}
