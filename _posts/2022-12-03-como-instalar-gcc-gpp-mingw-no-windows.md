@@ -18,6 +18,16 @@ tags:
 
 ---
 
+<blockquote class="bg-danger text-white p-3 rounded">
+  <h2>ESSE ARTIGO ESTÁ DESATUALIZADO/OBSOLETO</h2>
+  <p>Acesse esse artigo abaixo para o procedimento atualizado:</p>
+  <h2><a href="https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html">Como Instalar a Nova Versão do GCC MinGW no Windows</a></h2>
+  <h3><a href="https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html">https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html</a></h3>
+  <footer class="blockquote-footer text-white-50">Terminal Root</footer>
+</blockquote>
+
+---
+
 O compilador padrão do [Microsoft Windows](https://terminalroot.com.br/tags#windows) é o [MSVC](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-options?view=msvc-170) e ele é instalado quando instalamos o [Visual Studio](). Apesar de ser um [IDE](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html#23-visual-studio) poderosíssimo, eu mesmo recomendo para quase todas as situações, algumas bibliotecas ficam mais práticas de trabalhar com um ambiente mais minimalista e isso pode ser alcançado usando o [GCC/G++](https://terminalroot.com.br/tags#gcc) no Windows.
 
 O pacote desenvolvido pelo [GNU](https://terminalroot.com.br/tags#gnu) para que você consiga usar o [gcc/g++](https://terminalroot.com.br/tags#gcc) no Windows é o [MinGW](https://en.wikipedia.org/wiki/MinGW).

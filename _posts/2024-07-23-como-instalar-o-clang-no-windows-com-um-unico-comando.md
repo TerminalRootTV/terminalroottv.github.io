@@ -21,7 +21,7 @@ tags:
 <blockquote class="bg-danger text-white p-3 rounded">
   <h2>ESSE ARTIGO ESTÁ DESATUALIZADO/OBSOLETO</h2>
   <p>Acesse esse artigo abaixo para o procedimento atualizado:</p>
-  <h2><a href="">Como Instalar a Nova Versão do Clang/LLVM no Windows</a></h2>
+  <h2><a href="https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html">Como Instalar a Nova Versão do Clang/LLVM no Windows</a></h2>
   <h3><a href="https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html">https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html</a></h3>
   <footer class="blockquote-footer text-white-50">Terminal Root</footer>
 </blockquote>
