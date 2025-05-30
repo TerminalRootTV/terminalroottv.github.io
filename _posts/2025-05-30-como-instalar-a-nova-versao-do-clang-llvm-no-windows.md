@@ -7,6 +7,11 @@ description: "🐉 Tanto a versão que independe do MSVC como a integrada."
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal Root'
 tags:
+- clang
+- llvm
+- windows
+- linguagemc
+- cpp
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
@@ -59,7 +64,7 @@ Ainda com permissão de administrador, rode esse comando:
 [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\LLVM\bin", "Machine")
 {% endhighlight %}
 
-Feche o terminal, abra novamente e verifique a versão:
+Feche o [terminal](https://terminalroot.com.br/2025/05/personalize-seu-powershell-like-a-pro.html), abra novamente e verifique a versão:
 {% highlight powershell %}
 clang++ --version
 {% endhighlight %}
@@ -132,9 +137,10 @@ Inclui:
 | Uso típico                | IDEs como VSCode com Clang      | Cross-compiling, builds portáveis  |
 | Licença                   | Permissiva (LLVM)               | Permissiva (LLVM + MinGW UCRT)     |
 
----
 
-* **Se você já usa o Visual Studio ou quer integração com o ecossistema MSVC**: Use `LLVM.LLVM`
-* **Se você quer uma toolchain completa e independente do MSVC** (especialmente útil para scripts, CI/CD ou compilações cruzadas): Use `MartinStorsjo.LLVM-MinGW.UCRT`.
+
+
++ **Se você já usa o Visual Studio ou quer integração com o ecossistema MSVC**: Use `LLVM.LLVM`
++ **Se você quer uma toolchain completa e independente do MSVC** (especialmente útil para scripts, CI/CD ou compilações cruzadas): Use `MartinStorsjo.LLVM-MinGW.UCRT`.
 
 
