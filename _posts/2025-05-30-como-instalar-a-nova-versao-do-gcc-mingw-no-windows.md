@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Nós já fizemos essa postagem sobre instalar [GCC MinGW no Windows](), mas se tornou obsoleta, é a versão antiga: ~~8.1.0~~. 
+Nós já fizemos essa postagem sobre instalar [GCC MinGW no Windows](https://terminalroot.com.br/2022/12/como-instalar-gcc-gpp-mingw-no-windows.html), mas se tornou obsoleta, é a versão antiga: ~~8.1.0~~. 
 
 Nesse rápido artigo veremos como atualizar ou instalar, caso você ainda não tenha, e fazer isso facilmente.
 
