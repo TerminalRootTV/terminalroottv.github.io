@@ -101,3 +101,10 @@ Se quiser usar o comando `make`, lembre-se de renomeá-lo: de `C:\mingw64\bin\mi
 Rename-Item -Path "C:\mingw64\bin\mingw32-make" -NewName "make"
 {% endhighlight %}
 
+---
+
+## Veja também:
++ [Como Instalar a Nova Versão do Clang/LLVM no Windows](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html)
++ [Como Usar o Tmxlite para Mapas de Jogos(Windows e Linux)](https://terminalroot.com.br/2025/05/como-usar-o-tmxlite-para-mapas-de-jogos-windows.html)
+
+

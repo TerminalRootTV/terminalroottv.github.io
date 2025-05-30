@@ -143,4 +143,8 @@ Inclui:
 + **Se você já usa o Visual Studio ou quer integração com o ecossistema MSVC**: Use `LLVM.LLVM`
 + **Se você quer uma toolchain completa e independente do MSVC** (especialmente útil para scripts, CI/CD ou compilações cruzadas): Use `MartinStorsjo.LLVM-MinGW.UCRT`.
 
+## Veja também:
++ [Como Instalar a Nova Versão do GCC MinGW no Windows](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html)
++ [Como Usar o Tmxlite para Mapas de Jogos(Windows e Linux)](https://terminalroot.com.br/2025/05/como-usar-o-tmxlite-para-mapas-de-jogos-windows.html)
+
 
