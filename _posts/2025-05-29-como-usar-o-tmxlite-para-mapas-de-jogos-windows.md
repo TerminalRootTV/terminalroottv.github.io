@@ -77,7 +77,7 @@ Copy-Item -Path '.\tmxlite\tmxlite\include' -Destination 'C:\tmxlite' -Recurse
 
 Como vamos testar com [SFML](https://terminalroot.com.br/sfml) e compilar com o [GNU GCC MinGW](https://terminalroot.com.br/2023/03/como-compilar-seus-jogos-em-sfml-com-gcc-mingw-no-windows.html) é importante você possuir a versão do [SFML](https://terminalroot.com.br/tags#sfml) para o [GCC](https://terminalroot.com.br/tags#gcc):
 
-+ **Baixe** [esse arquivo `SFML-2.6.2-windows-gcc-13.1.0-mingw-64-bit.zip)`](https://www.sfml-dev.org/files/SFML-2.6.2-windows-gcc-13.1.0-mingw-64-bit.zip):
++ **Baixe** [esse arquivo `SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip`](https://www.sfml-dev.org/files/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit.zip):
 + **Descompacte**; 
 + e **Mova**(a pasta `C:\SFML-2.5.1`) para `C:\SFML-2.5.1-GCC`(coloque um <b>-GCC</b> ao final da pasta para diferenciar da versão *VS*)
 
