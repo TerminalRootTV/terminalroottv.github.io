@@ -18,6 +18,16 @@ tags:
 
 ---
 
+<blockquote class="bg-danger text-white p-3 rounded">
+  <h2>ESSE ARTIGO ESTÁ DESATUALIZADO/OBSOLETO</h2>
+  <p>Acesse esse artigo abaixo para o procedimento atualizado:</p>
+  <h2><a href="">Como Instalar a Nova Versão do Clang/LLVM no Windows</a></h2>
+  <h3><a href="https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html">https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html</a></h3>
+  <footer class="blockquote-footer text-white-50">Terminal Root</footer>
+</blockquote>
+
+---
+
 Nós já [mostramos](https://terminalroot.com.br/2023/01/como-instalar-o-clang-binario-em-qualquer-distro-gnu-linux.html) que você pode instalar o [Clang](https://terminalroot.com.br/tags#clang) em distros [GNU/Linux](https://terminalroot.com.br/tags#gnulinux) sem precisar do seu gerenciador de pacotes, pois muitas vezes novas versões aparece com recursos habilitados que você não gostaria.
 
 Já vi pessoas relatarem, por exemplo, que o LSP dele que usa o `clangd` emite uns *warnings* para *não uso de cabeçalho*. Lógico que isso pode ser desabilitado, mas as pessoas gostam de ter tudo pronto.
