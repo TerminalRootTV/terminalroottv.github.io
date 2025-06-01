@@ -41,6 +41,8 @@ Lógico que você precisa ou do [GCC](https://terminalroot.com.br/tags#gcc) ou d
 
 Depois é só seguir esses passos:
 
+---
+
 ### ⤵️  01. Baixe a lista de emoji:
 Ou com `wget`:
 {% highlight bash %}
@@ -51,6 +53,8 @@ Ou com [cURL](https://terminalroot.com.br/tags#curl):
 {% highlight bash %}
 curl -sL bit.ly/emoji-txt -o ~/.emojis.txt
 {% endhighlight %}
+
+---
 
 ### 📄 02. Crie um arquivo [C++](https://terminalroot.com.br/tags#cpp):
 > Exemplo: `vim emoji.cpp`
@@ -88,11 +92,15 @@ int main(int argc, char** argv){
 }
 {% endhighlight %}
 
+---
+
 ### 🚧 03. Compile e instale:
 {% highlight bash %}
 g++ -O3 -ffast-math emoji.cpp -o emoji
 sudo mv emoji /usr/local/bin
 {% endhighlight %}
+
+---
 
 ### 📺 04. Adicione autocomplete para seu terminal:
 Para adicionar o autocomplete para Bash:
