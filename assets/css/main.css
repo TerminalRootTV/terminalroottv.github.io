@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+div.math {
+  font-size: 37px;
+}
+
 .midias-sociais a {
   color: #abb2bf;
 }

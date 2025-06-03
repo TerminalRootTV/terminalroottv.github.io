@@ -56,7 +56,7 @@ A = \begin{bmatrix}
 
 Essa matriz tem uma **ordem** de: `2x3` (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
 
-Outra observação sobre essa matriz é que ela possui a explicação: **`A = [aij]<sub>mxn</sub>`**, isso quer dizer que, por exemplo:
+Outra observação sobre essa matriz é que ela possui a explicação: <b>A = [aij]<sub>mxn</sub></b>, isso quer dizer que, por exemplo:
 + O número `1` está na 1º linha(m) e na 1º coluna(n), logo, a representação `a`<sub>ij</sub> dele é: `a`<sub>11</sub> e assim por diante.
 
 Convertendo todos para `a`<sub>ij</sub>, seria:
@@ -156,7 +156,7 @@ B = \begin{bmatrix}
 
 #### 1. **Matriz Quadrada**
 
-* **Descrição:** Número de linhas igual ao de colunas (n×n).
+* **Descrição:** Número de linhas igual ao de colunas (`nxn`).
 * **Exemplo:**
 
 <div class="math">
@@ -216,7 +216,7 @@ B = \begin{bmatrix}
 
 #### 5. **Matriz Identidade**
 
-* **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por $I_n$.
+* **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por <b>I<sub>n</sub></b>.
 * **Exemplo:**
 
 <div class="math">
@@ -686,11 +686,7 @@ int main(){
 28 + 6 = 34
 \]
 
-Resposta:
-
-<div class="math">
-\( 14 \)  
-</div>
+Resposta: **14**.
 
 ---
 
