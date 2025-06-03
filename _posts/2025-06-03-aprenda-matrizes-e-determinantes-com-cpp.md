@@ -74,10 +74,10 @@ std::vector<std::vector<int>> A = {
 **Com `std::array`:**
 
 {% highlight cpp %}
-std::array<std::array<int, 3>, 2> A = {{
+std::array<std::array<int, 3>, 2> A = { {
     {1, 2, 3},
     {4, 5, 6}
-}};
+} };
 {% endhighlight %}
 
 
