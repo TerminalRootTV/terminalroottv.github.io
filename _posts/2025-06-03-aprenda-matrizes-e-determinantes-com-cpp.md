@@ -137,7 +137,7 @@ O resultado será:
 
 #### 1. **Matriz Quadrada**
 
-* **Descrição:** Número de linhas igual ao de colunas (n×n).
+* **Descrição:** Número de linhas igual ao de colunas (`nxn`).
 * **Exemplo:**
 
 <img src="/assets/img/matematica/mathjax/03.jpg" alt="" style="border:none;text-align:left"> 
