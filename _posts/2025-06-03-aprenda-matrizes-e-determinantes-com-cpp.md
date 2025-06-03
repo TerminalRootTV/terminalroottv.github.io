@@ -79,24 +79,7 @@ Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o 
 + Use `std::array<std::array<int, 3>, 2>` se as dimensões forem **fixas e conhecidas em tempo de compilação**.
 **Nunca use `std::list` para matrizes.** Ela não tem acesso aleatório eficiente.
 
-### Exemplos:
-**Com `std::vector`:**
 
-{% highlight cpp %}
-std::vector<std::vector<int>> A = {
-    {1, 2, 3},
-    {4, 5, 6}
-};
-{% endhighlight %}
-
-**Com `std::array`:**
-
-{% highlight cpp %}
-std::array<std::array<int, 3>, 2> A = {{
-    {1, 2, 3},
-    {4, 5, 6}
-}};
-{% endhighlight %}
 
 
 ### Qual usar?
