@@ -590,7 +590,7 @@ int main(){
 A Regra de Sarrus consiste em adicionar a 1º e a 2º coluna para o lado direito da matriz determinante e *traçar* diagonais(a partir dos números da primeira LINHA), exemplo:
 > Isso para uma matriz `3x3`.
 
-![Regra de Sarrus](./sarrus.png) 
+![Regra de Sarrus](/assets/img/matematica/mathjax/sarrus.png) 
 
 
 <div class="math">
