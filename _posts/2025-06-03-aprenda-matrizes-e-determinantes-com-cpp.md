@@ -269,8 +269,8 @@ Em C++:
 #include <iostream>
 
 int main() {
-  std::array<std::array<int, 2>, 2> A = {{{1, 2}, {3, 4}}};
-  std::array<std::array<int, 2>, 2> B = {{{5, 6}, {7, 8}}};
+  std::array<std::array<int, 2>, 2> A = { { {1, 2}, {3, 4} } };
+  std::array<std::array<int, 2>, 2> B = { { {5, 6}, {7, 8} } };
   std::array<std::array<int, 2>, 2> C;
 
   for (int i = 0; i < 2; ++i){
@@ -300,7 +300,7 @@ Em C++:
 #include <iostream>
 
 int main() {
-  std::array<std::array<int, 2>, 2> A = {{{1, 2}, {3, 4}}};
+  std::array<std::array<int, 2>, 2> A = { { {1, 2}, {3, 4} } };
   std::array<std::array<int, 2>, 2> B;
   int escalar = 3;
 
@@ -330,8 +330,8 @@ Em C++:
 #include <iostream>
 
 int main() {
-  std::array<std::array<int, 2>, 2> A = {{{1, 2}, {3, 4}}};
-  std::array<std::array<int, 2>, 2> B = {{{5, 6}, {7, 8}}};
+  std::array<std::array<int, 2>, 2> A = { { {1, 2}, {3, 4} } };
+  std::array<std::array<int, 2>, 2> B = { { {5, 6}, {7, 8} } };
   std::array<std::array<int, 2>, 2> C = {};
 
   for (int i = 0; i < 2; ++i){
