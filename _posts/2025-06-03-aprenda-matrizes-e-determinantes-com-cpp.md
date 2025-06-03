@@ -58,7 +58,7 @@ $$
 
 Essa matriz tem uma **ordem** de: `2x3` (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
 
-Outra observação sobre essa matriz é que ela possui a explicação: **`A = [aij]<sub>mxn</sub>`**, isso quer dizer que, por exemplo:
+Outra observação sobre essa matriz é que ela possui a explicação: `A = [aij]<sub>mxn</sub>`, isso quer dizer que, por exemplo:
 + O número `1` está na 1º linha(m) e na 1º coluna(n), logo, a representação `a`<sub>ij</sub> dele é: `a`<sub>11</sub> e assim por diante.
 
 Convertendo todos para `a`<sub>ij</sub>, seria:
@@ -79,7 +79,24 @@ Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o 
 + Use `std::array<std::array<int, 3>, 2>` se as dimensões forem **fixas e conhecidas em tempo de compilação**.
 **Nunca use `std::list` para matrizes.** Ela não tem acesso aleatório eficiente.
 
+### Exemplos:
+**Com `std::vector`:**
 
+{% highlight cpp %}
+std::vector<std::vector<int>> A = {
+    {1, 2, 3},
+    {4, 5, 6}
+};
+{% endhighlight %}
+
+**Com `std::array`:**
+
+{% highlight cpp %}
+std::array<std::array<int, 3>, 2> A = {{
+    {1, 2, 3},
+    {4, 5, 6}
+}};
+{% endhighlight %}
 
 
 ### Qual usar?
@@ -132,12 +149,12 @@ O resultado será:
 
 <div class="math">
 {% raw %}
-\[
+$$
 B = \begin{bmatrix}
 0 & 1 & 4 \\
 1 & 4 & 9 \\
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -150,12 +167,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 \\
 3 & 4
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -167,11 +184,11 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 & 3
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -183,13 +200,13 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 \\
 2 \\
 3
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -201,12 +218,13 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 0 & 0 \\
 0 & 0
 \end{bmatrix}
-\]
+$$
+\begin{bmatrix}
 {% endraw %}
 </div>
 
@@ -218,12 +236,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 0 \\
 0 & 1
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -235,12 +253,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 2 & 0 \\
 0 & 3
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -252,12 +270,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 5 & 0 \\
 0 & 5
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -269,12 +287,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 \\
 2 & 3
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -286,12 +304,12 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 0 & 2 \\
 -2 & 0
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -303,13 +321,13 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 & 3 \\
 0 & 4 & 5 \\
 0 & 0 & 6
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -321,13 +339,13 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 0 & 0 \\
 2 & 3 & 0 \\
 4 & 5 & 6
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -339,7 +357,7 @@ B = \begin{bmatrix}
 
 <div class="math">
 {% raw %}
-\[
+$$
 A =
 \begin{bmatrix}
 1 & 2 \\
@@ -351,7 +369,7 @@ A^T =
 1 & 3 \\
 2 & 4
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -363,7 +381,7 @@ A^T =
 
 <div class="math">
 {% raw %}
-\[
+$$
 A =
 \begin{bmatrix}
 1 & -2 \\
@@ -375,7 +393,7 @@ A =
 -1 & 2 \\
 -3 & 0
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -387,12 +405,12 @@ A =
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
-\]
+$$
 {% endraw %}
 </div>
 
@@ -404,7 +422,7 @@ Só é possível se as matrizes tiverem a mesma ordem.
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 \\
 3 & 4 \\
@@ -419,7 +437,7 @@ Só é possível se as matrizes tiverem a mesma ordem.
 6 & 8 \\
 10 & 12 \\
 \end{bmatrix}
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -454,7 +472,7 @@ Multiplica-se cada elemento por um número real (escalar).
 
 <div class="math">
 {% raw %}
-\[
+$$
 3 \cdot \begin{bmatrix}
 1 & 2 \\
 3 & 4 \\
@@ -464,7 +482,7 @@ Multiplica-se cada elemento por um número real (escalar).
 3 & 6 \\
 9 & 12 \\
 \end{bmatrix}
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -499,7 +517,7 @@ O número de colunas da primeira matriz deve ser igual ao número de linhas da s
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{bmatrix}
 1 & 2 \\
 3 & 4 \\
@@ -519,7 +537,7 @@ O número de colunas da primeira matriz deve ser igual ao número de linhas da s
 19 & 22 \\
 43 & 50 \\
 \end{bmatrix}
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -575,13 +593,13 @@ O **determinante** é um número associado apenas a **matrizes quadradas**, úti
 
 <div class="math">
 {% raw %}
-\[
+$$
 \text{det} \begin{vmatrix}
 a & b \\
 c & d \\
 \end{vmatrix}
 = ad - bc
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -589,13 +607,13 @@ c & d \\
 
 <div class="math">
 {% raw %}
-\[
+$$
 \text{det} \begin{vmatrix}
 1 & 2 \\
 3 & 4 \\
 \end{vmatrix}
 = (1 \cdot 4) - (2 \cdot 3) = 4 - 6 = -2
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -622,14 +640,14 @@ A Regra de Sarrus consiste em adicionar a 1º e a 2º coluna para o lado direito
 
 <div class="math">
 {% raw %}
-\[
+$$
 \text{det} \begin{vmatrix}
 a & b & c \\
 d & e & f \\
 g & h & i \\
 \end{vmatrix}
 = aei + bfg + cdh - ceg - afh - bdi
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -637,22 +655,22 @@ g & h & i \\
 
 <div class="math">
 {% raw %}
-\[
+$$
 \text{det} \begin{vmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 7 & 8 & 9 \\
 \end{vmatrix}
 = (1 \cdot 5 \cdot 9) + (2 \cdot 6 \cdot 7) + (3 \cdot 4 \cdot 8) - (3 \cdot 5 \cdot 7) - (1 \cdot 6 \cdot 8) - (2 \cdot 4 \cdot 9)
-\]  
+$$
 {% endraw %}
 </div>
 
 <div class="math">
 {% raw %}
-\[
+$$
 = 45 + 84 + 96 - 105 - 48 - 72 = 0
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -691,12 +709,12 @@ int main(){
 
 <div class="math">
 {% raw %}
-\[
+$$
 \begin{vmatrix}
 3 & -2 \\
 1 & 4 \\
 \end{vmatrix}
-\]  
+$$
 {% endraw %}
 </div>
 
@@ -716,11 +734,11 @@ int main(){
 
 <div class="math">
 {% raw %}
-\[
+$$
 \text{det} =
 (7 \cdot 4) - (3 \cdot -2) =
 28 + 6 = 34
-\]
+$$
 {% endraw %}
 </div>
 
@@ -728,7 +746,7 @@ Resposta:
 
 <div class="math">
 {% raw %}
-\( 14 \)  
+$$ 14 $$
 {% endraw %}
 </div>
 
