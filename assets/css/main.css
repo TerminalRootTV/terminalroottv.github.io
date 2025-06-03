@@ -13,7 +13,7 @@ html {
 }
 
 div.math {
-  font-size: 37px;
+  font-size: 15px;
 }
 
 .midias-sociais a {
@@ -108,15 +108,16 @@ button.close {color: #fff; font-size: 60px;}
 .modal {
            width:450px;
           }
-div.math {
-  font-size: 15px;
-}
+
 }
 
 @media screen and (min-width:600px){
-      .modal {
-                 width:600px;
-      }
+  .modal {
+    width:600px;
+  }
+  div.math {
+    font-size: 37px;
+  }
 }
 
 @media screen and (min-width:750px){
@@ -126,11 +127,19 @@ div.math {
 
 .artigo img { max-width: 70%; }
 
+  div.math {
+    font-size: 37px;
+  }
+
 }
 
 @media screen and (min-width:1100px){
   .modal {
            width:1100px;
+  }
+
+  div.math {
+    font-size: 40px;
   }
 
   /*.sidebar {
