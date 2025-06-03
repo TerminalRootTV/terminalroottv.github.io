@@ -166,7 +166,7 @@ O resultado será:
 
 #### 5. **Matriz Identidade**
 
-* **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por $I_n$.
+* **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por <b>I<sub>n</sub></b>.
 * **Exemplo:**
 
 <img src="/assets/img/matematica/mathjax/07.jpg" alt="" style="border:none;text-align:left">
