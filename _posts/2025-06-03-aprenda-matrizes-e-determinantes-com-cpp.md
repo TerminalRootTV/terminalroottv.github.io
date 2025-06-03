@@ -6,6 +6,7 @@ image: '/assets/img/matematica/matriz.jpg'
 description: "🔢 Conceito de Matemática do Ensino Médio que se tornou a inda mais relevante na era da Inteligência Artificial."
 icon: 'ion:terminal-sharp'
 iconname: 'Matemática/C++'
+mathjax: yes
 tags:
 - matematica
 - cpp
@@ -65,12 +66,12 @@ Convertendo todos para `a`<sub>ij</sub>, seria:
 
 <div class="math">
 {::nomarkdown}
-$ \[
+\[
 A = \begin{bmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 \end{bmatrix}
-$ \]
+\]
 {:/}
 </div>
 
@@ -752,3 +753,14 @@ Resposta:
 + [Nerckie](https://www.youtube.com/watch?v=SUbr6zypkLA)
 + [Giz com Gis](https://www.youtube.com/watch?v=Fa_vs3jPa0Q&list=PLGyv8aUrOlzA_xsEveyON086udN6WIga_)
 
+<!-- mathjax -->
+{% if page.mathjax %}
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [["$", "$"], ["\\(", "\\)"]],
+                processEscapes: true
+            }
+        });
+    </script>
+{% endif %}
