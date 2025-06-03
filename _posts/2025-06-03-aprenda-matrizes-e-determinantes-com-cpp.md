@@ -46,12 +46,12 @@ O conceito em linhas gerais é: **Uma matriz é uma tabela retangular de número
 
 <div class="math">
 {% raw %}
-$\[
+$$
 A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 \end{bmatrix}
-$\]  
+$$  
 {% endraw %}
 </div>
 
@@ -65,12 +65,12 @@ Convertendo todos para `a`<sub>ij</sub>, seria:
 
 <div class="math">
 {% raw %}
-$\[
+$$
 A = \begin{bmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 \end{bmatrix}
-$\]
+$$
 {% endraw %}
 </div>
 
