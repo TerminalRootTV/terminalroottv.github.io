@@ -6,7 +6,6 @@ image: '/assets/img/matematica/matriz.jpg'
 description: "🔢 Conceito de Matemática do Ensino Médio que se tornou a inda mais relevante na era da Inteligência Artificial."
 icon: 'ion:terminal-sharp'
 iconname: 'Matemática/C++'
-mathjax: yes
 tags:
 - matematica
 - cpp
@@ -46,12 +45,12 @@ E entre diversas outras.
 O conceito em linhas gerais é: **Uma matriz é uma tabela retangular de números (ou expressões) organizados em linhas e colunas.**, sua representação se parece com isso:
 
 <div class="math">
-\[
+$\[
 A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
 \end{bmatrix}
-\]  
+$\]  
 </div>
 
 
@@ -63,12 +62,12 @@ Outra observação sobre essa matriz é que ela possui a explicação: **`A = [a
 Convertendo todos para `a`<sub>ij</sub>, seria:
 
 <div class="math">
-\[
+$\[
 A = \begin{bmatrix}
 a_{11} & a_{12} & a_{13} \\
 a_{21} & a_{22} & a_{23} \\
 \end{bmatrix}
-\]
+$\]
 </div>
 
 Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o [std::vector](https://terminalroot.com.br/2021/08/diferencas-entre-list-e-vector-na-stl-do-cpp.html) ou [std::array](https://terminalroot.com.br/2023/05/como-usar-o-stdarray-em-cpp.html):
