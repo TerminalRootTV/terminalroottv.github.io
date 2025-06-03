@@ -56,7 +56,7 @@ A = \begin{bmatrix}
 </div>
 
 
-Essa matriz tem uma **ordem** de: \( 2 \times 3 \) (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
+Essa matriz tem uma **ordem** de: `2x3` (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
 
 Outra observação sobre essa matriz é que ela possui a explicação: **A = [aij]<sub>mxn</sub>**, isso quer dizer que, por exemplo:
 + O número `1` está na 1º linha(m) e na 1º coluna(n), logo, a representação `a`<sub>ij</sub> dele é: `a`<sub>11</sub> e assim por diante.
