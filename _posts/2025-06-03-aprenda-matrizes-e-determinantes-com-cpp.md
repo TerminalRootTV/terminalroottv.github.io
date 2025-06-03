@@ -63,16 +63,7 @@ Outra observação sobre essa matriz é que ela possui a explicação: `A = [aij
 
 Convertendo todos para `a`<sub>ij</sub>, seria:
 
-<div class="math">
-{% raw %}
-$$
-A = \begin{bmatrix}
-a_{11} & a_{12} & a_{13} \\
-a_{21} & a_{22} & a_{23} \\
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![01](/assets/img/matematica/mathjax/01.jpg) 
 
 Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o [std::vector](https://terminalroot.com.br/2021/08/diferencas-entre-list-e-vector-na-stl-do-cpp.html) ou [std::array](https://terminalroot.com.br/2023/05/como-usar-o-stdarray-em-cpp.html):
 + Use `std::vector<std::vector<int>>` se quiser algo **dinâmico e flexível**.
@@ -80,7 +71,23 @@ Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o 
 **Nunca use `std::list` para matrizes.** Ela não tem acesso aleatório eficiente.
 
 ### Exemplos:
+**Com `std::vector`:**
 
+{% highlight cpp %}
+std::vector<std::vector<int>> A = {
+    {1, 2, 3},
+    {4, 5, 6}
+};
+{% endhighlight %}
+
+**Com `std::array`:**
+
+{% highlight cpp %}
+std::array<std::array<int, 3>, 2> A = {{
+    {1, 2, 3},
+    {4, 5, 6}
+}};
+{% endhighlight %}
 
 
 ### Qual usar?
@@ -131,16 +138,8 @@ std::vector<std::vector<int>> B(2, std::vector<int>(3));
 
 O resultado será:
 
-<div class="math">
-{% raw %}
-$$
-B = \begin{bmatrix}
-0 & 1 & 4 \\
-1 & 4 & 9 \\
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![02](/assets/img/matematica/mathjax/02.jpg) 
+
 
 ### Tipos de Matrizes
 
@@ -149,68 +148,28 @@ $$
 * **Descrição:** Número de linhas igual ao de colunas (n×n).
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
-
+![03](/assets/img/matematica/mathjax/03.jpg) 
 
 #### 2. **Matriz Linha**
 
 * **Descrição:** Apenas uma linha.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 & 3
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
-
+![04](/assets/img/matematica/mathjax/04.jpg) 
 
 #### 3. **Matriz Coluna**
 
 * **Descrição:** Apenas uma coluna.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 \\
-2 \\
-3
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
-
+![05](/assets/img/matematica/mathjax/05.jpg)
 
 #### 4. **Matriz Nula**
 
 * **Descrição:** Todos os elementos são zero.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-0 & 0 \\
-0 & 0
-\end{bmatrix}
-$$
-\begin{bmatrix}
-{% endraw %}
-</div>
+![06](/assets/img/matematica/mathjax/06.jpg)
 
 
 #### 5. **Matriz Identidade**
@@ -218,16 +177,8 @@ $$
 * **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por $I_n$.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 0 \\
-0 & 1
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![07](/assets/img/matematica/mathjax/07.jpg)
+
 
 
 #### 6. **Matriz Diagonal**
@@ -235,16 +186,8 @@ $$
 * **Descrição:** Apenas a diagonal principal pode ter valores diferentes de zero.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-2 & 0 \\
-0 & 3
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![08](/assets/img/matematica/mathjax/08.jpg)
+
 
 
 #### 7. **Matriz Escalar**
@@ -252,50 +195,26 @@ $$
 * **Descrição:** Matriz diagonal com todos os valores da diagonal iguais.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-5 & 0 \\
-0 & 5
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![09](/assets/img/matematica/mathjax/09.jpg)
+
 
 
 #### 8. **Matriz Simétrica**
 
-* **Descrição:** $A = A^T$, ou seja, é igual à sua transposta.
+* **Descrição:** <b>A = A<sup>T</sup></b>, ou seja, é igual à sua transposta.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 \\
-2 & 3
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![10](/assets/img/matematica/mathjax/10.jpg)
+
 
 
 #### 9. **Matriz Antissimétrica (ou Skew-Simétrica)**
 
-* **Descrição:** $A^T = -A$. Diagonal principal é sempre zero.
+* **Descrição:** <b>A<sup>T</sup> = -A</b>. Diagonal principal é sempre zero.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-0 & 2 \\
--2 & 0
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![11](/assets/img/matematica/mathjax/11.jpg)
+
 
 
 #### 10. **Matriz Triangular Superior**
@@ -303,17 +222,8 @@ $$
 * **Descrição:** Todos os elementos abaixo da diagonal principal são zero.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![12](/assets/img/matematica/mathjax/12.jpg)
+
 
 
 #### 11. **Matriz Triangular Inferior**
@@ -321,41 +231,17 @@ $$
 * **Descrição:** Todos os elementos acima da diagonal principal são zero.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 0 & 0 \\
-2 & 3 & 0 \\
-4 & 5 & 6
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![13](/assets/img/matematica/mathjax/13.jpg)
+
 
 
 #### 12. **Matriz Transposta**
 
-* **Descrição:** Linhas viram colunas. Denotada $A^T$.
+* **Descrição:** Linhas viram colunas. Denotada <b>A<sup>T</sup></b>.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-A =
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix},
-\quad
-A^T =
-\begin{bmatrix}
-1 & 3 \\
-2 & 4
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![14](/assets/img/matematica/mathjax/14.jpg)
+
 
 
 #### 13. **Matriz Oposta**
@@ -363,23 +249,8 @@ $$
 * **Descrição:** Todos os elementos multiplicados por -1.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-A =
-\begin{bmatrix}
-1 & -2 \\
-3 & 0
-\end{bmatrix},
-\quad
--A =
-\begin{bmatrix}
--1 & 2 \\
--3 & 0
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![15](/assets/img/matematica/mathjax/15.jpg)
+
 
 
 #### 14. **Matriz Retangular**
@@ -387,16 +258,8 @@ $$
 * **Descrição:** Número de linhas diferente do número de colunas.
 * **Exemplo:**
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![16](/assets/img/matematica/mathjax/16.jpg)
+
 
 ### Cálculos de Matrizes
 Operações aritméticas(algébricas ou matriciais) com Matrizes.
@@ -404,26 +267,8 @@ Operações aritméticas(algébricas ou matriciais) com Matrizes.
 #### **a) Adição e Subtração**  
 Só é possível se as matrizes tiverem a mesma ordem.  
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4 \\
-\end{bmatrix}
-+
-\begin{bmatrix}
-5 & 6 \\
-7 & 8 \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-6 & 8 \\
-10 & 12 \\
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![17](/assets/img/matematica/mathjax/17.jpg)
+
 
 > Ou seja, `1 + 5` = `6`, `2 + 6` = `8` e assim por diante.
 
@@ -454,21 +299,7 @@ int main() {
 #### **b) Multiplicação por Escalar**  
 Multiplica-se cada elemento por um número real (escalar).  
 
-<div class="math">
-{% raw %}
-$$
-3 \cdot \begin{bmatrix}
-1 & 2 \\
-3 & 4 \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-3 & 6 \\
-9 & 12 \\
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![18](/assets/img/matematica/mathjax/18.jpg)
 
 > Ou seja, `3 x 1` = `3`, `3 x 2` = `6` e assim por diante.
 
@@ -499,31 +330,8 @@ int main() {
 #### **c) Multiplicação de Matrizes**  
 O número de colunas da primeira matriz deve ser igual ao número de linhas da segunda.  
 
-<div class="math">
-{% raw %}
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4 \\
-\end{bmatrix}
-\cdot
-\begin{bmatrix}
-5 & 6 \\
-7 & 8 \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-(1 \cdot 5 + 2 \cdot 7) & (1 \cdot 6 + 2 \cdot 8) \\
-(3 \cdot 5 + 4 \cdot 7) & (3 \cdot 6 + 4 \cdot 8) \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-19 & 22 \\
-43 & 50 \\
-\end{bmatrix}
-$$
-{% endraw %}
-</div>
+![19](/assets/img/matematica/mathjax/19.jpg)
+
 
 Em C++:
 {% highlight cpp %} 
@@ -575,31 +383,13 @@ O **determinante** é um número associado apenas a **matrizes quadradas**, úti
 ### 3.2 Cálculo do Determinante
 #### a) Matriz \( 2 \times 2 \)
 
-<div class="math">
-{% raw %}
-$$
-\text{det} \begin{vmatrix}
-a & b \\
-c & d \\
-\end{vmatrix}
-= ad - bc
-$$
-{% endraw %}
-</div>
+![20](/assets/img/matematica/mathjax/20.jpg)
+
 
 **Exemplo:**  
 
-<div class="math">
-{% raw %}
-$$
-\text{det} \begin{vmatrix}
-1 & 2 \\
-3 & 4 \\
-\end{vmatrix}
-= (1 \cdot 4) - (2 \cdot 3) = 4 - 6 = -2
-$$
-{% endraw %}
-</div>
+![21](/assets/img/matematica/mathjax/21.jpg)
+
 
 Em C++:
 {% highlight cpp %} 
@@ -622,41 +412,15 @@ A Regra de Sarrus consiste em adicionar a 1º e a 2º coluna para o lado direito
 ![Regra de Sarrus](./sarrus.png) 
 
 
-<div class="math">
-{% raw %}
-$$
-\text{det} \begin{vmatrix}
-a & b & c \\
-d & e & f \\
-g & h & i \\
-\end{vmatrix}
-= aei + bfg + cdh - ceg - afh - bdi
-$$
-{% endraw %}
-</div>
+![22](/assets/img/matematica/mathjax/22.jpg)
+
 
 **Exemplo:**  
 
-<div class="math">
-{% raw %}
-$$
-\text{det} \begin{vmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-7 & 8 & 9 \\
-\end{vmatrix}
-= (1 \cdot 5 \cdot 9) + (2 \cdot 6 \cdot 7) + (3 \cdot 4 \cdot 8) - (3 \cdot 5 \cdot 7) - (1 \cdot 6 \cdot 8) - (2 \cdot 4 \cdot 9)
-$$
-{% endraw %}
-</div>
+![23](/assets/img/matematica/mathjax/23.jpg)
 
-<div class="math">
-{% raw %}
-$$
-= 45 + 84 + 96 - 105 - 48 - 72 = 0
-$$
-{% endraw %}
-</div>
+
+> `= 45 + 84 + 96 - 105 - 48 - 72 = 0`
 
 Em C++:
 {% highlight cpp %} 
@@ -691,16 +455,9 @@ int main(){
 #### 5. Exercício
 + Calcule o determinante:  
 
-<div class="math">
-{% raw %}
-$$
-\begin{vmatrix}
-3 & -2 \\
-1 & 4 \\
-\end{vmatrix}
-$$
-{% endraw %}
-</div>
+
+![24](/assets/img/matematica/mathjax/24.jpg)
+
 
 Em C++:
 {% highlight cpp %} 
@@ -716,23 +473,11 @@ int main(){
 }
 {% endhighlight %}
 
-<div class="math">
-{% raw %}
-$$
-\text{det} =
-(7 \cdot 4) - (3 \cdot -2) =
-28 + 6 = 34
-$$
-{% endraw %}
-</div>
+![25](/assets/img/matematica/mathjax/25.jpg)
 
-Resposta:
+<img src="/assets/img/matematica/mathjax/25.jpg" alt="" style="border:none;text-align:left">
 
-<div class="math">
-{% raw %}
-$$ 14 $$
-{% endraw %}
-</div>
+Resposta: **14**.
 
 ---
 
