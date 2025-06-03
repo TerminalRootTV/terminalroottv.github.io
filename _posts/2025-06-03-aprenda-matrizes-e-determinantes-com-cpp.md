@@ -91,7 +91,7 @@ Suponhamos que você está prestando um concurso e possui esse enunciado:
 + Construa a matriz B = [`a`<sub>ij</sub>]<sub>2x3</sub> tal que `a`<sub>ij</sub> = (i + j)<sup>2</sup>.
 
 Solução:
-+ `a`<sub>ij</sub> = (i + j)<sup>2</sup> => `a`<sub>11</sub> = (1 + 1)<sup>2</sup> => **`a`<sub>11</sub> = 4**.
++ `a`<sub>ij</sub> = (i + j)<sup>2</sup> => `a`<sub>11</sub> = (0 + 0)<sup>2</sup> => **`a`<sub>11</sub> = 0**.
 > Faça para os demais
 
 A solução para todos em [C++](https://terminalroot.com.br/tags#cpp) utilizando `std::array`, já que a matriz é de tamanho fixo `2x3`:
