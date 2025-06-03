@@ -44,16 +44,7 @@ E entre diversas outras.
 
 O conceito em linhas gerais é: **Uma matriz é uma tabela retangular de números (ou expressões) organizados em linhas e colunas.**, sua representação se parece com isso:
 
-<div class="math">
-{% raw %}
-$$
-A = \begin{bmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
-\end{bmatrix}
-$$  
-{% endraw %}
-</div>
+![00](/assets/img/matematica/mathjax/00.jpg) 
 
 
 Essa matriz tem uma **ordem** de: `2x3` (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
