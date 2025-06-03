@@ -13,6 +13,7 @@ tags:
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
 
+
 ---
 
 Nesse artigo recapitularemos conceitos fundamentais sobre Matrizes e Determinantes.
@@ -44,7 +45,7 @@ E entre diversas outras.
 
 O conceito em linhas gerais é: **Uma matriz é uma tabela retangular de números (ou expressões) organizados em linhas e colunas.**, sua representação se parece com isso:
 
-![00](/assets/img/matematica/mathjax/00.jpg) 
+<img src="/assets/img/matematica/mathjax/00.jpg" alt="" style="border:none;text-align:left"> 
 
 
 Essa matriz tem uma **ordem** de: `2x3` (2 linhas(horizontal) e 3 colunas(vertical)), nas representações de matrizes sempre começamos informando as linhas.  
@@ -54,7 +55,7 @@ Outra observação sobre essa matriz é que ela possui a explicação: `A = [aij
 
 Convertendo todos para `a`<sub>ij</sub>, seria:
 
-![01](/assets/img/matematica/mathjax/01.jpg) 
+<img src="/assets/img/matematica/mathjax/01.jpg" alt="" style="border:none;text-align:left"> 
 
 Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o [std::vector](https://terminalroot.com.br/2021/08/diferencas-entre-list-e-vector-na-stl-do-cpp.html) ou [std::array](https://terminalroot.com.br/2023/05/como-usar-o-stdarray-em-cpp.html):
 + Use `std::vector<std::vector<int>>` se quiser algo **dinâmico e flexível**.
@@ -129,7 +130,7 @@ std::vector<std::vector<int>> B(2, std::vector<int>(3));
 
 O resultado será:
 
-![02](/assets/img/matematica/mathjax/02.jpg) 
+<img src="/assets/img/matematica/mathjax/02.jpg" alt="" style="border:none;text-align:left"> 
 
 
 ### Tipos de Matrizes
@@ -139,28 +140,28 @@ O resultado será:
 * **Descrição:** Número de linhas igual ao de colunas (n×n).
 * **Exemplo:**
 
-![03](/assets/img/matematica/mathjax/03.jpg) 
+<img src="/assets/img/matematica/mathjax/03.jpg" alt="" style="border:none;text-align:left"> 
 
 #### 2. **Matriz Linha**
 
 * **Descrição:** Apenas uma linha.
 * **Exemplo:**
 
-![04](/assets/img/matematica/mathjax/04.jpg) 
+<img src="/assets/img/matematica/mathjax/04.jpg" alt="" style="border:none;text-align:left"> 
 
 #### 3. **Matriz Coluna**
 
 * **Descrição:** Apenas uma coluna.
 * **Exemplo:**
 
-![05](/assets/img/matematica/mathjax/05.jpg)
+<img src="/assets/img/matematica/mathjax/05.jpg" alt="" style="border:none;text-align:left">
 
 #### 4. **Matriz Nula**
 
 * **Descrição:** Todos os elementos são zero.
 * **Exemplo:**
 
-![06](/assets/img/matematica/mathjax/06.jpg)
+<img src="/assets/img/matematica/mathjax/06.jpg" alt="" style="border:none;text-align:left">
 
 
 #### 5. **Matriz Identidade**
@@ -168,7 +169,7 @@ O resultado será:
 * **Descrição:** Diagonal principal com 1 e o resto 0. Denotada por $I_n$.
 * **Exemplo:**
 
-![07](/assets/img/matematica/mathjax/07.jpg)
+<img src="/assets/img/matematica/mathjax/07.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -177,7 +178,7 @@ O resultado será:
 * **Descrição:** Apenas a diagonal principal pode ter valores diferentes de zero.
 * **Exemplo:**
 
-![08](/assets/img/matematica/mathjax/08.jpg)
+<img src="/assets/img/matematica/mathjax/08.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -186,7 +187,7 @@ O resultado será:
 * **Descrição:** Matriz diagonal com todos os valores da diagonal iguais.
 * **Exemplo:**
 
-![09](/assets/img/matematica/mathjax/09.jpg)
+<img src="/assets/img/matematica/mathjax/09.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -195,7 +196,7 @@ O resultado será:
 * **Descrição:** <b>A = A<sup>T</sup></b>, ou seja, é igual à sua transposta.
 * **Exemplo:**
 
-![10](/assets/img/matematica/mathjax/10.jpg)
+<img src="/assets/img/matematica/mathjax/10.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -204,7 +205,7 @@ O resultado será:
 * **Descrição:** <b>A<sup>T</sup> = -A</b>. Diagonal principal é sempre zero.
 * **Exemplo:**
 
-![11](/assets/img/matematica/mathjax/11.jpg)
+<img src="/assets/img/matematica/mathjax/11.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -213,7 +214,7 @@ O resultado será:
 * **Descrição:** Todos os elementos abaixo da diagonal principal são zero.
 * **Exemplo:**
 
-![12](/assets/img/matematica/mathjax/12.jpg)
+<img src="/assets/img/matematica/mathjax/12.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -222,7 +223,7 @@ O resultado será:
 * **Descrição:** Todos os elementos acima da diagonal principal são zero.
 * **Exemplo:**
 
-![13](/assets/img/matematica/mathjax/13.jpg)
+<img src="/assets/img/matematica/mathjax/13.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -231,7 +232,7 @@ O resultado será:
 * **Descrição:** Linhas viram colunas. Denotada <b>A<sup>T</sup></b>.
 * **Exemplo:**
 
-![14](/assets/img/matematica/mathjax/14.jpg)
+<img src="/assets/img/matematica/mathjax/14.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -240,7 +241,7 @@ O resultado será:
 * **Descrição:** Todos os elementos multiplicados por -1.
 * **Exemplo:**
 
-![15](/assets/img/matematica/mathjax/15.jpg)
+<img src="/assets/img/matematica/mathjax/15.jpg" alt="" style="border:none;text-align:left">
 
 
 
@@ -249,7 +250,7 @@ O resultado será:
 * **Descrição:** Número de linhas diferente do número de colunas.
 * **Exemplo:**
 
-![16](/assets/img/matematica/mathjax/16.jpg)
+<img src="/assets/img/matematica/mathjax/16.jpg" alt="" style="border:none;text-align:left">
 
 
 ### Cálculos de Matrizes
@@ -258,7 +259,7 @@ Operações aritméticas(algébricas ou matriciais) com Matrizes.
 #### **a) Adição e Subtração**  
 Só é possível se as matrizes tiverem a mesma ordem.  
 
-![17](/assets/img/matematica/mathjax/17.jpg)
+<img src="/assets/img/matematica/mathjax/17.jpg" alt="" style="border:none;text-align:left">
 
 
 > Ou seja, `1 + 5` = `6`, `2 + 6` = `8` e assim por diante.
@@ -290,7 +291,7 @@ int main() {
 #### **b) Multiplicação por Escalar**  
 Multiplica-se cada elemento por um número real (escalar).  
 
-![18](/assets/img/matematica/mathjax/18.jpg)
+<img src="/assets/img/matematica/mathjax/18.jpg" alt="" style="border:none;text-align:left">
 
 > Ou seja, `3 x 1` = `3`, `3 x 2` = `6` e assim por diante.
 
@@ -321,7 +322,7 @@ int main() {
 #### **c) Multiplicação de Matrizes**  
 O número de colunas da primeira matriz deve ser igual ao número de linhas da segunda.  
 
-![19](/assets/img/matematica/mathjax/19.jpg)
+<img src="/assets/img/matematica/mathjax/19.jpg" alt="" style="border:none;text-align:left">
 
 
 Em C++:
@@ -372,14 +373,14 @@ O **determinante** é um número associado apenas a **matrizes quadradas**, úti
 > **IMPORTANTE**: Na representação de matrizes usamos colchetes: `[ ]`, mas em determinantes usamos barras verticais, exemplo: `| |`.
 
 ### 3.2 Cálculo do Determinante
-#### a) Matriz \( 2 \times 2 \)
+#### a) Matriz `2x2`
 
-![20](/assets/img/matematica/mathjax/20.jpg)
+<img src="/assets/img/matematica/mathjax/20.jpg" alt="" style="border:none;text-align:left">
 
 
 **Exemplo:**  
 
-![21](/assets/img/matematica/mathjax/21.jpg)
+<img src="/assets/img/matematica/mathjax/21.jpg" alt="" style="border:none;text-align:left">
 
 
 Em C++:
@@ -400,15 +401,15 @@ int main(){
 A Regra de Sarrus consiste em adicionar a 1º e a 2º coluna para o lado direito da matriz determinante e *traçar* diagonais(a partir dos números da primeira LINHA), exemplo:
 > Isso para uma matriz `3x3`.
 
-![Regra de Sarrus](/assets/img/matematica/mathjax/sarrus.png) 
+<img src="/assets/img/matematica/mathjax/sarrus.png" alt="">
 
 
-![22](/assets/img/matematica/mathjax/22.jpg)
+<img src="/assets/img/matematica/mathjax/22.jpg" alt="" style="border:none;text-align:left">
 
 
 **Exemplo:**  
 
-![23](/assets/img/matematica/mathjax/23.jpg)
+<img src="/assets/img/matematica/mathjax/23.jpg" alt="" style="border:none;text-align:left">
 
 
 > `= 45 + 84 + 96 - 105 - 48 - 72 = 0`
@@ -436,7 +437,7 @@ int main(){
 
 #### 3.3 Propriedades dos Determinantes
 - Se uma linha ou coluna for toda zero, `det = 0`.  
-- Se duas linhas ou colunas forem iguais, `det} = 0`.  
+- Se duas linhas ou colunas forem iguais, `det = 0`.  
 - `det(A x B) = det(A) x det(B)`.  
 
 #### 4. Aplicações
@@ -447,7 +448,7 @@ int main(){
 + Calcule o determinante:  
 
 
-![24](/assets/img/matematica/mathjax/24.jpg)
+<img src="/assets/img/matematica/mathjax/24.jpg" alt="" style="border:none;text-align:left">
 
 
 Em C++:
@@ -464,9 +465,9 @@ int main(){
 }
 {% endhighlight %}
 
-![25](/assets/img/matematica/mathjax/25.jpg)
-
 <img src="/assets/img/matematica/mathjax/25.jpg" alt="" style="border:none;text-align:left">
+
+<!--<img src="/assets/img/matematica/mathjax/25.jpg" alt="" style="border:none;text-align:left">-->
 
 Resposta: **14**.
 
