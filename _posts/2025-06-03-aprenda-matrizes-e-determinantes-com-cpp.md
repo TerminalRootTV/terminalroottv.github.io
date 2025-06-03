@@ -82,21 +82,21 @@ Essa mesma matriz em [C++](https://terminalroot.com.br/tags#cpp) podemos usar o 
 ### Exemplos:
 **Com `std::vector`:**
 
-{% highlight cpp %}
+```cpp 
 std::vector<std::vector<int>> A = {
     {1, 2, 3},
     {4, 5, 6}
 };
-{% endhighlight %}
+```
 
 **Com `std::array`:**
 
-{% highlight cpp %}
+```cpp 
 std::array<std::array<int, 3>, 2> A = {{
     {1, 2, 3},
     {4, 5, 6}
 }};
-{% endhighlight %}
+```
 
 ### Qual usar?
 * Use `std::vector` se for alterar tamanho em tempo de execução.
@@ -112,7 +112,7 @@ Solução:
 
 A solução para todos em [C++](https://terminalroot.com.br/tags#cpp) utilizando `std::array`, já que a matriz é de tamanho fixo `2x3`:
 
-{% highlight cpp %}
+```cpp 
 #include <array>
 #include <iostream>
 
@@ -135,13 +135,13 @@ int main() {
 
   return 0;
 }
-{% endhighlight %}
+```
 
 Se quiser com `std::vector`, troca por:
 
-{% highlight cpp %}
+```cpp 
 std::vector<std::vector<int>> B(2, std::vector<int>(3));
-{% endhighlight %}
+```
 > O resto do código é igual.
 
 O resultado será:
@@ -442,7 +442,7 @@ Só é possível se as matrizes tiverem a mesma ordem.
 > Ou seja, `1 + 5` = `6`, `2 + 6` = `8` e assim por diante.
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <array>
 #include <iostream>
 
@@ -463,7 +463,7 @@ int main() {
     }
   }
 }
-{% endhighlight %}
+```
 
 #### **b) Multiplicação por Escalar**  
 Multiplica-se cada elemento por um número real (escalar).  
@@ -487,7 +487,7 @@ Multiplica-se cada elemento por um número real (escalar).
 > Ou seja, `3 x 1` = `3`, `3 x 2` = `6` e assim por diante.
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <array>
 #include <iostream>
 
@@ -508,7 +508,7 @@ int main() {
     }
   }
 }
-{% endhighlight %}
+```
 
 #### **c) Multiplicação de Matrizes**  
 O número de colunas da primeira matriz deve ser igual ao número de linhas da segunda.  
@@ -540,7 +540,7 @@ O número de colunas da primeira matriz deve ser igual ao número de linhas da s
 </div>
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <array>
 #include <iostream>
 
@@ -563,7 +563,7 @@ int main() {
     }
   }
 }
-{% endhighlight %}
+```
 
 
 <!-- RECTANGLE LARGE -->
@@ -616,7 +616,7 @@ c & d \\
 </div>
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <iostream>
 
 int main(){
@@ -627,7 +627,7 @@ int main(){
 
   std::cout << det << '\n';
 }
-{% endhighlight %}
+```
 
 #### b) Matriz \( 3 \times 3 \) (Regra de Sarrus)
 A Regra de Sarrus consiste em adicionar a 1º e a 2º coluna para o lado direito da matriz determinante e *traçar* diagonais(a partir dos números da primeira LINHA), exemplo:
@@ -673,7 +673,7 @@ g & h & i \\
 </div>
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <iostream>
 
 int main(){
@@ -691,7 +691,7 @@ int main(){
 
   std::cout << det << '\n';
 }
-{% endhighlight %}
+```
 
 #### 3.3 Propriedades dos Determinantes
 - Se uma linha ou coluna for toda zero, \(\text{det} = 0\).  
@@ -717,7 +717,7 @@ int main(){
 </div>
 
 Em C++:
-{% highlight cpp %}
+```cpp 
 #include <iostream>
 
 int main(){
@@ -728,7 +728,7 @@ int main(){
 
   std::cout << det << '\n';
 }
-{% endhighlight %}
+```
 
 <div class="math">
 {::nomarkdown}
