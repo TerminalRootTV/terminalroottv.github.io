@@ -104,7 +104,7 @@ Suponhamos que você está prestando um concurso e possui esse enunciado:
 + Construa a matriz B = [`a`<sub>ij</sub>]<sub>2x3</sub> tal que `a`<sub>ij</sub> = (i + j)<sup>2</sup>.
 
 Solução:
-+ `a`<sub>ij</sub> = (i + j)<sup>2</sup> &Rightarrow; `a`<sub>11</sub> = (1 + 1)<sup>2</sup> &Rightarrow; **`a`<sub>11</sub> = 4**.
++ <b>`a`<sub>ij</sub> = (i + j)<sup>2</sup></b> => `a`<sub>11</sub> = (1 + 1)<sup>2</sup> => <b>`a`<sub>11</sub> = 4</b>.
 > Faça para os demais
 
 A solução para todos em [C++](https://terminalroot.com.br/tags#cpp) utilizando `std::array`, já que a matriz é de tamanho fixo `2x3`:
@@ -645,13 +645,13 @@ int main(){
 {% endhighlight %}
 
 #### 3.3 Propriedades dos Determinantes
-- Se uma linha ou coluna for toda zero, \(\text{det} = 0\).  
-- Se duas linhas ou colunas forem iguais, \(\text{det} = 0\).  
-- \(\text{det}(A \cdot B) = \text{det}(A) \cdot \text{det}(B)\).  
+- Se uma linha ou coluna for toda zero, `det = 0`.  
+- Se duas linhas ou colunas forem iguais, `det} = 0`.  
+- `det(A x B) = det(A) x det(B)`.  
 
 #### 4. Aplicações
 - **Sistemas Lineares:** Resolver equações usando a **Regra de Cramer**.  
-- **Matriz Inversa:** Uma matriz \( A \) é invertível se \(\text{det}(A) \neq 0\).  
+- **Matriz Inversa:** Uma matriz A é invertível se <b>det(A) &ne; 0</b>.  
 
 #### 5. Exercício
 + Calcule o determinante:  
