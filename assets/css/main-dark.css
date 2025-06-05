@@ -9,15 +9,14 @@ body {
 }
 
 .artigo > .row > .col-md-12 > hr {
-  border: 1px solid silver;
+  border: 1px solid #333;
   margin: 30px auto 30px auto;
   max-width: 300px;
 }
 
 .artigo > .row > .col-md-12 > h2 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  border-bottom: 1px solid #fff;
 }
 
 .navbar-brand{
