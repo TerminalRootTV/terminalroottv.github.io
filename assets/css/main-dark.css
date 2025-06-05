@@ -8,6 +8,12 @@ body {
   font-family:Whitney,sans-serif;
 }
 
+hr {
+  border: 1px solid silver;
+  margin: 10px auto 10px auto;
+  max-width: 300px;
+}
+
 .navbar-brand{
   font-family: Dosis;
   font-weight: bold;
