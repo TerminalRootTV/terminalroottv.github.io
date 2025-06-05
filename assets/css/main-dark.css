@@ -10,8 +10,14 @@ body {
 
 hr {
   border: 1px solid silver;
-  margin: 10px auto 10px auto;
+  margin: 30px auto 30px auto;
   max-width: 300px;
+}
+
+artigo.h2 {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
 }
 
 .navbar-brand{
