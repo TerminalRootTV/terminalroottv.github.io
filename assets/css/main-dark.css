@@ -9,8 +9,8 @@ body {
 }
 
 .artigo > .row > .col-md-12 > hr {
-  border: 1px solid #333;
-  margin: 30px auto 30px auto;
+  border: 1px solid #3e3f42;
+  margin: 100px auto 100px auto !important;
   max-width: 300px;
 }
 
