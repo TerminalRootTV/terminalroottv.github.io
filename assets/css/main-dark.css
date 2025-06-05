@@ -15,8 +15,8 @@ body {
 }
 
 .artigo > .row > .col-md-12 > h2 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  /*font-weight: bold;*/
 }
 
 .navbar-brand{
