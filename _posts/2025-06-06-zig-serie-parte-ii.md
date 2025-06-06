@@ -114,6 +114,7 @@ projeto/
 ```
 
 > `string_utils.zig`:
+
 ```zig
 // string_utils.zig
 const std = @import("std");
@@ -159,6 +160,7 @@ pub fn concatMany(allocator: std.mem.Allocator, strings: []const []const u8) ![]
 ```
 
 > `main.zig`:
+
 ```zig
 // main.zig
 const std = @import("std");
@@ -210,6 +212,7 @@ pub fn main() void {
 ```
 
   - `const`: variável imutável.
+
 ```zig
 const std = @import("std");
 
@@ -221,6 +224,7 @@ pub fn main() void {
 ```
 
   - Tipagem pode ser inferida:
+
 ```zig
 const std = @import("std");
 
@@ -278,6 +282,7 @@ pub fn main() void {
   - **Use `const` sempre que possível.**
   - **Tipos explícitos ajudam na legibilidade e segurança.**
   - **Zig não tem `null` por padrão — use `?T` para tipos opcionais:**
+
 ```zig
 var maybe_num: ?i32 = null;
 ```
