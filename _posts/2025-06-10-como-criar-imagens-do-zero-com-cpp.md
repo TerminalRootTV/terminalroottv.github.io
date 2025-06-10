@@ -219,7 +219,7 @@ int main(){
 + [🔗 Conheça um Ambiente Desktop para o Terminal](https://terminalroot.com.br/2025/06/conheca-um-ambiente-desktop-para-o-terminal.html)
 + [🔗 Os 12 Melhores Entity Component System para C++](https://terminalroot.com.br/2025/06/os-12-melhores-entity-component-system-para-cpp.html)
 + [🔗 Série Go - RegEx, CRUD de Arquivo](https://terminalroot.com.br/2025/06/serie-go-regex-crud-de-arquivo.html)
-+ [🔗 Zig Série](Parte II](https://terminalroot.com.br/2025/06/zig-serie-parte-ii.html)
++ [🔗 Zig Série - Parte II](https://terminalroot.com.br/2025/06/zig-serie-parte-ii.html)
 + [🔗 Conheça o Ecode](Um Editor Leve, Multiplaforma e Moderno](https://terminalroot.com.br/2025/06/conheca-o-ecode-um-editor-leve-multiplaforma-e-moderno.html)
 
 
