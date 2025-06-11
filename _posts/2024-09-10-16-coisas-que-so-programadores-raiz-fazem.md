@@ -3,7 +3,7 @@ layout: post
 title: "16 COISAS que só PROGRAMADORES RAIZ fazem"
 date: 2024-09-10 09:03:03
 image: '/assets/img/youtube/programadores-raiz.jpg'
-description: "🚀 Identificar programadores raiz é fácil, nem todos seguem todas essas características, mas possui um número grande de indentidade nesses tópicos."
+description: "🚀 Identificar programadores raiz é fácil, nem todos seguem todas essas características, mas possui um número grande de identidade nesses tópicos."
 icon: 'ion:terminal-sharp'
 iconname: 'Dicas/Humor'
 tags:
