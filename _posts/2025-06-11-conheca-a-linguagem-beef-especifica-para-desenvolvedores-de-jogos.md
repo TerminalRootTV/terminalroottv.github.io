@@ -30,7 +30,7 @@ Beef é ideal para quem precisa de desenvolvimento rápido e controle fino de re
 + Desenvolvedores de Jogos e Motores de Jogos (console, desktop, WASM).
 + Projetos que exigem depuração eficiente, código hot‑reload, ergonomia orientada a produtividade.
 
-Existe binário pré-compilado para [Windows](https://terminalroot.com.br/tags#windows), basta fazer o download e executar o `.exe`. 
+Existe binário pré-compilado para [Windows](https://terminalroot.com.br/tags#windows) inclusive com um [IDE](https://terminalroot.com.br/2021/12/os-32-melhores-ides-editores-de-texto-para-cpp.html) com autocomplete pronto para usar, basta fazer o download e executar o `.exe`. 
 
 Mas, no [macOS](https://terminalroot.com.br/tags#macos) e distros [GNU/Linux](https://terminalroot.com.br/tags#gnulinux) precisa compilar do zero.
 
