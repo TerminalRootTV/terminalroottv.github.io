@@ -154,7 +154,7 @@ Combina um design moderno e elegante com **desempenho confiável**, ideal para p
 
 ---
 
-## [10. Notebook VAIO FE15]()
+## [10. Notebook VAIO FE15](https://amzn.to/3ZtJtcg)
 
 ![Notebook VAIO FE15](/assets/img/amazon/notes2025/10.jpg)
   
@@ -163,6 +163,8 @@ Combina um design moderno e elegante com **desempenho confiável**, ideal para p
 - **Tela**: 15,6" Full HD Antirreflexo, Windows 11 Home
 - **Características**: Design premium, ótimo desempenho para multitarefa, excelente display para design e desenvolvimento web.  
 - **Ideal para**: Programadores que também trabalham com **design gráfico**, **renderização de vídeo**, ou precisam de um notebook com **alta precisão de cores**.
+
+<a href="https://amzn.to/3ZtJtcg" class="btn btn-danger btn-lg">Clique aqui para adquirir esse Notebook</a>
 
 ---
 
