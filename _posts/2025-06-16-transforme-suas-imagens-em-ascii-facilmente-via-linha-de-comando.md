@@ -65,7 +65,7 @@ Exemplo usando essa imagem:
 ![C++ logo png](/assets/img/cppdaily/cpp-logo.png) 
 
 {% highlight bash %}
-pixcii --color -i cpp-logo.jpg -o saida.txt
+pixcii --color -i cpp-logo.png -o saida.txt
 cat saida.txt
 {% endhighlight %}
 > Se não tiver cor de fundo fica legal, mas imagens `JPG` com fundo preto também terá os fundos ignorados.
