@@ -49,7 +49,7 @@ Por isso eles recomendam que você use a [API](https://duckdb.org/docs/stable/cl
 Depois é só clicar no `.zip` que será displonibilizado e fazer o download, ou fazer download com [wget](https://terminalroot.com.br/2019/05/aprenda-a-explorar-o-comando-wget.html):
 
 {% highlight bash %}
-wget -q https://github.com/duckdb/duckdb/releases/download/v1.3.0/libduckdb-linux-amd64.zip
+wget -q https://github.com/duckdb/duckdb/releases/download/v1.3.1/libduckdb-linux-amd64.zip
 {% endhighlight %}
 
 Descompacte:
