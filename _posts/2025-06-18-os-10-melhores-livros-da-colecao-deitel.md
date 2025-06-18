@@ -3,7 +3,7 @@ layout: post
 title: "Os 10 Melhores Livros da Coleção Deitel"
 date: 2025-06-18 10:37:38
 image: '/assets/img/livros/deitel/deitel.jpg'
-description: "📚 Livros sobre: C, C++, Java, Python, C#,, Swift, Sistemas Operacionais e entre outros."
+description: "📚 Livros sobre: C, C++, Java, Python, C#, Swift, Sistemas Operacionais e entre outros."
 icon: 'ion:terminal-sharp'
 iconname: 'Livros'
 tags:
