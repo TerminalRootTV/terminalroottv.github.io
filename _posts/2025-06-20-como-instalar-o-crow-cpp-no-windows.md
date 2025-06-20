@@ -45,7 +45,7 @@ Antes de mais nada você vai precisar ter instalado no seu sistema os seguintes 
 > Clique nos links para um tutorial de instalação no Windows.
 
 + [Git](https://terminalroot.com.br/2023/03/como-instalar-git-e-git-bash-no-windows.html)
-+ [Python]()
++ [Python](https://terminalroot.com.br/2025/06/como-instalar-facilmente-python-e-pip-no-windows.html)
 + [GCC](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html)
 + [Clang](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-clang-llvm-no-windows.html)
 
@@ -59,7 +59,7 @@ winget install -e --id Python.Python.3.11 --scope machine
 {% endhighlight %}
 
 Só o [GCC](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html) que você precisará seguir o [tutorial](https://terminalroot.com.br/2025/05/como-instalar-a-nova-versao-do-gcc-mingw-no-windows.html).
-> Detalhe é que após instalá-lo, existe um [CMake]() dentro da pasta `MinGW`, então para haver compatibilidade de versão renomei o `cmake` para outro nome.
+> Detalhe é que após instalá-lo, existe um [CMake](https://terminalroot.com.br/tags#cmake) dentro da pasta `MinGW`, então para haver compatibilidade de versão renomei o `cmake` para outro nome.
 
 Exemplo: Se você rodar o comando: `Get-Command cmake` no [terminal](https://terminalroot.com.br/2023/04/melhore-seu-desempenho-utilizando-o-windows-terminal.html) aparecerá esse caminho:
 
@@ -135,7 +135,7 @@ cd Crow
 
 ### 🛠️ Agora vamos Compilar o **Crow** junto com a **ASIO**
 
-Eu organizo todos meus include em uma pasta na unidade `C:\`, assim como no [Unix]() fica em `/usr/include` no [Windows]() em guardo tudo(SFML3, SFML2, tmxlite, FFmpeg,...) em `C:\Includes`.
+Eu organizo todos meus include em uma pasta na unidade `C:\`, assim como no [Unix](https://terminalroot.com.br/tags#unix) fica em `/usr/include` no [Windows](https://terminalroot.com.br/tags#windows) em guardo tudo(SFML3, SFML2, tmxlite, FFmpeg,...) em `C:\Includes`.
 
 Enão crie essa pasta e juntamente com a subpasta `C:\Includes\crow` com esse comando, pois é nesse caminho que vamos instalar o Crow e a ASIO:
 
@@ -261,7 +261,7 @@ data-full-width-responsive="true"></ins>
 
 ## ⚙️ Rodar um `Hello, World!` no servidor com Crow
 
-Agora sua pasta/projeto `MyProjectCrow` está vazia. Vamos criar um arquivo `main.cpp` dentro dela, exemplo com [VSCode]():
+Agora sua pasta/projeto `MyProjectCrow` está vazia. Vamos criar um arquivo `main.cpp` dentro dela, exemplo com [VSCode](https://terminalroot.com.br/tags#vscode):
 
 {% highlight powershell %}
 code main.cpp
