@@ -33,32 +33,32 @@ data-ad-slot="5351066970"></ins>
 ---
 
 ## Instalação
-1. **Acesse o site oficial do Docker**: [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop).
-2. Clique em **"Download for Windows"**, escolha a arquitetura do seu sistema, por exemplo: `AMD64`.
+### 1. **Acesse o site oficial do Docker**: [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop).
+### 2. Clique em **"Download for Windows"**, escolha a arquitetura do seu sistema, por exemplo: `AMD64`.
 
-3. Após o download ser concluído, **abra o instalador** (`Docker Desktop Installer.exe`) que foi baixado.
-4. O assistente de instalação será aberto. Clique em **"Install"** para começar a instalação.
+### 3. Após o download ser concluído, **abra o instalador** (`Docker Desktop Installer.exe`) que foi baixado.
+### 4. O assistente de instalação será aberto. Clique em **"Install"** para começar a instalação.
 
 ![Docker installing](/assets/img/docker/windows/installing-docker-windows.jpg) 
 
-5. **Aguarde a instalação**. O processo pode levar alguns minutos.
+### 5. **Aguarde a instalação**. O processo pode levar alguns minutos.
 
-6. Após a instalação ser concluída, você pode ser solicitado a reiniciar o computador. Se isso acontecer, clique em **"Restart"** ou **"Reiniciar"**.
+### 6. Após a instalação ser concluída, você pode ser solicitado a reiniciar o computador. Se isso acontecer, clique em **"Restart"** ou **"Reiniciar"**.
 
 ![Docker succeeded](/assets/img/docker/windows/docker-suceeded.jpg) 
 
 ---
 
 ## Utilização
-1. Após o reinício (se necessário), **abra o Docker Desktop**.
+### 1. Após o reinício (se necessário), **abra o Docker Desktop**.
 > Você pode encontrá-lo na lista de aplicativos do Windows ou usar a busca do Windows (pressione **Windows + S** e digite "Docker").
 
-2. Quando o Docker Desktop for iniciado, ele pode pedir para você fazer login com uma conta Docker. Se não tiver uma conta, pode criar uma gratuitamente.
+### 2. Quando o Docker Desktop for iniciado, ele pode pedir para você fazer login com uma conta Docker. Se não tiver uma conta, pode criar uma gratuitamente.
 > Aceite os termos durante a primeira execução do Docker.
 
 ![Docker accept](/assets/img/docker/windows/docker-accept.jpg) 
 
-3. Verifique se está funcionando corretamente. Abra o **Prompt de Comando** ou **PowerShell**. Digite o comando:
+### 3. Verifique se está funcionando corretamente. Abra o **Prompt de Comando** ou **PowerShell**. Digite o comando:
 > Ele também instala do `docker-compose`, verifique também a versão.
 
 {% highlight bash %}
@@ -80,9 +80,9 @@ docker info
 
 E também, executar a imagem `hello-world` do [Docker Hub](https://hub.docker.com/). Ele serve para testar se o Docker está instalado e funcionando corretamente.
 
-1. Baixa a imagem `hello-world` se não estiver localmente.
-2. Cria e executa um container a partir dela.
-3. O container imprime uma mensagem confirmando que o Docker está funcionando.
+### 1. Baixa a imagem `hello-world` se não estiver localmente.
+### 2. Cria e executa um container a partir dela.
+### 3. O container imprime uma mensagem confirmando que o Docker está funcionando.
 
 Exemplo:
 
