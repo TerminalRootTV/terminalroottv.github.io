@@ -345,7 +345,7 @@ Get-NetIPAddress
 ---
 
 ## 💻 21. Cria uma variável de Ambiente
-> Exemplo para [Terlang]: `C:\Program Files\Terlang\bin`(Windows) e `${HOME}/.local/terlang/bin/`(GNU)
+> Exemplo para [Terlang](https://github.com/terroo/terlang): `C:\Program Files\Terlang\bin`(Windows) e `${HOME}/.local/terlang/bin/`(GNU)
 
 ### 🐂 GNU
 {% highlight bash %}
