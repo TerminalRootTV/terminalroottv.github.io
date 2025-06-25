@@ -39,6 +39,12 @@ data-ad-slot="5351066970"></ins>
 📦 Dependências
 + C++ Compiler: [GCC](https://gcc.gnu.org/) or [Clang](https://clang.llvm.org/)
 + [CMake](https://cmake.org/)
++ [cURL++](https://www.curlpp.org/)
+
+Example no Ubuntu:
+{% highlight sh %}
+sudo apt install build-essential cmake libcurlpp-dev
+{% endhighlight %}
 
 🚧 Construa e instale
 {% highlight bash %}
