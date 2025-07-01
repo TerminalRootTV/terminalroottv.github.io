@@ -3,7 +3,7 @@ layout: post
 title: "Drogon C++, O Framework Web Mais VELOZ do Mundo"
 date: 2021-02-27 13:50:18
 image: '/assets/img/cpp/drogon-cpp.jpg'
-description: 'Foi o primeiro colocado em testes com 105 frameworks, dentre eles: Rails, Django, NestJS, Laravel e entre outros.'
+description: '🐉 Foi o primeiro colocado em testes com 105 frameworks, dentre eles: Rails, Django, NestJS, Laravel e entre outros.'
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
