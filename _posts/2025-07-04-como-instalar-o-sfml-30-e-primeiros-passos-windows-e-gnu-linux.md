@@ -38,6 +38,9 @@ data-ad-slot="5351066970"></ins>
 
 ## ✳️ Códigos e links citados no vídeo
 
+### Lançamento do SFML 3.0.0
+#### <https://github.com/SFML/SFML/releases/tag/3.0.0>
+
 + Download: <https://www.sfml-dev.org/download/sfml/3.0.0/>
 + Atualizar o Visual Studio: <https://learn.microsoft.com/en-us/visualstudio/install/update-visual-studio?view=vs-2022>
 
