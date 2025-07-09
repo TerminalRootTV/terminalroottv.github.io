@@ -15,10 +15,9 @@ body {
   max-width: 300px;*/
 }
 
-.artigo > .row > .col-md-12 > h2 {
+/*.artigo > .row > .col-md-12 > h2 {
   font-size: 36px;
-  /*font-weight: bold;*/
-}
+}*/
 
 .navbar-brand{
   font-family: Dosis;
