@@ -118,6 +118,17 @@ Opções:
 
 ---  
 
-### 📹 Tutorial em vídeo mostrando passo a passo como o comando `his` foi criado.  
-#### <https://youtu.be/gILIsK3MiGQ>
+## 📹 Tutorial em vídeo mostrando passo a passo como o comando `his` foi criado.  
 
+Esse vídeo faz parte do [Curso de C++ para Iniciantes](https://terminalroot.com.br/cpp) e nele criamos um comando do zero com [C++](https://terminalroot.com.br/tags#cpp) e [Ncurses](https://terminalroot.com.br/ncurses)/[PDCurses](https://terminalroot.com.br/2024/07/como-instalar-a-pdcurses-a-ncurses-no-windows.html) com portabilidade que funciona tanto no [Windows](https://terminalroot.com.br/tags#windows) com [PowerShell](https://terminalroot.com.br/2025/05/personalize-seu-powershell-like-a-pro.html) como para [GNU/Linux](https://terminalroot.com.br/tags#gnulinux) para [Bash](https://terminalroot.com.br/bash).
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/gILIsK3MiGQ" title="Como Criar um Comando Fuzz para o Windows e GNU/Linux com C++" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## 💻 Links Úteis
+
++ 👑 Aprenda a criar sua própria linguagem de programação: <https://terminalroot.com.br/mylang>
++ ✅ Aprenda Criação de Games com C++ e SFML: <https://terminalroot.com.br/sfml>
++ ✅ Pacote Promocional C++: <https://terminalroot.com.br/promo>
++ ✅ Aprenda C++ e Qt: <https://terminalroot.com.br/cpp>
++ ✅ Conheça nossos Cursos: <https://bit.ly/CursosTerminalRoot>
++ 🎁 Todos os Cursos na Udemy: <https://bit.ly/UdemyTerminalRoot>
