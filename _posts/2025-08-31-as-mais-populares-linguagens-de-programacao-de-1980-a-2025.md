@@ -32,7 +32,7 @@ tags:
 + ✅ Pacote Promocional C++: <https://terminalroot.com.br/promo>
 + ✅ Aprenda C++ e Qt: <https://terminalroot.com.br/cpp>
 + ✅ Conheça nossos Cursos: <https://bit.ly/CursosTerminalRoot>
-+ 🎁 Todos os Cursos na Udemy: h<ttps://bit.ly/UdemyTerminalRoot>
++ 🎁 Todos os Cursos na Udemy: <https://bit.ly/UdemyTerminalRoot>
 
 
 
