@@ -35,8 +35,6 @@ Este livro promove um estudo abrangente dos princípios e técnicas de sistemas 
 ![02](/assets/img/eletronica/eletronica-livros/02.jpg) 
 
 Ensina conceitos básicos de eletrônica e Arduino para iniciantes. Inclui circuitos simples, entradas/saídas digitais e analógicas, programação básica e uso de sensores. 
-Amazon Brasil
-+1
 
 <a href="https://amzn.to/3K9CrVp" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
 
@@ -46,7 +44,6 @@ Amazon Brasil
 ![03](/assets/img/eletronica/eletronica-livros/03.jpg) 
 
 Apresenta 37 projetos práticos, partindo do básico até componentes mais complexos, ideal para quem gosta de aprender “fazendo”. 
-Amazon Brasil
 
 <a href="https://amzn.to/3KhMtUn" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
 
@@ -65,7 +62,6 @@ Começa do zero: programação do Arduino, uso de sensores, displays, comunicaç
 ![05](/assets/img/eletronica/eletronica-livros/05.jpg) 
 
 Focado em eletrônica digital pura: porta lógica, sistemas combinacionais, aritmética digital, implementações práticas. Bom suporte teórico para quem vai entrar no design de circuitos digitais. 
-Amazon Brasil
 
 <a href="https://amzn.to/4pDlfrw" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
 
@@ -93,7 +89,6 @@ Livro da série Para Leigos, cobre os conceitos básicos, passo a passo, ideal p
 ![08](/assets/img/eletronica/eletronica-livros/08.jpg) 
 
 Combina a parte analógica + digital com aplicações para Internet das Coisas — sensores, condicionamento de sinal, amplificadores, comunicação, etc. Indicado para quem deseja algo mais abrangente. 
-Mercado Livre
 
 <a href="https://amzn.to/4nLO1oa" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
 
