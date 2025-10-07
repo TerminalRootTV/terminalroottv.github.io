@@ -27,7 +27,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Pequenos e médios negócios**, **usuários domésticos** que precisam de **armazenamento em rede rápido e expansível**.  
 - **Destaque**: **Fácil de configurar** e **gerenciar**, ótimo para **backup e compartilhamento de arquivos**.
 
-<a href="https://amzn.to/48jpUbW" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/48jpUbW" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -39,7 +39,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Pequenos negócios**, **empresas de médio porte** e **usuários domésticos** que precisam de **armazenamento em rede** com capacidades de **multimídia**.  
 - **Destaque**: **Alta performance** com **saída de mídia 4K** e **expansão fácil**.
 
-<a href="https://amzn.to/42wzowF" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/42wzowF" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -51,7 +51,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Usuários domésticos avançados**, **profissionais de mídia**, **pequenos negócios** que buscam **alto desempenho** de rede e **armazenamento confiável**.  
 - **Destaque**: **Conectividade de 2,5 GbE**, ideal para **transferências rápidas de arquivos**.
 
-<a href="https://amzn.to/3VVLZWz" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/3VVLZWz" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -63,7 +63,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Empresas de médio porte**, **organizações que necessitam de alta disponibilidade de dados** e **soluções de backup**.  
 - **Destaque**: **Segurança avançada** e **transferência ultrarrápida** de dados com **conexão 10GbE**.
 
-<a href="https://amzn.to/439EI9t" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/439EI9t" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -75,7 +75,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Empresas em crescimento**, **equipes de TI**, **profissionais de multimídia**.  
 - **Destaque**: **Desempenho excepcional** para **backup e colaboração em equipe**.
 
-<a href="https://amzn.to/4h38Itw" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/4h38Itw" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -87,7 +87,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Pequenos escritórios** e **usuários domésticos** que precisam de **armazenamento confiável**.  
 - **Destaque**: **Custo-benefício excelente** com **desempenho sólido** para **uso pessoal e pequenas empresas**.
 
-<a href="https://amzn.to/3J1R90h" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/3J1R90h" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -99,7 +99,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Profissionais autônomos**, **usuários domésticos avançados** e **pequenos negócios** que precisam de **armazenamento em nuvem privado**.  
 - **Destaque**: **Acesso remoto simplificado** e **backup automático** de arquivos importantes.
 
-<a href="https://amzn.to/46FZa4b" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/46FZa4b" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -111,7 +111,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Pequenos negócios** e **escritórios domésticos** que necessitam de **controle completo da rede** e **armazenamento em nuvem local**.  
 - **Destaque**: **Integração fácil** com **sistemas UniFi** e **controle centralizado** da rede.
 
-<a href="https://amzn.to/4gZmqxz" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/4gZmqxz" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -123,7 +123,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Pequenas e médias empresas** que precisam de um **servidor dedicado** para **aplicações críticas** e **armazenamento de dados**.  
 - **Destaque**: **Desempenho sólido e expansibilidade** para pequenas empresas em crescimento.
 
-<a href="https://amzn.to/48jiLIx" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/48jiLIx" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
@@ -135,7 +135,7 @@ Esses **servidores e NAS** são as melhores opções em 2025 para diferentes nec
 - **Ideal para**: **Empresas que necessitam de soluções de armazenamento em rack** e **backup em rede confiável**.  
 - **Destaque**: **Desempenho de nível empresarial** com **capacidade de expansão**.
 
-<a href="https://amzn.to/4pPAnC6" class="btn btn-danger btn-lg">Clique aqui para adquirir esse livro</a>
+<a href="https://amzn.to/4pPAnC6" class="btn btn-danger btn-lg">Clique aqui para adquirir</a>
 
 ---
 
