@@ -3,7 +3,7 @@ layout: post
 title: "Javascript para Iniciantes"
 date: 2020-01-30 17:33:10
 image: '/assets/img/js/js.jpg'
-description: 'Para quem deseja aprender JavaScript do Zero no Linux.'
+description: 'Para quem deseja aprender JavaScript do Zero.'
 tags:
 - javascript
 - jquery
