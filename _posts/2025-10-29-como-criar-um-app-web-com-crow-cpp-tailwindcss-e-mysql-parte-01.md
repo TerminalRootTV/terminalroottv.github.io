@@ -43,9 +43,7 @@ Você pode integrar o Crow ao Apache, para isso veja esse link:
 
 ## 📹 Assista ao Vídeo
 
-<iframe width="800" height="450" src="./crow-p1.mp4" title="TITULO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-> https://www.youtube.com/embed/VIDEO
+<iframe width="800" height="450" src="https://www.youtube.com/embed/8rUIkUj7fjk" title="Como Criar um App Web com Crow C++, TailwindCSS e MySQL do Zero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
