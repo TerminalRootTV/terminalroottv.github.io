@@ -44,7 +44,7 @@ Link sobre rotas, métodos, código de erros e entre outros:
 ---
 
 ## 📝 Códigos feitos no vídeo (PARTE 2)
-<a href="downs/crow-02.tar.gz" class="btn btn-danger btn-lg" download>Clique aqui para fazer DOWNLOAD dos arquivos</a>
+<a href="/downs/crow-02.tar.gz" class="btn btn-danger btn-lg" download>Clique aqui para fazer DOWNLOAD dos arquivos</a>
 
 ---
 
