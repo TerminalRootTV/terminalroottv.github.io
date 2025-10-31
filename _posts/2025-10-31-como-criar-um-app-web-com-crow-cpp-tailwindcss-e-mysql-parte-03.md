@@ -2,7 +2,7 @@
 layout: post
 title: "Como Criar um App Web com Crow C++ ::  Cookie e Autenticação - PARTE 3"
 date: 2025-10-31 10:54:24
-image: '/assets/img/cpp/crow/crow-todo-02.jpg'
+image: '/assets/img/cpp/crow/crow-todo-03.jpg'
 description: "🐦‍⬛ Nesse vídeo desenvolvemos um encode para criação de cookie e autenticação via Crow C++."
 icon: 'ion:terminal-sharp'
 iconname: 'Desenvolvimento Web/C++'
