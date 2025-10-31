@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Como Criar um App Web com Crow C++, TailwindCSS e MySQL do Zero :: Parte 02"
-date: 2025-10-29 09:01:28
+date: 2025-10-30 09:01:28
 image: '/assets/img/cpp/crow/crow-todo-02.jpg'
 description: "🐦‍⬛ Nesse vídeo criamos a rotina de login usando cookies e os métodos de requisição POST e GET via Crow C++."
 icon: 'ion:terminal-sharp'
