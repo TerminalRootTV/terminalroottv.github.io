@@ -3,7 +3,7 @@ layout: page
 title: "Curso Completo de Vim Moderno, Vimscript e Neovim com Lua"
 permalink: "/vim/"
 image: '/assets/img/neovim/vim-neovim-lua.png'
-description: 'Atualizado em Maio/2022 com Personalização total do Neovim com Lua.'
+description: 'Aprenda do ZERO e customize seu editar à sua maneira. (Windows e Unix-Like)'
 ---
 
 ---
