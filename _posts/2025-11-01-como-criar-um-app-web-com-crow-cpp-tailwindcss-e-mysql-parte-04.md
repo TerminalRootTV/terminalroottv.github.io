@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como Criar um App Web com Crow C++, TailwindCSS e MySQL do Zero :: Parte 01"
+title: "Como Criar um App Web com Crow C++ - POO e Debug :: Parte 04"
 date: 2025-11-01 09:27:08
 image: '/assets/img/cpp/crow/crow-todo-04.jpg'
 description: "🐦‍⬛ Nesse vídeo reestruturamos nosso projeto para Programação Orientada a Objetos além de compilar com flags de debug."
