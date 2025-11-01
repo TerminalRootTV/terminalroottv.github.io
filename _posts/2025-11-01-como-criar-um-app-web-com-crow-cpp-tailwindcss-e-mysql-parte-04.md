@@ -19,6 +19,11 @@ tags:
 
 Nesse vídeo reestruturamos nosso projeto para Programação Orientada a Objetos além de compilar com flags de debug com LibAsan e Valgrind.
 
+Links citados no vídeo:
++ [Com Essas Flags nem precisa de Teste Unitário](https://terminalroot.com.br/2025/04/com-essas-flags-nem-precisa-de-teste-unitario.html)
++ [Utilize o Ccache e compile muito mais rápido](https://terminalroot.com.br/2024/05/utilize-o-ccache-e-compile-muito-mais-rapido.html)
++ [std::runtime_error vs std::exit , qual o melhor?](https://terminalroot.com.br/2025/10/stdruntimeerror-vs-stdexit-qual-o-melhor.html)
+
 ---
 
 ## 📹 Assista ao Vídeo
