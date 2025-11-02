@@ -50,6 +50,25 @@ Links úteis:
 ---
 
 ## 📝 Códigos feitos no vídeo
+Comando SQL:
+```sql
+CREATE DATABASE cpp;
+
+USE cpp;
+
+CREATE TABLE `login` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(128) NOT NULL,
+  `lastname` varchar(128) NOT NULL,
+  `user` varchar(64) NOT NULL,
+  `pass` char(64) NOT NULL,
+  `level` varchar(5) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+
+INSERT INTO login (name, lastname, user, pass, level) VALUES ('Marcos', 'Oliveira', 'marcos@cpp.io', SHA2('teste123@', 256), 'admin');
+```
+
 <a href="https://terminalroot.com.br/downs/crow-05.tar.gz" class="btn btn-danger btn-lg" download>📦 Clique aqui para fazer DOWNLOAD dos arquivos</a>
 
 
