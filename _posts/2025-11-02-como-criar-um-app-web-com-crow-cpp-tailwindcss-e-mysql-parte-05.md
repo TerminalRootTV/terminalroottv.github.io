@@ -23,7 +23,7 @@ tags:
 Links úteis:
 
 + Crow Logging: <https://crowcpp.org/master/guides/logging/>
-
++ [Crie Logs com SpdLog C++](https://terminalroot.com.br/2023/07/crie-logs-com-spdlog-cpp.html)
 + Como instalar o MySQL no Windows e no Ubuntu de acordo com esses links:
   - <https://terminalroot.com.br/2023/05/como-instalar-o-apache-php-8-e-mysql-no-windows.html>
   - <https://terminalroot.com.br/2023/03/como-instalar-mariadb-mysql-no-ubuntu-2210.html>
