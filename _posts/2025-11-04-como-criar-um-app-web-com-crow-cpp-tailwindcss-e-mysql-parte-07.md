@@ -2,7 +2,7 @@
 layout: post
 title: "Como Criar um App Web com Crow C++ - Listar Tarefas :: Parte 07"
 date: 2025-11-04 09:29:09
-image: '/assets/img/cpp/crow/crow-todo-06.jpg'
+image: '/assets/img/cpp/crow/crow-todo-07.jpg'
 description: "🐦‍⬛ Nesse vídeo listamos as tarefas resgatadas do banco de dados."
 icon: 'ion:terminal-sharp'
 iconname: 'Desenvolvimento Web/C++'
