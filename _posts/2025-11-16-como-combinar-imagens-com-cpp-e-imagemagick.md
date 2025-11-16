@@ -3,7 +3,7 @@ layout: post
 title: "Como Combinar Imagens com C++ e ImageMagick"
 date: 2025-11-16 00:13:07
 image: '/assets/img/futebol/resultado.jpg'
-description: "⚽ Nesse exemplo juntamos em 2 linhas e 3 colunas 6 imagens de uma simulação do Campeonato Brasileiro."
+description: "⚽ Nesse exemplo juntamos em 2 linhas e 3 colunas com 6 imagens de uma simulação do Campeonato Brasileiro."
 icon: 'ion:terminal-sharp'
 iconname: 'Dicas'
 tags:
