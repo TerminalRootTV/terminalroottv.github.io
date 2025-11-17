@@ -3,7 +3,7 @@ layout: post
 title: "Lolcat C++, o comando lolcat só que mais veloz"
 date: 2024-07-16 10:12:28
 image: '/assets/img/comandos/lolcat-cc.jpg'
-description: "🌈 Há um vídeo que é possível notar a grande diferença!"
+description: "🍭 Há um vídeo que é possível notar a grande diferença!"
 icon: 'ion:terminal-sharp'
 iconname: 'Comandos'
 tags:
