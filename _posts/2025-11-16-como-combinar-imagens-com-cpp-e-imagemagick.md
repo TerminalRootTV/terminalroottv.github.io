@@ -131,7 +131,8 @@ E depois é só rodar o `./a.out` que será gerada a imagem: `resultado.jpg` com
 Se quiser alterar para usar com suas imagens, altere:
 + `imgw` e `imgh` pela largura e altura das suas imagens, respectivamente;
 + `cols` e `rows` de acordo como deseja, note(no código) que no meu caso fiz 2 linhas e 3 colunas;
-+ Você também pode alterar o `padding`(espaço entre as imagens), modificando a variável: `pad`.
++ Você também pode alterar o `padding`(espaço entre as imagens), modificando a variável: `pad`;
++ Se tiver menos ou mais de 6 imagens, altere o loop em: `i <= 6`.
 E entre outras coisas que você desejar.
 
 Se quiser usar um [Makefile](https://terminalroot.com.br/tags#make):
