@@ -10,6 +10,7 @@ tags:
 - windows
 - ffmpeg
 - imagemagick
+- magick
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

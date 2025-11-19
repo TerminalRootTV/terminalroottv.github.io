@@ -9,6 +9,8 @@ iconname: 'C++/Multimídia'
 tags:
 - cpp
 - multimidia
+- imagemagick
+- magick
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')

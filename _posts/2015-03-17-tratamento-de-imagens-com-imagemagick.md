@@ -9,6 +9,8 @@ tags:
 - imagens
 - terminal
 - comandos
+- imagemagick
+- magick
 ---
 
 ![ImageMagick](/assets/img/dicas/imagemagick.jpg)
