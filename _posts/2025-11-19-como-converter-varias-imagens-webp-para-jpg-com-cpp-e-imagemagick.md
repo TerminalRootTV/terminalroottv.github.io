@@ -125,6 +125,26 @@ w2jpg(){
 }
 {% endhighlight %}
 
+<!--
+```bash
+w2jpg () 
+{ 
+    ls --color=auto *.webp 1>&- 2>&-;
+    if [[ "$?" != 0 ]]; then
+        for i in *.webp;
+        do
+            n=$(echo $i | sed 's/\.webp/.jpg/g');
+            convert "${i}" "${n}";
+        done;
+        rm *.webp;
+    else
+        printf "%s\n" "Não há imagens para converter.";
+        return;
+    fi
+}
+```
+-->
+
 ---
 
 ## Veja também:
