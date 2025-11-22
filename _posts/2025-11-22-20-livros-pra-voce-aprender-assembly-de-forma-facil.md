@@ -294,7 +294,7 @@ O livro apresenta programas e atividades durante todo o processo de desenvolvime
 ---
 
 ## BÔNUS com Menções Honrosas
-### [Assembly Language for the P. D. P.-11 Computer]()
+### [Assembly Language for the P. D. P.-11 Computer](https://amzn.to/3LNwWMW)
 ![21 - Bônus](/assets/img/livros/as-books/21.jpg)
 
 Este livro é um guia técnico aprofundado para programadores que desejam dominar a linguagem assembly no clássico computador PDP-11. Escrito por Charles A. Kapps e Robert L. Stafford, a obra oferece uma abordagem sistemática da arquitetura do PDP-11, cobrindo seus registradores, modos de endereçamento, instruções e técnicas de otimização.
