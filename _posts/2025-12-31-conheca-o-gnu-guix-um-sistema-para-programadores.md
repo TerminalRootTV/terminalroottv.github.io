@@ -2,7 +2,7 @@
 layout: post
 title: "Conheça o GNU Guix um Sistema para Programadores"
 date: 2025-12-31 10:25:20
-image: '/assets/img/gnu/gnu-guix.jpg'
+image: '/assets/img/gnu/gnu-guix/gnu-guix.jpg'
 description: "🦬 Um sistema operacional do projeto GNU que propõe uma abordagem interessante e diferente."
 icon: 'ion:terminal-sharp'
 iconname: 'GNU'
@@ -57,7 +57,7 @@ Você pode fazer o download do `.iso` na [página de Downloads do GNU Guix](http
 
 Após iniciar o *boot* com o arquivo `.iso` é só seguir os passos para instalar que, por sinal, é bem intuitivo, a primeira tela será essa, se quiser facilidade basta escolher a opção usando **modo gráfico**:
 
-![GNU Guix install 01](./01.png) 
+![GNU Guix install 01](/assets/img/gnu/gnu-guix/01.png) 
 
 O GNU Guix não usa o *Kernel Linux* comercial, mas lhe oferece dois tipos de *Kernels*: 
 + [GNU Hurd](https://pt.wikipedia.org/wiki/GNU_Hurd), um kernel ainda não finalizado, mas funcional que *separa as tarefas*, já que o Linux é considerado um *systemd*(tipo uma impressora multifuncional) dos kernels, ele faz várias tarefas o que, por muitos(inclusive, Tanenbaum, criador do Minix, o qual o Linux foi inspirado), é considerado uma má ideia;
@@ -65,16 +65,16 @@ O GNU Guix não usa o *Kernel Linux* comercial, mas lhe oferece dois tipos de *K
 
 A tela da escolha é essa aqui:
 
-![GNU Guix](./02.png) 
+![GNU Guix](/assets/img/gnu/gnu-guix/02.png) 
 
 ### Escolha do Ambiente Gráfico
 Durante a instalação você também já pode definir o seu [Ambiente Desktop](https://terminalroot.com.br/2021/09/os-7-melhores-frameworks-cpp-para-criar-interface-grafica.html) ou [Gerenciador de Janelas](https://terminalroot.com.br/2022/05/instale-esse-gerenciador-de-janelas-escrito-em-cpp.html), ou até instalar o seu próprio(KDE Plasma, por exemplo), que não está na lista posteriormente, mas já nessa tela há as opções: [GNOME](https://terminalroot.com.br/tags/#gnome), [XFCE](https://terminalroot.com.br/2021/12/nixos-um-sistema-operacional-para-programadores.html), [MATE](https://terminalroot.com.br/2016/05/como-alterar-o-icone-do-painel.html), Icewm, [Openbox](https://terminalroot.com.br/2021/11/os-17-melhores-temas-para-seu-openbox.html), [AwesomeWM](https://awesomewm.org/), [i3](https://github.com/terroo/i3-radius), [Ratpoison](https://www.nongnu.org/ratpoison/) e [Emacs EXWM](https://github.com/emacs-exwm/exwm):
 
-![GNU Guix gráfico](./03.png) 
+![GNU Guix gráfico](/assets/img/gnu/gnu-guix/03.png) 
 
 Após essas escolhas básicas é só particionar seu disco conforme deseja e iniciar o processo de instalação... e depois após o reboot é só escolher o sistema automaticamente no GRUB:
 
-![GNU Guix multiple screens](./04.png) 
+![GNU Guix multiple screens](/assets/img/gnu/gnu-guix/04.png) 
 
 ---
 
@@ -113,7 +113,7 @@ Na lista de pacotes tem tudo: [GNU GCC](https://terminalroot.com.br/tags#gcc), [
 
 Ou aqui: <https://hpc.guix.info/browse>.
 
-![GNU Guix Terminal Root](./05.png) 
+![GNU Guix Terminal Root](/assets/img/gnu/gnu-guix/05.png) 
 
 ---
 
