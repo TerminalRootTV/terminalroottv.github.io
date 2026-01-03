@@ -114,7 +114,7 @@ sudo install -v xclip++ /usr/local/bin/
 ```bash
 xclip++ file.txt
 # Ou vários arquivos
-xclip++ file1.txt, file2.md, file3.cpp #, ...
+xclip++ file1.txt file2.md file3.cpp # ...
 ```
 
 ---
