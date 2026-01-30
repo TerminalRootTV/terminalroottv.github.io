@@ -39,6 +39,11 @@ Entre suas vantagens, destacam-se:
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+> Aprenda **Java** da forma correta:
+> 
+> <https://terminalroot.com.br/java>
+
+
 ## Instalação
 > Procedimento no [Linux](https://terminalroot.com.br/linux)
 
@@ -139,6 +144,9 @@ data-ad-slot="5351066970"></ins>
 + `snumero = libswing.JOptionPane.showInputDialog("Digite um Numero Inteiro: ")` - Mostra a segunda caixa de diálogo e armazena o valor na variável snumero.
 + `soma = int(pnumero) + int(snumero)` - Converte os valores de pnumero e snumero para inteiros e soma os dois armazenando o resultado na variável soma.
 + `libswing.JOptionPane.showMessageDialog(None, "A soma eh %d " % soma)` - Mostra na tela o resultado da soma, simples não é?
+
+## [Curso de Java para Iniciantes](https://terminalroot.com.br/java)
+### <https://terminalroot.com.br/java>
 
 # Assista ao Vídeo
 

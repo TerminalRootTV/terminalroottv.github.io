@@ -22,16 +22,26 @@ E também vamos desenvolver  a rotina de "aparecer os inimigos":
 + Criar o número de retângulos de acordo com o tempo; 
 + E criar um iterador para "soltar"(spawn) os retângulos movendo da direita para a esquerda.
 
+> Aprenda **Java** da forma correta:
+> 
+> <https://terminalroot.com.br/java>
+
+
 ---
 
-# Assista ao Vídeo
+## Assista ao Vídeo
 
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/5k-2TAy8JUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-# [Série: Aprenda Java Criando um Mini Jogo 2D com LibGDX](https://terminalroot.com.br/tags#javagdx)
-## [Código no GitHub](https://github.com/terroo/spaceship)
+## [Curso de Java para Iniciantes](https://terminalroot.com.br/java)
+### <https://terminalroot.com.br/java>
+
+---
+
+## [Série: Aprenda Java Criando um Mini Jogo 2D com LibGDX](https://terminalroot.com.br/tags#javagdx)
+### [Código no GitHub](https://github.com/terroo/spaceship)
 ### [Aprenda Desenvolvimento de Games](https://terminalroot.com.br/games)
 
 

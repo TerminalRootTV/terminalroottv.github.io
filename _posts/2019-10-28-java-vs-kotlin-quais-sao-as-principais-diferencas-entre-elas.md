@@ -21,6 +21,11 @@ Um desses idiomas é o Kotlin. Ambos são usados ​​para criar aplicativos e 
 
 No que diz respeito ao desenvolvimento de aplicativos para Android, grande parte dos desenvolvedores escolhe Java. Isso pode ser explicado pelo fato de o próprio Android ter sido escrito em Java. **Java** é uma linguagem de programação orientada a objetos usada por quase 20 anos. Foi desenvolvido pela Sun Microsystems, que agora é propriedade da Oracle. Atualmente, é considerado o segundo idioma mais ativo no GitHub.
 
+> Aprenda **Java** da forma correta:
+> 
+> <https://terminalroot.com.br/java>
+
+
 - Prós:
   -  Portanto, possui uma comunidade grande e versada - vários ótimos materiais educacionais
   -  Relativamente simples e claro, o que facilita o domínio
@@ -100,6 +105,13 @@ data-ad-slot="5351066970"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+---
+
+## [Curso de Java para Iniciantes](https://terminalroot.com.br/java)
+### <https://terminalroot.com.br/java>
+
+---
 
 ## Conclusão
 

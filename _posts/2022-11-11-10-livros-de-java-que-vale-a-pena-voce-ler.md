@@ -23,6 +23,10 @@ Aprender Java com livros(e de qualidade) é fundamental para saber de fato como 
 
 Nesse artigo conheceremos **10 Livros de Java que vale à pena você ler** !!!
 
+> Aprenda **Java** da forma correta:
+> 
+> <https://terminalroot.com.br/java>
+
 
 ---
 
@@ -204,4 +208,8 @@ Você aprenderá novas e poderosas maneiras de gerenciar recursos e exceções e
 
 Acompanhe a série [#QueroLer](https://terminalroot.com.br/tags#livros) aqui no blog onde haverão indicações de outros livros de [Ciência e Tecnologia](https://terminalroot.com.br/tags#ciencia) contando também com listas de outras [Linguagens de Programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) .
 
+---
+
+## [Curso de Java para Iniciantes](https://terminalroot.com.br/java)
+### <https://terminalroot.com.br/java>
 

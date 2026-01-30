@@ -19,16 +19,26 @@ tags:
 
 Nesse vídeo finalizamos a série: [Aprenda Java Criando um Mini Jogo 2D](https://cutty.ly/javagdx). Criamos a **colisão** do Missil e da Nave com os inimigos, além de algumas outras coisas relacionadas a jogabilidade!
 
+> Aprenda **Java** da forma correta:
+> 
+> <https://terminalroot.com.br/java>
+
+
 ---
 
-# Assista ao Vídeo
+## Assista ao Vídeo
 
 <iframe width="1253" height="705" src="https://www.youtube.com/embed/oYsA9PGCkQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-# Código no GitHub
-## <https://github.com/terroo/spaceship>
+## [Curso de Java para Iniciantes](https://terminalroot.com.br/java)
+### <https://terminalroot.com.br/java>
+
+---
+
+## Código no GitHub
+### <https://github.com/terroo/spaceship>
 
 ---
 
