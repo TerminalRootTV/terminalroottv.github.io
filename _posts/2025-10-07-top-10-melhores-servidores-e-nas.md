@@ -3,7 +3,7 @@ layout: post
 title: "Top 10 melhores Servidores e NAS"
 date: 2025-10-07 10:31:25
 image: '/assets/img/hardware/servers/nas-servers.png'
-description: "🗄️ As melhores opções em 2025 para diferentes necessidades de armazenamento em rede e gerenciamento de dados."
+description: "🗄️ As melhores opções para diferentes necessidades de armazenamento em rede e gerenciamento de dados."
 icon: 'ion:terminal-sharp'
 iconname: 'Servidores/NAS'
 tags:
