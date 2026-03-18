@@ -64,5 +64,5 @@ Embora não seja especificamente uma biblioteca de jogos, o JavaFX pode ser usad
 Essas são apenas algumas das muitas bibliotecas e motores de jogos disponíveis para Java. A escolha da melhor biblioteca ou motor depende das necessidades específicas do seu projeto e do tipo de jogo que você deseja desenvolver.
 
 ## [Aprenda Java](https://terminalroot.com.br/java)
-### <elhores-bibliotecas-e-motores-de-jogos->
+### <https://terminalroot.com.br/java>
 
