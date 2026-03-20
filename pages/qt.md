@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Curso Moderno de C++"
+title: "Curso Qt Moderno com C++"
 permalink: "/qt/"
 image: '/assets/img/cursos/qt.jpg'
 description: 'Aprendar a criar programas gráficos para Linux e Windows, AppImages de forma fácil.'
