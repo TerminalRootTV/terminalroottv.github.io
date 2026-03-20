@@ -19,10 +19,10 @@ Aqui você não fica só na teoria: constrói projetos úteis desde o início �
 
 Ao final, você será capaz de:
 
-* Escrever código limpo e eficiente
-* Resolver problemas reais com Python
-* Criar projetos próprios do zero
-* Estar preparado para oportunidades profissionais na área
+* ✅ Escrever código limpo e eficiente
+* ✅ Resolver problemas reais com Python
+* ✅ Criar projetos próprios do zero
+* ✅ Estar preparado para oportunidades profissionais na área
 
 Se você quer aprender Python de verdade e sair pronto para aplicar, este curso é o caminho.
 

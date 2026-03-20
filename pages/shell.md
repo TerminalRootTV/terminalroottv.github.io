@@ -25,7 +25,7 @@ Os principais tópicos incluem:
 O objetivo é dar base para aumentar produtividade, reduzir tarefas repetitivas e preparar o aluno para ambientes Linux/Unix.
 
 
-<a href="https://www.udemy.com/course/curso-de-shell-script-do-iniciante-ao-avancado/?referralCode=A933C1B0A53383416DD6" class="btn btn-lg btn-danger my-2 py-3">
+<a href="https://www.udemy.com/course/curso-de-shell-script-do-iniciante-ao-avancado/?referralCode=A933C1B0A53383416DD6" class="btn btn-lg btn-custom my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar na Udemy
 </a>
 
@@ -71,7 +71,7 @@ Os principais tópicos incluem:
 O objetivo é capacitar para trabalhar com textos de forma avançada, automatizando buscas, validações e transformações em diversas aplicações.
 
 
-<a href="https://www.udemy.com/course/curso-completo-de-expressoes-regulares/?referralCode=E05F26A1825E9AE48F5C" class="btn btn-lg btn-danger my-2 py-3">
+<a href="https://www.udemy.com/course/curso-completo-de-expressoes-regulares/?referralCode=E05F26A1825E9AE48F5C" class="btn btn-lg btn-warning my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar na Udemy
 </a>
 
@@ -94,7 +94,7 @@ Os principais tópicos incluem:
 O objetivo é capacitar para criar automações complexas, confiáveis e escaláveis em ambientes profissionais.
 
 
-<a href="https://www.udemy.com/course/curso-extremamente-avancado-de-shell-script/?referralCode=0DE4F59620C47881410B" class="btn btn-lg btn-danger my-2 py-3">
+<a href="https://www.udemy.com/course/curso-extremamente-avancado-de-shell-script/?referralCode=0DE4F59620C47881410B" class="btn btn-lg btn-primary my-2 py-3">
   <i class="fab fa-paypal"></i> Comprar na Udemy
 </a>
 
