@@ -12,9 +12,18 @@ tags:
 
 ![Aprenda 25 Exemplos de Métodos para Strings em Python](/assets/img/python/python-strings.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 [Python](https://terminalroot.com.br/tags#python) é realmente uma [linguagem de programação](https://terminalroot.com.br/2019/10/linguagem-de-programacao.html) versátil e de fácil utilização . Ela já possui diversas funções/métodos que facilitam e muito trabalhar com dados.
 
 Nesse artigo vamos conhecer **25 métodos para trabalhar com strings**, isso é super importante, pois uma das maiores facilidades do [Python](https://terminalroot.com.br/tags#python) é justamente filtrar e manipular dados.
+
 
 ---
 

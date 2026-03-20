@@ -18,6 +18,14 @@ A biblioteca **Rich** é o que há de mais inovador nesse quesito e seus aplicat
 
 Essa API facilita a adição de cor e estilo para saída do terminal. Também pode renderizar tabelas bonitas, barras de progresso, markdown, código-fonte destacado por sintaxe, tracebacks e muito mais - prontos para uso.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 # Instalação
 Para instalar é muito simples, basta utilizar p [pip](https://pypi.org/project/pip/), você pode instalar somente para seu usuário:
 {% highlight bash %}

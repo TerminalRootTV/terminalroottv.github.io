@@ -16,6 +16,14 @@ tags:
 
 Se você é daquele que gosta de [Python](https://terminalroot.com.br/tags#python), mas acha chato os *erros de indentação* e falta do [C-style](https://terminalroot.com.br/tags#linguagemc) com uso de *chaves*(`{ }`), então o **Bython** é pra você.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Ou seja, Bython é um **B**rackets Python, um Python com chaves!
 
 

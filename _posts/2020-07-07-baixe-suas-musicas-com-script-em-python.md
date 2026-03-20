@@ -18,6 +18,14 @@ tags:
 
 ![Baixe suas músicas com script em Python](/assets/img/python/enne.png)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 # ENNE
 O enne é um utilitário via linha de comando escrito em [Python3](https://terminalroot.com.br/tags#python). Sua função primordial é realizar o download de músicas a partir de vídeos do [YouTube](https://youtube.com/).
 O programa está na sua inicial, então, muitos *bugs* e adaptações serão feitas no futuro. Espero contar com você, caro leitor, para contribuir com o desenvolvimento desta ferramenta.

@@ -17,6 +17,14 @@ tags:
 
 [Python](https://terminalroot.com.br/tags#python) é uma linguagem de programação dedicada para iniciantes, no entanto, também é muito utilizada por diversos segmentos que requer conhecimentos avançados.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Nesse artigo conheceremos **10 Livros de Python que vale à pena você ler** !!!
 
 ---

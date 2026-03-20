@@ -16,6 +16,14 @@ Já faz um tempo que eu conheci o [Xonsh](https://xon.sh/), desde o dia que eu r
 
 Vamos lá conhecer esse Xonsh!
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## Introdução
 
 O Xonsh é uma Shell e um prompt de comando compatíveis com Unix, [Python](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Python) e multiplataforma, disponível para [Linux](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Linux), [macOS](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=macOS) e [Windows](http://cse.google.com.br/cse?cx=004473188612396442360:qs2ekmnkweq&q=Windows). É destinado à especialistas e novatos. Para quem é desenvolvedor Python, o Xonsh é uma verdadeira *mão na roda* , pois ele é praticamente um utilitário híbrido e reconhece duas linguagens no mesmo ambiente.

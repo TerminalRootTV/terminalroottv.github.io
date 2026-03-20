@@ -15,6 +15,12 @@ tags:
 
 ---
 
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Na postagem anterior: [Como Conectar ao SQLite com Lua](https://terminalroot.com.br/2022/01/como-conectar-ao-sqlite-com-lua.html) nós fizemos esse mesmo procedimento com [Lua](https://terminalroot.com.br/lua). Pode ser que informações contidas lá ajude a você a usar e instalar o [SQLite](https://terminalroot.com.br/2021/02/como-utilizar-o-sqlite.html) e alguns processos.
 
 Nesse artigo serei um pouco mais breve. Ou seja, postarei somente o código, pois dicas de instalação e utilização do SQLite você pode obter [aqui](https://terminalroot.com.br/2021/02/como-utilizar-o-sqlite.html).

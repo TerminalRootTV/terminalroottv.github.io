@@ -18,6 +18,14 @@ tags:
 
 **Codon** é um compilador [Python](https://terminalroot.com.br/tags#python) de alto desempenho que compila código Python para código de máquina nativo sem qualquer sobrecarga de tempo de execução.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 O compilador foi escrito com [C++](https://terminalroot.com.br/cpp) e utiliza [LLVM](https://terminalroot.com.br/tags#llvm) como optimizador de código Assembly final. Ao contrário do Python, o Codon suporta multithreading nativo, o que pode levar a acelerações ainda maiores. 
 
 ---

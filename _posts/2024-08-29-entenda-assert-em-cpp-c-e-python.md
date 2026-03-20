@@ -19,6 +19,14 @@ tags:
 
 `assert` é uma macro ou função utilizada para verificar condições que *devem* ser verdadeiras em tempo de execução. Se a condição falhar, o programa geralmente é encerrado, e uma mensagem de erro é exibida. É uma ferramenta útil para depuração, garantindo que certas condições sejam atendidas durante o desenvolvimento.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## Uso do `assert` em [C++](https://terminalroot.com.br/tags#cpp) e [C](https://terminalroot.com.br/tags#linguagemc)
 
 Em [C++](https://terminalroot.com.br/cpp) e [C](https://terminalroot.com.br/c), `assert` é uma macro definida no cabeçalho `<cassert>` (C++) ou `<assert.h>` (C). Ela é usada principalmente para validar suposições em tempo de execução e pode ser desativada em código de produção definindo a macro `NDEBUG`.

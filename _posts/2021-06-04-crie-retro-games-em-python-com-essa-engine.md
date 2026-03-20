@@ -14,6 +14,14 @@ tags:
 
 ![Crie retrô games em Python com essa Engine](/assets/img/python/pyxel.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 **Pyxel** é uma engine de jogos retrô para Python.
 
 Graças às suas especificações simples inspiradas em consoles de jogos retrô, assim como permitir a exibição de apenas 16 cores e apenas 4 sons poderem ser reproduzidos ao mesmo tempo, você pode se sentir à vontade para fazer jogos em estilo pixel art.

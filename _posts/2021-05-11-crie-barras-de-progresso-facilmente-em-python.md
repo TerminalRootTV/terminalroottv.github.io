@@ -20,6 +20,14 @@ A mais simples e fácil de usar é a **tqdm** .
 
 Com ela é possível criar rapidamente barras de progresso inteligente - basta envolver qualquer iterável com tqdm e pronto!
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"

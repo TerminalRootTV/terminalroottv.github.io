@@ -22,6 +22,14 @@ O módulo `subprocess` permite gerar novos processos, conectar-se aos seus pipes
 # Usando o `subprocess` para compilar e rodar código [C++](https://terminalroot.com.br/cpp)
 Nese caso, vamos usar métodos mais antigos por questões de compatibilidade, algumas funções só estão disponíveis a partir do **Python 3.5**, por exemplo a função `run()`.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Suponhamos que você possua esse código exemplo em [C++](https://terminalroot.com.br/cpp)
 
 > `main.cpp`

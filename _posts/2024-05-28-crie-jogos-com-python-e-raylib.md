@@ -19,6 +19,14 @@ No mundo do [desenvolvimento de jogos](https://terminalroot.com.br/tags#gamedev)
 
 [Python](https://terminalroot.com.br/tags#python), com sua sintaxe simples e poderosa, é uma escolha popular entre desenvolvedores de todos os níveis de experiência. 
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Quando combinado com a versatilidade da [Raylib](https://terminalroot.com.br/tags#raylib), uma biblioteca de desenvolvimento de jogos leve e amigável, o potencial para criar jogos incríveis torna-se ainda maior. 
 
 Neste artigo, vamos explorar como **Python e Raylib** podem ser utilizados juntos para criar jogos envolventes, oferecendo uma visão prática desde a configuração do ambiente de desenvolvimento até a criação do seu primeiro projeto. 

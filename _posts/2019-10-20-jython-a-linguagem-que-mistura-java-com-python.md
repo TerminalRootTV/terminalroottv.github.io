@@ -15,6 +15,14 @@ tags:
 ![Jython - A linguagem que mistura Java com Python](/assets/img/dev/jython/jython.jpg)
 Essa linguagem une duas boas ferramentas numa só. 🐍
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## Introdução
 
 [Jython](https://www.jython.org/) é uma implementação da linguagem [Python](https://terminalroot.com.br/2019/10/script-basico-de-python-para-aprendizado.html) que gera bytecode para máquinas Java (JVM - Java Virtual Machine). Com ela é possível fazer o desenvolvimento de aplicações híbridas que unem código em Java e Python. 

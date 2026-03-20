@@ -12,6 +12,14 @@ tags:
 
 ![Script Básico de Python para Aprendizado](/assets/img/python/python3.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Esse script é a segunda versão que roda em python3 , se quiser comparar as diferenças com python2 , note que existem muuuuuuitas diferenças:
 - Python2 → `print "String"` ; Python3 → `print("String")`;
 - Python2 → `raw_input` ; Python3 → `input`;

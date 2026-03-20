@@ -26,7 +26,14 @@ tags:
 
 ---
 
-# Códigos criados no vídeo
+## Códigos criados no vídeo
+
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
 
 ### Arquivo com os exemplos criados:
 

@@ -12,6 +12,14 @@ categories:
 
 ![GUI Frameworks Python](/assets/img/python/python-gui.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## Introdução
 
 Chega um momento na jornada da maioria dos programadores que ele precisa construir uma interface gráfica para seu programa.

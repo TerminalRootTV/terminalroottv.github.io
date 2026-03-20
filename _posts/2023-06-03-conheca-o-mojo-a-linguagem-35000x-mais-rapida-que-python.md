@@ -18,6 +18,14 @@ tags:
 
 🔥 **Mojo** é o nome da nova Linguagem de Programação que irá revolucionar a forma de se escrever código.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Trata-se de um subconjunto de [Python](https://terminalroot.com.br/tags#python) só que após testes realizados demonstrou ser *35.000 vezes mais rápido que o Python*.
 
 Apesar da descrição na sua documentação apresentá-la como Linguagem de Programação de proposta geral, ao mesmo tempo, descreve que Mojo será uma Linguagem específica para [Inteligência Artificial](https://terminalroot.com.br/tags#inteligenciaartificial). 

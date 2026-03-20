@@ -13,6 +13,14 @@ tags:
 
 ![As 30 melhores bibliotecas e pacotes Python para Iniciantes](/assets/img/python/opencv-python-library.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 
 As bibliotecas e pacotes Python são um conjunto de módulos e funções úteis que minimizam o uso de código em nossa vida cotidiana. Existem mais de **137.000 bibliotecas** e **198.826 pacotes** para Python, prontos para facilitar a programação dos desenvolvedores. Essas bibliotecas e pacotes destinam-se a uma variedade de soluções modernas.
 
@@ -950,4 +958,10 @@ data-ad-slot="5351066970"></ins>
 
 Esse artigo foi originalmente escrito por [UbuntuPit](https://www.ubuntupit.com/) com modificações e melhorias por [Terminal Root]() onde o link original pode ser adquirido [aqui](https://www.ubuntupit.com/best-python-libraries-and-packages-for-beginners/).
 
+---
 
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---

@@ -19,6 +19,14 @@ Felizmente, quando você abre um arquivo em uma nova linguagem, o VS Code sugere
 
 Mas existem muitos outros plugins. Alguns adicionam uma funcionalidade totalmente nova e outros oferecem apenas uma pequena melhoria aqui e ali. Vamos conhecê-los agora!
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 <!-- QUADRADO -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"

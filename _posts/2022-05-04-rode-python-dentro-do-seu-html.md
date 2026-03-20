@@ -17,6 +17,14 @@ tags:
 
 **PyScript** é um framework que permite aos usuários criar rodar [Python](https://terminalroot.com.br/tags#python) no navegador usando a interface do HTML. 
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 O PyScript visa fornecer aos usuários uma linguagem de programação de primeira classe que tenha regras de estilo consistentes, seja mais expressiva e mais fácil de aprender.
 
 ---

@@ -16,6 +16,14 @@ Entre as diversas funções do Python, a análise de dados parece ter se tornado
 
 Para os desenvolvedores por trás da Julia, voltada especificamente para a computação científica, aprendizado de máquina, mineração de dados, álgebra linear em larga escala e computação paralela e distribuída, o Python pode não ser suficientemente adequado. Nesse caso, a linguagem representa um trade-off, bom para alguns aspectos e ruim para outros.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## Linguagem Julia
 
 Criado por uma equipe de quatro pessoas em 2009 e apresentado ao público em 2012, a Julia pretende abordar as deficiências do Python e de outras linguagens e aplicativos usados para a ciência computacional e processamento de dados. "Somos gananciosos", disse o time na época.

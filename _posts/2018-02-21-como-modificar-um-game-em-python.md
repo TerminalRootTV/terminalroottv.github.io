@@ -9,6 +9,14 @@ tags:
 - python
 ---
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 > Foi feita uma simples modificação num game básico: __Gentoo War__.
 
 Copie o game para sua máquina

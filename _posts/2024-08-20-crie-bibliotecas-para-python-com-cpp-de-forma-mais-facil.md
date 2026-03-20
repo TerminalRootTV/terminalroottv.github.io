@@ -17,6 +17,14 @@ tags:
 
 Nesse vídeo vamos mostrar uma forma mais fácil de criar bibliotecas para [Python](https://terminalroot.com.br/tags#python) com [C++](https://terminalroot.com.br/cpp). No [outro vídeo](https://terminalroot.com.br/2023/10/aprenda-a-criar-bibliotecas-pra-python-com-c-cpp.html) nós vimos o processo e notamos que, de alguma forma, precisamos escrever muita coisa para criar o básico para rodar no **Python**.
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Hoje veremos como usar o wrapper: `pybind11` que torna mais fácil, em relação a código, criar bibliotecas para *Python*.
 
 O endereço do repositório da pybind11 é: <https://github.com/pybind/pybind11>. 

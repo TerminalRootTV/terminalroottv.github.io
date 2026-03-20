@@ -13,6 +13,14 @@ tags:
 
 ![Como Rodar Shell Script e Python via Apache no Linux](/assets/img/servidor/sh-py-apache.jpg "Como Rodar Shell Script e Python via Apache no Linux")
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 O tutorial de hoje vamos configurar o [Apache](http://apache.org/) para rodar [Shell Script](http://terminalroot.com.br/shell) e [Python](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=python) como exemplos, mas você pode testar em qualquer linguagem de programação de seu interesse. Também vamos usar de cobaia o [Arch Linux](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=arch), mas com mínimas adaptações é o mesmo procedimento pra qualquer [Linux](http://terminalroot.com.br/linux) ou [BSD](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=bsd), e até mesmo qualquer sistema baseado em [UNIX](https://cse.google.com.br/cse/publicurl?cx=004473188612396442360:qs2ekmnkweq&q=unix).
 
 *Let's go!* ✌ 

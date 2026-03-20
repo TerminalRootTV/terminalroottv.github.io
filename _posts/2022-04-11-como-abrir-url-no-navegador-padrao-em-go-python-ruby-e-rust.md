@@ -26,6 +26,14 @@ Nesse artigo vamos ver como abrir uma URL no navegador padrão em 4 linguagens d
 + [Ruby](https://terminalroot.com.br/tags#ruby)
 + [Rust](https://terminalroot.com.br/tags#rust)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Vamos lá!
 
 ---

@@ -14,6 +14,14 @@ tags:
 
 Eu gostaria de fazer um texto bem detalhado, mas essa ferramenta em [Python](https://terminalroot.com.br/tags#python) é muito simples e direta ao ponto!
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Basta instalar o [pip](https://pypi.org/project/pip/) e com o `pip` instalar o pacote `rembg`:
 
 {% highlight bash %}

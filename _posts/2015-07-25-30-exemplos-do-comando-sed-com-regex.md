@@ -25,6 +25,13 @@ data-ad-slot="5351066970"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+---
+
+## Aprenda:
+### [Curso Completo de Expressões Regulares](https://terminalroot.com.br/shell)
+### [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/shell)
+
+---
 
 ### É case sentive
 + `-i` altera o arquivo
@@ -204,8 +211,13 @@ sed '/segundo/{/falou/{s/segundo.*falou//;t};:a;/falou/!{N;s/\n//;ta;};s/segundo
 sed 's/<[^>]*>//g' arquivo.txt
 {% endhighlight %}
 
-# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/)
-# [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed)
+---
+
+## Aprenda:
+### [Curso Completo de Expressões Regulares](https://terminalroot.com.br/shell)
+### [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/shell)
+
+---
 
 ## 23 - Apaga o 1o caracter da frase
 {% highlight bash %}
@@ -356,12 +368,17 @@ sed 's/\(..\)\(.\{4\}\)/(\1)\2-/g' arquivo.txt
 (36)3355-4488
 {% endhighlight %}
 
+
+---
+
+## Aprenda:
+### [Curso Completo de Expressões Regulares](https://terminalroot.com.br/shell)
+### [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/shell)
+
+---
+
 ## Links úteis para mais informações:
-
-# [Curso Completo de Expressões Regulares na Udemy](https://www.udemy.com/curso-completo-de-expressoes-regulares/)
-# [Curso Completo de Sed Editor de Fluxo](https://terminalroot.com.br/sed)
-
-# Assista um vídeo com 1o exemplos adicionais
+### Assista um vídeo com 1o exemplos adicionais
 
 <iframe width="1234" height="694" src="https://www.youtube.com/embed/vduHKQRPwEQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 

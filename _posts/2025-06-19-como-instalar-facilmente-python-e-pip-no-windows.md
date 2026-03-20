@@ -17,6 +17,14 @@ tags:
 
 A forma mais rápida e fácil de instalar o [Python](https://terminalroot.com.br/tags#python) no [Windows](https://terminalroot.com.br/tags#windows) é usar o [WinGet](https://winstall.app/apps/Python.Python.3.13)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 Abra o [PowerShell](https://terminalroot.com.br/2025/05/personalize-seu-powershell-like-a-pro.html) e rode:
 
 {% highlight powershell %}

@@ -11,6 +11,14 @@ tags:
 
 ![Python](/assets/img/python/python.jpg)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 ## ESSE SCRIPT SÓ FUNCIONA EM PYTHON 2.7
 ### [Clique Aqui para ver a versão atualizada]()
 

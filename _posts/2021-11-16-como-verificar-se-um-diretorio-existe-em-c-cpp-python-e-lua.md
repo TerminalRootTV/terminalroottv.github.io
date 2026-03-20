@@ -22,6 +22,14 @@ Para isso precisamos obter o diretório do usuário dinamicamente para que diver
 
 ---
 
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
+---
+
 # [Lua](https://terminalroot.com.br/lua)
 Em Lua vamos importar o **lfs** para tornar mais fácil essa verificação. Eis o código:
 > `nvim dir-exists.lua`

@@ -22,6 +22,14 @@ Outros artigos dessa série:
 + [Como Instalar Lua LSP no Neovim](https://terminalroot.com.br/2022/06/como-instalar-lua-lsp-no-neovim.html)
 + [Como Configurar o LSP para TypeScript no Neovim](https://terminalroot.com.br/2022/07/como-configurar-o-lsp-para-typescript-no-neovim.html)
 
+---
+
+## [Aprenda Python do Zero](https://terminalroot.com.br/python)
+### [Curso de Python do Iniciante ao Avançado](https://terminalroot.com.br/python)
+> <https://terminalroot.com.br/python>
+
+---
+
 
 Para ser simples de verdade, é imprescindível que você tenha todos os plugins devidamente instalados como na [outra série](https://terminalroot.com.br/2021/11/tudo-sobre-neovim-com-lua-como-customizar-do-zero.html) que mostramos os procedimentos do zero, ou também em vídeo que atualizamos no [Curso de Vim Moderno, Neovim e Lua](https://terminalroot.com.br/vim) .
 
