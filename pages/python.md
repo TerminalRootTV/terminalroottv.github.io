@@ -26,7 +26,7 @@ Ao final, você será capaz de:
 
 Se você quer aprender Python de verdade e sair pronto para aplicar, este curso é o caminho.
 
-<a href="https://www.udemy.com/course/curso-de-python-do-iniciante-ao-avancado/?couponCode=8E2BEB69656664473BB6" class="btn btn-lg btn-danger btn-block my-2 py-3">
+<a href="https://www.udemy.com/course/draft/7098683/?referralCode=B37A82D1333BB4894E1F" class="btn btn-lg btn-danger btn-block my-2 py-3">
   <i class="fas fa-graduation-cap"></i> Comprar na Udemy
 </a>
 
