@@ -10,7 +10,6 @@ tags:
 - shorts
 - youtube
 - tiktok
-- reels
 - cpp
 - sfml
 - gamedev
@@ -40,11 +39,6 @@ data-ad-slot="5351066970"></ins>
 ## 🎼 TikTok
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@terminalroot/video/7535196304918482181" data-video-id="7535196304918482181" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@terminalroot" href="https://www.tiktok.com/@terminalroot?refer=embed">@terminalroot</a> Onda de Palavras com C++ e SFML <a title="coding" target="_blank" href="https://www.tiktok.com/tag/coding?refer=embed">#coding</a> <a title="cpp" target="_blank" href="https://www.tiktok.com/tag/cpp?refer=embed">#cpp</a> <a title="cplusplus" target="_blank" href="https://www.tiktok.com/tag/cplusplus?refer=embed">#cplusplus</a> <a title="sfml" target="_blank" href="https://www.tiktok.com/tag/sfml?refer=embed">#sfml</a> <a title="programacao" target="_blank" href="https://www.tiktok.com/tag/programacao?refer=embed">#programacao</a> <a title="desenvolvimento" target="_blank" href="https://www.tiktok.com/tag/desenvolvimento?refer=embed">#desenvolvimento</a> <a target="_blank" title="♬ som original  - terminalroot" href="https://www.tiktok.com/music/som-original-terminalroot-7535196304437070597?refer=embed">♬ som original  - terminalroot</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-
----
-
-## 📷 Reels
-### <https://www.instagram.com/p/DM_I8zWSCpL/>
 
 ---
 

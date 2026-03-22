@@ -10,7 +10,6 @@ tags:
 - cpp
 - cppdaily
 - shorts
-- reels
 - tiktok
 ---
 
@@ -18,7 +17,7 @@ tags:
 
 ---
 
-Há um tempo atrás eu havia postado no [Shorts](https://www.youtube.com/shorts/AIp14SlwrPQ), [Reels](https://www.instagram.com/p/DDvS9cRS8O8/) e [Tik Tok](https://www.tiktok.com/@terminalroot/video/7449902173179088133) um código que criava uma forma simples e rápida de codificar e decodificar *strings* que pode ser usado para inúmeras situações onde as pessoas só esperam codificadores como: [base64](https://terminalroot.com.br/2021/04/funcoes-para-gerar-base64-encode-e-decode-no-cpp.html), por exemplo.
+Há um tempo atrás eu havia postado no [Shorts](https://www.youtube.com/shorts/AIp14SlwrPQ) e [Tik Tok](https://www.tiktok.com/@terminalroot/video/7449902173179088133) um código que criava uma forma simples e rápida de codificar e decodificar *strings* que pode ser usado para inúmeras situações onde as pessoas só esperam codificadores como: [base64](https://terminalroot.com.br/2021/04/funcoes-para-gerar-base64-encode-e-decode-no-cpp.html), por exemplo.
 
 Logo, essa maneira, dificulta um pouco mais saber qual o algoritmo para decodificar. O código [C++](https://terminalroot.com.br/tags#cpp) se resumia ao conteúdo abaixo:
 
