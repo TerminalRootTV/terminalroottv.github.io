@@ -7,6 +7,10 @@ description: "📦 Feito com Go que funciona como um frontend para o APT."
 icon: 'ion:terminal-sharp'
 iconname: 'Terminal Root'
 tags:
+- go
+- tui
+- terminal
+- gnulinux
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
