@@ -22,6 +22,9 @@ pip install schemdraw
 
 + Em GNU, Linux e UNIX, crie um ambiente virtual e instale com o PIP:
 {% highlight bash %}
+mkdir -p ~/.local/bin
+python -m venv ~/.local/bin/venv
+. ~/.local/bin/venv/bin/activate
 pip install schemdraw
 {% endhighlight %}
 
