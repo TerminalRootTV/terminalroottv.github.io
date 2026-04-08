@@ -3,7 +3,7 @@ layout: post
 title: "Posting: Uma Alternativa ao Postman no Terminal"
 date: 2025-04-03 18:49:51
 image: '/assets/img/python/posting.jpg'
-description: "🚀 Útil para desenvolvedores que preferem agilidade e simplicidade, mantendo a flexibilidade necessária para interagir com APIs e serviços web."
+description: "Útil para desenvolvedores que preferem agilidade e simplicidade, mantendo a flexibilidade necessária para interagir com APIs e serviços web."
 icon: 'ion:terminal-sharp'
 iconname: 'Utilitários'
 tags:
