@@ -63,7 +63,7 @@ docker run -d --name tori \
 
 ## Exemplo de uso
 
-{% endhighlight %}
+{% highlight bash %}
 toricli curl example.com
 {% endhighlight %}
 
