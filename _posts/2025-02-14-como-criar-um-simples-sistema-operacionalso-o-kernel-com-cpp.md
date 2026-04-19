@@ -3,7 +3,7 @@ layout: post
 title: "Como Criar um Simples Sistema Operacional(só o Kernel) com C++"
 date: 2025-02-14 09:57:38
 image: '/assets/img/cpp/so.jpg'
-description: "🚀 O boot foi realizado na máquina física e conseguimos printar direto na VGA com um sistema de 32-bit feito com C++ e GNU Assembler."
+description: "💻 O boot foi realizado na máquina física e conseguimos printar direto na VGA com um sistema de 32-bit feito com C++ e GNU Assembler."
 icon: 'ion:terminal-sharp'
 iconname: 'C++'
 tags:
