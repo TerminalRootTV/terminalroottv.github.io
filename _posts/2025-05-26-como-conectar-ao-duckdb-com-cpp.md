@@ -3,7 +3,7 @@ layout: post
 title: "Como Conectar ao DuckDB com C++"
 date: 2025-05-26 08:33:24
 image: '/assets/img/sql/duckdb-cpp.jpg'
-description: "🚀 Um banco de dados veloz e futurista para seus projetos."
+description: "🦆 Um banco de dados veloz e futurista para seus projetos."
 icon: 'ion:terminal-sharp'
 iconname: 'DuckDB/C++'
 tags:
