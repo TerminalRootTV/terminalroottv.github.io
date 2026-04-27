@@ -3,7 +3,7 @@ layout: post
 title: "Série Go - RegEx, CRUD de Arquivo"
 date: 2025-06-06 12:07:52
 image: '/assets/img/go/series-go-07.jpg'
-description: "🚀 Episódio 07"
+description: "🐹 Episódio 07"
 icon: 'ion:terminal-sharp'
 iconname: 'Série Go'
 tags:
