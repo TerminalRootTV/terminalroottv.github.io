@@ -7,6 +7,7 @@ description: "☕ Monte layouts estilo IDE em JavaFX sem limitações e sem gamb
 icon: 'ion:terminal-sharp'
 iconname: 'Java'
 tags:
+- java
 ---
 
 ![{{ page.title }}]({{ page.image }} '{{ page.description }}')
