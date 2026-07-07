@@ -29,33 +29,44 @@ Se você gerencia vários servidores via SSH, vale conhecer o **LazySSH**.
 + Ordenação e filtros
 + Preserva seu `~/.ssh/config`, criando backups automáticos antes de alterações
 
+
+<!-- SQUARE - GAMES ROOT -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:336px;height:280px"
+data-ad-client="ca-pub-2838251107855362"
+data-ad-slot="5351066970"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ## Instalação
 
 ### Homebrew (macOS e Linux)
-```bash
+{% highlight bash %}
 brew install lazyssh
-```
+{% endhighlight %}
 
 ### Compilando com Go (Linux, macOS e Windows)
 Se você já tem o Go instalado:
 
-```bash
+{% highlight bash %}
 git clone https://github.com/adembc/lazyssh.git
 cd lazyssh
 go build -o lazyssh ./cmd
-```
+{% endhighlight %}
 
 Depois, opcionalmente, mova o binário para um diretório do `PATH`:
-```bash
+{% highlight bash %}
 sudo mv lazyssh /usr/local/bin/
-```
+{% endhighlight %}
 
 Ou instale diretamente com:
-```bash
+{% highlight bash %}
 go install github.com/Adembc/lazyssh/cmd@latest
-```
+{% endhighlight %}
 
 ---
 
@@ -63,15 +74,15 @@ go install github.com/Adembc/lazyssh/cmd@latest
 
 Após a instalação:
 
-```bash
+{% highlight bash %}
 lazyssh
-```
+{% endhighlight %}
 
 O programa lê automaticamente o arquivo:
 
-```text
+{% highlight text %}
 ~/.ssh/config
-```
+{% endhighlight %}
 
 Portanto, basta ter seus hosts SSH configurados normalmente para começar a utilizá-lo.
 
