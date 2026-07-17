@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conheça esse launcher Open Source inspirado no Raycast"
+title: "Conheça esse Launcher Open Source inspirado no Raycast"
 date: 2026-07-17 19:16:39
 image: '/assets/img/qt/vicinae.jpg'
 description: "🔳 Escrito em C++ e Qt"
