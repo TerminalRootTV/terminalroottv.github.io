@@ -3,7 +3,7 @@ layout: post
 title: "Como Instalar o GNU Cobol e os primeiros passos"
 date: 2025-02-10 23:04:43
 image: '/assets/img/gnu/gnucobol.png'
-description: "🚀 Procedimento para Windows, macOS, GNU/Linux e BSD."
+description: "🐎 Procedimento para Windows, macOS, GNU/Linux e BSD."
 icon: 'ion:terminal-sharp'
 iconname: 'GnuCOBOL'
 tags:
