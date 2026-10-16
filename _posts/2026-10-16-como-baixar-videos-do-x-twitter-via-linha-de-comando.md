@@ -50,7 +50,7 @@ sudo apt install npm
 E depois usar o `npm` pra instalar o Twitter/X CLI:
 
 {% highlight bash %}
-sudo npm -i twt-dl-cli
+sudo npm i twt-dl-cli
 {% endhighlight %}
 > usei `sudo`, pois ele gravará o executável em: `/usr/local/bin/twt-dl-cli`(no meu caso), mas você pode tentar sem `sudo` ou com o gerenciador de pacotes do seu sistema, exemplo: `winget`, `pacman`, `brew`,...
 
